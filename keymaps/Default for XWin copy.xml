@@ -1,7 +1,4 @@
 <keymap version="1" name="Default for XWin copy" parent="Default for XWin">
-  <action id="$Paste">
-    <keyboard-shortcut first-keystroke="shift insert" />
-  </action>
   <action id="BaseOnThisFunction" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
@@ -13,8 +10,12 @@
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="shift ctrl f9" />
   </action>
+  <action id="Diff.FocusOppositePaneAndScroll" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+  </action>
   <action id="EditorCodeBlockEnd" />
   <action id="EditorCodeBlockStart" />
   <action id="EditorNextWord" />
@@ -67,11 +68,14 @@
     <keyboard-shortcut first-keystroke="shift alt r" />
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
+  <action id="ShowTabsInSingleRow">
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+  </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
-  <action id="SplitVertically">
-    <keyboard-shortcut first-keystroke="ctrl v" />
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />

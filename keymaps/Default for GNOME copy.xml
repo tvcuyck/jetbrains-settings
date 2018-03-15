@@ -1,11 +1,7 @@
 <keymap version="1" name="Default for GNOME copy" parent="Default for GNOME">
   <action id="Diff.FocusOppositePaneAndScroll" />
-  <action id="Diff.NextChange">
-    <keyboard-shortcut first-keystroke="alt page_down" />
-  </action>
-  <action id="Diff.PrevChange">
-    <keyboard-shortcut first-keystroke="alt page_up" />
-  </action>
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
   <action id="EditorCodeBlockEnd" />
   <action id="EditorCodeBlockStart" />
   <action id="ExpressionTypeInfo" />
@@ -39,9 +35,6 @@
     <keyboard-shortcut first-keystroke="alt page_up" />
   </action>
   <action id="QuickImplementations" />
-  <action id="ShowTabsInSingleRow">
-    <keyboard-shortcut first-keystroke="shift ctrl tab" />
-  </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
@@ -50,6 +43,9 @@
   </action>
   <action id="Switcher">
     <keyboard-shortcut first-keystroke="ctrl tab" />
+  </action>
+  <action id="TabsAlphabeticalMode">
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
   <action id="Vcs.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="alt back_quote" />
