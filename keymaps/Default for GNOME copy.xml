@@ -1,0 +1,58 @@
+<keymap version="1" name="Default for GNOME copy" parent="Default for GNOME">
+  <action id="Diff.FocusOppositePaneAndScroll" />
+  <action id="Diff.NextChange">
+    <keyboard-shortcut first-keystroke="alt page_down" />
+  </action>
+  <action id="Diff.PrevChange">
+    <keyboard-shortcut first-keystroke="alt page_up" />
+  </action>
+  <action id="EditorCodeBlockEnd" />
+  <action id="EditorCodeBlockStart" />
+  <action id="ExpressionTypeInfo" />
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="control button1" />
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+  </action>
+  <action id="GotoSuperMethod">
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+  </action>
+  <action id="InspectCode">
+    <keyboard-shortcut first-keystroke="shift ctrl i" />
+  </action>
+  <action id="MethodHierarchy" />
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="alt page_down" />
+  </action>
+  <action id="OpenEditorInOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="alt add" />
+  </action>
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="alt page_up" />
+  </action>
+  <action id="QuickImplementations" />
+  <action id="ShowTabsInSingleRow">
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+  </action>
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+  </action>
+  <action id="Vcs.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="alt back_quote" />
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
+</keymap>
