@@ -18,9 +18,9 @@
       <file name="$APPLICATION_HOME_DIR$/rubystubs22/array.rb" timestamp="1521205133338">
         <mark key="[" line="1449" column="9" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_data_entry_repository.rb" timestamp="1521205065796">
-        <mark key="[" line="129" column="6" />
-        <mark key="]" line="129" column="5" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_data_entry_repository.rb" timestamp="1521446523889">
+        <mark key="[" line="185" column="0" />
+        <mark key="]" line="185" column="63" />
         <mark key="^" line="129" column="5" />
         <mark key="." line="129" column="5" />
       </file>
@@ -91,6 +91,7 @@
         <mark key="]" line="23" column="0" />
         <mark key="." line="23" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/solr_index.rb" timestamp="1521445964490" />
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/lens_item/lens_item_spec.rb" timestamp="1511516723503">
         <mark key="[" line="89" column="50" />
       </file>
@@ -137,16 +138,14 @@
         <mark key="." line="196" column="33" />
         <mark key="^" line="196" column="33" />
       </file>
-      <file name="/Ruby Console" timestamp="1521188088031">
+      <file name="/Ruby Console" timestamp="1521445686298">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/link_dispatch_service_spec.rb" timestamp="1520869263298">
-        <mark key="]" line="243" column="0" />
-        <mark key="^" line="243" column="0" />
-        <mark key="." line="243" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_instance_facet_values_repository.rb" timestamp="1519827702253">
-        <mark key="[" line="75" column="113" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_instance_facet_values_repository.rb" timestamp="1521446569173">
+        <mark key="[" line="65" column="23" />
+        <mark key="]" line="65" column="66" />
+        <mark key="^" line="65" column="19" />
+        <mark key="." line="65" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/api_controller.rb" timestamp="1510753508001">
         <mark key="[" line="25" column="0" />
@@ -194,12 +193,12 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/index_test/facets-local.rq" timestamp="1517495680049">
         <mark key="[" line="39" column="76" />
       </file>
-      <file name="/Dummy.txt" timestamp="1521206646521">
+      <file name="/Dummy.txt" timestamp="1521446628314">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="10" />
         <mark key="." line="0" column="10" />
       </file>
-      <file name="/fragment.rb" timestamp="1521187752000">
+      <file name="/fragment.rb" timestamp="1521446008828">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -217,6 +216,12 @@
         <mark key="[" line="92" column="0" />
         <mark key="]" line="92" column="0" />
         <mark key="." line="92" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_instance_facet_values_repository_spec.rb" timestamp="1521446239942">
+        <mark key="[" line="389" column="12" />
+        <mark key="]" line="414" column="67" />
+        <mark key="^" line="414" column="67" />
+        <mark key="." line="414" column="67" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/candidate_histogram_facat_params_service.rb" timestamp="1501661095050">
         <mark key="[" line="0" column="0" />
@@ -348,7 +353,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgIHJlc3VsdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzWzBdLmNvdW50LnNob3VsZCA9PSAxMAogICAgICAgICAgcmVzdWx0LmNhbmRpZGF0ZV9mYWNldF92YWx1ZXNbMF0ubGFiZWwuc2hvdWxkID09ICJQZXJzb24gcHJpdmF0ZSBkYXRlIgo=</text>
+        <text encoding="base64">ICAgICAgaWYgY29kZWRfcmVzdWx0ID1+IC9eKC4qKUA8KFtePl0rKT5AKC4uKSQvbSAjbGFiZWwgYW5kIHVyaQo=</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -360,7 +365,7 @@
         <text>at instance</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CiAgICAgICAgaXQgJ2NvdW50cyB0aGUgbWF0Y2hpbmcgdGVybXMgbWRzJyBkbwogICAgICAgICAgaV9hbV9pbiggWydtZHMnXSkKICAgICAgICAgIHJlc3VsdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzLmNvdW50LnNob3VsZCA9PSAyCiAgICAgICAgICByZXN1bHQuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlc1swXS5jb3VudC5zaG91bGQgPT0gMTAKICAgICAgICAgIHJlc3VsdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzWzBdLmxhYmVsLnNob3VsZCA9PSAiUGVyc29uIHByaXZhdGUgZGF0ZSIKICAgICAgICAgIHJlc3VsdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzWzFdLmNvdW50LnNob3VsZCA9PSA5CiAgICAgICAgICByZXN1bHQuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlc1sxXS5sYWJlbC5zaG91bGQgPT0gIkFub25pbWl6ZWQgcGVyc29ucyIKICAgICAgICBlbmQK</text>
+        <text encoding="base64">ICAgICAgaWYgY29kZWRfcmVzdWx0ID1+IC9eKC4qKUA8KFtePl0rKT5AKC4uKSQvbSAjbGFiZWwgYW5kIHVyaQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgIHJlc3VsdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzWzBdLmNvdW50LnNob3VsZCA9PSAxMAogICAgICAgICAgcmVzdWx0LmNhbmRpZGF0ZV9mYWNldF92YWx1ZXNbMF0ubGFiZWwuc2hvdWxkID09ICJQZXJzb24gcHJpdmF0ZSBkYXRlIgo=</text>
