@@ -52,6 +52,7 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/facet_configuration_repository_spec.rb" timestamp="1521186998014">
         <mark key="[" line="49" column="93" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/test_action_base_spec.py" timestamp="1521731190989" />
       <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/candidate_histogram_facet_repository.rb" timestamp="1520239576516">
         <mark key="[" line="111" column="0" />
         <mark key="]" line="111" column="0" />
@@ -122,11 +123,11 @@
         <mark key="]" line="1" column="51" />
         <mark key="." line="16" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/test_column_info_spec.py" timestamp="1521730212905">
-        <mark key="[" line="39" column="31" />
-        <mark key="]" line="40" column="59" />
-        <mark key="." line="38" column="0" />
-        <mark key="^" line="37" column="58" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/test_column_info_spec.py" timestamp="1521731328079">
+        <mark key="[" line="45" column="102" />
+        <mark key="]" line="45" column="100" />
+        <mark key="^" line="44" column="26" />
+        <mark key="." line="44" column="27" />
       </file>
       <file name="$USER_HOME$/Disqover/data/ontologies/gene2disease.ttl" timestamp="1521617780542">
         <mark key="[" line="39" column="2" />
@@ -266,9 +267,9 @@
         <mark key="]" line="35" column="5" />
         <mark key="." line="11" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/tests/test_column_info.py" timestamp="1521729429165">
-        <mark key="[" line="11" column="0" />
-        <mark key="]" line="14" column="109" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/tests/test_column_info.py" timestamp="1521730725471">
+        <mark key="[" line="49" column="0" />
+        <mark key="]" line="50" column="95" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/controllers/filter_stats_controller_spec.rb" timestamp="1518189677956">
         <mark key="[" line="0" column="0" />
@@ -421,8 +422,9 @@
           <key char="65535" code="38" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">CiAgICAgICAgd2l0aCBpdCgnc3RvcmVzIGRlZmluZWQgY291bnQnKToKICAgICAgICAgICAgZXhwZWN0KHNlbGYuaW5mbzEuZGVmaW5lZF9jb3VudCkudG8oZXF1YWwoMTQyKSkK</text>
+      <register name="&quot;" type="4">
+        <text>ColumnInfo('886313e1-3b8a-5372-9b90-0c9aee199e5d', 'http://test.com/mydir',
+                       ['a', 'b', 'c'], 'pubmed/publications', 'piep', 'thedir', 'id1', 142, 145744)</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -433,11 +435,12 @@
       <register name="/" type="4">
         <text>at instance</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">CiAgICAgICAgd2l0aCBpdCgnc3RvcmVzIGRlZmluZWQgY291bnQnKToKICAgICAgICAgICAgZXhwZWN0KHNlbGYuaW5mbzEuZGVmaW5lZF9jb3VudCkudG8oZXF1YWwoMTQyKSkK</text>
+      <register name="0" type="4">
+        <text>ColumnInfo('886313e1-3b8a-5372-9b90-0c9aee199e5d', 'http://test.com/mydir',
+                       ['a', 'b', 'c'], 'pubmed/publications', 'piep', 'thedir', 'id1', 142, 145744)</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB3aXRoIGNvbnRleHQoJ2xpdGVyYWwnKToK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW52YWxpZF9jb2wgPSBDb2x1bW5JbmZvKCc4ODYzMTNlMS0zYjhhLTUzNzItOWI5MC0wYzlhZWUxOTllNWQnLCAnaHR0cDovL3Rlc3QuY29tL215ZGlyJywKICAgICAgICAgICAgICAgICAgICAgICBbJ2EnLCAnYicsICdjJ10sICdwdWJtZWQvcHVibGljYXRpb25zJywgJ3BpZXAnLCAndGhlZGlyJywgJ2lkMScsIDE0MiwgMTQ1NzQ0KQo=</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -446,13 +449,13 @@
         <text encoding="base64">ICAgICAgICB3aXRoIGNvbnRleHQoJ2xpdGVyYWwnKToK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB3aXRoIGNvbnRleHQoJ3V1aWQnKToK</text>
+        <text encoding="base64">ICAgICAgICB3aXRoIGNvbnRleHQoJ2xpdGVyYWwnKToK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBDb2x1bW5UeXBlLmZhY3RvcnkuCg==</text>
+        <text encoding="base64">ICAgICAgICB3aXRoIGNvbnRleHQoJ3V1aWQnKToK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgZXhwZWN0KGZsX3NweS53cml0ZSkudG8oaGF2ZV9iZWVuX2NhbGxlZF93aXRoKCczJykpCiAgICAgICAgICAgICAgICBhc3NlcnRfdGhhdChmbF9zcHkud3JpdGUsIGNhbGxlZCgpLnRpbWVzKDQpKQo=</text>
+        <text encoding="base64">ICAgICAgICBDb2x1bW5UeXBlLmZhY3RvcnkuCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -471,16 +474,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgZmxfc3B5LndyaXRlKCcxJykKICAgICAgICAgICAgICAgICMgZmxfc3B5LndyaXRlKCcyJykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgZXhwZWN0KGZsX3NweS53cml0ZSkudG8oaGF2ZV9iZWVuX2NhbGxlZF93aXRoKCczJykpCiAgICAgICAgICAgICAgICBhc3NlcnRfdGhhdChmbF9zcHkud3JpdGUsIGNhbGxlZCgpLnRpbWVzKDQpKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">IyBpbXBvcnQgcHJlZGljYXRlX3JlYWRlcgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgZmxfc3B5LndyaXRlKCcxJykKICAgICAgICAgICAgICAgICMgZmxfc3B5LndyaXRlKCcyJykK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdCgpCg==</text>
+        <text encoding="base64">IyBpbXBvcnQgcHJlZGljYXRlX3JlYWRlcgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5vYmouaXRlbXNbJ2MnXSA9ICdkJwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdCgpCg==</text>
       </register>
       <register name=":" type="4">
         <text>split</text>
