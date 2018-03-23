@@ -118,12 +118,12 @@
       <file name="$USER_HOME$/Disqover/deploy/config/deploy/preview14.rb" timestamp="1521453824892">
         <mark key="[" line="6" column="30" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/test_column_info_spec.py" timestamp="1521799485581">
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/test_column_info_spec.py" timestamp="1521801286842">
         <mark key="i" line="121" column="88" />
-        <mark key="[" line="181" column="31" />
-        <mark key="]" line="140" column="0" />
-        <mark key="." line="140" column="0" />
-        <mark key="^" line="140" column="0" />
+        <mark key="[" line="185" column="8" />
+        <mark key="]" line="187" column="60" />
+        <mark key="." line="185" column="0" />
+        <mark key="^" line="181" column="5" />
       </file>
       <file name="$USER_HOME$/Disqover/data/ontologies/gene2disease.ttl" timestamp="1521617780542">
         <mark key="[" line="39" column="2" />
@@ -269,9 +269,9 @@
         <mark key="]" line="35" column="5" />
         <mark key="." line="11" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/tests/test_column_info.py" timestamp="1521793202629">
-        <mark key="[" line="138" column="0" />
-        <mark key="]" line="141" column="101" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/tests/test_column_info.py" timestamp="1521801104057">
+        <mark key="[" line="124" column="0" />
+        <mark key="]" line="124" column="54" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/controllers/filter_stats_controller_spec.rb" timestamp="1518189677956">
         <mark key="[" line="0" column="0" />
@@ -425,7 +425,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICB3aXRoIGl0KCdyZXR1cm5zIHRoZSByZWFkZXIgdmFsdWUnKToKICAgICAgICAgICAgZXhwZWN0KHNlbGYuaW5mbzIuZ2V0X3JlYWRlcigpKS50byhlcXVhbCgnQUFBJykpCg==</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -437,25 +437,25 @@
         <text>at instance</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZXhwZWN0KHNlbGYuaW5mbzIuZ2V0X3JlYWRlcigpKS50byhlcXVhbCgnQUFBJykpCg==</text>
+        <text encoding="base64">ICAgICAgICB3aXRoIGl0KCdyZXR1cm5zIHRoZSByZWFkZXIgdmFsdWUnKToKICAgICAgICAgICAgZXhwZWN0KHNlbGYuaW5mbzIuZ2V0X3JlYWRlcigpKS50byhlcXVhbCgnQUFBJykpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBjaV9zcHkuZ2V0X3JlYWRlcigpCiAgICAgICAgICAgICMgY2lfc3B5LmdldF9yZWFkZXIoKQogICAgICAgICAgICBzZWxmLmluZm8yLmdldF9yZWFkZXIoKQogICAgICAgICAgICBzZWxmLmluZm8yLmdldF9yZWFkZXIoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbF90eXBlLnJlYWRlci5yZXR1cm5fCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIHdpdGggaXQoJ2NhbGxzIGdldF9yZWFkZXIgb25jZScpOgogICAgICAgICMgICAgICMgc2VsZi5yZWFkZXJfY2FsbCA9IE1vY2soKQogICAgICAgICMgICAgICMgc2VsZi5yZWFkZXJfY2FsbC5yZXR1cm5fdmFsdWUgPSAnQUFBJwogICAgICAgICMgICAgICMgc2VsZi53cml0ZXJfY2FsbCA9IE1vY2soKQogICAgICAgICMgICAgICMgc2VsZi53cml0ZXJfY2FsbC5yZXR1cm5fdmFsdWUgPSAnQkJCJwogICAgICAgICMgICAgICMgc2VsZi5pbmZvMi5nZXRfcGF0aCA9IE1hZ2ljTW9jaygpCiAgICAgICAgIyAgICAgIyBzZWxmLmluZm8yLmdldF9wYXRoLnJldHVybl92YWx1ZSA9ICdDQ0MnCiAgICAgICAgIyAgICAgIyBzZWxmLmluZm8yLmNvbF90eXBlID0gTW9jayhyZWFkZXI9c2VsZi5yZWFkZXJfY2FsbCwgd3JpdGVyPXNlbGYud3JpdGVyX2NhbGwpCiAgICAgICAgIyAgICAgY2lfc3B5ID0gU3B5KHNlbGYuaW5mbzIpCiMgCiAgICAgICAgICAgICMgZXhwZWN0KGNpX3NweS5nZXRfcmVhZGVyKS50byhoYXZlX2JlZW5fY2FsbGVkLm9uY2UpCiAgICAgICAgIyAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBycyA9IHNlbGYuaW5mbzIuZ2V0X3JlYWRlcigpCiAgICAgICAgIyAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGVmIG9wdDoKICAgICAgICAgICAgICAgIENvbHVtbkluZm8ucmVhZCgnODg2MzEzZTEtM2I4YS01MzcyLTliOTAtMGM5YWVlMTk5ZTVkXHRodHRwOi8vdGVzdC5jb20vbXlkaXJcdG15ZGlyXHQnICsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2EsYixjXHRwdWJtZWQvcHVibGljYXRpb25zXHRsaXQyXHQxNDJcdDE0NTc0NCcsIHsncHVibWVkL3B1YmxpY2F0aW9ucyc6IGFsfSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyB3aXRoIHBhdGNoKCdzZWxmLnJlYWRlcl9jYWxsJykgYXMgcmVhZGVyLCBwYXRjaCgnc2VsZi5pbmZvMi5nZXRfcGF0aCcpIGFzIHBhdGg6CiAgICAgICAgICAgICMgICAgIHJlYWRlci5yZXR1cm5fdmFsdWUgPSAnQUFBJwogICAgICAgICAgICAjICAgICBwYXRoLnJldHVybl92YWx1ZSA9ICdDQ0MnCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -474,16 +474,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcnMgPSBzZWxmLmluZm8yLmdldF9yZWFkZXIoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBjaV9zcHkuZ2V0X3JlYWRlcigpCiAgICAgICAgICAgICMgY2lfc3B5LmdldF9yZWFkZXIoKQogICAgICAgICAgICBzZWxmLmluZm8yLmdldF9yZWFkZXIoKQogICAgICAgICAgICBzZWxmLmluZm8yLmdldF9yZWFkZXIoKQo=</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHdpdGggZGVzY3JpcHRpb24oJwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>split</text>
