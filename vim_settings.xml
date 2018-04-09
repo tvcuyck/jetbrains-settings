@@ -52,6 +52,10 @@
         <mark key="^" line="25" column="1" />
         <mark key="." line="25" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" timestamp="1523278527307">
+        <mark key="[" line="13" column="0" />
+        <mark key="]" line="16" column="4" />
+      </file>
       <file name="$USER_HOME$/Disqover/deploy/recipes/backend_cloud.rb" timestamp="1521454421180">
         <mark key="[" line="7" column="37" />
         <mark key="]" line="8" column="65" />
@@ -77,7 +81,7 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/index_test/facets-local.rq" timestamp="1517495680049">
         <mark key="[" line="39" column="76" />
       </file>
-      <file name="/Dummy.txt" timestamp="1523277193331">
+      <file name="/Dummy.txt" timestamp="1523278695992">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="38" />
         <mark key="." line="0" column="38" />
@@ -99,6 +103,12 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/solr_index.rb" timestamp="1522850170901">
         <mark key="[" line="44" column="5" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/dataset_repository_spec.rb" timestamp="1523278739020">
+        <mark key="'" line="10" column="0" />
+        <mark key="[" line="845" column="23" />
+        <mark key="]" line="861" column="9" />
+        <mark key="." line="853" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/lens_item/lens_item_spec.rb" timestamp="1511516723503">
         <mark key="[" line="89" column="50" />
       </file>
@@ -116,7 +126,7 @@
         <mark key="]" line="117" column="0" />
         <mark key="." line="117" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/dataset_repository.rb" timestamp="1523264254440">
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/dataset_repository.rb" timestamp="1523278206296">
         <mark key="[" line="151" column="17" />
         <mark key="]" line="143" column="0" />
         <mark key="^" line="143" column="0" />
@@ -151,7 +161,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="161" column="17" filename="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_instance_facet_values_repository_spec.rb" />
       <jump line="176" column="17" filename="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_instance_facet_values_repository_spec.rb" />
       <jump line="814" column="0" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/subfacet_service_spec.rb" />
       <jump line="3085" column="53" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/subfacet_service_spec.rb" />
@@ -251,6 +260,7 @@
       <jump line="18" column="59" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/federation_subfacet_service_spec.rb" />
       <jump line="70" column="42" filename="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" />
       <jump line="652" column="24" filename="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" />
+      <jump line="10" column="0" filename="$USER_HOME$/Disqover/disqover-backend/spec/repositories/dataset_repository_spec.rb" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -261,7 +271,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHB1dHMgc2VsZi5vYmplY3RfaWQKICAgIHB1dHMgZ3JhcGhfcGVyX2RhdGFzZXQK</text>
+        <text encoding="base64">CiAgICAgIGNvbnRleHQgJ25vIGdyb3VwJyBkbwogICAgICAgIGl0ICdjb250YWlucyB0aHJlZSBkYXRhc2V0cycgZG8KICAgICAgICAgIGlfYW1faW4oW10pCiAgICAgICAgICByZXN1bHQua2V5cy5zaG91bGQgaW5jbHVkZSgnaHR0cDovL2RhdGFzZXRzLm9udG9mb3JjZS5jb20vcm9sZXNfZGlzZWFzZScpCiAgICAgICAgICByZXN1bHQua2V5cy5zaG91bGQgaW5jbHVkZSgnaHR0cDovL2RhdGFzZXRzLm9udG9mb3JjZS5jb20vcm9sZXNfcGVyc29uX3ByaXZhdGUnKQogICAgICAgICAgcmVzdWx0LmtleXMuc2hvdWxkIGluY2x1ZGUoJ2h0dHA6Ly9kYXRhc2V0cy5vbnRvZm9yY2UuY29tL3JvbGVzX3BlcnNvbl9hbm9uJykKICAgICAgICBlbmQKICAgICAgZW5kCg==</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -273,25 +283,25 @@
         <text>at instance</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnaHR0cDovL2RhdGFzZXRzLm9udG9mb3JjZS5jb20vcm9sZXNfcGVyc29uX2Fub24nKSkK</text>
+        <text encoding="base64">CiAgICAgIGNvbnRleHQgJ25vIGdyb3VwJyBkbwogICAgICAgIGl0ICdjb250YWlucyB0aHJlZSBkYXRhc2V0cycgZG8KICAgICAgICAgIGlfYW1faW4oW10pCiAgICAgICAgICByZXN1bHQua2V5cy5zaG91bGQgaW5jbHVkZSgnaHR0cDovL2RhdGFzZXRzLm9udG9mb3JjZS5jb20vcm9sZXNfZGlzZWFzZScpCiAgICAgICAgICByZXN1bHQua2V5cy5zaG91bGQgaW5jbHVkZSgnaHR0cDovL2RhdGFzZXRzLm9udG9mb3JjZS5jb20vcm9sZXNfcGVyc29uX3ByaXZhdGUnKQogICAgICAgICAgcmVzdWx0LmtleXMuc2hvdWxkIGluY2x1ZGUoJ2h0dHA6Ly9kYXRhc2V0cy5vbnRvZm9yY2UuY29tL3JvbGVzX3BlcnNvbl9hbm9uJykKICAgICAgICBlbmQKICAgICAgZW5kCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHB1dHMgc2VsZi5vYmplY3RfaWQKICAgIHB1dHMgZ3JhcGhfcGVyX2RhdGFzZXQK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICMgYWRkX3ByZWRpY2F0ZV9pbmZvX2dyYXBoX3RvX3RyaXBsZXN0b3JlKHsnaGFoYScgPT4gWycxMjMnXX0pCiAgICAjIGFkZF9wcmVkaWNhdGVfaW5mb19ncmFwaF90b190cmlwbGVzdG9yZSh7J21hbWEnID0+IFsnMTIzJ119KQo=</text>
+        <text encoding="base64">ICAgICAgICBpX2FtX2luKFtdKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAjIFNwYXJxbFF1ZXJpZXNGb3JJbmRleFNlcnZpY2UuYW55X2luc3RhbmNlLnN0dWIoOnByZWRpY2F0ZV9zZXJ2aWNlKS5hbmRfcmV0dXJuKHN1YmplY3QpCg==</text>
+        <text encoding="base64">ICAgICAgZW5kCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzcWZpcy5xdWVyaWVzCg==</text>
+        <text encoding="base64">ICAgIHB1dHMgc2VsZi5vYmplY3RfaWQKICAgIHB1dHMgZ3JhcGhfcGVyX2RhdGFzZXQK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBzcWZpcyA9IFNwYXJxbFF1ZXJpZXNGb3JJbmRleFNlcnZpY2UubmV3CiAgICAgICAgc3FmaXMuaW5zdGFuY2VfdmFyaWFibGVfc2V0KDpAcHJlZGljYXRlX3NlcnZpY2UsIHN1YmplY3QpCiAgICAgICAgbHBzID0gaW5zdGFuY2VfdmFyaWFibGVfZ2V0KDpAcHJlZGljYXRlX3NlcnZpY2UpCiAgICAgICAgcHV0cyBzdWJqZWN0Lm9iamVjdF9pZAo=</text>
+        <text encoding="base64">ICAgICMgYWRkX3ByZWRpY2F0ZV9pbmZvX2dyYXBoX3RvX3RyaXBsZXN0b3JlKHsnaGFoYScgPT4gWycxMjMnXX0pCiAgICAjIGFkZF9wcmVkaWNhdGVfaW5mb19ncmFwaF90b190cmlwbGVzdG9yZSh7J21hbWEnID0+IFsnMTIzJ119KQo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -310,16 +320,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgI2QK</text>
+        <text encoding="base64">ICAgICAgICAjIFNwYXJxbFF1ZXJpZXNGb3JJbmRleFNlcnZpY2UuYW55X2luc3RhbmNlLnN0dWIoOnByZWRpY2F0ZV9zZXJ2aWNlKS5hbmRfcmV0dXJuKHN1YmplY3QpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBTcGFycWxRdWVyaWVzRm9ySW5kZXhTZXJ2aWNlLm5ldy5xdWVyaWVzCg==</text>
+        <text encoding="base64">ICAgICAgICBzcWZpcy5xdWVyaWVzCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBTcGFycWxRdWVyaWVzRm9ySW5kZXhTZXJ2aWNlLmFueV9pbnN0YW5jZS5zdHViKDpwcmVkaWNhdGVfc3ViamVjdCkuYW5kX3JldHVybihzdWJqZWN0KQo=</text>
+        <text encoding="base64">ICAgICAgICBzcWZpcyA9IFNwYXJxbFF1ZXJpZXNGb3JJbmRleFNlcnZpY2UubmV3CiAgICAgICAgc3FmaXMuaW5zdGFuY2VfdmFyaWFibGVfc2V0KDpAcHJlZGljYXRlX3NlcnZpY2UsIHN1YmplY3QpCiAgICAgICAgbHBzID0gaW5zdGFuY2VfdmFyaWFibGVfZ2V0KDpAcHJlZGljYXRlX3NlcnZpY2UpCiAgICAgICAgcHV0cyBzdWJqZWN0Lm9iamVjdF9pZAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBTcGFycWxRdWVyaWVzRm9ySW5kZXhTZXJ2aWNlLmFueV9pbnN0YW5jZS5zdHViKDpwcmVkaWNhdGVfc3ViamVjdCkuYW5kX3JldHVybihzdWJqZWN0KQo=</text>
+        <text encoding="base64">ICAgICAgI2QK</text>
       </register>
       <register name=":" type="4">
         <text>q</text>
@@ -376,8 +386,8 @@
         <entry>vsplit</entry>
         <entry>464</entry>
         <entry>125</entry>
-        <entry>0</entry>
         <entry>q</entry>
+        <entry>0</entry>
       </history-cmd>
       <history-expr />
       <history-input />
