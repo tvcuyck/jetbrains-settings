@@ -112,10 +112,11 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/solr_index.rb" timestamp="1522850170901">
         <mark key="[" line="44" column="5" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/pipeline_run.py" timestamp="1523609049582">
-        <mark key="[" line="16" column="39" />
-        <mark key="]" line="16" column="0" />
-        <mark key="." line="16" column="0" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/pipeline_run.py" timestamp="1523620370231">
+        <mark key="[" line="28" column="25" />
+        <mark key="]" line="7" column="44" />
+        <mark key="." line="7" column="44" />
+        <mark key="^" line="7" column="44" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/metis_settings.py" timestamp="1523611325930">
         <mark key="]" line="19" column="33" />
@@ -131,6 +132,7 @@
         <mark key="." line="499" column="0" />
         <mark key="^" line="499" column="47" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/coltypes/test_literal_column_reader_spec.py" timestamp="1523620464621" />
       <file name="$USER_HOME$/.rvm/gems/ruby-2.2.4/gems/capybara-2.1.0/lib/capybara/spec/spec_helper.rb" timestamp="1518610516349">
         <mark key="[" line="48" column="29" />
         <mark key="]" line="48" column="29" />
@@ -177,6 +179,12 @@
         <mark key="[" line="113" column="85" />
         <mark key="]" line="114" column="0" />
         <mark key="." line="114" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/test_pipeline_run_spec.py" timestamp="1523620439592">
+        <mark key="[" line="27" column="85" />
+        <mark key="]" line="27" column="50" />
+        <mark key="." line="27" column="50" />
+        <mark key="^" line="27" column="50" />
       </file>
       <file name="/Ruby Console" timestamp="1523373969463">
         <mark key="[" line="0" column="0" />
@@ -237,7 +245,7 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/index_test/facets-local.rq" timestamp="1517495680049">
         <mark key="[" line="39" column="76" />
       </file>
-      <file name="/Dummy.txt" timestamp="1523618312089">
+      <file name="/Dummy.txt" timestamp="1523620458842">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="4" />
         <mark key="." line="0" column="4" />
@@ -430,7 +438,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">CiAgICB3aXRoIGRlc2NyaXB0aW9uKCdpc19jb21wb25lbnQnKToKICAgICAgICB3aXRoIGl0KCdyZXR1cm5zIGZhbHNlJyk6CiAgICAgICAgICAgIGV4cGVjdChOb3RJbXBsQWN0aW9uKCkuaXNfY29tcG9uZW50KCkpLnRvKGVxdWFsKEZhbHNlKSkK</text>
+        <text encoding="base64">ICAgICAgICB3aXRoIGNvCg==</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -445,7 +453,7 @@
         <text encoding="base64">CiAgICB3aXRoIGRlc2NyaXB0aW9uKCdpc19jb21wb25lbnQnKToKICAgICAgICB3aXRoIGl0KCdyZXR1cm5zIGZhbHNlJyk6CiAgICAgICAgICAgIGV4cGVjdChOb3RJbXBsQWN0aW9uKCkuaXNfY29tcG9uZW50KCkpLnRvKGVxdWFsKEZhbHNlKSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICBwYXRjaCgnb3MubWFrZWRpcnMnKSBhcyBtYWtlOgo=</text>
+        <text encoding="base64">ICAgICAgICB3aXRoIGNvCg==</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -454,13 +462,13 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgICBwYXRjaCgnb3MubWFrZWRpcnMnKSBhcyBtYWtlOgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdChtYWtlKS50byhoYXZlX2JlZW5fY2FsbGVkKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICBwYXRjaCgnb3MubWFrZWRpcnMnKSBhcyBtYWtlOgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgZXhwZWN0KG1ha2UpLnRvKGhhdmVfYmVlbl9jYWxsZWQpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdChtYWtlKS50byhoYXZlX2JlZW5fY2FsbGVkKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCgnamVyZScpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgZXhwZWN0KG1ha2UpLnRvKGhhdmVfYmVlbl9jYWxsZWQpCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -479,16 +487,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CiAgICBAc3RhdGljbWV0aG9kCiAgICBkZWYgZ2V0X2xvZ19kaXIocnVuX2d1aWQpOgogICAgICAgIHJldHVybiBvcy5wYXRoLmpvaW4oU2V0dGluZ3MuaW5zdGFuY2UoKS5ydW5zX2RpcmVjdG9yeSwgcnVuX2d1aWQuaGV4KQo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludCgnamVyZScpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CmZyb20gbWV0aXNfc2V0dGluZ1ZzIGltcG9ydCBTZXR0aW5ncwo=</text>
+        <text encoding="base64">CiAgICBAc3RhdGljbWV0aG9kCiAgICBkZWYgZ2V0X2xvZ19kaXIocnVuX2d1aWQpOgogICAgICAgIHJldHVybiBvcy5wYXRoLmpvaW4oU2V0dGluZ3MuaW5zdGFuY2UoKS5ydW5zX2RpcmVjdG9yeSwgcnVuX2d1aWQuaGV4KQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChTZXR0aW5ncy5pbnN0YW5jZSgpLnJ1bnNfZGlyZWN0b3J5KQo=</text>
+        <text encoding="base64">CmZyb20gbWV0aXNfc2V0dGluZ1ZzIGltcG9ydCBTZXR0aW5ncwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQoJ2ZvcmsK</text>
+        <text encoding="base64">ICAgICAgICBwcmludChTZXR0aW5ncy5pbnN0YW5jZSgpLnJ1bnNfZGlyZWN0b3J5KQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
