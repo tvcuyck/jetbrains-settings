@@ -87,8 +87,8 @@
         <mark key="]" line="6" column="0" />
         <mark key="." line="6" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/pipeline_run.py" timestamp="1524229477365">
-        <mark key="[" line="32" column="0" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/pipeline_run.py" timestamp="1524232417754">
+        <mark key="[" line="64" column="48" />
         <mark key="]" line="32" column="0" />
         <mark key="." line="32" column="0" />
         <mark key="^" line="31" column="22" />
@@ -122,13 +122,19 @@
         <mark key="." line="100" column="0" />
         <mark key="^" line="100" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1524147490914">
+      <file name="/Python Console" timestamp="1524233071179">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1524142244923">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/test_pipeline_run_spec.py" timestamp="1524233067806">
+        <mark key="'" line="86" column="21" />
+        <mark key="[" line="90" column="26" />
+        <mark key="]" line="90" column="53" />
+        <mark key="." line="90" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/test_introspect_runs_list_action_spec.py" timestamp="1524221198008">
         <mark key="]" line="23" column="49" />
@@ -294,10 +300,10 @@
         <mark key="." line="2" column="46" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/import_actions/rdf_import_action.py" timestamp="1524226535601">
-        <mark key="[" line="58" column="20" />
-        <mark key="]" line="58" column="19" />
-        <mark key="." line="58" column="19" />
-        <mark key="^" line="58" column="19" />
+        <mark key="[" line="57" column="20" />
+        <mark key="]" line="57" column="19" />
+        <mark key="." line="57" column="19" />
+        <mark key="^" line="57" column="19" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/lens_item/lens_item_spec.rb" timestamp="1511516723503">
         <mark key="[" line="89" column="50" />
@@ -418,7 +424,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="3360" column="10" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/subfacet_service_spec.rb" />
       <jump line="19" column="58" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/subfacet_service_spec.rb" />
       <jump line="546" column="16" filename="$USER_HOME$/Disqover/disqover-backend/app/services/subfacet_service.rb" />
       <jump line="20" column="88" filename="$USER_HOME$/Disqover/disqover-backend/spec/repositories/candidate_histogram_facet_repository_spec.rb" />
@@ -518,6 +523,7 @@
       <jump line="84" column="44" filename="$USER_HOME$/Disqover/disqover-backend/spec/factories/federation_service.rb" />
       <jump line="28" column="47" filename="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/test_introspect_run_action_spec.py" />
       <jump line="23" column="3" filename="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/test_introspect_run_action_spec.py" />
+      <jump line="86" column="21" filename="$USER_HOME$/Disqover/metis/execution_layer/spec/test_pipeline_run_spec.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -528,7 +534,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgcC5qb2luKCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgcGF0Y2goJ29zLmZvcmsnKSBhcyBmb3JrLCBcCg==</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -537,28 +543,28 @@
         <text>:</text>
       </register>
       <register name="/" type="4">
-        <text>limit</text>
+        <text encoding="base64">XDxwYXRjaFw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYud3JpdGVfbG9nKCdOT0dPT0QnKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgcC5qb2luKCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgcGF0Y2goJ29zLmZvcmsnKSBhcyBmb3JrLCBcCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHBpZCA9IG9zLmZvcmsoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgIyBwYXRjaCgnb3MuZm9yaycpIGFzIGZvcmssIFwK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgcGlkID0gcS5nZXQoKQoKICAgICAgICAgICAgICAgICMgdGltZS5zbGVlcCgzLjApICMgZ2l2ZSBwcm9jZXNzIHRpbWUgdG8gcHJvcGVybHkgZGV0YWNoCg==</text>
+        <text encoding="base64">MjAxOC0wNC0xN1QxNjo1NTo1Ni40NDU3NTcrMDA6MDAJRXhlY3V0aW5nIGEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAyICgxLzE2KQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgcSA9IG1wLlF1ZXVlKCkKICAgICAgICAgICAgICAgICMgcC5kYWVtb24gPSBUcnVlCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgcC5qb2luKCkK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICMgcmV0dXJuIG9zLmdldHBpZCgpCg==</text>
+        <text encoding="base64">ICAgIHBpZCA9IG9zLmZvcmsoKQo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -577,33 +583,32 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHdpdGggb3BlbihQaXBlbGluZS5nZXRfcGlkX3BhdGgoKSwgJ3cnKSBhcyBwaWRfZmlsZToKICAgICAgICAgICAgICAgICAgICBwaWRfZmlsZS53cml0ZShzdHIocnVuX2d1aWQuaGV4KSsnXG4nKQogICAgICAgICAgICAgICAgICAgIHBpZF9maWxlLndyaXRlKHN0cihwLnBpZCkrJ1xuJykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgcGlkID0gcS5nZXQoKQoKICAgICAgICAgICAgICAgICMgdGltZS5zbGVlcCgzLjApICMgZ2l2ZSBwcm9jZXNzIHRpbWUgdG8gcHJvcGVybHkgZGV0YWNoCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGlmIG9zLmZvcmsoKSAhPSAwOgogICAgICAgIHJldHVybgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgcSA9IG1wLlF1ZXVlKCkKICAgICAgICAgICAgICAgICMgcC5kYWVtb24gPSBUcnVlCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB0aW1lLnNsZWVwKDUwKQo=</text>
+        <text encoding="base64">ICAgICMgcmV0dXJuIG9zLmdldHBpZCgpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB0aW1lLnNsZWVwKDUpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHdpdGggb3BlbihQaXBlbGluZS5nZXRfcGlkX3BhdGgoKSwgJ3cnKSBhcyBwaWRfZmlsZToKICAgICAgICAgICAgICAgICAgICBwaWRfZmlsZS53cml0ZShzdHIocnVuX2d1aWQuaGV4KSsnXG4nKQogICAgICAgICAgICAgICAgICAgIHBpZF9maWxlLndyaXRlKHN0cihwLnBpZCkrJ1xuJykK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>limit</last-search>
+      <last-search encoding="base64">XDxwYXRjaFw+</last-search>
       <last-offset />
-      <last-pattern>limit</last-pattern>
+      <last-pattern encoding="base64">XDxwYXRjaFw+</last-pattern>
       <last-replace>is false</last-replace>
       <last-substitute>WASTRUE</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>be_false</entry>
         <entry>is false</entry>
         <entry>WASS_TRUE</entry>
         <entry>WASTRUE</entry>
@@ -623,6 +628,7 @@
         <entry>roles</entry>
         <entry>at instance</entry>
         <entry encoding="base64">XDxrd2FyZ3NcPg==</entry>
+        <entry encoding="base64">XDxwYXRjaFw+</entry>
       </history-search>
       <history-cmd>
         <entry>1000</entry>
