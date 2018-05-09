@@ -56,7 +56,7 @@
         <mark key="." line="43" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/import_actions/test_rdf_import_action_spec.py" timestamp="1525333788889">
-        <mark key="[" line="185" column="35" />
+        <mark key="[" line="183" column="35" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/test_introspect_runs_action_spec.py" timestamp="1524214942592">
         <mark key="[" line="7" column="32" />
@@ -76,6 +76,12 @@
         <mark key="^" line="1" column="10" />
         <mark key="." line="1" column="10" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/start_run_action.py" timestamp="1525871981789">
+        <mark key="[" line="23" column="90" />
+        <mark key="]" line="23" column="25" />
+        <mark key="^" line="23" column="25" />
+        <mark key="." line="23" column="25" />
+      </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/introspect_run_action.py" timestamp="1525869541928">
         <mark key="[" line="26" column="0" />
         <mark key="]" line="29" column="84" />
@@ -87,9 +93,6 @@
         <mark key="]" line="68" column="71" />
         <mark key="." line="68" column="71" />
         <mark key="^" line="68" column="71" />
-      </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/metis.py" timestamp="1525848366219">
-        <mark key="." line="60" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/subfacet_service.rb" timestamp="1523448366730">
         <mark key="[" line="499" column="38" />
@@ -169,8 +172,8 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/api_controller.rb" timestamp="1510753508001">
         <mark key="[" line="25" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/component_action.py" timestamp="1525786407551">
-        <mark key="[" line="5" column="0" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/component_action.py" timestamp="1525871913283">
+        <mark key="[" line="11" column="73" />
         <mark key="]" line="15" column="62" />
         <mark key="^" line="5" column="25" />
         <mark key="." line="5" column="25" />
@@ -352,12 +355,18 @@
         <mark key="^" line="1" column="18" />
         <mark key="." line="1" column="18" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/test_start_run_action_spec.py" timestamp="1525872065704">
+        <mark key="[" line="52" column="74" />
+        <mark key="]" line="52" column="108" />
+        <mark key="^" line="52" column="73" />
+        <mark key="." line="52" column="74" />
+      </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/import_actions/csv_import_action.py" timestamp="1525423906528">
         <mark key="[" line="35" column="0" />
         <mark key="]" line="35" column="0" />
         <mark key="." line="35" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1525870470974">
+      <file name="/Dummy.txt" timestamp="1525871875476">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/introspect_runs_action.py" timestamp="1523975792284">
@@ -498,8 +507,8 @@
           <key char="65535" code="38" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgd2l0aCBpdCgncnVuX2d1aWQnKToKICAgICAgICAgICAgICAgIGV4cGVjdChzZWxmLmFjdGlvbi5vcHRpb25zKS50byhoYXZlX2tleSgncnVuX2d1aWQnKSkKCg==</text>
+      <register name="&quot;" type="4">
+        <text>'12345678123456781234567812345678'</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -510,8 +519,8 @@
       <register name="/" type="4">
         <text encoding="base64">XDxwYXRjaFw+</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwYXRjaCgnbWV0aXNfc2V0dGluZ3MuU2V0dGluZ3MuaW5zdGFuY2UnKSBhcyBpbnN0OgogICAgICAgICAgICAgICAgaW5zdCgpLmRpcmVjdG9yeSA9ICcvdG1wL2RhdGEvbWV0aXMnCg==</text>
+      <register name="0" type="4">
+        <text>'12345678123456781234567812345678'</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgd2l0aCBpdCgncnVuX2d1aWQnKToKICAgICAgICAgICAgICAgIGV4cGVjdChzZWxmLmFjdGlvbi5vcHRpb25zKS50byhoYXZlX2tleSgncnVuX2d1aWQnKSkKCg==</text>
