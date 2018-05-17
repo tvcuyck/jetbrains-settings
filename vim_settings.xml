@@ -108,7 +108,7 @@
       <file name="vim_settings.xml" timestamp="1523526185297">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/Ruby Console" timestamp="1526564933980">
+      <file name="/Ruby Console" timestamp="1526566136504">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/metis/component.rb" timestamp="1525268820009">
@@ -135,11 +135,10 @@
         <mark key="." line="60" column="33" />
         <mark key="^" line="60" column="33" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/batch_linkout_collection_spec.rb" timestamp="1526565067975">
-        <mark key="[" line="6" column="62" />
-        <mark key="]" line="14" column="12" />
-        <mark key="." line="14" column="12" />
-        <mark key="^" line="14" column="12" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/batch_linkout_collection_spec.rb" timestamp="1526566261799">
+        <mark key="[" line="17" column="0" />
+        <mark key="]" line="17" column="0" />
+        <mark key="." line="17" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/sparql_queries_for_index_service_spec.rb" timestamp="1526565057824" />
       <file name="$USER_HOME$/Disqover/disqover-backend/index_test/facets-local.rq" timestamp="1517495680049">
@@ -154,11 +153,12 @@
         <mark key="^" line="119" column="59" />
         <mark key="." line="119" column="59" />
       </file>
-      <file name="/fragment.rb" timestamp="1526565025058">
+      <file name="/fragment.rb" timestamp="1526566217899">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/import_configuration_service_spec.rb" timestamp="1526566295762" />
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/controllers/filter_stats_controller_spec.rb" timestamp="1518189677956">
         <mark key="[" line="0" column="0" />
       </file>
@@ -307,7 +307,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAKICBkZXNjcmliZSAnI2V4cG9zZWQnIGRvCiAgICAKICBlbmQK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -319,25 +319,25 @@
         <text>limit</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAKICBkZXNjcmliZSAnI2V4cG9zZWQnIGRvCiAgICAKICBlbmQK</text>
+        <text encoding="base64">ICAgICAgc3ViamVjdC5leHBvc2VkLnNob3VsZCBiZV9hIEFycmF5Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICBsZXQoOmdyYXBoX3VyaSkgeyBTcGFycWw6OlVSSVZhbHVlLm5ldygnaHR0cDovLycpIH0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICBsZXQoOmdyYXBoX3VyaSkgeyBTcGFycWw6OlVSSVZhbHVlLm5ldygnaHR0cDovL3Rlc3Qub250b2ZvcmNlLmNvbS90eXBlZF9saW5rX2NvbmZpZycpIH0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgbmluamFfbGlua291dCA9IGxpbmtvdXRzW1NwYXJxbDo6VVJJVmFsdWUubmV3KCdodHRwOi8vY29uZmlnLnJvbGVzLmNvbS9jdC9OaW5qYScpXQo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgcGVyc29uX2xpbmtvdXQuZmlyc3QubGFiZWwudmFsdWUuc2hvdWxkID09ICdMaW5rb3V0IHRvIFdpa2knCg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgcGVyc29uX2xpbmtvdXQgPSBsaW5rb3V0c1tTcGFycWw6OlVSSVZhbHVlLm5ldygnaHR0cDovL2NvbmZpZy5yb2xlcy5jb20vY3QvUGVyc29uJyldCg==</text>
+        <text encoding="base64">ICBsZXQoOmdyYXBoX3VyaSkgeyBTcGFycWw6OlVSSVZhbHVlLm5ldygnaHR0cDovLycpIH0K</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -356,16 +356,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CiAgIyBsaW5rb3V0c19ieV9jdCA9IHt9CiAgIyByZXN1bHRzLm1hcCBkbyB8cmVzfAogICMgICAobGlua291dHNfYnlfY3RbcmVzWzpjdF1dIHx8PSBbXSkgPDwgQmF0Y2hMaW5rb3V0UmVwb3NpdG9yeTo6QmF0Y2hMaW5rb3V0Lm5ldyhyZXMpCiAgIyBlbmQKICAjCiAgIyBsaW5rb3V0c19ieV9jdAo=</text>
+        <text encoding="base64">ICBsZXQoOmdyYXBoX3VyaSkgeyBTcGFycWw6OlVSSVZhbHVlLm5ldygnaHR0cDovL3Rlc3Qub250b2ZvcmNlLmNvbS90eXBlZF9saW5rX2NvbmZpZycpIH0K</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">CiAgIyBkZWYgc2VsZi5leHBvc2VkX2xpbmtvdXRzKGxpbmtvdXRfcmVwbywgZXhwb3NlZF9jdHMpCiAgIyAgIGxpbmtvdXRfcmVwby5saW5rb3V0cy5yZWplY3QgeyB8Y3QsIGxpbmtvdXR8CiAgIyAgICAgIWV4cG9zZWRfY3RzLmluY2x1ZGU/KGN0KQogICMgICB9CiAgIyBlbmQ=</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgbmluamFfbGlua291dCA9IGxpbmtvdXRzW1NwYXJxbDo6VVJJVmFsdWUubmV3KCdodHRwOi8vY29uZmlnLnJvbGVzLmNvbS9jdC9OaW5qYScpXQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgcGVyc29uX2xpbmtvdXQuZmlyc3QubGFiZWwudmFsdWUuc2hvdWxkID09ICdMaW5rb3V0IHRvIFdpa2knCg==</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">ICAgICMgbGlua291dF9yZXBvID0gQmF0Y2hMaW5rb3V0UmVwb3NpdG9yeS5uZXcoZ3JhcGhfdXJpOiBzZXJ2aWNlLmdyYXBoX3VyaSkKICAgICMgbGlua291dHMgPSBleHBvc2VkX2xpbmtvdXRzKGxpbmtvdXRfcmVwbywgY3RzLm1hcCgmOnVyaSkp</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgcGVyc29uX2xpbmtvdXQgPSBsaW5rb3V0c1tTcGFycWw6OlVSSVZhbHVlLm5ldygnaHR0cDovL2NvbmZpZy5yb2xlcy5jb20vY3QvUGVyc29uJyldCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
