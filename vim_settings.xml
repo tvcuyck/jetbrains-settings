@@ -30,11 +30,11 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/api_controller.rb" timestamp="1510753508001">
         <mark key="[" line="25" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/etl_controller.rb" timestamp="1526546079419">
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/etl_controller.rb" timestamp="1526549999364">
         <mark key="[" line="17" column="72" />
-        <mark key="]" line="67" column="15" />
-        <mark key="." line="67" column="15" />
-        <mark key="^" line="67" column="15" />
+        <mark key="]" line="50" column="70" />
+        <mark key="." line="50" column="70" />
+        <mark key="^" line="50" column="70" />
       </file>
       <file name="find.xml" timestamp="1523526173759">
         <mark key="[" line="0" column="0" />
@@ -63,7 +63,7 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/index_test/facets-local.rq" timestamp="1517495680049">
         <mark key="[" line="39" column="76" />
       </file>
-      <file name="/Dummy.txt" timestamp="1526543188996">
+      <file name="/Dummy.txt" timestamp="1526549885238">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/fragment.rb" timestamp="1526546610417">
@@ -78,10 +78,11 @@
       <file name="$USER_HOME$/Disqover/deploy/config/deploy/preview14.rb" timestamp="1521453824892">
         <mark key="[" line="6" column="30" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/controllers/etl_controller_spec.rb" timestamp="1526548651124">
-        <mark key="[" line="228" column="85" />
-        <mark key="]" line="225" column="0" />
-        <mark key="." line="225" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/controllers/etl_controller_spec.rb" timestamp="1526549745665">
+        <mark key="[" line="234" column="120" />
+        <mark key="]" line="234" column="176" />
+        <mark key="." line="234" column="120" />
+        <mark key="^" line="234" column="119" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/controllers/filter_stats_controller_spec.rb" timestamp="1518189677956">
         <mark key="[" line="0" column="0" />
@@ -278,8 +279,8 @@
           <key char="65535" code="38" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="&quot;" type="4">
+        <text>and_return({action_guid: 'bla', result: '', errors: []})</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -290,8 +291,8 @@
       <register name="/" type="4">
         <text>limit</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">CiAgICAgIGl0ICdwYXNzZXMgb24gdGhlIHBpcGVsaW5lIHRvIHRoZSBldGwgYW5kIHJldHVybnMgbm8gZXJyb3JzJyBkbwogICAgICAgIFBpcGVsaW5lLm1hbmFnZWQoZ3VpZCkgZG8gfHB8CiAgICAgICAgICBDb21wb25lbnQubWFuYWdlZChndWlkKSBkbyB8YzF8CiAgICAgICAgICAgIE1ldGlzRXhlY3V0aW9uU2VydmljZS5zaG91bGRfcmVjZWl2ZSg6ZXhlY3V0ZV9hY3Rpb24pLmFuZF9yZXR1cm4oe2FjdGlvbl9ndWlkOiAnYmxhJywgcmVzdWx0OiAnJywgZXJyb3JzOiBbXX0pCiAgICAgICAgICAgIHBvc3RfanNvbiA6ZXhlY3V0ZV9waXBlbGluZV9hY3Rpb24sIGFjdGlvbl9vcHRpb25zOiB7YTogJ3Rlc3QnfSwgcGlwZWxpbmVfZ3VpZDogZ3VpZAoKICAgICAgICAgICAgcmVzcG9uc2Uuc3RhdHVzLnNob3VsZCA9PSAyMDAKICAgICAgICAgICAgcmVzdWx0ID0gSlNPTi5wYXJzZShyZXNwb25zZS5ib2R5KQogICAgICAgICAgICByZXN1bHRbJ2FjdGlvbl9ndWlkJ10uc2hvdWxkID09ICdibGEnCiAgICAgICAgICAgIHJlc3VsdFsncmVzdWx0J10uc2hvdWxkID09ICcnCiAgICAgICAgICAgIHJlc3VsdFsnZXJyb3JzJ10uc2hvdWxkID09IFtdCiAgICAgICAgICBlbmQKICAgICAgICBlbmQKICAgICAgZW5kCg==</text>
+      <register name="0" type="4">
+        <text>and_return({action_guid: 'bla', result: '', errors: []})</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIAo=</text>
@@ -394,8 +395,8 @@
         <entry>464</entry>
         <entry>125</entry>
         <entry>q</entry>
-        <entry>0</entry>
         <entry>w</entry>
+        <entry>0</entry>
       </history-cmd>
       <history-expr />
       <history-input />
