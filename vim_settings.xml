@@ -23,11 +23,11 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/sparql/query/query_spec.rb" timestamp="1518610294851">
         <mark key="[" line="270" column="63" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/etl_controller.rb" timestamp="1526549999364">
-        <mark key="[" line="17" column="72" />
-        <mark key="]" line="50" column="70" />
-        <mark key="." line="50" column="70" />
-        <mark key="^" line="50" column="70" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/etl_controller.rb" timestamp="1526979681788">
+        <mark key="[" line="17" column="82" />
+        <mark key="]" line="17" column="70" />
+        <mark key="." line="17" column="70" />
+        <mark key="^" line="17" column="70" />
       </file>
       <file name="find.xml" timestamp="1523526173759">
         <mark key="[" line="0" column="0" />
@@ -52,10 +52,10 @@
         <mark key="[" line="6" column="30" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/controllers/etl_controller_spec.rb" timestamp="1526549745665">
-        <mark key="[" line="234" column="120" />
-        <mark key="]" line="234" column="176" />
-        <mark key="." line="234" column="120" />
-        <mark key="^" line="234" column="119" />
+        <mark key="[" line="267" column="120" />
+        <mark key="]" line="267" column="176" />
+        <mark key="." line="267" column="120" />
+        <mark key="^" line="267" column="119" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/solr_index.rb" timestamp="1522850170901">
         <mark key="[" line="44" column="5" />
@@ -135,18 +135,18 @@
         <mark key="." line="60" column="33" />
         <mark key="^" line="60" column="33" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/collection_service_spec.rb" timestamp="1526567762786" />
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/batch_linkout_collection_spec.rb" timestamp="1526567739685">
         <mark key="[" line="4" column="0" />
         <mark key="]" line="4" column="78" />
         <mark key="." line="17" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/sparql_queries_for_index_service_spec.rb" timestamp="1526565057824" />
       <file name="$USER_HOME$/Disqover/disqover-backend/index_test/facets-local.rq" timestamp="1517495680049">
         <mark key="[" line="39" column="76" />
       </file>
-      <file name="/Dummy.txt" timestamp="1526567792058">
+      <file name="/Dummy.txt" timestamp="1526979915522">
         <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/import_configuration_service.rb" timestamp="1526557530877">
         <mark key="[" line="118" column="75" />
@@ -159,7 +159,6 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/import_configuration_service_spec.rb" timestamp="1526566295762" />
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/controllers/filter_stats_controller_spec.rb" timestamp="1518189677956">
         <mark key="[" line="0" column="0" />
       </file>
@@ -300,14 +299,14 @@
           <key char="65535" code="38" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGxldCg6Z3JhcGhfdXJpKSB7IFNwYXJxbDo6VVJJVmFsdWUubmV3KCdodHRwOi8vcm9sZXMub250b2ZvcmNlLmNvbS9jb25maWcnKSB9Cg==</text>
+      <register name="&quot;" type="4">
+        <text>DISQ-635: Validate linkout templates on import and create batch_linkout_collection</text>
       </register>
       <register name="i" type="4">
         <text />
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICBpdCAncGFzc2VzIG9uIHRoZSBwaXBlbGluZSB0byB0aGUgZXRsIGFuZCByZXR1cm5zIG5vIGVycm9ycycgZG8=</text>
+        <text>DISQ-635: Validate linkout templates on import and create batch_linkout_collection</text>
       </register>
       <register name="/" type="4">
         <text>limit</text>
