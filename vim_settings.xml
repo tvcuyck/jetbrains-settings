@@ -9,9 +9,9 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/candidate_histogram_facet_value.rb" timestamp="1516893388693">
         <mark key="[" line="6" column="15" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/test/integration/test_partial_pipeline_1_spec.py" timestamp="1527489886748">
-        <mark key="[" line="77" column="1" />
-        <mark key="]" line="70" column="22" />
+      <file name="$USER_HOME$/Disqover/metis/test/integration/test_partial_pipeline_1_spec.py" timestamp="1527520094741">
+        <mark key="[" line="52" column="0" />
+        <mark key="]" line="52" column="82" />
         <mark key="." line="70" column="22" />
         <mark key="^" line="70" column="22" />
       </file>
@@ -30,11 +30,11 @@
       <file name="/a.dummy" timestamp="1527151321613">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/test/integration/test_partial_pipeline_3_spec.py" timestamp="1527519306402">
-        <mark key="[" line="27" column="4" />
-        <mark key="]" line="27" column="70" />
-        <mark key="^" line="25" column="36" />
-        <mark key="." line="27" column="0" />
+      <file name="$USER_HOME$/Disqover/metis/test/integration/test_partial_pipeline_3_spec.py" timestamp="1527520631293">
+        <mark key="[" line="24" column="37" />
+        <mark key="]" line="53" column="72" />
+        <mark key="." line="53" column="72" />
+        <mark key="^" line="53" column="72" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/requirements-test.txt" timestamp="1525263953314">
         <mark key="[" line="4" column="19" />
@@ -186,10 +186,10 @@
         <mark key="^" line="79" column="42" />
         <mark key="." line="79" column="42" />
       </file>
-      <file name="/Python Console" timestamp="1527518612648">
+      <file name="/Python Console" timestamp="1527520682428">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/fragment.py" timestamp="1527518744028">
+      <file name="/fragment.py" timestamp="1527520738493">
         <mark key="'" line="0" column="44" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -420,7 +420,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBjb3VudHJ5X3ZhbHVlc18yID0gcHAuY3JlYXRlX2FsaWdubWVudF92YWx1ZV9mdW5jdGlvbignY291bnRyaWVzJykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -432,25 +432,29 @@
         <text>stats</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBjb3VudHJ5X3ZhbHVlc18yID0gcHAuY3JlYXRlX2FsaWdubWVudF92YWx1ZV9mdW5jdGlvbignY291bnRyaWVzJykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB0byhyYWlzZV9lcnJvcihNZXRpc0Vycm9yLCByJ1Vua25vd24gcHJlZGljYXRlIGNvdW50cmllczpzeW4nKSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CiAgICAgICAgIyBzb3VyY2VfbmFtZSA9IHNlbGYuZ2V0X29wdGlvbl92YWx1ZShvcHRpb25zX3ZhbHVlcywgJ3NvdXJjZV9hbGlnbm1lbnQnKQogICAgICAgICMgc291cmNlX2FsaWdubWVudCA9IFNldHRpbmdzLmluc3RhbmNlKCkubWV0aXNfaW5mby5nZXRfYWxpZ25tZW50KHNvdXJjZV9uYW1lLCBjYW5fY3JlYXRlPUZhbHNlKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgaWYgc291cmNlX2FsaWdubWVudDoKICAgICAgICAgICAgICAgICMgICAgIHNvdXJjZV9hbGlnbm1lbnQuYWRkX3JlY29yZChmaXJzdF9iYWRfbWVyZ2UucmVjb3Jkc19yZW1vdmVkX2Zyb21fc291cmNlKQo=</text>
+      <register name="2" type="4">
+        <text># between run 1 and run 3 the countries3 alignment has changed,
+# this means the countries alignment has to be restored and we can't do this yet
+
+# changed component
+# predicates countries3:code2 and code3 have been changed to countries3:code_2 and code</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBkZXN0aW5hdGlvbl9hbGlnbm1lbnQgPSBTZXR0aW5ncy5pbnN0YW5jZSgpLm1ldGlzX2luZm8uZ2V0X2FsaWdubWVudChkZXN0aW5hdGlvbl9uYW1lLCBjYW5fY3JlYXRlPUZhbHNlKQo=</text>
+        <text encoding="base64">CiAgICAgICAgIyB3aXRoIGNvbnRleHQoJ2ltcG9ydHMgY291bnRyaWVzMzpjb2RlXzIgaW4gY29ycmVjdCBjb2x1bW4nKToKICAgICAgICAjICAgICB3aXRoIGl0KCdmcm9tIGNvdW50cnkgZGF0YXNldCBzZWFyY2hpbmcgMiBsZXR0ZXIgdXJpJyk6CiAgICAgICAgIyAgICAgICAgIGV4cGVjdChjb3VudHJ5X3ZhbHVlc18yKCdjb3VudHJpZXMzOmNvZGVfMicsIHUyKCdBVCcpKSkuIFwKICAgICAgICAjICAgICAgICAgICAgIHRvKGVxdWFsKFsnQVQnXSkpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAjIHNvdXJjZV9uYW1lID0gc2VsZi5nZXRfb3B0aW9uX3ZhbHVlKG9wdGlvbnNfdmFsdWVzLCAnc291cmNlX2FsaWdubWVudCcpCg==</text>
+        <text encoding="base64">CiAgICAgICAgIyB3aXRoIGNvbnRleHQoJ2RvZXMgbm90IGdlbmVyYXRlIGxvd2VyIGNhc2UgMiBsZXR0ZXIgY29kZSBjb3VudHJpZXMzOmNvZGUyX2xvd2VyJyk6CiAgICAgICAgIyAgICAgd2l0aCBpdCgnZnJvbSBjb3VudHJpZXMzIGRhdGFzZXQnKToKICAgICAgICAjICAgICAgICAgZXhwZWN0KGxhbWJkYTogY291bnRyeV92YWx1ZXNfMignY291bnRyaWVzMzpjb2RlMl9sb3dlcicsIHUyKCdBVycpKSkuIFwKICAgICAgICAjICAgICAgICAgICAgIHRvKHJhaXNlX2Vycm9yKE1ldGlzRXJyb3IsIHInVW5rbm93biBwcmVkaWNhdGUgY291bnRyaWVzMzpjb2RlMl9sb3dlcicpKQoKICAgICAgICAjIHdpdGggY29udGV4dCgnZ2VuZXJhdGVzIGNhc2UgMiBsZXR0ZXIgY29kZSBjb3VudHJpZXMzOmNvZGVfMl9sb3dlcicpOgogICAgICAgICMgICAgIHdpdGggaXQoJ2Zyb20gY291bnRyaWVzMyBkYXRhc2V0Jyk6CiAgICAgICAgIyAgICAgICAgIGV4cGVjdChjb3VudHJ5X3ZhbHVlc18yKCdjb3VudHJpZXMzOmNvZGVfMl9sb3dlcicsIHUyKCdBVCcpKSkuIFwKICAgICAgICAjICAgICAgICAgICAgIHRvKGVxdWFsKFsnYXQnXSkpCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmVzdG9yZV9jb3VudCA9IDAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -469,16 +473,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyByZXN0b3JlIGNvdW50cyBmb3IgYWxsIHN1YnNlcXVlbnQgbWVyZ2VzPwo=</text>
+        <text encoding="base64">CiAgICAgICAgIyBzb3VyY2VfbmFtZSA9IHNlbGYuZ2V0X29wdGlvbl92YWx1ZShvcHRpb25zX3ZhbHVlcywgJ3NvdXJjZV9hbGlnbm1lbnQnKQogICAgICAgICMgc291cmNlX2FsaWdubWVudCA9IFNldHRpbmdzLmluc3RhbmNlKCkubWV0aXNfaW5mby5nZXRfYWxpZ25tZW50KHNvdXJjZV9uYW1lLCBjYW5fY3JlYXRlPUZhbHNlKQo=</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICMgaWYgc291cmNlX2FsaWdubWVudDoKICAgICAgICAgICAgICAgICMgICAgIHNvdXJjZV9hbGlnbm1lbnQuYWRkX3JlY29yZChmaXJzdF9iYWRfbWVyZ2UucmVjb3Jkc19yZW1vdmVkX2Zyb21fc291cmNlKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBkZXN0aW5hdGlvbl9hbGlnbm1lbnQgPSBTZXR0aW5ncy5pbnN0YW5jZSgpLm1ldGlzX2luZm8uZ2V0X2FsaWdubWVudChkZXN0aW5hdGlvbl9uYW1lLCBjYW5fY3JlYXRlPUZhbHNlKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICByZXN0b3JlX2NvdW50ID0gMAo=</text>
+        <text encoding="base64">ICAgICAgICAjIHNvdXJjZV9uYW1lID0gc2VsZi5nZXRfb3B0aW9uX3ZhbHVlKG9wdGlvbnNfdmFsdWVzLCAnc291cmNlX2FsaWdubWVudCcpCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -535,8 +539,8 @@
         <entry>o</entry>
         <entry>W</entry>
         <entry>208</entry>
-        <entry>w</entry>
         <entry>0</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
