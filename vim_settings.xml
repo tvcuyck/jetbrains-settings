@@ -57,14 +57,14 @@
         <mark key="." line="267" column="120" />
         <mark key="^" line="267" column="119" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/index_test/create_test_index" timestamp="1527081841848">
-        <mark key="[" line="50" column="0" />
-        <mark key="]" line="51" column="54" />
-        <mark key="." line="50" column="0" />
-        <mark key="^" line="24" column="52" />
-      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/solr_index.rb" timestamp="1522850170901">
         <mark key="[" line="44" column="5" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/predicate_info.rb" timestamp="1527679165949">
+        <mark key="[" line="59" column="17" />
+        <mark key="]" line="58" column="20" />
+        <mark key="^" line="58" column="20" />
+        <mark key="." line="58" column="20" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/batch_linkout_repository.rb" timestamp="1526565012433">
         <mark key="'" line="56" column="56" />
@@ -124,7 +124,7 @@
         <mark key="[" line="25" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/configuration_service.rb" timestamp="1526560972356">
-        <mark key="[" line="205" column="0" />
+        <mark key="[" line="207" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/collection_service.rb" timestamp="1526567731045">
         <mark key="[" line="125" column="5" />
@@ -182,7 +182,7 @@
         <mark key="." line="30" column="0" />
         <mark key="^" line="29" column="31" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/link_predicate_service.rb" timestamp="1527678035374">
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/link_predicate_service.rb" timestamp="1527678377634">
         <mark key="[" line="219" column="41" />
         <mark key="]" line="38" column="74" />
         <mark key="^" line="38" column="74" />
@@ -312,7 +312,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ZWNobyAiQ2xlYXIgZ2xvYmFsIGNvbmZpZyIKUkFJTFNfRU5WPWRldmVsb3BtZW50IGJ1bmRsZSBleGVjIHJha2Ugc2V0X2FzX2dsb2JhbFtdCg==</text>
+        <text encoding="base64">CiAgZGVmIGFkZF9ncmFwaCBncmFwaAogICAgQGdyYXBocyA8PCBncmFwaAogICAgQGdyYXBocy51bmlxIQogIGVuZAo=</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -324,7 +324,7 @@
         <text>limit</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZWNobyAiQ2xlYXIgZ2xvYmFsIGNvbmZpZyIKUkFJTFNfRU5WPWRldmVsb3BtZW50IGJ1bmRsZSBleGVjIHJha2Ugc2V0X2FzX2dsb2JhbFtdCg==</text>
+        <text encoding="base64">CiAgZGVmIGFkZF9ncmFwaCBncmFwaAogICAgQGdyYXBocyA8PCBncmFwaAogICAgQGdyYXBocy51bmlxIQogIGVuZAo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIGxldCg6Z3JhcGhfdXJpKSB7IFNwYXJxbDo6VVJJVmFsdWUubmV3KCdodHRwOi8vcm9sZXMub250b2ZvcmNlLmNvbS9jb25maWcnKSB9Cg==</text>
@@ -427,8 +427,8 @@
         <entry>464</entry>
         <entry>125</entry>
         <entry>q</entry>
-        <entry>0</entry>
         <entry>w</entry>
+        <entry>0</entry>
       </history-cmd>
       <history-expr />
       <history-input />
