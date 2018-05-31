@@ -45,6 +45,9 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/index_test/facets-remote.rq" timestamp="1517495712622">
         <mark key="[" line="13" column="50" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/db/schema.xml" timestamp="1527767346182">
+        <mark key="'" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/hash_with_indifferent_access_extension.rb" timestamp="1526547868201">
         <mark key="[" line="20" column="0" />
         <mark key="]" line="15" column="2" />
@@ -161,7 +164,7 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/index_test/facets-local.rq" timestamp="1517495680049">
         <mark key="[" line="39" column="76" />
       </file>
-      <file name="/Dummy.txt" timestamp="1527763020410">
+      <file name="/Dummy.txt" timestamp="1527767409320">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -226,7 +229,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="546" column="16" filename="$USER_HOME$/Disqover/disqover-backend/app/services/subfacet_service.rb" />
       <jump line="20" column="88" filename="$USER_HOME$/Disqover/disqover-backend/spec/repositories/candidate_histogram_facet_repository_spec.rb" />
       <jump line="161" column="48" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/histogram_time_service_spec.rb" />
       <jump line="606" column="6" filename="$USER_HOME$/Disqover/disqover-backend/app/services/subfacet_service.rb" />
@@ -326,6 +328,7 @@
       <jump line="36" column="56" filename="$USER_HOME$/Disqover/disqover-backend/app/repositories/batch_linkout_repository.rb" />
       <jump line="312" column="87" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/configuration_service_spec.rb" />
       <jump line="94" column="4" filename="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/roles_config.sparql" />
+      <jump line="0" column="0" filename="$USER_HOME$/Disqover/disqover-backend/db/schema.xml" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -345,7 +348,7 @@
         <text>d)</text>
       </register>
       <register name="/" type="4">
-        <text>Ninja</text>
+        <text>_if</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgIGNvbnRleHQgJ05pbmphJyBkbwogICAgICAgICAgICBsZXQoOm4pIHsgcHJlZF9pbmZvLnNlbGVjdHsgfHh8IHhbJ291dGdvaW5nJ10gPT0gJ2h0dHA6Ly9jb25maWcucm9sZXMuY29tL2N0L05pbmphJyAmJgogICAgICAgICAgICAgICAgeFsnaW5jb21pbmcnXSA9PSBuaWwgfSB9CgogICAgICAgICAgICBpdCAnc2hvdWxkIGZpbmQgMSBlbnRyeScgZG8KICAgICAgICAgICAgICBuLmxlbmd0aC5zaG91bGQgPT0gMQogICAgICAgICAgICBlbmQKICAgICAgICAgIGVuZAo=</text>
@@ -401,9 +404,9 @@
       </register>
     </registers>
     <search>
-      <last-search>Ninja</last-search>
+      <last-search>_if</last-search>
       <last-offset />
-      <last-pattern>Ninja</last-pattern>
+      <last-pattern>_if</last-pattern>
       <last-replace>is false</last-replace>
       <last-substitute>WASTRUE</last-substitute>
       <last-dir>1</last-dir>
@@ -411,7 +414,6 @@
     </search>
     <history>
       <history-search>
-        <entry>is false</entry>
         <entry>WASS_TRUE</entry>
         <entry>WASTRUE</entry>
         <entry>allow_</entry>
@@ -431,6 +433,7 @@
         <entry>at instance</entry>
         <entry>limit</entry>
         <entry>Ninja</entry>
+        <entry>_if</entry>
       </history-search>
       <history-cmd>
         <entry>56</entry>
