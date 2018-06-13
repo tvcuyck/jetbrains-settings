@@ -120,11 +120,12 @@
         <mark key="]" line="59" column="41" />
         <mark key="." line="53" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/link_predicate_service_spec.rb" timestamp="1528886657563">
-        <mark key="[" line="210" column="0" />
-        <mark key="]" line="210" column="0" />
-        <mark key="^" line="211" column="68" />
-        <mark key="." line="210" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/link_predicate_service_spec.rb" timestamp="1528887864635">
+        <mark key="'" line="306" column="14" />
+        <mark key="[" line="175" column="112" />
+        <mark key="]" line="175" column="13" />
+        <mark key="^" line="175" column="13" />
+        <mark key="." line="175" column="13" />
       </file>
       <file name="/Ruby Console" timestamp="1527762360793">
         <mark key="[" line="0" column="0" />
@@ -222,10 +223,11 @@
         <mark key="." line="30" column="0" />
         <mark key="^" line="29" column="31" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/link_predicate_service.rb" timestamp="1528877698496">
-        <mark key="[" line="213" column="47" />
-        <mark key="]" line="59" column="0" />
-        <mark key="." line="59" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/link_predicate_service.rb" timestamp="1528888494477">
+        <mark key="[" line="93" column="0" />
+        <mark key="]" line="93" column="0" />
+        <mark key="." line="93" column="0" />
+        <mark key="^" line="85" column="17" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/federation_facet_service.rb" timestamp="1528877129011">
         <mark key="[" line="49" column="64" />
@@ -247,7 +249,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="161" column="48" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/histogram_time_service_spec.rb" />
       <jump line="606" column="6" filename="$USER_HOME$/Disqover/disqover-backend/app/services/subfacet_service.rb" />
       <jump line="949" column="0" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/subfacet_service_spec.rb" />
       <jump line="4348" column="72" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/federation_instance_service_spec.rb" />
@@ -347,6 +348,7 @@
       <jump line="94" column="4" filename="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/roles_config.sparql" />
       <jump line="0" column="0" filename="$USER_HOME$/Disqover/disqover-backend/db/schema.xml" />
       <jump line="167" column="20" filename="$USER_HOME$/Disqover/disqover-backend/app/models/predicate_info.rb" />
+      <jump line="306" column="14" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/link_predicate_service_spec.rb" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -357,7 +359,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBzdWJqZWN0Lm11c3RfZHVtcF9yZWxhdGlvbl90eXBlPyhyZWxhdF90eXBlKCdkb250ZXhpc3QnKSkuc2hvdWxkIGJlX2ZhbHNlCg==</text>
+        <text encoding="base64">ICAgIHRydWUK</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -366,28 +368,28 @@
         <text>r</text>
       </register>
       <register name="/" type="4">
-        <text>_if</text>
+        <text encoding="base64">XDxzdG9yZV9wcmVkaWNhdGVfaW5mb19ncmFwaFw+</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgIyAgIHN1YmplY3QubXVzdF9kdW1wX3JlbGF0aW9uX3R5cGU/KHJlbGF0X3R5cGUoJ2RvbnRleGlzdCcpKS5zaG91bGQgYmVfZmFsc2UK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBzdWJqZWN0Lm11c3RfZHVtcF9yZWxhdGlvbl90eXBlPyhyZWxhdF90eXBlKCdkb250ZXhpc3QnKSkuc2hvdWxkIGJlX2ZhbHNlCg==</text>
+        <text encoding="base64">ICAgIHRydWUK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAjIHN1YmplY3QubXVzdF9kdW1wX3JlbGF0aW9uX3R5cGU/KHJlbGF0X3R5cGUoJ0NvbnRhY3RXaXRoJykpLnNob3VsZCBiZV9mYWxzZQo=</text>
+        <text encoding="base64">ICAgICAgICBzdWJqZWN0Lm11c3RfZHVtcF9yZWxhdGlvbl90eXBlPyhyZWxhdF90eXBlKCdkb250ZXhpc3QnKSkuc2hvdWxkIGJlX2ZhbHNlCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGRlc2NyaWJlICcjbXVzdF9kdW1wXzInIGRvCg==</text>
+        <text encoding="base64">ICAgICAgICAjIHN1YmplY3QubXVzdF9kdW1wX3JlbGF0aW9uX3R5cGU/KHJlbGF0X3R5cGUoJ0NvbnRhY3RXaXRoJykpLnNob3VsZCBiZV9mYWxzZQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGVuZAo=</text>
+        <text encoding="base64">ICAgIGRlc2NyaWJlICcjbXVzdF9kdW1wXzInIGRvCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAjIGNvbGwuc3R1Yig6ZGF0YXNldF9yZXBvc2l0b3J5KXsKICAgICAgICAjICAgRGF0YXNldFJlcG9zaXRvcnkubmV3KGdyYXBoX3VyaTogU3BhcnFsOjpVUklWYWx1ZS5uZXcoImh0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL2dyYXBocy9wcm92ZW5hbmNlIikpIH0K</text>
+        <text encoding="base64">ICAgIGVuZAo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -409,30 +411,29 @@
         <text encoding="base64">ICAgICAgICAjIGNvbGwuc3R1Yig6ZGF0YXNldF9yZXBvc2l0b3J5KXsKICAgICAgICAjICAgRGF0YXNldFJlcG9zaXRvcnkubmV3KGdyYXBoX3VyaTogU3BhcnFsOjpVUklWYWx1ZS5uZXcoImh0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL2dyYXBocy9wcm92ZW5hbmNlIikpIH0K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIGNvbGwuc3R1Yig6ZGF0YXNldF9yZXBvc2l0b3J5KXsKICAgICAgICAjICAgRGF0YXNldFJlcG9zaXRvcnkubmV3KGdyYXBoX3VyaTogU3BhcnFsOjpVUklWYWx1ZS5uZXcoImh0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL2dyYXBocy9wcm92ZW5hbmNlIikpIH0K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAjIG5vdGUgbm8gdmFsdWUgZm9yIHN1ZmZlcnMsIGJlY2F1c2UK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">IyAgICAgICAgcHJlZHMubWFwKCY6cHJlZGljYXRlKS5zaG91bGQgaW5jbHVkZSgiaHR0cDovL2xvY2FsLm9yZy9wcm9wcy9oYXNfZ2VuZSIpIC0tPiBkZXRhaWxlZCByZWxhdGlvbnMK</text>
+        <text encoding="base64">ICAgICAgICAjIG5vdGUgbm8gdmFsdWUgZm9yIHN1ZmZlcnMsIGJlY2F1c2UK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>_if</last-search>
+      <last-search encoding="base64">XDxzdG9yZV9wcmVkaWNhdGVfaW5mb19ncmFwaFw+</last-search>
       <last-offset />
-      <last-pattern>_if</last-pattern>
+      <last-pattern encoding="base64">XDxzdG9yZV9wcmVkaWNhdGVfaW5mb19ncmFwaFw+</last-pattern>
       <last-replace>is false</last-replace>
       <last-substitute>WASTRUE</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>WASS_TRUE</entry>
         <entry>WASTRUE</entry>
         <entry>allow_</entry>
         <entry>version</entry>
@@ -452,6 +453,7 @@
         <entry>limit</entry>
         <entry>Ninja</entry>
         <entry>_if</entry>
+        <entry encoding="base64">XDxzdG9yZV9wcmVkaWNhdGVfaW5mb19ncmFwaFw+</entry>
       </history-search>
       <history-cmd>
         <entry>56</entry>
