@@ -81,6 +81,10 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/lens_item/lens_item_spec.rb" timestamp="1511516723503">
         <mark key="[" line="89" column="50" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/subfacet_service_spec.rb" timestamp="1528888924154">
+        <mark key="[" line="735" column="0" />
+        <mark key="]" line="736" column="79" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/index_facet_repository_spec.rb" timestamp="1504015150819">
         <mark key="[" line="152" column="90" />
       </file>
@@ -114,18 +118,12 @@
       <file name="vim_settings.xml" timestamp="1523526185297">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/roles_config.sparql" timestamp="1527753966142">
-        <mark key="'" line="108" column="4" />
-        <mark key="[" line="59" column="41" />
-        <mark key="]" line="59" column="41" />
-        <mark key="." line="53" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/link_predicate_service_spec.rb" timestamp="1528887864635">
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/link_predicate_service_spec.rb" timestamp="1528889405406">
         <mark key="'" line="306" column="14" />
-        <mark key="[" line="175" column="112" />
-        <mark key="]" line="175" column="13" />
-        <mark key="^" line="175" column="13" />
-        <mark key="." line="175" column="13" />
+        <mark key="[" line="335" column="0" />
+        <mark key="]" line="335" column="67" />
+        <mark key="^" line="334" column="35" />
+        <mark key="." line="335" column="0" />
       </file>
       <file name="/Ruby Console" timestamp="1527762360793">
         <mark key="[" line="0" column="0" />
@@ -183,7 +181,7 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/index_test/facets-local.rq" timestamp="1517495680049">
         <mark key="[" line="39" column="76" />
       </file>
-      <file name="/Dummy.txt" timestamp="1528885614275">
+      <file name="/Dummy.txt" timestamp="1528889241437">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -359,7 +357,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHRydWUK</text>
+        <text encoding="base64">ICAgICMgQ29tbWVudCBvdXQgZW5vdWdoIHNwZWNzIGluIHRoZXNlIGJsb2NrcyB0byBydW4gZnJvbSBSdWJ5TWluZQo=</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -371,25 +369,25 @@
         <text encoding="base64">XDxzdG9yZV9wcmVkaWNhdGVfaW5mb19ncmFwaFw+</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgIyAgIHN1YmplY3QubXVzdF9kdW1wX3JlbGF0aW9uX3R5cGU/KHJlbGF0X3R5cGUoJ2RvbnRleGlzdCcpKS5zaG91bGQgYmVfZmFsc2UK</text>
+        <text encoding="base64">ICAgICMgQ29tbWVudCBvdXQgZW5vdWdoIHNwZWNzIGluIHRoZXNlIGJsb2NrcyB0byBydW4gZnJvbSBSdWJ5TWluZQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHRydWUK</text>
+        <text encoding="base64">ICAgICAgICAjIHRydWUuc2hvdWxkIGJlX2ZhbHNlCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBzdWJqZWN0Lm11c3RfZHVtcF9yZWxhdGlvbl90eXBlPyhyZWxhdF90eXBlKCdkb250ZXhpc3QnKSkuc2hvdWxkIGJlX2ZhbHNlCg==</text>
+        <text encoding="base64">ICAgICAgQ29sbGVjdGlvblNlcnZpY2UuaW5zdGFuY2UgPSBDb2xsZWN0aW9uU2VydmljZS5uZXcoZ3JhcGhfdXJpOiBncmFwaF91cmkpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAjIHN1YmplY3QubXVzdF9kdW1wX3JlbGF0aW9uX3R5cGU/KHJlbGF0X3R5cGUoJ0NvbnRhY3RXaXRoJykpLnNob3VsZCBiZV9mYWxzZQo=</text>
+        <text encoding="base64">ICAgICAgZ3JhcGhfdXJpID0gU3BhcnFsOjpVUklWYWx1ZS5uZXcoJ2h0dHA6Ly9yb2xlcy5vbnRvZm9yY2UuY29tL2NvbmZpZycpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGRlc2NyaWJlICcjbXVzdF9kdW1wXzInIGRvCg==</text>
+        <text encoding="base64">ICAgIHRydWUK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGVuZAo=</text>
+        <text encoding="base64">ICAgICAgICBzdWJqZWN0Lm11c3RfZHVtcF9yZWxhdGlvbl90eXBlPyhyZWxhdF90eXBlKCdkb250ZXhpc3QnKSkuc2hvdWxkIGJlX2ZhbHNlCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -408,16 +406,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAjIGNvbGwuc3R1Yig6ZGF0YXNldF9yZXBvc2l0b3J5KXsKICAgICAgICAjICAgRGF0YXNldFJlcG9zaXRvcnkubmV3KGdyYXBoX3VyaTogU3BhcnFsOjpVUklWYWx1ZS5uZXcoImh0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL2dyYXBocy9wcm92ZW5hbmNlIikpIH0K</text>
+        <text encoding="base64">ICAgICAgICAjIHN1YmplY3QubXVzdF9kdW1wX3JlbGF0aW9uX3R5cGU/KHJlbGF0X3R5cGUoJ0NvbnRhY3RXaXRoJykpLnNob3VsZCBiZV9mYWxzZQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAjIGNvbGwuc3R1Yig6ZGF0YXNldF9yZXBvc2l0b3J5KXsKICAgICAgICAjICAgRGF0YXNldFJlcG9zaXRvcnkubmV3KGdyYXBoX3VyaTogU3BhcnFsOjpVUklWYWx1ZS5uZXcoImh0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL2dyYXBocy9wcm92ZW5hbmNlIikpIH0K</text>
+        <text encoding="base64">ICAgIGRlc2NyaWJlICcjbXVzdF9kdW1wXzInIGRvCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGVuZAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAjIG5vdGUgbm8gdmFsdWUgZm9yIHN1ZmZlcnMsIGJlY2F1c2UK</text>
+        <text encoding="base64">ICAgICAgICAjIGNvbGwuc3R1Yig6ZGF0YXNldF9yZXBvc2l0b3J5KXsKICAgICAgICAjICAgRGF0YXNldFJlcG9zaXRvcnkubmV3KGdyYXBoX3VyaTogU3BhcnFsOjpVUklWYWx1ZS5uZXcoImh0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL2dyYXBocy9wcm92ZW5hbmNlIikpIH0K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
