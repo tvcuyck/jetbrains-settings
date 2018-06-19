@@ -6,10 +6,11 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/candidate_histogram_facet_value.rb" timestamp="1516893388693">
         <mark key="[" line="6" column="15" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/test_countries_spec.py" timestamp="1529398393389">
-        <mark key="[" line="228" column="0" />
-        <mark key="]" line="228" column="20" />
-        <mark key="." line="228" column="20" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/test_countries_spec.py" timestamp="1529406335631">
+        <mark key="[" line="268" column="60" />
+        <mark key="]" line="270" column="45" />
+        <mark key="." line="268" column="0" />
+        <mark key="^" line="243" column="48" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/item_storage.py" timestamp="1529323064413">
         <mark key="[" line="36" column="34" />
@@ -184,7 +185,7 @@
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/register_actions.py" timestamp="1528787000996">
         <mark key="[" line="17" column="42" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/data/countries_capitals.txt" timestamp="1529404673432">
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/data/countries_capitals.txt" timestamp="1529406931950">
         <mark key="[" line="0" column="12" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/action_base.py" timestamp="1528295524723">
@@ -388,6 +389,11 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/metis/component.rb" timestamp="1525268820009">
         <mark key="[" line="29" column="8" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/data/cities.txt" timestamp="1529407066933">
+        <mark key="[" line="0" column="6" />
+        <mark key="]" line="4" column="0" />
+        <mark key="." line="4" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/configuration_service.rb" timestamp="1526560972356">
         <mark key="[" line="207" column="0" />
       </file>
@@ -427,6 +433,11 @@
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/importers/rdf_import_action.py" timestamp="1528808319169">
         <mark key="[" line="54" column="59" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/pipeline.yml" timestamp="1529406219196">
+        <mark key="[" line="595" column="40" />
+        <mark key="]" line="595" column="42" />
+        <mark key="." line="595" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/test_clin_trials_countries_spec.py" timestamp="1529394634211">
         <mark key="[" line="10" column="0" />
         <mark key="]" line="38" column="60" />
@@ -435,6 +446,10 @@
         <mark key="[" line="12" column="0" />
         <mark key="]" line="35" column="5" />
         <mark key="." line="11" column="0" />
+      </file>
+      <file name="/countries_capitals.txt" timestamp="1529407020710">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="8" column="33" />
       </file>
       <file name="$USER_HOME$/Disqover/data/sources/color2/projects_converter.py" timestamp="1529069764791">
         <mark key="[" line="3" column="0" />
@@ -605,8 +620,8 @@
           <key char="65535" code="38" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>DISQ-744: PR comments</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">RGFrYXI7MTA1NjAwMDs4My41CkJpc3NhdTszODc5MDk7NzcuMgpCcmFzaWwsQnJhemlsO0JyYXNpbGlhOzI0ODEwMDA7NTgwMi4zClN1ZGFuO0toYXJ0b3VtOzYzOTU5ODs5NzEuMgo=</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -617,29 +632,34 @@
       <register name="/" type="4">
         <text>_if</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICB3aXRoIGl0KCdjcmVhdGVzIG5ldyBsaXN0IGZvciBhbGlnbm1lbnQgYWwgYW5kIGFkZHMgY29tcG9uZW50IGd1aWQnKToKICAgICAgICAgICAgb3B0aW9ucyA9IHsnYWxpZ25tZW50JzogJ2FsJywKICAgICAgICAgICAgICAgICAgICAgICAnYWN0aW9uX2d1aWQnOiBhY3Rpb25fZ3VpZCwKICAgICAgICAgICAgICAgICAgICAgICAnZGF0YV9zb3VyY2UnOiAnZHMnLAogICAgICAgICAgICAgICAgICAgICAgICdyZGZfdHlwZSc6ICdodHRwOi8vbnMub250b2ZvcmNlLmNvbS90eXBlcy90ZXN0X3R5cGUnLAogICAgICAgICAgICAgICAgICAgICAgICdjb2x1bW5zJzogW3sncHJlZGljYXRlJzogJ2Rpc3E6bGFiZWwnLCAnZmlsZV9jb2x1bW4nOiAnY29sIDEnfV0KICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIHByZWZlcnJlZF9jb21wb25lbnRzID0ge30KICAgICAgICAgICAgc2VsZi5hY3Rpb24uZGV0ZXJtaW5lX3ByZWZlcnJlZF9sYWJlbF9vcmRlcihvcHRpb25zLCBwcmVmZXJyZWRfY29tcG9uZW50cykKICAgICAgICAgICAgZXhwZWN0KHByZWZlcnJlZF9jb21wb25lbnRzWydhbCddKS50byhlcXVhbChbJ2EwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDEyMyddKSkK</text>
+      <register name="0" type="4">
+        <text>Name;Capital;Population;Area
+Belgium;Brussels;1175000;161.4
+FRANCE;Paris;2244000;105.4
+UK,United Kingdom;London;8136000;1572.1
+Senegal,Sénégal;Dakar;1056000;83.5
+Guinea Bissau;Bissau;387909;77.2
+Brasil,Brazil;Brasilia;2481000;5802.3
+Sudan;Khartoum;639598;971.2
+Westeros;King's Landing;500000;N/A</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CiAgICBkZWYgZHJ5X3J1bihzZWxmLCBvcHRpb25zX3ZhbHVlczogT3B0aW9uc1ZhbHVlcywgY29udGV4dDogRHJ5UnVuQ29udGV4dCkgLT4gQ29tcG9uZW50SW50cm9zcGVjdGlvbkluZm86CiAgICAgICAgaW5mbyA9IENvbXBvbmVudEludHJvc3BlY3Rpb25JbmZvKCkKICAgICAgICBleHByZXNzaW9uX3ZhbHVlID0gc2VsZi5nZXRfb3BlcmF0aW9uX2V4cHJlc3Npb25fdmFsdWUob3B0aW9uc192YWx1ZXMpCiAgICAgICAgY29udGV4dCA9IGV4cHJlc3Npb25fdmFsdWUucGFyc2VyLmNvbnRleHQKICAgICAgICBmb3IgdmFyIGluIGNvbnRleHQuaWRlbnRpZmllcnNfb3V0OgogICAgICAgICAgICBpbmZvLmFkZF9vdXRwdXRfcHJlZGljYXRlKFByZWRpY2F0ZUludHJvc3BlY3Rpb25JbmZvKHZhclsnbmFtZSddKSkKICAgICAgICByZXR1cm4gaW5mbwo=</text>
+        <text encoding="base64">RGFrYXI7MTA1NjAwMDs4My41CkJpc3NhdTszODc5MDk7NzcuMgpCcmFzaWwsQnJhemlsO0JyYXNpbGlhOzI0ODEwMDA7NTgwMi4zClN1ZGFuO0toYXJ0b3VtOzYzOTU5ODs5NzEuMgo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAnY29sdW1ucyc6IFt7J3ByZWRpY2F0ZSc6ICdkaXNxOmxhYmVsJywgJ2ZpbGVfY29sdW1uJzogJ2NvbCAxJ31dCg==</text>
+        <text encoding="base64">TmFtZTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwcm9wcyA9IHNlbGYuZ2V0X29wdGlvbl92YWx1ZShvcHRpb25zX3ZhbHVlcywgc2VsZi5jb2x1bW5zX25hbWUpCg==</text>
+        <text encoding="base64">ICAgICAgCiAgLSBhY3Rpb246IGNyZWF0ZV9jYW5vbmljYWxfdHlwZQogICAgYWN0aW9uX2d1aWQ6ICdhMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMTAwNScKICAgIHVyaTogJ2h0dHA6Ly9vbnRvZm9yY2UuY29tL2NpdHknCiAgICBsYWJlbDogIkNpdHkiCiAgICBkZXNjcmlwdGlvbjogJ0NpdHknCiAgICBpY29uOiAnbmljZScKICAgIHR5cGVzOgogICAgICAtICdodHRwOi8vdHlwZXMub250b2ZvcmNlLmNvbS9jaXR5JwogICAgZmFjZXRzOgogICAgICAtIHVyaTogJ2h0dHA6Ly9vbnRvbG9neS5vbnRvZm9yY2UuY29tL3Byb3BlcnRpZXMvcG9wdWxhdGlvbicKICAgICAgICBsYWJlbDogJ1BvcHVsYXRpb24nCiAgICAgICAgZGVzY3JpcHRpb246ICcnCiAgICAgICAgcHJlZGljYXRlczoKICAgICAgICAgIC0gY2l0eTpwb3B1bGF0aW9uCiAgICAgIC0gdXJpOiAnaHR0cDovL29udG9sb2d5Lm9udG9mb3JjZS5jb20vcHJvcGVydGllcy9hcmVhJwogICAgICAgIGxhYmVsOiAnQXJlYScKICAgICAgICBkZXNjcmlwdGlvbjogJycKICAgICAgICBwcmVkaWNhdGVzOgogICAgICAgICAgLSBjaXR5OmFyZWEKICAgIHByb3BlcnRpZXM6CiAgICAgIC0gdXJpOiAnaHR0cDovL29udG9sb2d5Lm9udG9mb3JjZS5jb20vcHJvcGVydGllcy9wb3B1bGF0aW9uJwogICAgICAgIGxhYmVsOiAnUG9wdWxhdGlvbicKICAgICAgICBkZXNjcmlwdGlvbjogJycKICAgICAgICBwcmVkaWNhdGVzOgogICAgICAgICAgLSBjaXR5OnBvcHVsYXRpb24KICAgICAgLSB1cmk6ICdodHRwOi8vb250b2xvZ3kub250b2ZvcmNlLmNvbS9wcm9wZXJ0aWVzL2FyZWEnCiAgICAgICAgbGFiZWw6ICdBcmVhJwogICAgICAgIGRlc2NyaXB0aW9uOiAnJwogICAgICAgIHByZWRpY2F0ZXM6CiAgICAgICAgICAtIGNpdHk6YXJlYQogICAgbGVuc190dGw6CiAgICBwcmVkZWNlc3NvcnM6CiAgICAgIC0gJ2EwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMzEwJwo=</text>
       </register>
-      <register name="4" type="4">
-        <text>Merge branch 'dev' of github.com:ontoforce/metis into refactor-pipeline
-
-# Conflicts:
-#	execution_layer/integration/test_clin_trials_spec.py</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgLSAnYTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAyOTAnCiAgICAgIC0gJ2EwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMzQwJwogICAgICAtICdhMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDQyMCcK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CiAgIyBpbXBvcnQgY2hlbWJsCiAgLSBhY3Rpb246IHJkZl9pbXBvcnRlcgogICAgYWxpZ25tZW50OiBUYXJnZXQKICAgIHJkZl90eXBlOiBodHRwOi8vcmRmLmViaS5hYy51ay90ZXJtcy9jaGVtYmwjVGFyZ2V0Q29tcG9uZW50CiAgICBzZWxlY3RlZF9yZGZfdHlwZTogPGh0dHA6Ly9yZGYuZWJpLmFjLnVrL3Rlcm1zL2NoZW1ibCNUYXJnZXRDb21wb25lbnQ+CiAgICBhY3Rpb25fZ3VpZDogJ2EwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMTYwJwogICAgZmlsZV90eXBlOiB0dXJ0bGUKICAgIHByb3BlcnRpZXM6CiAgICAgIC0gZmlsZV9wcm9wZXJ0eTogPGh0dHA6Ly9yZGYuZWJpLmFjLnVrL3Rlcm1zL2NoZW1ibCNjaGVtYmxJZD4KICAgICAgICBwcmVkaWNhdGU6IGNoZW1ibF9pZAogICAgICAtIGZpbGVfcHJvcGVydHk6IDxodHRwOi8vcmRmLmViaS5hYy51ay90ZXJtcy9jaGVtYmwjY29tcG9uZW50VHlwZT4KICAgICAgICBwcmVkaWNhdGU6IGNvbXBvbmVudF90eXBlCiAgICAgIC0gZmlsZV9wcm9wZXJ0eTogPGh0dHA6Ly9yZGYuZWJpLmFjLnVrL3Rlcm1zL2NoZW1ibCNvcmdhbmlzbU5hbWU+CiAgICAgICAgcHJlZGljYXRlOiBvcmdhbmlzbV9uYW1lCiAgICAgIC0gZmlsZV9wcm9wZXJ0eTogPGh0dHA6Ly9yZGYuZWJpLmFjLnVrL3Rlcm1zL2NoZW1ibCN0YXhvbm9teT4KICAgICAgICBwcmVkaWNhdGU6IHRheG9ub215X3VyaQogICAgICAtIGZpbGVfcHJvcGVydHk6IDxodHRwOi8vcmRmLmViaS5hYy51ay90ZXJtcy9jaGVtYmwjdGFyZ2V0Q21wdFhyZWY+CiAgICAgICAgcHJlZGljYXRlOiB0YXJnZXRfY21wdF94cmVmCiAgICAgIC0gZmlsZV9wcm9wZXJ0eTogPGh0dHA6Ly9yZGYuZWJpLmFjLnVrL3Rlcm1zL2NoZW1ibCNwcm90ZWluU2VxdWVuY2U+CiAgICAgICAgcHJlZGljYXRlOiBwcm90ZWluX3NlcXVlbmNlCiAgICAgIC0gZmlsZV9wcm9wZXJ0eTogPGh0dHA6Ly93d3cudzMub3JnLzIwMDQvMDIvc2tvcy9jb3JlI2FsdExhYmVsPgogICAgICAgIHByZWRpY2F0ZTogYWx0X2xhYmVsCiAgICAgIC0gZmlsZV9wcm9wZXJ0eTogPGh0dHA6Ly9wdXJsLm9yZy9kYy90ZXJtcy9kZXNjcmlwdGlvbj4KICAgICAgICBwcmVkaWNhdGU6IGRlc2NyaXB0aW9uCiAgICBkYXRhX3NvdXJjZTogImh0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL2RhdGFzb3VyY2VzL2NoZW1ibCIKICAgIHByZWRlY2Vzc29yczoKICAgICAgLSAnYTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMGMwMDUnCiAgICBmaWxlczogZGF0YS9jaGVtYmxfdGVzdC50dGwK</text>
+        <text encoding="base64">ICAgICAgLSB1cmk6ICdodHRwOi8vb250b2xvZ3kub250b2ZvcmNlLmNvbS9wcm9wZXJ0aWVzL3BvcHVsYXRpb24nCiAgICAgICAgbGFiZWw6ICdDYXBpdGFsIGNpdHknCiAgICAgICAgZGVzY3JpcHRpb246ICcnCiAgICAgICAgcHJlZGljYXRlczoKICAgICAgICAgIC0gY291bnRyaWVzOmNhcGl0YWwK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -658,16 +678,19 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAtIGFjdGlvbjogY3JlYXRlX2RhdGFzb3VyY2UKICAgIGFjdGlvbl9ndWlkOiAnYTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMGMwMDEnCiAgICBsYWJlbDogQ291bnRyaWVzIGRhdGFzZXQKICAgIHVyaTogJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL2RhdGFzb3VyY2VzL2NvdW50cmllcycKICAgIHByZWRlY2Vzc29yczoKICAtIGFjdGlvbjogY3JlYXRlX2RhdGFzb3VyY2UKICAgIGFjdGlvbl9ndWlkOiAnYTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMGMwMDInCiAgICBsYWJlbDogT3RoZXIgY291bnRyaWVzIGRhdGFzZXQKICAgIHVyaTogImh0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL2RhdGFzb3VyY2VzL2NvdW50cmllczMiCiAgICBwcmVkZWNlc3NvcnM6IG51bGwKICAtIGFjdGlvbjogY3JlYXRlX2RhdGFzb3VyY2UKICAgIGFjdGlvbl9ndWlkOiAnYTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMGMwMDMnCiAgICBsYWJlbDogQ291bnRyaWVzIHdpdGggY2FwaXRhbHMgZGF0YXNldAogICAgdXJpOiAiaHR0cDovL25zLm9udG9mb3JjZS5jb20vZGF0YXNvdXJjZXMvY291bnRyaWVzX2NhcGl0YWxzIgogICAgcHJlZGVjZXNzb3JzOiBudWxsCiAgLSBhY3Rpb246IGNyZWF0ZV9kYXRhc291cmNlCiAgICBhY3Rpb25fZ3VpZDogJ2EwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDBjMDA0JwogICAgbGFiZWw6IENsaW5pY2FsIFRyaWFscwogICAgdXJpOiAiaHR0cDovL25zLm9udG9mb3JjZS5jb20vZGF0YXNvdXJjZXMvY2xpbl90cmlhbF9nb3YiCg==</text>
+        <text encoding="base64">CiAgICBkZWYgZHJ5X3J1bihzZWxmLCBvcHRpb25zX3ZhbHVlczogT3B0aW9uc1ZhbHVlcywgY29udGV4dDogRHJ5UnVuQ29udGV4dCkgLT4gQ29tcG9uZW50SW50cm9zcGVjdGlvbkluZm86CiAgICAgICAgaW5mbyA9IENvbXBvbmVudEludHJvc3BlY3Rpb25JbmZvKCkKICAgICAgICBleHByZXNzaW9uX3ZhbHVlID0gc2VsZi5nZXRfb3BlcmF0aW9uX2V4cHJlc3Npb25fdmFsdWUob3B0aW9uc192YWx1ZXMpCiAgICAgICAgY29udGV4dCA9IGV4cHJlc3Npb25fdmFsdWUucGFyc2VyLmNvbnRleHQKICAgICAgICBmb3IgdmFyIGluIGNvbnRleHQuaWRlbnRpZmllcnNfb3V0OgogICAgICAgICAgICBpbmZvLmFkZF9vdXRwdXRfcHJlZGljYXRlKFByZWRpY2F0ZUludHJvc3BlY3Rpb25JbmZvKHZhclsnbmFtZSddKSkKICAgICAgICByZXR1cm4gaW5mbwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAtIGFjdGlvbjogY3JlYXRlX2RhdGFzb3VyY2UKICAgIGFjdGlvbl9ndWlkOiAnYTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMGMwMDYnCiAgICBsYWJlbDogT3JnYW5pemF0aW9ucwogICAgdXJpOiAiaHR0cDovL25zLm9udG9mb3JjZS5jb20vZGF0YXNvdXJjZXMvb3JnYW5pemF0aW9ucyIKICAtIGFjdGlvbjogY3JlYXRlX2RhdGFzb3VyY2UKICAgIGFjdGlvbl9ndWlkOiAnYTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMGMwMDgnCiAgICBsYWJlbDogZHJ1Z2JhbmsKICAgIHVyaTogImh0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL2RhdGFzb3VyY2VzL2RydWdiYW5rIgogIC0gYWN0aW9uOiBjcmVhdGVfZGF0YXNvdXJjZQogICAgYWN0aW9uX2d1aWQ6ICdhMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwYzAwOScKICAgIGxhYmVsOiBDb3VudHJpZXMgdG8gY2xpbmljYWwgdHJpYWxzIGRhdGFzZXQKICAgIHVyaTogImh0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL2RhdGFzb3VyY2VzL2NvdW50cmllczQiCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAnY29sdW1ucyc6IFt7J3ByZWRpY2F0ZSc6ICdkaXNxOmxhYmVsJywgJ2ZpbGVfY29sdW1uJzogJ2NvbCAxJ31dCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CiAgICAgICAgICAgIHdpdGggY29udGV4dCgnbGlua3MgY2xpbl90cmlhbF9waGFzZXMgdG8gY2xpbl90cmlhbHMnKSBhcyBzZWxmOgogICAgICAgICAgICAgICAgd2l0aCBiZWZvcmUuZWFjaDoKICAgICAgICAgICAgICAgICAgICBzZWxmLmN0MV9odXJpID0gZ2V0X2NsaW5fdHJpYWxfdmFsdWVzKCdkaXNxOnVyaS5odXJpJywgY3QxX3VyaSlbMF0KICAgICAgICAgICAgICAgICAgICBzZWxmLmN0Ml9odXJpID0gZ2V0X2NsaW5fdHJpYWxfdmFsdWVzKCdkaXNxOnVyaS5odXJpJywgY3QyX3VyaSlbMF0KICAgICAgICAgICAgICAgICAgICBzZWxmLmN0M19odXJpID0gZ2V0X2NsaW5fdHJpYWxfdmFsdWVzKCdkaXNxOnVyaS5odXJpJywgY3QzX3VyaSlbMF0KCiAgICAgICAgICAgICAgICB3aXRoIGl0KCdyZWNydWl0aW5nJyk6CiAgICAgICAgICAgICAgICAgICAgZXhwZWN0KHNldChnZXRfY2xpbl90cmlhbF9waGFzZXNfdmFsdWVzKCdwaGFzZS5yZXYnLCByZWNydWl0aW5nX3VyaSkpKS4gXAogICAgICAgICAgICAgICAgICAgICAgICB0byhlcXVhbCh7c2VsZi5jdDFfaHVyaX0pKQoKICAgICAgICAgICAgICAgIHdpdGggaXQoJ3BoYXNlMScpOgogICAgICAgICAgICAgICAgICAgIGV4cGVjdChzZXQoZ2V0X2NsaW5fdHJpYWxfcGhhc2VzX3ZhbHVlcygncGhhc2UnLCBwaGFzZTFfdXJpKSkpLiBcCiAgICAgICAgICAgICAgICAgICAgICAgIHRvKGVxdWFsKHtzZWxmLmN0MV9odXJpfSkpCgogICAgICAgICAgICAgICAgd2l0aCBpdCgncGhhc2UyJyk6CiAgICAgICAgICAgICAgICAgICAgZXhwZWN0KHNldChnZXRfY2xpbl90cmlhbF9waGFzZXNfdmFsdWVzKCdwaGFzZScsIHBoYXNlMl91cmkpKSkuIFwKICAgICAgICAgICAgICAgICAgICAgICAgdG8oZXF1YWwoe3NlbGYuY3QzX2h1cml9KSkKCiAgICAgICAgICAgICAgICB3aXRoIGl0KCdwaGFzZTMnKToKICAgICAgICAgICAgICAgICAgICBleHBlY3Qoc2V0KGdldF9jbGluX3RyaWFsX3BoYXNlc192YWx1ZXMoJ3BoYXNlJywgcGhhc2UzX3VyaSkpKS4gXAogICAgICAgICAgICAgICAgICAgICAgICB0byhlcXVhbCh7c2VsZi5jdDJfaHVyaSwgc2VsZi5jdDNfaHVyaX0pKQo=</text>
+        <text encoding="base64">ICAgICAgICBwcm9wcyA9IHNlbGYuZ2V0X29wdGlvbl92YWx1ZShvcHRpb25zX3ZhbHVlcywgc2VsZi5jb2x1bW5zX25hbWUpCg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB3aXRoIGNvbnRleHQoJ2N0X29yZzpzdGF0dXMgaGFzIGNvcnJlY3QgdmFsdWVzJyk6CiAgICAgICAgICAgIHdpdGggaXQoJ2ZpcnN0Jyk6CiAgICAgICAgICAgICAgICBleHBlY3Qoc2V0KGdldF9jbGluX3RyaWFsc192YWx1ZXMoJ2N0X29yZzpzdGF0dXMnLCBjdDFfdXJpKSkpLiBcCiAgICAgICAgICAgICAgICAgICAgdG8oZXF1YWwoeydyZWNydWl0aW5nJywgJ3BoYXNlIDEnfSkpCgogICAgICAgICAgICB3aXRoIGl0KCdzZWNvbmQnKToKICAgICAgICAgICAgICAgIGV4cGVjdChzZXQoZ2V0X2NsaW5fdHJpYWxzX3ZhbHVlcygnY3Rfb3JnOnN0YXR1cycsIGN0Ml91cmkpKSkuIFwKICAgICAgICAgICAgICAgICAgICB0byhlcXVhbCh7J3BoYXNlIDMnfSkpCgogICAgICAgICAgICB3aXRoIGl0KCd0aGlyZCcpOgogICAgICAgICAgICAgICAgZXhwZWN0KHNldChnZXRfY2xpbl90cmlhbHNfdmFsdWVzKCdjdF9vcmc6c3RhdHVzJywgY3QzX3VyaSkpKS4gXAogICAgICAgICAgICAgICAgICAgIHRvKGVxdWFsKHsncGhhc2UgMicsICdwaGFzZS4zJ30pKQo=</text>
+      <register name="9" type="4">
+        <text>Merge branch 'dev' of github.com:ontoforce/metis into refactor-pipeline
+
+# Conflicts:
+#	execution_layer/integration/test_clin_trials_spec.py</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
