@@ -44,6 +44,11 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/metis/pipeline_spec.rb" timestamp="1526542022614">
         <mark key="[" line="130" column="28" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/solr_query_executor.rb" timestamp="1529505177084">
+        <mark key="[" line="32" column="0" />
+        <mark key="]" line="32" column="0" />
+        <mark key="." line="32" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/index_test/facets-remote.rq" timestamp="1517495712622">
         <mark key="[" line="13" column="50" />
       </file>
@@ -71,6 +76,12 @@
         <mark key="[" line="735" column="0" />
         <mark key="]" line="736" column="79" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/config/initializers/metis_query_log_subscriber.rb" timestamp="1529504882486">
+        <mark key="[" line="15" column="3" />
+        <mark key="]" line="7" column="0" />
+        <mark key="^" line="8" column="2" />
+        <mark key="." line="7" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/index_facet_repository_spec.rb" timestamp="1504015150819">
         <mark key="[" line="152" column="90" />
       </file>
@@ -86,8 +97,8 @@
       <file name="/Clipboard.txt" timestamp="1515506467354">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/metis_execution_service.rb" timestamp="1526640463530">
-        <mark key="[" line="31" column="69" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/metis_execution_service.rb" timestamp="1529505209231">
+        <mark key="[" line="26" column="59" />
       </file>
       <file name="vim_settings.xml" timestamp="1523526185297">
         <mark key="[" line="0" column="0" />
@@ -156,6 +167,10 @@
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/candidate_histogram_facat_params_service.rb" timestamp="1501661095050">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/config/initializers/solr_query_log_subscriber.rb" timestamp="1529504871365">
+        <mark key="[" line="15" column="0" />
+        <mark key="]" line="19" column="5" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/dataset_repository.rb" timestamp="1528960685449">
         <mark key="[" line="48" column="42" />
@@ -291,7 +306,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -303,25 +318,25 @@
         <text encoding="base64">XDxzdG9yZV9wcmVkaWNhdGVfaW5mb19ncmFwaFw+</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbGV0KDpuMmQpIHsgcHJlZF9pbmZvLmZpbmR7IHx4fCB4WydvdXRnb2luZyddID09ICdodHRwOi8vY29uZmlnLnJvbGVzLmNvbS9jdC9OaW5qYScgJiYKICAgICAgICAgICAgICAgIHhbJ2luY29taW5nJ10gPT0gJ2h0dHA6Ly9jb25maWcucm9sZXMuY29tL2N0L0Rpc2Vhc2UnIH0gfQoKICAgICAgICAgICAgaXQgJ3Nob3VsZCBmaW5kIGNoaWxkX3N1ZmZlcnMgYW5kIHN1ZmZlcnNfcGx1cyBmYWNldCcgZG8KICAgICAgICAgICAgICBuMmRbJ2ZhY2V0cyddLnNob3VsZCA9PSBbXQogICAgICAgICAgICBlbmQK</text>
+        <text encoding="base64">CiAgZGVmIGRlYnVnKCphcmdzLCAmYmxvY2spCiAgICByZXR1cm4gdW5sZXNzIGxvZ2dlcgogICAgbG9nZ2VyLmRlYnVnKCphcmdzLCAmYmxvY2spCiAgZW5kCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzdWJqZWN0LnByb3ZlbmFuY2VfZm9yX2dyYXBoKFN0dWI6OlNwYXJxbDo6VVJJVmFsdWUuY29uZmlndXJhdGlvbl9ncmFwaCkK</text>
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBzdWJqZWN0LnByb3ZlbmFuY2VfZm9yX2dyYXBoKFN0dWI6OlNwYXJxbDo6VVJJVmFsdWUuY29uZmlndXJhdGlvbl9ncmFwaCwgY2FjaGU6IGZhbHNlKQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -340,16 +355,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBzdWJqZWN0LnByb3ZlbmFuY2VfZm9yX2dyYXBoKFN0dWI6OlNwYXJxbDo6VVJJVmFsdWUuY29uZmlndXJhdGlvbl9ncmFwaCkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzdWJqZWN0Lgo=</text>
+        <text encoding="base64">ICAgICAgICBzdWJqZWN0LnByb3ZlbmFuY2VfZm9yX2dyYXBoKFN0dWI6OlNwYXJxbDo6VVJJVmFsdWUuY29uZmlndXJhdGlvbl9ncmFwaCwgY2FjaGU6IGZhbHNlKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CiAgZGVmIGdldF9ncmFwaF9wcmVkaWNhdGVzIGNhbm9uaWNhbF90eXBlCiAgICBnZXRfZ3JhcGhfcHJlZGljYXRlc19vdXRnb2luZyhjYW5vbmljYWxfdHlwZSkgKwogICAgICAgIGdldF9ncmFwaF9wcmVkaWNhdGVzX2luY29taW5nKGNhbm9uaWNhbF90eXBlKQogIGVuZAo=</text>
+        <text encoding="base64">ICAgICAgICBzdWJqZWN0Lgo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
