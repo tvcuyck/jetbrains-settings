@@ -184,8 +184,8 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/api_controller.rb" timestamp="1510753508001">
         <mark key="[" line="25" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/data/companies_test.jl" timestamp="1529588257361">
-        <mark key="[" line="11" column="129" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/data/companies_test.jl" timestamp="1529590022589">
+        <mark key="[" line="13" column="544" />
         <mark key="]" line="11" column="100" />
         <mark key="^" line="11" column="100" />
         <mark key="." line="11" column="100" />
@@ -456,11 +456,11 @@
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/importers/rdf_import_action.py" timestamp="1528808319169">
         <mark key="[" line="54" column="59" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/pipeline.yml" timestamp="1529588156471">
-        <mark key="[" line="323" column="96" />
-        <mark key="]" line="599" column="0" />
-        <mark key="." line="599" column="0" />
-        <mark key="^" line="594" column="23" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/pipeline.yml" timestamp="1529589852684">
+        <mark key="[" line="480" column="71" />
+        <mark key="]" line="480" column="107" />
+        <mark key="." line="480" column="71" />
+        <mark key="^" line="480" column="70" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/action.py" timestamp="1529496452710">
         <mark key="[" line="31" column="34" />
@@ -639,8 +639,8 @@
           <key char="65535" code="38" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+      <register name="&quot;" type="4">
+        <text>ListGetFirstElem(StrSplit(_el, &quot; &quot;))</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -651,26 +651,26 @@
       <register name="/" type="4">
         <text>_if</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">CiAgICAgICAgd2l0aCBpdCgncmFpc2VzIGFuIGVycm9yIGlmIHRoZSBkZXN0aW5hdGlvbiBhbGlnbm1lbnQgaXMgbWlzc2luZycpOgogICAgICAgICAgICBwcmVmZXJyZWRfY29tcG9uZW50cyA9IHsnYWxpZ25tZW50JzogWydndWlkXzEnXSwgJ3NhJzogWydndWlkXzInLCAnZ3VpZF8zJ119CiAgICAgICAgICAgIGV4cGVjdChsYW1iZGE6IHNlbGYuYWN0aW9uLmRldGVybWluZV9wcmVmZXJyZWRfdXJpX29yZGVyKG9wdGlvbnNfb2ssIHByZWZlcnJlZF9jb21wb25lbnRzKSkuIFwKICAgICAgICAgICAgICAgIHRvKHJhaXNlX2Vycm9yKE1ldGlzRXJyb3IsIG1hdGNoKHInZGVzdGluYXRpb24gYWxpZ25tZW50IGRvZXMgbm90IHNlZW0gdG8gY29udGFpbiBhbnkgc3ViamVjdCBVUkknKSkpCg==</text>
+      <register name="0" type="4">
+        <text>ListGetFirstElem(StrSplit(_el, &quot; &quot;))</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgdGVzdHM6IHwKICAgICAgICAkc2ljX3VrX2luZHVzdHJpYWxfY29kZT1bIjEwMiBCbGFibGEiXSxAY29tcGFuaWVzOmNvZGU9WyIxMDIiXQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJ5Ogo=</text>
+        <text encoding="base64">ICAgICAgdGVzdHM6IHwKICAgICAgICAkc2ljX3VrX2luZHVzdHJpYWxfY29kZT1bIjEwMiBCbGFibGEiXSxAY29tcGFuaWVzOmNvZGU9WyIxMDIiXQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJhaXNlIFBhcnNlckV4Y2VwdGlvbgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZXhjZXB0IFBhcnNlckV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICAgICAgcGFyc19mYWlsX3dhcm4uYWRkKHsndGVzdCc6IHByZWRpY2F0ZV92YWx1ZXN9KQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJ5Ogo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZXhjZXB0IFBhcnNlckV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICAgICAgcGFyc19mYWlsX3dhcm4uYWRkKHsndGVzdCc6IHByZWRpY2F0ZV92YWx1ZXN9KQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJhaXNlIFBhcnNlckV4Y2VwdGlvbgo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -689,16 +689,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgdHJ5Ogo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZXhjZXB0IFBhcnNlckV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICAgICAgcGFyc19mYWlsX3dhcm4uYWRkKHsndGVzdCc6IHByZWRpY2F0ZV92YWx1ZXN9KQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHBhcnNfZmFpbF9jb3VudC5pbmNyZWFzZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZXhjZXB0IFBhcnNlckV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICAgICAgcGFyc19mYWlsX3dhcm4uYWRkKHsndGVzdCc6IHByZWRpY2F0ZV92YWx1ZXN9KQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4Y2VwdCBNZXRpc0Vycm9yIGFzIGU6CiAgICAgICAgICAgICAgICAgICAgZmFpbHVyZV9jb3VudC5pbmNyZWFzZSgpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgdHJ5Ogo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHRyeToK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHBhcnNfZmFpbF9jb3VudC5pbmNyZWFzZSgpCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
