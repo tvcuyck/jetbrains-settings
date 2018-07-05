@@ -261,11 +261,12 @@
         <mark key="]" line="4" column="78" />
         <mark key="." line="17" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/rd/ontologies/ct_organization.ttl" timestamp="1530701692178">
-        <mark key="[" line="107" column="0" />
-        <mark key="]" line="107" column="0" />
-        <mark key="." line="107" column="0" />
-        <mark key="^" line="107" column="0" />
+      <file name="$USER_HOME$/Disqover/rd/ontologies/ct_organization.ttl" timestamp="1530774634153">
+        <mark key="'" line="107" column="0" />
+        <mark key="[" line="244" column="0" />
+        <mark key="]" line="244" column="0" />
+        <mark key="." line="244" column="0" />
+        <mark key="^" line="244" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/index_test/facets-local.rq" timestamp="1517495680049">
         <mark key="[" line="39" column="76" />
@@ -457,11 +458,11 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/lens_item/lens_item_spec.rb" timestamp="1511516723503">
         <mark key="[" line="89" column="50" />
       </file>
-      <file name="$USER_HOME$/Disqover/rd/ontologies/ct_neworganization.ttl" timestamp="1530773731875">
-        <mark key="[" line="66" column="0" />
-        <mark key="]" line="66" column="0" />
-        <mark key="^" line="66" column="0" />
-        <mark key="." line="66" column="0" />
+      <file name="$USER_HOME$/Disqover/rd/ontologies/ct_neworganization.ttl" timestamp="1530774649665">
+        <mark key="[" line="155" column="0" />
+        <mark key="]" line="155" column="0" />
+        <mark key="^" line="155" column="0" />
+        <mark key="." line="155" column="0" />
       </file>
       <file name="$USER_HOME$/.rvm/gems/ruby-2.2.4/gems/capybara-2.1.0/lib/capybara/spec/spec_helper.rb" timestamp="1518610516349">
         <mark key="[" line="48" column="29" />
@@ -661,7 +662,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="144" column="0" filename="$USER_HOME$/Disqover/disqover-backend/app/controllers/instances_controller.rb" />
       <jump line="21" column="49" filename="$USER_HOME$/Disqover/disqover-backend/app/services/instances_service.rb" />
       <jump line="30" column="4" filename="$USER_HOME$/Disqover/disqover-backend/app/services/federation_instance_service.rb" />
       <jump line="29" column="0" filename="$USER_HOME$/Disqover/disqover-backend/app/services/federation_facet_service.rb" />
@@ -761,6 +761,7 @@
       <jump line="248" column="13" filename="$USER_HOME$/Disqover/metis/execution_layer/sources/pipeline.py" />
       <jump line="251" column="8" filename="$USER_HOME$/Disqover/metis/execution_layer/sources/pipeline.py" />
       <jump line="209" column="0" filename="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/indexer.py" />
+      <jump line="107" column="0" filename="$USER_HOME$/Disqover/rd/ontologies/ct_organization.ttl" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -780,7 +781,7 @@
         <text>)</text>
       </register>
       <register name="/" type="4">
-        <text>write</text>
+        <text>FormationDate</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgZWxpZiBzZWxmLmlzX2h1cmlfdHlwZToKICAgICAgICAgICAgICAgIGlmIHNlbGYuaXNfdXJpX3ByZWRpY2F0ZTogICMgc3ViamVjdCB1cmlzCiAgICAgICAgICAgICAgICAgICAgaWYgJ2lkJyBub3QgaW4ganNvbiBhbmQgdmFsdWVzOgogICAgICAgICAgICAgICAgICAgICAgICBpbnN0YW5jZSA9IGluc3RhbmNlX21hcHBlci5odXJpX3RvX2luc3RhbmNlKHZhbHVlc1swXSkKICAgICAgICAgICAgICAgICAgICAgICAgYXNzZXJ0IGluc3RhbmNlLCAnSW50ZXJuYWwgZXJyb3IgSFVSSSBub3QgZm91bmQnCiAgICAgICAgICAgICAgICAgICAgICAgIGpzb25bJ2lkJ10gPSBpbnN0YW5jZS5wcmVmX3VyaQogICAgICAgICAgICAgICAgICAgICAgICBqc29uWydsYWJlbCddID0gaW5zdGFuY2UucHJlZl9sYWJlbAogICAgICAgICAgICAgICAgZWxzZTogICMgb2JqZWN0IHVyaXMKICAgICAgICAgICAgICAgICAgICBmb3IgbWFwcGVyIGluIHNlbGYuZGlzcW92ZXJfb2JqZWN0X21hcHBlcnM6CiAgICAgICAgICAgICAgICAgICAgICAgIG1hcHBlci5hZGRfaHVyaXNfdG9fc29scihqc29uLCB2YWx1ZXMsIGluc3RhbmNlX21hcHBlciwgc2VsZi5kYXRhX3NvdXJjZXNfdGFncykKICAgICAgICAgICAgICAgICAgICBmb3IgaHVyaV92YWwgaW4gdmFsdWVzOgogICAgICAgICAgICAgICAgICAgICAgICBpbnN0YW5jZSA9IGluc3RhbmNlX21hcHBlci5odXJpX3RvX2luc3RhbmNlKGh1cmlfdmFsKQogICAgICAgICAgICAgICAgICAgICAgICBhc3NlcnQgaW5zdGFuY2UsICdJbnRlcm5hbCBlcnJvciBIVVJJIG5vdCBmb3VuZCcKICAgICAgICAgICAgICAgICAgICAgICAganNvbi5zZXRkZWZhdWx0KCdsaW5rX3NzJywgc2V0KCkpLmFkZChpbnN0YW5jZS5wcmVmX3VyaSkKICAgICAgICAgICAgZWxpZiBzZWxmLnR5cGVfbmFtZSA9PSAnbGl0JzoKICAgICAgICAgICAgICAgIGlmIHNlbGYuaXNfbGFiZWxfcHJlZGljYXRlOgogICAgICAgICAgICAgICAgICAgIGpzb24uc2V0ZGVmYXVsdCgnc3lub255bScsIHNldCgpKS51cGRhdGUodmFsdWVzKQogICAgICAgICAgICAgICAgICAgICMgdG9kbyBpZiBjdCBhc2tzIGl0LCBhZGQgYXMgZGlzcTpuYW1lIHRvbyEKICAgICAgICAgICAgICAgIGVsaWYgc2VsZi5pc190eXBlX3ByZWRpY2F0ZTogICMgdHlwZQogICAgICAgICAgICAgICAgICAgIG5ld19zZXQgPSBzZXQoKQogICAgICAgICAgICAgICAgICAgIGZvciB2IGluIHZhbHVlczoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgdiBpbiBpbnN0YW5jZV9tYXBwZXIudHlwZV90b19jdF91cmk6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBuZXdfc2V0LnVwZGF0ZShbZic8e2N0X3VyaX0+JyBmb3IgY3RfdXJpIGluIGluc3RhbmNlX21hcHBlci50eXBlX3RvX2N0X3VyaVt2XV0pCiAgICAgICAgICAgICAgICAgICAganNvbi5zZXRkZWZhdWx0KCdjYW5vbmljYWxfdHlwZScsIHNldCgpKS51cGRhdGUobmV3X3NldCkKICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgZm9yIG1hcHBlciBpbiBzZWxmLmRpc3FvdmVyX29iamVjdF9tYXBwZXJzOgogICAgICAgICAgICAgICAgICAgICAgICBtYXBwZXIuYWRkX2xpdF90b19zb2xyKGpzb24sIHZhbHVlcywgc2VsZi5kYXRhX3NvdXJjZXNfdGFncykKICAgICAgICAgICAgc2VsZi5yZWNvcmRfbnIgKz0gMQo=</text>
@@ -832,13 +833,13 @@
         <text encoding="base64">ICAgICAgICAgICAgcHJvcGVydGllcyA9IDEK</text>
       </register>
       <register name=":" type="4">
-        <text>77</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>write</last-search>
+      <last-search>FormationDate</last-search>
       <last-offset />
-      <last-pattern>write</last-pattern>
+      <last-pattern>FormationDate</last-pattern>
       <last-replace>is false</last-replace>
       <last-substitute>WASTRUE</last-substitute>
       <last-dir>1</last-dir>
@@ -846,7 +847,6 @@
     </search>
     <history>
       <history-search>
-        <entry>is false</entry>
         <entry>WASS_TRUE</entry>
         <entry>WASTRUE</entry>
         <entry>allow_</entry>
@@ -866,6 +866,7 @@
         <entry>at instance</entry>
         <entry encoding="base64">XDxrd2FyZ3NcPg==</entry>
         <entry>write</entry>
+        <entry>FormationDate</entry>
       </history-search>
       <history-cmd>
         <entry>vspliut</entry>
@@ -886,8 +887,8 @@
         <entry>95</entry>
         <entry>0</entry>
         <entry>180</entry>
-        <entry>w</entry>
         <entry>77</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
