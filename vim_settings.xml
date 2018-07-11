@@ -58,6 +58,11 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/facet_configuration_repository_spec.rb" timestamp="1521186998014">
         <mark key="[" line="49" column="93" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/test_pipeline_spec.py" timestamp="1531308512848">
+        <mark key="[" line="210" column="0" />
+        <mark key="]" line="210" column="0" />
+        <mark key="." line="210" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec_helper/dummy_data.py" timestamp="1529652000916">
         <mark key="[" line="35" column="0" />
         <mark key="]" line="35" column="0" />
@@ -493,15 +498,16 @@
       <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/test_partial_pipeline_1_spec.py" timestamp="1530864495958">
         <mark key="[" line="77" column="30" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec_helper/mock_utils.py" timestamp="1530182820772">
-        <mark key="[" line="31" column="0" />
-        <mark key="]" line="31" column="0" />
-        <mark key="." line="31" column="0" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec_helper/mock_utils.py" timestamp="1531307934838">
+        <mark key="[" line="28" column="35" />
+        <mark key="]" line="32" column="0" />
+        <mark key="." line="32" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/pipeline.py" timestamp="1531307001684">
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/pipeline.py" timestamp="1531307840574">
         <mark key="[" line="136" column="112" />
-        <mark key="]" line="140" column="47" />
-        <mark key="." line="140" column="0" />
+        <mark key="]" line="122" column="31" />
+        <mark key="." line="122" column="31" />
+        <mark key="^" line="122" column="31" />
       </file>
       <file name="/Ruby Console" timestamp="1527762360793">
         <mark key="[" line="0" column="0" />
@@ -763,7 +769,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB1bmNoYW5nZWQuYXBwZW5kKGNvbXBvbmVudCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgZmlsZS5yZXR1cm5fdmFsdWUgPSBGYWxzZQo=</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -778,22 +784,22 @@
         <text encoding="base64">CmRlZiBzaWduYWxfc2lndXNyMV9oYW5kbGVyKHNpZ251bSwgZnJhbWUpOgogICAgd2l0aCBvcGVuKCcvaG9tZS90b20vcmVzcG9uc2UudHh0JywgJ3cnKSBhcyBmOgogICAgICAgIGYud3JpdGUoZidSZWNlaXZlZCBzaWduYWw6IHtzaWdudW19IHtkYXRldGltZS5kYXRldGltZS5ub3coKX0hJykKICAgIFNldHRpbmdzLmluc3RhbmNlKCkuc2V0X2NvbnRpbnVlKEZhbHNlKQoKCnNpZ25hbC5zaWduYWwoc2lnbmFsLlNJR1VTUjEsIHNpZ25hbF9zaWd1c3IxX2hhbmRsZXIpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB1bmNoYW5nZWQuYXBwZW5kKGNvbXBvbmVudCkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgZmlsZS5yZXR1cm5fdmFsdWUgPSBGYWxzZQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmIGNvbXBvbmVudC5vcHRpb25zX3ZhbHVlcyA9PSBvbGRfY29tcG9uZW50X29wdGlvbnM6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwYXRjaCgncGlwZWxpbmUuUGlwZWxpbmUuZ2V0X3J1bl9jb21wb25lbnRzX2RpcicpLCBcCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjaGFuZ2VkLmFwcGVuZChjb21wb25lbnQpCiAgICAgICAgICAgICAgICAgICAgY29tcG9uZW50LmRpcnR5ID0gVHJ1ZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwYXRjaCgncGlwZWxpbmUuUGlwZWxpbmUuZ2V0X3J1bl9jb21wb25lbnRzX2RpcicpLCBcCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBleGVjdXRpb25fc3RhcnQgPSBkYXRldGltZS5kYXRldGltZS5ub3coKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwYXRjaCgncGlwZWxpbmUuUGlwZWxpbmUuZ2V0X3J1bl9jb21wb25lbnRzX2RpcicpLCBcCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGRlZiBzZXRfZGlydHkoc2VsZik6CiAgICAgICAgcmV0dXJuIGxlbihzZWxmLmVycm9ycykgPT0gMAoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAjIHBhdGNoKCdwaXBlbGluZS5QaXBlbGluZS5nZXRfcnVuX2NvbXBvbmVudHNfZGlyJyksIFwK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -812,16 +818,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmV4ZWN1dGlvbl9zdGFydCA9IGV4ZWN1dGlvbl9zdGEK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgZmlsZS5yZXR1cm5fdmFsdWUgPSBGYWxzZQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">IyBpbXBvcnQgc2lnbmFsCiMKIwojIGRlZiBzaWduYWxfc2lndXNyMV9oYW5kbGVyKHNpZ251bSwgZnJhbWUpOgojICAgICB3aXRoIG9wZW4oJy9ob21lL3RvbS9yZXNwb25zZS50eHQnLCAndycpIGFzIGY6CiMgICAgICAgICBmLndyaXRlKGYnUmVjZWl2ZWQgc2lnbmFsOiB7c2lnbnVtfSB7ZGF0ZXRpbWUuZGF0ZXRpbWUubm93KCl9IScpCiMgICAgIFNldHRpbmdzLmluc3RhbmNlKCkuc2V0X2NvbnRpbnVlKEZhbHNlKQojCiMKIyBzaWduYWwuc2lnbmFsKHNpZ25hbC5TSUdVU1IxLCBzaWduYWxfc2lndXNyMV9oYW5kbGVyKQoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHBhdGNoKCdvcy5wYXRoLmlzZmlsZScpIGFzIGZpbGU6Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">aW1wb3J0IGRhdGV0aW1lCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHBhdGNoKCdvcy5wYXRoLmpvaW4nKSwgXAogICAgICAgICAgICAgICAgICAgICMgcGF0Y2goJ29zLmxpc3RkaXInKSBhcyB0aGVfZGlyLCBcCiAgICAgICAgICAgICAgICAgICAgIyBwYXRjaCgnb3MucGF0aC5pc2ZpbGUnKSBhcyBmaWxlOgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">IyBub2luc3BlY3Rpb24K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgZmlsZS5yZXR1cm5fdmFsdWUgPSBUcnVlCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
