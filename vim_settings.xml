@@ -69,10 +69,10 @@
         <mark key="]" line="6" column="0" />
         <mark key="." line="6" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/pipeline_run.py" timestamp="1531392994088">
-        <mark key="[" line="25" column="51" />
-        <mark key="]" line="61" column="0" />
-        <mark key="." line="61" column="0" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/pipeline_run.py" timestamp="1531488264420">
+        <mark key="[" line="46" column="26" />
+        <mark key="]" line="62" column="0" />
+        <mark key="." line="62" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/test_chembl_spec.py" timestamp="1529396170454">
         <mark key="[" line="5" column="14" />
@@ -375,6 +375,11 @@
         <mark key="." line="32" column="42" />
         <mark key="^" line="32" column="42" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/commands/start_run_action.py" timestamp="1531488210002">
+        <mark key="[" line="32" column="69" />
+        <mark key="]" line="19" column="0" />
+        <mark key="." line="19" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/metis_info.py" timestamp="1530191557370">
         <mark key="[" line="93" column="0" />
         <mark key="]" line="93" column="12" />
@@ -577,7 +582,7 @@
         <mark key="]" line="46" column="0" />
         <mark key="." line="46" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/disqover_facet.py" timestamp="1531485259101" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/disqover_facet.py" timestamp="1531488125183" />
       <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/pipeline.yml" timestamp="1531315071409">
         <mark key="[" line="34" column="38" />
       </file>
@@ -736,7 +741,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAncnVuIHRoZSBwaXBlbGluZSBpbiB0aGUgYmFja2dyb3VuZCcsCg==</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -748,10 +753,10 @@
         <text encoding="base64">XDw7XD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgcHBsLmNvdW50cmllc19vbnRvbG9neSA9IFtqc29uLmxvYWRzKGVsZW0pIGZvciBlbGVtIGluIHBwbC5jb3VudHJpZXNfb250b2xvZ3ldCg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmFkZF9vcHRpb24oT3B0aW9uKCdhc3luY2hyb25vdXMnLCAnU2hvdWxkIHRoZSBhY3Rpb24gcmV0dXJuIGltbWVkaWF0ZWx5IGFuZCAnCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3J1biB0aGUgcGlwZWxpbmUgaW4gdGhlIGJhY2tncm91bmQnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3B0aW9uYWw9VHJ1ZSwgZGVmYXVsdD1GYWxzZSwgY29udGVudF90eXBlPUNULkJPT0wpKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAncnVuIHRoZSBwaXBlbGluZSBpbiB0aGUgYmFja2dyb3VuZCcsCg==</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -765,10 +770,8 @@
       <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="8">
-        <text>json.loads(
-json.loads(
-json.loads(</text>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -786,17 +789,19 @@ json.loads(</text>
           <key char="65535" code="37" mods="0" />
         </keys>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLndyaXRlX2xvZyhmJ29sZCB7b2xkX2NvbXBvbmVudF9yZXN1bHQub3B0aW9uc192YWx1ZXN9JykKICAgICAgICAgICAgICAgICAgICBzZWxmLndyaXRlX2xvZyhmJ25ldyB7Y29tcG9uZW50Lm9wdGlvbnNfdmFsdWVzfScpCg==</text>
+      <register name="6" type="8">
+        <text>json.loads(
+json.loads(
+json.loads(</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgIGRpcnR5ID0gVHJ1ZQogICAgICAgICAgICByYWlzZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzZWxmLndyaXRlX2xvZyhmJ29sZCB7b2xkX2NvbXBvbmVudF9yZXN1bHQub3B0aW9uc192YWx1ZXN9JykKICAgICAgICAgICAgICAgICAgICBzZWxmLndyaXRlX2xvZyhmJ25ldyB7Y29tcG9uZW50Lm9wdGlvbnNfdmFsdWVzfScpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGlydHkgPSBUcnVlCg==</text>
+        <text encoding="base64">ICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgIGRpcnR5ID0gVHJ1ZQogICAgICAgICAgICByYWlzZQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBkaXJ0eSA9IEZhbHNlIGlmIGxlbihlcnJvcnMpID09IDAgZWxzZSBUcnVlCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZGlydHkgPSBUcnVlCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
