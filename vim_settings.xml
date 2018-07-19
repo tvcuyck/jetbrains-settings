@@ -212,8 +212,8 @@
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/commands/introspect_pipeline_component_action.py" timestamp="1528296546738">
         <mark key="[" line="1" column="24" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/indexer.py" timestamp="1531986833417">
-        <mark key="[" line="580" column="34" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/indexer.py" timestamp="1531989084927">
+        <mark key="[" line="75" column="85" />
         <mark key="]" line="77" column="0" />
         <mark key="^" line="77" column="49" />
         <mark key="." line="77" column="0" />
@@ -521,11 +521,11 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/metis/pipeline_spec.rb" timestamp="1526542022614">
         <mark key="[" line="130" column="28" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/disqover_canonical_type.py" timestamp="1531988675040">
-        <mark key="[" line="18" column="98" />
-        <mark key="]" line="32" column="0" />
-        <mark key="." line="32" column="0" />
-        <mark key="^" line="34" column="17" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/disqover_canonical_type.py" timestamp="1531989576658">
+        <mark key="[" line="37" column="0" />
+        <mark key="]" line="37" column="0" />
+        <mark key="." line="37" column="0" />
+        <mark key="^" line="37" column="31" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/index_test/facets-remote.rq" timestamp="1517495712622">
         <mark key="[" line="13" column="50" />
@@ -765,7 +765,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">CiAgICAgICAgICAgICAgICB3aXRoIGl0KCdoYXMgbGluayBjb3VudHMnKToKICAgICAgICAgICAgICAgICAgICBleHBlY3Qoc29scl9qc29uKGN0X3VyaSgnY2xpbmljYWxfdHJpYWwnKSwgJ29udG9mb3JjZV9zcGVjX2N0X2xpbmtfY291bnRzX3NzJykpLiBcCiAgICAgICAgICAgICAgICAgICAgICAgIHRvKGNvbnRhaW4oe2N0X3VyaSgnY291bnRyeScpOiA1fSkpCg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmluc3RhbmNlX2xpbmtzID0gW10K</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -779,27 +779,27 @@
       <register name="0" type="2">
         <text encoding="base64">CiAgICAgICAgICAgICAgICB3aXRoIGl0KCdoYXMgbGluayBjb3VudHMnKToKICAgICAgICAgICAgICAgICAgICBleHBlY3Qoc29scl9qc29uKGN0X3VyaSgnY2xpbmljYWxfdHJpYWwnKSwgJ29udG9mb3JjZV9zcGVjX2N0X2xpbmtfY291bnRzX3NzJykpLiBcCiAgICAgICAgICAgICAgICAgICAgICAgIHRvKGNvbnRhaW4oe2N0X3VyaSgnY291bnRyeScpOiA1fSkpCg==</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBzZWxmLmluc3RhbmNlX2xpbmtzID0gW10K</text>
+      </register>
+      <register name="q" type="4">
+        <text />
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBjdF9saW5rcyA9IFt7J3VyaSc6IGtleSwgJ2NvdW50JzogdmFsdWV9IGZvciBrZXksIHZhbHVlIGluIGN0X2xpbmtzLml0ZW1zKCldCg==</text>
+      </register>
+      <register name="3" type="4">
         <text>contain(prop('clin_trial/start_date'),
                                    prop('clin_trial/enrolled'),
                                    prop('clin_trial/budget'),
                                    prop('clin_trial/end_date'),
                                    prop('clin_trial/country')))</text>
       </register>
-      <register name="q" type="4">
-        <text />
-      </register>
-      <register name="2" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICBkZWYgYWRkX3RvX3NvbHJfanNvbihzZWxmLCBqc29uOiBEaWN0W3N0ciwgQW55XSwgaW5zdGFuY2VfbWFwcGVyLCBpbnN0YW5jZV9wcmVkaWNhdGVfaW5mbywgaW5zdGFuY2VfaW5jb21pbmdfY3RzKToK</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">CiAgICAgICAgd2l0aCBpdCgncmFpc2VzIGZvciB1bmtub3duIHByZWRpY2F0ZScpOgogICAgICAgICAgICBleHBlY3QobGFtYmRhOiBleGlzdGluZ19wcmVkaWNhdGVfdmFsaWRhdG9yKCdwcmVkaWNhdGUucmV2JykpLiBcCiAgICAgICAgICAgICAgICB0byhyYWlzZV9lcnJvcihNZXRpc0Vycm9yLCAnVW5rbm93biBwcmVkaWNhdGUgaW52YWxpZCcpKQo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgd2l0aCBwYXRjaCgnbWV0aXNfc2V0dGluZ3MuU2V0dGluZ3Muc2luZ2xldG9uLm1ldGlzX2luZm8uY29sdW1uX2luZm9zJywgc2VsZi5tb2NrX2NvbHVtbl9pbmZvcyk6Cg==</text>
-      </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgd2l0aCBwYXRjaCgnbWV0aXNfc2V0dGluZ3MuU2V0dGluZ3Muc2luZ2xldG9uLm1ldGlzX2luZm8uY29sdW1uX2luZm9zJywgc2VsZi5tb2NrX2NvbHVtbl9pbmZvcyk6Cg==</text>
+        <text encoding="base64">CiAgICAgICAgd2l0aCBpdCgncmFpc2VzIGZvciB1bmtub3duIHByZWRpY2F0ZScpOgogICAgICAgICAgICBleHBlY3QobGFtYmRhOiBleGlzdGluZ19wcmVkaWNhdGVfdmFsaWRhdG9yKCdwcmVkaWNhdGUucmV2JykpLiBcCiAgICAgICAgICAgICAgICB0byhyYWlzZV9lcnJvcihNZXRpc0Vycm9yLCAnVW5rbm93biBwcmVkaWNhdGUgaW52YWxpZCcpKQo=</text>
       </register>
       <register name="u" type="4">
         <keys>
