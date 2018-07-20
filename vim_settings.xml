@@ -49,6 +49,7 @@
       <file name="$USER_HOME$/.rvm/gems/ruby-2.2.4/gems/rspec-core-2.14.5/lib/rspec/core/example_group.rb" timestamp="1519912715081">
         <mark key="[" line="371" column="1" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/commands/introspect_run_action.py" timestamp="1531129911632" />
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/test_set_subject_label_action_spec.py" timestamp="1529330099479">
         <mark key="[" line="97" column="0" />
         <mark key="]" line="106" column="86" />
@@ -67,10 +68,8 @@
         <mark key="." line="9" column="0" />
         <mark key="^" line="9" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/data/ontologies/ct_clinicalstudy.ttl" timestamp="1531229189570">
-        <mark key="[" line="36" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/indexing_action.py" timestamp="1530630265666">
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/test_match_object_label_spec.py" timestamp="1532073236406" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/indexing_action.py" timestamp="1532073881435">
         <mark key="[" line="35" column="55" />
         <mark key="]" line="9" column="23" />
         <mark key="^" line="9" column="23" />
@@ -93,9 +92,16 @@
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/commands/introspect_pipeline_component_action.py" timestamp="1528296546738">
         <mark key="[" line="1" column="24" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/indexer.py" timestamp="1532074003011">
+        <mark key="[" line="543" column="104" />
+        <mark key="]" line="543" column="105" />
+        <mark key="^" line="543" column="105" />
+        <mark key="." line="543" column="105" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/data_entry.rb" timestamp="1511858752087">
         <mark key="[" line="121" column="37" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/test_authors_spec.py" timestamp="1531914167422" />
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/solr_index.rb" timestamp="1522850170901">
         <mark key="[" line="44" column="5" />
       </file>
@@ -215,6 +221,7 @@
         <mark key="]" line="19" column="0" />
         <mark key="." line="19" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/metis_info.py" timestamp="1532000087626" />
       <file name="/Clipboard.txt" timestamp="1515506467354">
         <mark key="[" line="0" column="0" />
       </file>
@@ -224,7 +231,7 @@
         <mark key="^" line="49" column="0" />
         <mark key="." line="49" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1532009756312">
+      <file name="/Python Console" timestamp="1532073898685">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1532008111345">
@@ -232,6 +239,7 @@
         <mark key="]" line="0" column="85" />
         <mark key="." line="0" column="85" />
       </file>
+      <file name="/pipeline.yml" timestamp="1531317110451" />
       <file name="$USER_HOME$/Disqover/data/sources/doctors/import/import.sh" timestamp="1523452406498">
         <mark key="[" line="0" column="17" />
       </file>
@@ -244,18 +252,10 @@
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/register_actions.py" timestamp="1528787000996">
         <mark key="[" line="17" column="42" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/data/countries_capitals.txt" timestamp="1530876757124">
-        <mark key="[" line="0" column="12" />
-      </file>
-      <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch.json" timestamp="1531475903961">
-        <mark key="[" line="0" column="33" />
-      </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/data/clin_trial.txt" timestamp="1530879676800">
-        <mark key="[" line="6" column="57" />
-      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/index_test/facets-local.rq" timestamp="1517495680049">
         <mark key="[" line="39" column="76" />
       </file>
+      <file name="/test_countries_spec.py" timestamp="1530862680202" />
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/test_action_spec.py" timestamp="1528296494932">
         <mark key="[" line="21" column="28" />
       </file>
@@ -286,6 +286,7 @@
         <mark key="." line="23" column="0" />
         <mark key="^" line="23" column="31" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/component_action.py" timestamp="1532073987226" />
       <file name="$USER_HOME$/Disqover/disqover-backend/index_test/facets-remote.rq" timestamp="1517495712622">
         <mark key="[" line="13" column="50" />
       </file>
@@ -338,9 +339,13 @@
         <mark key="." line="3" column="0" />
         <mark key="^" line="3" column="34" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/pipeline.yml" timestamp="1532072108591">
-        <mark key="[" line="34" column="38" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/pipeline.yml" timestamp="1532074640991">
+        <mark key="[" line="569" column="34" />
+        <mark key="]" line="565" column="66" />
+        <mark key="^" line="565" column="66" />
+        <mark key="." line="565" column="66" />
       </file>
+      <file name="/disqover_canonical_type.py" timestamp="1530629628308" />
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/candidate_histogram_facat_params_service.rb" timestamp="1501661095050">
         <mark key="[" line="0" column="0" />
       </file>
@@ -356,6 +361,7 @@
         <mark key="^" line="93" column="6" />
         <mark key="." line="92" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/helpers.py" timestamp="1531914487672" />
     </filemarks>
     <jumps>
       <jump line="717" column="10" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/filter_info_service_spec.rb" />
