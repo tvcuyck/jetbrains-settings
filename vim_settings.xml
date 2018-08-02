@@ -71,9 +71,6 @@
         <mark key="^" line="68" column="45" />
         <mark key="." line="68" column="45" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/connectors/sparql_connector.py" timestamp="1533197585783">
-        <mark key="[" line="17" column="85" />
-      </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/component_result.py" timestamp="1532690265995">
         <mark key="[" line="27" column="87" />
         <mark key="]" line="27" column="87" />
@@ -102,6 +99,12 @@
         <mark key="]" line="31" column="42" />
         <mark key="." line="31" column="42" />
         <mark key="^" line="31" column="42" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/data_configuration.py" timestamp="1533198975474">
+        <mark key="[" line="58" column="65" />
+        <mark key="]" line="58" column="53" />
+        <mark key="^" line="58" column="53" />
+        <mark key="." line="58" column="53" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/metis_info.py" timestamp="1532523028066">
         <mark key="[" line="125" column="45" />
@@ -437,7 +440,7 @@
         <mark key="." line="79" column="0" />
         <mark key="^" line="79" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1533193243164">
+      <file name="/Dummy.txt" timestamp="1533199016467">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/test_component_action_spec.py" timestamp="1532531214096">
@@ -599,7 +602,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICB3aXRoIGl0KCdhY2N1bXVsYXRlZCBhbmQgY2FwcyBvZiBhdCBtYXhfY291bnQnKToKICAgICAgICAgICAgd2wxID0gV2FybmluZ0xpc3QoJ0VtcHR5IHJlY29yZCcsICdpbiByZWNvcmQge3JlY19ucn0nLCBtYXhfY291bnQ9MykKICAgICAgICAgICAgd2wxLmFkZCh7J3JlY19ucic6IDF9KQogICAgICAgICAgICB3bDEuYWRkKHsncmVjX25yJzogMn0pCiAgICAgICAgICAgIHdsMiA9IFdhcm5pbmdMaXN0KCdFbXB0eSByZWNvcmQnLCAnaW4gcmVjb3JkIHtyZWNfbnJ9JywgbWF4X2NvdW50PTMpCiAgICAgICAgICAgIHdsMi5hZGQoeydyZWNfbnInOiAzfSkKICAgICAgICAgICAgd2wyLmFkZCh7J3JlY19ucic6IDR9KQogICAgICAgICAgICB3bDIuYWRkKHsncmVjX25yJzogNX0pCiAgICAgICAgICAgIHdsMS5hY2N1bXVsYXRlKHdsMikKICAgICAgICAgICAgZXhwZWN0KHdsMS5jb3VudCkudG8oZXF1YWwoNSkpCiAgICAgICAgICAgIGV4cGVjdCh3bDEuY29udGV4dHMpLnRvKGVxdWFsKFt7J3JlY19ucic6IDF9LCB7J3JlY19ucic6IDJ9LCB7J3JlY19ucic6IDN9XSkpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -611,26 +614,26 @@
         <text>ANY</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICB3aXRoIGl0KCdhY2N1bXVsYXRlZCBhbmQgY2FwcyBvZiBhdCBtYXhfY291bnQnKToKICAgICAgICAgICAgd2wxID0gV2FybmluZ0xpc3QoJ0VtcHR5IHJlY29yZCcsICdpbiByZWNvcmQge3JlY19ucn0nLCBtYXhfY291bnQ9MykKICAgICAgICAgICAgd2wxLmFkZCh7J3JlY19ucic6IDF9KQogICAgICAgICAgICB3bDEuYWRkKHsncmVjX25yJzogMn0pCiAgICAgICAgICAgIHdsMiA9IFdhcm5pbmdMaXN0KCdFbXB0eSByZWNvcmQnLCAnaW4gcmVjb3JkIHtyZWNfbnJ9JywgbWF4X2NvdW50PTMpCiAgICAgICAgICAgIHdsMi5hZGQoeydyZWNfbnInOiAzfSkKICAgICAgICAgICAgd2wyLmFkZCh7J3JlY19ucic6IDR9KQogICAgICAgICAgICB3bDIuYWRkKHsncmVjX25yJzogNX0pCiAgICAgICAgICAgIHdsMS5hY2N1bXVsYXRlKHdsMikKICAgICAgICAgICAgZXhwZWN0KHdsMS5jb3VudCkudG8oZXF1YWwoNSkpCiAgICAgICAgICAgIGV4cGVjdCh3bDEuY29udGV4dHMpLnRvKGVxdWFsKFt7J3JlY19ucic6IDF9LCB7J3JlY19ucic6IDJ9LCB7J3JlY19ucic6IDN9XSkpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgY29ubi5leGVjdXRlX3F1ZXJ5KHNlbGYuc3BhcnFsX3NldF9sYWJlbChjb25maWdfdXJpKSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgd2wxLmFkZCh7J3JlY19ucic6IDN9KQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="8">
-        <text encoding="base64">LCAKLCA=</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgd2wxLmFkZCh7J3JlY19ucic6IDN9KQo=</text>
       </register>
       <register name="3" type="8">
+        <text encoding="base64">LCAKLCA=</text>
+      </register>
+      <register name="4" type="8">
         <text>'label': 'foo'
 'label': 'bar'</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAjIGZvciB3YXJuaW5nIGluIG90aGVyLmNvbnRleHRzOgogICAgICAgICMgICAgIGlmIHNlbGYubWF4X2NvdW50ICE9IC0xIGFuZCBzZWxmLmNvdW50ID49IHNlbGYubWF4X2NvdW50OgogICAgICAgICMgICAgICAgICBicmVhawogICAgICAgICMgICAgIHNlbGYuYWRkKHdhcm5pbmcpCg==</text>
-      </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAjIGZvciB3YXJuaW5nIGluIG90aGVyLmNvbnRleHRzOgogICAgICAgICMgICAgIGlmIHNlbGYubWF4X2NvdW50ICE9IC0xIGFuZCBzZWxmLmNvdW50ID49IHNlbGYubWF4X2NvdW50OgogICAgICAgICMgICAgICAgICBicmVhawogICAgICAgICMgICAgIHNlbGYuYWRkKHdhcm5pbmcpCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -649,16 +652,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5jb250ZXh0cy5leHRlbmQob3RoZXIuY29udGV4dHMpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5jb3VudCA8IHNlbGYubWF4X2NvdW50Ogo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5jb250ZXh0cy5leHRlbmQob3RoZXIuY29udGV4dHMpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZWxpZjoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5jb3VudCA8IHNlbGYubWF4X2NvdW50Ogo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZWxpZjoK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
