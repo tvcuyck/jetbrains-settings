@@ -103,11 +103,11 @@
         <mark key="." line="31" column="42" />
         <mark key="^" line="31" column="42" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/data_configuration.py" timestamp="1533215753730">
-        <mark key="[" line="76" column="122" />
-        <mark key="]" line="77" column="0" />
-        <mark key="^" line="77" column="0" />
-        <mark key="." line="77" column="0" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/data_configuration.py" timestamp="1533218863848">
+        <mark key="[" line="85" column="68" />
+        <mark key="]" line="85" column="95" />
+        <mark key="^" line="85" column="43" />
+        <mark key="." line="85" column="44" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/metis_info.py" timestamp="1532523028066">
         <mark key="[" line="125" column="45" />
@@ -129,10 +129,10 @@
         <mark key="]" line="90" column="0" />
         <mark key="." line="90" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1533210112375">
+      <file name="/Python Console" timestamp="1533218676398">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/fragment.py" timestamp="1533133223218">
+      <file name="/fragment.py" timestamp="1533218953540">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -255,12 +255,12 @@
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/component_action.py" timestamp="1532440810351">
         <mark key="[" line="65" column="105" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/indexing/test_data_configuration_spec.py" timestamp="1533215571873">
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/indexing/test_data_configuration_spec.py" timestamp="1533219185853">
         <mark key="'" line="91" column="62" />
-        <mark key="[" line="90" column="78" />
-        <mark key="]" line="90" column="23" />
-        <mark key="." line="90" column="23" />
-        <mark key="^" line="90" column="23" />
+        <mark key="[" line="16" column="15" />
+        <mark key="]" line="16" column="22" />
+        <mark key="." line="16" column="22" />
+        <mark key="^" line="16" column="22" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/index_test/facets-remote.rq" timestamp="1517495712622">
         <mark key="[" line="13" column="50" />
@@ -612,7 +612,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGF0ZXRpbWUuZGF0ZXRpbWUuc3RycHRpbWUoc2VsZi5vYmouZ2VuZXJhdGVfY29uZmlnX3VyaSgpLnNwbGl0KCdfZ3JhcGhfJywgMSlbMV0sCg==</text>
+        <text encoding="base64">ICAgIHJlbW92ZSA9IHdoaXRlc3BhY2UK</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -623,26 +623,26 @@
       <register name="/" type="4">
         <text>ANY</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGF0ZXRpbWUuZGF0ZXRpbWUuc3RycHRpbWUoc2VsZi5vYmouZ2VuZXJhdGVfY29uZmlnX3VyaSgpLnNwbGl0KCdfZ3JhcGhfJywgMSlbMV0sCg==</text>
+      <register name="0" type="4">
+        <text>datetime.datetime.now().strftime(&quot;%Y%m%d%H%M%S%f&quot;)}</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG5vdF90byhyYWlzZV9lcnJvCg==</text>
+        <text encoding="base64">ICAgIHJlbW92ZSA9IHdoaXRlc3BhY2UK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgY3QgPSBNYWdpY01vY2soKQogICAgICAgICAgICAgICAgIyBjdF90dGwgPSAnPGE+IDxiPiAiYyIgLicKICAgICAgICAgICAgICAgICMgY3QudG9fdHRsLnJldHVybl92YWx1ZSA9IGN0X3R0bAogICAgICAgICAgICAgICAgIyBzZWxmLm9iai5jYW5vbmljYWxfdHlwZXMgPSBbY3RdCg==</text>
+        <text encoding="base64">ZGljdC5mcm9ta2V5cyhyZW1vdmUpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdCh0b19zcGFycWwpLnRvKGhhdmVfYmVlbl9jYWxsZWQpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIG5vdF90byhyYWlzZV9lcnJvCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdChzZWxmLm9iai5nZW5lcmF0ZV90dGwoKSkudG8oY29udGFpbihjdF90dGwpKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICMgY3QgPSBNYWdpY01vY2soKQogICAgICAgICAgICAgICAgIyBjdF90dGwgPSAnPGE+IDxiPiAiYyIgLicKICAgICAgICAgICAgICAgICMgY3QudG9fdHRsLnJldHVybl92YWx1ZSA9IGN0X3R0bAogICAgICAgICAgICAgICAgIyBzZWxmLm9iai5jYW5vbmljYWxfdHlwZXMgPSBbY3RdCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">dGhpcyA9ICdpbmRleGluZy5kYXRhX2NvbmZpZ3VyYXRpb24nCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdCh0b19zcGFycWwpLnRvKGhhdmVfYmVlbl9jYWxsZWQpCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -661,17 +661,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdChzZWxmLm9iai5nZW5lcmF0ZV90dGwoKSkudG8oY29udGFpbihjdF90dGwpKQo=</text>
       </register>
       <register name="7" type="2">
+        <text encoding="base64">dGhpcyA9ICdpbmRleGluZy5kYXRhX2NvbmZpZ3VyYXRpb24nCg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgd2wxLmFkZCh7J3JlY19ucic6IDN9KQo=</text>
-      </register>
-      <register name="8" type="8">
-        <text encoding="base64">LCAKLCA=</text>
-      </register>
-      <register name="9" type="8">
-        <text>'label': 'foo'
-'label': 'bar'</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
