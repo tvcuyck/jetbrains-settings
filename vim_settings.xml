@@ -47,11 +47,12 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/facet_configuration_repository_spec.rb" timestamp="1521186998014">
         <mark key="[" line="49" column="93" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/test_pipeline_spec.py" timestamp="1533630802122">
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/test_pipeline_spec.py" timestamp="1533631637484">
         <mark key="'" line="251" column="106" />
         <mark key="[" line="376" column="62" />
-        <mark key="]" line="352" column="0" />
-        <mark key="." line="352" column="0" />
+        <mark key="]" line="15" column="3" />
+        <mark key="." line="15" column="3" />
+        <mark key="^" line="15" column="3" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/column_info.py" timestamp="1533131351641">
         <mark key="[" line="51" column="39" />
@@ -89,6 +90,12 @@
         <mark key="]" line="223" column="0" />
         <mark key="." line="223" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/importers/test_xml_import_action_spec.py" timestamp="1533209900704">
+        <mark key="[" line="101" column="0" />
+        <mark key="]" line="101" column="71" />
+        <mark key="." line="101" column="29" />
+        <mark key="^" line="101" column="29" />
+      </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/coltypes/huri_column.py" timestamp="1529995131810">
         <mark key="[" line="30" column="29" />
         <mark key="]" line="43" column="34" />
@@ -100,6 +107,12 @@
         <mark key="]" line="31" column="42" />
         <mark key="." line="31" column="42" />
         <mark key="^" line="31" column="42" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/data_configuration.py" timestamp="1533222005902">
+        <mark key="[" line="84" column="55" />
+        <mark key="]" line="84" column="27" />
+        <mark key="^" line="84" column="27" />
+        <mark key="." line="84" column="27" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/metis_info.py" timestamp="1532523028066">
         <mark key="[" line="125" column="45" />
@@ -179,6 +192,12 @@
       <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/data/clin_trial.txt" timestamp="1530879676800">
         <mark key="[" line="6" column="57" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/partial_pipeline_run_3.yml" timestamp="1533631719932">
+        <mark key="[" line="6" column="21" />
+        <mark key="]" line="6" column="55" />
+        <mark key="^" line="6" column="20" />
+        <mark key="." line="6" column="21" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/index_test/facets-local.rq" timestamp="1517495680049">
         <mark key="[" line="39" column="76" />
       </file>
@@ -253,6 +272,13 @@
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/component_action.py" timestamp="1532440810351">
         <mark key="[" line="65" column="105" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/indexing/test_data_configuration_spec.py" timestamp="1533540615397">
+        <mark key="'" line="91" column="62" />
+        <mark key="[" line="107" column="148" />
+        <mark key="]" line="100" column="65" />
+        <mark key="." line="100" column="65" />
+        <mark key="^" line="100" column="65" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/index_test/facets-remote.rq" timestamp="1517495712622">
         <mark key="[" line="13" column="50" />
@@ -591,8 +617,8 @@
           <key char="65535" code="38" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYucGlwZWxpbmUuc2VsZWN0ZWRfY29tcG9uZW50X2d1aWRzID0gW10K</text>
+      <register name="&quot;" type="4">
+        <text>'a0000000000000000000000000000005'</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -603,8 +629,8 @@
       <register name="/" type="4">
         <text>ANY</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYucGlwZWxpbmUuc2VsZWN0ZWRfY29tcG9uZW50X2d1aWRzID0gWydhJ10K</text>
+      <register name="0" type="4">
+        <text>'a0000000000000000000000000000005'</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYucGlwZWxpbmUuc2VsZWN0ZWRfY29tcG9uZW50X2d1aWRzID0gW10K</text>
