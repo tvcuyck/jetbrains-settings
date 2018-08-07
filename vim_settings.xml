@@ -47,6 +47,12 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/facet_configuration_repository_spec.rb" timestamp="1521186998014">
         <mark key="[" line="49" column="93" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/test_pipeline_spec.py" timestamp="1533630802122">
+        <mark key="'" line="251" column="106" />
+        <mark key="[" line="376" column="62" />
+        <mark key="]" line="352" column="0" />
+        <mark key="." line="352" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/column_info.py" timestamp="1533131351641">
         <mark key="[" line="51" column="39" />
       </file>
@@ -83,12 +89,6 @@
         <mark key="]" line="223" column="0" />
         <mark key="." line="223" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/importers/test_xml_import_action_spec.py" timestamp="1533209900704">
-        <mark key="[" line="101" column="0" />
-        <mark key="]" line="101" column="71" />
-        <mark key="." line="101" column="29" />
-        <mark key="^" line="101" column="29" />
-      </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/coltypes/huri_column.py" timestamp="1529995131810">
         <mark key="[" line="30" column="29" />
         <mark key="]" line="43" column="34" />
@@ -100,12 +100,6 @@
         <mark key="]" line="31" column="42" />
         <mark key="." line="31" column="42" />
         <mark key="^" line="31" column="42" />
-      </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/data_configuration.py" timestamp="1533222005902">
-        <mark key="[" line="84" column="55" />
-        <mark key="]" line="84" column="27" />
-        <mark key="^" line="84" column="27" />
-        <mark key="." line="84" column="27" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/metis_info.py" timestamp="1532523028066">
         <mark key="[" line="125" column="45" />
@@ -127,7 +121,7 @@
         <mark key="]" line="90" column="0" />
         <mark key="." line="90" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1533222371389">
+      <file name="/Python Console" timestamp="1533630666776">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1533222387147">
@@ -352,11 +346,10 @@
         <mark key="." line="375" column="24" />
         <mark key="^" line="375" column="24" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/pipeline.py" timestamp="1533628861027">
-        <mark key="[" line="180" column="49" />
-        <mark key="]" line="180" column="49" />
-        <mark key="." line="180" column="0" />
-        <mark key="^" line="187" column="48" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/pipeline.py" timestamp="1533630653423">
+        <mark key="[" line="67" column="0" />
+        <mark key="]" line="67" column="0" />
+        <mark key="." line="67" column="0" />
       </file>
       <file name="/Ruby Console" timestamp="1527762360793">
         <mark key="[" line="0" column="0" />
@@ -489,7 +482,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="50" column="0" filename="$USER_HOME$/Disqover/disqover-backend/spec/repositories/candidate_histogram_facet_repository_spec.rb" />
       <jump line="0" column="0" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/federation_instance_service_spec.rb" />
       <jump line="40" column="0" filename="$USER_HOME$/Disqover/disqover-backend/app/controllers/instances_controller.rb" />
       <jump line="6" column="6" filename="$USER_HOME$/Disqover/disqover-backend/app/controllers/subfacet_controller.rb" />
@@ -589,6 +581,7 @@
       <jump line="3" column="0" filename="$USER_HOME$/Disqover/metis/execution_layer/sources/pipeline_run.py" />
       <jump line="114" column="31" filename="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/importers/test_csv_import_action_spec.py" />
       <jump line="91" column="62" filename="$USER_HOME$/Disqover/metis/execution_layer/spec/indexing/test_data_configuration_spec.py" />
+      <jump line="247" column="106" filename="$USER_HOME$/Disqover/metis/execution_layer/spec/test_pipeline_spec.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -599,7 +592,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgY29tcG9uZW50IGluIHNlbGYub3JkZXJlZF9jb21wb25lbnRzOgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYucGlwZWxpbmUuc2VsZWN0ZWRfY29tcG9uZW50X2d1aWRzID0gW10K</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -611,25 +604,25 @@
         <text>ANY</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBmb3IgY29tcG9uZW50IGluIHNlbGYub3JkZXJlZF9jb21wb25lbnRzOgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYucGlwZWxpbmUuc2VsZWN0ZWRfY29tcG9uZW50X2d1aWRzID0gWydhJ10K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYucGlwZWxpbmUuc2VsZWN0ZWRfY29tcG9uZW50X2d1aWRzID0gW10K</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHNlbGYucGlwZWxpbmUuc2VsZWN0ZWRfY29tcG9uZW50X2d1aWRzID0gWydhJ10K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwYXRjaCh0aGlzICsgJ3NldF9kaXJ0eV9mbGFncycpIGFzIHNldF9kaXJ0eSwgXAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGRlZiBzZXRfc2VsZWN0ZWRfZGlydHkoc2VsZik6CiAgICAgICAgc2VsZi53cml0ZV9sb2coJ1NldHRpbmcgc2VsZWN0ZWQgY29tcG9uZW50cyBkaXJ0eScpCiAgICAgICAgCiAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNoZWNrLnJldHVybl92YWx1ZSA9IFRydWUKICAgICAgICAgICAgICAgIGZsYWdzLnJldHVybl92YWx1ZSA9IFRydWUK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdChjaGVja19jaGFuZ2VzKS50byhoYXZlX2JlZW5fY2FsbGVkX29uY2Vfd2l0aCgpKQo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -648,19 +641,19 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnNvbHJfY29ubmVjdG9yLnRhc2tzX2RvbmUod2FpdD1UcnVlKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdChzZXRfYWxsX2RpcnR5KS50byhoYXZlX2JlZW5fY2FsbGVkX29uY2Vfd2l0aCgpKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICByZXN1bHQgKz0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwYXRjaCh0aGlzICsgJ3NldF9hbGxfZGlydHknKSBhcyBzZXRfYWxsX2RpcnR5LCBcCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi53cml0ZV9sb2coZidFeGVjdXRpbmcge2NvbXBvbmVudC5ndWlkfSAoe2krMX0ve059KScpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGFsaWdubWVudDogY291bnRyaQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi5zZXRfZGlydHlfZmxhZ3MoKQo=</text>
       </register>
       <register name=":" type="4">
-        <text>wq</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -713,9 +706,9 @@
         <entry>510</entry>
         <entry>67</entry>
         <entry>W</entry>
+        <entry>wq</entry>
         <entry>0</entry>
         <entry>w</entry>
-        <entry>wq</entry>
       </history-cmd>
       <history-expr />
       <history-input />
