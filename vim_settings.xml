@@ -57,17 +57,16 @@
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/commands/test_introspect_predicates_action_spec.py" timestamp="1528809481108">
         <mark key="[" line="28" column="33" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/federation_instance_service.rb" timestamp="1535983677026">
-        <mark key="[" line="11" column="0" />
-        <mark key="]" line="11" column="35" />
-        <mark key="^" line="36" column="82" />
-        <mark key="." line="37" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/federation_instance_service.rb" timestamp="1535984941083">
+        <mark key="[" line="162" column="27" />
+        <mark key="]" line="163" column="0" />
+        <mark key="." line="163" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/instance_export_service_spec.rb" timestamp="1535984066777">
-        <mark key="[" line="32" column="64" />
-        <mark key="]" line="32" column="56" />
-        <mark key="." line="32" column="56" />
-        <mark key="^" line="32" column="56" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/instance_export_service_spec.rb" timestamp="1535986564708">
+        <mark key="[" line="52" column="0" />
+        <mark key="]" line="52" column="0" />
+        <mark key="." line="52" column="0" />
+        <mark key="^" line="52" column="21" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/config/database.yml.example" timestamp="1535714585101">
         <mark key="[" line="124" column="3" />
@@ -216,12 +215,12 @@
         <mark key="[" line="4" column="0" />
         <mark key="]" line="4" column="39" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/instance_export_service.rb" timestamp="1535984526117">
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/instance_export_service.rb" timestamp="1535986185897">
         <mark key="a" line="10" column="30" />
-        <mark key="[" line="20" column="4" />
-        <mark key="]" line="50" column="57" />
-        <mark key="." line="50" column="57" />
-        <mark key="^" line="50" column="57" />
+        <mark key="[" line="38" column="5" />
+        <mark key="]" line="30" column="0" />
+        <mark key="." line="30" column="0" />
+        <mark key="^" line="39" column="39" />
       </file>
       <file name="/fragment.rb" timestamp="1535982434591">
         <mark key="[" line="0" column="0" />
@@ -298,8 +297,11 @@
         <mark key="^" line="46" column="12" />
         <mark key="." line="46" column="12" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_data_entry_repository.rb" timestamp="1535721040941">
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_data_entry_repository.rb" timestamp="1535985138706">
         <mark key="'" line="196" column="37" />
+        <mark key="[" line="218" column="0" />
+        <mark key="]" line="221" column="5" />
+        <mark key="." line="218" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/sparql/query/query_spec.rb" timestamp="1518610294851">
         <mark key="[" line="270" column="63" />
@@ -390,7 +392,7 @@
         <mark key="." line="88" column="100" />
         <mark key="^" line="88" column="100" />
       </file>
-      <file name="/Ruby Console" timestamp="1535983681476">
+      <file name="/Ruby Console" timestamp="1535985141800">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/metis/component.rb" timestamp="1525268820009">
@@ -442,7 +444,7 @@
         <mark key="." line="273" column="37" />
         <mark key="^" line="273" column="37" />
       </file>
-      <file name="/Dummy.txt" timestamp="1535700648980">
+      <file name="/Dummy.txt" timestamp="1535986624605">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -602,7 +604,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">CgogICAgICAgIGl0ICdhZGRzIGNvcnJlY3QgcHJvcGVydGllcyB0byBmaWxlJyBkbwogICAgICAgICAgY3N2X2ZpbGVbNF0uc2hvdWxkID09IFsiaHR0cDovL2lkZW50aWZpZXJzLm9yZy9uY2JpL2dlbmUvNSIsICJ3b3J0ZWwgbWFsYXJpYSIsICJBIHwgQiB8IEUiLCAiMjAwIiwgIjE1Il0KICAgICAgICBlbmQK</text>
+        <text encoding="base64">ICAgICAgIyBsZXQoOmNzdl9maWxlKSB7IENTVi5wYXJzZShzdWJqZWN0LndyaXRlX2Nzdl9maWxlKG1vY2tfZmlsZSwgZmlsdGVyLCBuaWwsIDpkZXNjLCBwcm9wZXJ0aWVzKS5zdHJpbmcpIH0K</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -614,25 +616,25 @@
         <text>_if</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CiAgICAgIGxldCg6cHJvcGVydGllcykgeyBbU3BhcnFsOjpVUklWYWx1ZS5uZXcoJ2h0dHA6Ly9sb2NhbC5vcmcvcHJvcHMvdGV4dCcpLAogICAgICAgICAgICAgICAgICAgICAgICAgIFNwYXJxbDo6VVJJVmFsdWUubmV3KCdodHRwOi8vbG9jYWwub3JnL3Byb3BzL2Z1bmN0aW9uJyksCiAgICAgICAgICAgICAgICAgICAgICAgICAgU3BhcnFsOjpVUklWYWx1ZS5uZXcoJ2h0dHA6Ly9sb2NhbC5vcmcvcHJvcHMvbnVtYmVyJyksCiAgICAgICAgICAgICAgICAgICAgICAgICAgU3BhcnFsOjpVUklWYWx1ZS5uZXcoJ2h0dHA6Ly9sb2NhbC5vcmcvcHJvcHMvY2hyb21vc29tZScpXSB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBtb2NrX2ZpbGUgPSBDU1YubmV3KCcnKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CgogICAgICAgIGl0ICdhZGRzIGNvcnJlY3QgcHJvcGVydGllcyB0byBmaWxlJyBkbwogICAgICAgICAgY3N2X2ZpbGVbNF0uc2hvdWxkID09IFsiaHR0cDovL2lkZW50aWZpZXJzLm9yZy9uY2JpL2dlbmUvNSIsICJ3b3J0ZWwgbWFsYXJpYSIsICJBIHwgQiB8IEUiLCAiMjAwIiwgIjE1Il0KICAgICAgICBlbmQK</text>
+        <text encoding="base64">ICAgICAgIyBsZXQoOmNzdl9maWxlKSB7IENTVi5wYXJzZShzdWJqZWN0LndyaXRlX2Nzdl9maWxlKG1vY2tfZmlsZSwgZmlsdGVyLCBuaWwsIDpkZXNjLCBwcm9wZXJ0aWVzKS5zdHJpbmcpIH0K</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQoOnByb3BlcnRpZXMpIHsgW1NwYXJxbDo6VVJJVmFsdWUubmV3KCdodHRwOi8vbG9jYWwub3JnL3Byb3BzL3RleHQnKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNwYXJxbDo6VVJJVmFsdWUubmV3KCdodHRwOi8vbG9jYWwub3JnL3Byb3BzL2Z1bmN0aW9uJyksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBTcGFycWw6OlVSSVZhbHVlLm5ldygnaHR0cDovL2xvY2FsLm9yZy9wcm9wcy9udW1iZXInKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNwYXJxbDo6VVJJVmFsdWUubmV3KCdodHRwOi8vbG9jYWwub3JnL3Byb3BzL2Nocm9tb3NvbWUnKV0gfQoK</text>
+        <text encoding="base64">ICAgICAgbGV0KDptb2NrX2ZpbGUpICB7IENTVi5uZXcoJycpIH0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQoOnByb3BlcnRpZXMpIHsgW1NwYXJxbDo6VVJJVmFsdWUubmV3KCdodHRwOi8vbG9jYWwub3JnL3Byb3BzL3RleHQnKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNwYXJxbDo6VVJJVmFsdWUubmV3KCdodHRwOi8vbG9jYWwub3JnL3Byb3BzL2Z1bmN0aW9uJyksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBTcGFycWw6OlVSSVZhbHVlLm5ldygnaHR0cDovL2xvY2FsLm9yZy9wcm9wcy9udW1iZXInKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNwYXJxbDo6VVJJVmFsdWUubmV3KCdodHRwOi8vbG9jYWwub3JnL3Byb3BzL2Nocm9tb3NvbWUnKV0gfQo=</text>
+        <text encoding="base64">ICAgIGVuZAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAjIGxldCg6c3ViamVjdCkgeyBJbnN0YW5jZUV4cG9ydFNlcnZpY2UubmV3KCkgfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -651,24 +653,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CiAgICBjb250ZXh0ICcjd3JpdGVfY3N2X2ZpbGUnIGRvCiAgICAgICMgY29udGV4dCAncHJvcGVydGllcycgZG8KICAgICAgIyAgIGxldCg6cHJvcGVydGllcykgeyBbU3BhcnFsOjpVUklWYWx1ZS5uZXcoJ2h0dHA6Ly9sb2NhbC5vcmcvcHJvcHMvdGV4dCcpLAogICAgICAjICAgICAgICAgICAgICAgICAgICAgICBTcGFycWw6OlVSSVZhbHVlLm5ldygnaHR0cDovL2xvY2FsLm9yZy9wcm9wcy9mdW5jdGlvbicpLAogICAgICAjICAgICAgICAgICAgICAgICAgICAgICBTcGFycWw6OlVSSVZhbHVlLm5ldygnaHR0cDovL2xvY2FsLm9yZy9wcm9wcy9udW1iZXInKSwKICAgICAgIyAgICAgICAgICAgICAgICAgICAgICAgU3BhcnFsOjpVUklWYWx1ZS5uZXcoJ2h0dHA6Ly9sb2NhbC5vcmcvcHJvcHMvY2hyb21vc29tZScpXSB9CiAgICAgICMKICAgICAgIyAgIGJlZm9yZSBkbwogICAgICAjICAgICBAY3N2ID0gQ1NWLm5ldygnJykKICAgICAgIyAgICAgQGNzdi5zdHViKDpwYXRoKS5hbmRfcmV0dXJuKCcvdG1wJykKICAgICAgIyAgICAgc3ViamVjdC5zdHViKDpnZXRfY3N2X2ZpbGUpLmFuZF9yZXR1cm4oQGNzdikKICAgICAgIyAgICAgc3ViamVjdC5leHBvcnRfaW5zdGFuY2VzX3RvX2Nzdl9maWxlKGZpbHRlciwgdHJ1ZSwgbmlsLCA6ZGVzYywgcHJvcGVydGllcykKICAgICAgIyAgIGVuZAogICAgICAjCiAgICAgICMgICBsZXQoOmNzdl9maWxlKSB7IENTVi5wYXJzZShAY3N2LnN0cmluZykgfQogICAgICAjCiAgICAgICMgICBpdCAnYWRkcyBoZWFkZXIgdG8gZmlsZScgZG8KICAgICAgIyAgICAgY3N2X2ZpbGVbMF0uc2hvdWxkID09IFsiaWQiLCAiVGV4dCIsICJGdW5jdGlvbiIsICJOdW1iZXIiLCAiQ2hyb21vc29tZSJdCiAgICAgICMgICBlbmQKICAgICAgIwogICAgICAjICAgaXQgJ2FkZHMgY29ycmVjdCBwcm9wZXJ0aWVzIHRvIGZpbGUnIGRvCiAgICAgICMgICAgIGNzdl9maWxlWzRdLnNob3VsZCA9PSBbImh0dHA6Ly9pZGVudGlmaWVycy5vcmcvbmNiaS9nZW5lLzUiLCAid29ydGVsIG1hbGFyaWEiLCAiQSB8IEIgfCBFIiwgIjIwMCIsICIxNSJdCiAgICAgICMgICBlbmQKICAgICAgIyBlbmQKICAgIGVuZAo=</text>
+        <text encoding="base64">CiAgZGVmIGdldF9jc3ZfZmlsZShmaWxlX25hbWUsIG9wdGlvbnMpCiAgICBpZiBvcHRpb25zWzp0YWJfc2VwXSBhbmQgb3B0aW9uc1s6dGFiX3NlcF0gPT0gdHJ1ZQogICAgICBjc3Zfb3B0aW9ucyA9IENzdkV4cG9ydFNlcnZpY2U6OkNTVl9UQUJfU0VQCiAgICBlbHNlCiAgICAgIGNzdl9vcHRpb25zID0gQ3N2RXhwb3J0U2VydmljZTo6Q1NWX0NPTU1BX1NFUAogICAgZW5kCiAgICBmaWxlID0gQ1NWLm9wZW4oZmlsZV9uYW1lLCAndycsIGNzdl9vcHRpb25zKQogIGVuZAo=</text>
       </register>
-      <register name="7" type="4">
-        <text>[&quot;boerenkool&quot;,
-                                                         &quot;influenza witloof priapism&quot;,
-                                                         &quot;pilleke&quot;,
-                                                         &quot;pilleke prei pilleke&quot;,
-                                                         &quot;prei&quot;]</text>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="4">
-        <text>[&quot;wortel priapism&quot;,
-                                                         &quot;wortel pilleke priapism&quot;,
-                                                         &quot;wortel pilleke&quot;,
-                                                         &quot;wortel malaria&quot;,
-                                                         &quot;siroop herpes prei&quot;]</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICBpdCAnaW5pdGlhbGl6ZXMgY29tbWEgc2VwYXJhdGVkIGNzdiBieSBkZWZhdWx0JyBkbwogICAgICAgICAgb3B0aW9ucyA9IHt9CiAgICAgICAgICBDU1Yuc2hvdWxkX3JlY2VpdmUoOm9wZW4pLndpdGgoYW55dGhpbmcsICd3JywgaGFzaF9pbmNsdWRpbmcoY29sX3NlcDogJywnKSkuYW5kX2NhbGxfb3JpZ2luYWwKICAgICAgICAgIHN1YmplY3QuZXhwb3J0X2luc3RhbmNlc190b19jc3ZfZmlsZShmaWx0ZXIsICdodHRwOi8vbG9jYWwub3JnL3Byb3BzL3RleHQnLCA6ZGVzYywgcHJvcGVydGllcywgb3B0aW9ucykKICAgICAgICBlbmQK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CiAgICAgICAgIyBiZWZvcmUgZG8KICAgICAgICAjICAgbW9ja19maWxlID0gQ1NWLm5ldygnJykKICAgICAgICAjICAgY3N2X2ZpbGUgPQogICAgICAgICMgZW5kCg==</text>
+        <text encoding="base64">ICAgICAgICAgIHN1YmplY3QuZXhwb3J0X2luc3RhbmNlc190b19jc3ZfZmlsZShmaWx0ZXIsICdodHRwOi8vbG9jYWwub3JnL3Byb3BzL3RleHQnLCA6ZGVzYywgcHJvcGVydGllcywgb3B0aW9ucykK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
