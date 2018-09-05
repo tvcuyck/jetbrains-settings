@@ -56,10 +56,11 @@
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/commands/test_introspect_predicates_action_spec.py" timestamp="1528809481108">
         <mark key="[" line="28" column="33" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/federation_instance_service.rb" timestamp="1535984941083">
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/federation_instance_service.rb" timestamp="1536072810518">
         <mark key="[" line="162" column="27" />
-        <mark key="]" line="163" column="0" />
-        <mark key="." line="163" column="0" />
+        <mark key="]" line="99" column="82" />
+        <mark key="." line="99" column="82" />
+        <mark key="^" line="99" column="82" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/instance_export_service_spec.rb" timestamp="1536069553094">
         <mark key="[" line="23" column="35" />
@@ -225,7 +226,7 @@
         <mark key="." line="60" column="7" />
         <mark key="^" line="60" column="7" />
       </file>
-      <file name="/fragment.rb" timestamp="1536062246904">
+      <file name="/fragment.rb" timestamp="1536072431203">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -390,6 +391,11 @@
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/test_set_object_uri_action_spec.py" timestamp="1528359341288">
         <mark key="[" line="105" column="46" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/federation_service.rb" timestamp="1536072756588">
+        <mark key="[" line="168" column="34" />
+        <mark key="]" line="169" column="44" />
+        <mark key="." line="168" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/metis_execution_service.rb" timestamp="1531734059143">
         <mark key="[" line="34" column="68" />
       </file>
@@ -402,7 +408,7 @@
         <mark key="." line="88" column="100" />
         <mark key="^" line="88" column="100" />
       </file>
-      <file name="/Ruby Console" timestamp="1536066199314">
+      <file name="/Ruby Console" timestamp="1536072380990">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/metis/component.rb" timestamp="1525268820009">
@@ -468,11 +474,10 @@
         <mark key="." line="89" column="34" />
         <mark key="^" line="89" column="34" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/federation_instance_service_spec.rb" timestamp="1536071923688">
-        <mark key="[" line="4362" column="24" />
-        <mark key="]" line="4362" column="11" />
-        <mark key="." line="4362" column="10" />
-        <mark key="^" line="4362" column="10" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/federation_instance_service_spec.rb" timestamp="1536073040130">
+        <mark key="[" line="4365" column="73" />
+        <mark key="]" line="4313" column="0" />
+        <mark key="." line="4313" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/lens_repository.rb" timestamp="1535612079035">
         <mark key="[" line="183" column="35" />
@@ -614,7 +619,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBlbmQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBubyBzb3J0YWJsZSBwcm9wZXJ0eSBmb3VuZCA/Cg==</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -626,10 +631,10 @@
         <text>_if</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBlbmQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICByYWlzZSAnSW52YWxpZCBvcmRlcicgaWYgcGFyYW1zLmtleT8oOm9yZGVyX2J5KSAmJiBvcmRlcl9ieSAhPSAnYXNjJyAmJiBvcmRlcl9ieSE9ICdkZXNjJwogICAgICAgICAgICAgIGRpcmVjdGlvbiA9IHBhcmFtc1s6ZGlyZWN0aW9uXQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBubyBzb3J0YWJsZSBwcm9wZXJ0eSBmb3VuZCA/Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -638,10 +643,10 @@
         <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
@@ -663,16 +668,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICB9LnRvIHJhaXNlX2Vycm9yKFN5c3RlbUNvbmZpZ3VyYXRpb25FcnJvciwgbWF0Y2goJ2Rpc2sgc3BhY2UgcmVtYWluaW5nJykpCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBleHBlY3Qgewo=</text>
+        <text encoding="base64">ICAgICAgICB9LnRvIHJhaXNlX2Vycm9yKFN5c3RlbUNvbmZpZ3VyYXRpb25FcnJvciwgbWF0Y2goJ2Rpc2sgc3BhY2UgcmVtYWluaW5nJykpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBkZXNjcmliZWRfY2xhc3MuYW55X2luc3RhbmNlLnN0dWIoOmVub3VnaF9kaXNrX3NwYWNlX2F2YWlsYWJsZT8pLmFuZF9yZXR1cm4oZmFsc2UpCg==</text>
+        <text encoding="base64">ICAgICAgICBleHBlY3Qgewo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBkZXNjcmliZWRfY2xhc3MuYW55X2luc3RhbmNlLnN0dWIoOmVub3VnaF9kaXNrX3NwYWNlX2F2YWlsYWJsZT8pLmFuZF9yZXR1cm4oZmFsc2UpCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
