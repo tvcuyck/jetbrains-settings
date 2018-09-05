@@ -215,7 +215,7 @@
         <mark key="." line="60" column="7" />
         <mark key="^" line="60" column="7" />
       </file>
-      <file name="/fragment.rb" timestamp="1536138256508">
+      <file name="/fragment.rb" timestamp="1536139909788">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -286,12 +286,12 @@
         <mark key="^" line="46" column="12" />
         <mark key="." line="46" column="12" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_data_entry_repository.rb" timestamp="1536134342603">
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_data_entry_repository.rb" timestamp="1536141251449">
         <mark key="'" line="200" column="37" />
         <mark key="[" line="187" column="45" />
-        <mark key="]" line="187" column="5" />
-        <mark key="." line="187" column="5" />
-        <mark key="^" line="187" column="5" />
+        <mark key="]" line="58" column="0" />
+        <mark key="." line="58" column="0" />
+        <mark key="^" line="58" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/sparql/query/query_spec.rb" timestamp="1518610294851">
         <mark key="[" line="270" column="63" />
@@ -374,10 +374,11 @@
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/test_set_object_uri_action_spec.py" timestamp="1528359341288">
         <mark key="[" line="105" column="46" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/federation_service.rb" timestamp="1536138025636">
-        <mark key="[" line="196" column="16" />
-        <mark key="]" line="197" column="17" />
-        <mark key="." line="195" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/federation_service.rb" timestamp="1536141219268">
+        <mark key="[" line="167" column="65" />
+        <mark key="]" line="146" column="23" />
+        <mark key="." line="146" column="23" />
+        <mark key="^" line="146" column="23" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/metis_execution_service.rb" timestamp="1531734059143">
         <mark key="[" line="34" column="68" />
@@ -391,7 +392,7 @@
         <mark key="." line="88" column="100" />
         <mark key="^" line="88" column="100" />
       </file>
-      <file name="/Ruby Console" timestamp="1536138213637">
+      <file name="/Ruby Console" timestamp="1536140474036">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/metis/component.rb" timestamp="1525268820009">
@@ -587,13 +588,13 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBmYWNldHMgPSBwYXJhbXNbOmZhY2V0c10ubWFwIHsgfHh8IDo6RmFjZXQubmV3KHgpIH0gaWYgcGFyYW1zWzpmYWNldHNdCg==</text>
       </register>
       <register name="i" type="4">
         <text />
       </register>
       <register name="-" type="4">
-        <text>arams[:deep_paging] = (options[:deep_paging] == true)</text>
+        <text>params[:limit].try(:to_i) || 20</text>
       </register>
       <register name="/" type="4">
         <text>_if</text>
@@ -602,22 +603,22 @@
         <text encoding="base64">ICAgIHAK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBmYWNldHMgPSBwYXJhbXNbOmZhY2V0c10ubWFwIHsgfHh8IDo6RmFjZXQubmV3KHgpIH0gaWYgcGFyYW1zWzpmYWNldHNdCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHBhcmFtc1s6ZGVlcF9wYWdpbmddID0gKG9wdGlvbnNbOmRlZXBfcGFnaW5nXSA9PSB0cnVlKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBsaW1pdCA9IHBhcmFtc1s6bGltaXRdLnRyeSg6dG9faSkgfHwgMjAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBpZiBkZWVwX3BhZ2luZyA9PSB0cnVlCiAgICAgICAgICAgICAgICBkZWVwX3BhZ2luZyA9IHNvbHJfcmVzdWx0WzpkZWVwX3BhZ2luZ10KICAgICAgICAgICAgICBlbmQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBkaXJlY3Rpb24gPSBwYXJhbXNbOmRpcmVjdGlvbl0K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIEByZW1vdGVfY3Vyc29ybWFybCA9IHJlc3VsdFs6Y3Vyc29ybWFya10K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICByZWxhdGlvbl9pbnN0YW5jZXMgPSBwYXJhbXNbOnJlbGF0aW9uX2luc3RhbmNlc10K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGVuZAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBkaXJlY3Rpb24gPSBwYXJhbXNbOmRpcmVjdGlvbl0K</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -636,16 +637,17 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBkZWVwX3BhZ2luZyA9IHBhcmFtc1s6ZGVlcF9wYWdpbmddCiAgICAgICAgICAgICAgY3Vyc29ybWFyayA9IHBhcmFtc1s6Y3Vyc29ybWFya10K</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIHJlc2N1ZSA9PiBlCg==</text>
+      <register name="7" type="4">
+        <text>limit:limit, direction:direction, order_by: order_by, properties: properties,
+                           relation_instances: relation_instances, facets: facets</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGJlZ2luCg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHJlc3VsdAo=</text>
+        <text encoding="base64">ICAgIHBhcmFtc1s6ZGVlcF9wYWdpbmddID0gKG9wdGlvbnNbOmRlZXBfcGFnaW5nXSA9PSB0cnVlKQo=</text>
       </register>
       <register name=":" type="4">
         <text>183</text>
