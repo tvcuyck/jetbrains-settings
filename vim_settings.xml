@@ -11,6 +11,12 @@
         <mark key="^" line="121" column="0" />
         <mark key="." line="121" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend-2/app/models/plugins/external_search_plugin.rb" timestamp="1536241738965">
+        <mark key="[" line="89" column="71" />
+        <mark key="]" line="89" column="71" />
+        <mark key="^" line="88" column="24" />
+        <mark key="." line="89" column="71" />
+      </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/item_storage.py" timestamp="1529927009391">
         <mark key="[" line="12" column="44" />
         <mark key="]" line="22" column="0" />
@@ -56,6 +62,10 @@
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/commands/test_introspect_predicates_action_spec.py" timestamp="1528809481108">
         <mark key="[" line="28" column="33" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend-2/app/services/metis_execution_service.rb" timestamp="1536241562574">
+        <mark key="[" line="28" column="0" />
+        <mark key="]" line="29" column="62" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/federation_instance_service.rb" timestamp="1536147396691">
         <mark key="[" line="76" column="60" />
@@ -579,8 +589,9 @@
           <key char="65535" code="38" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>data: data_dir, template: template_location,
+                                            options: options</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -592,25 +603,26 @@
         <text>_if</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGlmIG9wdGlvbnNbOmRlZXBfcGFnaW5nXSA9PSB0cnVlCiAgICAgIEByZW1vdGVfY3Vyc29ybWFyayA9IHJlc3VsdC5yZXN1bHRbJ2RlZXBfcGFnaW5nJ11bJ2N1cnNvcm1hcmsnXQogICAgICBAcmVtb3RlX3F0aW1lID0gcmVzdWx0LnJlc3VsdFsnZGVlcF9wYWdpbmcnXVsncXRpbWUnXQogICAgZW5kCg==</text>
+        <text encoding="base64">ICAgIEFjdGl2ZVN1cHBvcnQ6Ok5vdGlmaWNhdGlvbnMuaW5zdHJ1bWVudCAnbWV0aXMubWV0aXNfcXVlcnknLCBkYXRhOiBkYXRhX2RpciwgdGVtcGxhdGU6IHRlbXBsYXRlX2xvY2F0aW9uLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9wdGlvbnM6IG9wdGlvbnMgZG8K</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="4">
+        <text>data: data_dir, template: template_location,
+                                            options: options</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGlmIG9wdGlvbnNbOmRlZXBfcGFnaW5nXSA9PSB0cnVlCiAgICAgIGdldF9uZXh0X2RlZXBfcGFnZShmaWx0ZXIsIG9wdGlvbnMgPSB7fSkgCiAgICBlbmQK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBmYWNldHMgPSBwYXJhbXNbOmZhY2V0c10ubWFwIHsgfHh8IDo6RmFjZXQubmV3KHgpIH0gaWYgcGFyYW1zWzpmYWNldHNdCg==</text>
+        <text encoding="base64">ICAgIGlmIG9wdGlvbnNbOmRlZXBfcGFnaW5nXSA9PSB0cnVlCiAgICAgIGdldF9uZXh0X2RlZXBfcGFnZShmaWx0ZXIsIG9wdGlvbnMgPSB7fSkgCiAgICBlbmQK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBsaW1pdCA9IHBhcmFtc1s6bGltaXRdLnRyeSg6dG9faSkgfHwgMjAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBmYWNldHMgPSBwYXJhbXNbOmZhY2V0c10ubWFwIHsgfHh8IDo6RmFjZXQubmV3KHgpIH0gaWYgcGFyYW1zWzpmYWNldHNdCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBkaXJlY3Rpb24gPSBwYXJhbXNbOmRpcmVjdGlvbl0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBsaW1pdCA9IHBhcmFtc1s6bGltaXRdLnRyeSg6dG9faSkgfHwgMjAK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -629,17 +641,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICByZWxhdGlvbl9pbnN0YW5jZXMgPSBwYXJhbXNbOnJlbGF0aW9uX2luc3RhbmNlc10K</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICBkaXJlY3Rpb24gPSBwYXJhbXNbOmRpcmVjdGlvbl0K</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBkZWVwX3BhZ2luZyA9IHBhcmFtc1s6ZGVlcF9wYWdpbmddCiAgICAgICAgICAgICAgY3Vyc29ybWFyayA9IHBhcmFtc1s6Y3Vyc29ybWFya10K</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICByZWxhdGlvbl9pbnN0YW5jZXMgPSBwYXJhbXNbOnJlbGF0aW9uX2luc3RhbmNlc10K</text>
       </register>
-      <register name="9" type="4">
-        <text>limit:limit, direction:direction, order_by: order_by, properties: properties,
-                           relation_instances: relation_instances, facets: facets</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICBkaXJlY3Rpb24gPSBwYXJhbXNbOmRpcmVjdGlvbl0K</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICBkZWVwX3BhZ2luZyA9IHBhcmFtc1s6ZGVlcF9wYWdpbmddCiAgICAgICAgICAgICAgY3Vyc29ybWFyayA9IHBhcmFtc1s6Y3Vyc29ybWFya10K</text>
       </register>
       <register name=":" type="4">
         <text>183</text>
