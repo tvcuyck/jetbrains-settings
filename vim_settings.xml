@@ -412,7 +412,7 @@
         <mark key="." line="88" column="100" />
         <mark key="^" line="88" column="100" />
       </file>
-      <file name="/Ruby Console" timestamp="1536147447057">
+      <file name="/Ruby Console" timestamp="1536587785916">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/metis/component.rb" timestamp="1525268820009">
@@ -445,6 +445,12 @@
         <mark key="." line="3" column="0" />
         <mark key="^" line="99" column="6" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/filter_info_service.rb" timestamp="1536588026952">
+        <mark key="[" line="411" column="25" />
+        <mark key="]" line="412" column="41" />
+        <mark key="." line="412" column="41" />
+        <mark key="^" line="412" column="41" />
+      </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/set_subject_label_action.py" timestamp="1529399663791">
         <mark key="[" line="10" column="101" />
         <mark key="]" line="35" column="106" />
@@ -463,7 +469,7 @@
         <mark key="." line="273" column="37" />
         <mark key="^" line="273" column="37" />
       </file>
-      <file name="/Dummy.txt" timestamp="1536581698737">
+      <file name="/Dummy.txt" timestamp="1536588116716">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -487,6 +493,12 @@
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/candidate_histogram_facat_params_service.rb" timestamp="1501661095050">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/filter_info_service_spec.rb" timestamp="1536588092408">
+        <mark key="[" line="1362" column="59" />
+        <mark key="]" line="1362" column="68" />
+        <mark key="." line="1362" column="68" />
+        <mark key="^" line="1362" column="68" />
       </file>
       <file name="$USER_HOME$/Disqover/data/sources/doctors/inference/inference.sh" timestamp="1523453039065">
         <mark key="[" line="0" column="16" />
@@ -615,13 +627,13 @@
         <text />
       </register>
       <register name="-" type="4">
-        <text>params[:limit].try(:to_i) || 20</text>
+        <text>Filter.search(query: 'aspirin', only_semantic: true),</text>
       </register>
       <register name="/" type="4">
         <text>_if</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CiAgZGVmIGRlYnVnKCphcmdzLCAmYmxvY2spCiAgICByZXR1cm4gdW5sZXNzIGxvZ2dlcgogICAgbG9nZ2VyLmRlYnVnKCphcmdzLCAmYmxvY2spCiAgZW5kCg==</text>
+        <text encoding="base64">CiAgZGVmIHNlbGYuY29udGFpbnNfcmFuZ2U/KGZpbHRlcikKICAgIGZpbHRlci5hbnk/IHt8ZnwgZi5vcGVyYXRvciA9PSA6cmFuZ2V9CiAgZW5kCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -629,17 +641,17 @@
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">OiB0ZW1wbGF0ZV9sb2NhdGlvbiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvcHRpb25zOiBvcHRpb25zIA==</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgIGRlc2NyaWJlZF9jbGFzcy5jYW5fc3RpY2tfdG9fcmVtb3RlPyhGaWx0ZXIucm9vdCgK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICBGaWx0ZXIuYW5kKFtGaWx0ZXIuZXF1YWxzKGZhY2V0OkZhY2V0LnR5cGUsIHZhbHVlOidjZnY6YXNzYXknKSwKICAgICAgICAgICAgICAgICAgICAgICAgICBGaWx0ZXIubGlua2VkKEZpbHRlci5hbGwpXSkpKS5zaG91bGQgYmVfZmFsc2UK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGVsc2UK</text>
+        <text encoding="base64">ICAgICAgICAgIEZpbHRlckluZm9TZXJ2aWNlLnN0dWIoOmNhbm9uaWNhbF90eXBlX2luX2xpbmspLmFuZF9yZXR1cm4oU3R1Yjo6Q2Fub25pY2FsVHlwZS5hc3NheSkK</text>
       </register>
-      <register name="5" type="8">
-        <text encoding="base64">IyAKIyAKIyAKIyAKIyAKIyA=</text>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -657,18 +669,17 @@
           <key char="65535" code="37" mods="0" />
         </keys>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIGpzb24gPSBhcmd1bWVudHMK</text>
+      <register name="6" type="4">
+        <text encoding="base64">OiB0ZW1wbGF0ZV9sb2NhdGlvbiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvcHRpb25zOiBvcHRpb25zIA==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgcmV0dXJuIHJlc3VsdCAK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="8" type="4">
-        <text>data: data_dir, template: template_location,
-                                            options: options</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIGVsc2UK</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="9" type="8">
+        <text encoding="base64">IyAKIyAKIyAKIyAKIyAKIyA=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
