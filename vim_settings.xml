@@ -66,11 +66,11 @@
         <mark key="^" line="69" column="68" />
         <mark key="." line="69" column="68" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/instance_export_service_spec.rb" timestamp="1536749543334">
-        <mark key="[" line="279" column="57" />
-        <mark key="]" line="279" column="55" />
-        <mark key="." line="279" column="55" />
-        <mark key="^" line="279" column="55" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/instance_export_service_spec.rb" timestamp="1536762538800">
+        <mark key="'" line="2" column="16" />
+        <mark key="[" line="271" column="0" />
+        <mark key="]" line="271" column="0" />
+        <mark key="." line="271" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/config/database.yml.example" timestamp="1535714585101">
         <mark key="[" line="125" column="3" />
@@ -223,11 +223,11 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/index_test/facets-local.rq" timestamp="1517495680049">
         <mark key="[" line="39" column="76" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/instance_export_service.rb" timestamp="1536760007634">
-        <mark key="[" line="55" column="87" />
-        <mark key="]" line="54" column="45" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/instance_export_service.rb" timestamp="1536762378088">
+        <mark key="[" line="55" column="0" />
+        <mark key="]" line="55" column="0" />
         <mark key="^" line="54" column="45" />
-        <mark key="." line="54" column="45" />
+        <mark key="." line="55" column="0" />
       </file>
       <file name="/fragment.rb" timestamp="1536591892828">
         <mark key="[" line="0" column="0" />
@@ -269,10 +269,10 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/export_controller.rb" timestamp="1536761837498">
-        <mark key="[" line="8" column="0" />
-        <mark key="]" line="8" column="0" />
-        <mark key="." line="8" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/export_controller.rb" timestamp="1536761957405">
+        <mark key="[" line="31" column="20" />
+        <mark key="]" line="31" column="21" />
+        <mark key="." line="31" column="20" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/link_predicate_service.rb" timestamp="1531469107341">
         <mark key="[" line="94" column="8" />
@@ -458,6 +458,11 @@
         <mark key="^" line="32" column="74" />
         <mark key="." line="32" column="74" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/controllers/export_controller_spec.rb" timestamp="1536762474497">
+        <mark key="[" line="27" column="0" />
+        <mark key="]" line="27" column="0" />
+        <mark key="." line="27" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/configuration_service.rb" timestamp="1526560972356">
         <mark key="[" line="207" column="0" />
       </file>
@@ -491,7 +496,7 @@
         <mark key="." line="273" column="37" />
         <mark key="^" line="273" column="37" />
       </file>
-      <file name="/Dummy.txt" timestamp="1536742648476">
+      <file name="/Dummy.txt" timestamp="1536762634862">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -539,7 +544,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="22" column="0" filename="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" />
       <jump line="4252" column="17" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/federation_instance_service_spec.rb" />
       <jump line="781" column="10" filename="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" />
       <jump line="787" column="8" filename="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" />
@@ -639,6 +643,7 @@
       <jump line="57" column="29" filename="$USER_HOME$/Disqover/disqover-backend/spec/models/managed_file_spec.rb" />
       <jump line="196" column="37" filename="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_data_entry_repository.rb" />
       <jump line="68" column="120" filename="$USER_HOME$/Disqover/disqover-backend/app/models/plugins/external_search_plugin.rb" />
+      <jump line="2" column="16" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/instance_export_service_spec.rb" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -649,13 +654,13 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CiAgY29udGV4dCAnb3RoZXInIGRvCiAgICBiZWZvcmUgZG8KICAgICAgc3ViamVjdC5zdHViKDpjaGVja19wcm9wZXJ0aWVzKQogICAgZW5kCgogICAgaXQgJ3dvcmtzJyBkbwogICAgICBwcm9wZXJ0aWVzID0gW1NwYXJxbDo6VVJJVmFsdWUubmV3KCJodHRwOi8vcmRmLmZhcm1iaW8udXUuc2UvY2hlbWJsL29udG8vI2hhc0Rlc2NyaXB0aW9uIildCiAgICAgIHN1YmplY3QuZXhwb3J0X2luc3RhbmNlc190b19jc3ZfZmlsZShTdHViOjpGaWx0ZXIud2l0aF93b3JraW5nX2luc3RhbmNlX2NvbnN0cmFpbnQsIG5pbCwgOmRlc2MsIHByb3BlcnRpZXMpCgogICAgZW5kCiAgZW5kCg==</text>
       </register>
       <register name="i" type="4">
         <text />
       </register>
       <register name="-" type="4">
-        <text>PluginError', message: exception.message}]}, status: 400 and return</text>
+        <text>e</text>
       </register>
       <register name="/" type="4">
         <text>_if</text>
@@ -664,19 +669,19 @@
         <text encoding="base64">ICAgICAgICAgIHN1YmplY3QuaW5zdGFuY2VzX3RvX2NzdihbU3R1Yjo6RGF0YUVudHJ5Lm11bHRpbGluZV9kb3VibGVfcXVvdGUsIG5pbF0pLnNob3VsZCA9PSA8PC1DU1YKaWQsaGFzRGVzY3JpcHRpb24KaHR0cDovL2RhdGEua2FzYWJpLmNvbS9kYXRhc2V0L2NoZW1ibC1yZGYvYXNzYXkvYTg4MTUyLCJMb3JlbSBpcHN1bSBkb2xvciBhbWV0IGxhIGNyb2l4IGVkaXNvbiBidWxiIGhvdCBjaGlja2VuLlxuIFNpbmdsZS1vcmlnaW4gY29mZmVlIGFlc3RoZXRpYyBjaGFtYnJheS4iCiAgICAgICAgICBDU1YK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CiAgY29udGV4dCAnb3RoZXInIGRvCiAgICBiZWZvcmUgZG8KICAgICAgc3ViamVjdC5zdHViKDpjaGVja19wcm9wZXJ0aWVzKQogICAgZW5kCgogICAgaXQgJ3dvcmtzJyBkbwogICAgICBwcm9wZXJ0aWVzID0gW1NwYXJxbDo6VVJJVmFsdWUubmV3KCJodHRwOi8vcmRmLmZhcm1iaW8udXUuc2UvY2hlbWJsL29udG8vI2hhc0Rlc2NyaXB0aW9uIildCiAgICAgIHN1YmplY3QuZXhwb3J0X2luc3RhbmNlc190b19jc3ZfZmlsZShTdHViOjpGaWx0ZXIud2l0aF93b3JraW5nX2luc3RhbmNlX2NvbnN0cmFpbnQsIG5pbCwgOmRlc2MsIHByb3BlcnRpZXMpCgogICAgZW5kCiAgZW5kCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgKS5hbmRfcmV0dXJuKHtlbnRyaWVzOiBbXSwgY291bnQ6IDB9KQoK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CiAgIyBCT00gPSAiXDM3N1wzNzYiLmZvcmNlX2VuY29kaW5nKEVuY29kaW5nOjpCSU5BUlkpLmZyZWV6ZQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgIyBtYWtlIHN1cmUgZXhjZWwgb3BlbnMgdGhlIGZpbGUgaW1tZWRpYXRlbHkKICAgICAgIyBjc3YgPSBCT00gKyBjc3YuZW5jb2RlKEVuY29kaW5nOjpVVEZfMTZMRSkuZm9yY2VfZW5jb2RpbmcoRW5jb2Rpbmc6OkJJTkFSWSkK</text>
+        <text encoding="base64">ICAgICAgaW5zdGFuY2VzX2JhdGNoID0gW1N0dWI6OkRhdGFFbnRyeS5zdHViXzEsIFN0dWI6OkRhdGFFbnRyeS5tdWx0aWxpbmVfZG91YmxlX3F1b3RlLCBTdHViOjpEYXRhRW50cnkuZW50cnlfd2l0aF9jb21tYV0K</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
@@ -701,10 +706,10 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICBDU1ZfRU5DT0RJTkcgPSB7IGV4dGVybmFsX2VuY29kaW5nOiAiSVNPODg1OS0xIiwKICAgICAgICAgICAgICAgICAgIGludGVybmFsX2VuY29kaW5nOiAidXRmLTgiIH0K</text>
+        <text encoding="base64">ICAgICAgIyBib20gPSAiXDM3N1wzNzYiCg==</text>
       </register>
-      <register name="8" type="8">
-        <text>.with_working_instance_constraint</text>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -763,9 +768,9 @@
         <entry>113</entry>
         <entry>69</entry>
         <entry>183</entry>
-        <entry>0</entry>
         <entry>W</entry>
         <entry>w</entry>
+        <entry>0</entry>
       </history-cmd>
       <history-expr />
       <history-input />
