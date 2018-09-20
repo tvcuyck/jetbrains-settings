@@ -223,11 +223,11 @@
         <mark key="]" line="62" column="57" />
         <mark key="." line="62" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/test_clin_trials_spec.py" timestamp="1537443956415">
-        <mark key="[" line="442" column="38" />
-        <mark key="]" line="442" column="38" />
-        <mark key="." line="442" column="38" />
-        <mark key="^" line="440" column="19" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/test_clin_trials_spec.py" timestamp="1537444779687">
+        <mark key="[" line="483" column="38" />
+        <mark key="]" line="483" column="38" />
+        <mark key="." line="483" column="38" />
+        <mark key="^" line="582" column="54" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/match_subject_label.py" timestamp="1533914774678">
         <mark key="[" line="8" column="0" />
@@ -438,7 +438,7 @@
         <mark key="^" line="118" column="0" />
         <mark key="." line="118" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/pipeline.yml" timestamp="1537442521036">
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/pipeline.yml" timestamp="1537444856867">
         <mark key="[" line="785" column="14" />
         <mark key="]" line="724" column="25" />
         <mark key="." line="724" column="25" />
@@ -577,39 +577,40 @@
         </keys>
       </register>
       <register name="&quot;" type="4">
-        <text>ppl.with_ds_tag('2010', 'clin_trial_gov'),
-                                      ppl.with_ds_tag('2011', 'clin_trial_gov')}</text>
+        <text>ppl.with_ds_tag('500', 'clin_trial_gov'),
+                                      ppl.with_ds_tag('600', 'clin_trial_gov')}</text>
       </register>
       <register name="i" type="4">
         <text />
       </register>
       <register name="-" type="4">
-        <text>f</text>
+        <text>ppl.with_ds_tag('200', 'clin_trial_gov')</text>
       </register>
       <register name="/" type="4">
         <text>ANY</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB3aXRoIGl0KCdoYXMgbXVsdGlwbGUgcHJvcGVydHkgdmFsdWVzJyk6CiAgICAgICAgICAgICAgICAgICAgICAgIGV4cGVjdChzb2xyX2pzb24oTlRDMDAwNTc1X3VyaSwgJ3N0YXJ0X3llYXJfbG4nKSkuIFwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvKGVxdWFsKHtwcGwud2l0aF9kc190YWcoJzIwMTAnLCAnY2xpbl90cmlhbF9nb3YnKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcGwud2l0aF9kc190YWcoJzIwMTEnLCAnY2xpbl90cmlhbF9nb3YnKX0pKQo=</text>
+        <text encoding="base64">CiAgICAgICAgICAgICAgICAgICAgd2l0aCBpdCgnaGFzIG11bHRpcGxlIHByb3BlcnR5IHZhbHVlcycpOgogICAgICAgICAgICAgICAgICAgICAgICBleHBlY3Qoc29scl9qc29uKE5UQzAwMDU3NV91cmksICdidWRnZXRfbG4nKSkuIFwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvKGVxdWFsKHtwcGwud2l0aF9kc190YWcoJzEwMDAuMScsICdjbGluX3RyaWFsX2dvdicpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBwbC53aXRoX2RzX3RhZygnMjAwMC4yJywgJ2NsaW5fdHJpYWxfZ292Jyl9KSkK</text>
       </register>
       <register name="1" type="4">
-        <text>ppl.with_ds_tag('2010', 'clin_trial_gov'),
-                                      ppl.with_ds_tag('2011', 'clin_trial_gov')}</text>
+        <text>ppl.with_ds_tag('500', 'clin_trial_gov'),
+                                      ppl.with_ds_tag('600', 'clin_trial_gov')}</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcGwud2l0aF9kc190YWcoJzIwMTEnLCAnY2xpbl90cmlhbF9nb3YnKX0pKQo=</text>
+      <register name="2" type="4">
+        <text>ppl.with_ds_tag('2010', 'clin_trial_gov'),
+                                      ppl.with_ds_tag('2011', 'clin_trial_gov')}</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcGwud2l0aF9kc190YWcoJzIwMTEnLCAnY2xpbl90cmlhbF9nb3YnKX0pKWRkCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcGwud2l0aF9kc190YWcoJzIwMTEnLCAnY2xpbl90cmlhbF9nb3YnKX0pKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvKGVxdWFsKHsnMTk4OSd9KSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcGwud2l0aF9kc190YWcoJzIwMTEnLCAnY2xpbl90cmlhbF9nb3YnKX0pKWRkCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvKHJhaXNlX2Vycm9yKFJ1bnRpbWVFcnJvciwgbWF0Y2gocidGaWVsZCBzdGFydF95ZWFyX2lzIG5vdCBmb3VuZCcpKSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvKGVxdWFsKHsnMTk4OSd9KSkK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -628,16 +629,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHdpdGggaXQoJ2hhcyBwcm9wZXJ0eSB2YWx1ZScpOgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvKHJhaXNlX2Vycm9yKFJ1bnRpbWVFcnJvciwgbWF0Y2gocidGaWVsZCBzdGFydF95ZWFyX2lzIG5vdCBmb3VuZCcpKSkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnNvbHJfc29ydF9maWVsZCA9IHNlbGYuZ2V0X3NvbHJfc29ydF9maWVsZCgpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIHdpdGggaXQoJ2hhcyBwcm9wZXJ0eSB2YWx1ZScpOgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnN1ZmZpeCA9IHNlbGYuZGF0YV90eXBlX2luZm9bZGF0YV90eXBlXS5zdWZmaXgK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnNvbHJfc29ydF9maWVsZCA9IHNlbGYuZ2V0X3NvbHJfc29ydF9maWVsZCgpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwcm9wLmRhdGFfdHlwZSA9IG9wdGlvbnNbJ2RhdGFUeXBlJ10uZ2V0X3ZhbHVlKG9wdGlvbl92YWx1ZXMpCg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnN1ZmZpeCA9IHNlbGYuZGF0YV90eXBlX2luZm9bZGF0YV90eXBlXS5zdWZmaXgK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
