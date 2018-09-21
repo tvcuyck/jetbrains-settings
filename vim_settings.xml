@@ -188,10 +188,10 @@
         <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/pipeline_introspection.py" timestamp="1532348672053">
-        <mark key="[" line="187" column="26" />
-        <mark key="]" line="187" column="25" />
-        <mark key="^" line="187" column="25" />
-        <mark key="." line="187" column="25" />
+        <mark key="[" line="224" column="26" />
+        <mark key="]" line="224" column="25" />
+        <mark key="^" line="224" column="25" />
+        <mark key="." line="224" column="25" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/commands/test_get_executing_component_spec.py" timestamp="1537530538479">
         <mark key="[" line="10" column="0" />
@@ -232,6 +232,12 @@
         <mark key="]" line="45" column="90" />
         <mark key="^" line="45" column="90" />
         <mark key="." line="45" column="90" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/disqover_property.py" timestamp="1537536921714">
+        <mark key="[" line="123" column="50" />
+        <mark key="]" line="123" column="12" />
+        <mark key="." line="123" column="12" />
+        <mark key="^" line="109" column="80" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/match_subject_label.py" timestamp="1533914774678">
         <mark key="[" line="8" column="0" />
@@ -390,6 +396,12 @@
         <mark key="^" line="2" column="10" />
         <mark key="." line="2" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/indexing/test_disqover_property_spec.py" timestamp="1537536929221">
+        <mark key="[" line="134" column="94" />
+        <mark key="]" line="134" column="113" />
+        <mark key="." line="134" column="113" />
+        <mark key="^" line="134" column="113" />
+      </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/set_subject_uri_action.py" timestamp="1533914745329">
         <mark key="[" line="1" column="0" />
         <mark key="]" line="1" column="0" />
@@ -429,10 +441,10 @@
         <mark key="]" line="5" column="0" />
         <mark key="." line="5" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/disqover_facet.py" timestamp="1537533719159">
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="3" column="0" />
-        <mark key="." line="3" column="0" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/disqover_facet.py" timestamp="1537536537673">
+        <mark key="[" line="82" column="49" />
+        <mark key="]" line="82" column="49" />
+        <mark key="." line="82" column="49" />
         <mark key="^" line="51" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/transform_record_action.py" timestamp="1533914738009">
@@ -440,7 +452,7 @@
         <mark key="]" line="3" column="0" />
         <mark key="." line="3" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1537534113673">
+      <file name="/Dummy.txt" timestamp="1537537002322">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -603,38 +615,38 @@
           <key char="65535" code="38" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ZnJvbSBpbmRleGluZy5kaXNxb3Zlcl9jYW5vbmljYWxfdHlwZSBpbXBvcnQgRGF0YVR5cGVJbmZvCg==</text>
+      <register name="&quot;" type="4">
+        <text>'</text>
       </register>
       <register name="i" type="4">
         <text />
       </register>
       <register name="-" type="4">
-        <text>ID('b000000000000000000000000000000b')</text>
+        <text>'</text>
       </register>
       <register name="/" type="4">
         <text>ANY</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CiAgICAgICAgd2l0aCBjb250ZXh0KCdhbGwgZGlmZmVyZW50Jyk6CiAgICAgICAgICAgIHdpdGggYmVmb3JlLmVhY2g6CiAgICAgICAgICAgICAgICBzZWxmLm1vY2tfY29tcG9uZW50X3Jlc3VsdHMgPSBjcmVhdGVfbW9ja19jb21wb25lbnRfcmVzdWx0cygKICAgICAgICAgICAgICAgICAgICAoZ3VpZF9hLCB7J2FjdGlvbl9ndWlkJzogc3RyKGd1aWRfYSksICdhY3Rpb24nOiAnbGlzdCd9LCBOb25lLCBOb25lLCBGYWxzZSksCiAgICAgICAgICAgICAgICAgICAgKGd1aWRfYiwgeydhY3Rpb25fZ3VpZCc6IHN0cihndWlkX2IpLCAnYWN0aW9uJzogJ3Rlc3QnfSwgTm9uZSwgTm9uZSwgVHJ1ZSkpCgogICAgICAgICAgICAgICAgc3RhcnRfcGF0Y2hlcygKICAgICAgICAgICAgICAgICAgICBwYXRjaCgnbWV0aXNfc2V0dGluZ3MuU2V0dGluZ3Muc2luZ2xldG9uLm1ldGlzX2luZm8uY29tcG9uZW50X3Jlc3VsdHMnLCBzZWxmLm1vY2tfY29tcG9uZW50X3Jlc3VsdHMpCiAgICAgICAgICAgICAgICApCgogICAgICAgICAgICB3aXRoIGFmdGVyLmVhY2g6CiAgICAgICAgICAgICAgICBzdG9wX3BhdGNoZXMoKQoKICAgICAgICAgICAgd2l0aCBpdCgnd29ya3MnKToKICAgICAgICAgICAgICAgIGV4cGVjdChzZWxmLmFjdGlvbi5leGVjdXRlX2NvbW1hbmQoeydjb21wb25lbnRzJzogW2NtcF9jLCBjbXBfZF19KSkudG8oZXF1YWwoW2d1aWRfYywgZ3VpZF9kXSkpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdCh0dGwpLnRvKG1hdGNoKHInPGh0dHA6Ly9vbnRvZm9yY2UuY29tL3Byb3BlcnRpZXMvY291bnRyeT4gZGlzcTpzb3J0YWJsZSAiWSIgLicpKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ZnJvbSBpbmRleGluZy5kaXNxb3Zlcl9jYW5vbmljYWxfdHlwZSBpbXBvcnQgRGF0YVR5cGVJbmZvCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgc2VsZi5kYXRlX2ZhY2V0KCk6Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZnJvbSBpbmRleGluZy5kaXNxb3Zlcl9jYW5vbmljYWxfdHlwZSBpbXBvcnQgRGF0YVR5cGVJbmZvCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdCh0dGwpLnRvKG1hdGNoKHInPGh0dHA6Ly9vbnRvZm9yY2UuY29tL3Byb3BlcnRpZXMvY291bnRyeT4gYSBkaXNxOkluc3RhbmNlUHJvcGVydHkgLicpKQogICAgICAgICAgICAgICAgZXhwZWN0KHR0bCkudG8obWF0Y2gocic8aHR0cDovL29udG9mb3JjZS5jb20vcHJvcGVydGllcy9jb3VudHJ5PiBkaXNxOnJlbGF0ZWRDYW5vbmljYWxUeXBlIDxodHRwOi8vb250b2ZvcmNlLmNvbS9jdHMvQ2xpbmljYWxUcmlhbD4gLicpKQogICAgICAgICAgICAgICAgZXhwZWN0KHR0bCkudG8obWF0Y2gocic8aHR0cDovL29udG9mb3JjZS5jb20vcHJvcGVydGllcy9jb3VudHJ5PiByZGZzOmxhYmVsICJDb3VudHJ5IiAuJykpCiAgICAgICAgICAgICAgICBleHBlY3QodHRsKS50byhtYXRjaChyJzxodHRwOi8vb250b2ZvcmNlLmNvbS9wcm9wZXJ0aWVzL2NvdW50cnk+IGRpc3E6ZGVzY3JpcHRpb24gImJsYWJsYVxcbiIgLicpKQogICAgICAgICAgICAgICAgZXhwZWN0KHR0bCkudG8obWF0Y2gocic8aHR0cDovL29udG9mb3JjZS5jb20vcHJvcGVydGllcy9jb3VudHJ5PiBkaXNxOnN1YlR5cGUgPHN1YnR5cGU+IC4nKSkKICAgICAgICAgICAgICAgIGV4cGVjdCh0dGwpLnRvKG1hdGNoKHInPGh0dHA6Ly9vbnRvZm9yY2UuY29tL3Byb3BlcnRpZXMvY291bnRyeT4gZGlzcTpwcm9wZXJ0eSA8aHR0cDovL2R1bW15LnVyaS5vcmc+IC4nKSkKICAgICAgICAgICAgICAgIGV4cGVjdCh0dGwpLnRvKG1hdGNoKHInPGh0dHA6Ly9vbnRvZm9yY2UuY29tL3Byb3BlcnRpZXMvY291bnRyeT4gZGlzcTpyZW5kZXJlciA8cmVuZGVyZXI+IC4nKSkKICAgICAgICAgICAgICAgIGV4cGVjdCh0dGwpLnRvKG1hdGNoKHInPGh0dHA6Ly9vbnRvZm9yY2UuY29tL3Byb3BlcnRpZXMvY291bnRyeT4gZGlzcTp0ZW1wbGF0ZSAidGVtcGxhdGUiIC4nKSkKICAgICAgICAgICAgICAgIGV4cGVjdCh0dGwpLnRvKG1hdGNoKHInPGh0dHA6Ly9vbnRvZm9yY2UuY29tL3Byb3BlcnRpZXMvY291bnRyeT4gZGlzcTpvcmRlcl9ieSA8b3JkZXJfYnk+IC4nKSkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ZnJvbSB0eXBpbmcgaW1wb3J0IE5hbWVkVHVwbGUKCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdCh0dGwpLnRvKG1hdGNoKHInPGh0dHA6Ly9vbnRvZm9yY2UuY29tL3Byb3BlcnRpZXMvY291bnRyeT4gZGlzcTpub0luZGV4ICJZIiAuJykpCiAgICAgICAgICAgICAgICBleHBlY3QodHRsKS50byhtYXRjaChyJzxodHRwOi8vb250b2ZvcmNlLmNvbS9wcm9wZXJ0aWVzL2NvdW50cnk+IGRpc3E6dmlzaWJsZUZvckdyb3VwICJtZHMiIC4nKSkKICAgICAgICAgICAgICAgIGV4cGVjdCh0dGwpLnRvKG1hdGNoKHInPGh0dHA6Ly9vbnRvZm9yY2UuY29tL3Byb3BlcnRpZXMvY291bnRyeT4gZGlzcTptaXhlZFNlY3VyaXR5VmFsdWVzICJZIiAuJykpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CmNsYXNzIERhdGFUeXBlSW5mbyhOYW1lZFR1cGxlKToKICAgIHN1ZmZpeDogc3RyCiAgICB2YWxpZGF0b3I6IENhbGxhYmxlCgoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAnbm9faW5kZXgnOiBUcnVlLAogICAgICAgICAgICAgICAgICAgICd2aXNpYmxlX2Zvcl9ncm91cHMnOiBbJ21kcyddLAogICAgICAgICAgICAgICAgICAgICdtaXhlZF9zZWN1cml0eV92YWx1ZXMnOiBUcnVlCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZnJvbSB0eXBpbmcgaW1wb3J0IE5hbWVkVHVwbGUKCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAncmVuZGVyZXInOiAncmVuZGVyZXInLAogICAgICAgICAgICAgICAgICAgICd0ZW1wbGF0ZSc6ICd0ZW1wbGF0ZScsCiAgICAgICAgICAgICAgICAgICAgJ29yZGVyX2J5JzogJ29yZGVyX2J5JywK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -653,16 +665,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZnJvbSB1bml0dGVzdC5tb2NrIGltcG9ydCBwYXRjaCwgTWFnaWNNb2NrCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CmRlZiB2YWxpZGF0ZV9kYXRhX3R5cGUoZGF0YV90eXBlOiBzdHIpIC0+IE5vbmU6CiAgICBpZiBkYXRhX3R5cGUgYW5kIGRhdGFfdHlwZSBub3QgaW4gRGlzcW92ZXJTb3J0YWJsZVByb3BlcnR5VG9Tb2xyTWFwcGVyLmRhdGFfdHlwZV9pbmZvLmtleXMoKToKICAgICAgICByYWlzZSBNZXRpc0Vycm9yKGYnVGhlIGRhdGEgdHlwZSB7ZGF0YV90eXBlfSBpcyB1bmtub3duJykK</text>
+        <text encoding="base64">ZnJvbSBjdXN0b21fbWF0Y2hlcnMgaW1wb3J0IGhhdmVfYmVlbl9jYWxsZWRfdGltZXMK</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CmNsYXNzIERhdGFUeXBlSW5mbyhOYW1lZFR1cGxlKToKICAgIHN1ZmZpeDogc3RyCiAgICB2YWxpZGF0b3I6IENhbGxhYmxlCg==</text>
+        <text encoding="base64">ZnJvbSBpbmRleGluZy5kaXNxb3Zlcl9jYW5vbmljYWxfdHlwZSBpbXBvcnQgRGF0YVR5cGVJbmZvCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -719,8 +731,8 @@
         <entry>67</entry>
         <entry>W</entry>
         <entry>wq</entry>
-        <entry>w</entry>
         <entry>0</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
