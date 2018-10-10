@@ -285,7 +285,8 @@
         <mark key="^" line="69" column="20" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/chebi_pipeline.yml" timestamp="1539160114895" />
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/indexer.py" timestamp="1539003289792">
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/indexer.py" timestamp="1539169081133">
+        <mark key="'" line="692" column="20" />
         <mark key="[" line="318" column="27" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/test_pipeline_introspection_spec.py" timestamp="1538484204591">
@@ -486,6 +487,7 @@
         <mark key="." line="63" column="0" />
       </file>
       <file name="/test_component_qc_spec.py" timestamp="1539093896845" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/column_content_type.py" timestamp="1539169140811" />
       <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/helpers.py" timestamp="1539157563670">
         <mark key="[" line="16" column="43" />
         <mark key="]" line="16" column="42" />
@@ -500,14 +502,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="4498" column="23" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/federation_facet_service_spec.rb" />
-      <jump line="429" column="28" filename="$USER_HOME$/Disqover/disqover-backend/app/services/subfacet_service.rb" />
-      <jump line="430" column="7" filename="$USER_HOME$/Disqover/disqover-backend/app/services/subfacet_service.rb" />
-      <jump line="826" column="39" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/subfacet_service_spec.rb" />
-      <jump line="1160" column="10" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/subfacet_service_spec.rb" />
-      <jump line="186" column="31" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/subfacet_service_spec.rb" />
-      <jump line="166" column="0" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/federation_service_spec.rb" />
-      <jump line="239" column="0" filename="$USER_HOME$/Disqover/disqover-backend/app/services/federation_service.rb" />
       <jump line="215" column="0" filename="$USER_HOME$/Disqover/disqover-backend/app/services/federation_facet_service.rb" />
       <jump line="9770" column="53" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/federation_facet_service_spec.rb" />
       <jump line="593" column="0" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/federation_subfacet_service_spec.rb" />
@@ -600,6 +594,14 @@
       <jump line="55" column="24" filename="$USER_HOME$/Disqover/metis/execution_layer/spec/test_pipeline_spec.py" />
       <jump line="135" column="50" filename="$USER_HOME$/Disqover/metis/execution_layer/spec/test_metis_settings_spec.py" />
       <jump line="382" column="47" filename="$USER_HOME$/Disqover/metis/execution_layer/integration/countries_companies_clin_trials.yml" />
+      <jump line="708" column="35" filename="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/indexer.py" />
+      <jump line="707" column="24" filename="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/indexer.py" />
+      <jump line="699" column="39" filename="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/indexer.py" />
+      <jump line="696" column="32" filename="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/indexer.py" />
+      <jump line="695" column="66" filename="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/indexer.py" />
+      <jump line="694" column="44" filename="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/indexer.py" />
+      <jump line="693" column="23" filename="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/indexer.py" />
+      <jump line="692" column="20" filename="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/indexer.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -619,7 +621,7 @@
         <text>)</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDwqXD4=</text>
+        <text>instance</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGVmYXVsdF93YXJuaW5nX2xldmVsPTAuOCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGVmYXVsdF9lcnJvcl9sZXZlbD0wLjk5OTkpKQo=</text>
@@ -675,9 +677,9 @@
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDwqXD4=</last-search>
+      <last-search>instance</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDwqXD4=</last-pattern>
+      <last-pattern>instance</last-pattern>
       <last-replace>is false</last-replace>
       <last-substitute>WASTRUE</last-substitute>
       <last-dir>1</last-dir>
@@ -685,7 +687,6 @@
     </search>
     <history>
       <history-search>
-        <entry>.cnt</entry>
         <entry>cnt</entry>
         <entry>co</entry>
         <entry>directly</entry>
@@ -705,6 +706,7 @@
         <entry>rougly</entry>
         <entry>rough</entry>
         <entry encoding="base64">XDwqXD4=</entry>
+        <entry>instance</entry>
       </history-search>
       <history-cmd>
         <entry>180</entry>
