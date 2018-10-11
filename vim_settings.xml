@@ -153,7 +153,7 @@
         <mark key="." line="49" column="7" />
         <mark key="^" line="49" column="7" />
       </file>
-      <file name="/Python Console" timestamp="1539246709883">
+      <file name="/Python Console" timestamp="1539247827228">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1539175358846">
@@ -271,9 +271,9 @@
         <mark key="^" line="59" column="60" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/component_action.py" timestamp="1539246714667">
-        <mark key="[" line="122" column="0" />
-        <mark key="]" line="122" column="0" />
-        <mark key="." line="122" column="0" />
+        <mark key="[" line="125" column="0" />
+        <mark key="]" line="125" column="0" />
+        <mark key="." line="125" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/commands/get_dirty_components.py" timestamp="1537873006252">
         <mark key="[" line="0" column="0" />
@@ -349,10 +349,10 @@
         <mark key="^" line="13" column="31" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/test_set_object_uri_action_spec.py" timestamp="1539246708283">
-        <mark key="[" line="772" column="27" />
-        <mark key="]" line="773" column="0" />
-        <mark key="." line="773" column="0" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/test_set_object_uri_action_spec.py" timestamp="1539247881745">
+        <mark key="[" line="781" column="65" />
+        <mark key="]" line="781" column="65" />
+        <mark key="." line="781" column="37" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/test_mamba_spec.py" timestamp="1532003657101">
         <mark key="[" line="0" column="0" />
@@ -472,9 +472,6 @@
         <mark key="]" line="320" column="83" />
         <mark key="." line="320" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1539242688859">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/test_create_subtype_action_spec.py" timestamp="1538052384091">
         <mark key="[" line="36" column="0" />
         <mark key="]" line="36" column="0" />
@@ -487,11 +484,6 @@
         <mark key="[" line="70" column="60" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/sparql_utils.py" timestamp="1539001818281" />
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/extract_distinct_action.py" timestamp="1539089055240">
-        <mark key="[" line="63" column="0" />
-        <mark key="]" line="63" column="0" />
-        <mark key="." line="63" column="0" />
-      </file>
       <file name="/test_component_qc_spec.py" timestamp="1539093896845" />
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/column_content_type.py" timestamp="1539169140811" />
       <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/helpers.py" timestamp="1539157563670">
@@ -617,8 +609,8 @@
           <key char="65535" code="38" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJldiA9IENvbXBvbmVudEludHJvc3BlY3Rpb25JbmZvKCkKICAgICAgICAgICAgcHJldi5hZGRfb3V0cHV0KCdzcC5saXQnLCAnc2EnKQogICAgICAgICAgICBwcmV2LmFkZF9vdXRwdXQoJ2Rpc3E6dXJpLmh1cmknLCAnc2EnKQogICAgICAgICAgICBwcmV2LmFkZF9vdXRwdXQoJ2Rpc3E6dXJpLmh1cmknLCAnZGEnKQogICAgICAgICAgICBwcmV2LmFkZF9vdXRwdXRfZGF0YV9zb3VyY2UoJ3Rlc3RfZHNfdXJpJykK</text>
+      <register name="&quot;" type="4">
+        <text>data_sources=['test_ds_uri']</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -629,8 +621,8 @@
       <register name="/" type="4">
         <text>instance</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">CiAgICAgICAgd2l0aCBpdCgndmFsaWRhdGVzIHFjIGlucHV0Jyk6CiAgICAgICAgICAgIHByZXYgPSBDb21wb25lbnRJbnRyb3NwZWN0aW9uSW5mbygpCiAgICAgICAgICAgIHByZXYuYWRkX291dHB1dCgnc3AubGl0JywgJ3NhJykKICAgICAgICAgICAgcHJldi5hZGRfb3V0cHV0KCdkaXNxOnVyaS5odXJpJywgJ3NhJykKICAgICAgICAgICAgcHJldi5hZGRfb3V0cHV0KCdkaXNxOnVyaS5odXJpJywgJ2RhJykKICAgICAgICAgICAgcHJldi5hZGRfb3V0cHV0X2RhdGFfc291cmNlKCd0ZXN0X2RzX3VyaScpCiAgICAgICAgICAgIGV4aXN0aW5nID0gQ29tcG9uZW50SW50cm9zcGVjdGlvbkluZm8oKQogICAgICAgICAgICBleGlzdGluZy5hZGRfcHJlZGVjZXNzb3JfaW5mbyhwcmV2KQogICAgICAgICAgICBvcHRpb25zID0gb3B0aW9uc192YWx1ZXMocWNfZnJhY3Rpb25fdW5tYXRjaGVkPXsnd2FybmluZ19sZXZlbCc6IDAuNSwgJ2Vycm9yX2xldmVsJzogMC4zfSkKICAgICAgICAgICAgZXhwZWN0KGxhbWJkYTogc2VsZi5hY3Rpb24uZHJ5X3J1bihleGlzdGluZywgb3B0aW9ucywgTWFnaWNNb2NrKCkpKSBcCiAgICAgICAgICAgICAgICAudG8ocmFpc2VfZXJyb3IoTWV0aXNFcnJvciwgJ0Vycm9yIGluIG9wdGlvbiBxY19mcmFjdGlvbl91bm1hdGNoZWQ6ICcKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnZXJyb3JfbGV2ZWwgc2hvdWxkIGJlIGhpZ2hlciB0aGFuIHdhcm5pbmdfbGV2ZWwuJykpCg==</text>
+      <register name="0" type="4">
+        <text>data_sources=['test_ds_uri']</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgcHJldiA9IENvbXBvbmVudEludHJvc3BlY3Rpb25JbmZvKCkKICAgICAgICAgICAgcHJldi5hZGRfb3V0cHV0KCdzcC5saXQnLCAnc2EnKQogICAgICAgICAgICBwcmV2LmFkZF9vdXRwdXQoJ2Rpc3E6dXJpLmh1cmknLCAnc2EnKQogICAgICAgICAgICBwcmV2LmFkZF9vdXRwdXQoJ2Rpc3E6dXJpLmh1cmknLCAnZGEnKQogICAgICAgICAgICBwcmV2LmFkZF9vdXRwdXRfZGF0YV9zb3VyY2UoJ3Rlc3RfZHNfdXJpJykK</text>
