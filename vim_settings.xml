@@ -19,7 +19,7 @@
         <mark key="[" line="249" column="0" />
         <mark key="." line="249" column="0" />
       </file>
-      <file name="/a.dummy" timestamp="1538488609714">
+      <file name="/a.dummy" timestamp="1540288710837">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/swimlane_action.py" timestamp="1532417452520">
@@ -72,11 +72,11 @@
         <mark key="." line="27" column="87" />
         <mark key="^" line="27" column="87" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/option.py" timestamp="1540287148518">
-        <mark key="[" line="3" column="24" />
-        <mark key="]" line="74" column="0" />
-        <mark key="." line="74" column="0" />
-        <mark key="^" line="75" column="21" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/option.py" timestamp="1540288759915">
+        <mark key="[" line="117" column="42" />
+        <mark key="]" line="117" column="63" />
+        <mark key="." line="117" column="63" />
+        <mark key="^" line="117" column="63" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/partial_pipeline_run_original.yml" timestamp="1539090917425">
         <mark key="[" line="229" column="0" />
@@ -351,7 +351,7 @@
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/test_qc_component_spec.py" timestamp="1538995910758">
         <mark key="[" line="3" column="85" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/commands/command_action.py" timestamp="1539269958579">
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/commands/command_action.py" timestamp="1540287347783">
         <mark key="[" line="11" column="28" />
         <mark key="]" line="11" column="7" />
         <mark key="." line="11" column="7" />
@@ -440,6 +440,7 @@
         <mark key="." line="36" column="0" />
         <mark key="^" line="102" column="43" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/action.py" timestamp="1540287439930" />
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/commands/test_start_run_action_spec.py" timestamp="1539345149839">
         <mark key="[" line="40" column="45" />
       </file>
@@ -456,11 +457,11 @@
         <mark key="^" line="19" column="43" />
         <mark key="." line="19" column="43" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/test_option_spec.py" timestamp="1540277795436">
-        <mark key="[" line="270" column="57" />
-        <mark key="]" line="270" column="55" />
-        <mark key="^" line="270" column="55" />
-        <mark key="." line="270" column="55" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/test_option_spec.py" timestamp="1540288787218">
+        <mark key="[" line="188" column="94" />
+        <mark key="]" line="188" column="30" />
+        <mark key="." line="188" column="30" />
+        <mark key="^" line="188" column="30" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/commands/remove_alignment_action.py" timestamp="1537881594415">
         <mark key="[" line="14" column="33" />
@@ -470,7 +471,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="223" column="13" filename="$USER_HOME$/Disqover/metis/execution_layer/sources/pipeline.py" />
       <jump line="233" column="13" filename="$USER_HOME$/Disqover/metis/execution_layer/sources/pipeline.py" />
       <jump line="239" column="17" filename="$USER_HOME$/Disqover/metis/execution_layer/sources/pipeline.py" />
       <jump line="246" column="17" filename="$USER_HOME$/Disqover/metis/execution_layer/sources/pipeline.py" />
@@ -570,6 +570,7 @@
       <jump line="0" column="0" filename="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/test_create_type_link_action_spec.py" />
       <jump line="42" column="0" filename="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/test_create_type_link_action_spec.py" />
       <jump line="38" column="0" filename="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/test_create_type_link_action_spec.py" />
+      <jump line="167" column="0" filename="$USER_HOME$/Disqover/metis/execution_layer/spec/test_option_spec.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -580,19 +581,19 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CiAgICAgICAgd2l0aCBpdCgnc3RvcmVzIHZhbHVlcycpOgogICAgICAgICAgICBvcHQgPSBNdWx0aXBsZUNob2ljZU9wdGlvbignbXlpZCcsICdteWRlc2NyJywgdmFsdWVzPXZhbHVlcykKICAgICAgICAgICAgZXhwZWN0KFt2YWx1ZS52YWx1ZSBmb3IgdmFsdWUgaW4gb3B0Ll92YWx1ZXNdKS50byhlcXVhbChbJ3ZhbDEnLCAndmFsMicsICd2YWwzJ10pKQo=</text>
       </register>
       <register name="i" type="4">
         <text />
       </register>
       <register name="-" type="4">
-        <text>V</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>create</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">Y2xhc3MgTmFtZVR1cGxlKG9iamVjdCk6Cg==</text>
+        <text encoding="base64">CiAgICAgICAgd2l0aCBpdCgnc3RvcmVzIHZhbHVlcycpOgogICAgICAgICAgICBvcHQgPSBNdWx0aXBsZUNob2ljZU9wdGlvbignbXlpZCcsICdteWRlc2NyJywgdmFsdWVzPXZhbHVlcykKICAgICAgICAgICAgZXhwZWN0KFt2YWx1ZS52YWx1ZSBmb3IgdmFsdWUgaW4gb3B0Ll92YWx1ZXNdKS50byhlcXVhbChbJ3ZhbDEnLCAndmFsMicsICd2YWwzJ10pKQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -601,16 +602,16 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Y2xhc3MgTmFtZVR1cGxlKG9iamVjdCk6CiAgICBwYXNzCgo=</text>
+        <text encoding="base64">ICAgIHNlbGYudmFsdWVzID0gW011bHRpcGxlQ2hvaWNlVmFsdWUoJ3ZhbDEnLCAnVmFsdWUgMScpLAogICAgICAgICAgICAgICAgICBNdWx0aXBsZUNob2ljZVZhbHVlKCd2YWwyJywgJ1ZhbHVlIDInKSwKICAgICAgICAgICAgICAgICAgTXVsdGlwbGVDaG9pY2VWYWx1ZSgndmFsMicsICdWYWx1ZSAyJyldCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGNsYXNzIE11bHRpcGxlQ2hvaWNlVmFsdWUqCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWVzPVtNdWx0aXBsZUNob2ljZVZhbHVlKCd2YWwxJywgJ1ZhbHVlIDEnKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBNdWx0aXBsZUNob2ljZVZhbHVlKCd2YWwyJywgJ1ZhbHVlIDInKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBNdWx0aXBsZUNob2ljZVZhbHVlKCd2YWwyJywgJ1ZhbHVlIDInKV0sCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWVzPVtNdWx0aXBsZUNob2ljZVZhbHVlKCd2YWwxJywgJ1ZhbHVlIDEnKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBNdWx0aXBsZUNob2ljZVZhbHVlKCd2YWwyJywgJ1ZhbHVlIDInKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBNdWx0aXBsZUNob2ljZVZhbHVlKCd2YWwyJywgJ1ZhbHVlIDInKV0pCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CiAgICAgICAgd2l0aCBpdCgncmV0dXJucyBhbGwgZmllbGRzJyk6CiAgICAgICAgICAgIGRlc2NyID0gc2VsZi5hY3Rpb24uc2VyaWFsaXplKCkKICAgICAgICAgICAgZXhwZWN0KGRlc2NyWydpZCddKS50byhlcXVhbCgnaW50cm9zcGVjdF9hY3Rpb25zJykpCiAgICAgICAgICAgIGV4cGVjdChbb1snaWQnXSBmb3IgbyBpbiBkZXNjclsnb3B0aW9ucyddXSkudG8oY29udGFpbl9vbmx5KCdhY3Rpb25fZ3VpZCcpKQogICAgICAgICAgICBleHBlY3QoZGVzY3JbJ2luZm8nXVsnaXNfY29tcG9uZW50J10pLnRvKGJlX2ZhbHNlKQogICAgICAgICAgICBleHBlY3QoZGVzY3JbJ2Rlc2NyaXB0aW9uJ10pLnRvKGNvbnRhaW4oJ2FjdGlvbnMnKSkK</text>
+        <text encoding="base64">ICAgIHZhbHVlcyA9Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -629,16 +630,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgJ3JlbmRlcmVyJzogJ3JlbmRlcmVyJywK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdChkWyd2YWx1ZXMnXSkudG8oZXF1YWwoWyd2YWwxJywgJ3ZhbDInLCAndmFsMyddKSkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAncmVuZGVyZXInOiAnaHR0cDovL25zLm9udG9mb3JjZS5jb20vMjAxMy9kaXNxb3ZlciNzdHJpbmcnLAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBkYXRhVHlwZTogJ2RhdGUnCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9wdGlvbmFsPVRydWUsIGRlZmF1bHQ9Tm9uZSwgY29udGVudF90eXBlPUNULlRFWFQpLAo=</text>
+        <text encoding="base64">Y2xhc3MgTmFtZVR1cGxlKG9iamVjdCk6CiAgICBwYXNzCgo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
