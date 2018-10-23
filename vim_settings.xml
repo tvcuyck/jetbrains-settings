@@ -65,17 +65,18 @@
         <mark key="." line="9" column="4" />
         <mark key="^" line="9" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/connectors/solr_connector.py" timestamp="1540286325456" />
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/component_result.py" timestamp="1532690265995">
         <mark key="[" line="27" column="87" />
         <mark key="]" line="27" column="87" />
         <mark key="." line="27" column="87" />
         <mark key="^" line="27" column="87" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/option.py" timestamp="1540280750154">
-        <mark key="[" line="76" column="22" />
-        <mark key="]" line="44" column="34" />
-        <mark key="." line="44" column="34" />
-        <mark key="^" line="44" column="34" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/option.py" timestamp="1540287148518">
+        <mark key="[" line="3" column="24" />
+        <mark key="]" line="74" column="0" />
+        <mark key="." line="74" column="0" />
+        <mark key="^" line="75" column="21" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/partial_pipeline_run_original.yml" timestamp="1539090917425">
         <mark key="[" line="229" column="0" />
@@ -113,17 +114,6 @@
         <mark key="]" line="7" column="25" />
         <mark key="." line="10" column="23" />
         <mark key="^" line="10" column="23" />
-      </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/data_configuration.py" timestamp="1540212699563">
-        <mark key="[" line="49" column="105" />
-        <mark key="]" line="49" column="91" />
-        <mark key="^" line="49" column="91" />
-        <mark key="." line="49" column="91" />
-      </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/roles_pipeline.yml" timestamp="1540281462519">
-        <mark key="[" line="459" column="0" />
-        <mark key="]" line="459" column="0" />
-        <mark key="." line="459" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/test_create_canonical_type_action_spec.py" timestamp="1540198289295">
         <mark key="[" line="180" column="0" />
@@ -190,12 +180,6 @@
         <mark key="." line="5" column="0" />
         <mark key="^" line="18" column="93" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/test_remove_record_action_spec.py" timestamp="1539939536383">
-        <mark key="[" line="353" column="35" />
-        <mark key="]" line="353" column="0" />
-        <mark key="." line="353" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/pipeline_introspection.py" timestamp="1540283695331" />
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/commands/test_get_executing_component_spec.py" timestamp="1537882012210">
         <mark key="[" line="22" column="0" />
         <mark key="]" line="22" column="59" />
@@ -304,11 +288,6 @@
         <mark key="^" line="29" column="42" />
         <mark key="." line="29" column="42" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/importers/import_action.py" timestamp="1539951409099">
-        <mark key="[" line="208" column="0" />
-        <mark key="]" line="208" column="0" />
-        <mark key="." line="208" column="0" />
-      </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/expression_tests.yml" timestamp="1532960820326">
         <mark key="[" line="53" column="79" />
         <mark key="]" line="53" column="14" />
@@ -350,9 +329,6 @@
         <mark key="]" line="0" column="3" />
         <mark key="." line="0" column="3" />
         <mark key="^" line="0" column="3" />
-      </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/test_transform_record_action_spec.py" timestamp="1540199380015">
-        <mark key="[" line="390" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/typed_predicate.py" timestamp="1532594422051">
         <mark key="[" line="37" column="34" />
@@ -615,8 +591,8 @@
       <register name="/" type="4">
         <text>create</text>
       </register>
-      <register name="0" type="4">
-        <text>http://ns.ontoforce.com/2013/disqover#string'</text>
+      <register name="0" type="2">
+        <text encoding="base64">Y2xhc3MgTmFtZVR1cGxlKG9iamVjdCk6Cg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -625,16 +601,16 @@
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CiAgICAgICAgd2l0aCBpdCgncmV0dXJucyBhbGwgZmllbGRzJyk6CiAgICAgICAgICAgIGRlc2NyID0gc2VsZi5hY3Rpb24uc2VyaWFsaXplKCkKICAgICAgICAgICAgZXhwZWN0KGRlc2NyWydpZCddKS50byhlcXVhbCgnaW50cm9zcGVjdF9hY3Rpb25zJykpCiAgICAgICAgICAgIGV4cGVjdChbb1snaWQnXSBmb3IgbyBpbiBkZXNjclsnb3B0aW9ucyddXSkudG8oY29udGFpbl9vbmx5KCdhY3Rpb25fZ3VpZCcpKQogICAgICAgICAgICBleHBlY3QoZGVzY3JbJ2luZm8nXVsnaXNfY29tcG9uZW50J10pLnRvKGJlX2ZhbHNlKQogICAgICAgICAgICBleHBlY3QoZGVzY3JbJ2Rlc2NyaXB0aW9uJ10pLnRvKGNvbnRhaW4oJ2FjdGlvbnMnKSkK</text>
+        <text encoding="base64">Y2xhc3MgTmFtZVR1cGxlKG9iamVjdCk6CiAgICBwYXNzCgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgJ3JlbmRlcmVyJzogJ3JlbmRlcmVyJywK</text>
+        <text encoding="base64">ICAgIGNsYXNzIE11bHRpcGxlQ2hvaWNlVmFsdWUqCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAncmVuZGVyZXInOiAnaHR0cDovL25zLm9udG9mb3JjZS5jb20vMjAxMy9kaXNxb3ZlciNzdHJpbmcnLAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBkYXRhVHlwZTogJ2RhdGUnCg==</text>
+        <text encoding="base64">CiAgICAgICAgd2l0aCBpdCgncmV0dXJucyBhbGwgZmllbGRzJyk6CiAgICAgICAgICAgIGRlc2NyID0gc2VsZi5hY3Rpb24uc2VyaWFsaXplKCkKICAgICAgICAgICAgZXhwZWN0KGRlc2NyWydpZCddKS50byhlcXVhbCgnaW50cm9zcGVjdF9hY3Rpb25zJykpCiAgICAgICAgICAgIGV4cGVjdChbb1snaWQnXSBmb3IgbyBpbiBkZXNjclsnb3B0aW9ucyddXSkudG8oY29udGFpbl9vbmx5KCdhY3Rpb25fZ3VpZCcpKQogICAgICAgICAgICBleHBlY3QoZGVzY3JbJ2luZm8nXVsnaXNfY29tcG9uZW50J10pLnRvKGJlX2ZhbHNlKQogICAgICAgICAgICBleHBlY3QoZGVzY3JbJ2Rlc2NyaXB0aW9uJ10pLnRvKGNvbnRhaW4oJ2FjdGlvbnMnKSkK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -653,16 +629,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9wdGlvbmFsPVRydWUsIGRlZmF1bHQ9Tm9uZSwgY29udGVudF90eXBlPUNULlRFWFQpLAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgJ3JlbmRlcmVyJzogJ3JlbmRlcmVyJywK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBzZXJpYWxpemVkWydzaW5nbGVfdmFsdWUnXSA9IHNlbGYuX3NpbmdsZV92YWx1ZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAncmVuZGVyZXInOiAnaHR0cDovL25zLm9udG9mb3JjZS5jb20vMjAxMy9kaXNxb3ZlciNzdHJpbmcnLAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLl9zaW5nbGVfdmFsdWUgPSBzaW5nbGVfdmFsdWUK</text>
+        <text encoding="base64">ICAgICAgICBkYXRhVHlwZTogJ2RhdGUnCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB3aXRoIGl0KCdoYXMgYSB2YWxpZGF0b3InKToK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9wdGlvbmFsPVRydWUsIGRlZmF1bHQ9Tm9uZSwgY29udGVudF90eXBlPUNULlRFWFQpLAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
