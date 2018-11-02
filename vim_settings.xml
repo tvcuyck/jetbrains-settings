@@ -228,11 +228,10 @@
         <mark key="^" line="25" column="86" />
         <mark key="." line="25" column="86" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/test_infer_link_action_spec.py" timestamp="1540825764501">
-        <mark key="[" line="64" column="0" />
-        <mark key="]" line="72" column="50" />
-        <mark key="." line="64" column="0" />
-        <mark key="^" line="52" column="57" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/test_infer_link_action_spec.py" timestamp="1541158914431">
+        <mark key="[" line="739" column="0" />
+        <mark key="]" line="739" column="0" />
+        <mark key="." line="739" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/commands/introspect_actions_action.py" timestamp="1540819378211">
         <mark key="[" line="9" column="0" />
@@ -257,10 +256,10 @@
         <mark key="." line="120" column="52" />
         <mark key="^" line="120" column="52" />
       </file>
-      <file name="/Python Console" timestamp="1540995829545">
+      <file name="/Python Console" timestamp="1541158822906">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/fragment.py" timestamp="1540976523033">
+      <file name="/fragment.py" timestamp="1541158831358">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -468,11 +467,11 @@
         <mark key="." line="26" column="0" />
         <mark key="^" line="25" column="23" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/test_merge_instances_action_spec.py" timestamp="1541155461130">
-        <mark key="[" line="500" column="112" />
-        <mark key="]" line="500" column="38" />
-        <mark key="." line="500" column="38" />
-        <mark key="^" line="500" column="38" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/test_merge_instances_action_spec.py" timestamp="1541158994857">
+        <mark key="[" line="513" column="0" />
+        <mark key="]" line="513" column="0" />
+        <mark key="." line="513" column="0" />
+        <mark key="^" line="551" column="57" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/commands/introspect_pipeline_component_action.py" timestamp="1540819318990">
         <mark key="[" line="20" column="0" />
@@ -751,7 +750,7 @@
         <mark key="]" line="53" column="50" />
         <mark key="." line="45" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1541000251399">
+      <file name="/Dummy.txt" timestamp="1541159235405">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/action.py" timestamp="1541149181730">
@@ -911,16 +910,8 @@
           <key char="65535" code="38" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>.')
-
-        complete_enabled_column_name = self.write_enabled_column(action_guid, alignment, dest_record_pos)
-        self.log_debug('Wrote enabled column')
-
-        chunk_info = alignment.chunk_info
-        old_chunks = chunk_info[:original_chunk_count]
-        new_chunks = chunk_info[original_chunk_count:]
-        old_chunker = ChunkIterator(old_chunks)</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">CiAgICAgICAgICAgIHdpdGggaXQoJ3Byb2R1Y2VzIGNvdW50ZXIgbWVyZ2VfcmVjb3JkX2NvdW50X2Rlc3QnKToK</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -932,33 +923,25 @@
         <text>create</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBUT0RPOiBjYWxsIHJlbW92ZV9kYXRhIGJlZm9yZSByYWlzaW5nPwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNoZWNrX2NvdW50ZXIoc2VsZi5mZWVkYmFjaywgJ3JlY29yZHMnLCA0KQo=</text>
       </register>
-      <register name="1" type="4">
-        <text>.')
-
-        complete_enabled_column_name = self.write_enabled_column(action_guid, alignment, dest_record_pos)
-        self.log_debug('Wrote enabled column')
-
-        chunk_info = alignment.chunk_info
-        old_chunks = chunk_info[:original_chunk_count]
-        new_chunks = chunk_info[original_chunk_count:]
-        old_chunker = ChunkIterator(old_chunks)</text>
+      <register name="1" type="2">
+        <text encoding="base64">CiAgICAgICAgICAgIHdpdGggaXQoJ3Byb2R1Y2VzIGNvdW50ZXIgbWVyZ2VfcmVjb3JkX2NvdW50X2Rlc3QnKToK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBjb3VudCA9PSAwOgogICAgICAgICAgICByYWlzZSBNZXRpc0Vycm9yKCdUaGUgc291cmNlIGFsaWdubWVudCBoYXMgemVybyBlbmFibGVkIHJlY29yZHMuJykKCg==</text>
+        <text encoding="base64">CiAgICAgICAgICAgIHdpdGggaXQoJ3Byb2R1Y2VzIGNvdW50ZXIgbWVyZ2VfcmVjb3JkX2NvdW50X3NvdXJjZScpOgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBhdCB0aGlzIHBvaW50IGR1cmluZyBleGVjdXRpb24sIGEgY29sdW1uIHdpdGggZW5hYmxlZCA9IFRydWUgaGFzIGJlZW4gd3JpdHRlbiBmb3IgYWxsIHJlY29yZHMK</text>
+        <text encoding="base64">CiAgICAgICAgICAgIHdpdGggaXQoJ3Byb2R1Y2VzIGNvdW50ZXIgZmlsdGVyZWQnKToK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmRlc3RpbmF0aW9uX3JlY29yZF9maWx0ZXIgPSBSZWNvcmRGaWx0ZXIoc2VsZiwgJ2Rlc3RpbmF0aW9uX2ZpbHRlcicsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFsaWdubWVudF9vcHRpb25fbmFtZT0nZGVzdGluYXRpb25fYWxpZ25tZW50JykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgd2l0aCBpdCgncHJvZHVjZXMgY291bnRlciBlbmFibGVkJyk6Cg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -977,16 +960,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CiAgICAgICAgc2VsZi5zb3VyY2VfcmVjb3JkX2ZpbHRlciA9IFJlY29yZEZpbHRlcihzZWxmLCAnc291cmNlX2ZpbHRlcicsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGlnbm1lbnRfb3B0aW9uX25hbWU9J3NvdXJjZV9hbGlnbm1lbnQnKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBleHBlY3Qoc2VsZi5kZXN0X3dyaXRlcikubm90X3RvKGhhdmVfY2FsbHMpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CiAgICAgICAgc2VsZi5zb3VyY2VfbWF0Y2hfcHJlZGljYXRlX29wdGlvbiA9IHNlbGYuYWRkX29wdGlvbigKICAgICAgICAgICAgTGl0UHJlZGljYXRlT3B0aW9uKCdzb3VyY2VfcHJlZGljYXRlJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdQcmVkaWNhdGUgaW4gdGhlIHNvdXJjZSBhbGlnbm1lbnQgdG8gbWF0Y2gsIGRlZmF1bHQgaXMgZGlzcTpsYWJlbCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lPSdzb3VyY2UgbWF0Y2ggcHJlZGljYXRlJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9wdGlvbmFsPVRydWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZWZhdWx0PVR5cGVkUHJlZGljYXRlLkxBQkVMLnByZWRpY2F0ZSkpICAjIFRPRE86IHJlbmFtZSB0byAnc291cmNlX21hdGNoX3ByZWRpY2F0ZScK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgSW5mZXJMaW5rQWN0aW9uKCkuZXhlY3V0ZV9jb21wb25lbnQoc2VsZi5vcHRpb25fdmFsdWVzLCBNYWdpY01vY2soKSwgc2VsZi5mZWVkYmFjaykK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmFpc2UgTWV0aXNFcnJvcignVGhlIGZpbHRlcmVkIHJlY29yZHMgaW4gdGhlIHsnKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdChzZWxmLmVuYWJsZWRfd3JpdGVyMSkudG8oaGF2ZV9jYWxscyhbY2FsbChUcnVlKSwgY2FsbChUcnVlKSwgY2FsbChUcnVlKSwgY2FsbChUcnVlKV0pKQoKICAgICAgICAgICAgd2l0aCBpdCgnZG9lcyBjb3JyZWN0IGVuYWJsZWQgd3JpdGVyIGNhbGxzIGZvciBuZXcgcmVjb3JkcycpOgogICAgICAgICAgICAgICAgZXhwZWN0KHNlbGYuZW5hYmxlZF93cml0ZXIyKS50byhoYXZlX2NhbGxzKFtdKSkKCiAgICAgICAgICAgIHdpdGggaXQoJ2RvZXMgY29ycmVjdCBlbmFibGVkIHdyaXRlciBjYWxscyBmb3IgcHJlZDEnKToKICAgICAgICAgICAgICAgICBleHBlY3Qoc2VsZi53cikudG8oaGF2ZV9jYWxscyhbXSkpCgogICAgICAgICAgICB3aXRoIGl0KCdwcm9kdWNlcyBjb3VudGVyIHJlY29yZHMnKToKICAgICAgICAgICAgICAgIGNoZWNrX2NvdW50ZXIoc2VsZi5mZWVkYmFjaywgJ3JlY29yZHMnLCA0KQoKICAgICAgICAgICAgd2l0aCBpdCgncHJvZHVjZXMgY291bnRlciBlbmFibGVkJyk6CiAgICAgICAgICAgICAgICBjaGVja19jb3VudGVyKHNlbGYuZmVlZGJhY2ssICdlbmFibGVkJywgNCkKCiAgICAgICAgICAgIHdpdGggaXQoJ3Byb2R1Y2VzIGNvdW50ZXIgZmlsdGVyZWQnKToKICAgICAgICAgICAgICAgIGNoZWNrX2NvdW50ZXIoc2VsZi5mZWVkYmFjaywgJ2ZpbHRlcmVkJywgNCkKCiAgICAgICAgICAgIHdpdGggaXQoJ3Byb2R1Y2VzIGNvdW50ZXIgbWVyZ2VfcmVjb3JkX2NvdW50X3NvdXJjZScpOgogICAgICAgICAgICAgICAgY2hlY2tfY291bnRlcihzZWxmLmZlZWRiYWNrLCAnbWVyZ2VfcmVjb3JkX2NvdW50X3NvdXJjZScsIDApCgogICAgICAgICAgICB3aXRoIGl0KCdwcm9kdWNlcyBjb3VudGVyIG1lcmdlX3JlY29yZF9jb3VudF9kZXN0Jyk6CiAgICAgICAgICAgICAgICBjaGVja19jb3VudGVyKHNlbGYuZmVlZGJhY2ssICdtZXJnZV9yZWNvcmRfY291bnRfZGVzdCcsIDApCg==</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBkZXN0X2FsX2Rpc3BsYXlfbmFtZSA9ICdkZXN0aW5hdGlvbl9hbGlnbm1lbnQnCg==</text>
+      <register name="9" type="8">
+        <text encoding="base64">ICAgIAogICAgCiAgICAKICAgIAogICAgCiAgICAKICAgIAogICAg</text>
       </register>
       <register name=":" type="4">
         <text>86</text>
