@@ -216,12 +216,12 @@
         <mark key="." line="179" column="0" />
         <mark key="^" line="359" column="84" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/component_doc_builder.py" timestamp="1541692884969">
-        <mark key="'" line="24" column="44" />
-        <mark key="[" line="24" column="44" />
-        <mark key="]" line="15" column="0" />
-        <mark key="." line="15" column="0" />
-        <mark key="^" line="15" column="0" />
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/component_doc_builder.py" timestamp="1541693667127">
+        <mark key="'" line="27" column="61" />
+        <mark key="[" line="28" column="0" />
+        <mark key="]" line="28" column="43" />
+        <mark key="." line="28" column="0" />
+        <mark key="^" line="27" column="61" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/data/companies_test.jl" timestamp="1529590022589">
         <mark key="[" line="13" column="544" />
@@ -415,11 +415,11 @@
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/create_datasource_action.py" timestamp="1541600147768">
         <mark key="[" line="22" column="20" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/expression_parser/test_expression_doc_builder_spec.py" timestamp="1541692640779">
+      <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/expression_parser/test_expression_doc_builder_spec.py" timestamp="1541693431537">
         <mark key="[" line="10" column="53" />
-        <mark key="]" line="2" column="0" />
-        <mark key="." line="2" column="0" />
-        <mark key="^" line="6" column="32" />
+        <mark key="]" line="10" column="62" />
+        <mark key="." line="10" column="62" />
+        <mark key="^" line="10" column="62" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/expression_parser/functions/funcset_stringmanip.py" timestamp="1532942726528">
         <mark key="[" line="126" column="38" />
@@ -616,7 +616,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="157" column="40" filename="$USER_HOME$/Disqover/rd/ontologies/ct_neworganization.ttl" />
       <jump line="512" column="5" filename="$USER_HOME$/Disqover/rd/ontologies/ct_neworganization.ttl" />
       <jump line="514" column="44" filename="$USER_HOME$/Disqover/rd/ontologies/ct_neworganization.ttl" />
       <jump line="73" column="50" filename="$USER_HOME$/Disqover/rd/ontologies/ct_neworganization.ttl" />
@@ -716,6 +715,7 @@
       <jump line="128" column="0" filename="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/test_transform_record_action_spec.py" />
       <jump line="28" column="44" filename="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/component_doc_builder.py" />
       <jump line="24" column="44" filename="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/component_doc_builder.py" />
+      <jump line="26" column="61" filename="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/component_doc_builder.py" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -726,7 +726,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ZnJvbSBhY3Rpb25zIGltcG9ydCByZWdpc3Rlcl9hY3Rpb25zCmZyb20gYWN0aW9ucy5hY3Rpb24gaW1wb3J0IEFjdGlvbgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi53cml0ZV9saW5lKCcnKQo=</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -738,7 +738,7 @@
         <text>create</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZnJvbSBtYW1iYSBpbXBvcnQgZGVzY3JpcHRpb24sIGl0LCBiZWZvcmUKCmZyb20gYWN0aW9ucyBpbXBvcnQgcmVnaXN0ZXJfYWN0aW9ucwpmcm9tIGFjdGlvbnMuYWN0aW9uIGltcG9ydCBBY3Rpb24KZnJvbSBhY3Rpb25zLmNvbXBvbmVudHMuY29tcG9uZW50X2RvY19idWlsZGVyIGltcG9ydCBDb21wb25lbnREb2NCdWlsZGVyCgp3aXRoIGRlc2NyaXB0aW9uKCdDb21wb25lbnREb2NCdWlsZGVyJykgYXMgc2VsZjoKICAgIHdpdGggYmVmb3JlLmVhY2g6CiAgICAgICAgc2VsZi5idWlsZGVyID0gQ29tcG9uZW50RG9jQnVpbGRlcigpCgogICAgd2l0aCBkZXNjcmlwdGlvbignYnVpbGQnKToKICAgICAgICB3aXRoIGl0KCd3b3JrcyBmb3IgYWxsIGNvbXBvbmVudHMnKToKICAgICAgICAgICAgQWN0aW9uLmZhY3RvcnkuY2xlYXIoKQogICAgICAgICAgICByZWdpc3Rlcl9hY3Rpb25zLmRvX3JlZ2lzdGVyKCkKICAgICAgICAgICAgc2VsZi5idWlsZGVyLmJ1aWxkKCcvdG1wL0NvbXBvbmVudHMucnN0JykKICAgICAgICAgICAgQWN0aW9uLmZhY3RvcnkuY2xlYXIoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgc2VsZi53cml0ZV9saW5lKCcnKQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ZnJvbSBhY3Rpb25zIGltcG9ydCByZWdpc3Rlcl9hY3Rpb25zCmZyb20gYWN0aW9ucy5hY3Rpb24gaW1wb3J0IEFjdGlvbgo=</text>
