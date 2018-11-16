@@ -267,6 +267,12 @@
         <mark key="^" line="26" column="0" />
         <mark key="." line="11" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis-2/execution_layer/sources/actions/commands/introspect_component_results_action.py" timestamp="1542381473806">
+        <mark key="[" line="80" column="20" />
+        <mark key="]" line="73" column="0" />
+        <mark key="^" line="73" column="0" />
+        <mark key="." line="73" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/metis/tests/spec/actions/components/test_create_subtype_action_spec.py" timestamp="1542291660422">
         <mark key="[" line="102" column="105" />
         <mark key="]" line="90" column="33" />
@@ -593,6 +599,12 @@
         <mark key="]" line="76" column="0" />
         <mark key="." line="76" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis-2/execution_layer/sources/actions/commands/introspect_predicates_action.py" timestamp="1542380943148">
+        <mark key="[" line="39" column="83" />
+        <mark key="]" line="39" column="83" />
+        <mark key="^" line="39" column="83" />
+        <mark key="." line="39" column="83" />
+      </file>
       <file name="$USER_HOME$/Disqover/documentation/sphinx/source/index.rst" timestamp="1542122963705">
         <mark key="[" line="17" column="0" />
         <mark key="]" line="17" column="0" />
@@ -774,8 +786,8 @@
           <key char="65535" code="38" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">CiAgICAgICAgd2l0aCBpdCgncmV0dXJucyBhIGRpY3Qgd2l0aG91dCBtaXNzaW5nIGF0dHJpYnV0ZXMnKToKICAgICAgICAgICAgZCA9IHsnbGFiZWwnOiAnbXlzb3VyY2UnLCAndXJpJzogJ3VyaScsICdzaG9ydF90YWcnOiAnYWEnfQogICAgICAgICAgICBkcyA9IERhdGFTb3VyY2UoJ215c291cmNlJywgJ3VyaScsICdhYScpCiAgICAgICAgICAgIGV4cGVjdChkcy5zZXJpYWxpemUoKSkudG8oZXF1YWwoZCkpCg==</text>
+      <register name="&quot;" type="8">
+        <text>[str(column.typed_predicate)]</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -787,10 +799,10 @@
         <text>create</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CiAgICAgICAgd2l0aCBpdCgncmV0dXJucyBhIGRpY3Qgd2l0aG91dCBtaXNzaW5nIGF0dHJpYnV0ZXMnKToKICAgICAgICAgICAgZCA9IHsnbGFiZWwnOiAnbXlzb3VyY2UnLCAndXJpJzogJ3VyaScsICdzaG9ydF90YWcnOiAnYWEnfQogICAgICAgICAgICBkcyA9IERhdGFTb3VyY2UoJ215c291cmNlJywgJ3VyaScsICdhYScpCiAgICAgICAgICAgIGV4cGVjdChkcy5zZXJpYWxpemUoKSkudG8oZXF1YWwoZCkpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHN0YXRzLnNldGRlZmF1bHQoY29sdW1uLmFsaWdubWVudF9uYW1lLCB7fSlbc3RyKGNvbHVtbi50eXBlZF9wcmVkaWNhdGUpXSA9IGNvbHVtbi5zdGF0cy5yZXBvcnQoKQo=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLndyaXRlX2xpbmUoKQo=</text>
+      <register name="1" type="8">
+        <text>[str(column.typed_predicate)]</text>
       </register>
       <register name="q" type="4">
         <text />
@@ -805,7 +817,7 @@
         <text encoding="base64">ICAgICAgICBzZWxmLndyaXRlX2xpbmUoKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLndyaXRlX2xpbmUoKQo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -824,16 +836,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLndyaXRlX2xpbmUoKQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHByb3BlcnRpZXM6IFtdCg==</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLndyaXRlX2xpbmUoKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZXJyb3JzID0gW3N0cihlKSBmb3IgZSBpbiBjb250ZXh0LmdldF9lcnJvcl9saXN0KCldCiAgICAgICAgICAgIGV4cGVjdChsZW4oZXJyb3JzKSkudG8oZXF1YWwoMCkpCg==</text>
+        <text encoding="base64">ICAgIHByb3BlcnRpZXM6IFtdCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJldi5hZGRfb3V0cHV0KCduY2JpOnAxLmxpdCcsICdhbCcpCiAgICAgICAgICAgIHByZXYuYWRkX291dHB1dCgnbmNiaTpwMi5saXQnLCAnc2EnKQogICAgICAgICAgICBwcmV2LmFkZF9vdXRwdXQoJ25jYmk6cDMubGl0JywgJ2FsJykKICAgICAgICAgICAgcHJldi5hZGRfb3V0cHV0KCduY2JpOnA0LmxpdCcsICdzYScpCiAgICAgICAgICAgIHByZXYuYWRkX291dHB1dCgnbmNiaTozMjEuZndkJywgJ3NhJykKICAgICAgICAgICAgcHJldi5hZGRfb3V0cHV0KCduY2JpOjEyMy5yZXYnLCAnc2EnKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZXJyb3JzID0gW3N0cihlKSBmb3IgZSBpbiBjb250ZXh0LmdldF9lcnJvcl9saXN0KCldCiAgICAgICAgICAgIGV4cGVjdChsZW4oZXJyb3JzKSkudG8oZXF1YWwoMCkpCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
