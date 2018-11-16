@@ -18,11 +18,6 @@
         <mark key="^" line="86" column="17" />
         <mark key="." line="86" column="17" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/configuration_graph/configuration_graph_spec.rb" timestamp="1542034113321">
-        <mark key="]" line="9" column="21" />
-        <mark key="^" line="9" column="21" />
-        <mark key="." line="9" column="21" />
-      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/metis/component_spec.rb" timestamp="1542277807054">
         <mark key="[" line="2" column="20" />
       </file>
@@ -70,7 +65,7 @@
       <file name="/Python Console" timestamp="1539700359062">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/Ruby Console" timestamp="1542364619349">
+      <file name="/Ruby Console" timestamp="1542370410376">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/.rvm/gems/ruby-2.2.4/gems/railties-3.2.22/lib/rails/tasks/tmp.rake" timestamp="1542033526495" />
@@ -89,7 +84,7 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/typed_link_data.sparql" timestamp="1540895224518">
         <mark key="[" line="275" column="41" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/configuration_service.rb" timestamp="1542364581510">
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/configuration_service.rb" timestamp="1542370193550">
         <mark key="'" line="40" column="0" />
         <mark key="[" line="27" column="96" />
         <mark key="]" line="45" column="20" />
@@ -107,7 +102,7 @@
         <mark key="." line="19" column="18" />
         <mark key="^" line="19" column="17" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/collection_service.rb" timestamp="1542029164787" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/collection_service.rb" timestamp="1542369753632" />
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_data_entry_repository_spec.rb" timestamp="1542023678505">
         <mark key="[" line="383" column="42" />
       </file>
@@ -127,6 +122,17 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="45" />
         <mark key="." line="0" column="45" />
+      </file>
+      <file name="/fragment.rb" timestamp="1542370350598">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/user.rb" timestamp="1542370728497">
+        <mark key="[" line="143" column="44" />
+        <mark key="]" line="118" column="18" />
+        <mark key="." line="118" column="18" />
+        <mark key="^" line="118" column="18" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/config/database.yml" timestamp="1540893770385">
         <mark key="[" line="86" column="0" />
@@ -159,12 +165,12 @@
         <mark key="." line="720" column="12" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/federation_client_config.sparql" timestamp="1541773718504" />
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/configuration_service_spec.rb" timestamp="1542368616783">
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/configuration_service_spec.rb" timestamp="1542371171332">
         <mark key="'" line="322" column="69" />
-        <mark key="[" line="598" column="0" />
-        <mark key="]" line="598" column="0" />
-        <mark key="." line="598" column="0" />
-        <mark key="^" line="591" column="54" />
+        <mark key="[" line="563" column="0" />
+        <mark key="]" line="566" column="72" />
+        <mark key="." line="627" column="0" />
+        <mark key="^" line="570" column="17" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/federation_server_config.sparql" timestamp="1541773703139" />
     </filemarks>
@@ -279,7 +285,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGl0ICdjYWNoZXMgZWFjaCB2ZXJzaW9uIHNlcGFyYXRlbHknIGRvCg==</text>
+        <text encoding="base64">ICAgICAgQGRhdGFfc2NpZW50aXN0ID0gRmFjdG9yaWVzOjpVc2VyLmRhdGFfc2NpZW50aXN0KCkKICAgICAgQHVzZXJfMSA9IEZhY3Rvcmllczo6VXNlci5yZWd1bGFyX2dyb3VwX21lbWJlcihbJ21kcyddKQogICAgICBAdXNlcl8yID0gRmFjdG9yaWVzOjpVc2VyLnJlZ3VsYXJfZ3JvdXBfbWVtYmVyKFsnbWRzJ10pCiAgICAgIEB1c2VyXzMgPSBGYWN0b3JpZXM6OlVzZXIucmVndWxhcl9ncm91cF9tZW1iZXIoWydtZHMnLCAnY2hpbGRyZW4nXSkK</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -291,25 +297,25 @@
         <text encoding="base64">XDxlbmRcPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGl0ICd1c2VkIHNhbWUgY2FjaGUgZW50cnkgZm9yIHVzZXJzIGZvcm0gc2FtZSBncm91cCcgZG8K</text>
+        <text encoding="base64">ICAgICAgQGRhdGFfc2NpZW50aXN0ID0gRmFjdG9yaWVzOjpVc2VyLmRhdGFfc2NpZW50aXN0KCkKICAgICAgQHVzZXJfMSA9IEZhY3Rvcmllczo6VXNlci5yZWd1bGFyX2dyb3VwX21lbWJlcihbJ21kcyddKQogICAgICBAdXNlcl8yID0gRmFjdG9yaWVzOjpVc2VyLnJlZ3VsYXJfZ3JvdXBfbWVtYmVyKFsnbWRzJ10pCiAgICAgIEB1c2VyXzMgPSBGYWN0b3JpZXM6OlVzZXIucmVndWxhcl9ncm91cF9tZW1iZXIoWydtZHMnLCAnY2hpbGRyZW4nXSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGl0ICdjYWNoZXMgZWFjaCB2ZXJzaW9uIHNlcGFyYXRlbHknIGRvCg==</text>
+        <text encoding="base64">ICAgICAgdXNlciA9IGRvdWJsZSgndScsIGNhbl9kZWJ1Zz86IGZhbHNlLCBjYW5fY3JlYXRlX2FjY291bnRzPzogZmFsc2UsIHVzZXJfZ3JvdXBzOiBbXSkKICAgICAgdXJpID0gU3BhcnFsOjpVUklWYWx1ZS5uZXcoJ2h0dHA6Ly90ZXN0Lm9udG9mb3JjZS5jb20vcmFuZG9tX2NvbmZpZ3VyYXRpb24nKQo=</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgdXNlciA9IGRvdWJsZSgndScsIGNhbl9kZWJ1Zz86IGZhbHNlLCBjYW5fY3JlYXRlX2FjY291bnRzPzogZmFsc2UsIHVzZXJfZ3JvdXBzOiBbXSkK</text>
+        <text encoding="base64">ICAgICAgcmVzdWx0KEBkYXRhX3NjaWVudGlzdCwgMSkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgQHVzZXJfMS51c2VyX2dyb3VwcyA9IFsgJ21kcycgXQo=</text>
+        <text encoding="base64">ICAgICAgdXJpID0gU3BhcnFsOjpVUklWYWx1ZS5uZXcoJ2h0dHA6Ly90ZXN0Lm9udG9mb3JjZS5jb20vcmFuZG9tX2NvbmZpZ3VyYXRpb24nKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgQHVzZXJfMi51c2VyX2dyb3VwcyA9IFsgJ21kcycgXQo=</text>
+        <text encoding="base64">ICAgICAgQ29uZmlndXJhdGlvblNlcnZpY2Uuc2hvdWxkX3JlY2VpdmUoOmRlZmF1bHRfY29uZmlndXJhdGlvbikudHdpY2UK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGJlZm9yZXsgQ29sbGVjdGlvblNlcnZpY2UuYW55X2luc3RhbmNlLnN0dWIoOnVzZXJfZ3JvdXBzKS5hbmRfcmV0dXJuKFsgJ21kcyddKSB9Cg==</text>
+        <text encoding="base64">ICAgICAgQ29uZmlndXJhdGlvblNlcnZpY2Uuc2hvdWxkX3JlY2VpdmUoOmRlZmF1bHRfY29uZmlndXJhdGlvbikudHdpY2UK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -328,16 +334,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CiAgICBjb250ZXh0ICd1c2luZyB0aGUgY2FjaGUnIGRvCiAgICAgIGJlZm9yZSBkbwogICAgICAgIENhY2hlUmVwb3NpdG9yeS5uZXcuY2xlYXIKICAgICAgZW5kCgogICAgICBkZWYgcmVzdWx0KHZlcnNpb249MSkKICAgICAgICB1cmkgPSBTcGFycWw6OlVSSVZhbHVlLm5ldygnaHR0cDovL3Rlc3Qub250b2ZvcmNlLmNvbS9yYW5kb21fY29uZmlndXJhdGlvbicpCiAgICAgICAgcmVzdWx0ID0gQ29uZmlndXJhdGlvblNlcnZpY2UuZ2V0X2NvbmZpZ3VyYXRpb24odXJpLCB2ZXJzaW9uKQogICAgICBlbmQKCiAgICAgIGl0ICdzaG91bGQgY2FsbCBnZXRfY29uZmlndXJhdGlvbl9yYXcgb25seSBvbmNlJyBkbwogICAgICAgIENvbmZpZ3VyYXRpb25TZXJ2aWNlLnNob3VsZF9yZWNlaXZlKDpnZXRfY29uZmlndXJhdGlvbl9yYXcpLm9uY2UKICAgICAgICByZXN1bHQKICAgICAgICByZXN1bHQKICAgICAgZW5kCgogICAgICBpdCAnc2hvdWxkIGNhbGwgZ2V0X2NvbmZpZ3VyYXRpb25fcmF3IGZvciBlYWNoIGRpZmZlcmVudCB2ZXJzaW9uIG9mIHRoZSBjb25maWcnIGRvCiAgICAgICAgQ29uZmlndXJhdGlvblNlcnZpY2Uuc2hvdWxkX3JlY2VpdmUoOmdldF9jb25maWd1cmF0aW9uX3JhdykudHdpY2UKICAgICAgICByZXN1bHQoMSkKICAgICAgICByZXN1bHQoMikKICAgICAgZW5kCiAgICBlbmQK</text>
+        <text encoding="base64">ICAgICAgQ29uZmlndXJhdGlvblNlcnZpY2Uuc2hvdWxkX3JlY2VpdmUoOmRlZmF1bHRfY29uZmlndXJhdGlvbikudHdpY2UK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgcmVzdWx0Cg==</text>
+        <text encoding="base64">ICAgIGl0ICdjYWNoZXMgZWFjaCB2ZXJzaW9uIHNlcGFyYXRlbHknIGRvCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgQ29uZmlndXJhdGlvblNlcnZpY2Uuc2hvdWxkX3JlY2VpdmUoOmNvbmZpZ3VyYXRpb25fZm9yX3VzZXIpLm9uY2UK</text>
+        <text encoding="base64">ICAgICAgdXNlciA9IGRvdWJsZSgndScsIGNhbl9kZWJ1Zz86IGZhbHNlLCBjYW5fY3JlYXRlX2FjY291bnRzPzogZmFsc2UsIHVzZXJfZ3JvdXBzOiBbXSkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgYmVmb3JlIGRvCg==</text>
+        <text encoding="base64">ICAgICAgQHVzZXJfMS51c2VyX2dyb3VwcyA9IFsgJ21kcycgXQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
