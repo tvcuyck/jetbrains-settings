@@ -231,10 +231,10 @@
         <mark key="." line="120" column="52" />
         <mark key="^" line="120" column="52" />
       </file>
-      <file name="/Python Console" timestamp="1542634355267">
+      <file name="/Python Console" timestamp="1542707935213">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/fragment.py" timestamp="1542632592028">
+      <file name="/fragment.py" timestamp="1542707822157">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="28" />
         <mark key="." line="0" column="28" />
@@ -405,11 +405,11 @@
         <mark key="^" line="801" column="22" />
         <mark key="." line="801" column="22" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/tests/spec/actions/components/test_extract_distinct_action_spec.py" timestamp="1542705615305">
-        <mark key="[" line="551" column="105" />
-        <mark key="]" line="551" column="62" />
-        <mark key="." line="551" column="62" />
-        <mark key="^" line="551" column="62" />
+      <file name="$USER_HOME$/Disqover/metis/tests/spec/actions/components/test_extract_distinct_action_spec.py" timestamp="1542707877088">
+        <mark key="[" line="565" column="97" />
+        <mark key="]" line="565" column="67" />
+        <mark key="." line="565" column="67" />
+        <mark key="^" line="565" column="67" />
       </file>
       <file name="$USER_HOME$/Disqover/metis-2/execution_layer/spec/actions/commands/test_start_run_action_spec.py" timestamp="1542276945180">
         <mark key="[" line="88" column="103" />
@@ -434,6 +434,10 @@
         <mark key="]" line="231" column="42" />
         <mark key="^" line="231" column="42" />
         <mark key="." line="231" column="42" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/tests/spec/actions/components/test_match_object_literal_spec.py" timestamp="1542707118411">
+        <mark key="[" line="543" column="0" />
+        <mark key="]" line="543" column="113" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/tests/spec/actions/components/test_create_canonical_type_action_spec.py" timestamp="1542291760535">
         <mark key="[" line="77" column="0" />
@@ -616,11 +620,16 @@
         <mark key="." line="165" column="62" />
         <mark key="^" line="165" column="62" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/tests/spec_helper/mock_utils.py" timestamp="1542706058685" />
       <file name="$USER_HOME$/Disqover/metis/tests/spec/actions/components/test_create_type_link_action_spec.py" timestamp="1542291517978">
         <mark key="[" line="158" column="0" />
         <mark key="]" line="158" column="0" />
         <mark key="^" line="157" column="54" />
         <mark key="." line="158" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/documentation/sphinx/build-metis.sh" timestamp="1542294507910">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="51" />
       </file>
       <file name="$USER_HOME$/Disqover/metis-2/execution_layer/spec/indexing/test_disqover_facet_spec.py" timestamp="1542641347891" />
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/actions/components/test_component_doc_builder_spec.py" timestamp="1542120436322">
@@ -982,38 +991,38 @@
           <key char="65535" code="38" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXRjaCh0aGlzICsgJ21ha2VfaW5wdXRfcmVhZGVyJywgc2lkZV9lZmZlY3Q9bW9ja19yZWFkZXIoaW5wdXQpKSwK</text>
       </register>
       <register name="i" type="4">
         <text />
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>p</text>
       </register>
       <register name="/" type="4">
         <text>create</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZnJvbSBtZXRpcy5jb2x0eXBlcyBpbXBvcnQgcmVnaXN0ZXJfY29sX3R5cGVzCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjICAgICAgICAgcGF0Y2gub2JqZWN0KHNlbGYuc291cmNlX2FsaWdubWVudCwgJ2N1cnJlbnRfcHJlZmVycmVkX3VyaV9jb2x1bW5zJywKICAgICAgICAgICAgICAgICAgICAjICAgICAgICAgICAgICAgICAgICAgIHJldHVybl92YWx1ZT0oTm9uZSwgTWFnaWNNb2NrKCkpKSwgXAo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaXIucmV0dXJuX3ZhbHVlID0gW3twaHVyaV9wcmVkaWNhdGVfa2V5OiBbc3JjX2h1cmkxXSwgc291cmNlX3ByZWQxX2tleTogW2xpdGExLCBsaXRiXX0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7cGh1cmlfcHJlZGljYXRlX2tleTogW3NyY19odXJpMl0sIHNvdXJjZV9wcmVkMV9rZXk6IFtsaXRhMiwgbGl0Y119LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge3BodXJpX3ByZWRpY2F0ZV9rZXk6IFtzcmNfaHVyaTNdLCBzb3VyY2VfcHJlZDFfa2V5OiBbbGl0ZCwgbGl0Y119XQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXRjaCh0aGlzICsgJ21ha2VfaW5wdXRfcmVhZGVyJywgc2lkZV9lZmZlY3Q9bW9ja19yZWFkZXIoaW5wdXQpKSwK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">IyEvdXNyL2Jpbi9lbnYgYmFzaAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjICAgICAgICAgcGF0Y2godGhpcyArICdtYWtlX2lucHV0X3JlYWRlcicsIHNpZGVfZWZmZWN0PW1vY2tfcmVhZGVyKGlucHV0KSksIFwKICAgICAgICAgICAgICAgICAgICAjICAgICAgICAgcGF0Y2godGhpcyArICdtYWtlX3dyaXRlX2NvbHVtbicsIHNlbGYubW9ja19tYWtlX3dyaXRlX2NvbHVtbik6Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">IyEvdXNyL2Jpbi9lbnYgYmFzaAoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjICAgICBmZWVkYmFjayA9IENvbXBvbmVudEZlZWRiYWNrKCkKICAgICAgICAgICAgICAgICAgICAjICAgICBhY3Rpb24uaW5pdGlhbGl6ZV9mZWVkYmFjayh7fSwgZmVlZGJhY2spCiAgICAgICAgICAgICAgICAgICAgIyAKICAgICAgICAgICAgICAgICAgICAjICAgICBhY3Rpb24uZXhlY3V0ZV9jb21wb25lbnQob3B0LCBjb250ZXh0PVJ1bkNvbnRleHQoKSwgZmVlZGJhY2s9ZmVlZGJhY2spCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">IyEvdXNyL2Jpbi9lbnYgYmFzaAoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhdGNoKCdtZXRpcy5jb25jcmV0ZV9vcHRpb25zLkxpdFByZWRpY2F0ZU9wdGlvbi5leGlzdGluZ19saXRfcHJlZGljYXRlX3ZhbGlkYXRvcicpKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">IyEvYmluL2Jhc2gKCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICBzZWxmLm1vY2tfY29sdW1faW5mb3MgPSBjcmVhdGVfbW9ja19jb2x1bW5faW5mb3MoKHNvdXJjZV9hbGlnbm1lbnQxLCBwaHVyaV9wcmVkaWNhdGVfa2V5KSkK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -1032,16 +1041,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IGNvbHR5cGVzLnJlZ2lzdGVyX2NvbF90eXBlcwpmcm9tIGNvbHVtbl9pbmZvIGltcG9ydCBDb2x1bW5JbmZvCmZyb20gY29tcG9uZW50X2ZlZWRiYWNrIGltcG9ydCBDb21wb25lbnRGZWVkYmFjawpmcm9tIGN1c3RvbV9tYXRjaGVycyBpbXBvcnQgaGF2ZV9iZWVuX2NhbGxlZF90aW1lcywgaGF2ZV9iZWVuX2NhbGxlZCwgaGF2ZV9jYWxscwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgaXIucmV0dXJuX3ZhbHVlID0gW3twaHVyaV9wcmVkaWNhdGVfa2V5OiBbc3JjX2h1cmkxXSwgc291cmNlX3ByZWQxX2tleTogW2xpdGExLCBsaXRiXX0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7cGh1cmlfcHJlZGljYXRlX2tleTogW3NyY19odXJpMl0sIHNvdXJjZV9wcmVkMV9rZXk6IFtsaXRhMiwgbGl0Y119LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge3BodXJpX3ByZWRpY2F0ZV9rZXk6IFtzcmNfaHVyaTNdLCBzb3VyY2VfcHJlZDFfa2V5OiBbbGl0ZCwgbGl0Y119XQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">IyEvdXNyL2Jpbi9lbnYgYmFzaAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZnJvbSB0eXBlZF9wcmVkaWNhdGUgaW1wb3J0IFR5cGVkUHJlZGljYXRlCg==</text>
+        <text encoding="base64">IyEvdXNyL2Jpbi9lbnYgYmFzaAoK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">IyEvdXNyL2Jpbi9lbnYgYmFzaAoK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
