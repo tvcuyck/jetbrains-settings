@@ -94,6 +94,12 @@
         <mark key="]" line="8" column="0" />
         <mark key="." line="8" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/tests/spec/actions/components/test_indexing_action_spec.py" timestamp="1542967904541">
+        <mark key="[" line="109" column="125" />
+        <mark key="]" line="109" column="33" />
+        <mark key="^" line="109" column="33" />
+        <mark key="." line="109" column="33" />
+      </file>
       <file name="$USER_HOME$/Disqover/metis-2/execution_layer/spec/persistence/test_input_reader_spec.py" timestamp="1542636699601">
         <mark key="[" line="139" column="19" />
         <mark key="]" line="139" column="23" />
@@ -635,11 +641,11 @@
         <mark key="^" line="21" column="44" />
         <mark key="." line="21" column="44" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/src/metis/actions/components/indexing_action.py" timestamp="1542965477622">
-        <mark key="[" line="62" column="52" />
-        <mark key="]" line="62" column="52" />
-        <mark key="^" line="62" column="7" />
-        <mark key="." line="62" column="0" />
+      <file name="$USER_HOME$/Disqover/metis/src/metis/actions/components/indexing_action.py" timestamp="1542967762507">
+        <mark key="[" line="62" column="38" />
+        <mark key="]" line="60" column="0" />
+        <mark key="." line="60" column="0" />
+        <mark key="^" line="60" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/test_partial_pipeline_3_spec.py" timestamp="1537875730600">
         <mark key="[" line="198" column="71" />
@@ -694,6 +700,10 @@
         <mark key="]" line="32" column="40" />
         <mark key="^" line="102" column="85" />
         <mark key="." line="103" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/tests/spec/actions/commands/test_introspect_component_results_action_spec.py" timestamp="1542967780603">
+        <mark key="[" line="55" column="0" />
+        <mark key="]" line="58" column="95" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/commands/get_dirty_components.py" timestamp="1540995460571">
         <mark key="[" line="26" column="0" />
@@ -1005,7 +1015,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBjb21wb25lbnRfcmVzdWx0cyA9IGNvbXBvbmVudF9yZXN1bHRfc3RvcmUoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgd2l0aCBpdCgncnVucyB3aGVuIG5vIGNvbXBvbmVudHMgaGF2ZSBlcnJvcnMnKToK</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -1017,25 +1027,25 @@
         <text>create</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBjb21wb25lbnRfcmVzdWx0cyA9IGNvbXBvbmVudF9yZXN1bHRfc3RvcmUoKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgbW9ja19jb21wb25lbnRfcmVzdWx0cyA9IGNyZWF0ZV9tb2NrX2NvbXBvbmVudF9yZXN1bHRzKChndWlkMSwgeydvcHRpb24nOiAndmFsdWVfMSd9KSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIChndWlkMiwgeydvcHRpb24nOiAndmFsdWVfMid9LCBOb25lLCBbJ2Vycm9yJ10pLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKGd1aWQ0LCB7J29wdGlvbic6ICd2YWx1ZV8zJ30sIGZlZWRiYWNrLCBOb25lKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIChndWlkNSwgeydvcHRpb24nOiAnbWVyZ2UnfSkpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgd2l0aCBpdCgncnVucyB3aGVuIG5vIGNvbXBvbmVudHMgaGF2ZSBlcnJvcnMnKToK</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLmltcG9ydF9zdWJzZXRfY29lZmZpY2llbnQgPSBpbXBvcnRfc3Vic2V0X2NvZWZmaWNpZW50Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgY29tcG9uZW50X3Jlc3VsdC5lcnJvcnM6Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLm5vX2luZGV4X29uX2Vycm9yID0gbm9faW5kZXhfb25fZXJyb3IK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICcgMS4wIG1lYW5zIGltcG9ydGluZyBhbGwgdGhlIGRhdGEuJywK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLmltcG9ydF9zdWJzZXRfY29lZmZpY2llbnQgPSBpbXBvcnRfc3Vic2V0X2NvZWZmaWNpZW50Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAKICAgICAgICBpZiByZW1vdmVfdHlwZV9zcGVjaWZpZXJzOgogICAgICAgICAgICBtYXRjaCA9IHJlLnNlYXJjaChyIiIiKFsnXCJdLipbJ1wiXSkoQHxcXnsyfSk/IiIiLCBvYmplY3RfcmF3KQo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLm5vX2luZGV4X29uX2Vycm9yID0gbm9faW5kZXhfb25fZXJyb3IK</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -1054,16 +1064,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CiAgICAgICAgc291cmNlX3NlY3Rpb24gPSBzZWxmLnNvdXJjZV9hbF9kaXNwbGF5X25hbWUKCiAgICAgICAgc2VsZi5zb3VyY2VfYWxpZ25tZW50X29wdGlvbiA9IHNlbGYuYWRkX29wdGlvbigKICAgICAgICAgICAgT3B0aW9uKCdzb3VyY2VfYWxpZ25tZW50JywKICAgICAgICAgICAgICAgICAgICdUaGUgY2xhc3Mgd2hlcmUgcmVzb3VyY2VzIHdpbGwgYmUgbW92ZWQgZnJvbS4nLAogICAgICAgICAgICAgICAgICAgbmFtZT10ZXJtaW5vbG9neS5jbGFzc19uYW1lLAogICAgICAgICAgICAgICAgICAgY29udGVudF90eXBlPUNULkVYSVNUSU5HX0FMSUdOTUVOVCwKICAgICAgICAgICAgICAgICAgIHNlY3Rpb249c291cmNlX3NlY3Rpb24pKQoKICAgICAgICBzZWxmLnJlY29yZF9maWx0ZXIgPSBSZWNvcmRGaWx0ZXIoc2VsZiwgYWxpZ25tZW50X29wdGlvbl9uYW1lPSdzb3VyY2VfYWxpZ25tZW50JywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VjdGlvbj1zb3VyY2Vfc2VjdGlvbikK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICcgMS4wIG1lYW5zIGltcG9ydGluZyBhbGwgdGhlIGRhdGEuJywK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICMgcCA9IHBwMiAgIyBkaXJ0eSB0cmljayBmb3IgbWFtYmEK</text>
+        <text encoding="base64">ICAgICAgICAKICAgICAgICBpZiByZW1vdmVfdHlwZV9zcGVjaWZpZXJzOgogICAgICAgICAgICBtYXRjaCA9IHJlLnNlYXJjaChyIiIiKFsnXCJdLipbJ1wiXSkoQHxcXnsyfSk/IiIiLCBvYmplY3RfcmF3KQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHNlbGVjdGVkX3JkZl90eXBlOiAK</text>
+        <text encoding="base64">CiAgICAgICAgc291cmNlX3NlY3Rpb24gPSBzZWxmLnNvdXJjZV9hbF9kaXNwbGF5X25hbWUKCiAgICAgICAgc2VsZi5zb3VyY2VfYWxpZ25tZW50X29wdGlvbiA9IHNlbGYuYWRkX29wdGlvbigKICAgICAgICAgICAgT3B0aW9uKCdzb3VyY2VfYWxpZ25tZW50JywKICAgICAgICAgICAgICAgICAgICdUaGUgY2xhc3Mgd2hlcmUgcmVzb3VyY2VzIHdpbGwgYmUgbW92ZWQgZnJvbS4nLAogICAgICAgICAgICAgICAgICAgbmFtZT10ZXJtaW5vbG9neS5jbGFzc19uYW1lLAogICAgICAgICAgICAgICAgICAgY29udGVudF90eXBlPUNULkVYSVNUSU5HX0FMSUdOTUVOVCwKICAgICAgICAgICAgICAgICAgIHNlY3Rpb249c291cmNlX3NlY3Rpb24pKQoKICAgICAgICBzZWxmLnJlY29yZF9maWx0ZXIgPSBSZWNvcmRGaWx0ZXIoc2VsZiwgYWxpZ25tZW50X29wdGlvbl9uYW1lPSdzb3VyY2VfYWxpZ25tZW50JywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VjdGlvbj1zb3VyY2Vfc2VjdGlvbikK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgLSBmaWxlX3Byb3BlcnR5OiA8aHR0cDovL3JkZi5lYmkuYWMudWsvdGVybXMvY2hlbWJsI2NvbXBvbmVudFR5cGU+CiAgICAgICAgcHJlZGljYXRlOiBjb21wb25lbnRfdHlwZQogICAgICAtIGZpbGVfcHJvcGVydHk6IDxodHRwOi8vcmRmLmViaS5hYy51ay90ZXJtcy9jaGVtYmwjb3JnYW5pc21OYW1lPgogICAgICAgIHByZWRpY2F0ZTogb3JnYW5pc21fbmFtZQogICAgICAtIGZpbGVfcHJvcGVydHk6IDxodHRwOi8vcmRmLmViaS5hYy51ay90ZXJtcy9jaGVtYmwjdGF4b25vbXk+CiAgICAgICAgcHJlZGljYXRlOiB0YXhvbm9teV91cmkKICAgICAgLSBmaWxlX3Byb3BlcnR5OiA8aHR0cDovL3JkZi5lYmkuYWMudWsvdGVybXMvY2hlbWJsI3RhcmdldENtcHRYcmVmPgogICAgICAgIHByZWRpY2F0ZTogdGFyZ2V0X2NtcHRfeHJlZgogICAgICAtIGZpbGVfcHJvcGVydHk6IDxodHRwOi8vcmRmLmViaS5hYy51ay90ZXJtcy9jaGVtYmwjcHJvdGVpblNlcXVlbmNlPgogICAgICAgIHByZWRpY2F0ZTogcHJvdGVpbl9zZXF1ZW5jZQogICAgICAtIGZpbGVfcHJvcGVydHk6IDxodHRwOi8vd3d3LnczLm9yZy8yMDA0LzAyL3Nrb3MvY29yZSNhbHRMYWJlbD4KICAgICAgICBwcmVkaWNhdGU6IGFsdF9sYWJlbAogICAgICAtIGZpbGVfcHJvcGVydHk6IDxodHRwOi8vcHVybC5vcmcvZGMvdGVybXMvZGVzY3JpcHRpb24+CiAgICAgICAgcHJlZGljYXRlOiBkZXNjcmlwdGlvbgo=</text>
+        <text encoding="base64">ICAgICMgcCA9IHBwMiAgIyBkaXJ0eSB0cmljayBmb3IgbWFtYmEK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
