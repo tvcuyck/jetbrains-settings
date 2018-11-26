@@ -153,9 +153,6 @@
         <mark key="^" line="43" column="34" />
         <mark key="." line="43" column="34" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/tests/spec/test_component_result_spec.py" timestamp="1542975501661">
-        <mark key="]" line="1" column="63" />
-      </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/metis.py" timestamp="1535962789976">
         <mark key="[" line="6" column="0" />
         <mark key="]" line="31" column="42" />
@@ -244,6 +241,12 @@
         <mark key="]" line="271" column="35" />
         <mark key="^" line="271" column="35" />
         <mark key="." line="271" column="35" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/tests/spec/test_pipeline_spec.py" timestamp="1543227981632">
+        <mark key="[" line="120" column="105" />
+        <mark key="]" line="121" column="48" />
+        <mark key="." line="121" column="48" />
+        <mark key="^" line="121" column="48" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/src/metis/expression_parser/expression_doc_builder.py" timestamp="1542805585718">
         <mark key="[" line="36" column="21" />
@@ -340,9 +343,9 @@
         <mark key="." line="113" column="62" />
         <mark key="^" line="113" column="62" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/tests/spec/test_metis_settings_spec.py" timestamp="1542973078345">
-        <mark key="[" line="43" column="70" />
-        <mark key="]" line="43" column="77" />
+      <file name="$USER_HOME$/Disqover/metis/tests/spec/test_metis_settings_spec.py" timestamp="1543227941823">
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="9" column="40" />
         <mark key="^" line="43" column="77" />
         <mark key="." line="43" column="77" />
       </file>
@@ -802,7 +805,7 @@
         <mark key="." line="88" column="41" />
         <mark key="^" line="88" column="41" />
       </file>
-      <file name="/Dummy.txt" timestamp="1542983150882">
+      <file name="/Dummy.txt" timestamp="1543228219624">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="26" />
         <mark key="." line="0" column="26" />
@@ -967,7 +970,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5mZWVkYmFjayA9IENvbXBvbmVudEZlZWRiYWNrKCkKICAgICAgICAgICAgc2VsZi5hY3Rpb24uaW5pdGlhbGl6ZV9mZWVkYmFjayh7fSwgc2VsZi5mZWVkYmFjaykK</text>
+        <text encoding="base64">ZnJvbSBtZXRpcy5tZXRpc19zZXR0aW5ncyBpbXBvcnQgU2V0dGluZ3MK</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -979,25 +982,25 @@
         <text>create</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5mZWVkYmFjayA9IENvbXBvbmVudEZlZWRiYWNrKCkKICAgICAgICAgICAgc2VsZi5hY3Rpb24uaW5pdGlhbGl6ZV9mZWVkYmFjayh7fSwgc2VsZi5mZWVkYmFjaykK</text>
+        <text encoding="base64">ZnJvbSBtZXRpcy5tZXRpc19zZXR0aW5ncyBpbXBvcnQgU2V0dGluZ3MK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdChyc1snd2FybmluZ3MnXSkudG8obWF0Y2goJ3NraXBwZWQnKSkK</text>
+        <text encoding="base64">ICAgIAogICAgd2l0aCBhZnRlci5lYWNoOgogICAgICAgICMgUGlwZWxpbmUgCg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB0bygoJ3NraXBwZWQnKSkK</text>
+        <text encoding="base64">ICAgICAgICBTZXR0aW5ncy5zaW5nbGV0b24gPSBTZXR0aW5ncy5fU2V0dGluZ3MoKQogICAgICAgIFNldHRpbmdzLmluc3RhbmNlKCkubWV0aXNfaW5mbyA9IE1ldGlzSW5mbyhTZXR0aW5ncy5pbnN0YW5jZSgpLmRpcmVjdG9yeSkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5mCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdChyc1snd2FybmluZ3MnXSkudG8obWF0Y2goJ3NraXBwZWQnKSkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybiB7J3dhcm5pbmdzJzogJ0luZGV4aW5nIHNraXBwZWQ6IC4nfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICB0bygoJ3NraXBwZWQnKSkK</text>
       </register>
-      <register name="5" type="8">
-        <text>at least one component in the pipeline raised an error</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5mCg==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -1016,19 +1019,19 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybiB7J3dhcm5pbmdzJzogJ0luZGV4aW5nIHNraXBwZWQ6IC4nfQo=</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVHJ1ZSkpCg==</text>
+      <register name="7" type="8">
+        <text>at least one component in the pipeline raised an error</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbm9faW5kZXhfb25fZXJyb3I9RmFsc2UpKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbm9faW5kZXhfb25fZXJyb3I9RmFsc2UpKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVHJ1ZSkpCg==</text>
       </register>
       <register name=":" type="4">
-        <text>110</text>
+        <text>50</text>
       </register>
     </registers>
     <search>
@@ -1064,7 +1067,6 @@
         <entry>create</entry>
       </history-search>
       <history-cmd>
-        <entry>230</entry>
         <entry>680</entry>
         <entry>120</entry>
         <entry>1060</entry>
@@ -1083,6 +1085,7 @@
         <entry>452</entry>
         <entry>w</entry>
         <entry>110</entry>
+        <entry>50</entry>
         <entry>0</entry>
       </history-cmd>
       <history-expr />
