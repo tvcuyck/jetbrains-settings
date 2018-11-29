@@ -23,9 +23,9 @@
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/facets_controller.rb" timestamp="1543418590667">
         <mark key="[" line="78" column="0" />
-        <mark key="]" line="79" column="60" />
-        <mark key="." line="79" column="60" />
-        <mark key="^" line="79" column="60" />
+        <mark key="]" line="78" column="60" />
+        <mark key="." line="78" column="60" />
+        <mark key="^" line="78" column="60" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/indexing/disqover_object_to_solr_mapper.py" timestamp="1539686396012">
         <mark key="[" line="41" column="89" />
@@ -87,6 +87,12 @@
         <mark key="]" line="239" column="16" />
         <mark key="^" line="239" column="16" />
         <mark key="." line="239" column="16" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/federation_instance_service.rb" timestamp="1543493451546">
+        <mark key="[" line="495" column="0" />
+        <mark key="]" line="506" column="5" />
+        <mark key="^" line="446" column="29" />
+        <mark key="." line="495" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/commands/generate_documentation_action.py" timestamp="1542181990824">
         <mark key="[" line="29" column="72" />
@@ -363,6 +369,12 @@
         <mark key="." line="73" column="39" />
         <mark key="^" line="73" column="39" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/federation_subfacet_service.rb" timestamp="1543493503888">
+        <mark key="[" line="71" column="60" />
+        <mark key="]" line="71" column="59" />
+        <mark key="." line="71" column="59" />
+        <mark key="^" line="71" column="59" />
+      </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/indexing/test_solr_instance_spec.py" timestamp="1539693200656">
         <mark key="[" line="11" column="41" />
         <mark key="]" line="15" column="75" />
@@ -636,11 +648,11 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/config/database.yml" timestamp="1542963240289">
         <mark key="[" line="119" column="63" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/federation_instance_service_spec.rb" timestamp="1542985699148">
-        <mark key="[" line="736" column="30" />
-        <mark key="]" line="736" column="66" />
-        <mark key="^" line="736" column="66" />
-        <mark key="." line="736" column="66" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/federation_instance_service_spec.rb" timestamp="1543493857003">
+        <mark key="'" line="2941" column="12" />
+        <mark key="]" line="4442" column="59" />
+        <mark key="^" line="4442" column="59" />
+        <mark key="." line="4442" column="59" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/sparql_utils.py" timestamp="1541432694690">
         <mark key="[" line="24" column="112" />
@@ -648,6 +660,7 @@
         <mark key="^" line="24" column="74" />
         <mark key="." line="24" column="74" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/federation_facet_service.rb" timestamp="1543492452723" />
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/test_option_spec.py" timestamp="1540824333614">
         <mark key="[" line="154" column="31" />
         <mark key="]" line="154" column="14" />
@@ -668,7 +681,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="61" column="48" filename="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/transform_record_action.py" />
       <jump line="1592" column="67" filename="$USER_HOME$/Disqover/metis/execution_layer/spec/indexing/test_indexer_spec.py" />
       <jump line="63" column="50" filename="$USER_HOME$/Disqover/metis/execution_layer/integration/pipeline.yml" />
       <jump line="211" column="106" filename="$USER_HOME$/Disqover/metis/execution_layer/spec/test_pipeline_run_spec.py" />
@@ -768,6 +780,7 @@
       <jump line="3" column="0" filename="$USER_HOME$/Disqover/metis/tests/spec_helper/pipeline_fixtures.py" />
       <jump line="32" column="57" filename="$USER_HOME$/Disqover/disqover-backend/app/models/plugins/external_search_plugin.rb" />
       <jump line="25" column="0" filename="$USER_HOME$/Disqover/disqover-backend/app/models/plugins/external_search_plugin.rb" />
+      <jump line="2982" column="12" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/federation_instance_service_spec.rb" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -778,19 +791,19 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ZQo=</text>
+        <text encoding="base64">ICAgICAgICAgIGNvbnRleHQgJ25vIHF1ZXJ5IGxvY2F0aW9uJyBkbwogICAgICAgICAgICBsZXQoOnJlc3VsdCkge3N1YmplY3QuZ2V0X2lkcygKICAgICAgICAgICAgICAgIEZpbHRlci5yb290KEZpbHRlci5hbmQoWwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgRmlsdGVyLmluc3RhbmNlcyhpZHM6IFsnaHR0cDovL2lkZW50aWZpZXJzLm9yZy9uY2JpL2dlbmUvMjEnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnaHR0cDovL2lkZW50aWZpZXJzLm9yZy9uY2JpL2dlbmUvMzEnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnaHR0cDovL2lkZW50aWZpZXJzLm9yZy9uY2JpL2dlbmUvMTcnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnaHR0cDovL2lkZW50aWZpZXJzLm9yZy9uY2JpL2dlbmUvMjcnXSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBGaWx0ZXIucGx1Z2luKHBsdWdpbl9pZDogJ3BsdWdpbicsIGFyZ3VtZW50czoge2E6IDF9LnRvX2pzb24pXSkpLCBuaWwsIG5pbCl9CgoKICAgICAgICAgICAgYmVmb3JlIGRvCiAgICAgICAgICAgICAgQ2FjaGVSZXBvc2l0b3J5Lm5ldy5jbGVhcgogICAgICAgICAgICBlbmQKCiAgICAgICAgICAgIGl0ICdzaG91bGQgdHJhbnNsYXRlIHRoZSBwbHVnaW4gbm9kZSB0byBpZHMgYmVmb3JlIHNlbmRpbmcgdGhlIHJlcXVlc3Qgb2ZmIHRvIHRoZSBmZWRlcmF0aW9uIHNlcnZlcicgZG8KICAgICAgICAgICAgICBGaWx0ZXI6OlBsdWdpbk5vZGUuYW55X2luc3RhbmNlLnN0dWIoOnBsdWdpbikuYW5kX3JldHVybihFeHRlcm5hbFNlYXJjaFBsdWdpbi5uZXcoe25hbWU6ICdwbHVnaW4nfSwgJycpKQogICAgICAgICAgICAgIEV4dGVybmFsU2VhcmNoUGx1Z2luLmFueV9pbnN0YW5jZS5zdHViKDpleGVjdXRlKS5hbmRfcmV0dXJuKAogICAgICAgICAgICAgICAgICAnaHR0cDovL2lkZW50aWZpZXJzLm9yZy9uY2JpL2dlbmUvMjEnID0+IDAuMjAsCiAgICAgICAgICAgICAgICAgICdodHRwOi8vaWRlbnRpZmllcnMub3JnL25jYmkvZ2VuZS8zMScgPT4gMC40MCwKICAgICAgICAgICAgICAgICAgJ2h0dHA6Ly9pZGVudGlmaWVycy5vcmcvbmNiaS9nZW5lLzE3JyA9PiAwLjMwCiAgICAgICAgICAgICAgKQogICAgICAgICAgICAgIEZlZGVyYXRpb25SZXN1bHRTZXJ2aWNlLnNob3VsZF9yZWNlaXZlKDpnZXRfcmVtb3RlX2lkcykgZG8gfGVuZHBvaW50LCBmaWx0ZXIsIG9wdGlvbnN8CiAgICAgICAgICAgICAgICBleHBlY3QoRmlsdGVySW5mb1NlcnZpY2UudG9wX2xldmVsX3BsdWdpbl9maWx0ZXIoZmlsdGVyKSkudG8gYmVfbmlsCiAgICAgICAgICAgICAgZW5kLmF0X2xlYXN0KDpvbmNlKS5hbmRfcmV0dXJuKHt9KQogICAgICAgICAgICAgIHJlc3VsdAogICAgICAgICAgICBlbmQKCiAgICAgICAgICAgIGl0ICdzb3J0cyBvbiBleHRlcm5hbCByZWxldmFuY3knIGRvCiAgICAgICAgICAgICAgRmlsdGVyOjpQbHVnaW5Ob2RlLmFueV9pbnN0YW5jZS5zdHViKDpwbHVnaW4pLmFuZF9yZXR1cm4oRXh0ZXJuYWxTZWFyY2hQbHVnaW4ubmV3KHtuYW1lOiAncGx1Z2luJ30sICcnKSkKICAgICAgICAgICAgICBFeHRlcm5hbFNlYXJjaFBsdWdpbi5hbnlfaW5zdGFuY2Uuc3R1Yig6ZXhlY3V0ZSkuYW5kX3JldHVybigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2h0dHA6Ly9pZGVudGlmaWVycy5vcmcvbmNiaS9nZW5lLzIxJyA9PiAwLjIwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnaHR0cDovL2lkZW50aWZpZXJzLm9yZy9uY2JpL2dlbmUvMzEnID0+IDAuNDAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdodHRwOi8vaWRlbnRpZmllcnMub3JnL25jYmkvZ2VuZS8xNycgPT4gMC4zMAogICAgICAgICAgICAgICkKICAgICAgICAgICAgICByZXN1bHQKICAgICAgICAgICAgICByZXN1bHQubWFwe3xpZHwgaWQubGFzdCgyKX0uc2hvdWxkID09ICV3KDMxIDE3IDIxKQogICAgICAgICAgICBlbmQKICAgICAgICAgIGVuZAo=</text>
       </register>
       <register name="i" type="4">
         <text />
       </register>
       <register name="-" type="4">
-        <text>d</text>
+        <text>]</text>
       </register>
       <register name="/" type="4">
-        <text>create</text>
+        <text>plugins</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgQ29uZmlndXJhdGlvblNlcnZpY2Uuc2hvdWxkX3JlY2VpdmUoOmRlZmF1bHRfY29uZmlndXJhdGlvbikub25jZQo=</text>
+        <text encoding="base64">ICAgICAgICAgIGNvbnRleHQgJ25vIHF1ZXJ5IGxvY2F0aW9uJyBkbwogICAgICAgICAgICBsZXQoOnJlc3VsdCkge3N1YmplY3QuZ2V0X2lkcygKICAgICAgICAgICAgICAgIEZpbHRlci5yb290KEZpbHRlci5hbmQoWwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgRmlsdGVyLmluc3RhbmNlcyhpZHM6IFsnaHR0cDovL2lkZW50aWZpZXJzLm9yZy9uY2JpL2dlbmUvMjEnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnaHR0cDovL2lkZW50aWZpZXJzLm9yZy9uY2JpL2dlbmUvMzEnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnaHR0cDovL2lkZW50aWZpZXJzLm9yZy9uY2JpL2dlbmUvMTcnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnaHR0cDovL2lkZW50aWZpZXJzLm9yZy9uY2JpL2dlbmUvMjcnXSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBGaWx0ZXIucGx1Z2luKHBsdWdpbl9pZDogJ3BsdWdpbicsIGFyZ3VtZW50czoge2E6IDF9LnRvX2pzb24pXSkpLCBuaWwsIG5pbCl9CgoKICAgICAgICAgICAgYmVmb3JlIGRvCiAgICAgICAgICAgICAgQ2FjaGVSZXBvc2l0b3J5Lm5ldy5jbGVhcgogICAgICAgICAgICBlbmQKCiAgICAgICAgICAgIGl0ICdzaG91bGQgdHJhbnNsYXRlIHRoZSBwbHVnaW4gbm9kZSB0byBpZHMgYmVmb3JlIHNlbmRpbmcgdGhlIHJlcXVlc3Qgb2ZmIHRvIHRoZSBmZWRlcmF0aW9uIHNlcnZlcicgZG8KICAgICAgICAgICAgICBGaWx0ZXI6OlBsdWdpbk5vZGUuYW55X2luc3RhbmNlLnN0dWIoOnBsdWdpbikuYW5kX3JldHVybihFeHRlcm5hbFNlYXJjaFBsdWdpbi5uZXcoe25hbWU6ICdwbHVnaW4nfSwgJycpKQogICAgICAgICAgICAgIEV4dGVybmFsU2VhcmNoUGx1Z2luLmFueV9pbnN0YW5jZS5zdHViKDpleGVjdXRlKS5hbmRfcmV0dXJuKAogICAgICAgICAgICAgICAgICAnaHR0cDovL2lkZW50aWZpZXJzLm9yZy9uY2JpL2dlbmUvMjEnID0+IDAuMjAsCiAgICAgICAgICAgICAgICAgICdodHRwOi8vaWRlbnRpZmllcnMub3JnL25jYmkvZ2VuZS8zMScgPT4gMC40MCwKICAgICAgICAgICAgICAgICAgJ2h0dHA6Ly9pZGVudGlmaWVycy5vcmcvbmNiaS9nZW5lLzE3JyA9PiAwLjMwCiAgICAgICAgICAgICAgKQogICAgICAgICAgICAgIEZlZGVyYXRpb25SZXN1bHRTZXJ2aWNlLnNob3VsZF9yZWNlaXZlKDpnZXRfcmVtb3RlX2lkcykgZG8gfGVuZHBvaW50LCBmaWx0ZXIsIG9wdGlvbnN8CiAgICAgICAgICAgICAgICBleHBlY3QoRmlsdGVySW5mb1NlcnZpY2UudG9wX2xldmVsX3BsdWdpbl9maWx0ZXIoZmlsdGVyKSkudG8gYmVfbmlsCiAgICAgICAgICAgICAgZW5kLmF0X2xlYXN0KDpvbmNlKS5hbmRfcmV0dXJuKHt9KQogICAgICAgICAgICAgIHJlc3VsdAogICAgICAgICAgICBlbmQKCiAgICAgICAgICAgIGl0ICdzb3J0cyBvbiBleHRlcm5hbCByZWxldmFuY3knIGRvCiAgICAgICAgICAgICAgRmlsdGVyOjpQbHVnaW5Ob2RlLmFueV9pbnN0YW5jZS5zdHViKDpwbHVnaW4pLmFuZF9yZXR1cm4oRXh0ZXJuYWxTZWFyY2hQbHVnaW4ubmV3KHtuYW1lOiAncGx1Z2luJ30sICcnKSkKICAgICAgICAgICAgICBFeHRlcm5hbFNlYXJjaFBsdWdpbi5hbnlfaW5zdGFuY2Uuc3R1Yig6ZXhlY3V0ZSkuYW5kX3JldHVybigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2h0dHA6Ly9pZGVudGlmaWVycy5vcmcvbmNiaS9nZW5lLzIxJyA9PiAwLjIwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnaHR0cDovL2lkZW50aWZpZXJzLm9yZy9uY2JpL2dlbmUvMzEnID0+IDAuNDAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdodHRwOi8vaWRlbnRpZmllcnMub3JnL25jYmkvZ2VuZS8xNycgPT4gMC4zMAogICAgICAgICAgICAgICkKICAgICAgICAgICAgICByZXN1bHQKICAgICAgICAgICAgICByZXN1bHQubWFwe3xpZHwgaWQubGFzdCgyKX0uc2hvdWxkID09ICV3KDMxIDE3IDIxKQogICAgICAgICAgICBlbmQKICAgICAgICAgIGVuZAo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ZQo=</text>
@@ -843,9 +856,9 @@
       </register>
     </registers>
     <search>
-      <last-search>create</last-search>
+      <last-search>plugins</last-search>
       <last-offset />
-      <last-pattern>create</last-pattern>
+      <last-pattern>plugins</last-pattern>
       <last-replace>is false</last-replace>
       <last-substitute>WASTRUE</last-substitute>
       <last-dir>1</last-dir>
@@ -853,7 +866,6 @@
     </search>
     <history>
       <history-search>
-        <entry>co</entry>
         <entry>directly</entry>
         <entry>cookie</entry>
         <entry>roles</entry>
@@ -873,6 +885,7 @@
         <entry>instance</entry>
         <entry>prepare_com</entry>
         <entry>create</entry>
+        <entry>plugins</entry>
       </history-search>
       <history-cmd>
         <entry>230</entry>
