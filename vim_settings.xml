@@ -135,7 +135,7 @@
         <mark key="^" line="35" column="39" />
         <mark key="." line="35" column="39" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/script/store_log_stats.sh" timestamp="1543935083328">
+      <file name="$USER_HOME$/Disqover/disqover-backend/script/store_log_stats.sh" timestamp="1543936165840">
         <mark key="[" line="7" column="0" />
         <mark key="]" line="12" column="20" />
       </file>
@@ -339,6 +339,7 @@
         <mark key="^" line="283" column="0" />
         <mark key="." line="283" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/script/log_filter_test.py" timestamp="1543936986648" />
       <file name="$USER_HOME$/Disqover/metis-2/execution_layer/spec/test_pipeline_spec.py" timestamp="1542373875377">
         <mark key="[" line="777" column="60" />
         <mark key="]" line="830" column="40" />
@@ -409,11 +410,6 @@
         <mark key="]" line="23" column="5" />
         <mark key="." line="23" column="5" />
         <mark key="^" line="23" column="5" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/metis/pipeline_spec.rb" timestamp="1542979129662">
-        <mark key="]" line="230" column="43" />
-        <mark key="." line="230" column="43" />
-        <mark key="^" line="230" column="43" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/sources/actions/components/match_object_label.py" timestamp="1540456823340">
         <mark key="[" line="24" column="6" />
@@ -593,16 +589,6 @@
         <mark key="." line="30" column="32" />
         <mark key="^" line="30" column="32" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/configuration_service.rb" timestamp="1543489383392">
-        <mark key="]" line="42" column="60" />
-        <mark key="." line="42" column="60" />
-        <mark key="^" line="42" column="60" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/etl_service.rb" timestamp="1543390946360">
-        <mark key="]" line="264" column="63" />
-        <mark key="^" line="264" column="63" />
-        <mark key="." line="264" column="63" />
-      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/plugins/chemantics/manifest.yml" timestamp="1543933668008">
         <mark key="[" line="12" column="21" />
         <mark key="]" line="28" column="0" />
@@ -619,6 +605,12 @@
         <mark key="]" line="11" column="98" />
         <mark key="." line="11" column="98" />
         <mark key="^" line="11" column="98" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/script/log_filter.py" timestamp="1543938290498">
+        <mark key="[" line="8" column="40" />
+        <mark key="]" line="289" column="59" />
+        <mark key="." line="289" column="59" />
+        <mark key="^" line="289" column="59" />
       </file>
       <file name="$USER_HOME$/Disqover/documentation/sphinx/source/index.rst" timestamp="1542122963705">
         <mark key="[" line="17" column="0" />
@@ -650,10 +642,10 @@
         <mark key="." line="88" column="41" />
         <mark key="^" line="88" column="41" />
       </file>
-      <file name="/Dummy.txt" timestamp="1543934117712">
+      <file name="/Dummy.txt" timestamp="1543938185813">
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
+        <mark key="]" line="0" column="14" />
+        <mark key="." line="0" column="14" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/config/database.yml" timestamp="1542963240289">
         <mark key="[" line="119" column="63" />
@@ -791,37 +783,37 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgLQogICAgICAgIGtleTogU09SVF9JRFhfU0lNSUxBUklUWQogICAgICAgIGxhYmVsOiAiU29ydCBJRFggU2ltaWxhcml0eSIK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="i" type="4">
         <text />
       </register>
       <register name="-" type="4">
-        <text>]</text>
+        <text>ize plugins line</text>
       </register>
       <register name="/" type="4">
         <text>plugins</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">IyBGaXJzdCBzb2x1dGlvbiB0byBnZXQgY29ycmVjdCByYWtlIHZlcnNpb24sIG1ha2Ugc3VyZSAvb3B0L3J1YnkgaXMgZmlyc3QgaW4gUEFUSAojIEFsc28gYWRkIC91c3Ivc2JpbiBmb3IgaXAvaWZjb25maWcKZXhwb3J0IFBBVEg9L29wdC9ydWJ5LTIuMi40L2Jpbjovc2JpbjovdXNyL3NiaW46JFBBVEgKCnNjcmlwdF9kaXI9YGRpcm5hbWUgJDBgCmNkICIkKGRpcm5hbWUgIiQwIikiOwo=</text>
+        <text encoding="base64">CiAgICBkZWYgdGVzdF9zZWFyY2hfc3RhcnRfcGFnZV9saW5lKHNlbGYpOgogICAgICAgIHNlbGYuY2hlY2tfZXF1YWwoJ1x0Jy5qb2luKFtzZWxmLmxpbmVfcHJlZml4X2JlZm9yZSwnU2VhcmNoCXN0YXJ0IHBhZ2UJeyJrZXl3b3JkcyI6IkNBMjk1ODkzOSIsIm9wdGlvbiI6eyJvbmx5X2xhYmVsIjpmYWxzZSwibG9jYWxfb25seSI6ZmFsc2V9fQkJQ0EyOTU4OTM5IiddKSwKCSAgICAgICAgICAgICdcdCcuam9pbihbc2VsZi5saW5lX3ByZWZpeF9hZnRlciwnU2VhcmNoCXN0YXJ0IHBhZ2UJeyJrZXl3b3JkcyI6ICJYWFgiLCAib3B0aW9uIjogeyJsb2NhbF9vbmx5IjogZmFsc2UsICJvbmx5X2xhYmVsIjogZmFsc2V9fSddKSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgLQogICAgICAgIGtleTogU09SVF9JRFhfU0lNSUxBUklUWQogICAgICAgIGxhYmVsOiAiU29ydCBJRFggU2ltaWxhcml0eSIK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">IyBBbHNvIGFkZCAvdXNyL3NiaW4gZm9yIGlwL2lmY29uZmlnCg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">ICAgIGRlZiBhbm9ueW1pemVfa2V5d29yZHMoc2VsZiwganNvbik6CiAgICAgICAgaWYgJ2tleXdvcmRzJyBpbiBqc29uLmtleXMoKToKICAgICAgICAgICAgc2VsZi5hbm9ueW1pemVfanNvbihqc29uLCAna2V5d29yZHMnKQ==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">IyBBbHNvIGFkZCAvdXNyL3NiaW4gZm9yIGlwL2lmY29uZmlnCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">cmVzdWx0Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">cmVzcG9uc2UuYm9keQo=</text>
+      <register name="5" type="4">
+        <text encoding="base64">ICAgIGRlZiBhbm9ueW1pemVfa2V5d29yZHMoc2VsZiwganNvbik6CiAgICAgICAgaWYgJ2tleXdvcmRzJyBpbiBqc29uLmtleXMoKToKICAgICAgICAgICAgc2VsZi5hbm9ueW1pemVfanNvbihqc29uLCAna2V5d29yZHMnKQ==</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -840,19 +832,19 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ZQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQoanNvbikK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ZW5kCg==</text>
+        <text encoding="base64">ICAgICAgICBleGNlcHQ6Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CiAgICBpdCAndXNlcyBkaWZmZXJlbnQgY2FjaGUgZW50cnkgZm9yIHVzZXJzIGZyb20gZGlmZmVyZW50IGdyb3VwJyBkbwogICAgICBDb25maWd1cmF0aW9uU2VydmljZS5zaG91bGRfcmVjZWl2ZSg6ZGVmYXVsdF9jb25maWd1cmF0aW9uKS50d2ljZQogICAgICByZXN1bHQoQGRhdGFfc2NpZW50aXN0LCAxLCBbVXNlckdyb3VwLm5ldyhuYW1lOiAnbWRzJyldKQogICAgICByZXN1bHQoQGRhdGFfc2NpZW50aXN0LCAxLCBbVXNlckdyb3VwLm5ldyhuYW1lOiAnY2hpbGRyZW4nKV0pCiAgICBlbmQK</text>
+        <text encoding="base64">ICAgICAgICB0cnk6Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CiAgICBpdCAndXNlcyBkaWZmZXJlbnQgY2FjaGUgZW50cnkgZm9yIHVzZXJzIGZyb20gZGlmZmVyZW50IGdyb3VwJyBkbwogICAgICBDb25maWd1cmF0aW9uU2VydmljZS5zaG91bGRfcmVjZWl2ZSg6ZGVmYXVsdF9jb25maWd1cmF0aW9uKS50d2ljZQogICAgICByZXN1bHQoQHVzZXJfMSwgMSkKICAgICAgcmVzdWx0KEB1c2VyXzMsIDEpCiAgICBlbmQK</text>
+        <text encoding="base64">ICAgICAgLQogICAgICAgIGtleTogU09SVF9JRFhfU0lNSUxBUklUWQogICAgICAgIGxhYmVsOiAiU29ydCBJRFggU2ltaWxhcml0eSIK</text>
       </register>
       <register name=":" type="4">
-        <text>294</text>
+        <text>w</text>
       </register>
     </registers>
     <search>
@@ -902,12 +894,12 @@
         <entry>120</entry>
         <entry>1200</entry>
         <entry>27</entry>
-        <entry>w</entry>
         <entry>350</entry>
         <entry>0</entry>
         <entry>34</entry>
         <entry>441</entry>
         <entry>294</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
