@@ -3,21 +3,30 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Disqover/documentation/sphinx/source/metis/component_descriptions/json_importer_description.rst" timestamp="1544090836387">
-        <mark key="'" line="7" column="0" />
-        <mark key="[" line="4" column="0" />
-        <mark key="]" line="5" column="2" />
-        <mark key="." line="33" column="0" />
+      <file name="$USER_HOME$/Disqover/documentation/sphinx/source/metis/component_descriptions/json_importer_description.rst" timestamp="1544099276371">
+        <mark key="'" line="11" column="0" />
+        <mark key="[" line="46" column="79" />
+        <mark key="]" line="34" column="43" />
+        <mark key="^" line="34" column="43" />
+        <mark key="." line="34" column="43" />
       </file>
-      <file name="$USER_HOME$/Disqover/documentation/sphinx/source/metis/Components.rst" timestamp="1544086431068">
-        <mark key="[" line="499" column="0" />
-        <mark key="]" line="501" column="9" />
+      <file name="$USER_HOME$/Disqover/documentation/sphinx/source/metis/Components.rst" timestamp="1544099261155">
+        <mark key="[" line="1030" column="0" />
+        <mark key="]" line="491" column="11" />
+        <mark key="." line="491" column="11" />
+        <mark key="^" line="491" column="11" />
       </file>
-      <file name="$USER_HOME$/Disqover/documentation/sphinx/source/metis/component_descriptions/csv_importer_description.rst" timestamp="1544093006396">
-        <mark key="[" line="21" column="74" />
-        <mark key="]" line="20" column="0" />
-        <mark key="." line="20" column="0" />
-        <mark key="^" line="20" column="0" />
+      <file name="$USER_HOME$/Disqover/documentation/sphinx/source/metis/component_descriptions/xml_importer_description.rst" timestamp="1544098419147">
+        <mark key="[" line="7" column="46" />
+        <mark key="]" line="37" column="4" />
+        <mark key="^" line="9" column="0" />
+        <mark key="." line="37" column="4" />
+      </file>
+      <file name="$USER_HOME$/Disqover/documentation/sphinx/source/metis/component_descriptions/csv_importer_description.rst" timestamp="1544099289902">
+        <mark key="[" line="44" column="0" />
+        <mark key="]" line="57" column="99" />
+        <mark key="." line="43" column="4" />
+        <mark key="^" line="12" column="1" />
       </file>
       <file name="$USER_HOME$/Disqover/documentation/sphinx/source/metis/component_descriptions/chunk_id_importer_description.rst" timestamp="1544093561735">
         <mark key="[" line="4" column="0" />
@@ -25,11 +34,11 @@
         <mark key="." line="4" column="0" />
         <mark key="^" line="4" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/documentation/sphinx/source/metis/component_descriptions/rdf_importer_description.rst" timestamp="1544091181941">
-        <mark key="[" line="9" column="21" />
-        <mark key="]" line="9" column="20" />
-        <mark key="." line="9" column="20" />
-        <mark key="^" line="9" column="20" />
+      <file name="$USER_HOME$/Disqover/documentation/sphinx/source/metis/component_descriptions/rdf_importer_description.rst" timestamp="1544100298463">
+        <mark key="[" line="57" column="41" />
+        <mark key="]" line="57" column="41" />
+        <mark key="." line="57" column="5" />
+        <mark key="^" line="57" column="4" />
       </file>
       <file name="$USER_HOME$/Disqover/documentation/sphinx/source/metis/component_descriptions/chunk_sep_importer_description.rst" timestamp="1544093565755">
         <mark key="[" line="3" column="0" />
@@ -42,38 +51,44 @@
       <jump line="7" column="0" filename="$USER_HOME$/Disqover/documentation/sphinx/source/metis/component_descriptions/json_importer_description.rst" />
     </jumps>
     <registers>
-      <register name="0" type="2">
-        <text encoding="base64">KnVuZGVyIGNvbnN0cnVjdGlvbioK</text>
+      <register name="&quot;" type="4">
+        <text>``http://dbpedia.org/ontology/film``</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">VGhlIGZpbGUgaXMgY29tbWEtc2VwYXJhdGVkLCBzbyB3ZSBjYW4gdXNlIHRoZSBkZWZhdWx0IDpvcHRpb246ZGVsaW1pdGVyLCAK</text>
+      <register name="-" type="4">
+        <text>:</text>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">KnVuZGVyIGNvbnN0cnVjdGlvbioK</text>
+      <register name="0" type="4">
+        <text>``http://dbpedia.org/ontology/film``</text>
       </register>
-      <register name="2" type="8">
-        <text encoding="base64">ICAKICAKICAKICA=</text>
+      <register name="1" type="8">
+        <text>column
+column
+column</text>
       </register>
-      <register name="3" type="8">
-        <text encoding="base64">ICAgIAogICAgCiAgICA=</text>
+      <register name="2" type="2">
+        <text encoding="base64">ClRoZSBmaWxlIGlzIGNvbW1hLXNlcGFyYXRlZCBhbmQgdGhlIHF1b3RpbmcgdXNlZCBpbiB0aGUgdmFsdWVzIGlzIHRoZSBkb3VibGUgcXVvdGUsIHNvIHRoZSBkZWZhdWx0IHZhbHVlcwpmb3IgOm9wdGlvbjpgZGVsaW1pdGVyYCBhbmQgOm9wdGlvbjpgcXVvdGVfY2hhcmFjdGVyYCBjYW4gYmUgdXNlZC4K</text>
       </register>
-      <register name="4" type="8">
-        <text encoding="base64">ICAgICAKICAgICAKICAgICA=</text>
+      <register name="3" type="2">
+        <text encoding="base64">CkluIHRoZSBmaWxlIHRoZXJlIGFyZSB0aHJlZSBjb2x1bW5zLCBhbmQgd2Ugd2FudCB0byBpbXBvcnQgZWFjaCBvZiB0aGVzZSBjb2x1bW5zIHRvIGEgcHJlZGljYXRlLgpUaGUgaGVhZGVyIGxpbmUgb2YgdGhlIENTViBmaWxlIGlzIHVzZWQgdG8gaW1wb3J0IHRoZXNlIGNvbHVtbnMgdG8gZGlmZmVyZW50IHByZWRpY2F0ZXMuCg==</text>
       </register>
-      <register name="5" type="8">
-        <text encoding="base64">ICAgICAgICAgIAogICAgICAgICAgCiAgICAgICAgICAKICAgICAgICAgIAogICAgICAgICAgCiAgICAgICAgICA=</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="8">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA=</text>
+      <register name="5" type="2">
+        <text encoding="base64">VGhlCg==</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA6b3B0aW9uOmBmaWxlX2NvbHVtbmAgICAgICAgICAgICAgIGBgdGl0bGVgYAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDpvcHRpb246YHByZWRpY2F0ZWAgICAgICAgICAgICAgICAgYGBtb3ZpZTp0aXRsZWBgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOm9wdGlvbjpgZmlsZV9jb2x1bW5gICAgICAgICAgICAgICBgYHJlbGVhc2VfZGF0ZWBgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOm9wdGlvbjpgcHJlZGljYXRlYCAgICAgICAgICAgICAgICBgYG1vdmllOnJlbGVhc2VfZGF0ZWBgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOm9wdGlvbjpgZmlsZV9jb2x1bW5gICAgICAgICAgICAgICBgYHJ1bnRpbWVgYAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDpvcHRpb246YHByZWRpY2F0ZWAgICAgICAgICAgICAgICAgYGBtb3ZpZTpydW50aW1lYGAK</text>
+      <register name="6" type="2">
+        <text encoding="base64">RWFjaCBlbnRyeSBpbiB0aGUgSlNPTiBsaXN0IGhhcyB0aHJlZSBmaWVsZHMsIGFuZCB3ZSAK</text>
+      </register>
+      <register name="7" type="4">
+        <text>In the file there are three columns, and we want to import each of these columns to a predicate.
+The header line of the CSV file is used to import these columns to different predicates.</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0K</text>
+        <text encoding="base64">Tgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0gICA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0K</text>
+        <text encoding="base64">VGhlIGZpbGUgaXMgY29tbWEtc2VwYXJhdGVkLCBzbyB3ZSBjYW4gdXNlIHRoZSBkZWZhdWx0IDpvcHRpb246ZGVsaW1pdGVyLCAK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -93,6 +108,9 @@
     <shortcut-conflicts>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed F</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
