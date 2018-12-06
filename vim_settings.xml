@@ -3,10 +3,10 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Disqover/documentation/sphinx/source/metis/component_descriptions/json_importer_description.rst" timestamp="1544099276371">
+      <file name="$USER_HOME$/Disqover/documentation/sphinx/source/metis/component_descriptions/json_importer_description.rst" timestamp="1544101229177">
         <mark key="'" line="11" column="0" />
-        <mark key="[" line="46" column="79" />
-        <mark key="]" line="34" column="43" />
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="37" column="4" />
         <mark key="^" line="34" column="43" />
         <mark key="." line="34" column="43" />
       </file>
@@ -40,55 +40,61 @@
         <mark key="." line="57" column="5" />
         <mark key="^" line="57" column="4" />
       </file>
-      <file name="$USER_HOME$/Disqover/documentation/sphinx/source/metis/component_descriptions/chunk_sep_importer_description.rst" timestamp="1544093565755">
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="4" column="0" />
-        <mark key="." line="4" column="0" />
-        <mark key="^" line="4" column="0" />
+      <file name="$USER_HOME$/Disqover/documentation/sphinx/source/metis/component_descriptions/chunk_sep_importer_description.rst" timestamp="1544101251895">
+        <mark key="[" line="11" column="9" />
+        <mark key="]" line="10" column="6" />
+        <mark key="." line="10" column="6" />
+        <mark key="^" line="10" column="6" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/src/metis/actions/components/importers/csv_import_action.py" timestamp="1544100703795">
+        <mark key="[" line="53" column="78" />
+        <mark key="]" line="53" column="77" />
+        <mark key="." line="53" column="77" />
+        <mark key="^" line="53" column="77" />
       </file>
     </filemarks>
     <jumps>
       <jump line="7" column="0" filename="$USER_HOME$/Disqover/documentation/sphinx/source/metis/component_descriptions/json_importer_description.rst" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>``http://dbpedia.org/ontology/film``</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">KnVuZGVyIGNvbnN0cnVjdGlvbioK</text>
       </register>
       <register name="-" type="4">
-        <text>:</text>
+        <text>,</text>
       </register>
-      <register name="0" type="4">
-        <text>``http://dbpedia.org/ontology/film``</text>
+      <register name="0" type="2">
+        <text encoding="base64">QXMgYW4gZXhhbXBsZSwgd2UgaW1wb3J0IHRoZSBmb2xsb3dpbmcgZmlsZToKCmBgL2RhdGEvc291cmNlX2RhdGEvbW92aWVzL2Rpc25leV9tb3ZpZXMuanNvbmBgCjo6CgogICAgWwogICAgICB7CiAgICAgICAgInRpdGxlIjogIlNub3cgV2hpdGUiLAogICAgICAgICJyZWxlYXNlX2RhdGUiOiAiRGVjZW1iZXIgMjEsIDE5MzciLAogICAgICAgICJydW50aW1lIjogODMKICAgICAgfSwKICAgICAgewogICAgICAgICJ0aXRsZSI6ICJQaW5vY2NoaW8iLAogICAgICAgICJyZWxlYXNlX2RhdGUiOiAiRmVicnVhcnkgNywgMTk0MCIsCiAgICAgICAgInJ1bnRpbWUiOiA4OAogICAgICB9LAogICAgICB7CiAgICAgICAgInRpdGxlIjogIkR1bWJvIiwKICAgICAgICAicmVsZWFzZV9kYXRlIjogIk9jdG9iZXIgMjMsIDE5NDEiLAogICAgICAgICJydW50aW1lIjogNjQKICAgICAgfSwKICAgICAgewogICAgICAgICJ0aXRsZSI6ICJCYW1iaSIsCiAgICAgICAgInJlbGVhc2VfZGF0ZSI6ICJBdWd1c3QgMTMsIDE5NDIiLAogICAgICAgICJydW50aW1lIjogNzAKICAgICAgfSwKICAgICAgewogICAgICAgICJ0aXRsZSI6ICJDaW5kZXJlbGxhIiwKICAgICAgICAicmVsZWFzZV9kYXRlIjogIkZlYnJ1YXJ5IDE1LCAxOTUwIiwKICAgICAgICAicnVudGltZSI6IDc0CiAgICAgIH0KICAgIF0K</text>
       </register>
-      <register name="1" type="8">
+      <register name="1" type="2">
+        <text encoding="base64">KnVuZGVyIGNvbnN0cnVjdGlvbioK</text>
+      </register>
+      <register name="2" type="8">
         <text>column
 column
 column</text>
       </register>
-      <register name="2" type="2">
+      <register name="3" type="2">
         <text encoding="base64">ClRoZSBmaWxlIGlzIGNvbW1hLXNlcGFyYXRlZCBhbmQgdGhlIHF1b3RpbmcgdXNlZCBpbiB0aGUgdmFsdWVzIGlzIHRoZSBkb3VibGUgcXVvdGUsIHNvIHRoZSBkZWZhdWx0IHZhbHVlcwpmb3IgOm9wdGlvbjpgZGVsaW1pdGVyYCBhbmQgOm9wdGlvbjpgcXVvdGVfY2hhcmFjdGVyYCBjYW4gYmUgdXNlZC4K</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">CkluIHRoZSBmaWxlIHRoZXJlIGFyZSB0aHJlZSBjb2x1bW5zLCBhbmQgd2Ugd2FudCB0byBpbXBvcnQgZWFjaCBvZiB0aGVzZSBjb2x1bW5zIHRvIGEgcHJlZGljYXRlLgpUaGUgaGVhZGVyIGxpbmUgb2YgdGhlIENTViBmaWxlIGlzIHVzZWQgdG8gaW1wb3J0IHRoZXNlIGNvbHVtbnMgdG8gZGlmZmVyZW50IHByZWRpY2F0ZXMuCg==</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">VGhlCg==</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">RWFjaCBlbnRyeSBpbiB0aGUgSlNPTiBsaXN0IGhhcyB0aHJlZSBmaWVsZHMsIGFuZCB3ZSAK</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>In the file there are three columns, and we want to import each of these columns to a predicate.
 The header line of the CSV file is used to import these columns to different predicates.</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Tgo=</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">VGhlIGZpbGUgaXMgY29tbWEtc2VwYXJhdGVkLCBzbyB3ZSBjYW4gdXNlIHRoZSBkZWZhdWx0IDpvcHRpb246ZGVsaW1pdGVyLCAK</text>
+        <text encoding="base64">Tgo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
