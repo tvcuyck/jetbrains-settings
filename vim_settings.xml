@@ -282,9 +282,9 @@
         <mark key="^" line="26" column="0" />
         <mark key="." line="11" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/test_configuration7.sparql" timestamp="1545145061355">
-        <mark key="[" line="2" column="0" />
-        <mark key="]" line="2" column="47" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/test_configuration7.sparql" timestamp="1545146383816">
+        <mark key="[" line="18" column="0" />
+        <mark key="]" line="18" column="102" />
         <mark key="." line="9" column="0" />
         <mark key="^" line="9" column="0" />
       </file>
@@ -355,6 +355,13 @@
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/visitors/federation_filter_visitor_spec.rb" timestamp="1542985714772">
         <mark key="[" line="1600" column="29" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/index_test/all.rq_all" timestamp="1545147041785">
+        <mark key="'" line="35" column="85" />
+        <mark key="[" line="748" column="0" />
+        <mark key="]" line="748" column="0" />
+        <mark key="^" line="754" column="0" />
+        <mark key="." line="748" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/expression_parser/functions/test_funcset_stringmanip_spec.py" timestamp="1532942792284">
         <mark key="[" line="208" column="30" />
@@ -533,6 +540,13 @@
         <mark key="^" line="13" column="31" />
         <mark key="." line="2" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/plugins/test-chemantics/params-amphetamine-mol.json" timestamp="1544713322766">
+        <mark key="'" line="4" column="17" />
+        <mark key="[" line="5" column="26" />
+        <mark key="]" line="4" column="17" />
+        <mark key="^" line="4" column="17" />
+        <mark key="." line="4" column="17" />
+      </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/spec/test_mamba_spec.py" timestamp="1532003657101">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="13" column="0" />
@@ -599,6 +613,12 @@
         <mark key="." line="30" column="32" />
         <mark key="^" line="30" column="32" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/provenance.sparql" timestamp="1545147121293">
+        <mark key="[" line="123" column="60" />
+        <mark key="]" line="123" column="17" />
+        <mark key="^" line="123" column="17" />
+        <mark key="." line="123" column="17" />
+      </file>
       <file name="$USER_HOME$/Disqover/metis/execution_layer/integration/authors_pipeline_run_2.yml" timestamp="1533812701540">
         <mark key="[" line="2" column="0" />
         <mark key="]" line="2" column="0" />
@@ -647,10 +667,11 @@
         <mark key="." line="88" column="41" />
         <mark key="^" line="88" column="41" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/location_trees_config.sparql" timestamp="1545145099581">
-        <mark key="[" line="14" column="20" />
-        <mark key="]" line="14" column="20" />
-        <mark key="." line="14" column="20" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/location_trees_config.sparql" timestamp="1545146956712">
+        <mark key="[" line="15" column="74" />
+        <mark key="]" line="20" column="1" />
+        <mark key="." line="20" column="1" />
+        <mark key="^" line="20" column="1" />
       </file>
       <file name="/Dummy.txt" timestamp="1545134285232">
         <mark key="[" line="0" column="0" />
@@ -706,7 +727,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="247" column="106" filename="$USER_HOME$/Disqover/metis/execution_layer/spec/test_pipeline_spec.py" />
       <jump line="473" column="24" filename="$USER_HOME$/Disqover/metis/execution_layer/integration/pipeline.yml" />
       <jump line="27" column="69" filename="$USER_HOME$/Disqover/metis/execution_layer/sources/alignment.py" />
       <jump line="171" column="0" filename="$USER_HOME$/Disqover/metis/execution_layer/spec/indexing/test_disqover_property_spec.py" />
@@ -806,6 +826,7 @@
       <jump line="4053" column="10" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/federation_instance_service_spec.rb" />
       <jump line="9" column="3" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/federation_instance_service_spec.rb" />
       <jump line="175" column="0" filename="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_data_entry_repository.rb" />
+      <jump line="35" column="85" filename="$USER_HOME$/Disqover/disqover-backend/index_test/all.rq_all" />
     </jumps>
     <registers>
       <register name="a" type="4">
@@ -815,8 +836,8 @@
           <key char="65535" code="38" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA=</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">IAogPGh0dHA6Ly90ZXN0Lm9udG9mb3JjZS5jb20vdGVtcGxhdGVzX2RhdGE+IGRpc3E6cmVmZXJzVG9EYXRhc2V0IGRzOnRlbXBsYXRlc19kYXRhLgogZHM6dGVtcGxhdGVzX2RhdGEgYSB2b2lkOkRhdGFzZXQgOwogPGh0dHA6Ly9ucy5vbnRvZm9yY2UuY29tLzIwMTMvZGlzcW92ZXIjbGFiZWw+ICJUZW1wbGF0ZXMiIC4K</text>
       </register>
       <register name="i" type="4">
         <text />
@@ -828,26 +849,26 @@
         <text>plugins</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">UFJFRklYIGZhY2V0OiAgICA8aHR0cDovL2NvbmZpZy5yb2xlcy5jb20vZmFjZXRzLz4K</text>
+        <text encoding="base64">IAogPGh0dHA6Ly90ZXN0Lm9udG9mb3JjZS5jb20vdGVtcGxhdGVzX2RhdGE+IGRpc3E6cmVmZXJzVG9EYXRhc2V0IGRzOnRlbXBsYXRlc19kYXRhLgogZHM6dGVtcGxhdGVzX2RhdGEgYSB2b2lkOkRhdGFzZXQgOwogPGh0dHA6Ly9ucy5vbnRvZm9yY2UuY29tLzIwMTMvZGlzcW92ZXIjbGFiZWw+ICJUZW1wbGF0ZXMiIC4K</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">UFJFRklYIGNvbmY6IDxodHRwOi8vdGVzdC5vbnRvZm9yY2UuY29tL2NvbmZpZyM+Cg==</text>
+      <register name="1" type="8">
+        <text encoding="base64">IAogCiAKIAogCiAKIA==</text>
       </register>
       <register name="q" type="4">
         <text />
       </register>
       <register name="2" type="2">
+        <text encoding="base64">UFJFRklYIGNvbmY6IDxodHRwOi8vdGVzdC5vbnRvZm9yY2UuY29tL2NvbmZpZyM+Cg==</text>
+      </register>
+      <register name="3" type="2">
         <text encoding="base64">UFJFRklYIHJkZjogPGh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyM+ClBSRUZJWCByZGZzOiA8aHR0cDovL3d3dy53My5vcmcvMjAwMC8wMS9yZGYtc2NoZW1hIz4K</text>
       </register>
-      <register name="3" type="8">
+      <register name="4" type="8">
         <text>@
 @</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">QHByZWZpeCB4c2Q6IDxodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSM+LgpAcHJlZml4IDogPGh0dHA6Ly9leGFtcGxlLm9yZy9kYXRhL2NvdW50cmllc190cmVlLmNzdiM+Lgo=</text>
-      </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBlCg==</text>
+        <text encoding="base64">QHByZWZpeCB4c2Q6IDxodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSM+LgpAcHJlZml4IDogPGh0dHA6Ly9leGFtcGxlLm9yZy9kYXRhL2NvdW50cmllc190cmVlLmNzdiM+Lgo=</text>
       </register>
       <register name="u" type="4">
         <keys>
@@ -866,16 +887,16 @@
         </keys>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZmlsdGVyID0gRmlsdGVyLnJvb3QoRmlsdGVyLmluc3RhbmNlcyhpZHM6WydodHRwOi8vaWRlbnRpZmllcnMub3JnL25jYmkvZ2VuZS8yMycsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnaHR0cDovL2lkZW50aWZpZXJzLm9yZy9uY2JpL2dlbmUvMjUnXSkpCg==</text>
+        <text encoding="base64">ICAgICAgICBlCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZmlsdGVyID0gRmlsdGVyLnJvb3QoRmlsdGVyLmluc3RhbmNlcyhpZHM6WydodHRwOi8vaWRlbnRpZmllcnMub3JnL25jYmkvZ2VuZS8xMjMnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2h0dHA6Ly9pZGVudGlmaWVycy5vcmcvbmNiaS9nZW5lLzEyNSddKSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZmlsdGVyID0gRmlsdGVyLnJvb3QoRmlsdGVyLmluc3RhbmNlcyhpZHM6WydodHRwOi8vaWRlbnRpZmllcnMub3JnL25jYmkvZ2VuZS8yMycsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnaHR0cDovL2lkZW50aWZpZXJzLm9yZy9uY2JpL2dlbmUvMjUnXSkpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZmlsdGVyID0gRmlsdGVyLnJvb3QoRmlsdGVyLmluc3RhbmNlcyhpZHM6WydodHRwOi8vaWRlbnRpZmllcnMub3JnL25jYmkvZ2VuZS8zJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdodHRwOi8vaWRlbnRpZmllcnMub3JnL25jYmkvZ2VuZS81J10pKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZmlsdGVyID0gRmlsdGVyLnJvb3QoRmlsdGVyLmluc3RhbmNlcyhpZHM6WydodHRwOi8vaWRlbnRpZmllcnMub3JnL25jYmkvZ2VuZS8xMjMnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2h0dHA6Ly9pZGVudGlmaWVycy5vcmcvbmNiaS9nZW5lLzEyNSddKSkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBlbmQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZmlsdGVyID0gRmlsdGVyLnJvb3QoRmlsdGVyLmluc3RhbmNlcyhpZHM6WydodHRwOi8vaWRlbnRpZmllcnMub3JnL25jYmkvZ2VuZS8zJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdodHRwOi8vaWRlbnRpZmllcnMub3JnL25jYmkvZ2VuZS81J10pKQo=</text>
       </register>
       <register name=":" type="4">
         <text>132</text>
