@@ -3,19 +3,20 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/facets_revisited_local_config.sparql" timestamp="1546508245932">
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/facets_revisited_local_config.sparql" timestamp="1546508785960">
         <mark key="[" line="22" column="47" />
-        <mark key="]" line="25" column="46" />
-        <mark key="." line="21" column="0" />
+        <mark key="]" line="116" column="0" />
+        <mark key="." line="116" column="0" />
+        <mark key="^" line="116" column="0" />
       </file>
-      <file name="/Ruby Console" timestamp="1546506681466">
+      <file name="/Ruby Console" timestamp="1546511567942">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" timestamp="1546506679561">
-        <mark key="[" line="1388" column="75" />
-        <mark key="]" line="1388" column="74" />
-        <mark key="." line="1388" column="74" />
-        <mark key="^" line="1388" column="74" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" timestamp="1546512728453">
+        <mark key="[" line="1487" column="0" />
+        <mark key="]" line="1487" column="0" />
+        <mark key="." line="1487" column="0" />
+        <mark key="^" line="1526" column="77" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_data_entry_repository_spec.rb" timestamp="1546436050840">
         <mark key="[" line="413" column="45" />
@@ -36,8 +37,16 @@
       <file name="/fragment.rb" timestamp="1546506692240">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/facet.rb" timestamp="1545222754912">
-        <mark key="[" line="63" column="7" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/facets_revisited_remote_data.sparql" timestamp="1546508788605">
+        <mark key="'" line="19" column="34" />
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="4" column="62" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/facet.rb" timestamp="1546508769121">
+        <mark key="[" line="114" column="74" />
+        <mark key="]" line="114" column="20" />
+        <mark key="." line="114" column="20" />
+        <mark key="^" line="114" column="20" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/filter.rb" timestamp="1545295552196">
         <mark key="[" line="283" column="13" />
@@ -57,50 +66,59 @@
         <mark key="." line="108" column="0" />
         <mark key="^" line="88" column="126" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/facets_revisited_local_data.sparql" timestamp="1546507983118">
-        <mark key="[" line="719" column="25" />
-        <mark key="]" line="723" column="55" />
-        <mark key="^" line="717" column="52" />
-        <mark key="." line="721" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/facets_revisited_local_data.sparql" timestamp="1546510980814">
+        <mark key="'" line="753" column="35" />
+        <mark key="[" line="783" column="48" />
+        <mark key="]" line="739" column="0" />
+        <mark key="." line="739" column="0" />
+        <mark key="^" line="739" column="0" />
       </file>
     </filemarks>
-    <jumps />
+    <jumps>
+      <jump line="19" column="34" filename="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/facets_revisited_remote_data.sparql" />
+      <jump line="251" column="33" filename="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/facets_revisited_local_data.sparql" />
+      <jump line="724" column="35" filename="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/facets_revisited_local_data.sparql" />
+    </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">CiAgICBjdHlwZXM6bW92aWUgZGlzcTp1c2VBcyBkaXNxOkNhbm9uaWNhbFR5cGU7CiAgICAgICAgICAgIHJkZnM6bGFiZWwgIk1vdmllIi4KCiAgICBkdHlwZXM6bW92aWUgcmRmczpzdWJDbGFzc09mIGN0eXBlczptb3ZpZS4K</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVzdWx0LmZpcnN0LmRpc3RpbmN0X2NvdW50LnNob3VsZCA9PSA4ICNndWVzdGltYXRlCg==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CiAgICBjdHlwZXM6bW92aWUgZGlzcTp1c2VBcyBkaXNxOkNhbm9uaWNhbFR5cGU7CiAgICAgICAgICAgIHJkZnM6bGFiZWwgIk1vdmllIi4KCiAgICBkdHlwZXM6bW92aWUgcmRmczpzdWJDbGFzc09mIGN0eXBlczptb3ZpZS4K</text>
+        <text encoding="base64">CiAgICAgICAgY29udGV4dCAnbm8gb2Zmc2V0LCBsaW1pdCA1LCBvcmRlcmVkIGJ5IGxhYmVsIGFzYycgZG8KICAgICAgICAgIGxldCg6ZmFjZXRfb3B0aW9ucyl7IEZhY2V0T3B0aW9ucy5uZXcoU3R1Yjo6RmFjZXQubG9jYXRpb24ua2V5LnRvX3N5bSA9PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBsaW1pdDogNSwgc2VhcmNoOiAnd2VzdCcsIG9yZGVyX2J5OiA6bGFiZWx9ICkgfQogICAgICAgICAgbGV0KDpyZXN1bHQpIHsgc3ViamVjdC5jYW5kaWRhdGVfZmFjZXRzKGZhY2V0cywgRmlsdGVyLmFsbCwgbmlsLCBmYWNldF9vcHRpb25zKSB9CgogICAgICAgICAgaXQgJ2hhcyBjb3JyZWN0IGRpc3RpbmN0X2NvdW50JyBkbwogICAgICAgICAgICByZXN1bHQuZmlyc3QuZGlzdGluY3RfY291bnQuc2hvdWxkID09IDEwCiAgICAgICAgICBlbmQKCiAgICAgICAgICBpdCAnaGFzIDUgY2FuZGlkYXRlIGZhY2V0IHZhbHVlcyB0aGF0IG1hdGNoIHRoZSBzZWFyY2gnIGRvCiAgICAgICAgICAgIHJlc3VsdC5maXJzdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzLnNob3VsZCBoYXZlKDUpLnRoaW5ncwogICAgICAgICAgICByZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlc1swXS5sYWJlbC5zaG91bGQgPT0gJ0ZhciBXZXN0JwogICAgICAgICAgICByZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlc1swXS5sYWJlbC5zaG91bGQgbWF0Y2goL3dlc3QvaSkKICAgICAgICAgICAgcmVzdWx0LmZpcnN0LmNhbmRpZGF0ZV9mYWNldF92YWx1ZXNbMV0ubGFiZWwuc2hvdWxkIG1hdGNoKC93ZXN0L2kpCiAgICAgICAgICAgIHJlc3VsdC5maXJzdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzWzJdLmxhYmVsLnNob3VsZCBtYXRjaCgvd2VzdC9pKQogICAgICAgICAgICByZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlc1szXS5sYWJlbC5zaG91bGQgbWF0Y2goL3dlc3QvaSkKICAgICAgICAgICAgcmVzdWx0LmZpcnN0LmNhbmRpZGF0ZV9mYWNldF92YWx1ZXNbNF0ubGFiZWwuc2hvdWxkIG1hdGNoKC93ZXN0L2kpCiAgICAgICAgICAgIHJlc3VsdC5maXJzdC5kaXN0aW5jdF9jb3VudC5zaG91bGQgPT0gOCAjZ3Vlc3RpbWF0ZQogICAgICAgICAgZW5kCiAgICAgICAgZW5kCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGlzcTpzaW5nbGVWYWx1ZWQgIlkiOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVzdWx0LmZpcnN0LmRpc3RpbmN0X2NvdW50LnNob3VsZCA9PSA4ICNndWVzdGltYXRlCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVzdWx0LmZpcnN0LmRpc3RpbmN0X2NvdW50LnNob3VsZCA9PSA4ICNndWVzdGltYXRlCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgZHByb3BzOmxvY2F0aW9uICAgICAgICBtbG9jOjsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVzdWx0LmZpcnN0LmRpc3RpbmN0X2NvdW50LnNob3VsZCA9PSA4ICNndWVzdGltYXRlCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVzdWx0LmZpcnN0LmRpc3RpbmN0X2NvdW50LnNob3VsZCA9PSA4ICNndWVzdGltYXRlCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAjRmlsdGVyLmFuZChbU3R1Yjo6RmlsdGVyLnR5cGVfYXNzYXksXSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgcmVzdWx0LmZpcnN0LmRpc3RpbmN0X2NvdW50LnNob3VsZCA9PSA4ICNndWVzdGltYXRlCg==</text>
       </register>
-      <register name="6" type="8">
-        <text encoding="base64">ICAKICAKICAKICAKICAKICAKICAKICA=</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcmVzdWx0LmZpcnN0LmNhbmRpZGF0ZV9mYWNldF92YWx1ZXNbM10ubGFiZWwuc2hvdWxkIG1hdGNoKC93ZXN0L2kpCiAgICAgICAgICAgIHJlc3VsdC5maXJzdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzWzRdLmxhYmVsLnNob3VsZCBtYXRjaCgvd2VzdC9pKQo=</text>
       </register>
-      <register name="7" type="8">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA==</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgZW5kCg==</text>
       </register>
       <register name="8" type="8">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA=</text>
+        <text>sap
+sap
+sap
+sap
+sap</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgIGl0ICJvbmx5IGhhcyBhIGNvdW50IGZvciB0aGUgZGF0YSBlbmRwb2ludCB0aGF0IGNhbiBzYXRpc2Z5IHRoZSBxdWVyeSIgZG8K</text>
+        <text encoding="base64">ICAgICAgZW5kCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
