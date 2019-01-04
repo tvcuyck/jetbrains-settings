@@ -23,11 +23,11 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/devise/disqover_passwords_controller.rb" timestamp="1546592886150">
         <mark key="[" line="13" column="35" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" timestamp="1546615940459">
-        <mark key="[" line="933" column="53" />
-        <mark key="]" line="934" column="33" />
-        <mark key="." line="934" column="33" />
-        <mark key="^" line="934" column="33" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" timestamp="1546617576516">
+        <mark key="[" line="246" column="52" />
+        <mark key="]" line="246" column="89" />
+        <mark key="." line="909" column="0" />
+        <mark key="^" line="909" column="87" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_data_entry_repository_spec.rb" timestamp="1546436050840">
         <mark key="[" line="413" column="45" />
@@ -56,8 +56,13 @@
         <mark key="[" line="3" column="0" />
         <mark key="]" line="4" column="62" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/facet.rb" timestamp="1546528655508" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/facet.rb" timestamp="1546616714801" />
       <file name="/federation_instance_service.rb" timestamp="1546590338962" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/facet_value.rb" timestamp="1546617528273">
+        <mark key="[" line="74" column="0" />
+        <mark key="]" line="74" column="82" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/index_test/all.rq_all" timestamp="1546616631631" />
       <file name="$USER_HOME$/Disqover/disqover-backend/plugins/chemantics/.plugin_env/lib64/python3.6/site-packages/pip/_vendor/distlib/index.py" timestamp="1545214895426">
         <mark key="[" line="0" column="4" />
         <mark key="]" line="0" column="4" />
@@ -100,42 +105,40 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>'http://movie.locations.org/local#us'</text>
+        <text>'http://movie.locations.org/local#us')</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IA==</text>
       </register>
       <register name="0" type="4">
-        <text>'http://movie.locations.org/local#us'</text>
+        <text>'http://movie.locations.org/local#us')</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIEZpbHRlci5hbmQoWwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgU3R1Yjo6RmlsdGVyLnR5cGVfbW92aWVfbm9kZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEZpbHRlci5saW5rZWQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgRmlsdGVyLmFuZChbCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgRmlsdGVyLnNlYXJjaChxdWVyeTogJ1VuaXRlZCcpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFN0dWI6OkZpbHRlci50eXBlX2xvY2F0aW9uX25vZGUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0pCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgIF0pKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBwYXJlbnQ6IFN0dWI6OkZhY2V0VmFsdWUuYXNzYXlfdHlwZV9mdW5jdGlvbmFsX2NvbmZncmFwaC5xdWVyeV92YWx1ZQo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CiAgICBjb250ZXh0ICd3aXRoIGNvbnN0cmFpbnQgb24gbGlua2VkIHRvIHNlYXJjaCcgZG8KICAgICAgbGV0KDpjb25zdHJhaW50cykgeyBTdHViOjpGaWx0ZXIuYXNzYXlzX2xpbmtlZF90b19zZWFyY2hfdGFyZ2V0IH0KICAgICAgbGV0KDpyZXN1bHQpIHsgc3ViamVjdC5jYW5kaWRhdGVfZmFjZXRzKFtTdHViOjpGYWNldC50eXBlXSwgY29uc3RyYWludHMpIH0KCiAgICAgIGl0ICdmYWNldHMgdGhlIHJlc3VsdHMnIGRvCiAgICAgICAgcmVzdWx0LnNpbmdsZS5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzLnNpbmdsZS5jb3VudC5zaG91bGQgPT0gODkKICAgICAgZW5kCiAgICBlbmQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgRmlsdGVyLnJvb3QoRmlsdGVyLmxpbmtlZCgKICAgICAgICAgICAgICAgIEZpbHRlci5saW5rZWQoRmlsdGVyLmluc3RhbmNlcyhpZHM6IFsnaHR0cDovL21vdmllLmxvY2F0aW9ucy5vcmcvbG9jYWwjdXMnXSkpCiAgICAgICAgICAgICkpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAnaHR0cDovL21vdmllLmxvY2F0aW9ucy5vcmcvbG9jYWwjdXMnLAogICAgICAgICAgICAgICAgICAgICdodHRwOi8vbW92aWUubG9jYXRpb25zLm9yZy9sb2NhbCNkZScKICAgICAgICAgICAgICAgIF0pKQogICAgICAgICAgICApCg==</text>
+        <text encoding="base64">ICAgIGNvbnRleHQgJ3dpdGhvdXQgY29uc3RyYWludHMnIGRvCiAgICAgIGxldCg6Y29uc3RyYWludHMpIHsgU3R1Yjo6RmlsdGVyLmVtcHR5IH0KCgogICAgICBkZXNjcmliZSAnZ2l2ZW4gb3JnYW5pc20gZmFjZXQnIGRvCiAgICAgICAgbGV0KDpjb25zdHJhaW50cykgeyBTdHViOjpGaWx0ZXIuYXNzYXlfdHlwZV9mdW5jdGlvbmFsIH0KICAgICAgICBsZXQoOmZhY2V0KSB7IFN0dWI6OkZhY2V0Lm9yZ2FuaXNtIH0KICAgICAgICBsZXQoOnJlc3VsdCkgeyBzdWJqZWN0LmNhbmRpZGF0ZV9mYWNldHMoW2ZhY2V0XSwgY29uc3RyYWludHMpIH0KCiAgICAgICAgaXQgJ29ubHkgcmV0dXJucyB0aGUgdG9wIDE1IG9yZ2FuaXNtcyBtYXRjaGluZyB0aGUgY29uc3RyYWludHMnIGRvCiAgICAgICAgICByZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5sZW5ndGguc2hvdWxkID09IDE1CiAgICAgICAgZW5kCgogICAgICAgIGl0ICdyZXR1cm5zIDk5IG9yZ2FuaXNtcyB3aGVuIHRoaXMgaXMgdGhlIGxpbWl0IHNldCcgZG8KICAgICAgICAgIHJlc3VsdCA9IHN1YmplY3QuY2FuZGlkYXRlX2ZhY2V0cyhbZmFjZXRdLCBjb25zdHJhaW50cywgbmlsLCBTdHViOjpGYWNldE9wdGlvbnMubGltaXRfOTkpCiAgICAgICAgICByZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5sZW5ndGguc2hvdWxkID09IDk5CiAgICAgICAgZW5kCiAgICAgIGVuZAoKCiAgICBlbmQK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CiAgICBjb250ZXh0ICd3aXRoIGxpbmtlZCB0byBjb25zdHJhaW50IG9uIDIgaW5zdGFuY2VzJyBkbwogICAgICBsZXQoOmNvbnN0cmFpbnRzKSB7IFN0dWI6OkZpbHRlci5saW5rZWRfdG9fYXNzYXlfb3JfdGFyZ2V0IH0KICAgICAgbGV0KDpyZXN1bHQpIHsgc3ViamVjdC5jYW5kaWRhdGVfZmFjZXRzKFtTdHViOjpGYWNldC50eXBlXSwgY29uc3RyYWludHMpIH0KCiAgICAgIGl0ICdmYWNldHMgcmVzdWx0cyBsaW5rZWQgdG8gZWl0aGVyIGluc3RhbmNlJyBkbwogICAgICAgIHJlc3VsdC5zaW5nbGUuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5sZW5ndGguc2hvdWxkID09IDIKICAgICAgZW5kCiAgICBlbmQKCiAgICBjb250ZXh0ICd3aXRoIGxpbmtlZCB0byBjb25zdHJhaW50IG9uIG5vIGluc3RhbmNlcycgZG8KICAgICAgbGV0KDpjb25zdHJhaW50cykgeyBTdHViOjpGaWx0ZXIubGlua2VkX3RvX2VtcHR5IH0KICAgICAgbGV0KDpyZXN1bHQpIHsgc3ViamVjdC5jYW5kaWRhdGVfZmFjZXRzKFtTdHViOjpGYWNldC50eXBlXSwgY29uc3RyYWludHMpIH0KCiAgICAgIGl0ICdoYXMgbm8gdmFsdWVzIGZvciBmYWNldCcgZG8KICAgICAgICByZXN1bHQuc2luZ2xlLmNhbmRpZGF0ZV9mYWNldF92YWx1ZXMuc2hvdWxkID09IFtdCiAgICAgIGVuZAogICAgZW5kCg==</text>
+        <text encoding="base64">ICAgICAgICAgIGxldCg6ZmFjZXRfb3B0aW9ucykgeyB7fSB9Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICByZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlc1swXS5jb3VudC5zaG91bGQgPT0gNAo=</text>
+      <register name="5" type="4">
+        <text encoding="base64">RmFjZXRPcHRpb25zLm5ldyhTdHViOjpGYWNldC5sb2NhdGlvbi5rZXkudG9fc3ltID0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBsaW1pdDogNSB9ICk=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAnaHR0cDovL21vdmllLmxvY2F0aW9ucy5vcmcvbG9jYWwjdXMnCiAgICAgICAgICAgICAgICBdKSkK</text>
+        <text encoding="base64">ICAgICAgICAgIGxldCg6cmVzdWx0KSB7IHN1YmplY3QuY2FuZGlkYXRlX2ZhY2V0cyhmYWNldHMsIEZpbHRlci5hbGwsIG5pbCwgZmFjZXRfb3B0aW9ucykgfQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBjb250ZXh0ICdsaW5rZWQgdG8gb25lIGluc3RhbmNlcycgZG8K</text>
+        <text encoding="base64">ICAgICAgICAgIGxldCg6cmVzdWx0KSB7IHN1YmplY3QuY2FuZGlkYXRlX2ZhY2V0cyhmYWNldHMsIEZpbHRlci5hbGwsIG5pbCwgZmFjZXRfb3B0aW9ucykgfQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAnaHR0cDovL2RhdGEua2FzYWJpLmNvbS9kYXRhc2V0L2NoZW1ibC1yZGYvdGFyZ2V0L3Q1MDMzOScK</text>
+        <text encoding="base64">ICAgICAgICAgIGxldCg6cmVzdWx0KSB7IHN1YmplY3QuY2FuZGlkYXRlX2ZhY2V0cyhmYWNldHMsIEZpbHRlci5hbGwsIG5pbCwgZmFjZXRfb3B0aW9ucykgfQo=</text>
       </register>
-      <register name="9" type="4">
-        <text>Filter.range(
-                facet: Stub::Facet.release_year.key,
-                ))</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAgIGxldCg6cmVzdWx0KSB7IHN1YmplY3QuY2FuZGlkYXRlX2ZhY2V0cyhmYWNldHMsIEZpbHRlci5hbGwsIG5pbCwgZmFjZXRfb3B0aW9ucykgfQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
