@@ -9,6 +9,9 @@
         <mark key="." line="173" column="2" />
         <mark key="^" line="173" column="1" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/hierarchical_candidate_facet_value.rb" timestamp="1546590720677">
+        <mark key="'" line="24" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_data_entry_repository.rb" timestamp="1546956471824" />
       <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/devise/disqover_passwords_controller.rb" timestamp="1546592886150">
         <mark key="[" line="13" column="35" />
@@ -19,6 +22,9 @@
         <mark key="]" line="77" column="108" />
         <mark key="." line="77" column="108" />
         <mark key="^" line="77" column="108" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/db/schema.xml" timestamp="1547468438120">
+        <mark key="'" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/index_test/trees.rq" timestamp="1546875487241">
         <mark key="[" line="11" column="0" />
@@ -146,6 +152,7 @@
       <jump line="19" column="69" filename="$USER_HOME$/Disqover/disqover-backend/index_test/all.rq_all" />
       <jump line="668" column="72" filename="$USER_HOME$/Disqover/disqover-backend/index_test/all.rq_all" />
       <jump line="10" column="39" filename="$USER_HOME$/Disqover/disqover-backend/app/repositories/facet_configuration_repository.rb" />
+      <jump line="0" column="0" filename="$USER_HOME$/Disqover/disqover-backend/db/schema.xml" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -153,6 +160,9 @@
       </register>
       <register name="-" type="4">
         <text>(</text>
+      </register>
+      <register name="/" type="4">
+        <text>title_text</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGFmdGVyIGRvCiAgICAgIEVudlNlcnZpY2UucmVzZXQKICAgIGVuZAo=</text>
@@ -189,11 +199,16 @@
       </register>
     </registers>
     <search>
-      <last-dir>0</last-dir>
+      <last-search>title_text</last-search>
+      <last-offset />
+      <last-pattern>title_text</last-pattern>
+      <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
-      <history-search />
+      <history-search>
+        <entry>title_text</entry>
+      </history-search>
       <history-cmd>
         <entry>1700</entry>
         <entry>w</entry>
