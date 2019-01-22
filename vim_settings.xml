@@ -112,10 +112,10 @@
         <mark key="^" line="509" column="68" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_instance_facet_values_repository.rb" timestamp="1548170551082">
-        <mark key="[" line="52" column="44" />
-        <mark key="]" line="40" column="23" />
-        <mark key="^" line="40" column="23" />
-        <mark key="." line="40" column="23" />
+        <mark key="[" line="49" column="44" />
+        <mark key="]" line="37" column="23" />
+        <mark key="^" line="37" column="23" />
+        <mark key="." line="37" column="23" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/csv_export_service.rb" timestamp="1548146660357">
         <mark key="[" line="45" column="83" />
@@ -179,6 +179,9 @@
         <mark key="." line="19" column="58" />
         <mark key="^" line="19" column="58" />
       </file>
+      <file name="/Dummy.txt" timestamp="1548172135610">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="/fragment.rb" timestamp="1548161258208">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="43" />
@@ -191,11 +194,11 @@
         <mark key="^" line="399" column="69" />
         <mark key="." line="399" column="69" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_instance_facet_values_repository_spec.rb" timestamp="1548170986561">
-        <mark key="[" line="606" column="62" />
-        <mark key="]" line="606" column="62" />
-        <mark key="." line="606" column="62" />
-        <mark key="^" line="603" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_instance_facet_values_repository_spec.rb" timestamp="1548171918951">
+        <mark key="[" line="619" column="32" />
+        <mark key="]" line="620" column="0" />
+        <mark key="." line="620" column="0" />
+        <mark key="^" line="620" column="9" />
       </file>
       <file name="/solr_instance_facet_values_repository.rb" timestamp="1548168652119" />
       <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/dataset_repository.rb" timestamp="1547568326281">
@@ -259,12 +262,8 @@
       <jump line="32" column="42" filename="$USER_HOME$/Disqover/disqover-backend/config/database.yml" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>[&quot;1931-01-04T00:00:00Z&quot;,
-                                                               &quot;1936-12-22T00:00:00Z&quot;,
-                                                               &quot;1942-05-24T00:00:00Z&quot;,
-                                                               &quot;1946-11-10T00:00:00Z&quot;,
-                                                               &quot;1954-04-13T00:00:00Z&quot;]</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgIHJlc3VsdFs6aW5zdGFuY2VzXS5tYXAoJjpsYWJlbCkuc2hvdWxkID09IFsiVGhlIExvcmQgb2YgdGhlIFJpbmdzOiBUaGUgUmV0dXJuIG9mIHRoZSBLaW5nIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiVGhlIExvcmQgb2YgdGhlIFJpbmdzOiBUaGUgRmVsbG93c2hpcCBvZiB0aGUgUmluZyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIlRoZSBMb3JkIG9mIHRoZSBSaW5nczogVGhlIFR3byBUb3dlcnMiXQo=</text>
       </register>
       <register name="-" type="4">
         <text>(</text>
@@ -273,42 +272,44 @@
         <text>1000</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgRi5yb290KEYuc2VhcmNoKHF1ZXJ5OiBxdWVyeSkpCg==</text>
+        <text encoding="base64">ICAgICAgICBsZXQoOmNvbnN0cmFpbnRzKSB7U3R1Yjo6RmlsdGVyLnR5cGVfbW92aWV9Cg==</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgIHJlc3VsdFs6aW5zdGFuY2VzXS5tYXAoJjpsYWJlbCkuc2hvdWxkID09IFsiVGhlIExvcmQgb2YgdGhlIFJpbmdzOiBUaGUgUmV0dXJuIG9mIHRoZSBLaW5nIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiVGhlIExvcmQgb2YgdGhlIFJpbmdzOiBUaGUgRmVsbG93c2hpcCBvZiB0aGUgUmluZyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIlRoZSBMb3JkIG9mIHRoZSBSaW5nczogVGhlIFR3byBUb3dlcnMiXQo=</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">CiAgICAgICAgaXQgJ3Nob3VsZCBoYXZlIGNvcnJlY3QgdmFsdWVzIGZvciBydW50aW1lICcgZG8KICAgICAgICAgIHJlc3VsdFs6aW5zdGFuY2VzXS5tYXB7fGlkfCBpZC52YWx1ZXNbMl19LnNob3VsZCA9PSBbIjIwMDMtMDctMTlUMDA6MDA6MDBaIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIjIwMDEtMDItMTRUMDA6MDA6MDBaIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIjIwMDItMDktMDdUMDA6MDA6MDBaIl0KICAgICAgICBlbmQK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBsZXQoOmNvbnN0cmFpbnRzKSB7CiAgICAgICAgICBGaWx0ZXIucm9vdCgKICAgICAgICAgICAgICBGaWx0ZXIuYW5kKAogICAgICAgICAgICAgICAgICBbCiAgICAgICAgICAgICAgICAgICAgICBGaWx0ZXIuZXF1YWxzKAogICAgICAgICAgICAgICAgICAgICAgICAgIGZhY2V0OiBTdHViOjpGYWNldC50eXBlLmtleSwKICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZTogJ2NmdjpodHRwOi8vY29uZmlnLm9udG9mb3JjZS5jb20vbG9jYWwvbW92aWVzL3R5cGVzL21vdmllJwogICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgIEZpbHRlci5zZWFyY2gocXVlcnk6ICdSaW5nKicpCiAgICAgICAgICAgICAgICAgIF0KICAgICAgICAgICAgICApCiAgICAgICAgICApCiAgICAgICAgfQo=</text>
+      </register>
+      <register name="4" type="4">
+        <text>[&quot;1994-09-16T00:00:00Z&quot;,
+                                                               &quot;2003-07-19T00:00:00Z&quot;]</text>
+      </register>
+      <register name="5" type="4">
+        <text>[&quot;The Scorpion King&quot;,
+                                                     &quot;The Lord of the Rings: The Return of the King&quot;</text>
+      </register>
+      <register name="6" type="4">
         <text>[&quot;1931-01-04T00:00:00Z&quot;,
                                                                &quot;1936-12-22T00:00:00Z&quot;,
                                                                &quot;1942-05-24T00:00:00Z&quot;,
                                                                &quot;1946-11-10T00:00:00Z&quot;,
                                                                &quot;1954-04-13T00:00:00Z&quot;]</text>
       </register>
-      <register name="2" type="4">
+      <register name="7" type="4">
         <text>[&quot;City Lights&quot;,
                                                      &quot;Modern Times&quot;,
                                                      &quot;Casablanca&quot;,
                                                      &quot;It's a Wonderful Life&quot;,
                                                      &quot;Rear Window&quot;]</text>
       </register>
-      <register name="3" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICBlbmQKCiAgICAgICAgY29udGV4dCAnZGVzY2VuZGluZycgZG8KICAgICAgICAgIGxldCg6ZGlyZWN0aW9uKSB7IDpkZXNjIH0KCiAgICAgICAgICBpdCAnc2hvdWxkIGhhdmUgY29ycmVjdCBsYWJlbHMnIGRvCiAgICAgICAgICAgIHJlc3VsdFs6aW5zdGFuY2VzXS5tYXAoJjpsYWJlbCkuc2hvdWxkID09IFsiV2hpcGxhc2giLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIkludGVyc3RlbGxhciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiSW50b3VjaGFibGVzIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJJbmNlcHRpb24iLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIlRoZSBEYXJrIEtuaWdodCJdCiAgICAgICAgICBlbmQKCiAgICAgICAgICBpdCAnc2hvdWxkIGhhdmUgY29ycmVjdCB2YWx1ZXMgZm9yIHJhdGluZycgZG8KICAgICAgICAgICAgcmVzdWx0WzppbnN0YW5jZXNdLm1hcHt8aWR8IGlkLnZhbHVlc1syXX0uc2hvdWxkID09IFsiMjAxNC0xMi0yNFQwMDowMDowMFoiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICIyMDE0LTAzLTIzVDAwOjAwOjAwWiIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIjIwMTEtMDgtMTRUMDA6MDA6MDBaIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiMjAxMC0wNS0yMFQwMDowMDowMFoiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICIyMDA4LTEwLTA3VDAwOjAwOjAwWiJdCiAgICAgICAgICBlbmQKICAgICAgICBlbmQK</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBjb250ZXh0ICdhc2NlbmRpbmcnIGRvCiAgICAgICAgICBsZXQoOmRpcmVjdGlvbikgeyA6YXNjIH0KCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgIyBjb250ZXh0ICdudW1lcmljYWwgdnMgbnVtZXJpY2FsIHZzIG51bWVyaWNhbCwgb3JkZXJlZCBieSBpbnRlZ2VyIGZhY2V0JywgOmZhY2V0c19yZXZpc2l0ZWQgZG8KICAgICAgIyAgIGxldCg6Z3JhcGhfdXJpKSB7IFNwYXJxbDo6VVJJVmFsdWUubmV3KCdodHRwOi8vdGVzdC5vbnRvZm9yY2UuY29tL2ZhY2V0c19yZXZpc2l0ZWRfbG9jYWxfY29uZmlnJykgfQogICAgICAjICAgbGV0KDpjb25zdHJhaW50cykge1N0dWI6OkZpbHRlci50eXBlX21vdmllfQogICAgICAjICAgbGV0KDpmYWNldHMpIHtbU3R1Yjo6RmFjZXQucnVudGltZSxTdHViOjpGYWNldC5yYXRpbmcsU3R1Yjo6RmFjZXQucmVsZWFzZV19CiAgICAgICMgICBsZXQoOnJlc3VsdCkge3N1YmplY3QuZ2V0X2ZhY2V0X3ZhbHVlc19wYWdlKGNvbnN0cmFpbnRzLCAwLCBsaW1pdDogNSwgZmFjZXRzOiBmYWNldHMsCiAgICAgICMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9yZGVyX2J5OiBTdHViOjpGYWNldC5ydW50aW1lLmtleSwgZGlyZWN0aW9uOiBkaXJlY3Rpb24pfQogICAgICAjCiAgICAgICMgICBjb250ZXh0ICdhc2NlbmRpbmcnIGRvCiAgICAgICMgICAgIGxldCg6ZGlyZWN0aW9uKSB7IDphc2MgfQogICAgICAjCiAgICAgICMgICAgIGl0ICdzaG91bGQgaGF2ZSBjb3JyZWN0IGxhYmVscycgZG8KICAgICAgIyAgICAgICByZXN1bHRbOmluc3RhbmNlc10ubWFwKCY6bGFiZWwpLnNob3VsZCA9PSBbJyddCiAgICAgICMgICAgIGVuZAogICAgICAjCiAgICAgICMgICAgIGl0ICdzaG91bGQgaGF2ZSBjb3JyZWN0IHZhbHVlcyBmb3IgcnVudGltZSAnIGRvCiAgICAgICMgICAgICAgcmVzdWx0WzppbnN0YW5jZXNdLm1hcHt8aWR8IGlkLnZhbHVlcy5maXJzdH0uc2hvdWxkID09IFsnJ10KICAgICAgIyAgICAgZW5kCiAgICAgICMgICBlbmQKICAgICAgIwogICAgICAjICAgY29udGV4dCAnZGVzY2VuZGluZycgZG8KICAgICAgIyAgICAgbGV0KDpkaXJlY3Rpb24pIHsgOmRlc2MgfQogICAgICAjCiAgICAgICMgICAgIGl0ICdzaG91bGQgaGF2ZSBjb3JyZWN0IGxhYmVscycgZG8KICAgICAgIyAgICAgICByZXN1bHRbOmluc3RhbmNlc10ubWFwKCY6bGFiZWwpLnNob3VsZCA9PSBbIlRoZSBEYXJrIEtuaWdodCIsCiAgICAgICMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJUaGUgU2lsZW5jZSBvZiB0aGUgTGFtYnMiLAogICAgICAjICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiQ2l0eSBMaWdodHMiLAogICAgICAjICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiVGhlIExvcmQgb2YgdGhlIFJpbmdzOiBUaGUgVHdvIFRvd2VycyIsCiAgICAgICMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJUaGUgRGVwYXJ0ZWQiXQogICAgICAjICAgICBlbmQKICAgICAgIwogICAgICAjICAgICBpdCAnc2hvdWxkIGhhdmUgY29ycmVjdCB2YWx1ZXMgZm9yIHJ1bnRpbWUgJyBkbwogICAgICAjICAgICAgIHJlc3VsdFs6aW5zdGFuY2VzXS5tYXB7fGlkfCBpZC52YWx1ZXMuZmlyc3R9LnNob3VsZCA9PSBbMjUwLCAyNDgsIDI0NiwgMjQ1LCAyNDBdCiAgICAgICMgICAgIGVuZAogICAgICAjICAgZW5kCiAgICAgICMgZW5kCg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">IFNFTEVDVCAoQ09BTEVTQ0UoP3ByZWZfcywgP3JlYWxfcykgQVMgP3MpICg8cnVudGltZV9zb3J0aT4gYXMgP3ApIChzdHIoP3ZhbCkgYXMgP28pIFdIRVJFIHsgP3JlYWxfcyBhID90LiBGSUxURVIoP3QgSU4gKDxodHRwOi8vZGF0YS5vbnRvZm9yY2UuY29tL2xvY2FsL21vdmllcy90eXBlcy9tb3ZpZT4pKU9QVElPTkFMIHsgP3JlYWxfcyA8aHR0cDovL25zLm9udG9mb3JjZS5jb20vMjAxMy9kaXNxb3ZlciNwcmVmZXJyZWRVcmk+ID9wcmVmX3MgLiB9ID9yZWFsX3MgP3Byb3AgP3ZhbC4gRklMVEVSKCA/cHJvcCBpbiAoPGh0dHA6Ly9kYXRhLm9udG9mb3JjZS5jb20vbG9jYWwvbW92aWVzL3Byb3BzL3J1bnRpbWU+KSkgRklMVEVSKGlzTGl0ZXJhbCg/dmFsKSkgfQo=</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">IFNFTEVDVCAoQ09BTEVTQ0UoP3ByZWZfcywgP3JlYWxfcykgQVMgP3MpICg8cmF0aW5nX3NvcnRmPiBhcyA/cCkgKHN0cig/dmFsKSBhcyA/bykgV0hFUkUgeyA/cmVhbF9zIGEgP3QuIEZJTFRFUig/dCBJTiAoPGh0dHA6Ly9kYXRhLm9udG9mb3JjZS5jb20vbG9jYWwvbW92aWVzL3R5cGVzL21vdmllPikpT1BUSU9OQUwgeyA/cmVhbF9zIDxodHRwOi8vbnMub250b2ZvcmNlLmNvbS8yMDEzL2Rpc3FvdmVyI3ByZWZlcnJlZFVyaT4gP3ByZWZfcyAuIH0gP3JlYWxfcyA/cHJvcCA/dmFsLiBGSUxURVIoID9wcm9wIGluICg8aHR0cDovL2RhdGEub250b2ZvcmNlLmNvbS9sb2NhbC9tb3ZpZXMvcHJvcHMvcmF0aW5nPikpIEZJTFRFUihpc0xpdGVyYWwoP3ZhbCkpIH0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
