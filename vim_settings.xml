@@ -3,10 +3,11 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" timestamp="1548698343106">
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" timestamp="1548700980572">
         <mark key="[" line="1182" column="79" />
-        <mark key="]" line="1361" column="0" />
-        <mark key="." line="1361" column="0" />
+        <mark key="]" line="1197" column="49" />
+        <mark key="." line="1197" column="49" />
+        <mark key="^" line="1197" column="49" />
       </file>
       <file name="/fragment.rb" timestamp="1548685290843">
         <mark key="[" line="0" column="0" />
@@ -20,16 +21,29 @@
         <mark key="^" line="493" column="51" />
         <mark key="." line="493" column="51" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/facets_revisited_local_data.sparql" timestamp="1548700997541">
+        <mark key="'" line="850" column="7" />
+        <mark key="[" line="723" column="35" />
+        <mark key="]" line="723" column="6" />
+        <mark key="^" line="723" column="6" />
+        <mark key="." line="723" column="6" />
+      </file>
     </filemarks>
-    <jumps />
+    <jumps>
+      <jump line="723" column="6" filename="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/facets_revisited_local_data.sparql" />
+      <jump line="850" column="7" filename="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/facets_revisited_local_data.sparql" />
+    </jumps>
     <registers>
+      <register name="&quot;" type="2">
+        <text encoding="base64">CiAgICAgICAgICBjb250ZXh0ICdvcmRlcl9ieSBsYWJlbCwgZGVzYywgbGFyZ2UgbGltaXQnIGRvCiAgICAgICAgICAgIGxldCg6ZmFjZXRfb3B0aW9ucykgeyBGYWNldE9wdGlvbnMubmV3KGZhY2V0LmtleS50b19zeW0gPT4ge2xpbWl0OiAyMCwgZGlyOiA6ZGVzYywgb3JkZXJfYnk6ICdsYWJlbCd9ICkgfQoKICAgICAgICAgICAgaXQgJ3Jlc3BlY3RzIG9yZGVyX2J5LCBsaW1pdCBkaWN0YXRlZCBieSBmYWNldCBvcHRpb25zJyBkbwogICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5sZW5ndGgpLnRvIGVxIDIwCiAgICAgICAgICAgICAgZXhwZWN0KHJlc3VsdC5maXJzdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzLmZpcnN0LmxhYmVsKS50byBlcSAnV2VzdHZsZXRlcmVuJwogICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5maXJzdC5jb3VudCkudG8gZXEgMQogICAgICAgICAgICBlbmQKICAgICAgICAgIGVuZAo=</text>
+      </register>
+      <register name="/" type="4">
+        <text>oostende</text>
+      </register>
       <register name="0" type="2">
         <text encoding="base64">CiAgICAgICAgICBjb250ZXh0ICdvcmRlcl9ieSBsYWJlbCwgZGVzYycgZG8KICAgICAgICAgICAgbGV0KDpmYWNldF9vcHRpb25zKSB7IEZhY2V0T3B0aW9ucy5uZXcoZmFjZXQua2V5LnRvX3N5bSA9PiB7bGltaXQ6IDUsIGRpcjogOmRlc2MsIG9yZGVyX2J5OiAnbGFiZWwnfSApIH0KCiAgICAgICAgICAgIGl0ICdyZXNwZWN0cyBvcmRlcl9ieSwgZGlyIGRpY3RhdGVkIGJ5IGZhY2V0IG9wdGlvbnMnIGRvCiAgICAgICAgICAgICAgZXhwZWN0KHJlc3VsdC5maXJzdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzLmxlbmd0aCkudG8gZXEgNQogICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5tYXAoJjpsYWJlbCkpLnRvIGVxIFsiV2VzdHZsZXRlcmVuIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIldlc3RtaW5zdGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIldlc3RtYWxsZSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJXZXN0ZXJuIFNhbW9hIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIldlc3RlbmRlIl0KICAgICAgICAgICAgICBleHBlY3QocmVzdWx0LmZpcnN0LmNhbmRpZGF0ZV9mYWNldF92YWx1ZXMubWFwKCY6Y291bnQpKS50byBlcSBbMSwgMSwgMSwgMSwgMV0KICAgICAgICAgICAgZW5kCiAgICAgICAgICBlbmQK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CiAgICAgICAgICBjb250ZXh0ICdvcmRlcl9ieSBsYWJlbCwgZGVzYywgbGFyZ2UgbGltaXQnIGRvCiAgICAgICAgICAgIGxldCg6ZmFjZXRfb3B0aW9ucykgeyBGYWNldE9wdGlvbnMubmV3KGZhY2V0LmtleS50b19zeW0gPT4ge2xpbWl0OiAyMCwgZGlyOiA6ZGVzYywgb3JkZXJfYnk6ICdsYWJlbCd9ICkgfQoKICAgICAgICAgICAgaXQgJ3Jlc3BlY3RzIG9yZGVyX2J5LCBsaW1pdCBkaWN0YXRlZCBieSBmYWNldCBvcHRpb25zJyBkbwogICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5sZW5ndGgpLnRvIGVxIDIwCiAgICAgICAgICAgICAgZXhwZWN0KHJlc3VsdC5maXJzdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzLmZpcnN0LmxhYmVsKS50byBlcSAnV2VzdHZsZXRlcmVuJwogICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5maXJzdC5jb3VudCkudG8gZXEgMQogICAgICAgICAgICBlbmQKICAgICAgICAgIGVuZAo=</text>
-      </register>
-      <register name="&quot;" type="2">
         <text encoding="base64">CiAgICAgICAgICBjb250ZXh0ICdvcmRlcl9ieSBsYWJlbCwgZGVzYywgbGFyZ2UgbGltaXQnIGRvCiAgICAgICAgICAgIGxldCg6ZmFjZXRfb3B0aW9ucykgeyBGYWNldE9wdGlvbnMubmV3KGZhY2V0LmtleS50b19zeW0gPT4ge2xpbWl0OiAyMCwgZGlyOiA6ZGVzYywgb3JkZXJfYnk6ICdsYWJlbCd9ICkgfQoKICAgICAgICAgICAgaXQgJ3Jlc3BlY3RzIG9yZGVyX2J5LCBsaW1pdCBkaWN0YXRlZCBieSBmYWNldCBvcHRpb25zJyBkbwogICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5sZW5ndGgpLnRvIGVxIDIwCiAgICAgICAgICAgICAgZXhwZWN0KHJlc3VsdC5maXJzdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzLmZpcnN0LmxhYmVsKS50byBlcSAnV2VzdHZsZXRlcmVuJwogICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5maXJzdC5jb3VudCkudG8gZXEgMQogICAgICAgICAgICBlbmQKICAgICAgICAgIGVuZAo=</text>
       </register>
       <register name="2" type="4">
@@ -85,10 +99,16 @@
       </register>
     </registers>
     <search>
-      <last-dir>0</last-dir>
+      <last-search>oostende</last-search>
+      <last-offset />
+      <last-pattern>oostende</last-pattern>
+      <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
+      <history-search>
+        <entry>oostende</entry>
+      </history-search>
       <history-cmd>
         <entry>0</entry>
         <entry>w</entry>
@@ -106,6 +126,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed R</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed G</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
