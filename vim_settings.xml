@@ -3,11 +3,10 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" timestamp="1548688814912">
-        <mark key="[" line="1353" column="77" />
-        <mark key="]" line="1353" column="77" />
-        <mark key="." line="1353" column="77" />
-        <mark key="^" line="1346" column="12" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" timestamp="1548688872173">
+        <mark key="[" line="1361" column="0" />
+        <mark key="]" line="1361" column="0" />
+        <mark key="." line="1361" column="0" />
       </file>
       <file name="/fragment.rb" timestamp="1548685290843">
         <mark key="[" line="0" column="0" />
@@ -15,11 +14,11 @@
       <file name="/Ruby Console" timestamp="1548686616950">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_candidate_facet_repository.rb" timestamp="1548686983950">
-        <mark key="[" line="547" column="42" />
-        <mark key="]" line="547" column="3" />
-        <mark key="^" line="547" column="3" />
-        <mark key="." line="547" column="3" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_candidate_facet_repository.rb" timestamp="1548689630169">
+        <mark key="[" line="496" column="74" />
+        <mark key="]" line="63" column="41" />
+        <mark key="^" line="63" column="41" />
+        <mark key="." line="63" column="41" />
       </file>
     </filemarks>
     <jumps />
@@ -27,63 +26,59 @@
       <register name="0" type="2">
         <text encoding="base64">CiAgICAgICAgICBjb250ZXh0ICdvcmRlcl9ieSBsYWJlbCwgZGVzYycgZG8KICAgICAgICAgICAgbGV0KDpmYWNldF9vcHRpb25zKSB7IEZhY2V0T3B0aW9ucy5uZXcoZmFjZXQua2V5LnRvX3N5bSA9PiB7bGltaXQ6IDUsIGRpcjogOmRlc2MsIG9yZGVyX2J5OiAnbGFiZWwnfSApIH0KCiAgICAgICAgICAgIGl0ICdyZXNwZWN0cyBvcmRlcl9ieSwgZGlyIGRpY3RhdGVkIGJ5IGZhY2V0IG9wdGlvbnMnIGRvCiAgICAgICAgICAgICAgZXhwZWN0KHJlc3VsdC5maXJzdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzLmxlbmd0aCkudG8gZXEgNQogICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5tYXAoJjpsYWJlbCkpLnRvIGVxIFsiV2VzdHZsZXRlcmVuIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIldlc3RtaW5zdGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIldlc3RtYWxsZSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJXZXN0ZXJuIFNhbW9hIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIldlc3RlbmRlIl0KICAgICAgICAgICAgICBleHBlY3QocmVzdWx0LmZpcnN0LmNhbmRpZGF0ZV9mYWNldF92YWx1ZXMubWFwKCY6Y291bnQpKS50byBlcSBbMSwgMSwgMSwgMSwgMV0KICAgICAgICAgICAgZW5kCiAgICAgICAgICBlbmQK</text>
       </register>
-      <register name="1" type="4">
-        <text>[&quot;Westvleteren&quot;,
-                                                                              &quot;Westminster&quot;,
-                                                                              &quot;Westmalle&quot;,
-                                                                              &quot;Western Samoa&quot;,
-                                                                              &quot;Westende&quot;]</text>
+      <register name="1" type="2">
+        <text encoding="base64">CiAgICAgICAgICBjb250ZXh0ICdvcmRlcl9ieSBsYWJlbCwgZGVzYywgbGFyZ2UgbGltaXQnIGRvCiAgICAgICAgICAgIGxldCg6ZmFjZXRfb3B0aW9ucykgeyBGYWNldE9wdGlvbnMubmV3KGZhY2V0LmtleS50b19zeW0gPT4ge2xpbWl0OiAyMCwgZGlyOiA6ZGVzYywgb3JkZXJfYnk6ICdsYWJlbCd9ICkgfQoKICAgICAgICAgICAgaXQgJ3Jlc3BlY3RzIG9yZGVyX2J5LCBsaW1pdCBkaWN0YXRlZCBieSBmYWNldCBvcHRpb25zJyBkbwogICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5sZW5ndGgpLnRvIGVxIDIwCiAgICAgICAgICAgICAgZXhwZWN0KHJlc3VsdC5maXJzdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzLmZpcnN0LmxhYmVsKS50byBlcSAnV2VzdHZsZXRlcmVuJwogICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5maXJzdC5jb3VudCkudG8gZXEgMQogICAgICAgICAgICBlbmQKICAgICAgICAgIGVuZAo=</text>
       </register>
-      <register name="&quot;" type="4">
-        <text>[&quot;Westvleteren&quot;,
-                                                                              &quot;Westminster&quot;,
-                                                                              &quot;Westmalle&quot;,
-                                                                              &quot;Western Samoa&quot;,
-                                                                              &quot;Westende&quot;]</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">CiAgICAgICAgICBjb250ZXh0ICdvcmRlcl9ieSBsYWJlbCwgZGVzYywgbGFyZ2UgbGltaXQnIGRvCiAgICAgICAgICAgIGxldCg6ZmFjZXRfb3B0aW9ucykgeyBGYWNldE9wdGlvbnMubmV3KGZhY2V0LmtleS50b19zeW0gPT4ge2xpbWl0OiAyMCwgZGlyOiA6ZGVzYywgb3JkZXJfYnk6ICdsYWJlbCd9ICkgfQoKICAgICAgICAgICAgaXQgJ3Jlc3BlY3RzIG9yZGVyX2J5LCBsaW1pdCBkaWN0YXRlZCBieSBmYWNldCBvcHRpb25zJyBkbwogICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5sZW5ndGgpLnRvIGVxIDIwCiAgICAgICAgICAgICAgZXhwZWN0KHJlc3VsdC5maXJzdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzLmZpcnN0LmxhYmVsKS50byBlcSAnV2VzdHZsZXRlcmVuJwogICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5maXJzdC5jb3VudCkudG8gZXEgMQogICAgICAgICAgICBlbmQKICAgICAgICAgIGVuZAo=</text>
       </register>
       <register name="2" type="4">
+        <text>[&quot;Westvleteren&quot;,
+                                                                              &quot;Westminster&quot;,
+                                                                              &quot;Westmalle&quot;,
+                                                                              &quot;Western Samoa&quot;,
+                                                                              &quot;Westende&quot;]</text>
+      </register>
+      <register name="3" type="4">
         <text>&quot;Westvleteren&quot;,
                                                                               &quot;Los Angeles&quot;,
                                                                               &quot;Paris&quot;,
                                                                               &quot;Sicily&quot;,
                                                                               &quot;West Virginia&quot;]</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text>[&quot;A galaxy far, far away...&quot;,
                                                                               &quot;Far West&quot;,
                                                                               &quot;Germany&quot;,
                                                                               &quot;Gondor, Middle Earth&quot;,
                                                                               &quot;Gotham City&quot;]</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>&quot;Westvleteren&quot;,
                                                                               &quot;Westminster&quot;,
                                                                               &quot;Westmalle&quot;,
                                                                               &quot;Western Samoa&quot;,
                                                                               &quot;Westende&quot;]</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>[&quot;West Virginia&quot;,
                                                                               &quot;A galaxy far, far away...&quot;,
                                                                               &quot;Far West&quot;,
                                                                               &quot;Germany&quot;,
                                                                               &quot;Gondor, Middle Earth&quot;]</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICBleHBlY3QocmVzdWx0LmZpcnN0LmNhbmRpZGF0ZV9mYWNldF92YWx1ZXMuZmlyc3QubGFiZWwpLnRvIGVxICdXZXN0dmxldGVyZW4nCiAgICAgICAgICAgICAgZXhwZWN0KHJlc3VsdC5maXJzdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzLmZpcnN0LmNvdW50KS50byBlcSAxCg==</text>
       </register>
-      <register name="8" type="4">
+      <register name="9" type="4">
         <text>[&quot;United States of America&quot;,
                                                                               &quot;London&quot;,
                                                                               &quot;Los Angeles&quot;,
                                                                               &quot;Paris&quot;,
                                                                               &quot;Sicily&quot;]</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBleHBlY3QocmVzdWx0LmZpcnN0LmNhbmRpZGF0ZV9mYWNldF92YWx1ZXMuZmlyc3QubGFiZWwpLnRvIGVxICdHb3RoYW0gQ2l0eScKICAgICAgICAgICAgICBleHBlY3QocmVzdWx0LmZpcnN0LmNhbmRpZGF0ZV9mYWNldF92YWx1ZXMuZmlyc3QuY291bnQpLnRvIGVxIDEK</text>
       </register>
     </registers>
     <search>
@@ -104,6 +99,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed F</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed R</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
