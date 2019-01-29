@@ -9,6 +9,11 @@
       <file name="/Ruby Console" timestamp="1548698424455">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/sparql_queries_for_index_service.rb" timestamp="1548765264024">
+        <mark key="[" line="471" column="0" />
+        <mark key="]" line="471" column="0" />
+        <mark key="." line="471" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/facets_revisited_local_data.sparql" timestamp="1548700997541">
         <mark key="'" line="850" column="7" />
         <mark key="[" line="723" column="35" />
@@ -23,7 +28,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">CiAgICAgICAgICBjb250ZXh0ICdvcmRlcl9ieSBsYWJlbCwgZGVzYywgbGFyZ2UgbGltaXQnIGRvCiAgICAgICAgICAgIGxldCg6ZmFjZXRfb3B0aW9ucykgeyBGYWNldE9wdGlvbnMubmV3KGZhY2V0LmtleS50b19zeW0gPT4ge2xpbWl0OiAyMCwgZGlyOiA6ZGVzYywgb3JkZXJfYnk6ICdsYWJlbCd9ICkgfQoKICAgICAgICAgICAgaXQgJ3Jlc3BlY3RzIG9yZGVyX2J5LCBsaW1pdCBkaWN0YXRlZCBieSBmYWNldCBvcHRpb25zJyBkbwogICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5sZW5ndGgpLnRvIGVxIDIwCiAgICAgICAgICAgICAgZXhwZWN0KHJlc3VsdC5maXJzdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzLmZpcnN0LmxhYmVsKS50byBlcSAnV2VzdHZsZXRlcmVuJwogICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5maXJzdC5jb3VudCkudG8gZXEgMQogICAgICAgICAgICBlbmQKICAgICAgICAgIGVuZAo=</text>
+        <text encoding="base64">ICAgICAgICBlbHNlCiAgICAgICAgICAjIGxldCB2aXJ0dW9zbyBkbyB0aGUgam9iCiAgICAgICAgICAjIGdyb3VwX2NvbmNhdDogZ3JvdXBpbmcgYnkgY29uY2F0dGluZwogICAgICAgICAgIyA/cGFyZW50IHNob3VsZCBiZXR0ZXIgYmUgY2FsbGVkID9yb290OiB0aGVzZSBhcmUgdGhlIHJvb3QgdmFsdWVzCiAgICAgICAgICBwYXRoc19xdWVyeSA9IDw8LVNQQVJRTAogICAgICAgICAgICBTRUxFQ1QKICAgICAgICAgICAgICA/cwogICAgICAgICAgICAgICg8I3tAc29scl9pbmRleC5wYXRoc19rZXlfZm9yX2ZhY2V0KGZhY2V0KX0+IGFzID9wKQogICAgICAgICAgICAgIChncm91cF9jb25jYXQoY29uY2F0KD9zdGVwX25vLCAnfCcsIHJlcGxhY2UoP3N0ZXBfbGFiZWwsICdcXFxcfCcsICdcXFxcXFxcXHwnKSwgJ3wnLCA/c3RlcF92YWwpIDsgc2VwYXJhdG9yPSJ8IikgYXMgP28pCiAgICAgICAgICAgIFdIRVJFIHsKICAgICAgICAgICAgICA/cmVhbF9zICN7cHJvcGVydHl9ID92YWwuCiAgICAgICAgICAgICAgI3tmYWNldF9zb3VyY2VfZmlsdGVyfQogICAgICAgICAgICAgICN7Y2Fub25pY2FsX3R5cGVfc291cmNlc19jbGF1c2V9CiAgICAgICAgICAgICAgI3tjbGF1c2VfcHJlZn0KICAgICAgICAgICAgICBCSU5EKGNvYWxlc2NlKD9wcmVmX3MsID9yZWFsX3MpIEFTID9zKQogICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIFNFTEVDVCBESVNUSU5DVCA/cGFyZW50IHsKICAgICAgICAgICAgICAgICAgP3ggI3tmYWNldC5wYXJlbnRfcHJvcGVydHkudG9fc3BhcnFsfSA/cGFyZW50LgogICAgICAgICAgICAgICAgICBGSUxURVIgTk9UIEVYSVNUUyB7ID9wYXJlbnQgI3tmYWNldC5wYXJlbnRfcHJvcGVydHkudG9fc3BhcnFsfSBbXS4gfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIH0KICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBTRUxFQ1QgP3ZhbCA/cGFyZW50IHsKICAgICAgICAgICAgICAgICAgP3ZhbCAje2ZhY2V0LnBhcmVudF9wcm9wZXJ0eS50b19zcGFycWx9ID9wYXJlbnQuCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIE9QVElPTigKICAgICAgICAgICAgICAgIFRSQU5TSVRJVkUsCiAgICAgICAgICAgICAgICB0X2luKD92YWwpLAogICAgICAgICAgICAgICAgdF9vdXQoP3BhcmVudCksCiAgICAgICAgICAgICAgICB0X21pbigwKSwKICAgICAgICAgICAgICAgIHRfc3RlcCg/dmFsKSBhcyA/c3RlcF92YWwsCiAgICAgICAgICAgICAgICB0X3N0ZXAoJ3N0ZXBfbm8nKSBhcyA/c3RlcF9ubywKICAgICAgICAgICAgICAgIHRfc3RlcCgncGF0aF9pZCcpIGFzID9wYXRoCiAgICAgICAgICAgICAgKQogICAgICAgICAgICAgIE9QVElPTkFMIHsgP3N0ZXBfdmFsICN7RElTUS5wcmVmZXJyZWRMYWJlbC50b19zcGFycWx9ID9zdGVwX2xhYmVsLiB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgR1JPVVAgQlkgP3MgP3ZhbCA/cGF0aAogICAgICAgICAgU1BBUlFMCiAgICAgICAgZW5kCg==</text>
       </register>
       <register name="/" type="4">
         <text>oostende</text>
@@ -32,55 +37,39 @@
         <text encoding="base64">CiAgICAgICAgICBjb250ZXh0ICdvcmRlcl9ieSBsYWJlbCwgZGVzYycgZG8KICAgICAgICAgICAgbGV0KDpmYWNldF9vcHRpb25zKSB7IEZhY2V0T3B0aW9ucy5uZXcoZmFjZXQua2V5LnRvX3N5bSA9PiB7bGltaXQ6IDUsIGRpcjogOmRlc2MsIG9yZGVyX2J5OiAnbGFiZWwnfSApIH0KCiAgICAgICAgICAgIGl0ICdyZXNwZWN0cyBvcmRlcl9ieSwgZGlyIGRpY3RhdGVkIGJ5IGZhY2V0IG9wdGlvbnMnIGRvCiAgICAgICAgICAgICAgZXhwZWN0KHJlc3VsdC5maXJzdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzLmxlbmd0aCkudG8gZXEgNQogICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5tYXAoJjpsYWJlbCkpLnRvIGVxIFsiV2VzdHZsZXRlcmVuIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIldlc3RtaW5zdGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIldlc3RtYWxsZSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJXZXN0ZXJuIFNhbW9hIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIldlc3RlbmRlIl0KICAgICAgICAgICAgICBleHBlY3QocmVzdWx0LmZpcnN0LmNhbmRpZGF0ZV9mYWNldF92YWx1ZXMubWFwKCY6Y291bnQpKS50byBlcSBbMSwgMSwgMSwgMSwgMV0KICAgICAgICAgICAgZW5kCiAgICAgICAgICBlbmQK</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBlbHNlCiAgICAgICAgICAjIGxldCB2aXJ0dW9zbyBkbyB0aGUgam9iCiAgICAgICAgICAjIGdyb3VwX2NvbmNhdDogZ3JvdXBpbmcgYnkgY29uY2F0dGluZwogICAgICAgICAgIyA/cGFyZW50IHNob3VsZCBiZXR0ZXIgYmUgY2FsbGVkID9yb290OiB0aGVzZSBhcmUgdGhlIHJvb3QgdmFsdWVzCiAgICAgICAgICBwYXRoc19xdWVyeSA9IDw8LVNQQVJRTAogICAgICAgICAgICBTRUxFQ1QKICAgICAgICAgICAgICA/cwogICAgICAgICAgICAgICg8I3tAc29scl9pbmRleC5wYXRoc19rZXlfZm9yX2ZhY2V0KGZhY2V0KX0+IGFzID9wKQogICAgICAgICAgICAgIChncm91cF9jb25jYXQoY29uY2F0KD9zdGVwX25vLCAnfCcsIHJlcGxhY2UoP3N0ZXBfbGFiZWwsICdcXFxcfCcsICdcXFxcXFxcXHwnKSwgJ3wnLCA/c3RlcF92YWwpIDsgc2VwYXJhdG9yPSJ8IikgYXMgP28pCiAgICAgICAgICAgIFdIRVJFIHsKICAgICAgICAgICAgICA/cmVhbF9zICN7cHJvcGVydHl9ID92YWwuCiAgICAgICAgICAgICAgI3tmYWNldF9zb3VyY2VfZmlsdGVyfQogICAgICAgICAgICAgICN7Y2Fub25pY2FsX3R5cGVfc291cmNlc19jbGF1c2V9CiAgICAgICAgICAgICAgI3tjbGF1c2VfcHJlZn0KICAgICAgICAgICAgICBCSU5EKGNvYWxlc2NlKD9wcmVmX3MsID9yZWFsX3MpIEFTID9zKQogICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIFNFTEVDVCBESVNUSU5DVCA/cGFyZW50IHsKICAgICAgICAgICAgICAgICAgP3ggI3tmYWNldC5wYXJlbnRfcHJvcGVydHkudG9fc3BhcnFsfSA/cGFyZW50LgogICAgICAgICAgICAgICAgICBGSUxURVIgTk9UIEVYSVNUUyB7ID9wYXJlbnQgI3tmYWNldC5wYXJlbnRfcHJvcGVydHkudG9fc3BhcnFsfSBbXS4gfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIH0KICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBTRUxFQ1QgP3ZhbCA/cGFyZW50IHsKICAgICAgICAgICAgICAgICAgP3ZhbCAje2ZhY2V0LnBhcmVudF9wcm9wZXJ0eS50b19zcGFycWx9ID9wYXJlbnQuCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIE9QVElPTigKICAgICAgICAgICAgICAgIFRSQU5TSVRJVkUsCiAgICAgICAgICAgICAgICB0X2luKD92YWwpLAogICAgICAgICAgICAgICAgdF9vdXQoP3BhcmVudCksCiAgICAgICAgICAgICAgICB0X21pbigwKSwKICAgICAgICAgICAgICAgIHRfc3RlcCg/dmFsKSBhcyA/c3RlcF92YWwsCiAgICAgICAgICAgICAgICB0X3N0ZXAoJ3N0ZXBfbm8nKSBhcyA/c3RlcF9ubywKICAgICAgICAgICAgICAgIHRfc3RlcCgncGF0aF9pZCcpIGFzID9wYXRoCiAgICAgICAgICAgICAgKQogICAgICAgICAgICAgIE9QVElPTkFMIHsgP3N0ZXBfdmFsICN7RElTUS5wcmVmZXJyZWRMYWJlbC50b19zcGFycWx9ID9zdGVwX2xhYmVsLiB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgR1JPVVAgQlkgP3MgP3ZhbCA/cGF0aAogICAgICAgICAgU1BBUlFMCiAgICAgICAgZW5kCg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAjIAo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBpZiBmYWNldC5wYXJlbnRfcGF0aF9wcm9wZXJ0eQo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAjIHdlIGdlbmVyYXRlZCBpdAogICAgICAgIGlmIGZhY2V0LmNoaWxkb2ZfcHJvcGVydHkK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBpZiBmYWNldC5jaGlsZG9mX3Byb3BlcnR5Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBlbHNlCiAgICAgICAgICAjIGxldCB2aXJ0dW9zbyBkbyB0aGUgam9iCiAgICAgICAgICAjIHdlIHNob3VsZCBoYXZlIHByZWYgdXJpcyBoZXJlIHRvbyBidXQgdGhlIHN0dXBpZCB0aGluZyBjcmFzaGVzCiAgICAgICAgICBjaGlsZF9xdWVyeSA9IDw8LVNQQVJRTAogICAgICAgICAgICBTRUxFQ1QKICAgICAgICAgICAgICA/cwogICAgICAgICAgICAgICg8I3tAc29scl9pbmRleC5jaGlsZF9rZXlfZm9yX2ZhY2V0KGZhY2V0KX0+IGFzID9wKQogICAgICAgICAgICAgID9vCiAgICAgICAgICAgIFdIRVJFIHsKICAgICAgICAgICAgICA/cyAje2ZhY2V0LnBhcmVudF9wcm9wZXJ0eS50b19zcGFycWx9KyA/by4KICAgICAgICAgICAgICA/cyBhID90CiAgICAgICAgICAgIH0KICAgICAgICAgIFNQQVJRTAogICAgICAgIGVuZAo=</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">CiAgICAgICAgICBjb250ZXh0ICdvcmRlcl9ieSBsYWJlbCwgZGVzYywgbGFyZ2UgbGltaXQnIGRvCiAgICAgICAgICAgIGxldCg6ZmFjZXRfb3B0aW9ucykgeyBGYWNldE9wdGlvbnMubmV3KGZhY2V0LmtleS50b19zeW0gPT4ge2xpbWl0OiAyMCwgZGlyOiA6ZGVzYywgb3JkZXJfYnk6ICdsYWJlbCd9ICkgfQoKICAgICAgICAgICAgaXQgJ3Jlc3BlY3RzIG9yZGVyX2J5LCBsaW1pdCBkaWN0YXRlZCBieSBmYWNldCBvcHRpb25zJyBkbwogICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5sZW5ndGgpLnRvIGVxIDIwCiAgICAgICAgICAgICAgZXhwZWN0KHJlc3VsdC5maXJzdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzLmZpcnN0LmxhYmVsKS50byBlcSAnV2VzdHZsZXRlcmVuJwogICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5maXJzdC5jb3VudCkudG8gZXEgMQogICAgICAgICAgICBlbmQKICAgICAgICAgIGVuZAo=</text>
       </register>
-      <register name="2" type="4">
+      <register name="8" type="4">
         <text>[&quot;Westvleteren&quot;,
                                                                               &quot;Westminster&quot;,
                                                                               &quot;Westmalle&quot;,
                                                                               &quot;Western Samoa&quot;,
                                                                               &quot;Westende&quot;]</text>
       </register>
-      <register name="3" type="4">
+      <register name="9" type="4">
         <text>&quot;Westvleteren&quot;,
                                                                               &quot;Los Angeles&quot;,
                                                                               &quot;Paris&quot;,
                                                                               &quot;Sicily&quot;,
                                                                               &quot;West Virginia&quot;]</text>
-      </register>
-      <register name="4" type="4">
-        <text>[&quot;A galaxy far, far away...&quot;,
-                                                                              &quot;Far West&quot;,
-                                                                              &quot;Germany&quot;,
-                                                                              &quot;Gondor, Middle Earth&quot;,
-                                                                              &quot;Gotham City&quot;]</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCg==</text>
-      </register>
-      <register name="6" type="4">
-        <text>&quot;Westvleteren&quot;,
-                                                                              &quot;Westminster&quot;,
-                                                                              &quot;Westmalle&quot;,
-                                                                              &quot;Western Samoa&quot;,
-                                                                              &quot;Westende&quot;]</text>
-      </register>
-      <register name="7" type="4">
-        <text>[&quot;West Virginia&quot;,
-                                                                              &quot;A galaxy far, far away...&quot;,
-                                                                              &quot;Far West&quot;,
-                                                                              &quot;Germany&quot;,
-                                                                              &quot;Gondor, Middle Earth&quot;]</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBleHBlY3QocmVzdWx0LmZpcnN0LmNhbmRpZGF0ZV9mYWNldF92YWx1ZXMuZmlyc3QubGFiZWwpLnRvIGVxICdXZXN0dmxldGVyZW4nCiAgICAgICAgICAgICAgZXhwZWN0KHJlc3VsdC5maXJzdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzLmZpcnN0LmNvdW50KS50byBlcSAxCg==</text>
-      </register>
-      <register name="9" type="4">
-        <text>[&quot;United States of America&quot;,
-                                                                              &quot;London&quot;,
-                                                                              &quot;Los Angeles&quot;,
-                                                                              &quot;Paris&quot;,
-                                                                              &quot;Sicily&quot;]</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -111,7 +100,7 @@
       <shortcut-conflict owner="vim">
         <text>ctrl pressed C</text>
       </shortcut-conflict>
-      <shortcut-conflict owner="vim">
+      <shortcut-conflict owner="ide">
         <text>ctrl pressed F</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
