@@ -17,11 +17,17 @@
         <mark key="." line="24" column="2" />
         <mark key="^" line="24" column="2" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/disqover_setting_spec.rb" timestamp="1549035888524">
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/disqover_setting_spec.rb" timestamp="1549037198948">
         <mark key="[" line="30" column="39" />
-        <mark key="]" line="33" column="6" />
-        <mark key="^" line="33" column="10" />
-        <mark key="." line="33" column="6" />
+        <mark key="]" line="20" column="0" />
+        <mark key="^" line="20" column="0" />
+        <mark key="." line="20" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/disqover_setting_value_spec.rb" timestamp="1549037135356">
+        <mark key="[" line="5" column="61" />
+        <mark key="]" line="5" column="61" />
+        <mark key="." line="5" column="0" />
+        <mark key="^" line="4" column="58" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/db/migrate/20190201082310_remove_feedback_messages.rb" timestamp="1549009419906">
         <mark key="[" line="6" column="0" />
@@ -75,10 +81,11 @@
         <mark key="." line="29" column="0" />
         <mark key="^" line="29" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/disqover_setting_value.rb" timestamp="1549035554265">
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/disqover_setting_value.rb" timestamp="1549037082327">
         <mark key="[" line="7" column="13" />
-        <mark key="]" line="9" column="0" />
-        <mark key="." line="9" column="0" />
+        <mark key="]" line="7" column="25" />
+        <mark key="." line="7" column="25" />
+        <mark key="^" line="7" column="25" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/disqover_settings_repository_spec.rb" timestamp="1549034707214">
         <mark key="[" line="4" column="18" />
@@ -120,11 +127,6 @@
         <mark key="]" line="35" column="0" />
         <mark key="^" line="35" column="0" />
         <mark key="." line="35" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/controllers/feedback_controller_spec.rb" timestamp="1548950029217">
-        <mark key="[" line="14" column="2" />
-        <mark key="]" line="14" column="5" />
-        <mark key="." line="14" column="5" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/export_controller.rb" timestamp="1548929778154">
         <mark key="[" line="56" column="0" />
@@ -183,7 +185,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgRGlzcW92ZXJTZXR0aW5nVmFsdWUubWFuYWdlZCgnc2V0dGluZ19rZXknLCAnc2V0dGluZ192YWx1ZScpIGRvCg==</text>
+        <text encoding="base64">ICAgIERpc3FvdmVyU2V0dGluZ1ZhbHVlLmNyZWF0ZShrZXk6ICdrZXl5JywgdmFsdWU6ICd2YWx5ZWUnKQo=</text>
       </register>
       <register name="-" type="4">
         <text>)</text>
@@ -192,22 +194,22 @@
         <text>oostende</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgRGlzcW92ZXJTZXR0aW5nVmFsdWUubWFuYWdlZCgnc2V0dGluZ19rZXknLCAnc2V0dGluZ192YWx1ZScpIGRvCg==</text>
+        <text encoding="base64">ICAgIERpc3FvdmVyU2V0dGluZ1ZhbHVlLmNyZWF0ZShrZXk6ICdrZXl5JywgdmFsdWU6ICd2YWx5ZWUnKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICBwZW5kaW5nICJhZGQgc29tZSBleGFtcGxlcyB0byAob3IgZGVsZXRlKSAje19fRklMRV9ffSIK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGl0ICd3b3JrcycgZG8KICAgICAgZXhwZWN0KHNldHRpbmcpLnRvIGJlX2EgRGlzcW92ZXJTZXR0aW5nCiAgICBlbmQKCg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGl0ICd3b3JrcycgZG8KICAgICAgZXhwZWN0KHNldHRpbmcpLnRvIGJlX2EgRGlzcW92ZXJTZXR0aW5nCiAgICBlbmQKCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CiAgZXh0ZW5kIFNwZWNEaXNwb3NhYmxlCgogIGRlZiBzZWxmLm1hbmFnZWQoa2V5LCB2YWx1ZSkKICAgIHN1cGVyKHtpZDoga2V5fSwge2lkOiBrZXl9Lm1lcmdlKHt2YWx1ZTogdmFsdWV9KSkKICBlbmQKCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CiAgZXh0ZW5kIFNwZWNEaXNwb3NhYmxlCgogIGRlZiBzZWxmLm1hbmFnZWQoa2V5LCB2YWx1ZSkKICAgIHN1cGVyKHtpZDoga2V5fSwge2lkOiBrZXl9Lm1lcmdlKHt2YWx1ZTogdmFsdWV9KSkKICBlbmQKCg==</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">Cg==</text>
@@ -219,7 +221,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGl0ICdsb2FkcyBhbGwgc2V0dGluZ3MnIGRvCiAgICAgIGV4cGVjdChzdWJqZWN0LmRpc3FvdmVyX3NldHRpbmdzLmtleXMpLnRvIGluY2x1ZGUoJ2ZlZWRiYWNrX2Rlc3QnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdjcmFzaF9lbWFpbGFsYScpCiAgICBlbmQKCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>1344</text>
