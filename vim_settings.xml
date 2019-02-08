@@ -72,12 +72,7 @@
         <mark key="^" line="11" column="81" />
         <mark key="." line="11" column="81" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/facet_options_spec.rb" timestamp="1549622678987">
-        <mark key="[" line="121" column="79" />
-        <mark key="]" line="119" column="12" />
-        <mark key="." line="119" column="12" />
-        <mark key="^" line="119" column="12" />
-      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/facet_options_spec.rb" timestamp="1549622678987" />
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/lens_repository_spec.rb" timestamp="1549466840486">
         <mark key="]" line="574" column="8" />
         <mark key="." line="574" column="8" />
@@ -120,6 +115,11 @@
         <mark key="]" line="14" column="3" />
         <mark key="^" line="14" column="3" />
         <mark key="." line="14" column="3" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/user.rb" timestamp="1549627256480">
+        <mark key="[" line="85" column="0" />
+        <mark key="]" line="85" column="0" />
+        <mark key="." line="85" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/config/environment.rb" timestamp="1549012739821">
         <mark key="[" line="13" column="0" />
@@ -224,11 +224,11 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/check_setup_service.rb" timestamp="1549536467709" />
       <file name="/steps_controller_spec.rb" timestamp="1549455081359" />
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/instances_service.rb" timestamp="1549375723339" />
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/facet_options.rb" timestamp="1549622330140">
-        <mark key="[" line="80" column="97" />
-        <mark key="]" line="80" column="23" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/facet_options.rb" timestamp="1549627031762">
+        <mark key="[" line="127" column="0" />
+        <mark key="]" line="127" column="0" />
         <mark key="^" line="80" column="23" />
-        <mark key="." line="80" column="23" />
+        <mark key="." line="127" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/controllers/discoveries_controller_spec.rb" timestamp="1549455374190">
         <mark key="[" line="288" column="69" />
@@ -249,7 +249,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgZGVzY3JpYmVkX2NsYXNzLmZyb21fcGFyYW1zKGZhY2V0OiB7dHlwZToge2xpbWl0OiAnNSd9fSkubGltaXQoZmFjZXQpLnNob3VsZCA9PSA1Cg==</text>
+        <text encoding="base64">CiAgZGVmIGhhc19hY3Rpb25zX3JlbWFpbmluZz8KICAgIHJldHVybiB0cnVlICMoIXNlbGYuaXNfY29tbXVuaXR5PyB8fCAoc2VsZi5yZW1haW5pbmdfYWN0aW9ucyA+IDApKQogIGVuZAo=</text>
       </register>
       <register name="-" type="4">
         <text>e</text>
@@ -261,31 +261,31 @@
         <text encoding="base64">ICAgICAgZXhwZWN0IGRvCiAgICAgICAgZGVzY3JpYmVkX2NsYXNzLmZyb21fcGFyYW1zKGZhY2V0OiB7dHlwZToge29mZnNldDogJzUnfX0pLm9mZnNldChmYWNldCkKICAgICAgZW5kLnRvIHJhaXNlX2Vycm9yIEFyZ3VtZW5yRXJyb3IsIC9vZmZzZXQgbXVzdCBiZSBzbWFsbGVyLyAK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgZGVzY3JpYmVkX2NsYXNzLmZyb21fcGFyYW1zKGZhY2V0OiB7dHlwZToge2xpbWl0OiAnNSd9fSkubGltaXQoZmFjZXQpLnNob3VsZCA9PSA1Cg==</text>
+        <text encoding="base64">CiAgZGVmIGhhc19hY3Rpb25zX3JlbWFpbmluZz8KICAgIHJldHVybiB0cnVlICMoIXNlbGYuaXNfY29tbXVuaXR5PyB8fCAoc2VsZi5yZW1haW5pbmdfYWN0aW9ucyA+IDApKQogIGVuZAo=</text>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIGVuZAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgIyBJIGRvbid0IHRoaW5rIHRoZSBsaW5lIGJlbG93IGlzIGV2ZXIgZXhlY3V0ZWQuIAo=</text>
+        <text encoding="base64">ICAgIGlmIEBvdmVycmlkZGVuX29wdGlvbnNbOmxpbWl0ZWRfdXNlcl0gJiYgZmFjZXQgIT0gRmFjZXQudHlwZQogICAgICA1CiAgICBlbHNlCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">CiAgZGVmIHNlbGYuZm9yX2xpbWl0ZWRfdXNlcihwYXJhbXM9e30pCiAgICBmcm9tX3BhcmFtcyhwYXJhbXMpLndpdGhfb3ZlcnJpZGVzKG9mZnNldDogMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFyZW50OiBuaWwsIGxldmVsOiAwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb3JjZV9saXN0OiAxLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvcmRlcl9ieTogOmNvdW50LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXI6IG5pbCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VhcmNoOiBuaWwsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxpbWl0ZWRfdXNlcjogdHJ1ZQogICAgKQogIGVuZAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB9LnNob3VsZCByYWlzZV9lcnJvcihDb25maWd1cmF0aW9uRXJyb3IpCg==</text>
+        <text encoding="base64">ICAgICAgZGVzY3JpYmVkX2NsYXNzLmZyb21fcGFyYW1zKGZhY2V0OiB7dHlwZToge2xpbWl0OiAnNSd9fSkubGltaXQoZmFjZXQpLnNob3VsZCA9PSA1Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBsCg==</text>
+      <register name="6" type="4">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgIyBwcm9wLnNvcnRhYmxlID0gZmFsc2UgaWYgKHByb3AubWl4ZWQ/IGFuZCBwcm9wLnNvcnRhYmxlPykK</text>
+        <text encoding="base64">ICAgICAgIyBJIGRvbid0IHRoaW5rIHRoZSBsaW5lIGJlbG93IGlzIGV2ZXIgZXhlY3V0ZWQuIAo=</text>
       </register>
-      <register name="8" type="8">
-        <text>if (prop.mixed? and prop.sortable?)</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBydW5faW5kZXhpbmc6IGZhbHNlLAo=</text>
+        <text encoding="base64">ICAgICAgICB9LnNob3VsZCByYWlzZV9lcnJvcihDb25maWd1cmF0aW9uRXJyb3IpCg==</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
