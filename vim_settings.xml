@@ -73,7 +73,6 @@
         <mark key="." line="11" column="81" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/lens_repository_spec.rb" timestamp="1549466840486">
-        <mark key="[" line="580" column="41" />
         <mark key="]" line="574" column="8" />
         <mark key="." line="574" column="8" />
         <mark key="^" line="574" column="8" />
@@ -110,8 +109,8 @@
         <mark key="]" line="121" column="0" />
         <mark key="." line="121" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/solr_index.rb" timestamp="1549467156767">
-        <mark key="[" line="11" column="61" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/solr_index.rb" timestamp="1549612308974">
+        <mark key="[" line="14" column="3" />
         <mark key="]" line="14" column="3" />
         <mark key="^" line="14" column="3" />
         <mark key="." line="14" column="3" />
@@ -148,6 +147,12 @@
         <mark key="]" line="20" column="0" />
         <mark key="^" line="20" column="0" />
         <mark key="." line="20" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_candidate_facet_repository.rb" timestamp="1549553672149">
+        <mark key="[" line="490" column="39" />
+        <mark key="]" line="490" column="41" />
+        <mark key="^" line="490" column="41" />
+        <mark key="." line="490" column="41" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/csv_export_service.rb" timestamp="1548928521836">
         <mark key="[" line="41" column="16" />
@@ -234,8 +239,8 @@
       <jump line="850" column="7" filename="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/facets_revisited_local_data.sparql" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgIyBJIGRvbid0IHRoaW5rIHRoZSBsaW5lIGJlbG93IGlzIGV2ZXIgZXhlY3V0ZWQuIAo=</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>e</text>
@@ -246,35 +251,35 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBjdCA9ICBhbGxfcHJvcHNbU3BhcnFsOjpVUklWYWx1ZS5uZXcoJ2NvbXBvdW5kJyldCiAgICAgICAgcHJvcCA9ICBjdFtTcGFycWw6OlVSSVZhbHVlLm5ldygnaHR0cDovL3Rlc3Qub250b2ZvcmNlLmNvbS9wcm9wI2Zvcm11bGEnKV0K</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgIyBJIGRvbid0IHRoaW5rIHRoZSBsaW5lIGJlbG93IGlzIGV2ZXIgZXhlY3V0ZWQuIAo=</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB9LnNob3VsZCByYWlzZV9lcnJvcihDb25maWd1cmF0aW9uRXJyb3IpCg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBsCg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgIyBwcm9wLnNvcnRhYmxlID0gZmFsc2UgaWYgKHByb3AubWl4ZWQ/IGFuZCBwcm9wLnNvcnRhYmxlPykK</text>
-      </register>
-      <register name="6" type="8">
-        <text>if (prop.mixed? and prop.sortable?)</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBydW5faW5kZXhpbmc6IGZhbHNlLAo=</text>
-      </register>
-      <register name="8" type="2">
+      <register name="1" type="4">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgIyBJIGRvbid0IHRoaW5rIHRoZSBsaW5lIGJlbG93IGlzIGV2ZXIgZXhlY3V0ZWQuIAo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICB9LnNob3VsZCByYWlzZV9lcnJvcihDb25maWd1cmF0aW9uRXJyb3IpCg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBsCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgIyBwcm9wLnNvcnRhYmxlID0gZmFsc2UgaWYgKHByb3AubWl4ZWQ/IGFuZCBwcm9wLnNvcnRhYmxlPykK</text>
+      </register>
+      <register name="7" type="8">
+        <text>if (prop.mixed? and prop.sortable?)</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICBydW5faW5kZXhpbmc6IGZhbHNlLAo=</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHJzID0gY2xlYW5fanNvbihyZXN1bHRbJ3Jlc3VsdCddKQogICAgZXJyb3JzID0gY2xlYW5fanNvbihyZXN1bHRbJ2Vycm9ycyddKQogICAgUmFpbHMubG9nZ2VyLmRlYnVnKHJlc3BvbnNlKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>wq</text>
       </register>
     </registers>
     <search>
@@ -293,6 +298,7 @@
         <entry>1344</entry>
         <entry>w</entry>
         <entry>0</entry>
+        <entry>wq</entry>
       </history-cmd>
       <history-expr />
       <history-input />
