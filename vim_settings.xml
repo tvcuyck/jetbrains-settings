@@ -164,6 +164,10 @@
         <mark key="." line="28" column="59" />
         <mark key="^" line="28" column="59" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/configuration_graph.rb" timestamp="1550148693788">
+        <mark key="[" line="38" column="0" />
+        <mark key="]" line="38" column="83" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_candidate_facet_repository.rb" timestamp="1549553672149">
         <mark key="[" line="490" column="39" />
         <mark key="]" line="490" column="41" />
@@ -175,10 +179,10 @@
         <mark key="]" line="46" column="6" />
         <mark key="." line="33" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/configuration_service.rb" timestamp="1550045308722">
-        <mark key="[" line="206" column="0" />
-        <mark key="]" line="206" column="24" />
-        <mark key="." line="206" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/configuration_service.rb" timestamp="1550148972434">
+        <mark key="[" line="40" column="88" />
+        <mark key="]" line="40" column="0" />
+        <mark key="." line="40" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/etl_service.rb" timestamp="1549462907296">
         <mark key="[" line="155" column="0" />
@@ -210,6 +214,11 @@
         <mark key="]" line="221" column="30" />
         <mark key="." line="221" column="30" />
         <mark key="^" line="221" column="30" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/cache_repository.rb" timestamp="1550147875608">
+        <mark key="[" line="36" column="7" />
+        <mark key="]" line="37" column="5" />
+        <mark key="." line="34" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/indexing_service.rb" timestamp="1549015654678">
         <mark key="[" line="29" column="0" />
@@ -249,12 +258,6 @@
         <mark key="]" line="146" column="0" />
         <mark key="." line="146" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/export_controller.rb" timestamp="1550140380401">
-        <mark key="[" line="56" column="33" />
-        <mark key="]" line="56" column="32" />
-        <mark key="." line="56" column="32" />
-        <mark key="^" line="56" column="32" />
-      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/check_setup_service.rb" timestamp="1549536467709" />
       <file name="/steps_controller_spec.rb" timestamp="1549455081359" />
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/configuration_service_spec.rb" timestamp="1550045403240">
@@ -288,7 +291,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgCiAgICAgIERpc3FvdmVyU2V0dGluZy5uZXcoJ3Nlc3Npb25fdGltZV9taW51dGVzJywKICAgICAgICAgICAgICAgICAgICAgICAgICAnU2Vzc2lvbiB0aW1lIGluIG1pbnV0ZXMnLAogICAgICAgICAgICAgICAgICAgICAgICAgIGRlZmF1bHQ6IDMwKSwK</text>
+        <text encoding="base64">ICAgICAgICBSYWlscy5sb2dnZXIuZGVidWcoJ0NsZScpCg==</text>
       </register>
       <register name="-" type="4">
         <text>feedback_dest',</text>
@@ -297,34 +300,34 @@
         <text>oostende</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgRGlzcW92ZXJTZXR0aW5nLm5ldygnc2Vzc2lvbl90aW1lX21pbnV0ZXMnLAogICAgICAgICAgICAgICAgICAgICAgICAgICdTZXNzaW9uIHRpbWUgaW4gbWludXRlcycsCiAgICAgICAgICAgICAgICAgICAgICAgICAgZGVmYXVsdDogMzApLAo=</text>
+        <text encoding="base64">ICAgIFJhaWxzLmxvZ2dlci5kZWJ1ZygnQ2xlYXJpbmcgdGhlIGNhY2hlIGFmdGVyIHNldHRpbmcgbmV3IGdsb2JhbCBjb25maWd1cmF0aW9uLicpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgCiAgICAgIERpc3FvdmVyU2V0dGluZy5uZXcoJ3Nlc3Npb25fdGltZV9taW51dGVzJywKICAgICAgICAgICAgICAgICAgICAgICAgICAnU2Vzc2lvbiB0aW1lIGluIG1pbnV0ZXMnLAogICAgICAgICAgICAgICAgICAgICAgICAgIGRlZmF1bHQ6IDMwKSwK</text>
+        <text encoding="base64">ICAgICAgICBSYWlscy5sb2dnZXIuZGVidWcoJ0NsZScpCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICBlbmQK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgZXhwZWN0KHN1YmplY3QuZ2V0KCdjcmFzaF9lbWFpbCcpKS50byBiZV9uaWwK</text>
+        <text encoding="base64">ICAKICBkZWYgc2V0X2NhY2hlZF9jb25maWd1cmF0aW9uCiAgICBnZXQKICBlbmQK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgZmFsc2Uuc2hvdWxkIGJlX3RydWUK</text>
+        <text encoding="base64">ICAgICAgCiAgICAgIERpc3FvdmVyU2V0dGluZy5uZXcoJ3Nlc3Npb25fdGltZV9taW51dGVzJywKICAgICAgICAgICAgICAgICAgICAgICAgICAnU2Vzc2lvbiB0aW1lIGluIG1pbnV0ZXMnLAogICAgICAgICAgICAgICAgICAgICAgICAgIGRlZmF1bHQ6IDMwKSwK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBleHBlY3Qoc2V0dGluZy52YWx1ZSkudG8gZXEoJ3NldHRpbmdfdmFsdWUnKQo=</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgZXhwZWN0KHN1YmplY3QuZ2V0KCdjcmFzaF9lbWFpbCcpKS50byBiZV9uaWwK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgZmFsc2Uuc2hvdWxkIGJlX3RydWUK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIERpc3FvdmVyU2V0dGluZ1ZhbHVlLmNyZWF0ZSEoKS5zaG91bGQgPT0gJ2xhbGEnCg==</text>
+        <text encoding="base64">ICAgICAgICBleHBlY3Qoc2V0dGluZy52YWx1ZSkudG8gZXEoJ3NldHRpbmdfdmFsdWUnKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIERpc3FvdmVyU2V0dGluZ1ZhbHVlLmNyZWF0ZShrZXk6ICdrZXknLCB2YWx1ZTogJ3ZhbHVlXzInKQo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
