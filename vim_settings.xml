@@ -31,6 +31,7 @@
         <mark key="." line="80" column="55" />
         <mark key="^" line="80" column="55" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails3-backend/app/services/filter_info_service.rb" timestamp="1550648721175" />
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/file_upload_service.rb" timestamp="1550827200579">
         <mark key="[" line="8" column="61" />
         <mark key="]" line="2" column="15" />
@@ -43,6 +44,12 @@
       <file name="$USER_HOME$/Disqover/rails3-backend/spec/visitors/inline_instances_for_links_solr_visitor_spec.rb" timestamp="1550650342793">
         <mark key="[" line="60" column="24" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/histogram_date_service_spec.rb" timestamp="1550840469207">
+        <mark key="[" line="118" column="54" />
+        <mark key="]" line="118" column="30" />
+        <mark key="." line="118" column="30" />
+        <mark key="^" line="118" column="30" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails3-backend/spec/repositories/dataset_repository_spec.rb" timestamp="1550650329130">
         <mark key="[" line="790" column="50" />
       </file>
@@ -50,6 +57,9 @@
         <mark key="[" line="121" column="0" />
         <mark key="]" line="121" column="0" />
         <mark key="." line="121" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/candidate_histogram_facet_service_spec.rb" timestamp="1550841008773">
+        <mark key="[" line="472" column="12" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/controllers/configuration_controller_spec.rb" timestamp="1550058787720">
         <mark key="[" line="11" column="0" />
@@ -59,6 +69,7 @@
       <file name="$USER_HOME$/Disqover/rails3-backend/spec/repositories/sample_id_repository_spec.rb" timestamp="1550650264493">
         <mark key="[" line="475" column="24" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails3-backend/app/services/user_resource_service.rb" timestamp="1550745698878" />
       <file name="$USER_HOME$/Disqover/rails3-backend/spec/services/check_setup_service_spec.rb" timestamp="1550652955681">
         <mark key="[" line="142" column="0" />
         <mark key="]" line="142" column="0" />
@@ -69,6 +80,12 @@
         <mark key="[" line="41" column="16" />
         <mark key="]" line="46" column="6" />
         <mark key="." line="33" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/configuration_service_spec.rb" timestamp="1550839884733">
+        <mark key="[" line="216" column="61" />
+        <mark key="]" line="215" column="47" />
+        <mark key="^" line="215" column="47" />
+        <mark key="." line="215" column="47" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/.docker/test/config/database.yml" timestamp="1550762371500">
         <mark key="[" line="68" column="23" />
@@ -81,6 +98,7 @@
         <mark key="." line="0" column="0" />
         <mark key="^" line="0" column="8" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/lens_property.rb" timestamp="1550839914679" />
       <file name="$USER_HOME$/Disqover/rails3-backend/spec/services/synonym_service_spec.rb" timestamp="1550650248143">
         <mark key="[" line="1327" column="30" />
       </file>
@@ -119,6 +137,10 @@
       </file>
       <file name="$USER_HOME$/Disqover/rails3-backend/spec/services/federation_facet_service_spec.rb" timestamp="1550650515429">
         <mark key="[" line="7686" column="38" />
+      </file>
+      <file name="/configuration_service_spec.rb" timestamp="1550839834252">
+        <mark key="[" line="218" column="0" />
+        <mark key="]" line="218" column="96" />
       </file>
       <file name="$USER_HOME$/Disqover/rails3-backend/spec/controllers/disqover_settings_controller_spec.rb" timestamp="1550824575162">
         <mark key="[" line="4" column="24" />
@@ -162,10 +184,22 @@
         <mark key="^" line="27" column="35" />
         <mark key="." line="27" column="35" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/histogram_time_service.rb" timestamp="1550840878295">
+        <mark key="[" line="22" column="38" />
+        <mark key="]" line="22" column="37" />
+        <mark key="^" line="22" column="37" />
+        <mark key="." line="22" column="37" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/etl_service.rb" timestamp="1549462907296">
         <mark key="[" line="155" column="0" />
         <mark key="]" line="155" column="0" />
         <mark key="." line="155" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails3-backend/app/services/federation_subfacet_service.rb" timestamp="1550648682188" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/histogram_time_service_spec.rb" timestamp="1550840602146">
+        <mark key="[" line="171" column="17" />
+        <mark key="]" line="280" column="0" />
+        <mark key="." line="280" column="0" />
       </file>
       <file name="/Dummy.txt" timestamp="1550836641966">
         <mark key="[" line="0" column="0" />
@@ -198,43 +232,198 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">ClNpZ25lZC1vZmYtYnk6IHRvbSA8dG9tQG9udG9mb3JjZS5jb20+CgojIENvbmZsaWN0czoKIwlhcHAvbW9kZWxzL2ZlZWRiYWNrX21lc3NhZ2UucmIKIwlzcGVjL2NvbnRyb2xsZXJzL2ZlZWRiYWNrX2NvbnRyb2xsZXJfc3BlYy5yYg==</text>
+        <text encoding="base64">KS5zaG91bGQgPT0g</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text encoding="base64">KS5zaG91bGQgPT0g</text>
       </register>
       <register name="/" type="4">
         <text>oostende</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CiAgICAgIGl0ICdyYWlzZXMgZm9yIGZpbGUgb2Ygb3RoZXIgdXNlcicgZG8KICAgICAgICBVc2VyLm1hbmFnZWQoJ21hbmFnZWRfZmlsZXNAb250b2ZvcmNlLmNvbScsIHtsaWNlbnNlX2FncmVlbWVudF9hZ3JlZWRfb246IERhdGVUaW1lLm5vd30pIGRvIHx1c2VyfAogICAgICAgICAgYWxsb3coY29udHJvbGxlcikudG8gcmVjZWl2ZSg6Y3VycmVudF91c2VyKS5hbmRfcmV0dXJuKHVzZXIpCiAgICAgICAgICBVc2VyLm1hbmFnZWQoJ290aGVyX3VzZXJAb250b2ZvcmNlLmNvbScpIGRvIHxvdGhlcl91c2VyfAogICAgICAgICAgICBNYW5hZ2VkRmlsZS5tYW5hZ2VkKGd1aWQsIHt1c2VyX2lkOiBvdGhlcl91c2VyLmlkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5X25hbWU6ICdkaXNwbGF5X25hbWVfMScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZpbGVfdHlwZTogOnNlcnZlcl91cGxvYWQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZpbGVfbG9jYXRpb246ICcvdG1wL3RleHQudHh0J30pIGRvCiAgICAgICAgICAgICAgcHV0X2pzb24gOmRvd25sb2FkX2ZpbGUsIHtmaWxlX2d1aWQ6IGd1aWR9CiAgICAgICAgICAgICAgZXhwZWN0KHJlc3BvbnNlLnN0YXR1cykudG8gZXEoNDA0KQogICAgICAgICAgICAgIGV4cGVjdChyZXNwb25zZS5ib2R5KS50byBtYXRjaCgvbm90IGZvdW5kLykKICAgICAgICAgICAgZW5kCiAgICAgICAgICBlbmQKICAgICAgICBlbmQKICAgICAgZW5kCg==</text>
+        <text encoding="base64">ICAgICAgcmVzdWx0Wzp1c2VyX3ZpZXdzXS5sYXN0WzprZXldLnNob3VsZCA9PSBTcGFycWw6OlVSSVZhbHVlLm5ldygnYXNzYXlGYWNldFJlb3JkZXJVc2VyVmlldycpCg==</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">ClNpZ25lZC1vZmYtYnk6IHRvbSA8dG9tQG9udG9mb3JjZS5jb20+CgojIENvbmZsaWN0czoKIwlhcHAvbW9kZWxzL2ZlZWRiYWNrX21lc3NhZ2UucmIKIwlzcGVjL2NvbnRyb2xsZXJzL2ZlZWRiYWNrX2NvbnRyb2xsZXJfc3BlYy5yYg==</text>
+        <text>describe HistogramDateService do
+  let(:subject) { described_class.new }
+
+  describe 'new' do
+    it 'should create 6 timesteps' do
+      expect(subject.instance_variable_get(:@steps).count).to eq(3)
+    end
+  end
+
+  describe 'self.str_to_datetime' do
+    let(:result) { described_class.str_to_datetime(str) }
+
+    context 'valid input' do
+      let(:str) { '1923-05-06' }
+
+      it 'should return time object' do
+        expect(result).to be_a(DateTime)
+      end
+    end
+
+    context 'invalid input' do
+      let(:str) { '1923-13-06' }
+
+      it 'should raise error' do
+        expect { result }.to raise_error /invalid date/
+      end
+    end
+  end
+
+  describe 'check_step' do
+    let(:result) { subject.check_step(step) }
+
+    context 'for valid input' do
+      let(:step) { '0000-00-07' }
+      it 'should not raise an error' do
+        expect { result }.not_to raise_error
+      end
+    end
+
+    context 'for invalid input' do
+      let(:step) { '0000-01-01' }
+      it 'should raise an error' do
+        expect { result }.to raise_error ArgumentError
+      end
+    end
+
+    context 'for invalid number of months' do
+      let(:step) { '0000-07-00' }
+      it 'should raise an error' do
+        expect { result }.to raise_error ArgumentError, /month step/
+      end
+    end
+  end
+
+  describe 'check_boundary' do
+    let(:result) { subject.check_boundary(start) }
+
+    context 'for valid input' do
+      let(:start) { '1900-01-01' }
+      it 'should not raise an error' do
+        expect { result }.not_to raise_error
+      end
+    end
+
+    context 'for invalid input' do
+      let(:start) { '1900-00-00' }
+      it 'should raise an error' do
+        expect { result }.to raise_error ArgumentError, /invalid date/
+      end
+    end
+  end
+
+  describe 'round_stop' do
+    let(:result) { subject.round_stop(stop, step) }
+
+    context 'year steps' do
+      let(:stop) { '1922-02-03' }
+
+      context '10 year step' do
+        let(:step) { '0010-00-00T00:00:00Z' }
+        it 'should return correct stop' do
+          result.should == '1930-01-01T00:00:00Z'
+        end
+      end
+
+      context '2 year step' do
+        let(:step) { '0002-00-00T00:00:00Z' }
+        it 'should return correct stop' do
+          result.should == '1924-01-01T00:00:00Z'
+        end
+      end
+
+      context 'year step' do
+        let(:step) { '0001-00-00T00:00:00Z' }
+        it 'should return correct stop' do
+          result.should == '1923-01-01T00:00:00Z'
+        end
+      end
+
+      context 'value coinciding with result value' do
+        let(:stop) { '1923-01-01' }
+        let(:step) { '0001-00-00T00:00:00Z' }
+        it 'should return correct stop' do
+          result.should == '1923-01-01T00:00:00Z'
+        end
+      end
+    end
+  end
+
+  describe 'inclusive_round_stop' do
+    let(:result) { subject.inclusive_round_stop(stop, step) }
+
+    context 'year steps' do
+      let(:stop) { '1922-02-03' }
+
+      context '10 year step' do
+        let(:step) { '0010-00-00T00:00:00Z' }
+        it 'should return correct stop' do
+          result.should == '1930-01-01T00:00:00Z'
+        end
+      end
+
+      context '2 year step' do
+        let(:step) { '0002-00-00T00:00:00Z' }
+        it 'should return correct stop' do
+          result.should == '1924-01-01T00:00:00Z'
+        end
+      end
+
+      context 'year step' do
+        let(:step) { '0001-00-00T00:00:00Z' }
+        it 'should return correct stop' do
+          result.should == '1923-01-01T00:00:00Z'
+        end
+      end
+
+      context 'value coinciding with result value' do
+        let(:stop) { '1923-01-01' }
+        let(:step) { '0001-00-00T00:00:00Z' }
+        it 'should return correct stop' do
+          result.should == '1923-01-01T00:00:00Z'
+        end
+      end
+    end
+  end
+
+  describe 'parse_solr_quant' do
+    it 'should process solr format' do
+      expect(subject.parse_solr_quant('1972-02-03T00:00:00Z')).to eq('1972-02-03')
+    end
+
+    it 'should process nil' do
+      expect(subject.parse_solr_quant(nil)).to be_nil
+    end
+  end
+end</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICByZXN1bHQuc2hvdWxkX25vdCBiZV9uaWwKICAgICAgcmVzdWx0WzpmYWNldHNdLmNvdW50LnNob3VsZCA9PSA3Cg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIEZlZWRiYWNrTWVzc2FnZS5hbnlfaW5zdGFuY2Uuc3R1Yig6c2VuZF90b19qaXJhISkK</text>
+      <register name="3" type="4">
+        <text encoding="base64">ClNpZ25lZC1vZmYtYnk6IHRvbSA8dG9tQG9udG9mb3JjZS5jb20+CgojIENvbmZsaWN0czoKIwlhcHAvbW9kZWxzL2ZlZWRiYWNrX21lc3NhZ2UucmIKIwlzcGVjL2NvbnRyb2xsZXJzL2ZlZWRiYWNrX2NvbnRyb2xsZXJfc3BlYy5yYg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgIGVuZAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgIFVzZXIubWFuYWdlZCgnb3RoZXJfdXNlckBvbnRvZm9yY2UuY29tJykgZG8gfG90aGVyX3VzZXJ8Cg==</text>
+        <text encoding="base64">ICAgIEZlZWRiYWNrTWVzc2FnZS5hbnlfaW5zdGFuY2Uuc3R1Yig6c2VuZF90b19qaXJhISkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZW5kCg==</text>
+        <text encoding="base64">ICAgICAgICAgIGVuZAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgTWFuYWdlZEZpbGUubWFuYWdlZChndWlkLCB7dXNlcl9pZDogb3RoZXJfdXNlci5pZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheV9uYW1lOiAnZGlzcGxheV9uYW1lXzEnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmaWxlX3R5cGU6IDpzZXJ2ZXJfdXBsb2FkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmaWxlX2xvY2F0aW9uOiAnL3RtcC90ZXh0LnR4dCd9KSBkbwo=</text>
+        <text encoding="base64">ICAgICAgICAgIFVzZXIubWFuYWdlZCgnb3RoZXJfdXNlckBvbnRvZm9yY2UuY29tJykgZG8gfG90aGVyX3VzZXJ8Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBleHBlY3QoQGNvbnRyb2xsZXIpLnRvIHJlY2VpdmUoOnNlbmRfZGF0YSkud2l0aCgnL3RtcC90ZXh0LnR4dCcsIGFueV9hcmdzKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZW5kCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgTWFuYWdlZEZpbGUubWFuYWdlZChndWlkLCB7dXNlcl9pZDogb3RoZXJfdXNlci5pZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheV9uYW1lOiAnZGlzcGxheV9uYW1lXzEnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmaWxlX3R5cGU6IDpzZXJ2ZXJfdXBsb2FkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmaWxlX2xvY2F0aW9uOiAnL3RtcC90ZXh0LnR4dCd9KSBkbwo=</text>
       </register>
       <register name=":" type="4">
         <text>32</text>
