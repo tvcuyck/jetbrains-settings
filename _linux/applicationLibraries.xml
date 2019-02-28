@@ -2266,6 +2266,27 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/bootsnap-1.4.0/ext" />
       </excluded>
     </library>
+    <library name="bootsnap (v1.4.1, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs25/bootsnap/1.4.1" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/bootsnap-1.4.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/bootsnap-1.4.1/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/bootsnap-1.4.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs25/bootsnap/1.4.1" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/bootsnap-1.4.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/bootsnap-1.4.1/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/bootsnap-1.4.1/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/bootsnap-1.4.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/bootsnap-1.4.1/ext" />
+      </excluded>
+    </library>
     <library name="bootstrap-sass (v2.3.1.0, RVM: ruby-2.2.4 [disqover_default]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.4@disqover_default/gems/bootstrap-sass-2.3.1.0/lib" />
@@ -6088,6 +6109,22 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/json-2.2.0/tools" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/json-2.2.0/diagrams" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/json-2.2.0/references" />
+      </excluded>
+    </library>
+    <library name="json-schema (v2.8.1, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/json-schema-2.8.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/json-schema-2.8.1/resources" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/json-schema-2.8.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/json-schema-2.8.1/resources" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/json-schema-2.8.1/resources" />
       </excluded>
     </library>
     <library name="json_pure (v1.8.0, RVM: ruby-2.2.4 [disqover_default]) [gem]">
@@ -10834,6 +10871,52 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/rspec-support-3.8.0/lib" />
       </SOURCES>
     </library>
+    <library name="rswag (v2.0.5, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/rswag-2.0.5/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/rswag-2.0.5/lib" />
+      </SOURCES>
+    </library>
+    <library name="rswag-api (v2.0.5, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/rswag-api-2.0.5/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/rswag-api-2.0.5/lib" />
+      </SOURCES>
+    </library>
+    <library name="rswag-specs (v2.0.5, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/rswag-specs-2.0.5/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/rswag-specs-2.0.5/lib" />
+      </SOURCES>
+    </library>
+    <library name="rswag-ui (v2.0.5, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/rswag-ui-2.0.5/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/rswag-ui-2.0.5/node_modules" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/rswag-ui-2.0.5/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/rswag-ui-2.0.5/node_modules" />
+      </SOURCES>
+    </library>
     <library name="rubocop (v0.49.1, RVM: ruby-2.2.4 [disqover_default]) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.4@disqover_default/gems/rubocop-0.49.1/bin" />
@@ -11626,6 +11709,25 @@
       <excluded>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/safe_yaml-1.0.4/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/safe_yaml-1.0.4/spec" />
+      </excluded>
+    </library>
+    <library name="safe_yaml (v1.0.5, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/safe_yaml-1.0.5/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/safe_yaml-1.0.5/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/safe_yaml-1.0.5/spec" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/safe_yaml-1.0.5/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/safe_yaml-1.0.5/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/safe_yaml-1.0.5/spec" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/safe_yaml-1.0.5/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/safe_yaml-1.0.5/spec" />
       </excluded>
     </library>
     <library name="sass (v3.2.9, RVM: ruby-2.2.4 [disqover_default]) [gem]">
