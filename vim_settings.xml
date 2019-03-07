@@ -15,6 +15,11 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/instance_export_service.rb" timestamp="1551445807404">
         <mark key="[" line="87" column="2" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/instances_controller.rb" timestamp="1551888696940">
+        <mark key="[" line="101" column="75" />
+        <mark key="]" line="123" column="0" />
+        <mark key="." line="123" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/cache_repository_spec.rb" timestamp="1550155039851">
         <mark key="[" line="9" column="24" />
       </file>
@@ -95,11 +100,18 @@
         <mark key="." line="76" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/controllers/links_controller_spec.rb" timestamp="1551869703346" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/controllers/instances_controller_spec.rb" timestamp="1551888509157">
+        <mark key="'" line="87" column="0" />
+        <mark key="[" line="638" column="39" />
+        <mark key="]" line="638" column="2" />
+        <mark key="." line="638" column="2" />
+        <mark key="^" line="655" column="43" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/index/to_json_parser_spec.rb" timestamp="1551693165625" />
       <file name="$USER_HOME$/Disqover/rails3-backend/spec/repositories/dataset_repository_spec.rb" timestamp="1550650329130">
         <mark key="[" line="790" column="50" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/facets_controller.rb" timestamp="1551887937392">
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/facets_controller.rb" timestamp="1551888671229">
         <mark key="[" line="85" column="0" />
         <mark key="]" line="85" column="74" />
         <mark key="^" line="84" column="85" />
@@ -127,11 +139,11 @@
         <mark key="^" line="57" column="32" />
         <mark key="." line="57" column="32" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/controllers/facets_controller_spec.rb" timestamp="1551888001367">
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/controllers/facets_controller_spec.rb" timestamp="1551888616395">
         <mark key="[" line="565" column="0" />
-        <mark key="]" line="565" column="0" />
-        <mark key="." line="565" column="0" />
-        <mark key="^" line="561" column="81" />
+        <mark key="]" line="463" column="70" />
+        <mark key="." line="463" column="70" />
+        <mark key="^" line="463" column="70" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/facet_sample_service.rb" timestamp="1551880713272" />
       <file name="$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/rswag-specs-2.0.5/lib/tasks/rswag-specs_tasks.rake" timestamp="1551363445353">
@@ -254,10 +266,10 @@
         <mark key="]" line="88" column="0" />
         <mark key="." line="88" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/controllers/subfacet_controller_spec.rb" timestamp="1551888017314">
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/controllers/subfacet_controller_spec.rb" timestamp="1551888463676">
         <mark key="'" line="77" column="47" />
-        <mark key="[" line="515" column="0" />
-        <mark key="]" line="515" column="0" />
+        <mark key="[" line="507" column="20" />
+        <mark key="]" line="517" column="7" />
         <mark key="." line="515" column="0" />
         <mark key="^" line="503" column="56" />
       </file>
@@ -317,10 +329,11 @@
       <jump line="53" column="22" filename="$USER_HOME$/Disqover/rails5-backend/spec/controllers/export_controller_spec.rb" />
       <jump line="385" column="63" filename="$USER_HOME$/Disqover/rails5-backend/app/services/filter_info_service.rb" />
       <jump line="77" column="47" filename="$USER_HOME$/Disqover/rails5-backend/spec/controllers/subfacet_controller_spec.rb" />
+      <jump line="87" column="0" filename="$USER_HOME$/Disqover/rails5-backend/spec/controllers/instances_controller_spec.rb" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAjIGV4cGVjdChyZXN1bHQpLnRvIGVxKCdsYWxhJykK</text>
+        <text encoding="base64">ICAgIHJlc3BvbnNlLm1lcmdlISggeyByZW1haW5pbmdfYWN0aW9uczogY3VycmVudF91c2VyLnJlbWFpbmluZ19hY3Rpb25zfSApIGlmIGN1cnJlbnRfdXNlci5jb21tdW5pdHlfdXNlcj8K</text>
       </register>
       <register name="-" type="4">
         <text>JSON.parse(</text>
@@ -329,34 +342,34 @@
         <text>params\[</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgIGV4cGVjdChyZXN1bHRbJ2luY29tcGxldGVfbGlua3MnXSkudG8gZXEodHJ1ZSkK</text>
+        <text encoding="base64">ICAgIHJlc3BvbnNlLm1lcmdlISggeyBpbmNvbXBsZXRlX2xpbmtzOiB0cnVlIH0gKSBpZiBpbmNvbXBsZXRlX2xpbmtzX2ZsYWcK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAjIGV4cGVjdChyZXN1bHQpLnRvIGVxKCdsYWxhJykK</text>
+        <text encoding="base64">ICAgIHJlc3BvbnNlLm1lcmdlISggeyByZW1haW5pbmdfYWN0aW9uczogY3VycmVudF91c2VyLnJlbWFpbmluZ19hY3Rpb25zfSApIGlmIGN1cnJlbnRfdXNlci5jb21tdW5pdHlfdXNlcj8K</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgIGZpbHRlciA9IEZpbHRlci5yb290KEZpbHRlci5saW5rZWQoRmlsdGVyLnNlYXJjaChxdWVyeTogJ3NhcGllbnMnKSkpCgo=</text>
+        <text encoding="base64">ICAgICAgZXhwZWN0KEpTT04ucGFyc2UocmVzcG9uc2UuYm9keSlbImluc3RhbmNlcyJdKS50byBlcShbXSkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBleHBlY3QocmVzdWx0KS50byBlcSgnbGFsYScpCg==</text>
+        <text encoding="base64">ICAgICAgcGFyYW1zID0geyJqZiI9PiBmaWx0ZXIudG9fanNvbn0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBleHBlY3QocmVzdWx0KS5ub3RfdG8gaGF2ZV9rZXkoJ2luY29tcGxldGVfbGlua3MnKQo=</text>
+        <text encoding="base64">ICAgIGxldCg6ZmlsdGVyKSB7IEZpbHRlcjo6cm9vdChGaWx0ZXI6OnNlYXJjaChxdWVyeTonbmVydiogT1IgdGVzdCcsIG9ubHlfc2VtYW50aWM6IHRydWUpKSB9Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgIyBnZXRfanNvbiA6aW5kZXgsIHtmYWNldHM6IFtGYWNldC50eXBlLmtleV0sIGpmOiBmaWx0ZXIudG9fanNvbiB9Cg==</text>
+        <text encoding="base64">ICBjb250ZXh0ICdpbmNvbXBlbHRlX2xpbmtzJyBkbwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgIGZpbHRlciA9IEZpbHRlci5yb290KEZpbHRlci5saW5rZWQoRmlsdGVyLnNlYXJjaChxdWVyeTogJ3NhcGllbnMnKSkpCg==</text>
+        <text encoding="base64">ICAgICAgICAjIGV4cGVjdChyZXN1bHQpLnRvIGVxKCdsYWxhJykK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgZXhwZWN0KHJlc3BvbnNlLmhlYWRlcnNbIkNvbnRlbnQtVHlwZSJdKS50byBtYXRjaCgvanNvbjsgY2hhcnNldD11dGYtOC8pCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICBxdWFudHM6ICdbImF2ZyIsInN0ZGRldiJdJywgcXVhbnRfZmFjZXQ6ICdxX2ZhY2V0JywKICAgICAgICAgICAgICAgICAgICAgICAgICBxdWFudF9vcmRlcl9ieTogJ2F2ZycsIHF1YW50X29yZGVyX2RpcjogJ2Rlc2MnfSB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIGZpbHRlciA9IEZpbHRlci5yb290KEZpbHRlci5saW5rZWQoRmlsdGVyLnNlYXJjaChxdWVyeTogJ3NhcGllbnMnKSkpCgo=</text>
       </register>
       <register name=":" type="4">
         <text>32,65s:params\[:permitted\[:g</text>
