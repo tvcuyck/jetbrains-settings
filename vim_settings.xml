@@ -74,11 +74,11 @@
       <file name="$USER_HOME$/Disqover/rails3-backend/spec/visitors/inline_instances_for_links_solr_visitor_spec.rb" timestamp="1550650342793">
         <mark key="[" line="60" column="24" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/filter_info_service_spec.rb" timestamp="1552382685177">
-        <mark key="[" line="1845" column="30" />
-        <mark key="]" line="1867" column="91" />
-        <mark key="^" line="1867" column="91" />
-        <mark key="." line="1867" column="91" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/filter_info_service_spec.rb" timestamp="1552387501187">
+        <mark key="[" line="2221" column="80" />
+        <mark key="]" line="2221" column="127" />
+        <mark key="^" line="2221" column="79" />
+        <mark key="." line="2221" column="80" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/link_dispatch_service_spec.rb" timestamp="1552382735903">
         <mark key="[" line="55" column="54" />
@@ -213,7 +213,7 @@
         <mark key="." line="66" column="6" />
         <mark key="^" line="66" column="6" />
       </file>
-      <file name="/Dummy.txt" timestamp="1552379687626">
+      <file name="/Dummy.txt" timestamp="1552387516070">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/fragment.rb" timestamp="1552385002270">
@@ -305,8 +305,8 @@
       <jump line="87" column="0" filename="$USER_HOME$/Disqover/rails5-backend/spec/controllers/instances_controller_spec.rb" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIEB0cnVuY2F0ZWRfbGV2ZWxzID0gRmlsdGVySW5mb1NlcnZpY2UudHJ1bmNhdGVkX2xldmVscyhmaWx0ZXIpCg==</text>
+      <register name="&quot;" type="8">
+        <text>.to eq(['http://ontoforce.com/config#Disease'])</text>
       </register>
       <register name="-" type="4">
         <text>,</text>
@@ -314,8 +314,8 @@
       <register name="/" type="4">
         <text>params\[</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICB0cnVuY2F0ZWRfbGV2ZWxzID0gRmlsdGVySW5mb1NlcnZpY2UudHJ1bmNhdGVkX2xldmVscyhmbCkKICAgICAgICAgICAgICBpZiB0cnVuY2F0ZWRfbGV2ZWxzICYmICF0cnVuY2F0ZWRfbGV2ZWxzLmVtcHR5PwogICAgICAgICAgICAgICAgcmVzcG9uc2UubWVyZ2UhKCB7IHRydW5jYXRlZF9sZXZlbHM6IHRydW5jYXRlZF9sZXZlbHMgfSApCiAgICAgICAgICAgICAgZW5kCg==</text>
+      <register name="0" type="8">
+        <text>.to eq(['http://ontoforce.com/config#Disease'])</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIEB0cnVuY2F0ZWRfbGV2ZWxzID0gRmlsdGVySW5mb1NlcnZpY2UudHJ1bmNhdGVkX2xldmVscyhmaWx0ZXIpCg==</text>
