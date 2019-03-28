@@ -8,7 +8,7 @@
         <mark key="]" line="93" column="43" />
         <mark key="." line="93" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1553267960001">
+      <file name="/Dummy.txt" timestamp="1553777356340">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -31,10 +31,10 @@
         <mark key="." line="63" column="83" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/disqover_settings_controller.rb" timestamp="1553772859423">
-        <mark key="[" line="40" column="2" />
-        <mark key="]" line="40" column="2" />
-        <mark key="^" line="40" column="2" />
-        <mark key="." line="40" column="2" />
+        <mark key="[" line="22" column="2" />
+        <mark key="]" line="22" column="2" />
+        <mark key="^" line="22" column="2" />
+        <mark key="." line="22" column="2" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/controllers/links_controller_spec.rb" timestamp="1553267114435">
         <mark key="[" line="185" column="45" />
@@ -46,14 +46,12 @@
         <mark key="[" line="38" column="94" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/config/routes.rb" timestamp="1553760395416" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/subfacet_controller.rb" timestamp="1553777302944">
+        <mark key="[" line="94" column="0" />
+        <mark key="]" line="96" column="5" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/csv_export_service_spec.rb" timestamp="1553264972036">
         <mark key="[" line="71" column="116" />
-      </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/disqover_settings_repository.rb" timestamp="1553773016744">
-        <mark key="[" line="29" column="30" />
-        <mark key="]" line="31" column="4" />
-        <mark key="." line="31" column="4" />
-        <mark key="^" line="31" column="4" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/background_jobs/background_exporter.rb" timestamp="1553762232398">
         <mark key="[" line="22" column="55" />
@@ -73,7 +71,12 @@
         <mark key="^" line="283" column="6" />
         <mark key="." line="283" column="6" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/links_controller.rb" timestamp="1553773015107" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/links_controller.rb" timestamp="1553777340304">
+        <mark key="[" line="26" column="64" />
+        <mark key="]" line="55" column="5" />
+        <mark key="^" line="26" column="63" />
+        <mark key="." line="53" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/background_jobs/background_exporter_spec.rb" timestamp="1553264777395">
         <mark key="[" line="60" column="91" />
       </file>
@@ -84,13 +87,13 @@
     </jumps>
     <registers>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOmV4cG9ydF90eXBlLAo=</text>
+        <text encoding="base64">ICBkZWYgY2hlY2tfb2JqZWN0X3BhcmFtKHBhcmFtKQogICAgcGFyYW0uaXNfYT8oU3RyaW5nKSA/IEpTT04ucGFyc2UocGFyYW0pIDogcGFyYW0KICBlbmQK</text>
       </register>
       <register name="1" type="8">
         <text>.gsub(/\n/, '     ')</text>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOmV4cG9ydF90eXBlLAo=</text>
+        <text encoding="base64">ICBkZWYgY2hlY2tfb2JqZWN0X3BhcmFtKHBhcmFtKQogICAgcGFyYW0uaXNfYT8oU3RyaW5nKSA/IEpTT04ucGFyc2UocGFyYW0pIDogcGFyYW0KICBlbmQK</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">CiAgICAgIGl0ICdyYWlzZXMgd2hlbiB2YWx1ZSBpcyBub3QgaW4gYWNjZXB0ZWQgbGlzdCcgZG8KICAgICAgICBVc2VyLm1hbmFnZWQoJ2Rpc3FvdmVyX3NldHRpbmdzX3VzZXJAdGVzdC5jb20nKSBkbyB8dXNlcnwKICAgICAgICAgIGFsbG93KHVzZXIpLnRvIHJlY2VpdmUoOmNhbl9kZWJ1Zz8pLmFuZF9yZXR1cm4odHJ1ZSkKICAgICAgICAgIGFsbG93KENvbGxlY3Rpb25TZXJ2aWNlLmluc3RhbmNlKS50byByZWNlaXZlKDpjdXJyZW50X3VzZXIpLmFuZF9yZXR1cm4odXNlcikKICAgICAgICAgIGV4cGVjdHsgc2V0dGluZy5zZXRfdmFsdWUoMSkgfS50byByYWlzZV9lcnJvciBBcmd1bWVudEVycm9yLCAvbXVzdCBiZSBsYXJnZXIgdGhhbiA1LwogICAgICAgIGVuZAogICAgICBlbmQKCiAgICAgIGl0ICdyYWlzZXMgd2hlbiB2YWx1ZSBpcyBub3QgaW4gYWNjZXB0ZWQgbGlzdCcgZG8KICAgICAgICBVc2VyLm1hbmFnZWQoJ2Rpc3FvdmVyX3NldHRpbmdzX3VzZXJAdGVzdC5jb20nKSBkbyB8dXNlcnwKICAgICAgICAgIGFsbG93KHVzZXIpLnRvIHJlY2VpdmUoOmNhbl9kZWJ1Zz8pLmFuZF9yZXR1cm4odHJ1ZSkKICAgICAgICAgIGFsbG93KENvbGxlY3Rpb25TZXJ2aWNlLmluc3RhbmNlKS50byByZWNlaXZlKDpjdXJyZW50X3VzZXIpLmFuZF9yZXR1cm4odXNlcikKICAgICAgICAgIGV4cGVjdHsgc2V0dGluZy5zZXRfdmFsdWUoMTUpIH0udG8gcmFpc2VfZXJyb3IgQXJndW1lbnRFcnJvciwgL211c3QgYmUgc21hbGxlciB0aGFuIDEwLwogICAgICAgIGVuZAogICAgICBlbmQK</text>
