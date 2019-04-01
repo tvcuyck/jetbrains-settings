@@ -24,6 +24,7 @@
         <mark key="^" line="22" column="56" />
         <mark key="." line="22" column="56" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/config/database.yml.example" timestamp="1554130961084" />
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/factories/filter.rb" timestamp="1553244569599">
         <mark key="[" line="289" column="20" />
         <mark key="]" line="283" column="6" />
@@ -156,10 +157,10 @@
         <mark key="^" line="279" column="62" />
         <mark key="." line="279" column="62" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/config/database.yml" timestamp="1554130145132">
-        <mark key="[" line="4" column="18" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/config/database.yml" timestamp="1554130808127">
+        <mark key="[" line="82" column="0" />
+        <mark key="]" line="82" column="0" />
+        <mark key="." line="82" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/link_dispatch_service.rb" timestamp="1554115914082">
         <mark key="[" line="23" column="35" />
@@ -193,8 +194,24 @@
       <jump line="108" column="4" filename="$USER_HOME$/Disqover/rails5-backend/app/services/link_dispatch_service.rb" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">cG9zdGdyZXNxbF9iYXNlOiAmYmFzZQogIGFkYXB0ZXI6IHBvc3RncmVzcWwKICBlbmNvZGluZzogdXRmLTgKICBwb29sOiA1CiAgdXNlcm5hbWU6IHRlc3QKICBwYXNzd29yZDogYWRtaW5hZG1pbgogIGhvc3Q6IGxvY2FsaG9zdAogIHBvcnQ6IDU0MzMKICBtaW5fbWVzc2FnZXM6IG5vdGljZQogIHJlZGlzOgogICAgcG9ydDogNjM3OAogICAgcGFzc3dvcmQ6IHBhc3N3b3JkMTIzCgo=</text>
+      <register name="&quot;" type="4">
+        <text>federation_test1:
+  public_endpoint:
+    host: http://app.disqover.com/
+    username: customer1
+    password: xxxxx
+
+federation_test2:
+  public_endpoint:
+    host: http://app.disqover.com/
+    username: customer1
+    password: xxxxx
+
+  licensed_endpoint:
+    host: https://licensed.disqover.com/
+    username: customer1
+    password: xxxxx
+    use_ssl: 1</text>
       </register>
       <register name="-" type="4">
         <text>permitted[:ui].to_jso</text>
@@ -202,32 +219,48 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgRGlzcW92ZXJTZXR0aW5nLm1hbmFnZWQoJ2Rpc2FibGVfZnJvbnRlbmRfaW5kZXhpbmcnLCBmYWxzZSkgZG8K</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">cG9zdGdyZXNxbF9iYXNlOiAmYmFzZQogIGFkYXB0ZXI6IHBvc3RncmVzcWwKICBlbmNvZGluZzogdXRmLTgKICBwb29sOiA1CiAgdXNlcm5hbWU6IHRlc3QKICBwYXNzd29yZDogYWRtaW5hZG1pbgogIGhvc3Q6IGxvY2FsaG9zdAogIHBvcnQ6IDU0MzMKICBtaW5fbWVzc2FnZXM6IG5vdGljZQogIHJlZGlzOgogICAgcG9ydDogNjM3OAogICAgcGFzc3dvcmQ6IHBhc3N3b3JkMTIzCgo=</text>
+      <register name="1" type="4">
+        <text>federation_test1:
+  public_endpoint:
+    host: http://app.disqover.com/
+    username: customer1
+    password: xxxxx
+
+federation_test2:
+  public_endpoint:
+    host: http://app.disqover.com/
+    username: customer1
+    password: xxxxx
+
+  licensed_endpoint:
+    host: https://licensed.disqover.com/
+    username: customer1
+    password: xxxxx
+    use_ssl: 1</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICBkZWYgIGdldF9saW5rc19ieV90eXBlIHR5cGVfbGluaywgZmlsdGVyLCBvcHRpb25zCg==</text>
+        <text encoding="base64">cG9zdGdyZXNxbF9iYXNlOiAmYmFzZQogIGFkYXB0ZXI6IHBvc3RncmVzcWwKICBlbmNvZGluZzogdXRmLTgKICBwb29sOiA1CiAgdXNlcm5hbWU6IHRlc3QKICBwYXNzd29yZDogYWRtaW5hZG1pbgogIGhvc3Q6IGxvY2FsaG9zdAogIHBvcnQ6IDU0MzMKICBtaW5fbWVzc2FnZXM6IG5vdGljZQogIHJlZGlzOgogICAgcG9ydDogNjM3OAogICAgcGFzc3dvcmQ6IHBhc3N3b3JkMTIzCgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICBkZWYgIGdldF9saW5rc19ieV90eXBlIHR5cGVfbGluaywgZmlsdGVyLCBvcHRpb25zCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgIyBhbGxvd19hbnlfaW5zdGFuY2Vfb2YoRW52U2VydmljZSkudG8gcmVjZWl2ZSg6Z2V0KS53aXRoKCdkaXNhYmxlX2Zyb250ZW5kX2luZGV4aW5nJykuYW5kX3JldHVybignMScpCg==</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgIyBhbGxvd19hbnlfaW5zdGFuY2Vfb2YoRW52U2VydmljZSkudG8gcmVjZWl2ZSg6Z2V0KS53aXRoKCdkaXNhYmxlX2Zyb250ZW5kX2luZGV4aW5nJykuYW5kX3JldHVybignMScpCg==</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgIyBhbGxvd19hbnlfaW5zdGFuY2Vfb2YoRW52U2VydmljZSkudG8gcmVjZWl2ZSg6Z2V0KS53aXRoKCdkaXNhYmxlX2Zyb250ZW5kX2luZGV4aW5nJykuYW5kX3JldHVybignMCcpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgZW5kCg==</text>
+        <text encoding="base64">ICAgICAgIyBhbGxvd19hbnlfaW5zdGFuY2Vfb2YoRW52U2VydmljZSkudG8gcmVjZWl2ZSg6Z2V0KS53aXRoKCdkaXNhYmxlX2Zyb250ZW5kX2luZGV4aW5nJykuYW5kX3JldHVybignMCcpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgZW5kCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CiAgICBpdCAnZmluZCB0eXBlcyBpbiBsaW5rZWQnIGRvCiAgICAgIGV4cGVjdChkZXNjcmliZWRfY2xhc3MuZmluZF90eXBlcyhGaWx0ZXIucm9vdCgKICAgICAgICAgIEZpbHRlci5saW5rZWQoCiAgICAgICAgICAgICAgRmlsdGVyLmVxdWFscyhmYWNldDpGYWNldC50eXBlLmtleSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlOidjZnY6aHR0cDovL29udG9mb3JjZS5jb20vY29uZmlnI0Rpc2Vhc2UnKSkpKSkudG8gZXEoWydodHRwOi8vb250b2ZvcmNlLmNvbS9jb25maWcjRGlzZWFzZSddKQoKCiAgICBlbmQK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
