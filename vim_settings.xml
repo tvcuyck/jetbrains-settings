@@ -3,6 +3,12 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/filter/related_node.rb" timestamp="1554209907891">
+        <mark key="[" line="54" column="0" />
+        <mark key="]" line="66" column="7" />
+        <mark key="^" line="10" column="47" />
+        <mark key="." line="54" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/instances_controller.rb" timestamp="1554124886327" />
       <file name="$USER_HOME$/Disqover/rails3-backend/spec/visitors/federation_filter_visitor_spec.rb" timestamp="1554192286386">
         <mark key="[" line="1112" column="57" />
@@ -11,10 +17,10 @@
         <mark key="[" line="38" column="94" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/visitors/federation_filter_visitor.rb" timestamp="1554118008614">
-        <mark key="[" line="392" column="42" />
-        <mark key="]" line="392" column="45" />
-        <mark key="^" line="392" column="45" />
-        <mark key="." line="392" column="45" />
+        <mark key="[" line="395" column="42" />
+        <mark key="]" line="395" column="45" />
+        <mark key="^" line="395" column="45" />
+        <mark key="." line="395" column="45" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/version.json" timestamp="1554188099563">
         <mark key="[" line="1" column="20" />
@@ -43,6 +49,11 @@
         <mark key="[" line="93" column="0" />
         <mark key="]" line="93" column="43" />
         <mark key="." line="93" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/filter/to_relations_node.rb" timestamp="1554210308283">
+        <mark key="[" line="39" column="0" />
+        <mark key="]" line="51" column="7" />
+        <mark key="." line="39" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/filter_info_service_spec.rb" timestamp="1554124434813">
         <mark key="[" line="2220" column="0" />
@@ -84,6 +95,11 @@
         <mark key="]" line="603" column="84" />
         <mark key="." line="620" column="0" />
         <mark key="^" line="603" column="77" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/filter/related_details_node.rb" timestamp="1554210287349">
+        <mark key="[" line="42" column="0" />
+        <mark key="]" line="54" column="7" />
+        <mark key="." line="42" column="0" />
       </file>
       <file name="/Ruby Console" timestamp="1554198213862">
         <mark key="[" line="0" column="0" />
@@ -148,14 +164,13 @@
         <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/federation_facet_service.rb" timestamp="1554121773222">
-        <mark key="[" line="759" column="0" />
-        <mark key="]" line="759" column="0" />
-        <mark key="^" line="756" column="51" />
-        <mark key="." line="759" column="0" />
+        <mark key="[" line="760" column="0" />
+        <mark key="]" line="760" column="0" />
+        <mark key="." line="760" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/filter/linked_node.rb" timestamp="1554119077063">
-        <mark key="[" line="16" column="47" />
-        <mark key="]" line="16" column="10" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/filter/linked_node.rb" timestamp="1554209895920">
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="20" column="7" />
         <mark key="^" line="15" column="13" />
         <mark key="." line="16" column="10" />
       </file>
@@ -170,11 +185,11 @@
         <mark key="]" line="105" column="0" />
         <mark key="." line="105" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/link_dispatch_service.rb" timestamp="1554201480062">
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/link_dispatch_service.rb" timestamp="1554210410796">
         <mark key="[" line="41" column="97" />
-        <mark key="]" line="25" column="54" />
-        <mark key="^" line="25" column="54" />
-        <mark key="." line="25" column="54" />
+        <mark key="]" line="41" column="28" />
+        <mark key="^" line="41" column="28" />
+        <mark key="." line="41" column="28" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/visitors/inline_instances_for_links_solr_visitor_spec.rb" timestamp="1554122380395">
         <mark key="[" line="71" column="11" />
@@ -201,13 +216,13 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5maXJzdC5jb3VudCkudG8gZXEoNikK</text>
+        <text encoding="base64">CiAgICBkZWYgc2V0X3RydW5jYXRpb25faW5mbyh0cnVuY2F0aW9uX2luZm8pCiAgICAgIEB2YWx1ZXNbOnRydW5jYXRpb25faW5mb10gPSB0cnVuY2F0aW9uX2luZm8KICAgIGVuZAoKICAgIGRlZiBpbmNvbXBsZXRlPwogICAgICBpZiBAdmFsdWVzWzp0cnVuY2F0aW9uX2luZm9dCiAgICAgICAgdW5sZXNzIEB2YWx1ZXNbOnRydW5jYXRpb25faW5mb10uaW5zdGFuY2Vfb2Y/IFRydW5jYXRpb25JbmZvCiAgICAgICAgICBAdmFsdWVzWzp0cnVuY2F0aW9uX2luZm9dID0gVHJ1bmNhdGlvbkluZm8uZnJvbV9oKEB2YWx1ZXNbOnRydW5jYXRpb25faW5mb10pCiAgICAgICAgZW5kCiAgICAgICAgQHZhbHVlc1s6dHJ1bmNhdGlvbl9pbmZvXS5pbmNvbXBsZXRlPwogICAgICBlbmQKICAgIGVuZAo=</text>
       </register>
       <register name="-" type="4">
         <text>permitted[:ui].to_jso</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CiAgICByZXN1bHQubWVyZ2UhKCB7dHJ1bmNhdGVkX2xldmVsczogQHRydW5jYXRlZF9sZXZlbHN9ICkgaWYgQHRydW5jYXRlZF9sZXZlbHMgJiYgIUB0cnVuY2F0ZWRfbGV2ZWxzLmVtcHR5PwoKICAgIHJlc3VsdAo=</text>
+        <text encoding="base64">CiAgICBkZWYgc2V0X3RydW5jYXRpb25faW5mbyh0cnVuY2F0aW9uX2luZm8pCiAgICAgIEB2YWx1ZXNbOnRydW5jYXRpb25faW5mb10gPSB0cnVuY2F0aW9uX2luZm8KICAgIGVuZAoKICAgIGRlZiBpbmNvbXBsZXRlPwogICAgICBpZiBAdmFsdWVzWzp0cnVuY2F0aW9uX2luZm9dCiAgICAgICAgdW5sZXNzIEB2YWx1ZXNbOnRydW5jYXRpb25faW5mb10uaW5zdGFuY2Vfb2Y/IFRydW5jYXRpb25JbmZvCiAgICAgICAgICBAdmFsdWVzWzp0cnVuY2F0aW9uX2luZm9dID0gVHJ1bmNhdGlvbkluZm8uZnJvbV9oKEB2YWx1ZXNbOnRydW5jYXRpb25faW5mb10pCiAgICAgICAgZW5kCiAgICAgICAgQHZhbHVlc1s6dHJ1bmNhdGlvbl9pbmZvXS5pbmNvbXBsZXRlPwogICAgICBlbmQKICAgIGVuZAo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5maXJzdC5jb3VudCkudG8gZXEoNikK</text>
