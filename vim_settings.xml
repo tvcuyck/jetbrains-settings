@@ -40,11 +40,11 @@
         <mark key="." line="210" column="0" />
         <mark key="^" line="218" column="62" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/link_dispatch_service_spec.rb" timestamp="1554215910231">
-        <mark key="[" line="995" column="8" />
-        <mark key="]" line="998" column="30" />
-        <mark key="^" line="994" column="39" />
-        <mark key="." line="995" column="0" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/link_dispatch_service_spec.rb" timestamp="1554217370535">
+        <mark key="[" line="641" column="68" />
+        <mark key="]" line="14" column="55" />
+        <mark key="^" line="14" column="55" />
+        <mark key="." line="14" column="55" />
       </file>
       <file name="/federation_filter_visitor.rb" timestamp="1554192230599" />
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/csv_export_service_spec.rb" timestamp="1553264972036">
@@ -103,6 +103,11 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/filter_info_service.rb" timestamp="1554215662439">
         <mark key="[" line="386" column="18" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/links_controller.rb" timestamp="1554217428740">
+        <mark key="]" line="91" column="17" />
+        <mark key="^" line="91" column="17" />
+        <mark key="." line="91" column="17" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/federation_subfacet_service.rb" timestamp="1554122041443">
         <mark key="[" line="70" column="0" />
         <mark key="]" line="70" column="0" />
@@ -128,6 +133,7 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/filter/linked_node.rb" timestamp="1554209895920">
         <mark key="]" line="20" column="7" />
       </file>
+      <file name="/filter_info_service.rb" timestamp="1554217446236" />
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/controllers/configuration_controller_spec.rb" timestamp="1554125125285">
         <mark key="[" line="101" column="0" />
         <mark key="]" line="102" column="108" />
@@ -171,40 +177,40 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZXZlbDogMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbmNvbXBsZXRlOiB0cnVlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9yaWdpbmFsX2NvdW50OiA3LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRydW5jYXRlZF9jb3VudDogMgo=</text>
+        <text encoding="base64">ICAgICAgICBleHBlY3QoY291bnRzX3Blcl9yZWxhdGlvbl90eXBlLmNvdW50KS50byBlcSgxKQogICAgICAgIGV4cGVjdCh0cnVuY2F0ZWRfbGV2ZWxzKS50byBlcSh7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZXZlbDogMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGluY29tcGxldGU6IHRydWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvcmlnaW5hbF9jb3VudDogMjAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cnVuY2F0ZWRfY291bnQ6IDIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSkK</text>
       </register>
       <register name="-" type="4">
         <text>filter</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZXZlbDogMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbmNvbXBsZXRlOiB0cnVlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9yaWdpbmFsX2NvdW50OiA3LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRydW5jYXRlZF9jb3VudDogMgo=</text>
+        <text encoding="base64">ICAgICAgICBleHBlY3QoY291bnRzX3Blcl9yZWxhdGlvbl90eXBlLmNvdW50KS50byBlcSgxKQogICAgICAgIGV4cGVjdCh0cnVuY2F0ZWRfbGV2ZWxzKS50byBlcSh7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZXZlbDogMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGluY29tcGxldGU6IHRydWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvcmlnaW5hbF9jb3VudDogMjAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cnVuY2F0ZWRfY291bnQ6IDIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBsZXQoOnJlc3VsdCkgewo=</text>
-      </register>
-      <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIGVuZAo=</text>
+      </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgZW5kCg==</text>
+        <text encoding="base64">ICAgIGNvbnRleHQgJ3JvbGVzJyBkbwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBhbGxvdyhzdWJqZWN0KS50byByZWNlaXZlKDpmZWRlcmF0aW9uX2ZhY2V0cyl7IGZlZCB9Cg==</text>
+        <text encoding="base64">ICAgICAgY29udGV4dCAnc29scicgZG8K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgbGV0KDpmZWQpeyBGZWRlcmF0aW9uRmFjZXRTZXJ2aWNlLm5ldyB9Cg==</text>
+        <text encoding="base64">ICAgICAgZW5kCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBhbGxvdyhzdWJqZWN0KS50byByZWNlaXZlKDpmZWRlcmF0aW9uX2ZhY2V0cyl7IGZlZCB9Cg==</text>
+        <text encoding="base64">ICAgICAgZW5kCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgbGV0KDpmZWQpeyBGZWRlcmF0aW9uRmFjZXRTZXJ2aWNlLm5ldyB9Cg==</text>
+        <text encoding="base64">ICAgICAgY29udGV4dCAnc29scicgZG8K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgbGV0KDpmZWQpeyBGZWRlcmF0aW9uRmFjZXRTZXJ2aWNlLm5ldyB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBsZXQoOnJlc3VsdCkgewo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgZmVkID0gRmVkZXJhdGlvbkZhY2V0U2VydmljZS5uZXcK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>1115</text>
