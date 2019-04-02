@@ -50,10 +50,10 @@
         <mark key="^" line="1859" column="24" />
         <mark key="." line="2220" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/controllers/links_controller_spec.rb" timestamp="1554198465307">
-        <mark key="[" line="216" column="63" />
-        <mark key="]" line="216" column="62" />
-        <mark key="." line="216" column="62" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/controllers/links_controller_spec.rb" timestamp="1554199690831">
+        <mark key="[" line="208" column="0" />
+        <mark key="]" line="208" column="0" />
+        <mark key="." line="208" column="0" />
         <mark key="^" line="216" column="62" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/controllers/instances_controller_spec.rb" timestamp="1554125162076">
@@ -65,6 +65,12 @@
       <file name="/federation_filter_visitor.rb" timestamp="1554192230599" />
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/csv_export_service_spec.rb" timestamp="1553264972036">
         <mark key="[" line="71" column="116" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/federation_subfacet_service_spec.rb" timestamp="1554200186462">
+        <mark key="[" line="269" column="45" />
+        <mark key="]" line="269" column="67" />
+        <mark key="^" line="269" column="67" />
+        <mark key="." line="269" column="67" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/federation_instance_service.rb" timestamp="1554122851925">
         <mark key="[" line="133" column="60" />
@@ -82,11 +88,10 @@
       <file name="/Ruby Console" timestamp="1554198213862">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/federation_facet_service_spec.rb" timestamp="1554122007584">
-        <mark key="[" line="3184" column="82" />
-        <mark key="]" line="3184" column="73" />
-        <mark key="." line="3184" column="73" />
-        <mark key="^" line="1572" column="68" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/federation_facet_service_spec.rb" timestamp="1554200454751">
+        <mark key="[" line="3149" column="77" />
+        <mark key="]" line="3161" column="0" />
+        <mark key="." line="3161" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/csv_export_service.rb" timestamp="1553264940396">
         <mark key="[" line="63" column="83" />
@@ -131,7 +136,7 @@
         <mark key="^" line="25" column="58" />
         <mark key="." line="70" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1554189761596">
+      <file name="/Dummy.txt" timestamp="1554200867269">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -196,7 +201,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">CiAgICByZXN1bHQubWVyZ2UhKCB7dHJ1bmNhdGVkX2xldmVsczogQHRydW5jYXRlZF9sZXZlbHN9ICkgaWYgQHRydW5jYXRlZF9sZXZlbHMgJiYgIUB0cnVuY2F0ZWRfbGV2ZWxzLmVtcHR5PwoKICAgIHJlc3VsdAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5maXJzdC5jb3VudCkudG8gZXEoNikK</text>
       </register>
       <register name="-" type="4">
         <text>permitted[:ui].to_jso</text>
@@ -204,7 +209,16 @@
       <register name="0" type="2">
         <text encoding="base64">CiAgICByZXN1bHQubWVyZ2UhKCB7dHJ1bmNhdGVkX2xldmVsczogQHRydW5jYXRlZF9sZXZlbHN9ICkgaWYgQHRydW5jYXRlZF9sZXZlbHMgJiYgIUB0cnVuY2F0ZWRfbGV2ZWxzLmVtcHR5PwoKICAgIHJlc3VsdAo=</text>
       </register>
-      <register name="1" type="4">
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5maXJzdC5jb3VudCkudG8gZXEoNikK</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmlyc3QuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5maXJzdC5jb3VudCkudG8gZXEoMikK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgIGV4cGVjdChyZXN1bHRbJ3R5cGVzJ10uZmlyc3QpLnRvIGJlX2EoQXJyYXkpCg==</text>
+      </register>
+      <register name="4" type="4">
         <text>federation_test1:
   public_endpoint:
     host: http://app.disqover.com/
@@ -223,29 +237,20 @@ federation_test2:
     password: xxxxx
     use_ssl: 1</text>
       </register>
-      <register name="2" type="2">
+      <register name="5" type="2">
         <text encoding="base64">cG9zdGdyZXNxbF9iYXNlOiAmYmFzZQogIGFkYXB0ZXI6IHBvc3RncmVzcWwKICBlbmNvZGluZzogdXRmLTgKICBwb29sOiA1CiAgdXNlcm5hbWU6IHRlc3QKICBwYXNzd29yZDogYWRtaW5hZG1pbgogIGhvc3Q6IGxvY2FsaG9zdAogIHBvcnQ6IDU0MzMKICBtaW5fbWVzc2FnZXM6IG5vdGljZQogIHJlZGlzOgogICAgcG9ydDogNjM3OAogICAgcGFzc3dvcmQ6IHBhc3N3b3JkMTIzCgo=</text>
       </register>
-      <register name="3" type="2">
+      <register name="6" type="2">
         <text encoding="base64">ICBkZWYgIGdldF9saW5rc19ieV90eXBlIHR5cGVfbGluaywgZmlsdGVyLCBvcHRpb25zCg==</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgIyBhbGxvd19hbnlfaW5zdGFuY2Vfb2YoRW52U2VydmljZSkudG8gcmVjZWl2ZSg6Z2V0KS53aXRoKCdkaXNhYmxlX2Zyb250ZW5kX2luZGV4aW5nJykuYW5kX3JldHVybignMScpCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgIyBhbGxvd19hbnlfaW5zdGFuY2Vfb2YoRW52U2VydmljZSkudG8gcmVjZWl2ZSg6Z2V0KS53aXRoKCdkaXNhYmxlX2Zyb250ZW5kX2luZGV4aW5nJykuYW5kX3JldHVybignMCcpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgZW5kCg==</text>
+        <text encoding="base64">ICAgICAgIyBhbGxvd19hbnlfaW5zdGFuY2Vfb2YoRW52U2VydmljZSkudG8gcmVjZWl2ZSg6Z2V0KS53aXRoKCdkaXNhYmxlX2Zyb250ZW5kX2luZGV4aW5nJykuYW5kX3JldHVybignMScpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>1115</text>
