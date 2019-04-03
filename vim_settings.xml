@@ -9,6 +9,9 @@
         <mark key="." line="12" column="3" />
         <mark key="^" line="12" column="3" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/mailers/sso_group_created_mailer.rb" timestamp="1554281419537">
+        <mark key="[" line="1" column="48" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/mailers/feedback_mailer_spec.rb" timestamp="1554301224410">
         <mark key="[" line="13" column="0" />
         <mark key="]" line="17" column="7" />
@@ -19,7 +22,7 @@
         <mark key="^" line="23" column="0" />
         <mark key="." line="30" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/disqover_setting.rb" timestamp="1554289511343">
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/disqover_setting.rb" timestamp="1554303602468">
         <mark key="[" line="47" column="44" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/visitors/federation_filter_visitor.rb" timestamp="1554118008614">
@@ -69,11 +72,6 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/filter/to_relations_node.rb" timestamp="1554218240754">
         <mark key="[" line="10" column="50" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/filter_info_service_spec.rb" timestamp="1554291776515">
-        <mark key="[" line="2216" column="0" />
-        <mark key="]" line="2216" column="0" />
-        <mark key="." line="2216" column="0" />
-      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/helpers/application_helper.rb" timestamp="1554276850308">
         <mark key="[" line="30" column="33" />
         <mark key="]" line="12" column="4" />
@@ -118,7 +116,7 @@
         <mark key="." line="4" column="40" />
         <mark key="^" line="4" column="40" />
       </file>
-      <file name="/Ruby Console" timestamp="1554301993030">
+      <file name="/Ruby Console" timestamp="1554303770713">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/collection_service.rb" timestamp="1554276772360">
@@ -185,7 +183,7 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/fragment.rb" timestamp="1554302068183">
+      <file name="/fragment.rb" timestamp="1554303558339">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="17" />
@@ -204,17 +202,17 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/app/mailers/disqover/mailer.rb" timestamp="1554281428811">
         <mark key="[" line="0" column="57" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/repositories/disqover_settings_repository_spec.rb" timestamp="1554301927800">
-        <mark key="[" line="6" column="0" />
-        <mark key="]" line="15" column="85" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/repositories/disqover_settings_repository_spec.rb" timestamp="1554303673154">
+        <mark key="[" line="86" column="0" />
+        <mark key="]" line="88" column="84" />
         <mark key="." line="94" column="0" />
         <mark key="^" line="94" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/mailers/application_mailer_spec.rb" timestamp="1554301958012">
-        <mark key="[" line="3" column="77" />
-        <mark key="]" line="4" column="0" />
-        <mark key="." line="4" column="0" />
-        <mark key="^" line="2" column="5" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/mailers/application_mailer_spec.rb" timestamp="1554303736247">
+        <mark key="[" line="30" column="76" />
+        <mark key="]" line="30" column="20" />
+        <mark key="." line="30" column="20" />
+        <mark key="^" line="30" column="20" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/visitors/inline_instances_for_links_solr_visitor_spec.rb" timestamp="1554122380395">
         <mark key="[" line="71" column="11" />
@@ -235,11 +233,7 @@
         <mark key="^" line="54" column="58" />
         <mark key="." line="54" column="58" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/config/routes.rb" timestamp="1554290715296">
-        <mark key="[" line="112" column="26" />
-        <mark key="]" line="112" column="63" />
-        <mark key="." line="112" column="0" />
-      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/disqover_setting_spec.rb" timestamp="1554302995484" />
       <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/disqover_settings_repository.rb" timestamp="1554301520096">
         <mark key="[" line="47" column="42" />
         <mark key="]" line="18" column="33" />
@@ -258,13 +252,13 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgIFtEaXNxb3ZlclNldHRpbmcubmV3KCdjcmFzaF9lbWFpbCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnRHVtbXkgbmFtZScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnQSBkdW1teSBkZXNjcmlwdGlvbi4nLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZTogOlN0cmluZyksCiAgICAgICAgICAgRGlzcW92ZXJTZXR0aW5nLm5ldygnc2Vzc2lvbl90aW1lX21pbnV0ZXMnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ0R1bW15IG5hbWUgMicsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnQSBkdW1teSBkZXNjcmlwdGlvbiAyLicsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlOiA6SW50ZWdlciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRlZmF1bHQ6IDMwKV0pCiAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgVXNlci5tYW5hZ2VkKCdkaXNxb3Zlcl9zZXR0aW5nc191c2VyQHRlc3QuY29tJykgZG8gfHVzZXJ8CiAgICAgICAgYWxsb3codXNlcikudG8gcmVjZWl2ZSg6Y2FuX2RlYnVnPykuYW5kX3JldHVybih0cnVlKQogICAgICAgIGFsbG93KENvbGxlY3Rpb25TZXJ2aWNlLmluc3RhbmNlKS50byByZWNlaXZlKDpjdXJyZW50X3VzZXIpLmFuZF9yZXR1cm4odXNlcikK</text>
       </register>
       <register name="-" type="4">
-        <text>:</text>
+        <text>DisqoverSettingsRepository.new.get_value('setting_key')</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGFsbG93KERpc3FvdmVyU2V0dGluZ3NSZXBvc2l0b3J5KS50byByZWNlaXZlKDphbGxfc2V0dGluZ3MpLmFuZF9yZXR1cm4oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW0Rpc3FvdmVyU2V0dGluZy5uZXcoJ2NyYXNoX2VtYWlsJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnRHVtbXkgbmFtZScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ0EgZHVtbXkgZGVzY3JpcHRpb24uJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlOiA6U3RyaW5nKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgRGlzcW92ZXJTZXR0aW5nLm5ldygnc2Vzc2lvbl90aW1lX21pbnV0ZXMnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdEdW1teSBuYW1lIDInLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdBIGR1bW15IGRlc2NyaXB0aW9uIDIuJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlOiA6SW50ZWdlciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZWZhdWx0OiAzMCldKQo=</text>
+        <text encoding="base64">ICAgICAgVXNlci5tYW5hZ2VkKCdkaXNxb3Zlcl9zZXR0aW5nc191c2VyQHRlc3QuY29tJykgZG8gfHVzZXJ8CiAgICAgICAgYWxsb3codXNlcikudG8gcmVjZWl2ZSg6Y2FuX2RlYnVnPykuYW5kX3JldHVybih0cnVlKQogICAgICAgIGFsbG93KENvbGxlY3Rpb25TZXJ2aWNlLmluc3RhbmNlKS50byByZWNlaXZlKDpjdXJyZW50X3VzZXIpLmFuZF9yZXR1cm4odXNlcikK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgIFtEaXNxb3ZlclNldHRpbmcubmV3KCdjcmFzaF9lbWFpbCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnRHVtbXkgbmFtZScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnQSBkdW1teSBkZXNjcmlwdGlvbi4nLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZTogOlN0cmluZyksCiAgICAgICAgICAgRGlzcW92ZXJTZXR0aW5nLm5ldygnc2Vzc2lvbl90aW1lX21pbnV0ZXMnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ0R1bW15IG5hbWUgMicsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnQSBkdW1teSBkZXNjcmlwdGlvbiAyLicsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlOiA6SW50ZWdlciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRlZmF1bHQ6IDMwKV0pCiAgICAgIAo=</text>
