@@ -23,6 +23,9 @@
       <file name="/a.dummy" timestamp="1554887595842">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/src/metis/content_types.py" timestamp="1554981022384">
+        <mark key="'" line="2" column="10" />
+      </file>
       <file name="$USER_HOME$/Disqover/metis/tests/integration/test_countries_companies_clin_trials_spec.py" timestamp="1554893072514">
         <mark key="[" line="1309" column="0" />
         <mark key="]" line="1309" column="0" />
@@ -41,8 +44,11 @@
         <mark key="." line="96" column="34" />
         <mark key="^" line="96" column="34" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_indexer_spec.py" timestamp="1554975158487">
+      <file name="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_indexer_spec.py" timestamp="1554980994329">
         <mark key="[" line="357" column="93" />
+        <mark key="]" line="361" column="49" />
+        <mark key="^" line="361" column="49" />
+        <mark key="." line="361" column="49" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/src/metis/connectors/solr_connector.py" timestamp="1554975190405" />
       <file name="$USER_HOME$/Disqover/metis/tests/spec/test_uri_utils_spec.py" timestamp="1552405930901">
@@ -75,6 +81,8 @@
     </filemarks>
     <jumps>
       <jump line="529" column="12" filename="$USER_HOME$/Disqover/metis/src/metis/indexing/indexer.py" />
+      <jump line="15" column="24" filename="$USER_HOME$/Disqover/metis/src/metis/content_types.py" />
+      <jump line="2" column="10" filename="$USER_HOME$/Disqover/metis/src/metis/content_types.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
@@ -84,7 +92,7 @@
         <text>n</text>
       </register>
       <register name="/" type="4">
-        <text>dummy</text>
+        <text>path</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">b3B0aW9uc193aXRoX3N1YnR5cGUudXBkYXRlKHsnc3ViX3R5cGUnOiAnc3VidHlwZSd9KQo=</text>
@@ -118,15 +126,16 @@
       </register>
     </registers>
     <search>
-      <last-search>dummy</last-search>
+      <last-search>path</last-search>
       <last-offset />
-      <last-pattern>dummy</last-pattern>
+      <last-pattern>path</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
         <entry>dummy</entry>
+        <entry>path</entry>
       </history-search>
       <history-cmd />
       <history-expr />
