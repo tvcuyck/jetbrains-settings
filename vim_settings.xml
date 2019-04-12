@@ -29,6 +29,12 @@
         <mark key="^" line="32" column="38" />
         <mark key="." line="32" column="38" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/background_jobs/background_job.rb" timestamp="1555071912658">
+        <mark key="[" line="26" column="101" />
+        <mark key="]" line="32" column="32" />
+        <mark key="^" line="32" column="32" />
+        <mark key="." line="32" column="32" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/feedback_controller.rb" timestamp="1555059774045" />
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/xlsx_export_service.rb" timestamp="1555067852740" />
       <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/datasets_controller.rb" timestamp="1554974089501">
@@ -113,9 +119,6 @@
         <mark key="." line="12" column="4" />
         <mark key="^" line="12" column="4" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/etl_service.rb" timestamp="1555057585326">
-        <mark key="'" line="0" column="6" />
-      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/script/cleanup_managed_files.sh" timestamp="1554987772891" />
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/controllers/instances_controller_spec.rb" timestamp="1554125162076">
         <mark key="[" line="14" column="0" />
@@ -135,11 +138,12 @@
         <mark key="^" line="1" column="26" />
         <mark key="." line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/managed_file_spec.rb" timestamp="1555058615391">
-        <mark key="[" line="108" column="11" />
-        <mark key="]" line="108" column="20" />
-        <mark key="^" line="108" column="20" />
-        <mark key="." line="108" column="20" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/managed_file_spec.rb" timestamp="1555072495997">
+        <mark key="'" line="3" column="11" />
+        <mark key="[" line="163" column="128" />
+        <mark key="]" line="163" column="112" />
+        <mark key="^" line="163" column="112" />
+        <mark key="." line="163" column="112" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/csv_export_service_spec.rb" timestamp="1553264972036">
         <mark key="[" line="71" column="116" />
@@ -152,6 +156,10 @@
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/facets_controller.rb" timestamp="1554974062983">
         <mark key="[" line="9" column="38" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/background_jobs/background_job_filter_spec.rb" timestamp="1555072322277">
+        <mark key="[" line="297" column="0" />
+        <mark key="]" line="299" column="127" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/candidate_histogram_facet_service_spec.rb" timestamp="1554470773996">
         <mark key="[" line="488" column="12" />
@@ -181,7 +189,7 @@
         <mark key="." line="722" column="0" />
         <mark key="^" line="722" column="75" />
       </file>
-      <file name="/Ruby Console" timestamp="1555067870419">
+      <file name="/Ruby Console" timestamp="1555071564214">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/collection_service.rb" timestamp="1554276772360">
@@ -201,24 +209,17 @@
         <mark key="]" line="63" column="83" />
         <mark key="." line="63" column="83" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/managed_file.rb" timestamp="1554988946329">
-        <mark key="[" line="69" column="44" />
-        <mark key="]" line="18" column="35" />
-        <mark key="^" line="18" column="35" />
-        <mark key="." line="18" column="35" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/managed_file.rb" timestamp="1555072365638">
+        <mark key="[" line="71" column="27" />
+        <mark key="]" line="45" column="39" />
+        <mark key="^" line="45" column="39" />
+        <mark key="." line="45" column="39" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/truncation_info.rb" timestamp="1554910008525">
         <mark key="[" line="37" column="22" />
         <mark key="]" line="37" column="24" />
         <mark key="." line="37" column="24" />
         <mark key="^" line="37" column="24" />
-      </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/env_service_spec.rb" timestamp="1555059102976">
-        <mark key="a" line="5" column="20" />
-        <mark key="[" line="5" column="21" />
-        <mark key="]" line="5" column="20" />
-        <mark key="^" line="5" column="20" />
-        <mark key="." line="5" column="20" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/link_truncation_info.rb" timestamp="1554111515038">
         <mark key="[" line="16" column="0" />
@@ -280,7 +281,7 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/fragment.rb" timestamp="1555067877603">
+      <file name="/fragment.rb" timestamp="1555071573483">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="17" />
@@ -381,46 +382,47 @@
       <jump line="210" column="6" filename="$USER_HOME$/Disqover/rails5-backend/app/services/federation_service.rb" />
       <jump line="103" column="16" filename="$USER_HOME$/Disqover/rails5-backend/spec/factories/federation_service.rb" />
       <jump line="0" column="6" filename="$USER_HOME$/Disqover/rails5-backend/app/services/etl_service.rb" />
+      <jump line="3" column="11" filename="$USER_HOME$/Disqover/rails5-backend/spec/models/managed_file_spec.rb" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgIGFsbG93X2FueV9pbnN0YW5jZV9vZihCb1NpZ251cE1haWxlcikudG8gcmVjZWl2ZSg6Ym9fc2lnbnVwX2VtYWlsKQo=</text>
+        <text encoding="base64">ICBsZXQoOmd1aWQyKSB7IFVVSURUb29sczo6VVVJRC5yYW5kb21fY3JlYXRlLnRvX3MgfQo=</text>
       </register>
       <register name="-" type="4">
-        <text>.with(ActiveSupport::HashWithIndifferentAccess.new('email': 'test_signup@ontoforce.com', 'pass': 'testtest', 'a': 1, 'b': 2))</text>
+        <text>m_create.to_s }</text>
       </register>
       <register name="/" type="4">
         <text>truncated</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICBpbnN0YW5jZV9leHBvcnQ6CiAgICBzdG9yYWdlX2RpcjogL2RhdGEvdG1wL2luc3RhbmNlX2V4cG9ydHMKICAgIHNjcmlwdHNfZGlyOiAvdXNyL3NoYXJlL2luc3RhbmNlX2V4cG9ydHNfc2NyaXB0cwogICAgaG91cnNfYmVmb3JlX3JlbW92YWw6IDQKICAgIG1heF9zaXplX2xpbWl0X21iOiAxMDI0CiAgICBtaW5fcmVtYWluaW5nX3NwYWNlX2xpbWl0X21iOiA1KjEwMjQKICBzZXJ2ZXJfdXBsb2FkOgogICAgc3RvcmFnZV9kaXI6IC9kYXRhL3RtcC9zZXJ2ZXJfdXBsb2FkcwogICAgc2NyaXB0c19kaXI6IC91c3Ivc2hhcmUvc2VydmVyX3VwbG9hZHNfc2NyaXB0cwogICAgaG91cnNfYmVmb3JlX3JlbW92YWw6IDcyCiAgICBtYXhfc2l6ZV9saW1pdF9tYjogNTEyCg==</text>
+        <text encoding="base64">ICBsZXQoOmd1aWQyKSB7IFVVSURUb29sczo6VVVJRC5yYW5kb21fY3JlYXRlLnRvX3MgfQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgIGFsbG93X2FueV9pbnN0YW5jZV9vZihCb1NpZ251cE1haWxlcikudG8gcmVjZWl2ZSg6Ym9fc2lnbnVwX2VtYWlsKQo=</text>
+        <text encoding="base64">ICAgICAgICBCYWNrZ3JvdW5kSm9iLm1hbmFnZWQoZ3VpZDEsIHtjcmVhdGVkX2J5X2lkOiB1MS5pZCwgd29ya2VyX2NsYXNzOiAnRHVtbXlXb3JrZXInLCBqb2JfcmVzdWx0czoge2xldmVsOiAxfX0pIGRvIHxiajF8Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgIGFsbG93X2FueV9pbnN0YW5jZV9vZihCb1NpZ251cE1haWxlcikudG8gcmVjZWl2ZSg6Ym9fc2lnbnVwX2VtYWlsKQo=</text>
+        <text encoding="base64">ICAgICAgICBVc2VyLm1hbmFnZWQoJ3VzZXIxQG9udG9mb3JjZS5jb20nKSBkbyB8dTF8CiAgICAgICAgICBVc2VyLm1hbmFnZWQoJ3VzZXIyQG9udG9mb3JjZS5jb20nKSBkbyB8dTJ8Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIFJhaWxzLmxvZ2dlci5kZWJ1ZygiTGFsYSIpCg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgIEJvU2lnbnVwTWFpbGVyLmJvX3NpZ251cF9lbWFpbCh1c2VyX2RhdGEudG9faCkuZGVsaXZlcgo=</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
-      <register name="5" type="8">
-        <text encoding="base64">ICAKICAKICAKICAKICAKICAKICAKICAKICA=</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgIGFsbG93X2FueV9pbnN0YW5jZV9vZihCb1NpZ251cE1haWxlcikudG8gcmVjZWl2ZSg6Ym9fc2lnbnVwX2VtYWlsKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICBzZXJ2ZXJfdXBsb2FkOgo=</text>
+        <text encoding="base64">ICAgICAgICAgIGFsbG93X2FueV9pbnN0YW5jZV9vZihCb1NpZ251cE1haWxlcikudG8gcmVjZWl2ZSg6Ym9fc2lnbnVwX2VtYWlsKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICBzdGFuY2VfZXhwb3J0Ogo=</text>
+        <text encoding="base64">ICAgIFJhaWxzLmxvZ2dlci5kZWJ1ZygiTGFsYSIpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBleHBlY3Qoc2VydmljZS5kZWxldGVfc2NyaXB0KS50byBlcSgnL3NjcmlwdHMvZGVsZXRlX3NjcmlwdC5zaCcpCg==</text>
+        <text encoding="base64">ICAgICAgICAgIEJvU2lnbnVwTWFpbGVyLmJvX3NpZ251cF9lbWFpbCh1c2VyX2RhdGEudG9faCkuZGVsaXZlcgo=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBleHBlY3Qoc2VydmljZS5ob3Vyc19iZWZvcmVfcmVtb3ZhbCkudG8gZXEoNjApCg==</text>
+      <register name="9" type="8">
+        <text encoding="base64">ICAKICAKICAKICAKICAKICAKICAKICAKICA=</text>
       </register>
       <register name=":" type="4">
         <text>100</text>
@@ -448,8 +450,8 @@
         <entry>657</entry>
         <entry>1442</entry>
         <entry>758</entry>
-        <entry>0</entry>
         <entry>100</entry>
+        <entry>0</entry>
       </history-cmd>
       <history-expr />
       <history-input />
