@@ -65,11 +65,11 @@
         <mark key="." line="2216" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/script/cleanup_managed_files.sh" timestamp="1554987772891" />
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/managed_files_service.rb" timestamp="1555054709894">
-        <mark key="[" line="38" column="10" />
-        <mark key="]" line="39" column="63" />
-        <mark key="." line="39" column="63" />
-        <mark key="^" line="39" column="63" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/managed_files_service.rb" timestamp="1555056445289">
+        <mark key="[" line="93" column="45" />
+        <mark key="]" line="93" column="82" />
+        <mark key="." line="93" column="33" />
+        <mark key="^" line="93" column="32" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/csv_export_service_spec.rb" timestamp="1553264972036">
         <mark key="[" line="71" column="116" />
@@ -99,7 +99,7 @@
         <mark key="]" line="42" column="0" />
         <mark key="." line="42" column="0" />
       </file>
-      <file name="/Ruby Console" timestamp="1555054538233">
+      <file name="/Ruby Console" timestamp="1555056068763">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/csv_export_service.rb" timestamp="1553264940396">
@@ -147,7 +147,7 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/fragment.rb" timestamp="1555054660814">
+      <file name="/fragment.rb" timestamp="1555056079631">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="17" />
@@ -213,44 +213,44 @@
       <jump line="103" column="16" filename="$USER_HOME$/Disqover/rails5-backend/spec/factories/federation_service.rb" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHNlbGYuZmlsZV9zZXJ2aWNlcwo=</text>
+      <register name="&quot;" type="8">
+        <text>'/usr/share/managed_files_scripts/server_uploads'</text>
       </register>
       <register name="-" type="4">
-        <text>tor[</text>
+        <text>self.class.</text>
       </register>
       <register name="/" type="4">
         <text>truncated</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIGFsbF9zZXR0aW5ncy5wdXNoKCpNYWlsZXJTZXJ2aWNlLnNldHRpbmdzX2xpc3QpCg==</text>
+      <register name="0" type="8">
+        <text>'/usr/share/managed_files_scripts/server_uploads'</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHNlbGYuZmlsZV9zZXJ2aWNlcwo=</text>
+        <text encoding="base64">ICAgIGdldF9zZXR0aW5nKGtleS50b19zKQogICAgIyB2YWwgPSB2YWwubmlsPyA/IHNlbGYuY2xhc3MuY29uc3RfZ2V0KGtleS50b19zLnVwY2FzZSkgOiB2YWwK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIERpc3FvdmVyU2V0dGluZy5uZXcoJ3NlcnZlcl91cGxvYWRfbWluX3JlbWFpbmluZ19zcGFjZV9saW1pdF9tYicsCiAgICAgICAgICAgICAgICAgICAgICAgICdNaW4gUmVtYWluaW5nIFNwYWNlIChNYiknLAogICAgICAgICAgICAgICAgICAgICAgICAnVGhlIG1pbmltdW0gcmVtYWluaW5nIGRpc2sgc3BhY2UgKE1iKSB3aGVuIGZpbGVzIGNhbiBiZSB1cGxvYWRlZC4nLAogICAgICAgICAgICAgICAgICAgICAgICBjb252ZXJ0b3I6IDp0b19pbnRlZ2VyLAogICAgICAgICAgICAgICAgICAgICAgICB0eXBlOiA6aW50ZWdlciwKICAgICAgICAgICAgICAgICAgICAgICAgc2VjdGlvbjogOnNlcnZlcl91cGxvYWQpCg==</text>
+        <text encoding="base64">ICAgIHNlbGYuZmlsZV9zZXJ2aWNlcwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICBzZWN0aW9uOiA6c2VydmVyX3VwbG9hZCksCg==</text>
+        <text encoding="base64">ICAgIERpc3FvdmVyU2V0dGluZy5uZXcoJ3NlcnZlcl91cGxvYWRfbWluX3JlbWFpbmluZ19zcGFjZV9saW1pdF9tYicsCiAgICAgICAgICAgICAgICAgICAgICAgICdNaW4gUmVtYWluaW5nIFNwYWNlIChNYiknLAogICAgICAgICAgICAgICAgICAgICAgICAnVGhlIG1pbmltdW0gcmVtYWluaW5nIGRpc2sgc3BhY2UgKE1iKSB3aGVuIGZpbGVzIGNhbiBiZSB1cGxvYWRlZC4nLAogICAgICAgICAgICAgICAgICAgICAgICBjb252ZXJ0b3I6IDp0b19pbnRlZ2VyLAogICAgICAgICAgICAgICAgICAgICAgICB0eXBlOiA6aW50ZWdlciwKICAgICAgICAgICAgICAgICAgICAgICAgc2VjdGlvbjogOnNlcnZlcl91cGxvYWQpCg==</text>
       </register>
       <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICBzZWN0aW9uOiA6c2VydmVyX3VwbG9hZCksCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICBzZWN0aW9uOiA6aW5zdGFuY2VfZXhwb3J0KSwKICAgICAgICAgICAgICAgICAgICAgICAgICBzZWN0aW9uOiA6c2VydmVyX3VwbG9hZCksCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICBzZWN0aW9uOiA6c2VydmVyX3VwbG9hZCksCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICBzZWN0aW9uOiA6c2VydmVyX3VwbG9hZCksCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICBzZWN0aW9uOiA6aW5zdGFuY2VfZXhwb3J0KSwKICAgICAgICAgICAgICAgICAgICAgICAgICBzZWN0aW9uOiA6c2VydmVyX3VwbG9hZCksCg==</text>
       </register>
       <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICBzZWN0aW9uOiA6c2VydmVyX3VwbG9hZCksCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICBzZWN0aW9uOiA6c2VydmVyX3VwbG9hZCksCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIERpc3FvdmVyU2V0dGluZy5uZXcoJ3NlcnZlcl91cGxvYWRfbWluX3JlbWFpbmluZ19zcGFjZV9saW1pdF9tYicsCiAgICAgICAgICAgICAgICAgICAgICAgICdNaW4gUmVtYWluaW5nIFNwYWNlIChNYiknLAogICAgICAgICAgICAgICAgICAgICAgICAnVGhlIG1pbmltdW0gcmVtYWluaW5nIGRpc2sgc3BhY2UgKE1iKSB3aGVuIGZpbGVzIGNhbiBiZSB1cGxvYWRlZC4nLAogICAgICAgICAgICAgICAgICAgICAgICBjb252ZXJ0b3I6IDp0b19pbnRlZ2VyLAogICAgICAgICAgICAgICAgICAgICAgICB0eXBlOiA6aW50ZWdlciwKICAgICAgICAgICAgICAgICAgICAgICAgc2VjdGlvbjogOnNlcnZlcl91cGxvYWQpLAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>100</text>
