@@ -56,16 +56,18 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/app/visitors/federation_filter_visitor.rb" timestamp="1553786367413">
         <mark key="[" line="106" column="63" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/filter_info_service_spec.rb" timestamp="1554291776515">
-        <mark key="[" line="2216" column="0" />
-        <mark key="]" line="2216" column="0" />
-        <mark key="." line="2216" column="0" />
-      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/filter/node_truncation_info.rb" timestamp="1554456270265">
         <mark key="[" line="2" column="4" />
         <mark key="]" line="14" column="7" />
         <mark key="^" line="1" column="26" />
         <mark key="." line="2" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/managed_file_spec.rb" timestamp="1555074860933">
+        <mark key="'" line="3" column="11" />
+        <mark key="[" line="176" column="56" />
+        <mark key="]" line="195" column="10" />
+        <mark key="^" line="195" column="10" />
+        <mark key="." line="195" column="10" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/mailers/feedback_mailer.rb" timestamp="1554298654905">
         <mark key="[" line="2" column="0" />
@@ -82,11 +84,6 @@
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/.docker/development/config/pg/add_license.sql" timestamp="1555505786766">
         <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/solr_data_entry_repository.rb" timestamp="1554966512592">
-        <mark key="[" line="24" column="0" />
-        <mark key="]" line="24" column="70" />
-        <mark key="." line="24" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/controllers/users_controller_spec.rb" timestamp="1555066074992">
         <mark key="[" line="722" column="202" />
@@ -112,11 +109,25 @@
         <mark key="]" line="4" column="0" />
         <mark key="." line="4" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/env_service_spec.rb" timestamp="1555059102976">
+        <mark key="a" line="5" column="20" />
+        <mark key="[" line="5" column="21" />
+        <mark key="]" line="5" column="20" />
+        <mark key="^" line="5" column="20" />
+        <mark key="." line="5" column="20" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/link_truncation_info.rb" timestamp="1554111515038">
         <mark key="[" line="16" column="0" />
         <mark key="]" line="10" column="22" />
         <mark key="." line="10" column="22" />
         <mark key="^" line="10" column="22" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/federation_service.rb" timestamp="1555052269587">
+        <mark key="'" line="210" column="6" />
+        <mark key="[" line="28" column="0" />
+        <mark key="]" line="31" column="5" />
+        <mark key="^" line="210" column="6" />
+        <mark key="." line="210" column="6" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/discoveries_controller.rb" timestamp="1555320071167">
         <mark key="[" line="78" column="143" />
@@ -160,10 +171,10 @@
         <mark key="]" line="15" column="0" />
         <mark key="." line="15" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/controllers/etl_controller_spec.rb" timestamp="1555501515299">
-        <mark key="[" line="854" column="0" />
-        <mark key="]" line="854" column="68" />
-        <mark key="." line="854" column="0" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/lib/tasks/managed_files.rake" timestamp="1555578327507">
+        <mark key="[" line="14" column="39" />
+        <mark key="]" line="17" column="0" />
+        <mark key="." line="17" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/script/instance_export/delete_script.sh" timestamp="1555575819821">
         <mark key="[" line="3" column="52" />
@@ -179,11 +190,6 @@
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/mailers/sso_group_created_mailer.rb" timestamp="1554281419537">
         <mark key="[" line="1" column="48" />
-      </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/filter/related_node.rb" timestamp="1554456547459">
-        <mark key="[" line="54" column="0" />
-        <mark key="]" line="54" column="0" />
-        <mark key="." line="54" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/instances_controller.rb" timestamp="1554974123808">
         <mark key="[" line="7" column="31" />
@@ -203,11 +209,12 @@
         <mark key="^" line="32" column="32" />
         <mark key="." line="32" column="32" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/script/instance_export/store_instance_export_on_s3.py" timestamp="1555576770284">
+      <file name="$USER_HOME$/Disqover/rails5-backend/script/instance_export/store_instance_export_on_s3.py" timestamp="1555578043467">
         <mark key="'" line="36" column="74" />
-        <mark key="[" line="36" column="0" />
-        <mark key="]" line="36" column="0" />
-        <mark key="." line="36" column="0" />
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="7" column="82" />
+        <mark key="." line="7" column="0" />
+        <mark key="^" line="7" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/disqover_setting.rb" timestamp="1555078290295">
         <mark key="[" line="85" column="32" />
@@ -237,11 +244,6 @@
         <mark key="[" line="5" column="0" />
         <mark key="]" line="5" column="0" />
         <mark key="." line="5" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/filter/to_relations_node.rb" timestamp="1554456571816">
-        <mark key="[" line="39" column="0" />
-        <mark key="]" line="39" column="0" />
-        <mark key="." line="39" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/.gitignore" timestamp="1555504132698">
         <mark key="[" line="53" column="0" />
@@ -277,6 +279,13 @@
         <mark key="]" line="653" column="64" />
         <mark key="." line="653" column="0" />
         <mark key="^" line="14" column="81" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/managed_files_service.rb" timestamp="1555578160959">
+        <mark key="a" line="19" column="7" />
+        <mark key="[" line="19" column="8" />
+        <mark key="]" line="19" column="8" />
+        <mark key="^" line="19" column="8" />
+        <mark key="." line="19" column="8" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/info_controller.rb" timestamp="1554791973192">
         <mark key="[" line="44" column="0" />
@@ -316,17 +325,18 @@
         <mark key="^" line="76" column="7" />
         <mark key="." line="78" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/filter/related_details_node.rb" timestamp="1554456600875">
-        <mark key="[" line="42" column="0" />
-        <mark key="]" line="42" column="0" />
-        <mark key="." line="42" column="0" />
-      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/script/store_logs_on_s3.py" timestamp="1555512039075">
         <mark key="[" line="30" column="35" />
         <mark key="]" line="42" column="23" />
       </file>
       <file name="/Ruby Console" timestamp="1555500605924">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/managed_file.rb" timestamp="1555578302733">
+        <mark key="[" line="101" column="71" />
+        <mark key="]" line="101" column="30" />
+        <mark key="." line="101" column="30" />
+        <mark key="^" line="101" column="30" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/truncation_info.rb" timestamp="1555079085489">
         <mark key="[" line="1" column="40" />
@@ -369,10 +379,10 @@
         <mark key="[" line="8" column="0" />
         <mark key="]" line="8" column="67" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/script/instance_export/remove_instance_export_from_s3.py" timestamp="1555575711527">
-        <mark key="[" line="10" column="38" />
-        <mark key="]" line="4" column="12" />
-        <mark key="." line="4" column="12" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/script/instance_export/remove_instance_export_from_s3.py" timestamp="1555578047418">
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="8" column="0" />
+        <mark key="." line="8" column="0" />
         <mark key="^" line="4" column="12" />
       </file>
       <file name="/Dummy.txt" timestamp="1555572568888">
@@ -400,11 +410,6 @@
         <mark key="]" line="2" column="30" />
         <mark key="." line="12" column="3" />
         <mark key="^" line="12" column="3" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/config/database.yml" timestamp="1554130808127">
-        <mark key="[" line="105" column="0" />
-        <mark key="]" line="105" column="0" />
-        <mark key="." line="105" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/mailers/disqover/mailer.rb" timestamp="1554281428811">
         <mark key="[" line="0" column="57" />
@@ -436,6 +441,13 @@
         <mark key="]" line="20" column="21" />
         <mark key="." line="20" column="21" />
         <mark key="^" line="20" column="21" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/disqover_settings_repository.rb" timestamp="1555321520763">
+        <mark key="'" line="60" column="47" />
+        <mark key="[" line="111" column="49" />
+        <mark key="]" line="35" column="8" />
+        <mark key="." line="35" column="8" />
+        <mark key="^" line="35" column="8" />
       </file>
     </filemarks>
     <jumps>
@@ -475,7 +487,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgIkxhbGFsYSIK</text>
+        <text encoding="base64">CiAgZGVzYyAnQ2xlYW51cCBtYW5hZ2VkIGZpbGVzIHRoYXQgYXJlIHBhc3QgZXhwaXJhdGlvbiBkYXRlLicKICB0YXNrIDpjbGVhbnVwID0+IDplbnZpcm9ubWVudCBkbwogICAgcmVtb3ZlZCA9IE1hbmFnZWRGaWxlLmNsZWFudXBfYWxsCiAgICBwdXRzICJSZW1vdmVkICN7cmVtb3ZlZH0gZmlsZXMuIgogIGVuZAo=</text>
       </register>
       <register name="-" type="4">
         <text>0</text>
@@ -484,34 +496,34 @@
         <text>postgres</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZWNobyAiQkFTSDogJChkYXRlICsiJVktJW0tJWQgJUg6JU06JVMiKSBVcGxvYWRpbmcgJDEgdG8gUzMiID4+ICRIRVJFL2xvZy50eHQK</text>
+        <text encoding="base64">CiAgZGVzYyAnQ2xlYW51cCBtYW5hZ2VkIGZpbGVzIHRoYXQgYXJlIHBhc3QgZXhwaXJhdGlvbiBkYXRlLicKICB0YXNrIDpjbGVhbnVwID0+IDplbnZpcm9ubWVudCBkbwogICAgcmVtb3ZlZCA9IE1hbmFnZWRGaWxlLmNsZWFudXBfZmlsZXMKICAgIHB1dHMgIlJlbW92ZWQgI3tyZW1vdmVkfSBmaWxlcy4iCiAgZW5kCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgIkxhbGFsYSIK</text>
+        <text encoding="base64">CiAgZGVzYyAnQ2xlYW51cCBtYW5hZ2VkIGZpbGVzIHRoYXQgYXJlIHBhc3QgZXhwaXJhdGlvbiBkYXRlLicKICB0YXNrIDpjbGVhbnVwID0+IDplbnZpcm9ubWVudCBkbwogICAgcmVtb3ZlZCA9IE1hbmFnZWRGaWxlLmNsZWFudXBfYWxsCiAgICBwdXRzICJSZW1vdmVkICN7cmVtb3ZlZH0gZmlsZXMuIgogIGVuZAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">cHl0aG9uICRIRVJFL3N0b3JlX2luc3RhbmNlX2V4cG9ydF9vbl9zMy5weSAkMQo=</text>
+        <text encoding="base64">bG9nZ2luZy5iYXNpY0NvbmZpZyhmaWxlbmFtZT0iL2hvbWUvdG9tL2xvZy50eHQiLAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludCAiQVdTIGZvdW5kIgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQgIkxhbGFsYSIK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZWNobyAiUmVtb3ZpbmcgJDEgZnJvbSBTMyIgJChkYXRlICsiJVktJW0tJWQgJUg6JU06JVMiKSA+PiAkSEVSRS9sb2cudHh0Cg==</text>
+        <text encoding="base64">cHl0aG9uICRIRVJFL3N0b3JlX2luc3RhbmNlX2V4cG9ydF9vbl9zMy5weSAkMQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CiAgICAgICAgICAgICMgc29tZXRoaW5nIHdlbnQgd3JvbmcsIHdlIGtlZXAgdGhlIGZpbGUgIQo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludCAiQVdTIGZvdW5kIgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2luZy5pbmZvKCJTdG9yZWQge30gcmVtb3RlbHkgaW4gUzMgYnVja2V0Ii5mb3JtYXQoZmlsZU5hbWUpKQogICAgICAgICAgICBmaWxlX3VybCA9ICclcy8lcy8lcycgJSAoczNfY2xpZW50Lm1ldGEuZW5kcG9pbnRfdXJsLCBidWNrZXROYW1lLCBmaWxlX2tleSkKICAgICAgICAgICAgbG9nZ2luZy5pbmZvKCJGaWxlIFVSTCB7fSIuZm9ybWF0KGZpbGVfdXJsKSkKICAgICAgICAgICAgb3MucmVtb3ZlKGZ1bGxGaWxlTmFtZSkKICAgICAgICAgICAgbG9nZ2luZy5pbmZvKCJSZW1vdmVkIGxvY2FsIGZpbGUiKQogICAgICAgICAgICBwcmludChmaWxlX3VybCkK</text>
+        <text encoding="base64">ZWNobyAiUmVtb3ZpbmcgJDEgZnJvbSBTMyIgJChkYXRlICsiJVktJW0tJWQgJUg6JU06JVMiKSA+PiAkSEVSRS9sb2cudHh0Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CiNkb2NrZXItY29tcG9zZSB1cCAtZAoKI2VjaG8gJ21pZ3JhdGluZycKI3NsZWVwIDEwCgojaXNxbCBsb2NhbGhvc3Q6MTExMiBleGVjPSdHUkFOVCBTUEFSUUxfVVBEQVRFIFRPICJTUEFSUUwiOycKI1JBSUxTX0VOVj10ZXN0IGJ1bmRsZSBleGVjIHJha2UgZGI6bWlncmF0ZQojZWNobyAnY3JlYXRlIHRlc3QgaW5kZXgnCiNleHBvcnQgQ0xFQVJfSU5ERVg9MQojJEhFUkUvLi4vLi4vaW5kZXhfdGVzdC9jcmVhdGVfdGVzdF9pbmRleAo=</text>
+        <text encoding="base64">CiAgICAgICAgICAgICMgc29tZXRoaW5nIHdlbnQgd3JvbmcsIHdlIGtlZXAgdGhlIGZpbGUgIQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CmRvY2tlciBjcCBjb25maWcvcGcvYWRkX2xpY2Vuc2Uuc3FsIGRldmVsb3BtZW50X3Bvc3RncmVzXzE6L2RvY2tlci1lbnRyeXBvaW50LWluaXRkYi5kL2xpY2Vuc2VzLnNxbApkb2NrZXIgY29udGFpbmVyIGV4ZWMgLWl0IGRldmVsb3BtZW50X3Bvc3RncmVzXzEgcHNxbCAtVSBkZXZlbG9wbWVudCAtZiBkb2NrZXItZW50cnlwb2ludC1pbml0ZGIuZC9saWNlbnNlcy5zcWwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgbG9nZ2luZy5pbmZvKCJTdG9yZWQge30gcmVtb3RlbHkgaW4gUzMgYnVja2V0Ii5mb3JtYXQoZmlsZU5hbWUpKQogICAgICAgICAgICBmaWxlX3VybCA9ICclcy8lcy8lcycgJSAoczNfY2xpZW50Lm1ldGEuZW5kcG9pbnRfdXJsLCBidWNrZXROYW1lLCBmaWxlX2tleSkKICAgICAgICAgICAgbG9nZ2luZy5pbmZvKCJGaWxlIFVSTCB7fSIuZm9ybWF0KGZpbGVfdXJsKSkKICAgICAgICAgICAgb3MucmVtb3ZlKGZ1bGxGaWxlTmFtZSkKICAgICAgICAgICAgbG9nZ2luZy5pbmZvKCJSZW1vdmVkIGxvY2FsIGZpbGUiKQogICAgICAgICAgICBwcmludChmaWxlX3VybCkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZWNobyAnbWlncmF0aW5nJwo=</text>
+        <text encoding="base64">CiNkb2NrZXItY29tcG9zZSB1cCAtZAoKI2VjaG8gJ21pZ3JhdGluZycKI3NsZWVwIDEwCgojaXNxbCBsb2NhbGhvc3Q6MTExMiBleGVjPSdHUkFOVCBTUEFSUUxfVVBEQVRFIFRPICJTUEFSUUwiOycKI1JBSUxTX0VOVj10ZXN0IGJ1bmRsZSBleGVjIHJha2UgZGI6bWlncmF0ZQojZWNobyAnY3JlYXRlIHRlc3QgaW5kZXgnCiNleHBvcnQgQ0xFQVJfSU5ERVg9MQojJEhFUkUvLi4vLi4vaW5kZXhfdGVzdC9jcmVhdGVfdGVzdF9pbmRleAo=</text>
       </register>
       <register name=":" type="4">
         <text>100</text>
