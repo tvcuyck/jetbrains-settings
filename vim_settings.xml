@@ -47,6 +47,12 @@
         <mark key="]" line="10" column="0" />
         <mark key="." line="10" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/dataset_repository.rb" timestamp="1557239985060">
+        <mark key="[" line="120" column="75" />
+        <mark key="]" line="120" column="87" />
+        <mark key="." line="120" column="87" />
+        <mark key="^" line="120" column="87" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/sample_id_repository.rb" timestamp="1557234241979" />
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/disqover_setting.rb" timestamp="1556614729579">
         <mark key="[" line="81" column="103" />
@@ -124,11 +130,11 @@
         <mark key="^" line="52" column="8" />
         <mark key="." line="52" column="8" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/lens_item.rb" timestamp="1557239280985">
-        <mark key="[" line="53" column="9" />
-        <mark key="]" line="55" column="25" />
-        <mark key="." line="55" column="25" />
-        <mark key="^" line="55" column="25" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/lens_item.rb" timestamp="1557240971932">
+        <mark key="[" line="56" column="22" />
+        <mark key="]" line="56" column="89" />
+        <mark key="." line="56" column="22" />
+        <mark key="^" line="51" column="21" />
       </file>
       <file name="/Ruby Console" timestamp="1557237999830">
         <mark key="[" line="0" column="0" />
@@ -195,6 +201,12 @@
         <mark key="." line="405" column="0" />
         <mark key="^" line="145" column="79" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/lens_repository.rb" timestamp="1557240851710">
+        <mark key="[" line="254" column="40" />
+        <mark key="]" line="254" column="14" />
+        <mark key="^" line="254" column="14" />
+        <mark key="." line="254" column="14" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/controllers/user_groups_controller_spec.rb" timestamp="1557218143852">
         <mark key="[" line="80" column="43" />
       </file>
@@ -209,6 +221,9 @@
         <mark key="]" line="31" column="13" />
         <mark key="^" line="31" column="13" />
         <mark key="." line="31" column="13" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/check_setup_service.rb" timestamp="1557240239455">
+        <mark key="[" line="235" column="5" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/disqover_settings_repository.rb" timestamp="1556797347897">
         <mark key="[" line="92" column="41" />
@@ -227,29 +242,29 @@
       <jump line="64" column="11" filename="$USER_HOME$/Disqover/rails5-backend/spec/controllers/user_groups_controller_spec.rb" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICByYWlzZSBDb25maWd1cmF0aW9uRXJyb3IubmV3KCJTdWJ0eXBlICN7cHJvcGVydHlfdXJpfSBzaG91bGQgaGF2ZSBhIHN1YkxlbnMgaW4gbGVucyAje2xlbnNfdXJpfSIpCg==</text>
+      <register name="&quot;" type="8">
+        <text>&quot;Subtype #{property_uri} should have a subLens in lens #{lens_uri}&quot;</text>
       </register>
       <register name="-" type="4">
         <text>g</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICByYWlzZSBDb25maWd1cmF0aW9uRXJyb3IubmV3KCJTdWJ0eXBlICN7cHJvcGVydHlfdXJpfSBzaG91bGQgaGF2ZSBhIHN1YkxlbnMgaW4gbGVucyAje2xlbnNfdXJpfSIpCg==</text>
+      <register name="0" type="8">
+        <text>&quot;Subtype #{property_uri} should have a subLens in lens #{lens_uri}&quot;</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgcmVzY3VlCg==</text>
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">cmVtb3RlX2lkcwo=</text>
+        <text encoding="base64">ICAgICAgcmVzY3VlCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">bG9jYWxfaWRzCg==</text>
+        <text encoding="base64">cmVtb3RlX2lkcwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGV4dGVuc2lvbiA9IEBmaWxlX2V4cG9ydF9zZXJ2aWNlOjpFWFRFTlNJT04K</text>
+        <text encoding="base64">bG9jYWxfaWRzCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgcmFpc2UK</text>
+        <text encoding="base64">ICAgIGV4dGVuc2lvbiA9IEBmaWxlX2V4cG9ydF9zZXJ2aWNlOjpFWFRFTlNJT04K</text>
       </register>
       <register name="6" type="2">
         <text encoding="base64">ICAgICAgcmFpc2UK</text>
@@ -258,10 +273,10 @@
         <text encoding="base64">ICAgICAgcmFpc2UK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgZXJyb3JzIHx8PSBbXQogICAgICBlcnJvcnMgPDwge2Vycm9yOiAnQ3JlYXRlVXNlckdyb3VwRXJyb3InLCBtZXNzYWdlOiAnQW4gZXJyb3Igb2NjdXJyZWQgd2hpbGUgY3JlYXRpbmcgdGhlIGdyb3VwJ30K</text>
+        <text encoding="base64">ICAgICAgcmFpc2UK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgZXJyb3JzIHx8PSBbXQogICAgICBlcnJvcnMgPDwge2Vycm9yOiAnQ3JlYXRlVXNlckdyb3VwRXJyb3InLCBtZXNzYWdlOiAnQW4gZXJyb3Igb2NjdXJyZWQgd2hpbGUgY3JlYXRpbmcgdGhlIGdyb3VwJ30K</text>
       </register>
       <register name=":" type="4">
         <text>2413</text>
