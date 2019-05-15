@@ -101,12 +101,6 @@
         <mark key="^" line="39" column="69" />
         <mark key="." line="39" column="69" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/config/environments/development.rb" timestamp="1557905485847">
-        <mark key="[" line="71" column="54" />
-        <mark key="]" line="71" column="59" />
-        <mark key="." line="71" column="59" />
-        <mark key="^" line="71" column="59" />
-      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/factories/user.rb" timestamp="1557754283501">
         <mark key="[" line="86" column="0" />
         <mark key="]" line="86" column="0" />
@@ -327,6 +321,11 @@
         <mark key="^" line="211" column="49" />
         <mark key="." line="211" column="49" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/repositories/lens_repository_spec.rb" timestamp="1557913122006">
+        <mark key="[" line="579" column="0" />
+        <mark key="]" line="597" column="7" />
+        <mark key="." line="579" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/check_setup_service.rb" timestamp="1557755363154">
         <mark key="[" line="386" column="45" />
       </file>
@@ -366,13 +365,13 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGxvZ2dlciAgICAgICAgICAgPSBBY3RpdmVTdXBwb3J0OjpMb2dnZXIubmV3KFNURE9VVCkKICAgIGxvZ2dlci5mb3JtYXR0ZXIgPSBjb25maWcubG9nX2Zvcm1hdHRlcgogICAgY29uZmlnLmxvZ2dlciAgICA9IEFjdGl2ZVN1cHBvcnQ6OlRhZ2dlZExvZ2dpbmcubmV3KGxvZ2dlcikK</text>
+        <text encoding="base64">CiAgICBkZXNjcmliZSAnd2l0aCBvbmUgb3ZlcmxhcHBpbmcgc29ydGVkIHByb3BlcnR5JyBkbwogICAgICBiZWZvcmUgZG8KICAgICAgICBhbGxvd19hbnlfaW5zdGFuY2Vfb2YoRmVkZXJhdGlvblNlcnZpY2UpLnRvIHJlY2VpdmUoOmRvX3JlcXVlc3QpLmFuZF9yZXR1cm4oRmVkZXJhdGlvblNlcnZpY2U6OkZlZGVyYXRpb25SZXN1bHQubmV3KHsncHJvcGVydGllcyc9PnsKICAgICAgICAgICAgJ2NvbXBvdW5kJyA9PiB7J2h0dHA6Ly90ZXN0Lm9udG9mb3JjZS5jb20vcHJvcCNpbmNoaScgPT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsgJ3VyaSc9PiAnaHR0cDovL3Rlc3Qub250b2ZvcmNlLmNvbS9wcm9wI2luY2hpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3JlbmRlcmVyJz0+ICdodHRwOi8vbnMub250b2ZvcmNlLmNvbS8yMDEzL2Rpc3FvdmVyI2ltYWdlJ30KICAgICAgICAgICAgfQogICAgICAgIH19KSkKCiAgICAgIGVuZAoKICAgICAgaXQgJ2Rpc2FibGVzIHNvcnRpbmcgZm9yIHRoYXQgcHJvcGVydHknIGRvCiAgICAgICAgYWxsX3Byb3BzID0gc3ViamVjdC5nZXRfcHJvcGVydGllcwogICAgICAgIGN0ID0gIGFsbF9wcm9wc1tTcGFycWw6OlVSSVZhbHVlLm5ldygnY29tcG91bmQnKV0KICAgICAgICBwcm9wID0gIGN0W1NwYXJxbDo6VVJJVmFsdWUubmV3KCdodHRwOi8vdGVzdC5vbnRvZm9yY2UuY29tL3Byb3AjaW5jaGknKV0KICAgICAgICBleHBlY3QocHJvcC5zb3J0YWJsZT8pLnRvIGJlX2ZhbHNleQogICAgICBlbmQKICAgIGVuZAo=</text>
       </register>
       <register name="-" type="4">
         <text>logger</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGxvZ2dlciAgICAgICAgICAgPSBBY3RpdmVTdXBwb3J0OjpMb2dnZXIubmV3KFNURE9VVCkKICAgIGxvZ2dlci5mb3JtYXR0ZXIgPSBjb25maWcubG9nX2Zvcm1hdHRlcgogICAgY29uZmlnLmxvZ2dlciAgICA9IEFjdGl2ZVN1cHBvcnQ6OlRhZ2dlZExvZ2dpbmcubmV3KGxvZ2dlcikK</text>
+        <text encoding="base64">CiAgICBkZXNjcmliZSAnd2l0aCBvbmUgb3ZlcmxhcHBpbmcgc29ydGVkIHByb3BlcnR5JyBkbwogICAgICBiZWZvcmUgZG8KICAgICAgICBhbGxvd19hbnlfaW5zdGFuY2Vfb2YoRmVkZXJhdGlvblNlcnZpY2UpLnRvIHJlY2VpdmUoOmRvX3JlcXVlc3QpLmFuZF9yZXR1cm4oRmVkZXJhdGlvblNlcnZpY2U6OkZlZGVyYXRpb25SZXN1bHQubmV3KHsncHJvcGVydGllcyc9PnsKICAgICAgICAgICAgJ2NvbXBvdW5kJyA9PiB7J2h0dHA6Ly90ZXN0Lm9udG9mb3JjZS5jb20vcHJvcCNpbmNoaScgPT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsgJ3VyaSc9PiAnaHR0cDovL3Rlc3Qub250b2ZvcmNlLmNvbS9wcm9wI2luY2hpJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3JlbmRlcmVyJz0+ICdodHRwOi8vbnMub250b2ZvcmNlLmNvbS8yMDEzL2Rpc3FvdmVyI2ltYWdlJ30KICAgICAgICAgICAgfQogICAgICAgIH19KSkKCiAgICAgIGVuZAoKICAgICAgaXQgJ2Rpc2FibGVzIHNvcnRpbmcgZm9yIHRoYXQgcHJvcGVydHknIGRvCiAgICAgICAgYWxsX3Byb3BzID0gc3ViamVjdC5nZXRfcHJvcGVydGllcwogICAgICAgIGN0ID0gIGFsbF9wcm9wc1tTcGFycWw6OlVSSVZhbHVlLm5ldygnY29tcG91bmQnKV0KICAgICAgICBwcm9wID0gIGN0W1NwYXJxbDo6VVJJVmFsdWUubmV3KCdodHRwOi8vdGVzdC5vbnRvZm9yY2UuY29tL3Byb3AjaW5jaGknKV0KICAgICAgICBleHBlY3QocHJvcC5zb3J0YWJsZT8pLnRvIGJlX2ZhbHNleQogICAgICBlbmQKICAgIGVuZAo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
