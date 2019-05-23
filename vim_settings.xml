@@ -57,6 +57,12 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/app/mailers/sharing_mailer.rb" timestamp="1558527577526">
         <mark key="[" line="18" column="31" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/background_jobs/background_exporter.rb" timestamp="1558622845079">
+        <mark key="[" line="48" column="52" />
+        <mark key="]" line="48" column="31" />
+        <mark key="." line="48" column="31" />
+        <mark key="^" line="48" column="31" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/mailers/signup_mailer.rb" timestamp="1558527593599">
         <mark key="[" line="15" column="31" />
       </file>
@@ -283,11 +289,11 @@
         <mark key="." line="33" column="36" />
         <mark key="^" line="33" column="36" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/instance_export_service.rb" timestamp="1558621378169">
-        <mark key="[" line="196" column="44" />
-        <mark key="]" line="196" column="9" />
-        <mark key="." line="196" column="9" />
-        <mark key="^" line="196" column="9" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/instance_export_service.rb" timestamp="1558623669995">
+        <mark key="[" line="199" column="35" />
+        <mark key="]" line="199" column="35" />
+        <mark key="." line="199" column="35" />
+        <mark key="^" line="199" column="35" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/disqover_settings_controller.rb" timestamp="1556609729389">
         <mark key="[" line="8" column="47" />
@@ -308,6 +314,12 @@
         <mark key="[" line="88" column="0" />
         <mark key="]" line="88" column="0" />
         <mark key="." line="88" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/jobs_service.rb" timestamp="1558622802471">
+        <mark key="[" line="75" column="63" />
+        <mark key="]" line="75" column="62" />
+        <mark key="^" line="75" column="62" />
+        <mark key="." line="75" column="62" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/canonical_type_repository.rb" timestamp="1557995315322">
         <mark key="[" line="78" column="11" />
@@ -522,43 +534,43 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGNvbnN0cmFpbnRzID0gRmlsdGVyLmZyb21fcGFyYW1zKGpvYl9vcHRpb25zKQo=</text>
+        <text encoding="base64">ICAgIFJhaWxzLmxvZ2dlci5kZWJ1ZygiYWxsb3cgbG9jYWwgI3tGaWx0ZXJJbmZvU2VydmljZS5hbGxvd19sb2NhbF9xdWVyeV9sb2NhdGlvbj8oZmlsdGVyKX0iKQo=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA==</text>
+        <text>c</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxSRU1FTUJFUl9cPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGNvbnN0cmFpbnRzID0gRmlsdGVyLmZyb21fcGFyYW1zKHBlcm1pdHRlZC50b19oKQo=</text>
+        <text encoding="base64">ICAgIFJhaWxzLmxvZ2dlci5kZWJ1ZygiYWxsb3cgbG9jYWwgI3tGaWx0ZXJJbmZvU2VydmljZS5hbGxvd19sb2NhbF9xdWVyeV9sb2NhdGlvbj8oZmlsdGVyKX0iKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGNvbnN0cmFpbnRzID0gRmlsdGVyLmZyb21fcGFyYW1zKGpvYl9vcHRpb25zKQo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICMgICAgIChvcHRpb25zWzpxdWVyeV9sb2NhdGlvbl0gPT0gOmxvY2FsIHx8IG9wdGlvbnNbOnF1ZXJ5X2xvY2F0aW9uXSA9PSA6cmVtb3RlKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIEluc3RhbmNlRXhwb3J0U2VydmljZS5jaGVja19taW5pbWFsX2ZlZGVyYXRpb24oKQo=</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIFJhaWxzLmxvZ2dlci5kZWJ1ZygicmVhbHlfY29udGFpbmluZ19wYXRocyAje3JlYWxseV9jb250YWluaW5nX3BhdGhzfSIpCiAgICBSYWlscy5sb2dnZXIuZGVidWcoInNlbGVjdGVkX3BhdGhzICN7c2VsZWN0ZWRfcGF0aHN9IikK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIFJhaWxzLmxvZ2dlci5kZWJ1ZygicHJlZml4ICN7cHJlZml4fSIpCg==</text>
+        <text encoding="base64">ICAgIHJhaXNlIEZlZGVyYXRpb25FcnJvciwgJ1BhcmFtZXRlciBkYXRhX2xvY2F0aW9uIGlzIGluY29tcGF0aWJsZSB3aXRoIGdpdmVuIGZpbHRlcicgaWYKICAgICAgICAob3B0aW9uc1s6cXVlcnlfbG9jYXRpb25dID09IDpyZW1vdGUgJiYgIUZpbHRlckluZm9TZXJ2aWNlLmFsbG93X3JlbW90ZV9xdWVyeV9sb2NhdGlvbj8oZmlsdGVyKSkgfHwKICAgICAgICAob3B0aW9uc1s6cXVlcnlfbG9jYXRpb25dID09IDpsb2NhbCAmJiAhRmlsdGVySW5mb1NlcnZpY2UuYWxsb3dfbG9jYWxfcXVlcnlfbG9jYXRpb24/KGZpbHRlcikpCg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIFJhaWxzLmxvZ2dlci5kZWJ1ZygiYWxsX3BhdGhzICN7YWxsX3BhdGhzfSIpCg==</text>
+      <register name="6" type="8">
+        <text>FilterInfoService.allow_remote_query_location?(filter)</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIFJhaWxzLmxvZ2dlci5kZWJ1ZygicGF0aHMgcmVzdWx0ICN7cmVzdWx0fSIpCg==</text>
+        <text encoding="base64">ICAgIGNvbnN0cmFpbnRzID0gRmlsdGVyLmZyb21fcGFyYW1zKGpvYl9vcHRpb25zKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgIFJhaWxzLmxvZ2dlci5kZWJ1ZygiQWxsb3dlZCBwYXRocyAje2FsbG93ZWRfcGF0aHN9IikK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgbm90X2luX290aGVyX2xhYmVscyBhbmQgaW5fbGFzdF9sYWJlbAogICAgICAjIGluX2xhc3RfbGFiZWwK</text>
+        <text encoding="base64">ICAgIEluc3RhbmNlRXhwb3J0U2VydmljZS5jaGVja19taW5pbWFsX2ZlZGVyYXRpb24oKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
