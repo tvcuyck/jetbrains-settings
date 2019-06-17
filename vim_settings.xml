@@ -96,9 +96,9 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/app/mailers/feedback_mailer.rb" timestamp="1558601850714">
         <mark key="[" line="10" column="31" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/background_jobs/resque_locker.rb" timestamp="1560776170308">
-        <mark key="[" line="115" column="4" />
-        <mark key="]" line="117" column="8" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/background_jobs/resque_locker.rb" timestamp="1560776841493">
+        <mark key="[" line="83" column="0" />
+        <mark key="]" line="90" column="52" />
         <mark key="." line="117" column="8" />
         <mark key="^" line="115" column="14" />
       </file>
@@ -326,6 +326,12 @@
         <mark key="]" line="284" column="0" />
         <mark key="." line="284" column="0" />
         <mark key="^" line="274" column="5" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/jobs_service.rb" timestamp="1560777627780">
+        <mark key="[" line="191" column="98" />
+        <mark key="]" line="191" column="36" />
+        <mark key="." line="191" column="36" />
+        <mark key="^" line="191" column="36" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/config/database.yml.docker" timestamp="1559292801478">
         <mark key="[" line="47" column="0" />
@@ -582,11 +588,11 @@
         <mark key="^" line="32" column="37" />
         <mark key="." line="32" column="37" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/disqover_settings_repository.rb" timestamp="1560776646534">
-        <mark key="[" line="96" column="55" />
-        <mark key="]" line="96" column="70" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/disqover_settings_repository.rb" timestamp="1560777661242">
+        <mark key="[" line="96" column="50" />
+        <mark key="]" line="96" column="50" />
         <mark key="." line="96" column="0" />
-        <mark key="^" line="65" column="4" />
+        <mark key="^" line="96" column="49" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/user_service_spec.rb" timestamp="1558946729873">
         <mark key="[" line="238" column="0" />
@@ -624,7 +630,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGFsbF9zZXR0aW5ncy5wdXNoKCpTb2xySW5kZXhDb25maWd1cmF0aW9uUmVwb3NpdG9yeS5zZXR0aW5nc19saXN0KQo=</text>
+        <text encoding="base64">ICAgIGFsbF9zZXR0aW5ncy5wdXNoKCpSZXNxdWVMb2NrZXIuc2V0dGluZ3NfbGlzdCkK</text>
       </register>
       <register name="-" type="4">
         <text>n</text>
@@ -633,13 +639,13 @@
         <text encoding="base64">XDxSRU1FTUJFUl9cPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGFsbF9zZXR0aW5ncy5wdXNoKCpTb2xySW5kZXhDb25maWd1cmF0aW9uUmVwb3NpdG9yeS5zZXR0aW5nc19saXN0KQo=</text>
+        <text encoding="base64">ICAgIGFsbF9zZXR0aW5ncy5wdXNoKCpSZXNxdWVMb2NrZXIuc2V0dGluZ3NfbGlzdCkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICBkZWZhdWx0OiAwLjUK</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICB5bWxfc2V0dGluZ3M6IHltbF9zZXR0aW5ncywK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICBkZWZhdWx0OiAwLjUK</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICB5bWxfc2V0dGluZ3M6IHltbF9zZXR0aW5ncywK</text>
@@ -657,10 +663,10 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICB5bWxfc2V0dGluZ3M6IHltbF9zZXR0aW5ncywK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">c2V0dGluZy5kb2NfZGVzY3JpcHRpb24K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICB5bWxfc2V0dGluZ3M6IHltbF9zZXR0aW5ncywK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">c2V0dGluZy5kb2NfZGVzY3JpcHRpb24K</text>
       </register>
       <register name=":" type="4">
         <text>1601</text>
