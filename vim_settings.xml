@@ -288,6 +288,13 @@
         <mark key="." line="33" column="36" />
         <mark key="^" line="33" column="36" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/solr_index_configuration_repository.rb" timestamp="1560770919276">
+        <mark key="'" line="52" column="2" />
+        <mark key="[" line="85" column="64" />
+        <mark key="]" line="85" column="38" />
+        <mark key="." line="85" column="38" />
+        <mark key="^" line="85" column="38" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/instance_export_service.rb" timestamp="1559123098980">
         <mark key="[" line="10" column="58" />
         <mark key="]" line="130" column="0" />
@@ -427,6 +434,12 @@
         <mark key="[" line="119" column="0" />
         <mark key="]" line="119" column="55" />
         <mark key="." line="119" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/data_endpoint_repository.rb" timestamp="1560770850609">
+        <mark key="[" line="45" column="38" />
+        <mark key="]" line="45" column="38" />
+        <mark key="." line="45" column="38" />
+        <mark key="^" line="45" column="38" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/background_jobs/background_job_filter_spec.rb" timestamp="1558364820887">
         <mark key="[" line="4" column="28" />
@@ -571,11 +584,12 @@
         <mark key="]" line="238" column="0" />
         <mark key="." line="238" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/indexing_service.rb" timestamp="1560518307063">
-        <mark key="[" line="218" column="20" />
-        <mark key="]" line="676" column="51" />
-        <mark key="^" line="676" column="51" />
-        <mark key="." line="676" column="51" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/indexing_service.rb" timestamp="1560770777777">
+        <mark key="'" line="229" column="23" />
+        <mark key="[" line="700" column="48" />
+        <mark key="]" line="700" column="47" />
+        <mark key="^" line="700" column="47" />
+        <mark key="." line="700" column="47" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/Jenkinsfile" timestamp="1560340720132">
         <mark key="[" line="15" column="58" />
@@ -595,10 +609,13 @@
       <jump line="107" column="5" filename="$USER_HOME$/Disqover/rails5-backend/app/repositories/cache_repository.rb" />
       <jump line="14" column="0" filename="$USER_HOME$/Disqover/rails5-backend/spec/controllers/export_controller_spec.rb" />
       <jump line="363" column="11" filename="$USER_HOME$/Disqover/rails5-backend/app/services/check_setup_service.rb" />
+      <jump line="58" column="6" filename="$USER_HOME$/Disqover/rails5-backend/app/repositories/solr_index_configuration_repository.rb" />
+      <jump line="52" column="2" filename="$USER_HOME$/Disqover/rails5-backend/app/repositories/solr_index_configuration_repository.rb" />
+      <jump line="229" column="23" filename="$USER_HOME$/Disqover/rails5-backend/app/services/indexing_service.rb" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAjIGRldl9udWxsID0gTG9nZ2VyLm5ldygiL2Rldi9udWxsIikKICAjIFJhaWxzLmxvZ2dlciA9IGRldl9udWxsCiAgIyBBY3RpdmVSZWNvcmQ6OkJhc2UubG9nZ2VyID0gZGV2X251bGwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICB5bWxfc2V0dGluZ3M6IHltbF9zZXR0aW5ncywK</text>
       </register>
       <register name="-" type="4">
         <text>n</text>
@@ -607,34 +624,34 @@
         <text encoding="base64">XDxSRU1FTUJFUl9cPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICBhcHBlbmRlcnMgPSBMb2dnaW5nLmxvZ2dlci5yb290LmFwcGVuZGVycwogIExvZ2dpbmcubG9nZ2VyLnJvb3QuYXBwZW5kZXJzID0gWydmaWxlJ10K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlOiA6Ym9vbCwK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAjIGRldl9udWxsID0gTG9nZ2VyLm5ldygiL2Rldi9udWxsIikKICAjIFJhaWxzLmxvZ2dlciA9IGRldl9udWxsCiAgIyBBY3RpdmVSZWNvcmQ6OkJhc2UubG9nZ2VyID0gZGV2X251bGwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICB5bWxfc2V0dGluZ3M6IHltbF9zZXR0aW5ncywK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICMgZGV2X251bGwgPSBMb2dnZXIubmV3KCIvZGV2L251bGwiKQogICAgIyBSYWlscy5sb2dnZXIgPSBkZXZfbnVsbAogICAgIyBBY3RpdmVSZWNvcmQ6OkJhc2UubG9nZ2VyID0gZGV2X251bGwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICB5bWxfc2V0dGluZ3M6IHltbF9zZXR0aW5ncywK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlOiA6Ym9vbCwK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICB5bWxfc2V0dGluZ3M6IHltbF9zZXR0aW5ncywK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICB5bWxfc2V0dGluZ3M6IHltbF9zZXR0aW5ncywK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICB5bWxfc2V0dGluZ3M6IHltbF9zZXR0aW5ncywK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBkb2NfYnVpbGRlci53cml0ZV9saW5lKCcnKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICB5bWxfc2V0dGluZ3M6IHltbF9zZXR0aW5ncywK</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBkb2NfYnVpbGRlci5pbmNsdWRlX2ZpbGUoImRpc3FvdmVyX3NldHRpbmdzLyN7fScpCg==</text>
+      <register name="9" type="8">
+        <text encoding="base64">eW1sX3NldHRpbmdzPSA=</text>
       </register>
       <register name=":" type="4">
         <text>1601</text>
