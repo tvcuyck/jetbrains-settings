@@ -82,6 +82,12 @@
         <mark key="^" line="19" column="64" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/config/database.yml" timestamp="1560859762965" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/filter_info_service_spec.rb" timestamp="1560865921850">
+        <mark key="[" line="1593" column="7" />
+        <mark key="]" line="1592" column="77" />
+        <mark key="^" line="1609" column="6" />
+        <mark key="." line="1592" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/instance_export_service_spec.rb" timestamp="1559134415371">
         <mark key="[" line="103" column="27" />
         <mark key="]" line="103" column="26" />
@@ -231,7 +237,7 @@
         <mark key="^" line="56" column="12" />
         <mark key="." line="57" column="0" />
       </file>
-      <file name="/fragment.rb" timestamp="1560774375727">
+      <file name="/fragment.rb" timestamp="1560865252497">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -470,7 +476,7 @@
         <mark key="]" line="371" column="0" />
         <mark key="." line="371" column="0" />
       </file>
-      <file name="/Ruby Console" timestamp="1560774308578">
+      <file name="/Ruby Console" timestamp="1560865224938">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/documentation/sphinx/sysadmin/Introduction.rst" timestamp="1558102591208">
@@ -524,7 +530,8 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/app/mailers/bo_signup_mailer.rb" timestamp="1558527524940">
         <mark key="[" line="7" column="31" />
       </file>
-      <file name="/Dummy.txt" timestamp="1560861180259">
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/filter_info_service.rb" timestamp="1560865057189" />
+      <file name="/Dummy.txt" timestamp="1560865434372">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -594,6 +601,9 @@
         <mark key="]" line="238" column="0" />
         <mark key="." line="238" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/federation_type_stats_repository.rb" timestamp="1560866198730">
+        <mark key="[" line="15" column="4" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/indexing_service.rb" timestamp="1560858746188">
         <mark key="'" line="229" column="23" />
         <mark key="[" line="2" column="0" />
@@ -601,8 +611,11 @@
         <mark key="^" line="699" column="47" />
         <mark key="." line="699" column="47" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/Jenkinsfile" timestamp="1560861615381">
+      <file name="$USER_HOME$/Disqover/rails5-backend/Jenkinsfile" timestamp="1560864894407">
         <mark key="[" line="46" column="103" />
+        <mark key="]" line="56" column="73" />
+        <mark key="^" line="56" column="73" />
+        <mark key="." line="56" column="73" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/background_jobs/background_exporter_spec.rb" timestamp="1558700010207">
         <mark key="[" line="253" column="92" />
@@ -625,7 +638,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Y2QgLSA+L2Rldi9udWxsCg==</text>
+        <text encoding="base64">ICAgICAgYWxsb3dfYW55X2luc3RhbmNlX29mKENhY2hlUmVwb3NpdG9yeSkudG8gcmVjZWl2ZSg6Z2V0KS5hbmRfcmV0dXJuKG5pbCkK</text>
       </register>
       <register name="-" type="4">
         <text>n</text>
@@ -634,7 +647,7 @@
         <text encoding="base64">XDxSRU1FTUJFUl9cPg==</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGFsbF9zZXR0aW5ncy5wdXNoKCpSZXNxdWVMb2NrZXIuc2V0dGluZ3NfbGlzdCkK</text>
+        <text encoding="base64">ICAgICAgYWxsb3dfYW55X2luc3RhbmNlX29mKENhY2hlUmVwb3NpdG9yeSkudG8gcmVjZWl2ZSg6Z2V0KS5hbmRfcmV0dXJuKG5pbCkK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Y2QgLSA+L2Rldi9udWxsCg==</text>
@@ -664,7 +677,7 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICB5bWxfc2V0dGluZ3M6IHltbF9zZXR0aW5ncywK</text>
       </register>
       <register name=":" type="4">
-        <text>1601</text>
+        <text>1600</text>
       </register>
     </registers>
     <search>
@@ -680,8 +693,6 @@
         <entry encoding="base64">XDxSRU1FTUJFUl9cPg==</entry>
       </history-search>
       <history-cmd>
-        <entry>wq</entry>
-        <entry>87</entry>
         <entry>66</entry>
         <entry>669</entry>
         <entry>209</entry>
@@ -700,6 +711,8 @@
         <entry>0</entry>
         <entry>300</entry>
         <entry>1601</entry>
+        <entry>1000</entry>
+        <entry>1600</entry>
       </history-cmd>
       <history-expr />
       <history-input />
