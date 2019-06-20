@@ -19,6 +19,9 @@
         <mark key="." line="4" column="13" />
         <mark key="^" line="4" column="13" />
       </file>
+      <file name="$USER_HOME$/Disqover/documentation/source/user-manual/conf.py" timestamp="1561020222544">
+        <mark key="'" line="536" column="16" />
+      </file>
       <file name="/Python Console" timestamp="1560942967905">
         <mark key="[" line="0" column="0" />
       </file>
@@ -104,6 +107,13 @@
       <jump line="162" column="55" filename="$USER_HOME$/Disqover/documentation/source/sysadmin-manual/conf.py" />
       <jump line="173" column="63" filename="$USER_HOME$/Disqover/documentation/source/sysadmin-manual/conf.py" />
       <jump line="174" column="30" filename="$USER_HOME$/Disqover/documentation/source/sysadmin-manual/conf.py" />
+      <jump line="650" column="26" filename="$USER_HOME$/Disqover/documentation/source/user-manual/conf.py" />
+      <jump line="246" column="15" filename="$USER_HOME$/Disqover/documentation/source/user-manual/conf.py" />
+      <jump line="644" column="18" filename="$USER_HOME$/Disqover/documentation/source/user-manual/conf.py" />
+      <jump line="587" column="21" filename="$USER_HOME$/Disqover/documentation/source/user-manual/conf.py" />
+      <jump line="586" column="20" filename="$USER_HOME$/Disqover/documentation/source/user-manual/conf.py" />
+      <jump line="540" column="12" filename="$USER_HOME$/Disqover/documentation/source/user-manual/conf.py" />
+      <jump line="536" column="16" filename="$USER_HOME$/Disqover/documentation/source/user-manual/conf.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -113,7 +123,7 @@
         <text>`</text>
       </register>
       <register name="/" type="4">
-        <text>Manual</text>
+        <text>graphics</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">Li4gX3Byb3h5X3NldHRpbmdzX3JlZmVyZW5jZV90YWc6CgoqKioqKioqKioqKioqKgpQcm94eSBTZXR0aW5ncwoqKioqKioqKioqKioqKgo=</text>
@@ -150,9 +160,9 @@
       </register>
     </registers>
     <search>
-      <last-search>Manual</last-search>
+      <last-search>graphics</last-search>
       <last-offset />
-      <last-pattern>Manual</last-pattern>
+      <last-pattern>graphics</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
@@ -162,6 +172,9 @@
         <entry>papersize</entry>
         <entry>Disqover Manual</entry>
         <entry>Manual</entry>
+        <entry>image</entry>
+        <entry>graph</entry>
+        <entry>graphics</entry>
       </history-search>
       <history-cmd>
         <entry>w</entry>
@@ -176,6 +189,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed F</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed G</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
