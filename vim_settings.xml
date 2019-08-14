@@ -139,7 +139,7 @@
       <file name="$USER_HOME$/Disqover/documentation/source/sysadmin-manual/HowTo.rst" timestamp="1560950813430">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/fragment.rb" timestamp="1565774921845">
+      <file name="/fragment.rb" timestamp="1565783913710">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -149,6 +149,7 @@
         <mark key="]" line="95" column="4" />
         <mark key="." line="95" column="4" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/fixtures/metis_pipeline_test_data/synonyms/synonyms_data_4.ttl" timestamp="1565783986485" />
       <file name="$USER_HOME$/Disqover/documentation2/sphinx/source/Style.sty" timestamp="1561386209692">
         <mark key="[" line="69" column="12" />
       </file>
@@ -203,8 +204,8 @@
       <file name="$USER_HOME$/Disqover/documentation2/sphinx/source/conf.py" timestamp="1561127967776">
         <mark key="[" line="63" column="16" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/repositories/solr_data_entry_repository_spec.rb" timestamp="1565704151127">
-        <mark key="[" line="633" column="0" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/repositories/solr_data_entry_repository_spec.rb" timestamp="1565784072759">
+        <mark key="[" line="978" column="73" />
         <mark key="]" line="633" column="0" />
         <mark key="." line="633" column="0" />
         <mark key="^" line="857" column="19" />
@@ -242,7 +243,7 @@
         <mark key="[" line="3" column="38" />
       </file>
       <file name="/synonym_service_spec.rb" timestamp="1565683828144" />
-      <file name="/Ruby Console" timestamp="1565774907352">
+      <file name="/Ruby Console" timestamp="1565783905286">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/fixtures/metis_pipeline_test_data/subinstances_pipeline.yml" timestamp="1565258133202">
@@ -335,11 +336,11 @@
       <file name="$USER_HOME$/Disqover/backend-no-virtuoso/.docker/development/env" timestamp="1563967385446">
         <mark key="[" line="22" column="19" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/synonym_service_spec.rb" timestamp="1565684585003">
-        <mark key="[" line="1333" column="104" />
-        <mark key="]" line="1333" column="103" />
-        <mark key="^" line="1333" column="103" />
-        <mark key="." line="1333" column="103" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/synonym_service_spec.rb" timestamp="1565784062531">
+        <mark key="[" line="1220" column="84" />
+        <mark key="]" line="1216" column="10" />
+        <mark key="^" line="1216" column="10" />
+        <mark key="." line="1216" column="10" />
       </file>
       <file name="$USER_HOME$/Disqover/backend-no-virtuoso/spec/repositories/solr_data_entry_repository_spec.rb" timestamp="1563533248331">
         <mark key="[" line="374" column="100" />
@@ -418,7 +419,7 @@
         <text encoding="base64">CiAgICAgICAgICBjb250ZXh0ICdEaXNlYXNlMkRpc2Vhc2UnIGRvCiAgICAgICAgICAgIGNvbnRleHQgJ25vIGZpbHRlcicgZG8KICAgICAgICAgICAgICBsZXQoOmNvbnN0cmFpbnRzKSB7U3R1Yjo6RmlsdGVyLnJlbGF0ZWRfZGlzZWFzZTJkaXNlYXNlKCl9CiAgICAgICAgICAgICAgaXQgJ2hhcyBjb3JyZWN0IG5yIG9mIGVudHJpZXMnIGRvCiAgICAgICAgICAgICAgICBleHBlY3QocmVzdWx0Lmxlbmd0aCkudG8gZXEoNCkKICAgICAgICAgICAgICBlbmQKCiAgICAgICAgICAgICAgaXQgJ2NvbnRhaW5zIGNvcnJlY3QgZW50cmllcycgZG8KICAgICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQubWFwKCY6aWQpKS50byBpbmNsdWRlKFNwYXJxbDo6VVJJVmFsdWUubmV3KCdodHRwOi8vb250b2ZvcmNlLmNvbS9kaXNlYXNlUHJlZiMxJykpCiAgICAgICAgICAgICAgICBleHBlY3QocmVzdWx0Lm1hcCgmOmlkKSkudG8gaW5jbHVkZShTcGFycWw6OlVSSVZhbHVlLm5ldygnaHR0cDovL29udG9mb3JjZS5jb20vZGlzZWFzZVByZWYjMicpKQogICAgICAgICAgICAgICAgZXhwZWN0KHJlc3VsdC5tYXAoJjppZCkpLnRvIGluY2x1ZGUoU3BhcnFsOjpVUklWYWx1ZS5uZXcoJ2h0dHA6Ly9vbnRvZm9yY2UuY29tL2Rpc2Vhc2VQcmVmIzMnKSkKICAgICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQubWFwKCY6aWQpKS50byBpbmNsdWRlKFNwYXJxbDo6VVJJVmFsdWUubmV3KCdodHRwOi8vb250b2ZvcmNlLmNvbS9kaXNlYXNlUHJlZiM0JykpCiAgICAgICAgICAgICAgZW5kCiAgICAgICAgICAgIGVuZAoKICAgICAgICAgICAgY29udGV4dCAncmVsYXRpb24gdHlwZSBmaWx0ZXIgZGlyZWN0JyBkbwogICAgICAgICAgICAgIGxldCg6ZmlsdGVyKSB7RmlsdGVyLmVxdWFscyhmYWNldDogRmFjZXQucmVsYXRpb25fdHlwZV9mYWNldC5rZXksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlOiAiPGh0dHA6Ly9vbnRvZm9yY2UuY29tL2NvbmZpZyNDYXVzZXM+Iil9CiAgICAgICAgICAgICAgbGV0KDpjb25zdHJhaW50cykge1N0dWI6OkZpbHRlci5yZWxhdGVkX2Rpc2Vhc2UyZGlzZWFzZShyZWxhdGlvbl9maWx0ZXI6IGZpbHRlcil9CiAgICAgICAgICAgICAgaXQgJ2hhcyBjb3JyZWN0IG5yIG9mIGVudHJpZXMnIGRvCiAgICAgICAgICAgICAgICBleHBlY3QocmVzdWx0Lmxlbmd0aCkudG8gZXEoMikKICAgICAgICAgICAgICBlbmQKCiAgICAgICAgICAgICAgaXQgJ2NvbnRhaW5zIGNvcnJlY3QgZW50cmllcycgZG8KICAgICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQubWFwKCY6aWQpKS50byBpbmNsdWRlKFNwYXJxbDo6VVJJVmFsdWUubmV3KCdodHRwOi8vb250b2ZvcmNlLmNvbS9kaXNlYXNlUHJlZiMzJykpCiAgICAgICAgICAgICAgICBleHBlY3QocmVzdWx0Lm1hcCgmOmlkKSkudG8gaW5jbHVkZShTcGFycWw6OlVSSVZhbHVlLm5ldygnaHR0cDovL29udG9mb3JjZS5jb20vZGlzZWFzZVByZWYjNCcpKQogICAgICAgICAgICAgIGVuZAogICAgICAgICAgICBlbmQKCiAgICAgICAgICAgIGNvbnRleHQgJ3JlbGF0aW9uIHR5cGUgZmlsdGVyIGludmVyc2UnIGRvCiAgICAgICAgICAgICAgbGV0KDpmaWx0ZXIpIHtGaWx0ZXIuZXF1YWxzKGZhY2V0OiBGYWNldC5yZWxhdGlvbl90eXBlX2ZhY2V0LmtleSwgZGlyZWN0aW9uOiA6aW52ZXJzZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU6ICI8aHR0cDovL29udG9mb3JjZS5jb20vY29uZmlnI0NhdXNlcz4iKX0KICAgICAgICAgICAgICBsZXQoOmNvbnN0cmFpbnRzKSB7U3R1Yjo6RmlsdGVyLnJlbGF0ZWRfZGlzZWFzZTJkaXNlYXNlKHJlbGF0aW9uX2ZpbHRlcjogZmlsdGVyKX0KICAgICAgICAgICAgICBpdCAnaGFzIGNvcnJlY3QgbnIgb2YgZW50cmllcycgZG8KICAgICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQubGVuZ3RoKS50byBlcSgyKQogICAgICAgICAgICAgIGVuZAoKICAgICAgICAgICAgICBpdCAnY29udGFpbnMgY29ycmVjdCBlbnRyaWVzJyBkbwogICAgICAgICAgICAgICAgZXhwZWN0KHJlc3VsdC5tYXAoJjppZCkpLnRvIGluY2x1ZGUoU3BhcnFsOjpVUklWYWx1ZS5uZXcoJ2h0dHA6Ly9vbnRvZm9yY2UuY29tL2Rpc2Vhc2VQcmVmIzEnKSkKICAgICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQubWFwKCY6aWQpKS50byBpbmNsdWRlKFNwYXJxbDo6VVJJVmFsdWUubmV3KCdodHRwOi8vb250b2ZvcmNlLmNvbS9kaXNlYXNlUHJlZiMyJykpCiAgICAgICAgICAgICAgZW5kCiAgICAgICAgICAgIGVuZAogICAgICAgICAgZW5kCg==</text>
       </register>
       <register name=":" type="4">
-        <text>2227</text>
+        <text>1224</text>
       </register>
     </registers>
     <search>
@@ -437,8 +438,6 @@
         <entry encoding="base64">XDwqXD4=</entry>
       </history-search>
       <history-cmd>
-        <entry>0950</entry>
-        <entry>930</entry>
         <entry>100</entry>
         <entry>2943</entry>
         <entry>797</entry>
@@ -457,6 +456,8 @@
         <entry>0</entry>
         <entry>4000</entry>
         <entry>2227</entry>
+        <entry>1007</entry>
+        <entry>1224</entry>
       </history-cmd>
       <history-expr />
       <history-input />
