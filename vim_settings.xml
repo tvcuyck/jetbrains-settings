@@ -119,6 +119,9 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/background_jobs/background_job_monitor.rb" timestamp="1560436367741">
         <mark key="[" line="79" column="45" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/script/instance_export/after_creation_script.sh" timestamp="1566385967494">
+        <mark key="[" line="11" column="16" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/background_jobs/background_job_spec.rb" timestamp="1558364771740">
         <mark key="[" line="4" column="24" />
       </file>
@@ -220,6 +223,7 @@
         <mark key="." line="4" column="0" />
         <mark key="^" line="3" column="18" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/script/instance_export/store_instance_export_on_s3.py" timestamp="1566386020847" />
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/xlsx_export_service.rb" timestamp="1559126688037">
         <mark key="[" line="48" column="11" />
       </file>
@@ -231,6 +235,11 @@
         <mark key="]" line="33" column="22" />
         <mark key="^" line="33" column="6" />
         <mark key="." line="33" column="22" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/script/log_filter.py" timestamp="1566385424876">
+        <mark key="[" line="96" column="0" />
+        <mark key="]" line="96" column="0" />
+        <mark key="." line="96" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/documentation2/sphinx/source/conf.py" timestamp="1561127967776">
         <mark key="[" line="63" column="16" />
@@ -325,7 +334,7 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/.docker/ci/seed_data.json" timestamp="1564648974747">
         <mark key="[" line="2" column="51" />
       </file>
-      <file name="/Dummy.txt" timestamp="1566374202552">
+      <file name="/Dummy.txt" timestamp="1566386108218">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/.docker/development/up.sh" timestamp="1566377088750">
@@ -449,7 +458,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">UlVOIHBpcDMgaW5zdGFsbCB1cgo=</text>
+        <text encoding="base64">IyAgICAgICAgICAgIGpzb25kYXRhID0ganNvbi5sb2FkcyhzcGxpdGxpbmVbM10uc3RyaXAoKS5yc3RyaXAoJyInKSwgb2JqZWN0X3BhaXJzX2hvb2s9T3JkZXJlZERpY3QpCg==</text>
       </register>
       <register name="-" type="4">
         <text />
@@ -458,39 +467,35 @@
         <text encoding="base64">XDx0cmFuc2Zlclw+</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">UlVOIHBpcCBpbnN0YWxsIHVybGxpYjM9PTEuMjQgYm90bzMtcHl0aG9uMyByZXF1ZXN0cyBhcHNjaGVkdWxlciBweXlhbWwK</text>
+        <text encoding="base64">ICAgICAgICAgICAganNvbmRhdGEgPSBqc29uLmxvYWRzKHNwbGl0bGluZVszXS5zdHJpcCgpLnJzdHJpcCgnIicpLCBvYmplY3RfcGFpcnNfaG9vaz1PcmRlcmVkRGljdCkK</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">IyAgICAgICAgICAgIGpzb25kYXRhID0ganNvbi5sb2FkcyhzcGxpdGxpbmVbM10uc3RyaXAoKS5yc3RyaXAoJyInKSwgb2JqZWN0X3BhaXJzX2hvb2s9T3JkZXJlZERpY3QpCg==</text>
+      </register>
+      <register name="2" type="2">
         <text encoding="base64">UlVOIHBpcDMgaW5zdGFsbCB1cgo=</text>
       </register>
-      <register name="2" type="8">
+      <register name="3" type="8">
         <text>#
 #</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">UlVOIHBpcDMgYm90bzMtcHl0aG9uMyBhcHNjaGVkdWxlciBweXlhbWwK</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">CnNjcmlwdF9kaXI9JChkaXJuYW1lIC0tICQwKQplY2hvICR7c2NyaXB0X2Rpcn0K</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">c2NyaXB0X2Rpcj1gZGlybmFtZSAkMGAK</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAtIGNvbXBvbmVudF9ndWlkOiBhMTIzNDU2Ny0xMjM0LTAwMDAtMDAwMC0wMDAwMDAwMDcwMDMKICAgIHBpcGVsaW5lX2d1aWQ6IDAzNzZhMDc0LWU0NzAtNDg1Yi05YWRlLTNiZjU4NjFkYmMwNQogICAgYWN0aW9uX29wdGlvbnM6CiAgICAgIHVyaTogJ2h0dHA6Ly9vbnRvZm9yY2UuY29tL2NvbmZpZyNWYXIyRGlzZWFzZU5vVW50eXBlZCcKICAgICAgYWN0aW9uOiBjcmVhdGVfdHlwZV9saW5rCiAgICAgIGZhY2V0czogJycKICAgICAgdG9fdHlwZTogJ2h0dHA6Ly9vbnRvZm9yY2UuY29tL2NvbmZpZyNEaXNlYXNlJwogICAgICBtZXRhZGF0YToKICAgICAgICBjb21wb25lbnROYW1lOiBWYXIyRGlzZWFzZU5vVW50eXBlZAogICAgICBmcm9tX3R5cGU6ICdodHRwOi8vb250b2ZvcmNlLmNvbS9jb25maWcjVmFyaWFudCcKICAgICAgcHJvcGVydGllczogJycKICAgICAgYWN0aW9uX2d1aWQ6IGExMjM0NTY3LTEyMzQtMDAwMC0wMDAwLTAwMDAwMDAwNzAwMwogICAgICBwcmVkZWNlc3NvcnM6CiAgICAgICAgLSBhMTIzNDU2Ny0xMjM0LTAwMDAtMDAwMC0wMDAwMDAwMDcwMDIKICAgICAgc2hvd19kZXRhaWxzOiB0cnVlCiAgICAgIHBpcGVsaW5lX2d1aWQ6IGMwYTUyODlhLTZhZjEtNGExNS04NGIxLTVkMjYzMWU4NWRjOAogICAgICBjb21wb25lbnRfZ3VpZDogYTEyMzQ1NjctMTIzNC0wMDAwLTAwMDAtMDAwMDAwMDA3MDAzCiAgICAgIHJlbGF0aW9uX3R5cGVzOiAnJwogICAgICByZWxhdGlvbl93aXRob3V0X3VudHlwZWRfbGlua3M6IHRydWUKICAgIG1ldGFkYXRhOgogICAgICBjb21wb25lbnROYW1lOiBWYXIyRGlzZWFzZU5vVW50eXBlZAo=</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="9" type="8">
-        <text>#
-#
-#
-#
-#</text>
+      <register name="5" type="2">
+        <text encoding="base64">UlVOIHBpcDMgYm90bzMtcHl0aG9uMyBhcHNjaGVkdWxlciBweXlhbWwK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">CnNjcmlwdF9kaXI9JChkaXJuYW1lIC0tICQwKQplY2hvICR7c2NyaXB0X2Rpcn0K</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">c2NyaXB0X2Rpcj1gZGlybmFtZSAkMGAK</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAtIGNvbXBvbmVudF9ndWlkOiBhMTIzNDU2Ny0xMjM0LTAwMDAtMDAwMC0wMDAwMDAwMDcwMDMKICAgIHBpcGVsaW5lX2d1aWQ6IDAzNzZhMDc0LWU0NzAtNDg1Yi05YWRlLTNiZjU4NjFkYmMwNQogICAgYWN0aW9uX29wdGlvbnM6CiAgICAgIHVyaTogJ2h0dHA6Ly9vbnRvZm9yY2UuY29tL2NvbmZpZyNWYXIyRGlzZWFzZU5vVW50eXBlZCcKICAgICAgYWN0aW9uOiBjcmVhdGVfdHlwZV9saW5rCiAgICAgIGZhY2V0czogJycKICAgICAgdG9fdHlwZTogJ2h0dHA6Ly9vbnRvZm9yY2UuY29tL2NvbmZpZyNEaXNlYXNlJwogICAgICBtZXRhZGF0YToKICAgICAgICBjb21wb25lbnROYW1lOiBWYXIyRGlzZWFzZU5vVW50eXBlZAogICAgICBmcm9tX3R5cGU6ICdodHRwOi8vb250b2ZvcmNlLmNvbS9jb25maWcjVmFyaWFudCcKICAgICAgcHJvcGVydGllczogJycKICAgICAgYWN0aW9uX2d1aWQ6IGExMjM0NTY3LTEyMzQtMDAwMC0wMDAwLTAwMDAwMDAwNzAwMwogICAgICBwcmVkZWNlc3NvcnM6CiAgICAgICAgLSBhMTIzNDU2Ny0xMjM0LTAwMDAtMDAwMC0wMDAwMDAwMDcwMDIKICAgICAgc2hvd19kZXRhaWxzOiB0cnVlCiAgICAgIHBpcGVsaW5lX2d1aWQ6IGMwYTUyODlhLTZhZjEtNGExNS04NGIxLTVkMjYzMWU4NWRjOAogICAgICBjb21wb25lbnRfZ3VpZDogYTEyMzQ1NjctMTIzNC0wMDAwLTAwMDAtMDAwMDAwMDA3MDAzCiAgICAgIHJlbGF0aW9uX3R5cGVzOiAnJwogICAgICByZWxhdGlvbl93aXRob3V0X3VudHlwZWRfbGlua3M6IHRydWUKICAgIG1ldGFkYXRhOgogICAgICBjb21wb25lbnROYW1lOiBWYXIyRGlzZWFzZU5vVW50eXBlZAo=</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
