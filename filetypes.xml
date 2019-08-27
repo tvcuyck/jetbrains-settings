@@ -3,12 +3,15 @@
     <extensionMap>
       <mapping pattern="PKG-INFO" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
-      <mapping pattern="myfilename" type="PLAIN_TEXT" />
       <mapping pattern="container_desciptions" type="PLAIN_TEXT" />
+      <mapping pattern="myfilename" type="PLAIN_TEXT" />
+      <mapping pattern="Metis" type="PLAIN_TEXT" />
+      <mapping ext="sty" type="PLAIN_TEXT" />
       <mapping ext="in" type="PLAIN_TEXT" />
       <mapping ext="sdf" type="PLAIN_TEXT" />
-      <mapping ext="ttl" type="PLAIN_TEXT" />
       <mapping ext="sparql" type="PLAIN_TEXT" />
+      <mapping ext="ttl" type="PLAIN_TEXT" />
+      <mapping ext="inc" type="ReST" />
     </extensionMap>
   </component>
 </application>
