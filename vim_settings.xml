@@ -155,7 +155,6 @@
         <mark key="]" line="25" column="14" />
         <mark key="." line="25" column="14" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/repositories/solr_index_configuration_repository_spec.rb" timestamp="1566890377533" />
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/info_service_spec.rb" timestamp="1566392307262" />
       <file name="$USER_HOME$/.rvm/gems/ruby-2.5.5/gems/activerecord-5.2.3/lib/active_record/dynamic_matchers.rb" timestamp="1566981779767">
         <mark key="a" line="26" column="21" />
@@ -241,7 +240,7 @@
         <mark key="." line="405" column="89" />
       </file>
       <file name="/synonym_service_spec.rb" timestamp="1565683828144" />
-      <file name="/Ruby Console" timestamp="1566890188646">
+      <file name="/Ruby Console" timestamp="1566999046069">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/managed_file.rb" timestamp="1558710212353">
@@ -332,6 +331,7 @@
         <mark key="[" line="64" column="0" />
         <mark key="]" line="64" column="72" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/configuration_service.rb" timestamp="1566999274678" />
       <file name="$USER_HOME$/Disqover/backend-no-virtuoso/.docker/test/seed_data.json" timestamp="1563541400088">
         <mark key="[" line="2" column="49" />
       </file>
@@ -447,13 +447,19 @@
         <mark key="^" line="173" column="35" />
         <mark key="." line="173" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/configuration_service_spec.rb" timestamp="1566999449636">
+        <mark key="[" line="139" column="0" />
+        <mark key="]" line="142" column="9" />
+        <mark key="^" line="165" column="5" />
+        <mark key="." line="139" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/users_controller.rb" timestamp="1559119536997">
         <mark key="[" line="251" column="86" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/facet_collection_spec.rb" timestamp="1566471490512">
         <mark key="[" line="70" column="52" />
       </file>
-      <file name="/fragment.rb" timestamp="1566830915965">
+      <file name="/fragment.rb" timestamp="1566999288447">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="4" />
         <mark key="." line="0" column="4" />
@@ -719,7 +725,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgYmVmb3JlIAo=</text>
+        <text encoding="base64">CiAgICAgIGJlZm9yZSBkbwogICAgICAgIENvbGxlY3Rpb25TZXJ2aWNlLmluc3RhbmNlID0gQ29sbGVjdGlvblNlcnZpY2UubmV3KGdyYXBoX3VyaTogZ3JhcGgpCiAgICAgIGVuZAo=</text>
       </register>
       <register name="-" type="4">
         <text>do</text>
@@ -728,34 +734,34 @@
         <text>metis</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgOjpTcGFycWw6OlVSSVZhbHVlLm5ldygnaHR0cDovL3Rlc3Qub250b2ZvcmNlLmNvbS90ZXN0X2NvbmZpZ3VyYXRpb24nKQo=</text>
+        <text encoding="base64">CiAgICAgIGJlZm9yZSBkbwogICAgICAgIENvbGxlY3Rpb25TZXJ2aWNlLmluc3RhbmNlID0gQ29sbGVjdGlvblNlcnZpY2UubmV3KGdyYXBoX3VyaTogZ3JhcGgpCiAgICAgIGVuZAo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgYmVmb3JlIAo=</text>
-      </register>
-      <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBDb2xsZWN0aW9uCg==</text>
+      </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgOjpTdHViOjpDb25maWd1cmF0aW9uR3JhcGhzLm1ldGlzCg==</text>
+        <text encoding="base64">ICAgICAgYmVmb3JlIAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgIyBncmFwaF91cmkgPQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="8">
-        <text>Stub::ConfigurationGraphs.metis</text>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgOjpTdHViOjpDb25maWd1cmF0aW9uR3JhcGhzLm1ldGlzCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgIyBncmFwaF91cmkgPQo=</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIGl0ICdyZXR1cm5zIHZhbHVlIGZyb20gRU5WIGlmIGZvdW5kJyBkbwogICAgICBhbGxvdyhFTlYpLnRvIHJlY2VpdmUoOmtleXMpLmFuZF9yZXR1cm4oWydESVNRT1ZFUl9EQVRBX0xPQ0FUSU9OJ10pCiAgICAgIGFsbG93KEVOVikudG8gcmVjZWl2ZSg6W10pLndpdGgoJ0RJU1FPVkVSX0RBVEFfTE9DQVRJT04nKS5hbmRfcmV0dXJuKCd2aXJ0dW9zbzoxMjM0L3NwYXJxbD8nKQogIGVuZAoK</text>
+      <register name="7" type="8">
+        <text>Stub::ConfigurationGraphs.metis</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgYWxsb3coUmFpbHMuY29uZmlndXJhdGlvbikudG8gcmVjZWl2ZSgnZGF0YWJhc2VfY29uZmlndXJhdGlvbicpLmFuZF9yZXR1cm4oCiAgICAgICAgICB7CiAgICAgICAgICAgICAgJ2VudicgPT4gewogICAgICAgICAgICAgICAgICAnY29tbXVuaXR5X2xpY2Vuc2VfbmFtZScgPT4gJ3Rlc3RfbGljZW5zZScsCiAgICAgICAgICAgICAgICAgICdjb21tdW5pdHlfbGljZW5zZV92ZXJzaW9uJyA9PiAnMS4wJwogICAgICAgICAgICAgIH0KICAgICAgICAgIH0KICAgICAgKQo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgZXhwZWN0X2FueV9pbnN0YW5jZV9vZihFbnZTZXJ2aWNlKS50byByZWNlaXZlKDpnZXQpLndpdGgoTGljZW5zZUFncmVlbWVudHNTZXJ2aWNlOjpDT01NVU5JVFlfTElDRU5TRV9TRVRUSU5HKS5hbmRfcmV0dXJuKG5pbCkK</text>
+        <text encoding="base64">ICAgIGl0ICdyZXR1cm5zIHZhbHVlIGZyb20gRU5WIGlmIGZvdW5kJyBkbwogICAgICBhbGxvdyhFTlYpLnRvIHJlY2VpdmUoOmtleXMpLmFuZF9yZXR1cm4oWydESVNRT1ZFUl9EQVRBX0xPQ0FUSU9OJ10pCiAgICAgIGFsbG93KEVOVikudG8gcmVjZWl2ZSg6W10pLndpdGgoJ0RJU1FPVkVSX0RBVEFfTE9DQVRJT04nKS5hbmRfcmV0dXJuKCd2aXJ0dW9zbzoxMjM0L3NwYXJxbD8nKQogIGVuZAoK</text>
       </register>
       <register name=":" type="4">
         <text>387</text>
