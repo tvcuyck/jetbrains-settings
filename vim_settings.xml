@@ -296,6 +296,7 @@
       <file name="$USER_HOME$/Disqover/documentation2/source/sysadmin-manual/disqover_settings/background_jobs_settings_description.rst" timestamp="1561128350533">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/src/metis/connectors/solr_connector.py" timestamp="1567516756818" />
       <file name="$USER_HOME$/Disqover/documentation/source/sysadmin-manual/configuration/Nginx.rst" timestamp="1566899057764">
         <mark key="[" line="13" column="0" />
         <mark key="]" line="13" column="0" />
@@ -306,6 +307,7 @@
         <mark key="]" line="21" column="0" />
         <mark key="." line="21" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/documentation/source/architecture-design/_static/README.md" timestamp="1567429472376" />
       <file name="$USER_HOME$/Disqover/documentation/source/sysadmin-manual/Plugins.rst" timestamp="1561022426286">
         <mark key="[" line="29" column="0" />
         <mark key="]" line="29" column="0" />
@@ -336,6 +338,7 @@
         <mark key="]" line="15" column="0" />
         <mark key="." line="15" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/indexer.py" timestamp="1567516583891" />
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/xlsx_export_service.rb" timestamp="1559126688037">
         <mark key="[" line="48" column="11" />
       </file>
@@ -350,6 +353,7 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/tests/integration/test_countries_companies_clin_trials_spec.py" timestamp="1567605798497" />
       <file name="$USER_HOME$/Disqover/documentation2/source/sysadmin-manual/configuration/ProxySettings.rst" timestamp="1561381165941">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="3" column="13" />
@@ -441,10 +445,11 @@
         <mark key="." line="9" column="44" />
         <mark key="^" line="9" column="44" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_disqover_facet_spec.py" timestamp="1567522552261">
-        <mark key="[" line="482" column="44" />
-        <mark key="]" line="468" column="0" />
-        <mark key="." line="468" column="0" />
+      <file name="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_disqover_facet_spec.py" timestamp="1567606361086">
+        <mark key="[" line="497" column="0" />
+        <mark key="]" line="497" column="0" />
+        <mark key="." line="497" column="0" />
+        <mark key="^" line="498" column="39" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_disqover_canonical_type_spec.py" timestamp="1567523127488">
         <mark key="[" line="56" column="19" />
@@ -541,12 +546,14 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/documentation/source/architecture-design/Metis.rst" timestamp="1567581120090" />
       <file name="$USER_HOME$/Disqover/disqover-docker/docker-compose/docker-compose-client.yml" timestamp="1564046168917">
         <mark key="[" line="8" column="33" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/PULL_REQUEST_TEMPLATE.md" timestamp="1561721022276">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/src/metis/option.py" timestamp="1567433921708" />
       <file name="$USER_HOME$/Disqover/rails5-backend/config/environments/production.rb" timestamp="1560774725336">
         <mark key="[" line="2" column="58" />
       </file>
@@ -643,7 +650,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAnc29scl9maWVsZF9uYW1lJzogJ3Rlc3QnLAo=</text>
       </register>
       <register name="-" type="4">
         <text>S</text>
@@ -655,31 +662,31 @@
         <text encoding="base64">Li4gX3NpbmdsZV9zaWduX29uX3JlZmVyZW5jZV90YWc6Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAnc29scl9maWVsZF9uYW1lJzogJ3Rlc3QnLAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CiAgICAuLiAKCi4uIG9ubHk6OiBpbnRlcm5hbAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAnYWRkaXRpdmUnOiBUcnVlLAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Ci4uIG9ubHk6OiBpbnRlcm5hbAoKICAuLiBpbmNsdWRlOjogLi4vY29tbW9uL2NvbnRhaW5lcl9kZXNjcmlwdGlvbnMvdGFza19zY2hlZHVsZXIucnN0Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAnJwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Ci4uIGluY2x1ZGU6OiBjb25maWd1cmF0aW9uL3ZpcnR1b3NvX2V0bC5pbmMK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICdwcmVjaXNpb24nCiAgICAgICAgICAgICAgICAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">RmVkZXJhdGlvbi5yc3QK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAnYWRkaXRpdmUnOiBOb25lLAogICAgICAgICAgICAgICAgICAgICdzaW5nbGVfdmFsdWVkJzogRmFsc2UsCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">I1JVTiBtYWtlIHN5c2FkbWluaHRtbAojUlVOIG1ha2Ugc3lzYWRtaW5wZGYK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgV2l0aCBtdWx0aWxpbmUgdGV4dAo=</text>
+        <text encoding="base64">CiAgICAuLiAKCi4uIG9ubHk6OiBpbnRlcm5hbAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgV2l0aCBtdWx0aWxpbmUgdGV4dAo=</text>
+        <text encoding="base64">Ci4uIG9ubHk6OiBpbnRlcm5hbAoKICAuLiBpbmNsdWRlOjogLi4vY29tbW9uL2NvbnRhaW5lcl9kZXNjcmlwdGlvbnMvdGFza19zY2hlZHVsZXIucnN0Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgV2l0aCBtdWx0aWxpbmUgdGV4dAo=</text>
+        <text encoding="base64">Ci4uIGluY2x1ZGU6OiBjb25maWd1cmF0aW9uL3ZpcnR1b3NvX2V0bC5pbmMK</text>
       </register>
       <register name=":" type="4">
         <text>233</text>
