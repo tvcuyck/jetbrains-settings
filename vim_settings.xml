@@ -243,20 +243,8 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/users_controller.rb" timestamp="1559119536997">
         <mark key="[" line="251" column="86" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/relation_type_repository.rb" timestamp="1568273346641">
-        <mark key="[" line="212" column="45" />
-        <mark key="]" line="206" column="23" />
-        <mark key="." line="206" column="23" />
-        <mark key="^" line="206" column="23" />
-      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/facet_collection_spec.rb" timestamp="1566471490512">
         <mark key="[" line="70" column="52" />
-      </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/sub_type_repository.rb" timestamp="1568273543026">
-        <mark key="[" line="127" column="32" />
-        <mark key="]" line="118" column="45" />
-        <mark key="^" line="118" column="45" />
-        <mark key="." line="118" column="45" />
       </file>
       <file name="$USER_HOME$/Disqover/backend-no-virtuoso/spec/controllers/export_controller_spec.rb" timestamp="1563456495412">
         <mark key="[" line="195" column="41" />
@@ -279,17 +267,10 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/filter.rb" timestamp="1558005152994">
         <mark key="[" line="18" column="47" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/facet_configuration_repository.rb" timestamp="1568273520605">
-        <mark key="[" line="312" column="26" />
-        <mark key="]" line="314" column="45" />
-        <mark key="." line="314" column="42" />
-        <mark key="^" line="314" column="42" />
-      </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/fixtures/metis_pipeline_test_data/rspec_pipeline.yml" timestamp="1568298166589">
-        <mark key="[" line="4577" column="5" />
-        <mark key="]" line="4577" column="4" />
-        <mark key="." line="4577" column="4" />
-        <mark key="^" line="4577" column="4" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/facet_configuration_repository.rb" timestamp="1568301339864">
+        <mark key="]" line="286" column="30" />
+        <mark key="^" line="286" column="30" />
+        <mark key="." line="286" column="30" />
       </file>
       <file name="$USER_HOME$/Disqover/documentation2/source/sysadmin-manual/disqover_settings/background_jobs_settings_description.rst" timestamp="1561128350533">
         <mark key="[" line="0" column="0" />
@@ -348,11 +329,11 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/xlsx_export_service.rb" timestamp="1559126688037">
         <mark key="[" line="48" column="11" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/solr_candidate_facet_repository.rb" timestamp="1568286857295">
-        <mark key="[" line="33" column="21" />
-        <mark key="]" line="33" column="22" />
-        <mark key="^" line="33" column="6" />
-        <mark key="." line="33" column="22" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/solr_candidate_facet_repository.rb" timestamp="1568300996978">
+        <mark key="[" line="222" column="68" />
+        <mark key="]" line="222" column="69" />
+        <mark key="^" line="222" column="69" />
+        <mark key="." line="222" column="69" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/type_link.rb" timestamp="1567675993315">
         <mark key="[" line="20" column="71" />
@@ -413,12 +394,6 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/federation_subfacet_service_spec.rb" timestamp="1566472061617">
         <mark key="[" line="1486" column="54" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/type_link_repository.rb" timestamp="1568296220654">
-        <mark key="[" line="153" column="21" />
-        <mark key="]" line="137" column="46" />
-        <mark key="." line="137" column="46" />
-        <mark key="^" line="137" column="46" />
-      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/background_jobs/background_job_filter_spec.rb" timestamp="1558364820887">
         <mark key="[" line="4" column="28" />
       </file>
@@ -466,7 +441,7 @@
         <mark key="^" line="29" column="32" />
         <mark key="." line="29" column="32" />
       </file>
-      <file name="/Ruby Console" timestamp="1568296235717">
+      <file name="/Ruby Console" timestamp="1568300180678">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/managed_file.rb" timestamp="1567421412786">
@@ -528,6 +503,7 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/fixtures/typed_link_data.sparql" timestamp="1565686990529">
         <mark key="[" line="26" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/config/initializers/solr_query_log_subscriber.rb" timestamp="1568300121651" />
       <file name="$USER_HOME$/Disqover/rails5-backend/PULL_REQUEST_TEMPLATE.md" timestamp="1561721022276">
         <mark key="[" line="0" column="0" />
       </file>
@@ -680,11 +656,11 @@
       <jump line="111" column="0" filename="$USER_HOME$/Disqover/rails5-backend/spec/repositories/facet_configuration_repository_spec.rb" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgZXhwZWN0KHN1YmplY3QuYWxsLmZpbmR7fHRsfCB0bC51cmkudG9fcyA9PSAnaHR0cDovL29udG9mb3JjZS5jb20vY29uZmlnI0Rpc2Vhc2UyRGlzZWFzZSd9Lm5vX2RldGFpbCkudG8gYmUgdHJ1ZQo=</text>
+      <register name="&quot;" type="4">
+        <text>T</text>
       </register>
       <register name="-" type="4">
-        <text>action_guid: a1234567-1234-0000-0000-000000006002</text>
+        <text>T</text>
       </register>
       <register name="/" type="4">
         <text>canonical_type</text>
