@@ -90,6 +90,11 @@
         <mark key="^" line="287" column="53" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/src/metis/pipeline.py" timestamp="1567758800033" />
+      <file name="$USER_HOME$/Disqover/documentation/source/architecture-design/Backend.rst" timestamp="1568627546910">
+        <mark key="[" line="18" column="0" />
+        <mark key="]" line="18" column="0" />
+        <mark key="." line="18" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/documentation/source/sysadmin-manual/architecture.rst" timestamp="1567587557907">
         <mark key="[" line="17" column="18" />
       </file>
@@ -284,16 +289,13 @@
       <file name="$USER_HOME$/Disqover/documentation2/sphinx/source/Style.sty" timestamp="1561386209692">
         <mark key="[" line="69" column="12" />
       </file>
-      <file name="$USER_HOME$/Disqover/documentation/source/architecture-design/backend/managed_files.inc" timestamp="1567522889162">
-        <mark key="[" line="54" column="36" />
-        <mark key="]" line="87" column="32" />
+      <file name="$USER_HOME$/Disqover/documentation/source/architecture-design/backend/managed_files.inc" timestamp="1568627467980">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="3" column="12" />
         <mark key="." line="87" column="32" />
         <mark key="^" line="87" column="32" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-client/disqover-client/src/disqover/query.py" timestamp="1568377129606" />
-      <file name="$USER_HOME$/Disqover/disqover-client/disqover-client/test/disqover/test_facet.py" timestamp="1568374597085">
-        <mark key="[" line="27" column="18" />
-      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/filter.rb" timestamp="1558005152994">
         <mark key="[" line="18" column="47" />
       </file>
@@ -595,6 +597,11 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/documentation/source/architecture-design/backend/async_export.inc" timestamp="1568627472024">
+        <mark key="[" line="0" column="34" />
+        <mark key="]" line="3" column="13" />
+        <mark key="." line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-docker/docker-compose/docker-compose-client.yml" timestamp="1564046168917">
         <mark key="[" line="8" column="33" />
       </file>
@@ -715,7 +722,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICdwdXJlbHlfcmVtb3RlJzogVHJ1ZSwK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>.</text>
@@ -724,34 +731,34 @@
         <text encoding="base64">XDwqXD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBjYW5vbmljYWxfdHlwZS5sYWJlbF9yZW5kZXJlcjoKICAgICAgICAgICAgY29uZmlnWydsYWJlbF9yZW5kZXJlciddID0gY2Fub25pY2FsX3R5cGUubGFiZWxfcmVuZGVyZXIK</text>
+        <text encoding="base64">Li4gaW5jbHVkZTo6IGJhY2tlbmQvbWFuYWdlZF9maWxlcy5pbmMK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICdwdXJlbHlfcmVtb3RlJzogVHJ1ZSwK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBjYW5vbmljYWxfdHlwZS5wdXJlbHlfcmVtb3RlOgogICAgICAgICAgICBjb25maWdbJ2wnXSA9IGNhbm9uaWNhbF90eXBlLmxhYmVsX3JlbmRlcmVyCg==</text>
+        <text encoding="base64">QXN5bmNocm9ub3VzIGpvYnMKPT09PT09PT09PT09PT09PT0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZXhwZWN0KGRhdGEpLnRvKGNvbnRhaW4obWF0Y2goZid7Y3QoImNsaW5pY2FsX3RyaWFsIil9IGRpc3E6dXNlQXMgZGlzcTpDYW5vbmljYWxUeXBlIC5cbicpKSkKICAgICAgICAgICAgZXhwZWN0KGRhdGEpLnRvKGNvbnRhaW4oZid7dGwoImNvdW50cnkyY291bnRyeSIpfSBhIGRpc3E6dHlwZUxpbmsgLlxuJykpCiAgICAgICAgICAgIGV4cGVjdChkYXRhKS50byhjb250YWluKCc8aHR0cDovL29udG9sb2d5Lm9udG9mb3JjZS5jb20vZmFjZXRzL2NsaW5fdHJpYWwvY291bnRyeT4gYSBkaXNxOkZhY2V0IC5cbicpKQogICAgICAgICAgICBleHBlY3QoZGF0YSkudG8oY29udGFpbignPGh0dHA6Ly9vbnRvbG9neS5vbnRvZm9yY2UuY29tL3Byb3BlcnRpZXMvY2xpbl90cmlhbC9jb3VudHJ5PiBhIGRpc3E6SW5zdGFuY2VQcm9wZXJ0eSAuXG4nKSkKICAgICAgICAgICAgZXhwZWN0KGRhdGEpLnRvKGNvbnRhaW4oJzxodHRwOi8vb250b2ZvcmNlLmNvbS9yZWxhdGlvbnMvY291bnRyeV9zdWJkaXZpc2lvbnM+IGEgZGlzcTpyZWxhdGlvblR5cGUgLlxuJykpCg==</text>
+        <text encoding="base64">VE9ETwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgLQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICdwdXJlbHlfcmVtb3RlJzogVHJ1ZSwK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIG1ldGFkYXRhOiB7fTExMTExMTEK</text>
+        <text encoding="base64">ICAgICAgICBpZiBjYW5vbmljYWxfdHlwZS5wdXJlbHlfcmVtb3RlOgogICAgICAgICAgICBjb25maWdbJ2wnXSA9IGNhbm9uaWNhbF90eXBlLmxhYmVsX3JlbmRlcmVyCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHVzZXJfdmlld3NfdHRsOiB2aWV3cwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZXhwZWN0KGRhdGEpLnRvKGNvbnRhaW4obWF0Y2goZid7Y3QoImNsaW5pY2FsX3RyaWFsIil9IGRpc3E6dXNlQXMgZGlzcTpDYW5vbmljYWxUeXBlIC5cbicpKSkKICAgICAgICAgICAgZXhwZWN0KGRhdGEpLnRvKGNvbnRhaW4oZid7dGwoImNvdW50cnkyY291bnRyeSIpfSBhIGRpc3E6dHlwZUxpbmsgLlxuJykpCiAgICAgICAgICAgIGV4cGVjdChkYXRhKS50byhjb250YWluKCc8aHR0cDovL29udG9sb2d5Lm9udG9mb3JjZS5jb20vZmFjZXRzL2NsaW5fdHJpYWwvY291bnRyeT4gYSBkaXNxOkZhY2V0IC5cbicpKQogICAgICAgICAgICBleHBlY3QoZGF0YSkudG8oY29udGFpbignPGh0dHA6Ly9vbnRvbG9neS5vbnRvZm9yY2UuY29tL3Byb3BlcnRpZXMvY2xpbl90cmlhbC9jb3VudHJ5PiBhIGRpc3E6SW5zdGFuY2VQcm9wZXJ0eSAuXG4nKSkKICAgICAgICAgICAgZXhwZWN0KGRhdGEpLnRvKGNvbnRhaW4oJzxodHRwOi8vb250b2ZvcmNlLmNvbS9yZWxhdGlvbnMvY291bnRyeV9zdWJkaXZpc2lvbnM+IGEgZGlzcTpyZWxhdGlvblR5cGUgLlxuJykpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGluY3JlbWVudGFsOiBmYWxzZQo=</text>
+        <text encoding="base64">ICAgICAgLQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAjIHN0YXJ0IGluZGV4Cg==</text>
+        <text encoding="base64">ICAgIG1ldGFkYXRhOiB7fTExMTExMTEK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAtIGFjdGlvbjogaW5kZXhpbmcKICAgIGFjdGlvbl9ndWlkOiAnYTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCcKICAgIGluY3JlbWVudGFsOiBmYWxzZQogICAgcHJlZGVjZXNzb3JzOgo=</text>
+        <text encoding="base64">ICAgIHVzZXJfdmlld3NfdHRsOiB2aWV3cwo=</text>
       </register>
       <register name=":" type="4">
         <text>196</text>
