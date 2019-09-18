@@ -283,11 +283,11 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/env_service.rb" timestamp="1560783412376">
         <mark key="[" line="8" column="14" />
       </file>
-      <file name="$USER_HOME$/Disqover/documentation/source/architecture-design/backend/data_querying.inc" timestamp="1568798872533">
-        <mark key="[" line="142" column="4" />
-        <mark key="]" line="142" column="97" />
-        <mark key="^" line="141" column="81" />
-        <mark key="." line="142" column="0" />
+      <file name="$USER_HOME$/Disqover/documentation/source/architecture-design/backend/data_querying.inc" timestamp="1568800145003">
+        <mark key="[" line="173" column="84" />
+        <mark key="]" line="173" column="84" />
+        <mark key="^" line="171" column="0" />
+        <mark key="." line="173" column="84" />
       </file>
       <file name="$USER_HOME$/Disqover/documentation/source/sysadmin-manual/index.rst" timestamp="1567585676023">
         <mark key="[" line="9" column="5" />
@@ -472,8 +472,9 @@
       <jump line="415" column="24" filename="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_disqover_property_spec.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">CiAgICBOdW1lcmljYWwgRmFjZXQKICAgICAgICBBIGZhY2V0IG9uIG51bWVyaWNhbCBkYXRhIChpbnRlZ2VycywgZmxvYXRzIGFuZCBkYXRlcykuIENhbiBhbHNvIGJlIHJlZmVycmVkIHRvIGFzIHJhbmdlIGZhY2V0IG9yIGhpc3RvZ3JhbSBmYWNldC4K</text>
+      <register name="&quot;" type="4">
+        <text>but the whole filter is wrapped into a
+``LinkedNode(OriginalFilter)``.</text>
       </register>
       <register name="-" type="4">
         <text>systctl -a | grep all.forwarding</text>
@@ -484,32 +485,33 @@
       <register name="0" type="2">
         <text encoding="base64">CiAgICBOdW1lcmljYWwgRmFjZXQKICAgICAgICBBIGZhY2V0IG9uIG51bWVyaWNhbCBkYXRhIChpbnRlZ2VycywgZmxvYXRzIGFuZCBkYXRlcykuIENhbiBhbHNvIGJlIHJlZmVycmVkIHRvIGFzIHJhbmdlIGZhY2V0IG9yIGhpc3RvZ3JhbSBmYWNldC4K</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">U2VlIGBOZXN0ZWQgZmFjZXRzIDxodHRwczovL2x1Y2VuZS5hcGFjaGUub3JnL3NvbHIvZ3VpZGUvN183L2pzb24tZmFjZXQtYXBpLmh0bWwjbmVzdGVkLWZhY2V0cz5gXwo=</text>
+      <register name="1" type="4">
+        <text>but the whole filter is wrapped into a
+``LinkedNode(OriginalFilter)``.</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBbMjAwMDAsIDMwMDAwWzogMTgsCiAgICAgICAgWzMwMDAwLCA0MDAwMFs6IDE1Cg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">ClVuZGVyIHRoZSBob29kLCB0aGUgbGluayBxdWVyeSBpcyBh</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBbMTAwMDAsIDIwMDAwWzogNywKICAgICAgICBbMjAwMDAsIDMwMDAwWzogMTgsCiAgICAgICAgWzMwMDAwLCA0MDAwMFs6IDE1CiAgICAgICAgLi4uIAo=</text>
+        <text encoding="base64">U2VlIGBOZXN0ZWQgZmFjZXRzIDxodHRwczovL2x1Y2VuZS5hcGFjaGUub3JnL3NvbHIvZ3VpZGUvN183L2pzb24tZmFjZXQtYXBpLmh0bWwjbmVzdGVkLWZhY2V0cz5gXwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Ci4uIGNvZGUtYmxvY2s6OiBub25lCgogICAgIyAvYXBpL2luc3RhbmNlcyBmaWx0ZXI6IGNhcnMsIGZhY2V0OiBjb2xvcgogICAgWwogICAgICAgIGdyZXk6IDI1LAogICAgICAgIGJsYWNrOiAxOSwKICAgICAgICB3aGl0ZTogMTAsCiAgICAgICAgLi4uIAogICAgXQo=</text>
+        <text encoding="base64">ICAgICAgICBbMjAwMDAsIDMwMDAwWzogMTgsCiAgICAgICAgWzMwMDAwLCA0MDAwMFs6IDE1Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Ci4uIGNvZGUtYmxvY2s6OiBub25lCgogICAgIyAvYXBpL2luc3RhbmNlcyBmaWx0ZXI6IGNhcnMKICAgIFsKICAgICAgICBjYXJfMTogCiAgICAgICAgICAgIGJyYW5kOiBBdWRpCiAgICAgICAgICAgIGNvbG9yOiBncmV5CiAgICAgICAgICAgIGhwOiAyMDAKICAgICAgICAgICAgcHJpY2U6IDUwMDAwCiAgICAgICAgY2FyXzI6IAogICAgICAgIC4uLgogICAgXQo=</text>
+        <text encoding="base64">ICAgICAgICBbMTAwMDAsIDIwMDAwWzogNywKICAgICAgICBbMjAwMDAsIDMwMDAwWzogMTgsCiAgICAgICAgWzMwMDAwLCA0MDAwMFs6IDE1CiAgICAgICAgLi4uIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYnJhbmQ6IEF1ZGkKICAgICAgICAgICAgY29sb3I6IGdyZXkKICAgICAgICAgICAgaHA6IDIwMAogICAgICAgICAgICBwcmljZTogNTAwMDAKICAgICAgICBjYXJfMjogCiAgICAgICAgLi4uCg==</text>
+        <text encoding="base64">Ci4uIGNvZGUtYmxvY2s6OiBub25lCgogICAgIyAvYXBpL2luc3RhbmNlcyBmaWx0ZXI6IGNhcnMsIGZhY2V0OiBjb2xvcgogICAgWwogICAgICAgIGdyZXk6IDI1LAogICAgICAgIGJsYWNrOiAxOSwKICAgICAgICB3aGl0ZTogMTAsCiAgICAgICAgLi4uIAogICAgXQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CkluIHRoZSB2ZXJzaW9uIG9mIFNvbHIgdXNlZCBieSB8ZHF8LCB0d28gZmFjZXR0aW5nIEFQSXMgY2FuIGJlIHVzZWQ6IHRoZSAKYGNsYXNzaWNhbCBmYWNldCBBUEk8aHR0cHM6Ly9sdWNlbmUuYXBhY2hlLm9yZy9zb2xyL2d1aWRlLzdfNy9mYWNldGluZy5odG1sI2dlbmVyYWwtZmFjZXQtcGFyYW1ldGVycz5gXyBhbmQgdGhlIApgSlNPTiBmYWNldCBBUEk8aHR0cHM6Ly9sdWNlbmUuYXBhY2hlLm9yZy9zb2xyL2d1aWRlLzdfNy9qc29uLWZhY2V0LWFwaS5odG1sI3Rlcm1zLWZhY2V0PmBfLgo=</text>
+        <text encoding="base64">Ci4uIGNvZGUtYmxvY2s6OiBub25lCgogICAgIyAvYXBpL2luc3RhbmNlcyBmaWx0ZXI6IGNhcnMKICAgIFsKICAgICAgICBjYXJfMTogCiAgICAgICAgICAgIGJyYW5kOiBBdWRpCiAgICAgICAgICAgIGNvbG9yOiBncmV5CiAgICAgICAgICAgIGhwOiAyMDAKICAgICAgICAgICAgcHJpY2U6IDUwMDAwCiAgICAgICAgY2FyXzI6IAogICAgICAgIC4uLgogICAgXQo=</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">Rm9yIGEgY2F0ZWdvcmljYWwgZmFjZXQsIG9yIHRlcm1zIGZhY2V0LCB0aGUgZmlsdGVyIGlzIHRyYW5zbGF0ZWQgaW50byBhIApgRmFjZXR0aW5nIDxodHRwczovL2x1Y2VuZS5hcGFjaGUub3JnL3NvbHIvZ3VpZGUvN183L2ZhY2V0aW5nLmh0bWwjZ2VuZXJhbC1mYWNldC1wYXJhbWV0ZXJzPmBf</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgYnJhbmQ6IEF1ZGkKICAgICAgICAgICAgY29sb3I6IGdyZXkKICAgICAgICAgICAgaHA6IDIwMAogICAgICAgICAgICBwcmljZTogNTAwMDAKICAgICAgICBjYXJfMjogCiAgICAgICAgLi4uCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">YFNvbHIgdGVybXMgZmFjZXQgcXVlcnk8aHR0cHM6Ly9sdWNlbmUuYXBhY2hlLm9yZy9zb2xyL2d1aWRlLzdfNy9qc29uLWZhY2V0LWFwaS5odG1sI3Rlcm1zLWZhY2V0PmBfIHdoZW5ldmVyIHBvc3NpYmxlLiAK</text>
+        <text encoding="base64">CkluIHRoZSB2ZXJzaW9uIG9mIFNvbHIgdXNlZCBieSB8ZHF8LCB0d28gZmFjZXR0aW5nIEFQSXMgY2FuIGJlIHVzZWQ6IHRoZSAKYGNsYXNzaWNhbCBmYWNldCBBUEk8aHR0cHM6Ly9sdWNlbmUuYXBhY2hlLm9yZy9zb2xyL2d1aWRlLzdfNy9mYWNldGluZy5odG1sI2dlbmVyYWwtZmFjZXQtcGFyYW1ldGVycz5gXyBhbmQgdGhlIApgSlNPTiBmYWNldCBBUEk8aHR0cHM6Ly9sdWNlbmUuYXBhY2hlLm9yZy9zb2xyL2d1aWRlLzdfNy9qc29uLWZhY2V0LWFwaS5odG1sI3Rlcm1zLWZhY2V0PmBfLgo=</text>
       </register>
       <register name=":" type="4">
         <text>196</text>
