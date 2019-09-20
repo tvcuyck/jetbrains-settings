@@ -382,6 +382,7 @@
         <mark key="]" line="10" column="5" />
         <mark key="." line="10" column="5" />
       </file>
+      <file name="$USER_HOME$/Disqover/documentation/source/architecture-design/glossary.rst" timestamp="1568971730468" />
       <file name="$USER_HOME$/Disqover/documentation2/source/sysadmin-manual/configuration/Exports.rst" timestamp="1561385512726">
         <mark key="[" line="7" column="14" />
         <mark key="]" line="7" column="0" />
@@ -446,11 +447,11 @@
         <mark key="^" line="42" column="0" />
         <mark key="." line="42" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/documentation/source/architecture-design/backend/data_querying.inc" timestamp="1568969704856">
-        <mark key="[" line="192" column="42" />
-        <mark key="]" line="192" column="41" />
-        <mark key="^" line="192" column="41" />
-        <mark key="." line="192" column="41" />
+      <file name="$USER_HOME$/Disqover/documentation/source/architecture-design/backend/data_querying.inc" timestamp="1568973000891">
+        <mark key="[" line="247" column="2" />
+        <mark key="]" line="239" column="6" />
+        <mark key="." line="239" column="6" />
+        <mark key="^" line="239" column="6" />
       </file>
       <file name="$USER_HOME$/Disqover/documentation/source/sysadmin-manual/index.rst" timestamp="1567585676023">
         <mark key="[" line="9" column="5" />
@@ -601,7 +602,7 @@
         <mark key="]" line="21" column="0" />
         <mark key="." line="21" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1568968124353">
+      <file name="/Dummy.txt" timestamp="1568973618295">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -725,10 +726,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">KiA6a2xhc3M6YG1ldGlzLmluZGV4aW5nLmRpc3FvdmVyX2Nhbm9uaWNhbF90eXBlLkRpc3FvdmVyQ2Fub25pY2FsVHlwZWAK</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="-" type="4">
-        <text>systctl -a | grep all.forwarding</text>
+        <text>?</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDwqXD4=</text>
@@ -736,33 +737,32 @@
       <register name="0" type="2">
         <text encoding="base64">KiA6a2xhc3M6YG1ldGlzLmluZGV4aW5nLmRpc3FvdmVyX2Nhbm9uaWNhbF90eXBlLkRpc3FvdmVyQ2Fub25pY2FsVHlwZWAK</text>
       </register>
-      <register name="1" type="8">
-        <text>see :ref:`metis_indexing_section`.</text>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">QWRkIHRleHQgcm9sZSBmb3IgY2xhc3MK</text>
+        <text encoding="base64">ICAgICAgY2FjaGVkX3Jlc3VsdAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBdZGQK</text>
+        <text encoding="base64">ICAgIGVuZAo=</text>
       </register>
-      <register name="4" type="4">
-        <text>Similar documents are used
-to define the facets, type links, relation types and subtypes. They have the following canonical types</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgdW5sZXNzIHJlc3VsdC5uaWwKICAgICAgICBiZWdpbgogICAgICAgICAgICByZXR1cm4gTWFyc2hhbDo6bG9hZChyZXN1bHQucmVzdWx0KQogICAgICAgIHJlc2N1ZQogICAgICAgICAgcmVzdWx0ID0gbmlsCiAgICAgICAgZW5kCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CiogZmFjZXRzOiBgYDxmYWNldF9jdD5gYAoqIHR5cGUgbGlua3M6IGBgPHR5cGVfbGlua19jdD5gYAoqIHJlbGF0aW9uIHR5cGVzOiBgYDxyZWxhdGlvbl90eXBlX2N0PmBgCiogc3VidHlwZTogYGA8c3ViX3R5cGVfY3Q+YGAK</text>
+        <text encoding="base64">ICAgICAgICBiZWdpbgogICAgICAgICAgICByZXR1cm4gTWFyc2hhbDo6bG9hZChyZXN1bHQucmVzdWx0KQogICAgICAgIHJlc2N1ZQogICAgICAgICAgcmVzdWx0ID0gbmlsCiAgICAgICAgZW5kCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBdCg==</text>
+        <text encoding="base64">ICAgIGRlZiBnZXRfc3ViZmFjZXRzKG5lc3RlZF9mYWNldHMsIGZpbHRlciwgb3B0aW9ucykK</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZGVzY3JpcHRpb246IC4uLiwK</text>
+      <register name="7" type="8">
+        <text encoding="base64">ICAKICAKICAKICAKICAKICA=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgLi4uCg==</text>
+      <register name="8" type="8">
+        <text encoding="base64">ICAKICAKICAKICAKICAKICAKICAKICA=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWNvbjogZm9udC1hd2Vzb21lIGljb24sCg==</text>
+      <register name="9" type="8">
+        <text>see :ref:`metis_indexing_section`.</text>
       </register>
       <register name=":" type="4">
         <text>196</text>
