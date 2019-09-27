@@ -51,6 +51,7 @@
         <mark key="]" line="8" column="0" />
         <mark key="." line="8" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/fixtures/to_remove/roles_data.sparql" timestamp="1569586493517" />
       <file name="$USER_HOME$/Disqover/rails5-backend/script/store_log_stats.sh" timestamp="1566484363979">
         <mark key="[" line="8" column="0" />
         <mark key="]" line="8" column="0" />
@@ -195,10 +196,6 @@
         <mark key="^" line="46" column="28" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/lens_item.rb" timestamp="1569249149119" />
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" timestamp="1569481545605">
-        <mark key="[" line="11" column="0" />
-        <mark key="]" line="12" column="21" />
-      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/collection_service.rb" timestamp="1569240479435">
         <mark key="[" line="23" column="28" />
         <mark key="]" line="48" column="52" />
@@ -280,10 +277,6 @@
         <mark key="." line="0" column="27" />
         <mark key="^" line="0" column="10" />
       </file>
-      <file name="/Jenkinsfile" timestamp="1569310376095">
-        <mark key="[" line="0" column="35" />
-        <mark key="]" line="21" column="51" />
-      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/lens_property.rb" timestamp="1569575385915">
         <mark key="'" line="10" column="12" />
         <mark key="[" line="22" column="15" />
@@ -304,6 +297,11 @@
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/filter.rb" timestamp="1558005152994">
         <mark key="[" line="18" column="47" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/fixtures/metis_pipeline_test_data/rspec_pipeline.yml" timestamp="1569587068094">
+        <mark key="[" line="1679" column="43" />
+        <mark key="]" line="1692" column="18" />
+        <mark key="." line="1679" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/facet_configuration_repository.rb" timestamp="1569575403274" />
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/fixtures/metis_configurations/subinstances_config.sparql" timestamp="1569410415866" />
@@ -386,6 +384,11 @@
       <file name="$USER_HOME$/Disqover/documentation2/sphinx/source/conf.py" timestamp="1561127967776">
         <mark key="[" line="63" column="16" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/repositories/solr_data_entry_repository_spec.rb" timestamp="1569586686371">
+        <mark key="[" line="955" column="61" />
+        <mark key="]" line="944" column="0" />
+        <mark key="." line="944" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/.docker/test/env" timestamp="1569575678200">
         <mark key="[" line="26" column="90" />
         <mark key="]" line="26" column="25" />
@@ -398,6 +401,12 @@
         <mark key="." line="8" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/env_service.rb" timestamp="1569397030508" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/factories/filter.rb" timestamp="1569586566979">
+        <mark key="[" line="546" column="87" />
+        <mark key="]" line="546" column="72" />
+        <mark key="." line="546" column="72" />
+        <mark key="^" line="546" column="72" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/config/environments/development.rb" timestamp="1559295696566">
         <mark key="[" line="10" column="58" />
       </file>
@@ -525,10 +534,6 @@
         <mark key="]" line="60" column="67" />
         <mark key="." line="60" column="67" />
         <mark key="^" line="60" column="67" />
-      </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/visitors/federation_filter_visitor_spec.rb" timestamp="1569481321687">
-        <mark key="[" line="22" column="0" />
-        <mark key="]" line="28" column="11" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/filter/facet_present_node_spec.rb" timestamp="1566472092296">
         <mark key="[" line="25" column="52" />
@@ -715,43 +720,43 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgIGV4YWN0X21hdGNoID0gc2VtYW50aWNfc2VhcmNoCg==</text>
+        <text encoding="base64">ICAtIGNvbXBvbmVudF9ndWlkOiBhMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDEwMDcKICAgIHBpcGVsaW5lX2d1aWQ6IDAzNzZhMDc0LWU0NzAtNDg1Yi05YWRlLTNiZjU4NjFkYmMwNQogICAgYWN0aW9uX29wdGlvbnM6CiAgICAgIGFjdGlvbjogc2V0X3N1YmplY3RfbGFiZWwKICAgICAgbWV0YWRhdGE6IG51bGwKICAgICAgYWxpZ25tZW50OiBjdXJzZXMKICAgICAgYWN0aW9uX2d1aWQ6IGEwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMTAwNwogICAgICBwcmVkZWNlc3NvcnM6CiAgICAgICAgLSBhMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDEwMDEKICAgICAgbmV3X3ByZWZlcnJlZDogdHJ1ZQogICAgICBwaXBlbGluZV9ndWlkOiAwMzc2YTA3NC1lNDcwLTQ4NWItOWFkZS0zYmY1ODYxZGJjMDUKICAgICAgY29tcG9uZW50X2d1aWQ6IGEwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMTAwNwogICAgICBzb3VyY2VfcHJlZGljYXRlOiAnY3Vyc2U6cHJlZkxhYmVsJwogICAgbWV0YWRhdGE6IG51bGwK</text>
       </register>
       <register name="-" type="4">
-        <text>SOLR_ROWS = 5000</text>
+        <text>s</text>
       </register>
       <register name="/" type="4">
         <text>canonical_type</text>
       </register>
-      <register name="0" type="8">
-        <text>semantic_search.gsub(&quot;'&quot;,&quot;\\'&quot;)</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAtIGNvbXBvbmVudF9ndWlkOiBhMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDEwMDcKICAgIHBpcGVsaW5lX2d1aWQ6IDAzNzZhMDc0LWU0NzAtNDg1Yi05YWRlLTNiZjU4NjFkYmMwNQogICAgYWN0aW9uX29wdGlvbnM6CiAgICAgIGFjdGlvbjogc2V0X3N1YmplY3RfbGFiZWwKICAgICAgbWV0YWRhdGE6IG51bGwKICAgICAgYWxpZ25tZW50OiBjdXJzZXMKICAgICAgYWN0aW9uX2d1aWQ6IGEwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMTAwNwogICAgICBwcmVkZWNlc3NvcnM6CiAgICAgICAgLSBhMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDEwMDEKICAgICAgbmV3X3ByZWZlcnJlZDogdHJ1ZQogICAgICBwaXBlbGluZV9ndWlkOiAwMzc2YTA3NC1lNDcwLTQ4NWItOWFkZS0zYmY1ODYxZGJjMDUKICAgICAgY29tcG9uZW50X2d1aWQ6IGEwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMTAwNwogICAgICBzb3VyY2VfcHJlZGljYXRlOiAnY3Vyc2U6cHJlZkxhYmVsJwogICAgbWV0YWRhdGE6IG51bGwK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgIGV4YWN0X21hdGNoID0gc2VtYW50aWNfc2VhcmNoCg==</text>
+        <text encoding="base64">ICAgICAgICBsZXQoOmNvbnN0cmFpbnRzX2N1cnNlKSB7U3R1Yjo6RmlsdGVyLnJvbGVfY3Vyc2V9Cg==</text>
       </register>
       <register name="2" type="8">
-        <text>semantic_search.gsub(&quot;'&quot;){&quot;\\'&quot;}</text>
+        <text>Stub::Filter.role_person</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgIFJhaWxzLmxvZ2dlci5kZWJ1ZyhzZW1hbnRpY19zZWFyY2gpCiAgICAgICAgICBSYWlscy5sb2dnZXIuZGVidWcoc2VtYW50aWNfc2VhcmNoLmdzdWIoIiciLCJcXCciKSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgYWxsb3dfYW55X2luc3RhbmNlX29mKENvbGxlY3Rpb25TZXJ2aWNlKS50byByZWNlaXZlKDp1c2VyX2dyb3VwcykuYW5kX3JldHVybihbJ2NoaWxkcmVuJ10pCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">RlJPTlRFTkRfTE9HX0RJUj0vaG9tZS90b20vRGlzcW92ZXIvYmFja2VuZC1uby12aXJ0dW9zby8uZG9ja2VyL3Rlc3QvZGF0YS9mcm9udGVuZC9sb2dzLwo=</text>
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">RlJPTlRFTkRfQ09ORklHX0RJUj0vaG9tZS90b20vRGlzcW92ZXIvYmFja2VuZC1uby12aXJ0dW9zby9kaXNxb3Zlci1kb2NrZXIvY29uZmlnL2Zyb250ZW5kCg==</text>
+        <text encoding="base64">ICAgICAgICAgIGV4YWN0X21hdGNoID0gc2VtYW50aWNfc2VhcmNoCg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">CiAgTUFYX1NPTFJfUk9XUyA9IDUwMDAK</text>
+      <register name="6" type="8">
+        <text>semantic_search.gsub(&quot;'&quot;){&quot;\\'&quot;}</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICBNQVhfCg==</text>
+        <text encoding="base64">ICAgICAgICAgIFJhaWxzLmxvZ2dlci5kZWJ1ZyhzZW1hbnRpY19zZWFyY2gpCiAgICAgICAgICBSYWlscy5sb2dnZXIuZGVidWcoc2VtYW50aWNfc2VhcmNoLmdzdWIoIiciLCJcXCciKSkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CiAgTUFYX1NPTFJfUk9XUyA9IDUwMDAK</text>
+        <text encoding="base64">RlJPTlRFTkRfTE9HX0RJUj0vaG9tZS90b20vRGlzcW92ZXIvYmFja2VuZC1uby12aXJ0dW9zby8uZG9ja2VyL3Rlc3QvZGF0YS9mcm9udGVuZC9sb2dzLwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CiAgTUFYX1NPTFJfUk9XUyA9IDUwMDAK</text>
+        <text encoding="base64">RlJPTlRFTkRfQ09ORklHX0RJUj0vaG9tZS90b20vRGlzcW92ZXIvYmFja2VuZC1uby12aXJ0dW9zby9kaXNxb3Zlci1kb2NrZXIvY29uZmlnL2Zyb250ZW5kCg==</text>
       </register>
       <register name=":" type="4">
         <text>89</text>
