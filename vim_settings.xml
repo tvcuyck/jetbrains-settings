@@ -173,6 +173,12 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/filter/to_relations_node_spec.rb" timestamp="1566467151140">
         <mark key="[" line="2" column="74" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/solr_data_entry_repository.rb" timestamp="1569582361061">
+        <mark key="[" line="69" column="30" />
+        <mark key="]" line="69" column="60" />
+        <mark key="^" line="69" column="28" />
+        <mark key="." line="69" column="29" />
+      </file>
       <file name="/Python Console" timestamp="1561114874050">
         <mark key="[" line="0" column="0" />
       </file>
@@ -499,7 +505,7 @@
         <mark key="^" line="29" column="32" />
         <mark key="." line="29" column="32" />
       </file>
-      <file name="/Ruby Console" timestamp="1569506506364">
+      <file name="/Ruby Console" timestamp="1569582151833">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/managed_file.rb" timestamp="1567421412786">
@@ -708,8 +714,8 @@
       <jump line="10" column="12" filename="$USER_HOME$/Disqover/rails5-backend/app/models/lens_property.rb" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">RlJPTlRFTkRfTE9HX0RJUj0vaG9tZS90b20vRGlzcW92ZXIvYmFja2VuZC1uby12aXJ0dW9zby8uZG9ja2VyL3Rlc3QvZGF0YS9mcm9udGVuZC9sb2dzLwo=</text>
+      <register name="&quot;" type="8">
+        <text>semantic_search.gsub(&quot;'&quot;,&quot;\\'&quot;)</text>
       </register>
       <register name="-" type="4">
         <text>SOLR_ROWS = 5000</text>
@@ -717,8 +723,8 @@
       <register name="/" type="4">
         <text>canonical_type</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">ICBNQVhfU09MUl9ST1dTID0gNTAwMAo=</text>
+      <register name="0" type="8">
+        <text>semantic_search.gsub(&quot;'&quot;,&quot;\\'&quot;)</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">RlJPTlRFTkRfTE9HX0RJUj0vaG9tZS90b20vRGlzcW92ZXIvYmFja2VuZC1uby12aXJ0dW9zby8uZG9ja2VyL3Rlc3QvZGF0YS9mcm9udGVuZC9sb2dzLwo=</text>
