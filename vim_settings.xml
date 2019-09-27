@@ -196,9 +196,12 @@
         <mark key="^" line="46" column="28" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/lens_item.rb" timestamp="1569249149119" />
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" timestamp="1569594904764">
-        <mark key="[" line="11" column="0" />
-        <mark key="]" line="12" column="21" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" timestamp="1569596062829">
+        <mark key="'" line="2501" column="63" />
+        <mark key="[" line="2487" column="73" />
+        <mark key="]" line="2501" column="63" />
+        <mark key="^" line="2501" column="63" />
+        <mark key="." line="2501" column="63" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/collection_service.rb" timestamp="1569593350107">
         <mark key="[" line="22" column="59" />
@@ -275,15 +278,11 @@
       <file name="$USER_HOME$/Disqover/documentation/source/sysadmin-manual/HowTo.rst" timestamp="1560950813430">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/fragment.rb" timestamp="1569587935164">
+      <file name="/fragment.rb" timestamp="1569595430059">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="27" />
         <mark key="." line="0" column="27" />
         <mark key="^" line="0" column="10" />
-      </file>
-      <file name="/Jenkinsfile" timestamp="1569310376095">
-        <mark key="[" line="0" column="35" />
-        <mark key="]" line="21" column="51" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/disqover-docker/scripts/disqover_setup.sh" timestamp="1569396281838">
         <mark key="[" line="128" column="0" />
@@ -379,6 +378,13 @@
         <mark key="]" line="12" column="0" />
         <mark key="." line="12" column="0" />
         <mark key="^" line="12" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/facet.rb" timestamp="1569244483873">
+        <mark key="'" line="110" column="24" />
+        <mark key="[" line="109" column="6" />
+        <mark key="]" line="208" column="51" />
+        <mark key="." line="208" column="51" />
+        <mark key="^" line="208" column="51" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/solr_candidate_facet_repository.rb" timestamp="1568300996978">
         <mark key="[" line="222" column="68" />
@@ -504,7 +510,7 @@
         <mark key="^" line="29" column="32" />
         <mark key="." line="29" column="32" />
       </file>
-      <file name="/Ruby Console" timestamp="1569587912755">
+      <file name="/Ruby Console" timestamp="1569595415958">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/managed_file.rb" timestamp="1567421412786">
@@ -524,10 +530,6 @@
         <mark key="]" line="60" column="67" />
         <mark key="." line="60" column="67" />
         <mark key="^" line="60" column="67" />
-      </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/visitors/federation_filter_visitor_spec.rb" timestamp="1569481321687">
-        <mark key="[" line="22" column="0" />
-        <mark key="]" line="28" column="11" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/filter/facet_present_node_spec.rb" timestamp="1566472092296">
         <mark key="[" line="25" column="52" />
@@ -711,10 +713,11 @@
       <jump line="111" column="0" filename="$USER_HOME$/Disqover/rails5-backend/spec/repositories/facet_configuration_repository_spec.rb" />
       <jump line="110" column="24" filename="$USER_HOME$/Disqover/rails5-backend/app/models/facet.rb" />
       <jump line="10" column="12" filename="$USER_HOME$/Disqover/rails5-backend/app/models/lens_property.rb" />
+      <jump line="2501" column="63" filename="$USER_HOME$/Disqover/rails5-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">CiAgZGVzY3JpYmUgIiNoYXNfcm9sZXM/IiBkbwogICAgaXQgImNhbGxzIENvbmZpZ3VyYXRpb25HcmFwaCIgZG8KICAgICAgZXhwZWN0KENvbmZpZ3VyYXRpb25HcmFwaCkudG8gcmVjZWl2ZSg6aGFzX3JvbGVzPykKICAgICAgc3ViamVjdC5oYXNfcm9sZXM/CiAgICBlbmQKICBlbmQK</text>
+        <text encoding="base64">CiAgICAgIGRlc2NyaWJlICdmYWNldCBkYXRhc291cmNlIGF0IGluc3RhbmNlIGxldmVsJyBkbwogICAgICAgIGxldCg6cmVzdWx0KXsgc3ViamVjdC5jYW5kaWRhdGVfZmFjZXRzKFtGYWNldC5kYXRhc2V0X2ZhY2V0XSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA6OkZpbHRlci5yb290KEZpbHRlci5pbnN0YW5jZXMoaWRzOiBbJ2h0dHA6Ly9yb2xlcy5vcmcvcGVyc29uLzUnXSkpKS5zaW5nbGUgfQogICAgICAgIGl0ICdjb3VudHMgdGhlIG1hdGNoaW5nIHRlcm1zIG5vIGdyb3VwcycgZG8KICAgICAgICAgIGlfYW1faW4oIFtdKQogICAgICAgICAgZXhwZWN0KHJlc3VsdC5kaXN0aW5jdF9jb3VudCkudG8gZXEgMQogICAgICAgICAgZXhwZWN0KHJlc3VsdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzLmNvdW50KS50byBlcSAxCiAgICAgICAgICBleHBlY3QocmVzdWx0LmNhbmRpZGF0ZV9mYWNldF92YWx1ZXNbMF0uY291bnQpLnRvIGVxIDEKICAgICAgICAgIGV4cGVjdChyZXN1bHQuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlc1swXS5sYWJlbCkudG8gZXEgIkFub255bWl6ZWQgcGVvcGxlIgogICAgICAgIGVuZAogICAgICAgIAogICAgICAgIGl0ICdjb3VudHMgdGhlIG1hdGNoaW5nIHRlcm1zIG1kcycgZG8KICAgICAgICAgIGlfYW1faW4oIFsnbWRzJ10pCiAgICAgICAgICBleHBlY3QocmVzdWx0LmRpc3RpbmN0X2NvdW50KS50byBlcSAyCiAgICAgICAgICBleHBlY3QocmVzdWx0LmNhbmRpZGF0ZV9mYWNldF92YWx1ZXMuY291bnQpLnRvIGVxIDIKICAgICAgICAgIGV4cGVjdChyZXN1bHQuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlc1swXS5jb3VudCkudG8gZXEgMQogICAgICAgICAgZXhwZWN0KHJlc3VsdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzWzBdLmxhYmVsKS50byBlcSAiQW5vbnltaXplZCBwZW9wbGUiCiAgICAgICAgICBleHBlY3QocmVzdWx0LmNhbmRpZGF0ZV9mYWNldF92YWx1ZXNbMV0uY291bnQpLnRvIGVxIDEKICAgICAgICAgIGV4cGVjdChyZXN1bHQuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlc1sxXS5sYWJlbCkudG8gZXEgIlByaXZhdGUgcGVvcGxlIgogICAgICAgIGVuZAogICAgICBlbmQK</text>
       </register>
       <register name="-" type="4">
         <text>s</text>
@@ -723,7 +726,7 @@
         <text>canonical_type</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgIGV4cGVjdChwcm9wX3ZhbC5tYXAoJjp2YWx1ZSkpLnRvIGluY2x1ZGUoU3BhcnFsOjpTdHJpbmdWYWx1ZS5uZXcoJzEnKSkK</text>
+        <text encoding="base64">CiAgICAgIGRlc2NyaWJlICdmYWNldCBkYXRhc291cmNlIGF0IGluc3RhbmNlIGxldmVsJyBkbwogICAgICAgIGxldCg6cmVzdWx0KXsgc3ViamVjdC5jYW5kaWRhdGVfZmFjZXRzKFtGYWNldC5kYXRhc2V0X2ZhY2V0XSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA6OkZpbHRlci5yb290KEZpbHRlci5pbnN0YW5jZXMoaWRzOiBbJ2h0dHA6Ly9yb2xlcy5vcmcvcGVyc29uLzUnXSkpKS5zaW5nbGUgfQogICAgICAgIGl0ICdjb3VudHMgdGhlIG1hdGNoaW5nIHRlcm1zIG5vIGdyb3VwcycgZG8KICAgICAgICAgIGlfYW1faW4oIFtdKQogICAgICAgICAgZXhwZWN0KHJlc3VsdC5kaXN0aW5jdF9jb3VudCkudG8gZXEgMQogICAgICAgICAgZXhwZWN0KHJlc3VsdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzLmNvdW50KS50byBlcSAxCiAgICAgICAgICBleHBlY3QocmVzdWx0LmNhbmRpZGF0ZV9mYWNldF92YWx1ZXNbMF0uY291bnQpLnRvIGVxIDEKICAgICAgICAgIGV4cGVjdChyZXN1bHQuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlc1swXS5sYWJlbCkudG8gZXEgIkFub255bWl6ZWQgcGVvcGxlIgogICAgICAgIGVuZAogICAgICAgIAogICAgICAgIGl0ICdjb3VudHMgdGhlIG1hdGNoaW5nIHRlcm1zIG1kcycgZG8KICAgICAgICAgIGlfYW1faW4oIFsnbWRzJ10pCiAgICAgICAgICBleHBlY3QocmVzdWx0LmRpc3RpbmN0X2NvdW50KS50byBlcSAyCiAgICAgICAgICBleHBlY3QocmVzdWx0LmNhbmRpZGF0ZV9mYWNldF92YWx1ZXMuY291bnQpLnRvIGVxIDIKICAgICAgICAgIGV4cGVjdChyZXN1bHQuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlc1swXS5jb3VudCkudG8gZXEgMQogICAgICAgICAgZXhwZWN0KHJlc3VsdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzWzBdLmxhYmVsKS50byBlcSAiQW5vbnltaXplZCBwZW9wbGUiCiAgICAgICAgICBleHBlY3QocmVzdWx0LmNhbmRpZGF0ZV9mYWNldF92YWx1ZXNbMV0uY291bnQpLnRvIGVxIDEKICAgICAgICAgIGV4cGVjdChyZXN1bHQuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlc1sxXS5sYWJlbCkudG8gZXEgIlByaXZhdGUgcGVvcGxlIgogICAgICAgIGVuZAogICAgICBlbmQK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CiAgZGVzY3JpYmUgIiNoYXNfcm9sZXM/IiBkbwogICAgaXQgImNhbGxzIENvbmZpZ3VyYXRpb25HcmFwaCIgZG8KICAgICAgZXhwZWN0KENvbmZpZ3VyYXRpb25HcmFwaCkudG8gcmVjZWl2ZSg6aGFzX3JvbGVzPykKICAgICAgc3ViamVjdC5oYXNfcm9sZXM/CiAgICBlbmQKICBlbmQK</text>
