@@ -59,9 +59,6 @@
       </file>
       <file name="$USER_HOME$/Disqover/metis/src/metis/actions/components/synchronize_action.py" timestamp="1570787555103">
         <mark key="[" line="20" column="68" />
-        <mark key="]" line="393" column="36" />
-        <mark key="^" line="393" column="36" />
-        <mark key="." line="393" column="36" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/config/database.yml.docker" timestamp="1560859818390">
         <mark key="[" line="47" column="0" />
@@ -113,6 +110,11 @@
         <mark key="]" line="7" column="0" />
         <mark key="." line="7" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/src/metis/pipeline.py" timestamp="1570801711982">
+        <mark key="[" line="304" column="0" />
+        <mark key="]" line="304" column="0" />
+        <mark key="." line="304" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/documentation2/source/sysadmin-manual/configuration/Signup.rst" timestamp="1561377788908">
         <mark key="[" line="3" column="12" />
         <mark key="]" line="6" column="0" />
@@ -141,12 +143,6 @@
         <mark key="[" line="141" column="0" />
         <mark key="]" line="141" column="0" />
         <mark key="." line="141" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/metis/tests/integration/test_federation_sync_spec.py" timestamp="1570788461327">
-        <mark key="[" line="10" column="46" />
-        <mark key="]" line="51" column="0" />
-        <mark key="." line="51" column="0" />
-        <mark key="^" line="43" column="8" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/index_tools/nt_to_json_chunks.rb" timestamp="1560953726441">
         <mark key="[" line="1" column="0" />
@@ -188,6 +184,12 @@
         <mark key="[" line="135" column="0" />
         <mark key="]" line="135" column="0" />
         <mark key="." line="135" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/tests/spec/test_pipeline_spec.py" timestamp="1570801833052">
+        <mark key="[" line="1104" column="78" />
+        <mark key="]" line="1090" column="68" />
+        <mark key="^" line="1090" column="68" />
+        <mark key="." line="1090" column="68" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/tests/spec/actions/commands/test_generate_configuration_action_spec.py" timestamp="1570547404870">
         <mark key="[" line="129" column="111" />
@@ -235,6 +237,12 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/tests/spec/test_metis_settings_spec.py" timestamp="1570801764521">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="0" />
+        <mark key="^" line="6" column="110" />
+        <mark key="." line="6" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/README.md" timestamp="1567522239683">
         <mark key="[" line="12" column="0" />
@@ -289,9 +297,6 @@
         <mark key="]" line="21" column="0" />
         <mark key="." line="21" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/Jenkinsfile" timestamp="1570620884390">
-        <mark key="[" line="55" column="26" />
-      </file>
       <file name="$USER_HOME$/Disqover/metis/tests/spec/actions/components/test_create_canonical_type_action_spec.py" timestamp="1570704567866">
         <mark key="[" line="178" column="0" />
         <mark key="]" line="178" column="0" />
@@ -329,7 +334,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAiaG9zdCI6ICJodHRwczovL2ZlZGVyYXRpb24uZGlzcW92ZXIuY29tLyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgInVzZXIiOiAicHJldmlldzEyQG9udG9mb3JjZS5jb20iLAogICAgICAgICAgICAgICAgICAgICAgICAgICJwYXNzd29yZCI6ICJMWVJiNkR2NkhaUmJLMmtNUElrb3Z3PT0iLAo=</text>
+        <text encoding="base64">ZnJvbSBleHBlY3RzIGltcG9ydCBleHBlY3QsIGVxdWFsLCBiZV9mYWxzZSwgYmVfYWJvdmUsIGJlX3RydWUsIHJhaXNlX2Vycm9yLCBtYXRjaCwgYmVfbm9uZSwgYmVfYSwgYmUK</text>
       </register>
       <register name="-" type="4">
         <text>uris</text>
@@ -341,34 +346,34 @@
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgImhvc3QiOiAieHh4IiwKICAgICAgICAgICAgICAgICAgInVzZXIiOiAieHh4IiwKICAgICAgICAgICAgICAgICAgInBhc3N3b3JkIjogInh4eCIsCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAiaG9zdCI6ICJodHRwczovL2ZlZGVyYXRpb24uZGlzcW92ZXIuY29tLyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgInVzZXIiOiAicHJldmlldzEyQG9udG9mb3JjZS5jb20iLAogICAgICAgICAgICAgICAgICAgICAgICAgICJwYXNzd29yZCI6ICJMWVJiNkR2NkhaUmJLMmtNUElrb3Z3PT0iLAo=</text>
+        <text encoding="base64">ZnJvbSBleHBlY3RzIGltcG9ydCBleHBlY3QsIGVxdWFsLCBiZV9mYWxzZSwgYmVfYWJvdmUsIGJlX3RydWUsIHJhaXNlX2Vycm9yLCBtYXRjaCwgYmVfbm9uZSwgYmVfYSwgYmUK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZnJvbSBpbnRlZ3JhdGlvbi50ZXN0X2ZlZGVyYXRpb25fc3luY19zcGVjIGltcG9ydCBtb2NrX2RvX3JlcXVlc3QK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW5kZXhfb25fZXJyb3I9c2VsZi5pbmRleF9vbl9lcnJvciwK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAiaG9zdCI6ICJodHRwczovL2ZlZGVyYXRpb24uZGlzcW92ZXIuY29tLyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgInVzZXIiOiAicHJldmlldzEyQG9udG9mb3JjZS5jb20iLAogICAgICAgICAgICAgICAgICAgICAgICAgICJwYXNzd29yZCI6ICJMWVJiNkR2NkhaUmJLMmtNUElrb3Z3PT0iLAo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">CgpkZWYgbW9ja191cmlfc3luYygqYXJncywgKiprd2FyZ3MpOgogICAgaWYgbm90IGt3YXJnc1sndXJpcyddOgogICAgICAgIHJldHVybiB7fQogICAgZWxzZToKICAgICAgICByZXR1cm4gewogICAgICAgICAgICAnaHR0cDovL3d3dy5uY2JpLm5sbS5uaWguZ292L2dlbmUvNzE1Nyc6IFsKICAgICAgICAgICAgICAgIHsnY2Fub25pY2FsX3R5cGVzJzogWydodHRwOi8vbnMub250b2ZvcmNlLmNvbS9vbnRvbG9naWVzL2ludGVncmF0aW9uX29udG9sb2d5I0dlbmUnXSwgJ2xhYmVsJzogJ1RQNTMgW0hvbW8gc2FwaWVuc10nLCAncHJlZlVyaSc6ICdodHRwOi8vd3d3Lm5jYmkubmxtLm5paC5nb3YvZ2VuZS83MTU3J30KICAgICAgICAgICAgXX0KCgpkZWYgbW9ja19sYWJlbF9zeW5jKCphcmdzLCAqKmt3YXJncyk6CiAgICBpZiBub3Qga3dhcmdzWyd0b19tYXRjaCddOgogICAgICAgIHJldHVybiB7fQogICAgZWxzZToKICAgICAgICByZXR1cm4gewogICAgICAgICAgICAnaHR0cDovL25zLm9udG9mb3JjZS5jb20vb250b2xvZ2llcy9vdGhlci9hY2luZXRvYmFjdGVyX2luZmVjdGlvbnMnOiBbeydsYWJlbCc6ICdBY2luZXRvYmFjdGVyIEluZmVjdGlvbnMnLCAncHJlZlVyaSc6ICdodHRwOi8vaWQubmxtLm5paC5nb3YvbWVzaC9EMDAwMTUxJywgJ2Nhbm9uaWNhbF90eXBlcyc6IFsnaHR0cDovL25zLm9udG9mb3JjZS5jb20vb250b2xvZ2llcy9pbnRlZ3JhdGlvbl9vbnRvbG9neSNEaXNlYXNlJ10sICducl9vZl9kYXRhc2V0cyc6IDl9XSwKICAgICAgICAgICAgJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL29udG9sb2dpZXMvb3RoZXIvYWN0aW5vbXljb3Npcyc6IFsKICAgICAgICAgICAgICAgIHsnbGFiZWwnOiAnQWN0aW5vbXljb3NpcycsICdwcmVmVXJpJzogJ2h0dHA6Ly9pZGVudGlmaWVycy5vcmcvdW1scy9DMDAwMTI2MScsICdjYW5vbmljYWxfdHlwZXMnOiBbJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL29udG9sb2dpZXMvaW50ZWdyYXRpb25fb250b2xvZ3kjRGlzZWFzZSddLCAnbnJfb2ZfZGF0YXNldHMnOiAxNH0sCiAgICAgICAgICAgICAgICB7J2xhYmVsJzogJ0FjdGlub215Y29zZXMnLCAncHJlZlVyaSc6ICdodHRwOi8vd3d3Lm9ycGhhLm5ldC9PUkRPL09ycGhhbmV0XzQ1NzA5NScsICdjYW5vbmljYWxfdHlwZXMnOiBbJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL29udG9sb2dpZXMvaW50ZWdyYXRpb25fb250b2xvZ3kjRGlzZWFzZSddLCAnbnJfb2ZfZGF0YXNldHMnOiAxNH0sCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgICdodHRwOi8vbnMub250b2ZvcmNlLmNvbS9vbnRvbG9naWVzL290aGVyL2JhY2lsbHVzX2NlcmV1c19pbmZlY3Rpb24nOiBbCiAgICAgICAgICAgICAgICB7J2xhYmVsJzogJ0JhY2lsbHVzIGluZmVjdGlvbicsICdwcmVmVXJpJzogJ2h0dHA6Ly9pZGVudGlmaWVycy5vcmcvdW1scy9DMDg1NDMyNycsICdjYW5vbmljYWxfdHlwZXMnOiBbJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL29udG9sb2dpZXMvaW50ZWdyYXRpb25fb250b2xvZ3kjRGlzZWFzZSddLCAnbnJfb2ZfZGF0YXNldHMnOiA0fSwKICAgICAgICAgICAgICAgIHsnbGFiZWwnOiAnQmFjdGVyaWFsIGluZmVjdGlvbiBkdWUgdG8gYmFjaWxsdXMnLCAncHJlZlVyaSc6ICdodHRwOi8vaWRlbnRpZmllcnMub3JnL3VtbHMvQzEwOTY1ODEnLCAnY2Fub25pY2FsX3R5cGVzJzogWydodHRwOi8vbnMub250b2ZvcmNlLmNvbS9vbnRvbG9naWVzL2ludGVncmF0aW9uX29udG9sb2d5I0Rpc2Vhc2UnXSwgJ25yX29mX2RhdGFzZXRzJzogNH0sCiAgICAgICAgICAgIF0KICAgICAgICB9Cgo=</text>
+        <text encoding="base64">ZnJvbSBpbnRlZ3JhdGlvbi50ZXN0X2ZlZGVyYXRpb25fc3luY19zcGVjIGltcG9ydCBtb2NrX2RvX3JlcXVlc3QK</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
+      <register name="6" type="2">
+        <text encoding="base64">CgpkZWYgbW9ja191cmlfc3luYygqYXJncywgKiprd2FyZ3MpOgogICAgaWYgbm90IGt3YXJnc1sndXJpcyddOgogICAgICAgIHJldHVybiB7fQogICAgZWxzZToKICAgICAgICByZXR1cm4gewogICAgICAgICAgICAnaHR0cDovL3d3dy5uY2JpLm5sbS5uaWguZ292L2dlbmUvNzE1Nyc6IFsKICAgICAgICAgICAgICAgIHsnY2Fub25pY2FsX3R5cGVzJzogWydodHRwOi8vbnMub250b2ZvcmNlLmNvbS9vbnRvbG9naWVzL2ludGVncmF0aW9uX29udG9sb2d5I0dlbmUnXSwgJ2xhYmVsJzogJ1RQNTMgW0hvbW8gc2FwaWVuc10nLCAncHJlZlVyaSc6ICdodHRwOi8vd3d3Lm5jYmkubmxtLm5paC5nb3YvZ2VuZS83MTU3J30KICAgICAgICAgICAgXX0KCgpkZWYgbW9ja19sYWJlbF9zeW5jKCphcmdzLCAqKmt3YXJncyk6CiAgICBpZiBub3Qga3dhcmdzWyd0b19tYXRjaCddOgogICAgICAgIHJldHVybiB7fQogICAgZWxzZToKICAgICAgICByZXR1cm4gewogICAgICAgICAgICAnaHR0cDovL25zLm9udG9mb3JjZS5jb20vb250b2xvZ2llcy9vdGhlci9hY2luZXRvYmFjdGVyX2luZmVjdGlvbnMnOiBbeydsYWJlbCc6ICdBY2luZXRvYmFjdGVyIEluZmVjdGlvbnMnLCAncHJlZlVyaSc6ICdodHRwOi8vaWQubmxtLm5paC5nb3YvbWVzaC9EMDAwMTUxJywgJ2Nhbm9uaWNhbF90eXBlcyc6IFsnaHR0cDovL25zLm9udG9mb3JjZS5jb20vb250b2xvZ2llcy9pbnRlZ3JhdGlvbl9vbnRvbG9neSNEaXNlYXNlJ10sICducl9vZl9kYXRhc2V0cyc6IDl9XSwKICAgICAgICAgICAgJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL29udG9sb2dpZXMvb3RoZXIvYWN0aW5vbXljb3Npcyc6IFsKICAgICAgICAgICAgICAgIHsnbGFiZWwnOiAnQWN0aW5vbXljb3NpcycsICdwcmVmVXJpJzogJ2h0dHA6Ly9pZGVudGlmaWVycy5vcmcvdW1scy9DMDAwMTI2MScsICdjYW5vbmljYWxfdHlwZXMnOiBbJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL29udG9sb2dpZXMvaW50ZWdyYXRpb25fb250b2xvZ3kjRGlzZWFzZSddLCAnbnJfb2ZfZGF0YXNldHMnOiAxNH0sCiAgICAgICAgICAgICAgICB7J2xhYmVsJzogJ0FjdGlub215Y29zZXMnLCAncHJlZlVyaSc6ICdodHRwOi8vd3d3Lm9ycGhhLm5ldC9PUkRPL09ycGhhbmV0XzQ1NzA5NScsICdjYW5vbmljYWxfdHlwZXMnOiBbJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL29udG9sb2dpZXMvaW50ZWdyYXRpb25fb250b2xvZ3kjRGlzZWFzZSddLCAnbnJfb2ZfZGF0YXNldHMnOiAxNH0sCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgICdodHRwOi8vbnMub250b2ZvcmNlLmNvbS9vbnRvbG9naWVzL290aGVyL2JhY2lsbHVzX2NlcmV1c19pbmZlY3Rpb24nOiBbCiAgICAgICAgICAgICAgICB7J2xhYmVsJzogJ0JhY2lsbHVzIGluZmVjdGlvbicsICdwcmVmVXJpJzogJ2h0dHA6Ly9pZGVudGlmaWVycy5vcmcvdW1scy9DMDg1NDMyNycsICdjYW5vbmljYWxfdHlwZXMnOiBbJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL29udG9sb2dpZXMvaW50ZWdyYXRpb25fb250b2xvZ3kjRGlzZWFzZSddLCAnbnJfb2ZfZGF0YXNldHMnOiA0fSwKICAgICAgICAgICAgICAgIHsnbGFiZWwnOiAnQmFjdGVyaWFsIGluZmVjdGlvbiBkdWUgdG8gYmFjaWxsdXMnLCAncHJlZlVyaSc6ICdodHRwOi8vaWRlbnRpZmllcnMub3JnL3VtbHMvQzEwOTY1ODEnLCAnY2Fub25pY2FsX3R5cGVzJzogWydodHRwOi8vbnMub250b2ZvcmNlLmNvbS9vbnRvbG9naWVzL2ludGVncmF0aW9uX29udG9sb2d5I0Rpc2Vhc2UnXSwgJ25yX29mX2RhdGFzZXRzJzogNH0sCiAgICAgICAgICAgIF0KICAgICAgICB9Cgo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="4">
         <text>with patch('metis.actions.components.synchronize_action.FederationSynchronizer._get_federated_uri_sync',
            side_effect=mock_uri_sync), \
      patch('metis.actions.components.synchronize_action.FederationSynchronizer._get_federated_label_sync',
            side_effect=mock_label_sync):</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ZGVmIG1vY2tfdXJpX3N5bmMoKmFyZ3MsICoqa3dhcmdzKToKICAgIGlmIG5vdCBrd2FyZ3NbJ3VyaXMnXToKICAgICAgICByZXR1cm4ge30KICAgIGVsc2U6CiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgICAgJ2h0dHA6Ly93d3cubmNiaS5ubG0ubmloLmdvdi9nZW5lLzcxNTcnOiBbCiAgICAgICAgICAgICAgICB7J2Nhbm9uaWNhbF90eXBlcyc6IFsnaHR0cDovL25zLm9udG9mb3JjZS5jb20vb250b2xvZ2llcy9pbnRlZ3JhdGlvbl9vbnRvbG9neSNHZW5lJ10sCiAgICAgICAgICAgICAgICAgJ2xhYmVsJzogJ1RQNTMgW0hvbW8gc2FwaWVuc10nLCAncHJlZlVyaSc6ICdodHRwOi8vd3d3Lm5jYmkubmxtLm5paC5nb3YvZ2VuZS83MTU3J30KICAgICAgICAgICAgXX0KCgpkZWYgbW9ja19sYWJlbF9zeW5jKCphcmdzLCAqKmt3YXJncyk6CiAgICBpZiBub3Qga3dhcmdzWyd0b19tYXRjaCddOgogICAgICAgIHJldHVybiB7fQogICAgZWxzZToKICAgICAgICByZXR1cm4gewogICAgICAgICAgICAnaHR0cDovL25zLm9udG9mb3JjZS5jb20vb250b2xvZ2llcy9vdGhlci9hY2luZXRvYmFjdGVyX2luZmVjdGlvbnMnOiBbCiAgICAgICAgICAgICAgICB7J2xhYmVsJzogJ0FjaW5ldG9iYWN0ZXIgSW5mZWN0aW9ucycsICdwcmVmVXJpJzogJ2h0dHA6Ly9pZC5ubG0ubmloLmdvdi9tZXNoL0QwMDAxNTEnLAogICAgICAgICAgICAgICAgICdjYW5vbmljYWxfdHlwZXMnOiBbJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL29udG9sb2dpZXMvaW50ZWdyYXRpb25fb250b2xvZ3kjRGlzZWFzZSddLAogICAgICAgICAgICAgICAgICducl9vZl9kYXRhc2V0cyc6IDl9XSwKICAgICAgICAgICAgJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL29udG9sb2dpZXMvb3RoZXIvYWN0aW5vbXljb3Npcyc6IFsKICAgICAgICAgICAgICAgIHsnbGFiZWwnOiAnQWN0aW5vbXljb3NpcycsICdwcmVmVXJpJzogJ2h0dHA6Ly9pZGVudGlmaWVycy5vcmcvdW1scy9DMDAwMTI2MScsCiAgICAgICAgICAgICAgICAgJ2Nhbm9uaWNhbF90eXBlcyc6IFsnaHR0cDovL25zLm9udG9mb3JjZS5jb20vb250b2xvZ2llcy9pbnRlZ3JhdGlvbl9vbnRvbG9neSNEaXNlYXNlJ10sCiAgICAgICAgICAgICAgICAgJ25yX29mX2RhdGFzZXRzJzogMTR9LAogICAgICAgICAgICBdLAogICAgICAgICAgICAnaHR0cDovL25zLm9udG9mb3JjZS5jb20vb250b2xvZ2llcy9vdGhlci9iYWNpbGx1c19jZXJldXNfaW5mZWN0aW9uJzogWwogICAgICAgICAgICAgICAgeydsYWJlbCc6ICdCYWNpbGx1cyBpbmZlY3Rpb24nLCAncHJlZlVyaSc6ICdodHRwOi8vaWRlbnRpZmllcnMub3JnL3VtbHMvQzA4NTQzMjcnLAogICAgICAgICAgICAgICAgICdjYW5vbmljYWxfdHlwZXMnOiBbJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL29udG9sb2dpZXMvaW50ZWdyYXRpb25fb250b2xvZ3kjRGlzZWFzZSddLAogICAgICAgICAgICAgICAgICducl9vZl9kYXRhc2V0cyc6IDR9LAogICAgICAgICAgICAgICAgeydsYWJlbCc6ICdCYWN0ZXJpYWwgaW5mZWN0aW9uIGR1ZSB0byBiYWNpbGx1cycsICdwcmVmVXJpJzogJ2h0dHA6Ly9pZGVudGlmaWVycy5vcmcvdW1scy9DMTA5NjU4MScsCiAgICAgICAgICAgICAgICAgJ2Nhbm9uaWNhbF90eXBlcyc6IFsnaHR0cDovL25zLm9udG9mb3JjZS5jb20vb250b2xvZ2llcy9pbnRlZ3JhdGlvbl9vbnRvbG9neSNEaXNlYXNlJ10sCiAgICAgICAgICAgICAgICAgJ25yX29mX2RhdGFzZXRzJzogNH0sCiAgICAgICAgICAgIF0KICAgICAgICB9Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
