@@ -57,7 +57,7 @@
         <mark key="]" line="28" column="27" />
         <mark key="." line="28" column="27" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/src/metis/actions/components/synchronize_action.py" timestamp="1570777400785">
+      <file name="$USER_HOME$/Disqover/metis/src/metis/actions/components/synchronize_action.py" timestamp="1570781290873">
         <mark key="[" line="20" column="68" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/config/database.yml.docker" timestamp="1560859818390">
@@ -74,6 +74,12 @@
         <mark key="[" line="31" column="0" />
         <mark key="]" line="31" column="0" />
         <mark key="." line="31" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/tests/integration/test_federation_sync_no_max_datasets_spec.py" timestamp="1570781332561">
+        <mark key="[" line="25" column="0" />
+        <mark key="]" line="28" column="13" />
+        <mark key="^" line="33" column="8" />
+        <mark key="." line="33" column="8" />
       </file>
       <file name="$USER_HOME$/Disqover/documentation2/source/sysadmin-manual/configuration/Plugins.rst" timestamp="1561372987840">
         <mark key="[" line="3" column="7" />
@@ -133,11 +139,11 @@
         <mark key="]" line="141" column="0" />
         <mark key="." line="141" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/tests/integration/test_federation_sync_spec.py" timestamp="1570777509691">
-        <mark key="[" line="34" column="44" />
-        <mark key="]" line="8" column="0" />
-        <mark key="." line="8" column="0" />
-        <mark key="^" line="8" column="0" />
+      <file name="$USER_HOME$/Disqover/metis/tests/integration/test_federation_sync_spec.py" timestamp="1570781341670">
+        <mark key="[" line="27" column="209" />
+        <mark key="]" line="27" column="70" />
+        <mark key="." line="27" column="70" />
+        <mark key="^" line="27" column="70" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/index_tools/nt_to_json_chunks.rb" timestamp="1560953726441">
         <mark key="[" line="1" column="0" />
@@ -167,7 +173,7 @@
         <mark key="]" line="4" column="10" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1570777404278">
+      <file name="/Python Console" timestamp="1570781296222">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1570776692485">
@@ -320,7 +326,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL29udG9sb2dpZXMvb3RoZXIvYWN0aW5vbXljb3Npcyc6IFt7J2xhYmVsJzogJ0FjdGlub215Y29zaXMnLCAncHJlZlVyaSc6ICdodHRwOi8vaWRlbnRpZmllcnMub3JnL3VtbHMvQzAwMDEyNjEnLCAnY2Fub25pY2FsX3R5cGVzJzogWydodHRwOi8vbnMub250b2ZvcmNlLmNvbS9vbnRvbG9naWVzL2ludGVncmF0aW9uX29udG9sb2d5I0Rpc2Vhc2UnXSwgJ25yX29mX2RhdGFzZXRzJzogMTR9XSwK</text>
       </register>
       <register name="-" type="4">
         <text>uris</text>
@@ -329,34 +335,34 @@
         <text encoding="base64">XDwqXD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHsnbGFiZWwnOiAnQmFjaWxsdXMgaW5mZWN0aW9uJywgJ3ByZWZVcmknOiAnaHR0cDovL2lkZW50aWZpZXJzLm9yZy91bWxzL0MwODU0MzI3JywgJ2Nhbm9uaWNhbF90eXBlcyc6IFsnaHR0cDovL25zLm9udG9mb3JjZS5jb20vb250b2xvZ2llcy9pbnRlZ3JhdGlvbl9vbnRvbG9neSNEaXNlYXNlJ10sICducl9vZl9kYXRhc2V0cyc6IDR9LAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL29udG9sb2dpZXMvb3RoZXIvYWN0aW5vbXljb3Npcyc6IFsKICAgICAgICAgICAgICAgIHsnbGFiZWwnOiAnQWN0aW5vbXljb3NpcycsICdwcmVmVXJpJzogJ2h0dHA6Ly9pZGVudGlmaWVycy5vcmcvdW1scy9DMDAwMTI2MScsICdjYW5vbmljYWxfdHlwZXMnOiBbJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL29udG9sb2dpZXMvaW50ZWdyYXRpb25fb250b2xvZ3kjRGlzZWFzZSddLCAnbnJfb2ZfZGF0YXNldHMnOiAxNH0sCiAgICAgICAgICAgICAgICB7J2xhYmVsJzogJ0FjdGlub215Y29zZXMnLCAncHJlZlVyaSc6ICdodHRwOi8vd3d3Lm9ycGhhLm5ldC9PUkRPL09ycGhhbmV0XzQ1NzA5NScsICdjYW5vbmljYWxfdHlwZXMnOiBbJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL29udG9sb2dpZXMvaW50ZWdyYXRpb25fb250b2xvZ3kjRGlzZWFzZSddLCAnbnJfb2ZfZGF0YXNldHMnOiAxNH0sCiAgICAgICAgICAgIF0sCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL29udG9sb2dpZXMvb3RoZXIvYWN0aW5vbXljb3Npcyc6IFt7J2xhYmVsJzogJ0FjdGlub215Y29zaXMnLCAncHJlZlVyaSc6ICdodHRwOi8vaWRlbnRpZmllcnMub3JnL3VtbHMvQzAwMDEyNjEnLCAnY2Fub25pY2FsX3R5cGVzJzogWydodHRwOi8vbnMub250b2ZvcmNlLmNvbS9vbnRvbG9naWVzL2ludGVncmF0aW9uX29udG9sb2d5I0Rpc2Vhc2UnXSwgJ25yX29mX2RhdGFzZXRzJzogMTR9XSwK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZnJvbSAgaW1wb3J0IEZlZGVyYXRpb25Db25uZWN0b3IK</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gewogICAgICAgICAgICAnaHR0cDovL25zLm9udG9mb3JjZS5jb20vb250b2xvZ2llcy9vdGhlci9hY2luZXRvYmFjdGVyX2luZmVjdGlvbnMnOiBbeydsYWJlbCc6ICdBY2luZXRvYmFjdGVyIEluZmVjdGlvbnMnLCAncHJlZlVyaSc6ICdodHRwOi8vaWQubmxtLm5paC5nb3YvbWVzaC9EMDAwMTUxJywgJ2Nhbm9uaWNhbF90eXBlcyc6IFsnaHR0cDovL25zLm9udG9mb3JjZS5jb20vb250b2xvZ2llcy9pbnRlZ3JhdGlvbl9vbnRvbG9neSNEaXNlYXNlJ10sICducl9vZl9kYXRhc2V0cyc6IDl9XSwKICAgICAgICAgICAgJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL29udG9sb2dpZXMvb3RoZXIvYWN0aW5vbXljb3Npcyc6IFt7J2xhYmVsJzogJ0FjdGlub215Y29zaXMnLCAncHJlZlVyaSc6ICdodHRwOi8vaWRlbnRpZmllcnMub3JnL3VtbHMvQzAwMDEyNjEnLCAnY2Fub25pY2FsX3R5cGVzJzogWydodHRwOi8vbnMub250b2ZvcmNlLmNvbS9vbnRvbG9naWVzL2ludGVncmF0aW9uX29udG9sb2d5I0Rpc2Vhc2UnXSwgJ25yX29mX2RhdGFzZXRzJzogMTR9XSwKICAgICAgICAgICAgJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL29udG9sb2dpZXMvb3RoZXIvYmFjaWxsdXNfY2VyZXVzX2luZmVjdGlvbic6IFsKICAgICAgICAgICAgICAgIHsnbGFiZWwnOiAnQmFjaWxsdXMgaW5mZWN0aW9uJywgJ3ByZWZVcmknOiAnaHR0cDovL2lkZW50aWZpZXJzLm9yZy91bWxzL0MwODU0MzI3JywgJ2Nhbm9uaWNhbF90eXBlcyc6IFsnaHR0cDovL25zLm9udG9mb3JjZS5jb20vb250b2xvZ2llcy9pbnRlZ3JhdGlvbl9vbnRvbG9neSNEaXNlYXNlJ10sICducl9vZl9kYXRhc2V0cyc6IDR9LAogICAgICAgICAgICAgICAgeydsYWJlbCc6ICdCYWN0ZXJpYWwgaW5mZWN0aW9uIGR1ZSB0byBiYWNpbGx1cycsICdwcmVmVXJpJzogJ2h0dHA6Ly9pZGVudGlmaWVycy5vcmcvdW1scy9DMTA5NjU4MScsICdjYW5vbmljYWxfdHlwZXMnOiBbJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL29udG9sb2dpZXMvaW50ZWdyYXRpb25fb250b2xvZ3kjRGlzZWFzZSddLCAnbnJfb2ZfZGF0YXNldHMnOiA0fSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBdCiAgICAgICAgfQo=</text>
       </register>
       <register name="3" type="8">
-        <text>metis.connectors.federation_connector</text>
+        <text>, 'http://identifiers.org/umls/C0001261'</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICBwYXRjaCgnbWV0aXMuYWN0aW9ucy5jb21wb25lbnRzLnN5bmNocm9uaXplX2FjdGlvbi5GZWRlcmF0aW9uU3luY2hyb25pemVyLl9nZXRfZmVkZXJhdGVkX2xhYmVsX3N5bmMnLAogICAgICAgICAgIHNpZGVfZWZmZWN0PW1vY2tfbGFiZWxfc3luYyk6Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAjIFRPRE86IG1ha2UgdGhpcyAob3IgZXF1aXZhbGVudCkgd29yayBhZ2Fpbgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICMgVE9ETzogbWFrZSB0aGlzIChvciBlcXVpdmFsZW50KSB3b3JrIGFnYWluCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="8">
-        <text>'http://identifiers.org/umls/C1096581'</text>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">I3BhdGNoKCdtZXRpcy5jb25uZWN0b3JzLmZlZGVyYXRpb25fY29ubmVjdG9yLkZlZGVyYXRpb25Db25uZWN0b3IuZG9fcmVxdWVzdCcsIHJldHVybl92YWx1ZT01KQojcGF0Y2gub2JqZWN0KCdtZXRpcy5jb25uZWN0b3JzLmZlZGVyYXRpb25fY29ubmVjdG9yLkZlZGVyYXRpb25Db25uZWN0b3InLCAnZG9fcmVxdWVzdCcsIHJldHVybl92YWx1ZT01KQojcGF0Y2gub2JqZWN0KCdtZXRpcy5hY3Rpb25zLmNvbXBvbmVudHMuc3luY2hyb25pemVfYWN0aW9uLkZlZGVyYXRpb25TeW5jaHJvbml6ZXInLAojICAgICAgICAgICAgICdfZ2V0X2ZlZGVyYXRlZF91cmlfc3luYycsIHJldHVybl92YWx1ZT01KQo=</text>
+        <text encoding="base64">ZnJvbSAgaW1wb3J0IEZlZGVyYXRpb25Db25uZWN0b3IK</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIHJldHVybiBhcmdzLCBrd2FyZ3MK</text>
+      <register name="8" type="8">
+        <text>metis.connectors.federation_connector</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHJldHVybiBhcmdzLCBrd2FyZ3MK</text>
+        <text encoding="base64">ICAgICBwYXRjaCgnbWV0aXMuYWN0aW9ucy5jb21wb25lbnRzLnN5bmNocm9uaXplX2FjdGlvbi5GZWRlcmF0aW9uU3luY2hyb25pemVyLl9nZXRfZmVkZXJhdGVkX2xhYmVsX3N5bmMnLAogICAgICAgICAgIHNpZGVfZWZmZWN0PW1vY2tfbGFiZWxfc3luYyk6Cg==</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
