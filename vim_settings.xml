@@ -26,6 +26,9 @@
         <mark key="]" line="8" column="0" />
         <mark key="." line="8" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/solr_index.rb" timestamp="1571146184938">
+        <mark key="[" line="196" column="66" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/mailers/sharing_mailer.rb" timestamp="1558527577526">
         <mark key="[" line="18" column="31" />
       </file>
@@ -52,6 +55,12 @@
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/federation_filter.rb" timestamp="1556627358626">
         <mark key="[" line="100" column="30" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/solr_index_spec.rb" timestamp="1571145954144">
+        <mark key="'" line="12" column="0" />
+        <mark key="[" line="417" column="0" />
+        <mark key="]" line="417" column="0" />
+        <mark key="." line="417" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/filter/to_relations_node_spec.rb" timestamp="1566467151140">
         <mark key="[" line="2" column="74" />
@@ -210,11 +219,11 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/config/environments/development.rb" timestamp="1559295696566">
         <mark key="[" line="10" column="58" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/views/users/mailer/reset_password_instructions.html.erb" timestamp="1571132571410">
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/views/users/mailer/reset_password_instructions.html.erb" timestamp="1571143993072">
         <mark key="[" line="6" column="0" />
-        <mark key="]" line="11" column="5" />
-        <mark key="." line="11" column="5" />
-        <mark key="^" line="11" column="5" />
+        <mark key="]" line="14" column="87" />
+        <mark key="." line="14" column="87" />
+        <mark key="^" line="14" column="87" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/plugins/chemantics-docker/chemantics.py" timestamp="1566388100908">
         <mark key="[" line="58" column="17" />
@@ -253,7 +262,7 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/lib/tasks/resque.rake" timestamp="1558082337804">
         <mark key="[" line="3" column="38" />
       </file>
-      <file name="/Ruby Console" timestamp="1571064671806">
+      <file name="/Ruby Console" timestamp="1571145960598">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/managed_file.rb" timestamp="1567421412786">
@@ -413,7 +422,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">CiAgICAgICAgICAgIGl0ICdyZXR1cm5zIGNhbmRpZGF0ZSBmYWNldCB2YWx1ZXMnIGRvCiAgICAgICAgICAgICAgZXhwZWN0KHJlc3VsdC5maXJzdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzKS50byBlcSBbXQogICAgICAgICAgICBlbmQK</text>
+        <text encoding="base64">CiAgICBpdCAnZm9yIHF1b3RlZCBsYWJlbCB3aXRoIG5ld2xpbmUgYXQgYmVnaW4nIGRvCiAgICAgIGV4cGVjdChzdWJqZWN0LmdldF9sYWJlbF9hbmRfc3BhcnFsX3ZhbHVlKCciXG5CYWQgYnJlYXRoIicpKS50byBlcShbJ1xuQWdlZC4nLCciXG5BZ2VkLiInXSkKICAgIGVuZAoKICAgIGl0ICdmb3IgcXVvdGVkIGxhYmVsIHdpdGggbmV3bGluZSBhdCBiZWdpbiBhbmQgZW5kJyBkbwogICAgICBleHBlY3Qoc3ViamVjdC5nZXRfbGFiZWxfYW5kX3NwYXJxbF92YWx1ZSgnIlxuQ2hyb25pYyBwZXJpb2RvbnRpdGlzLlxuIicpKS50byBlcShbJ1xuQ2hyb25pYyBwZXJpb2RvbnRpdGlzLlxuJywgJyJcbkNocm9uaWMgcGVyaW9kb250aXRpcy5cbiInXSkKICAgIGVuZAo=</text>
       </register>
       <register name="-" type="4">
         <text>&quot;</text>
@@ -422,37 +431,37 @@
         <text>canonical_type</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaXQgJ3JldHVybnMgY2FuZGlkYXRlIGZhY2V0IHZhbHVlcycgZG8K</text>
+        <text encoding="base64">CiAgICBpdCAnZm9yIHF1b3RlZCBsYWJlbCB3aXRoIG5ld2xpbmUgYXQgYmVnaW4nIGRvCiAgICAgIGV4cGVjdChzdWJqZWN0LmdldF9sYWJlbF9hbmRfc3BhcnFsX3ZhbHVlKCJcIlxuQmFkIGJyZWF0aFwiIikpLnRvIGVxKFsnXG5BZ2VkLicsJyJcbkFnZWQuIiddKQogICAgZW5kCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CiAgICAgICAgICAgIGl0ICdyZXR1cm5zIGNhbmRpZGF0ZSBmYWNldCB2YWx1ZXMnIGRvCiAgICAgICAgICAgICAgZXhwZWN0KHJlc3VsdC5maXJzdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzKS50byBlcSBbXQogICAgICAgICAgICBlbmQK</text>
+        <text encoding="base64">CiAgICBpdCAnZm9yIHF1b3RlZCBsYWJlbCB3aXRoIG5ld2xpbmUgYXQgYmVnaW4nIGRvCiAgICAgIGV4cGVjdChzdWJqZWN0LmdldF9sYWJlbF9hbmRfc3BhcnFsX3ZhbHVlKCciXG5CYWQgYnJlYXRoIicpKS50byBlcShbJ1xuQWdlZC4nLCciXG5BZ2VkLiInXSkKICAgIGVuZAoKICAgIGl0ICdmb3IgcXVvdGVkIGxhYmVsIHdpdGggbmV3bGluZSBhdCBiZWdpbiBhbmQgZW5kJyBkbwogICAgICBleHBlY3Qoc3ViamVjdC5nZXRfbGFiZWxfYW5kX3NwYXJxbF92YWx1ZSgnIlxuQ2hyb25pYyBwZXJpb2RvbnRpdGlzLlxuIicpKS50byBlcShbJ1xuQ2hyb25pYyBwZXJpb2RvbnRpdGlzLlxuJywgJyJcbkNocm9uaWMgcGVyaW9kb250aXRpcy5cbiInXSkKICAgIGVuZAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgYmVmb3JlIGRvCiAgICAgICAgICAgICAgc3R1Yl9jb25zdCgnU29sckNhbmRpZGF0ZUZhY2V0UmVwb3NpdG9yeTo6TUFYX1NFQVJDSF9PRkZTRVQnLCA1KQogICAgICAgICAgICBlbmQKCg==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBsb2NhdGlvbiB1cyBwYXJ0IG9mIHVyaSBidXQgbm90IGxhYmVsIGluIGxvY2F0aW9uX3NmIGZpZWxkCg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCiAgICAgICAgICBlbmQK</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBsb2NhdGlvbiB1cyBwYXJ0IG9mIHVyaSBidXQgbm90IGxhYmVsIGluIGxvY2F0aW9uX3NmIGZpZWxkCg==</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">CiAgICAgICAgICAgIGl0ICdyZXR1cm5zIGNhbmRpZGF0ZSBmYWNldCB2YWx1ZXMnIGRvCiAgICAgICAgICAgICAgZXhwZWN0KHJlc3VsdC5maXJzdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzKS50byBlcSBbXQogICAgICAgICAgICBlbmQK</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgYmVmb3JlIGRvCiAgICAgICAgICAgICAgc3R1Yl9jb25zdCgnU29sckNhbmRpZGF0ZUZhY2V0UmVwb3NpdG9yeTo6TUFYX1NFQVJDSF9PRkZTRVQnLCA1KQogICAgICAgICAgICBlbmQKCg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgIyBsb2NhdGlvbiB1cyBwYXJ0IG9mIHVyaSBidXQgbm90IGxhYmVsIGluIGxvY2F0aW9uX3NmIGZpZWxkCg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCiAgICAgICAgICBlbmQK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgIyBsb2NhdGlvbiB1cyBwYXJ0IG9mIHVyaSBidXQgbm90IGxhYmVsIGluIGxvY2F0aW9uX3NmIGZpZWxkCg==</text>
+      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaXQgJ3dvcmtzJyBkbwo=</text>
+        <text encoding="base64">CiAgICAgICAgICAgIGl0ICdyZXR1cm5zIGNhbmRpZGF0ZSBmYWNldCB2YWx1ZXMnIGRvCiAgICAgICAgICAgICAgZXhwZWN0KHJlc3VsdC5maXJzdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzKS50byBlcSBbXQogICAgICAgICAgICBlbmQK</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgaXQgJ3dvcmtzJyBkbwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICMgY29udGV4dCAnd29ya3MnIGRvCiAgICAgICAgICAjICAgbGV0KDpmYWNldF9vcHRpb25zKSB7IEZhY2V0T3B0aW9ucy5mcm9tX3BhcmFtcyhzZWFyY2g6ICdtZW0nKSB9CiAgICAgICAgICAjCiAgICAgICAgICAjICAgaXQgJ3dvcmtzJyBkbwogICAgICAgICAgIyAgICAgZXhwZWN0KHJlc3VsdC5maXJzdC5jYW5kaWRhdGVfZmFjZXRfdmFsdWVzKS50byBlcSBbXQogICAgICAgICAgIyAgIGVuZAogICAgICAgICAgIyBlbmQK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaXQgJ3dvcmtzJyBkbwo=</text>
       </register>
       <register name=":" type="4">
-        <text>111</text>
+        <text>408</text>
       </register>
     </registers>
     <search>
@@ -475,7 +484,6 @@
         <entry>canonical_type</entry>
       </history-search>
       <history-cmd>
-        <entry>1206</entry>
         <entry>83</entry>
         <entry>142</entry>
         <entry>w</entry>
@@ -495,6 +503,7 @@
         <entry>353</entry>
         <entry>111</entry>
         <entry>0</entry>
+        <entry>408</entry>
       </history-cmd>
       <history-expr />
       <history-input />
