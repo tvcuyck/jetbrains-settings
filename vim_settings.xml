@@ -31,8 +31,11 @@
         <mark key="]" line="15" column="0" />
         <mark key="." line="15" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/disqover_canonical_type.py" timestamp="1571309225414">
-        <mark key="[" line="10" column="68" />
+      <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/disqover_canonical_type.py" timestamp="1571317477327">
+        <mark key="[" line="242" column="81" />
+        <mark key="]" line="228" column="11" />
+        <mark key="^" line="228" column="11" />
+        <mark key="." line="228" column="11" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/tests/integration/data/federation_short.ttl" timestamp="1571224694117" />
       <file name="$USER_HOME$/Disqover/documentation/source/sysadmin-manual/configuration/task_scheduler.inc" timestamp="1567587969726">
@@ -84,6 +87,12 @@
         <mark key="[" line="3" column="7" />
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/disqover_facet.py" timestamp="1571316541621">
+        <mark key="[" line="293" column="36" />
+        <mark key="]" line="371" column="8" />
+        <mark key="^" line="371" column="8" />
+        <mark key="." line="371" column="8" />
       </file>
       <file name="$USER_HOME$/Disqover/documentation/source/sysadmin-manual/index.rst" timestamp="1567585676023">
         <mark key="[" line="9" column="5" />
@@ -165,7 +174,7 @@
         <mark key="]" line="25" column="0" />
         <mark key="." line="25" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/src/metis/actions/components/create_type_link_action.py" timestamp="1570548233508">
+      <file name="$USER_HOME$/Disqover/metis/src/metis/actions/components/create_type_link_action.py" timestamp="1571316663350">
         <mark key="[" line="2" column="0" />
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
@@ -180,10 +189,10 @@
         <mark key="]" line="4" column="10" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1571313252376">
+      <file name="/Python Console" timestamp="1571317372725">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/fragment.py" timestamp="1571313259952">
+      <file name="/fragment.py" timestamp="1571317462802">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -294,6 +303,7 @@
         <mark key="]" line="415" column="0" />
         <mark key="." line="415" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/src/metis/actions/components/create_canonical_type_action.py" timestamp="1571317019395" />
       <file name="$USER_HOME$/Disqover/documentation/source/common/container_overview.inc" timestamp="1568969653207">
         <mark key="[" line="346" column="0" />
         <mark key="]" line="346" column="0" />
@@ -371,11 +381,11 @@
       <jump line="500" column="12" filename="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_disqover_facet_spec.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">CiAgICAgICAgICAgIHdpdGggaXQoJ2hhcyBhICJmYWNldF91cmkiIG9wdGlvbiB3aXRoIHByb3BlciBsYWJlbCcpOgogICAgICAgICAgICAgICAgZXhwZWN0KENyZWF0ZUNhbm9uaWNhbFR5cGVBY3Rpb24ub3B0aW9uX2RpY3RbJ3Byb3BlcnRpZXMnXS5zdWJpdGVtX29wdGlvbnNbJ2ZhY2V0X3VyaSddLm5hbWUpLnRvKGVxKCdGYWNldCBVUkknKSkK</text>
+      <register name="&quot;" type="4">
+        <text>existing_inf</text>
       </register>
       <register name="-" type="4">
-        <text>uris</text>
+        <text>existing_inf</text>
       </register>
       <register name="/" type="4">
         <text>prop.</text>
