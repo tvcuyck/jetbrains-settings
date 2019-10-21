@@ -50,6 +50,10 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/app/mailers/signup_mailer.rb" timestamp="1558527593599">
         <mark key="[" line="15" column="31" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/repositories/facet_configuration_repository_spec.rb" timestamp="1571666256686">
+        <mark key="[" line="48" column="0" />
+        <mark key="]" line="48" column="93" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/script/user_anonymizer.py" timestamp="1566214578487">
         <mark key="[" line="30" column="18" />
       </file>
@@ -85,11 +89,11 @@
       <file name="/Python Console" timestamp="1561114874050">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/collection_service.rb" timestamp="1571665100064">
-        <mark key="[" line="27" column="43" />
-        <mark key="]" line="41" column="4" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/collection_service.rb" timestamp="1571665933018">
+        <mark key="[" line="27" column="0" />
+        <mark key="]" line="27" column="43" />
         <mark key="^" line="41" column="4" />
-        <mark key="." line="41" column="4" />
+        <mark key="." line="27" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/background_jobs/background_job_monitor.rb" timestamp="1560436367741">
         <mark key="[" line="79" column="45" />
@@ -159,7 +163,7 @@
       <file name="$USER_HOME$/Disqover/documentation/source/sysadmin-manual/HowTo.rst" timestamp="1560950813430">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/fragment.rb" timestamp="1571663822361">
+      <file name="/fragment.rb" timestamp="1571666614298">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -295,7 +299,13 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/lib/tasks/resque.rake" timestamp="1558082337804">
         <mark key="[" line="3" column="38" />
       </file>
-      <file name="/Ruby Console" timestamp="1571663707479">
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/controllers/facets_controller_spec.rb" timestamp="1571666589320">
+        <mark key="[" line="28" column="0" />
+        <mark key="]" line="28" column="64" />
+        <mark key="." line="28" column="0" />
+        <mark key="^" line="35" column="40" />
+      </file>
+      <file name="/Ruby Console" timestamp="1571666598858">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/managed_file.rb" timestamp="1567421412786">
@@ -462,7 +472,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBhbGxvdyhGaWx0ZXIpLnRvIHJlY2VpdmUoOmZyb21fcGFyYW1zKS5hbmRfY2FsbF9vcmlnaW5hbAo=</text>
       </register>
       <register name="-" type="4">
         <text>l</text>
@@ -471,34 +481,34 @@
         <text>canonical_type</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIEVOVlsnRElTUU9WRVJfQ09ORklHX0ZST01fU09MUiddID09ICcxJwo=</text>
+        <text encoding="base64">ICAgICAgICBhbGxvdyhGaWx0ZXIpLnRvIHJlY2VpdmUoOmZyb21fcGFyYW1zKS5hbmRfY2FsbF9vcmlnaW5hbAo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBleHBlY3QoSlNPTi5wYXJzZShyZXNwb25zZS5ib2R5KVsiZmFjZXRzIl0pLnRvIGVxKFtdKQo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICBkZWYgCg==</text>
+        <text encoding="base64">ICAgICAgbGV0KDpmaWx0ZXIpIHsgRmlsdGVyOjpzZWFyY2gocXVlcnk6J25lcnYqIE9SIHRlc3QnLCBvbmx5X3NlbWFudGljOiB0cnVlKSB9CiAgICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBqc29uID0gZ2V0X2pzb24gJ2luZGV4JywgcGFyYW1zCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBhbGxvd19hbnlfaW5zdGFuY2Vfb2YoQ29uZmlndXJhdGlvbkdyYXBoU2VydmljZSkudG8gcmVjZWl2ZSg6Z3JhcGhfZm9yX3VzZXIpLmFuZF9yZXR1cm4oU3BhcnFsOjpVUklWYWx1ZS5uZXcoJ05vbmUnKSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGVudl92YWwgPSBFbnZTZXJ2aWNlLm5ldy5nZXRfZW52X3ZhbChAa2V5KQogICAgcmV0dXJuIGVudl92YWwgaWYgZW52X3ZhbAo=</text>
+        <text encoding="base64">ICAgIHNlbGYuY29uZmlnX2Zyb21fc29scgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICAgIEVOVlsnRElTUU9WRVJfQ09ORklHX0ZST01fU09MUiddID09ICcxJwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgZ3JhcGhfdXJpID0gU3R1Yjo6Q29uZmlndXJhdGlvbkdyYXBocy5tZXRpcwogICAgICBDb2xsZWN0aW9uU2VydmljZS5pbnN0YW5jZSA9IENvbGxlY3Rpb25TZXJ2aWNlLm5ldyhncmFwaF91cmk6IGdyYXBoX3VyaSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>4440</text>
