@@ -15,7 +15,6 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/index_tools/c_proj/Makefile" timestamp="1564059326364">
         <mark key="[" line="11" column="24" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/lens_property_spec.rb" timestamp="1571304288218" />
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/filter/range_node_spec.rb" timestamp="1566471476711">
         <mark key="[" line="73" column="52" />
       </file>
@@ -39,7 +38,6 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/app/mailers/signup_mailer.rb" timestamp="1558527593599">
         <mark key="[" line="15" column="31" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/repositories/facet_configuration_repository_spec.rb" timestamp="1571305669047" />
       <file name="$USER_HOME$/Disqover/rails5-backend/script/user_anonymizer.py" timestamp="1566214578487">
         <mark key="[" line="30" column="18" />
       </file>
@@ -74,12 +72,6 @@
       </file>
       <file name="/Python Console" timestamp="1561114874050">
         <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" timestamp="1571065409912">
-        <mark key="[" line="1031" column="0" />
-        <mark key="]" line="1031" column="0" />
-        <mark key="^" line="1029" column="72" />
-        <mark key="." line="1031" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/background_jobs/background_job_monitor.rb" timestamp="1560436367741">
         <mark key="[" line="79" column="45" />
@@ -159,6 +151,12 @@
         <mark key="]" line="128" column="0" />
         <mark key="." line="128" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/lens_property.rb" timestamp="1571646832836">
+        <mark key="[" line="128" column="31" />
+        <mark key="]" line="128" column="50" />
+        <mark key="^" line="128" column="50" />
+        <mark key="." line="128" column="50" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/lib/tasks/index.rake" timestamp="1571050058938">
         <mark key="[" line="26" column="36" />
         <mark key="]" line="13" column="72" />
@@ -182,15 +180,17 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/fixtures/metis_pipeline_test_data/rspec_pipeline.yml" timestamp="1570794924080">
         <mark key="[" line="110" column="26" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/facet_configuration_repository.rb" timestamp="1571305776217">
-        <mark key="[" line="272" column="88" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/facet_configuration_repository.rb" timestamp="1571646916131">
+        <mark key="[" line="302" column="24" />
+        <mark key="]" line="364" column="70" />
+        <mark key="^" line="364" column="70" />
+        <mark key="." line="364" column="70" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/repositories/lens_repository_spec.rb" timestamp="1571303558786">
         <mark key="]" line="146" column="50" />
         <mark key="." line="146" column="50" />
         <mark key="^" line="146" column="50" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/simple_relation_source.rb" timestamp="1571211155958" />
       <file name="$USER_HOME$/Disqover/documentation2/source/sysadmin-manual/disqover_settings/background_jobs_settings_description.rst" timestamp="1561128350533">
         <mark key="[" line="0" column="0" />
       </file>
@@ -209,11 +209,11 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/xlsx_export_service.rb" timestamp="1559126688037">
         <mark key="[" line="48" column="11" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/facet.rb" timestamp="1571304385773">
-        <mark key="[" line="292" column="75" />
-        <mark key="]" line="346" column="12" />
-        <mark key="^" line="346" column="12" />
-        <mark key="." line="346" column="12" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/facet.rb" timestamp="1571646726907">
+        <mark key="[" line="293" column="73" />
+        <mark key="]" line="297" column="14" />
+        <mark key="^" line="297" column="14" />
+        <mark key="." line="297" column="14" />
       </file>
       <file name="$USER_HOME$/Disqover/documentation2/sphinx/source/conf.py" timestamp="1561127967776">
         <mark key="[" line="63" column="16" />
@@ -315,8 +315,8 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/PULL_REQUEST_TEMPLATE.md" timestamp="1561721022276">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/lens_repository.rb" timestamp="1571303283793">
-        <mark key="[" line="377" column="73" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/lens_repository.rb" timestamp="1571646935778">
+        <mark key="[" line="377" column="24" />
         <mark key="]" line="372" column="38" />
         <mark key="^" line="372" column="38" />
         <mark key="." line="372" column="38" />
@@ -485,7 +485,7 @@
         <text encoding="base64">ICAgICAgc29scl9sb2NhdGlvbiA9IAo=</text>
       </register>
       <register name=":" type="4">
-        <text>408</text>
+        <text>294</text>
       </register>
     </registers>
     <search>
@@ -508,7 +508,6 @@
         <entry>canonical_type</entry>
       </history-search>
       <history-cmd>
-        <entry>83</entry>
         <entry>142</entry>
         <entry>w</entry>
         <entry>52</entry>
@@ -527,6 +526,7 @@
         <entry>353</entry>
         <entry>111</entry>
         <entry>408</entry>
+        <entry>294</entry>
         <entry>0</entry>
       </history-cmd>
       <history-expr />
