@@ -39,6 +39,7 @@
         <mark key="]" line="8" column="0" />
         <mark key="." line="8" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/solr_index.rb" timestamp="1571834919057" />
       <file name="$USER_HOME$/Disqover/rails5-backend/app/mailers/sharing_mailer.rb" timestamp="1558527577526">
         <mark key="[" line="18" column="31" />
       </file>
@@ -53,10 +54,6 @@
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/script/user_anonymizer.py" timestamp="1566214578487">
         <mark key="[" line="30" column="18" />
-      </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/filter_info_service_spec.rb" timestamp="1571727628709">
-        <mark key="[" line="1592" column="0" />
-        <mark key="]" line="1592" column="77" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/.docker/test/up.sh" timestamp="1568029283455">
         <mark key="[" line="31" column="42" />
@@ -102,12 +99,6 @@
       <file name="/Python Console" timestamp="1561114874050">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/collection_service.rb" timestamp="1571669764871">
-        <mark key="[" line="36" column="21" />
-        <mark key="]" line="36" column="37" />
-        <mark key="^" line="36" column="37" />
-        <mark key="." line="36" column="37" />
-      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/background_jobs/background_job_monitor.rb" timestamp="1560436367741">
         <mark key="[" line="79" column="45" />
       </file>
@@ -135,8 +126,10 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/fixtures/metis_pipeline_test_data/typed_links/typed_link_disease.sparql" timestamp="1564995370627">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/users_controller.rb" timestamp="1559119536997">
-        <mark key="[" line="251" column="86" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/users_controller.rb" timestamp="1571835864088">
+        <mark key="[" line="95" column="0" />
+        <mark key="]" line="95" column="0" />
+        <mark key="." line="95" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/facet_collection_spec.rb" timestamp="1566471490512">
         <mark key="[" line="70" column="52" />
@@ -213,6 +206,12 @@
         <mark key="]" line="295" column="14" />
         <mark key="^" line="295" column="14" />
         <mark key="." line="295" column="14" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/cache_controller.rb" timestamp="1571835826156">
+        <mark key="[" line="25" column="5" />
+        <mark key="]" line="31" column="4" />
+        <mark key="^" line="31" column="4" />
+        <mark key="." line="31" column="4" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/disqover_setting.rb" timestamp="1571657628598">
         <mark key="[" line="124" column="30" />
@@ -322,7 +321,7 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/.docker/ci/seed_data.json" timestamp="1570544487582">
         <mark key="[" line="7" column="42" />
       </file>
-      <file name="/Dummy.txt" timestamp="1571833551300">
+      <file name="/Dummy.txt" timestamp="1571835605027">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -361,6 +360,11 @@
       </file>
       <file name="$USER_HOME$/Disqover/documentation/source/sysadmin-manual/configuration/ProxySettings.rst" timestamp="1561710152743">
         <mark key="[" line="11" column="20" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/config/routes.rb" timestamp="1571835844232">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="." line="4" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/backend-no-virtuoso/.docker/ci/.env" timestamp="1563952707231">
         <mark key="[" line="98" column="14" />
@@ -462,7 +466,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">U09MUl9JTUFHRT1zb2xyOjguMgo=</text>
+        <text encoding="base64">CiAgZGVmIGhhc19hY3Rpb25zX3JlbWFpbmluZwogICAgcmVuZGVyIDpqc29uID0+IHsgYWxsb3dlZDogdHJ1ZSB9CiAgZW5kCgogIGRlZiBucl9hY3Rpb25zX3JlbWFpbmluZwogICAgcmVuZGVyIDpqc29uID0+IHsgbnJfYWN0aW9uczogMTAwIH0KICBlbmQK</text>
       </register>
       <register name="-" type="4">
         <text>json</text>
@@ -474,31 +478,31 @@
         <text encoding="base64">U09MUl9JTUFHRT00MjgwMjUwNjQ0NzEuZGtyLmVjci51cy1lYXN0LTEuYW1hem9uYXdzLmNvbS9vbnRvZm9yY2Uvc29scjo4LjIuMAo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">U09MUl9JTUFHRT1zb2xyOjguMgo=</text>
+        <text encoding="base64">CiAgZGVmIGhhc19hY3Rpb25zX3JlbWFpbmluZwogICAgcmVuZGVyIDpqc29uID0+IHsgYWxsb3dlZDogdHJ1ZSB9CiAgZW5kCgogIGRlZiBucl9hY3Rpb25zX3JlbWFpbmluZwogICAgcmVuZGVyIDpqc29uID0+IHsgbnJfYWN0aW9uczogMTAwIH0KICBlbmQK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">U09MUl9JTUFHRT10bXBfc29scgo=</text>
+        <text encoding="base64">ICBnZXQgJ3VzZXJzL2hhc19hY3Rpb25zX3JlbWFpbmluZycgPT4gJ3VzZXJzI2hhc19hY3Rpb25zX3JlbWFpbmluZycKICBnZXQgJ3VzZXJzL25yX2FjdGlvbnNfcmVtYWluaW5nJyA9PiAndXNlcnMjbnJfYWN0aW9uc19yZW1haW5pbmcnCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">U09MUl9JTUFHRT0K</text>
+        <text encoding="base64">ICAgIGdldCAnY2FjaGUnID0+ICdjYWNoZSNuZXcyJwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">VklSVFVPU09fSU1BR0U9NDI4MDI1MDY0NDcxLmRrci5lY3IudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vb250b2ZvcmNlL3ZpcnR1b3NvOmxhdGVzdApTT0xSX0lNQUdFPQo=</text>
+        <text encoding="base64">U09MUl9JTUFHRT1zb2xyOjguMgo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">U09MUl9JTUFHRT10bXBfc29scgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICMgZWxzaWYgZmFjZXQgPT0gRmFjZXQudHlwZQogICAgIyAgIGtleV9mb3JfZmFjZXQoZmFjZXQpCg==</text>
+        <text encoding="base64">U09MUl9JTUFHRT0K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">VklSVFVPU09fSU1BR0U9NDI4MDI1MDY0NDcxLmRrci5lY3IudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vb250b2ZvcmNlL3ZpcnR1b3NvOmxhdGVzdApTT0xSX0lNQUdFPQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICEodXNlcl9ncmFwaCA9PSBTcGFycWw6OlVSSVZhbHVlLm5ldygnTm9uZScpKQo=</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICMgaWYgZ3JhcGhfdXJpLm5pbD8gfHwgZ3JhcGhfdXJpID09IFNwYXJxbDo6VVJJVmFsdWUubmV3KCdOb25lJykK</text>
+        <text encoding="base64">ICAgICMgZWxzaWYgZmFjZXQgPT0gRmFjZXQudHlwZQogICAgIyAgIGtleV9mb3JfZmFjZXQoZmFjZXQpCg==</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
