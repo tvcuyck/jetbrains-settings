@@ -3,12 +3,13 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/canonical_type.rb" timestamp="1572275727626" />
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/controllers/users_controller_spec.rb" timestamp="1571837188112">
         <mark key="[" line="678" column="0" />
         <mark key="]" line="678" column="0" />
         <mark key="." line="678" column="0" />
       </file>
-      <file name="/Ruby Console" timestamp="1572269244138">
+      <file name="/Ruby Console" timestamp="1572277482007">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/user_groups_controller.rb" timestamp="1571997113565">
@@ -27,6 +28,9 @@
         <mark key="[" line="17" column="1" />
         <mark key="]" line="17" column="1" />
         <mark key="." line="17" column="1" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/facet.rb" timestamp="1572276702420">
+        <mark key="[" line="40" column="27" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/.docker/development/env" timestamp="1571987452720">
         <mark key="[" line="26" column="0" />
@@ -77,6 +81,13 @@
         <mark key="]" line="65" column="0" />
         <mark key="." line="65" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/repositories/facet_configuration_repository_spec.rb" timestamp="1572277672143">
+        <mark key="'" line="44" column="0" />
+        <mark key="[" line="589" column="46" />
+        <mark key="]" line="589" column="49" />
+        <mark key="." line="589" column="49" />
+        <mark key="^" line="589" column="49" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/export_controller.rb" timestamp="1571997684433">
         <mark key="[" line="11" column="113" />
         <mark key="]" line="73" column="0" />
@@ -87,10 +98,13 @@
         <mark key="]" line="8" column="0" />
         <mark key="." line="8" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1572272257524">
+      <file name="/Dummy.txt" timestamp="1572277709664">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
+      </file>
+      <file name="/fragment.rb" timestamp="1572276327851">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/factories/user.rb" timestamp="1571837053233">
         <mark key="[" line="82" column="0" />
@@ -160,8 +174,11 @@
         <mark key="^" line="24" column="27" />
         <mark key="." line="626" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/facet_configuration_repository.rb" timestamp="1572273560432">
-        <mark key="[" line="273" column="42" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/facet_configuration_repository.rb" timestamp="1572277495233">
+        <mark key="[" line="303" column="21" />
+        <mark key="]" line="303" column="27" />
+        <mark key="^" line="303" column="27" />
+        <mark key="." line="303" column="27" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/config/routes.rb" timestamp="1572003650039">
         <mark key="[" line="59" column="0" />
@@ -265,10 +282,11 @@
       <jump line="56" column="6" filename="$USER_HOME$/Disqover/rails5-backend/app/services/configuration_service.rb" />
       <jump line="206" column="0" filename="$USER_HOME$/Disqover/rails5-backend/app/services/configuration_service.rb" />
       <jump line="72" column="2" filename="$USER_HOME$/Disqover/rails5-backend/app/controllers/configuration_graphs_controller.rb" />
+      <jump line="44" column="0" filename="$USER_HOME$/Disqover/rails5-backend/spec/repositories/facet_configuration_repository_spec.rb" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgIGV4cGVjdF9hbnlfaW5zdGFuY2Vfb2YoQ2FjaGVSZXBvc2l0b3J5KS50byByZWNlaXZlKDpjbGVhcikK</text>
+        <text encoding="base64">CiAgICAgICAgICAgIGl0ICdhZGRzIHByb3ZlbmFuY2UnIGRvCiAgICAgICAgICAgICAgZXhwZWN0KGZhY2V0LnByb3ZlbmFuY2UpLnRvIGVxKCdsYWxhJykKICAgICAgICAgICAgZW5kCg==</text>
       </register>
       <register name="-" type="4">
         <text>n</text>
@@ -277,7 +295,7 @@
         <text>canonical_type</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgIGV4cGVjdChDb25maWd1cmF0aW9uU2VydmljZSkudG8gcmVjZWl2ZSg6ZGVmYXVsdF9jb25maWd1cmF0aW9uKS5vbmNlCg==</text>
+        <text encoding="base64">CiAgICAgICAgICAgIGl0ICdhZGRzIHByb3ZlbmFuY2UnIGRvCiAgICAgICAgICAgICAgZXhwZWN0KGZhY2V0LnByb3ZlbmFuY2UpLnRvIGVxKCdsYWxhJykKICAgICAgICAgICAgZW5kCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgIGV4cGVjdF9hbnlfaW5zdGFuY2Vfb2YoQ2FjaGVSZXBvc2l0b3J5KS50byByZWNlaXZlKDpjbGVhcikK</text>
