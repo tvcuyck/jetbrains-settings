@@ -11,6 +11,23 @@
         <mark key="]" line="231" column="0" />
         <mark key="." line="231" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/disqover_property.py" timestamp="1573042877702">
+        <mark key="[" line="322" column="0" />
+        <mark key="]" line="329" column="71" />
+        <mark key="." line="322" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_disqover_facet_spec.py" timestamp="1573043907161">
+        <mark key="[" line="179" column="0" />
+        <mark key="]" line="182" column="25" />
+        <mark key="." line="321" column="53" />
+        <mark key="^" line="321" column="53" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_disqover_type_link_spec.py" timestamp="1573043238604">
+        <mark key="[" line="193" column="97" />
+        <mark key="]" line="194" column="61" />
+        <mark key="^" line="194" column="61" />
+        <mark key="." line="194" column="61" />
+      </file>
       <file name="$USER_HOME$/Disqover/documentation/source/architecture-design/backend/filters.inc" timestamp="1573031725982">
         <mark key="[" line="0" column="34" />
         <mark key="]" line="3" column="13" />
@@ -20,41 +37,51 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="3" column="12" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_disqover_property_spec.py" timestamp="1573043942630">
+        <mark key="[" line="241" column="111" />
+        <mark key="]" line="241" column="104" />
+        <mark key="." line="241" column="104" />
+        <mark key="^" line="241" column="104" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/disqover_facet.py" timestamp="1573042891617">
+        <mark key="[" line="451" column="0" />
+        <mark key="." line="443" column="0" />
+      </file>
     </filemarks>
     <jumps />
     <registers>
       <register name="0" type="2">
-        <text encoding="base64">Li4gX2JhY2tlbmRfZGF0YV9xdWVyeWluZ19zZWN0aW9uOgoKRGF0YSBxdWVyeWluZwo9PT09PT09PT09PT09Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBleHBlY3QodHRsKS50byhtYXRjaChyJzxodHRwOi8vb250b2ZvcmNlLmNvbS9wcm9wZXJ0aWVzL2NvdW50cnk+IGRpc3E6cHJvdmVuYW5jZSA8ZHMxPiAuJykpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgPGh0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL2xvY2F0aW9uI0VVPiwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBleHBlY3QodHRsKS50byhtYXRjaChyJzxodHRwOi8vb250b2ZvcmNlLmNvbS9wcm9wZXJ0aWVzL2NvdW50cnk+IGRpc3E6c29ydFNvbHJGaWVsZCAiY291bnRyeV9zb3J0aSIgLicpKQo=</text>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Li4gX2JhY2tlbmRfZGF0YV9xdWVyeWluZ19zZWN0aW9uOgoKRGF0YSBxdWVyeWluZwo9PT09PT09PT09PT09Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBleHBlY3QodHRsKS50byhtYXRjaChyJzxodHRwOi8vb250b2ZvcmNlLmNvbS9wcm9wZXJ0aWVzL2NvdW50cnk+IGRpc3E6cHJvdmVuYW5jZSA8ZHMxPiAuJykpCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgRXVyb3BlPGh0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL2xvY2F0aW9uI0VVPgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgd2l0aCBwYXRjaCgnbWV0aXMuaW5kZXhpbmcuZGlzcW92ZXJfZmFjZXQuc2F2ZV9jb250cmlidXRpbmdfZGF0YXNvdXJjZXMnKSBhcyBzZXRfY2FjaGU6Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBlbnJvbGxlZF9wZW9wbGVfaTogNTAsCiAgICAgICAgYnVkZ2V0X2Y6IDEyMDAwMC41LAogICAgICAgIHN0YXJ0X2RhdGVfZHQ6ICIyMDEwLTAxLTAxVDAwOjAwOjAwWiIsCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdCh0dGwpLnRvKG1hdGNoKHInPGh0dHA6Ly9vbnRvZm9yY2UuY29tL2ZhY2V0cy9jb3VudHJ5PiBkaXNxOnZpc2libGVGb3JHcm91cCBWIm1kcyIgLicpKQogICAgICAgICAgICAgICAgZXhwZWN0KHR0bCkudG8obWF0Y2gocic8aHR0cDovL29udG9mb3JjZS5jb20vZmFjZXRzL2NvdW50cnk+IGRpc3E6bWl4ZWRTZWN1cml0eVZhbHVlcyAiWSIgLicpKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">KiBgYG9udG9mb3JjZV9zcGVjX3JlbGF0aW9uX3R5cGVfc3NgYDogKGRlcHJpY2F0ZWQpCg==</text>
+        <text encoding="base64">CiAgICAgICAgaWYgc2VsZi5kYXRhX3NvdXJjZXM6CiAgICAgICAgICAgIHNhdmVfY29udHJpYnV0aW5nX2RhdGFzb3VyY2VzKHNlbGYudXJpLCBzZWxmLmRhdGFfc291cmNlcykKICAgICAgICBlbHNlOgogICAgICAgICAgICBzZWxmLmRhdGFfc291cmNlcyA9IGdldF9jb250cmlidXRpbmdfZGF0YXNvdXJjZXMoc2VsZi51cmkpCgogICAgICAgIGZvciBwcm92IGluIHNlbGYuZGF0YV9zb3VyY2VzOgogICAgICAgICAgICByZXN1bHQuYXBwZW5kKGYnPHtzZWxmLnVyaX0+IGRpc3E6cHJvdmVuYW5jZSA8e3Byb3Z9PiAuXG4nKQoK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">KiBgYCpfcnRfZGVzdF9zc2BgOiBzdG9yZXMgVVJJcyBmb3IgdHlwZSBsaW5rcwo=</text>
+        <text encoding="base64">ICAgICAgICBjb25maWcgPSB7CiAgICAgICAgICAgICdkYXRhX3NvdXJjZXMnOiBsaXN0KHNlbGYuZGF0YV9zb3VyY2VzKQogICAgICAgIH0K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CkRJU1FPVkVSIGZpZWxkcwotLS0tLS0tLS0tLS0tLS0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgPGh0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL2xvY2F0aW9uI0VVPiwK</text>
       </register>
-      <register name="7" type="8">
-        <text encoding="base64">IDpmaWxlOmBzb2xyY29uZmlnLnhtbGA=</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgRXVyb3BlPGh0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL2xvY2F0aW9uI0VVPgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBoaWRkZW5fbGFiZWxfbG5pOiBbCiAgICAgICAgICAgIFRlc3Qgc3ViamVjdCAxQGFxCiAgICAgICAgXSwK</text>
+        <text encoding="base64">ICAgICAgICBlbnJvbGxlZF9wZW9wbGVfaTogNTAsCiAgICAgICAgYnVkZ2V0X2Y6IDEyMDAwMC41LAogICAgICAgIHN0YXJ0X2RhdGVfZHQ6ICIyMDEwLTAxLTAxVDAwOjAwOjAwWiIsCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB0eXBlX2xuOiBbCiAgICAgICAgICAgIHRSTkE8aHR0cDovL25zLm9udG9mb3JjZS5jb20vb250b2xvZ2llcy9uY2JpLWdlbmUvdHJuYT5AYWIKICAgICAgICBdLAo=</text>
+        <text encoding="base64">KiBgYG9udG9mb3JjZV9zcGVjX3JlbGF0aW9uX3R5cGVfc3NgYDogKGRlcHJpY2F0ZWQpCg==</text>
       </register>
     </registers>
     <search>
@@ -73,6 +100,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
         <text>ctrl pressed R</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed F</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
