@@ -123,10 +123,10 @@
         <mark key="]" line="451" column="0" />
         <mark key="." line="451" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/fixtures/test_configuration.sparql" timestamp="1573045303158">
-        <mark key="[" line="218" column="0" />
-        <mark key="]" line="219" column="26" />
-        <mark key="." line="218" column="0" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/fixtures/test_configuration.sparql" timestamp="1573045575433">
+        <mark key="[" line="134" column="4" />
+        <mark key="]" line="135" column="26" />
+        <mark key="." line="134" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/user/user_spec.rb" timestamp="1571913643196">
         <mark key="[" line="126" column="0" />
@@ -144,7 +144,7 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/index_test/create_test_index" timestamp="1573044801625">
+      <file name="$USER_HOME$/Disqover/rails5-backend/index_test/create_test_index" timestamp="1573045586286">
         <mark key="[" line="50" column="131" />
         <mark key="]" line="50" column="0" />
         <mark key="^" line="50" column="0" />
@@ -159,6 +159,12 @@
         <mark key="^" line="163" column="96" />
         <mark key="." line="163" column="96" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/lens_property.rb" timestamp="1573045821990">
+        <mark key="[" line="66" column="110" />
+        <mark key="]" line="66" column="173" />
+        <mark key="^" line="66" column="109" />
+        <mark key="." line="66" column="110" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/metis_pipeline_version.json" timestamp="1573030714504">
         <mark key="[" line="1" column="15" />
         <mark key="]" line="2" column="1" />
@@ -170,16 +176,28 @@
         <mark key="]" line="44" column="0" />
         <mark key="." line="44" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/lens_repository.rb" timestamp="1573045618380">
+        <mark key="[" line="121" column="34" />
+        <mark key="]" line="356" column="62" />
+        <mark key="^" line="356" column="62" />
+        <mark key="." line="356" column="62" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/sparql_queries_for_index_service.rb" timestamp="1572012096612">
         <mark key="[" line="130" column="0" />
         <mark key="]" line="130" column="0" />
         <mark key="." line="130" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/facet_configuration_repository.rb" timestamp="1573045232812">
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/repositories/lens_repository_spec.rb" timestamp="1573045908578">
+        <mark key="[" line="194" column="44" />
+        <mark key="]" line="194" column="41" />
+        <mark key="^" line="194" column="41" />
+        <mark key="." line="194" column="41" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/facet_configuration_repository.rb" timestamp="1573045368345">
         <mark key="[" line="90" column="63" />
-        <mark key="]" line="95" column="33" />
-        <mark key="." line="95" column="33" />
-        <mark key="^" line="95" column="33" />
+        <mark key="]" line="93" column="28" />
+        <mark key="." line="93" column="28" />
+        <mark key="^" line="93" column="28" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/config/routes.rb" timestamp="1572350273836">
         <mark key="[" line="117" column="0" />
@@ -280,8 +298,8 @@
       <jump line="44" column="0" filename="$USER_HOME$/Disqover/rails5-backend/spec/repositories/facet_configuration_repository_spec.rb" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGRpc3E6cHJvdmVuYW5jZSA8ZHMxPjsKICAgIGRpc3E6cHJvdmVuYW5jZSA8ZHMyPjsK</text>
+      <register name="&quot;" type="4">
+        <text>attributes[:visible_for_groups].to_s.split(',').uniq  ))  || []</text>
       </register>
       <register name="-" type="4">
         <text>d</text>
@@ -289,8 +307,8 @@
       <register name="/" type="4">
         <text>canonical_type</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">CiAgICAgICAgaXQgJ2hhcyBubyBkYXRhdHlwZSBkZWZpbmVkJyBkbwogICAgICAgICAgZXhwZWN0KGZhY2V0LmRhdGFfdHlwZSkudG8gYmVfbmlsCiAgICAgICAgZW5kCg==</text>
+      <register name="0" type="4">
+        <text>attributes[:visible_for_groups].to_s.split(',').uniq  ))  || []</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIGRpc3E6cHJvdmVuYW5jZSA8ZHMxPjsKICAgIGRpc3E6cHJvdmVuYW5jZSA8ZHMyPjsK</text>
