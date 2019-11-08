@@ -92,6 +92,9 @@
       <register name="9" type="2">
         <text encoding="base64">KiBgYG9udG9mb3JjZV9zcGVjX3JlbGF0aW9uX3R5cGVfc3NgYDogKGRlcHJpY2F0ZWQpCg==</text>
       </register>
+      <register name=":" type="4">
+        <text>300</text>
+      </register>
     </registers>
     <search>
       <last-dir>0</last-dir>
@@ -99,7 +102,9 @@
     </search>
     <history>
       <history-search />
-      <history-cmd />
+      <history-cmd>
+        <entry>300</entry>
+      </history-cmd>
       <history-expr />
       <history-input />
     </history>
