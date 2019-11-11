@@ -12,11 +12,11 @@
       <file name="/Python Console" timestamp="1573219011333">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/documentation/source/architecture-design/solr.rst" timestamp="1573491324470">
-        <mark key="[" line="103" column="53" />
-        <mark key="]" line="103" column="53" />
-        <mark key="^" line="102" column="50" />
-        <mark key="." line="103" column="0" />
+      <file name="$USER_HOME$/Disqover/documentation/source/architecture-design/solr.rst" timestamp="1573492986555">
+        <mark key="[" line="164" column="31" />
+        <mark key="]" line="164" column="31" />
+        <mark key="^" line="114" column="30" />
+        <mark key="." line="164" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1573219091049">
         <mark key="[" line="0" column="0" />
@@ -60,13 +60,16 @@
       <file name="$USER_HOME$/Disqover/documentation/source/architecture-design/index.rst" timestamp="1573406606403">
         <mark key="[" line="13" column="9" />
       </file>
+      <file name="$USER_HOME$/Disqover/documentation/source/architecture-design/backend/data_querying.inc" timestamp="1573493020764">
+        <mark key="[" line="44" column="22" />
+      </file>
       <file name="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_disqover_sub_type_spec.py" timestamp="1573203913411">
         <mark key="[" line="91" column="12" />
         <mark key="]" line="126" column="0" />
         <mark key="." line="126" column="0" />
         <mark key="^" line="126" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1573409722592">
+      <file name="/Dummy.txt" timestamp="1573492517038">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/documentation/source/architecture-design/Backend.rst" timestamp="1573406976962">
@@ -138,42 +141,43 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">KiBzb3VyY2U6IGBgc3lub255bWBgLCBkZXN0aW5hdGlvbjogYGBzdWdnZXN0X2Z1enp5YGAK</text>
+        <text encoding="base64">Li4gX3NvbHJfcHJvcGVydHlfZGF0YV9zZWN0aW9uOgo=</text>
       </register>
       <register name="-" type="4">
-        <text>:</text>
+        <text>usage deprecated since ``name`` is deprecated)</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">KiBzb3VyY2U6IGBgc3lub255bWBgLCBkZXN0aW5hdGlvbjogYGBzdWdnZXN0X2Z1enp5YGAK</text>
+        <text encoding="base64">Li4gX3NvbHJfcHJvcGVydHlfZGF0YV9zZWN0aW9uOgo=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAjICAgICAgICAgZXhwZWN0KHBwbC5zb2xyX2pzb24oJ2h0dHA6Ly9vbnRvbG9neS5teWNvbXBhbnkuY29tL3Byb3BlcnRpZXMvdGFyZ2V0L2h0bWxfbGFiZWwnLCAnY2Fub25pY2FsX3R5cGUnKSkudG8oZXF1YWwoJ2xhbGEnKSkK</text>
+      <register name="1" type="4">
+        <text>ersion of the document, set by differential indexer. 
+  This version increases each time a document (with the same PURI) is updated with new content</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAjICAgICB3aXRoIGl0KCdsYWxhJyk6Cg==</text>
+        <text encoding="base64">ICAgICAgICAjICAgICAgICAgZXhwZWN0KHBwbC5zb2xyX2pzb24oJ2h0dHA6Ly9vbnRvbG9neS5teWNvbXBhbnkuY29tL3Byb3BlcnRpZXMvdGFyZ2V0L2h0bWxfbGFiZWwnLCAnY2Fub25pY2FsX3R5cGUnKSkudG8oZXF1YWwoJ2xhbGEnKSkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAjCg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAjICAgICAgICAgZXhwZWN0KHBwbC5zb2xyX2pzb24oJ2h0dHA6Ly9vbnRvbG9neS5vbnRvZm9yY2UuY29tL3Byb3BlcnRpZXMvdGFyZ2V0L2h0bWxfbGFiZWwnLCAnY2Fub25pY2FsX3R5cGUnKSkudG8oZXF1YWwoJ2xhbGEnKSkK</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAjICAgICB3aXRoIGl0KCdsYWxhJyk6Cg==</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAjIHdpdGggY29udGV4dCgnY29uZmlnJyk6Cg==</text>
-      </register>
-      <register name="7" type="2">
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICAjCg==</text>
       </register>
-      <register name="8" type="8">
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAjICAgICAgICAgZXhwZWN0KHBwbC5zb2xyX2pzb24oJ2h0dHA6Ly9vbnRvbG9neS5vbnRvZm9yY2UuY29tL3Byb3BlcnRpZXMvdGFyZ2V0L2h0bWxfbGFiZWwnLCAnY2Fub25pY2FsX3R5cGUnKSkudG8oZXF1YWwoJ2xhbGEnKSkK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAjICAgICB3aXRoIGl0KCdsYWxhJyk6Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAjIHdpdGggY29udGV4dCgnY29uZmlnJyk6Cg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAjCg==</text>
+      </register>
+      <register name="9" type="8">
         <text>delet
 delet
 delet</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name=":" type="4">
         <text>300</text>
