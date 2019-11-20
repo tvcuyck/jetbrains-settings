@@ -3,15 +3,18 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_column_content_type_spec.py" timestamp="1574163033069">
+      <file name="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_column_content_type_spec.py" timestamp="1574178819595">
         <mark key="[" line="553" column="142" />
+        <mark key="]" line="578" column="0" />
+        <mark key="^" line="578" column="0" />
+        <mark key="." line="578" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/tests/integration/test_differential_spec.py" timestamp="1573220304227">
         <mark key="[" line="100" column="0" />
         <mark key="]" line="100" column="0" />
         <mark key="." line="100" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1573219011333">
+      <file name="/Python Console" timestamp="1574234994334">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/documentation/source/architecture-design/solr.rst" timestamp="1573492986555">
@@ -33,6 +36,12 @@
         <mark key="[" line="37" column="0" />
         <mark key="]" line="37" column="0" />
         <mark key="." line="37" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/indexer.py" timestamp="1574179287641">
+        <mark key="[" line="955" column="49" />
+        <mark key="]" line="955" column="53" />
+        <mark key="^" line="955" column="53" />
+        <mark key="." line="955" column="53" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/tests/integration/chembl_pipeline_differential.yml" timestamp="1573217708769">
         <mark key="[" line="75" column="14" />
@@ -58,6 +67,12 @@
       <file name="$USER_HOME$/Disqover/metis/tests/spec/actions/commands/test_fetch_records_spec.py" timestamp="1573827234108">
         <mark key="[" line="7" column="81" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_disqover_index_spec.py" timestamp="1574235218733">
+        <mark key="[" line="130" column="33" />
+        <mark key="]" line="159" column="58" />
+        <mark key="^" line="159" column="58" />
+        <mark key="." line="159" column="58" />
+      </file>
       <file name="$USER_HOME$/Disqover/documentation/source/architecture-design/index.rst" timestamp="1573406606403">
         <mark key="[" line="13" column="9" />
       </file>
@@ -67,7 +82,7 @@
         <mark key="." line="126" column="0" />
         <mark key="^" line="126" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1574163284019">
+      <file name="/Dummy.txt" timestamp="1574235623481">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_data_configuration_spec.py" timestamp="1573829181477">
@@ -83,6 +98,9 @@
       <file name="$USER_HOME$/Disqover/documentation/source/architecture-design/Backend.rst" timestamp="1573406976962">
         <mark key="[" line="15" column="38" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_publish_instance_spec.py" timestamp="1574179544863">
+        <mark key="[" line="109" column="86" />
+      </file>
       <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/data_configuration.py" timestamp="1574069904601">
         <mark key="[" line="89" column="0" />
         <mark key="]" line="89" column="0" />
@@ -94,6 +112,18 @@
         <mark key="]" line="65" column="28" />
         <mark key="^" line="65" column="28" />
         <mark key="." line="65" column="28" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/disqover_index.py" timestamp="1574179333551">
+        <mark key="[" line="254" column="0" />
+        <mark key="]" line="254" column="0" />
+        <mark key="^" line="251" column="45" />
+        <mark key="." line="254" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/publish_instance.py" timestamp="1574178869685">
+        <mark key="[" line="57" column="61" />
+        <mark key="]" line="57" column="69" />
+        <mark key="^" line="57" column="69" />
+        <mark key="." line="57" column="69" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/tests/spec_helper/pipeline_fixtures.py" timestamp="1574158887434">
         <mark key="'" line="237" column="50" />
@@ -140,7 +170,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICdmYWNldHMnOltdLAogICAgJ3Byb3BlcnRpZXMnOltdCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBUaGUgaGFzaCB0aGF0IGlzIHBhc3NlZCBpbiBpcyByZWxhdGVkIHRvIHRoZSBmaXJzdCBlbnRyeSBpbiBzb2xyX2pzb24K</text>
       </register>
       <register name="-" type="4">
         <text>t</text>
@@ -152,31 +182,31 @@
         <text encoding="base64">Li4gX3NvbHJfcHJvcGVydHlfZGF0YV9zZWN0aW9uOgo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICdmYWNldHMnOltdLAogICAgJ3Byb3BlcnRpZXMnOltdCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBUaGUgaGFzaCB0aGF0IGlzIHBhc3NlZCBpbiBpcyByZWxhdGVkIHRvIHRoZSBmaXJzdCBlbnRyeSBpbiBzb2xyX2pzb24K</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICdyZWxhdGlvbl93aXRob3V0X3VudHlwZWRfbGlua3MnOiBGYWxzZSwK</text>
+        <text encoding="base64">ICAgICAgICAjIEZvciBzeW1tZXRyaWNhbCB0eXBlZCByZWxhdGlvbnMgdGhlIGluc3RhbmNlIGlzICJkdXBsaWNhdGVkIiBieSB0aGUgZ2V0X3NvbHJfanNvbiBmdW5jdGlvbgogICAgICAgICMgdG8gZGVmaW5lIHRoZSByZXZlcnNlIHR5cGVkIHJlbGF0aW9uCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICdyZWxhdGlvbl93aXRob3V0X3VudHlwZWRfbGlua3MnOiBGYWxzZSwK</text>
+        <text encoding="base64">ICAgICAgICBmb3IgaW5zdF9odXJpLCBpbnN0X2hhc2gsIGluc3RfanNvbiBpbiB6aXAoaW5zdF9odXJpcywgaW5zdF9oYXNoZXMsIHNvbHJfanNvbik6Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICdyZWxhdGlvbl93aXRob3V0X3VudHlwZWRfbGlua3MnOiBGYWxzZSwK</text>
+        <text encoding="base64">ICAgICAgICBmb3IgaW5zdF9odXJpLCBpbnN0X2hhc2gsIGluc3RfanNvbiBpbiB6aXAoaW5zdF9odXJpcywgaW5zdF9oYXNoZXMsIHNvbHJfanNvbik6Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3JlbGF0aW9uX3dpdGhvdXRfdW50eXBlZF9saW5rcycsCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZvciBpbnN0X2h1cmksIGluc3RfaGFzaCBpbiB6aXAoaW5zdF9odXJpcywgaW5zdF9oYXNoZXMpOgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdChvdXQpLnRvKG1hdGNoKCdyZWxhdGlvbl93aXRob3V0X3VudHlwZWRfbGlua3M6JykpCg==</text>
+        <text encoding="base64">ICAgICdmYWNldHMnOltdLAogICAgJ3Byb3BlcnRpZXMnOltdCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB0eXBlX2xpbmsucmVsYXRpb25fd2l0aG91dF91bnR5cGVkX2xpbmtzID0gb3B0aW9uc1sncmVsYXRpb25fd2l0aG91dF91bnR5cGVkX2xpbmtzJ10uZ2V0X3ZhbHVlKG9wdGlvbl92YWx1ZXMpCg==</text>
+        <text encoding="base64">ICAgICdyZWxhdGlvbl93aXRob3V0X3VudHlwZWRfbGlua3MnOiBGYWxzZSwK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnJlbGF0aW9uX3dpdGhvdXRfdW50eXBlZF9saW5rcyA9IEZhbHNlCg==</text>
+        <text encoding="base64">ICAgICdyZWxhdGlvbl93aXRob3V0X3VudHlwZWRfbGlua3MnOiBGYWxzZSwK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBPcHRpb24oJ3JlbGF0aW9uX3dpdGhvdXRfdW50eXBlZF9saW5rcycsCiAgICAgICAgICAgICAgICdBIGJvb2xlYW4gaW5kaWNhdGluZyB0aGUgYWJzZW5jZSBvZiB1bnR5cGVkIGxpbmtzLicsCiAgICAgICAgICAgICAgIG5hbWU9J0hhcyBObyBVbnR5cGVkIExpbmtzJywKICAgICAgICAgICAgICAgY29udGVudF90eXBlPUNULkJPT0wsIG9wdGlvbmFsPVRydWUsIGRlZmF1bHQ9RmFsc2UpLAo=</text>
+        <text encoding="base64">ICAgICdyZWxhdGlvbl93aXRob3V0X3VudHlwZWRfbGlua3MnOiBGYWxzZSwK</text>
       </register>
       <register name=":" type="4">
         <text>300</text>
