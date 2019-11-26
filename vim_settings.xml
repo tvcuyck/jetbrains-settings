@@ -74,10 +74,10 @@
         <mark key="." line="348" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/script/log_filter.py" timestamp="1574433966864">
-        <mark key="[" line="572" column="0" />
-        <mark key="]" line="570" column="28" />
-        <mark key="^" line="570" column="28" />
-        <mark key="." line="570" column="28" />
+        <mark key="[" line="534" column="0" />
+        <mark key="]" line="532" column="28" />
+        <mark key="^" line="532" column="28" />
+        <mark key="." line="532" column="28" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/fixtures/metis_pipeline_test_data/facets_revisited/facets_revisited_pipeline.yml" timestamp="1574323824165">
         <mark key="[" line="499" column="0" />
@@ -346,7 +346,7 @@
         <mark key="[" line="1" column="0" />
         <mark key="]" line="1" column="0" />
         <mark key="." line="1" column="0" />
-        <mark key="^" line="43" column="6" />
+        <mark key="^" line="16" column="6" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/lens_repository.rb" timestamp="1574257024386">
         <mark key="[" line="14" column="0" />
@@ -409,6 +409,9 @@
         <mark key="]" line="7" column="3" />
         <mark key="^" line="7" column="3" />
         <mark key="." line="7" column="3" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/config/routes.rb" timestamp="1574778247337">
+        <mark key="'" line="0" column="1" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/repositories/relation_type_repository_spec.rb" timestamp="1574262278259">
         <mark key="[" line="9" column="79" />
@@ -519,6 +522,7 @@
       <jump line="109" column="27" filename="$USER_HOME$/Disqover/rails5-backend/app/controllers/disqover_settings_controller.rb" />
       <jump line="27" column="8" filename="$USER_HOME$/Disqover/rails5-backend/script/log_filter.py" />
       <jump line="28" column="39" filename="$USER_HOME$/Disqover/rails5-backend/script/log_filter_test.py" />
+      <jump line="0" column="1" filename="$USER_HOME$/Disqover/rails5-backend/config/routes.rb" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -528,7 +532,7 @@
         <text>')</text>
       </register>
       <register name="/" type="4">
-        <text>canonical_type</text>
+        <text>pipelines</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgZXhwZWN0KGN0X2xhYmVscy5maXJzdCkudG8gZXEoJ0NhciBicmFuZCcpCg==</text>
@@ -565,9 +569,9 @@
       </register>
     </registers>
     <search>
-      <last-search>canonical_type</last-search>
+      <last-search>pipelines</last-search>
       <last-offset />
-      <last-pattern>canonical_type</last-pattern>
+      <last-pattern>pipelines</last-pattern>
       <last-replace>sub_type</last-replace>
       <last-substitute>canonical_type</last-substitute>
       <last-dir>1</last-dir>
@@ -582,6 +586,7 @@
         <entry encoding="base64">XDxvdmVyd3JpdGVfZ3Jwc1w+</entry>
         <entry>create_user</entry>
         <entry>canonical_type</entry>
+        <entry>pipelines</entry>
       </history-search>
       <history-cmd>
         <entry>487</entry>
