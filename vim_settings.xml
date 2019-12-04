@@ -138,7 +138,7 @@
         <mark key="]" line="14" column="0" />
         <mark key="." line="14" column="0" />
       </file>
-      <file name="/fragment.rb" timestamp="1575447374891">
+      <file name="/fragment.rb" timestamp="1575469556098">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/db/solr/schema.xml" timestamp="1573492265332">
@@ -179,6 +179,11 @@
         <mark key="]" line="104" column="40" />
         <mark key="." line="104" column="40" />
         <mark key="^" line="104" column="40" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/repositories/lens_repository_spec.rb" timestamp="1575469670562">
+        <mark key="[" line="91" column="21" />
+        <mark key="]" line="89" column="0" />
+        <mark key="." line="89" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/visitors/visitor.rb" timestamp="1575039682366">
         <mark key="[" line="2" column="6" />
@@ -249,8 +254,11 @@
         <mark key="]" line="499" column="0" />
         <mark key="." line="499" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/canonical_type_collection.rb" timestamp="1575465024662">
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/canonical_type_collection.rb" timestamp="1575469238929">
         <mark key="[" line="36" column="5" />
+        <mark key="]" line="35" column="21" />
+        <mark key="^" line="35" column="21" />
+        <mark key="." line="35" column="21" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/repositories/solr_data_entry_repository_spec.rb" timestamp="1574262065060">
         <mark key="[" line="9" column="0" />
@@ -323,7 +331,7 @@
         <mark key="^" line="48" column="105" />
         <mark key="." line="48" column="105" />
       </file>
-      <file name="/Ruby Console" timestamp="1575447315267">
+      <file name="/Ruby Console" timestamp="1575469521466">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/.docker/ci/disqover-docker-compose.yml" timestamp="1574691264776">
@@ -379,11 +387,11 @@
         <mark key="^" line="2" column="1" />
         <mark key="." line="2" column="1" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/lens_repository.rb" timestamp="1574257024386">
-        <mark key="[" line="14" column="0" />
-        <mark key="]" line="14" column="55" />
-        <mark key="." line="14" column="54" />
-        <mark key="^" line="14" column="54" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/lens_repository.rb" timestamp="1575469574013">
+        <mark key="[" line="368" column="41" />
+        <mark key="]" line="368" column="22" />
+        <mark key="." line="368" column="22" />
+        <mark key="^" line="368" column="22" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/sparql_queries_for_index_service.rb" timestamp="1574171328701">
         <mark key="[" line="1155" column="0" />
@@ -510,7 +518,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">CiAgZGVmIGdldF9jdHNfd2l0aF9zeW5vbnltX2FzX3Byb3BlcnR5CiAgICBAYWxsLnNlbGVjdCh7fSkKICAK</text>
+        <text encoding="base64">ICAgICAgZXhwZWN0KHN1YmplY3QuYWxsLmZpbmR7fHB8IHAudXJpLnRvX3MgPT0gJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tLzIwMTMvZGlzcW92ZXIjc3lub255bV9wcm9wJyAmJgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcC5jYW5vbmljYWxfdHlwZS50b19zID09ICdodHRwOi8vY29uZmlnLnJvbGVzLmNvbS9jdC9QZXJzb24nfSkudG8gYmVfbmlsCg==</text>
       </register>
       <register name="-" type="4">
         <text>'</text>
@@ -519,34 +527,34 @@
         <text>export</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIEBpc19sb2NhbCA9IGF0dHJpYnV0ZXNbOmlzX2xvY2FsXSBpZiBhdHRyaWJ1dGVzWzppc19sb2NhbF0K</text>
+        <text encoding="base64">ICAgIGl0ICdsb2FkcyBzeW5vbnltIHByb3BlcnRpZXMnIGRvCiAgICAgIGV4cGVjdChzdWJqZWN0LmFsbC5zZWxlY3R7fHB8IHAudXJpLnRvX3MgPT0gJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tLzIwMTMvZGlzcW92ZXIjc3lub255bV9wcm9wJ30pLnRvX25vdCBiZV9lbXB0eQogICAgICBleHBlY3Qoc3ViamVjdC5hbGwuZmluZHt8cHwgcC51cmkudG9fcyA9PSAnaHR0cDovL25zLm9udG9mb3JjZS5jb20vMjAxMy9kaXNxb3ZlciNzeW5vbnltX3Byb3AnICYmCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwLmNhbm9uaWNhbF90eXBlLnRvX3MgPT0gJ2h0dHA6Ly9jb25maWcucm9sZXMuY29tL2N0L0N1cnNlJ30ubGFiZWwpLnRvIGVxKCdTeW5vbnltJykKICAgICAgZXhwZWN0KHN1YmplY3QuYWxsLmZpbmR7fHB8IHAudXJpLnRvX3MgPT0gJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tLzIwMTMvZGlzcW92ZXIjc3lub255bV9wcm9wJyAmJgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcC5jYW5vbmljYWxfdHlwZS50b19zID09ICdodHRwOi8vY29uZmlnLnJvbGVzLmNvbS9jdC9QZXJzb24nfSkudG8gYmVfbmlsCiAgICBlbmQK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CiAgZGVmIGdldF9jdHNfd2l0aF9zeW5vbnltX2FzX3Byb3BlcnR5CiAgICBAYWxsLnNlbGVjdCh7fSkKICAK</text>
+        <text encoding="base64">ICAgICAgZXhwZWN0KHN1YmplY3QuYWxsLmZpbmR7fHB8IHAudXJpLnRvX3MgPT0gJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tLzIwMTMvZGlzcW92ZXIjc3lub255bV9wcm9wJyAmJgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcC5jYW5vbmljYWxfdHlwZS50b19zID09ICdodHRwOi8vY29uZmlnLnJvbGVzLmNvbS9jdC9QZXJzb24nfSkudG8gYmVfbmlsCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICBlbmQK</text>
+        <text encoding="base64">ICAgICAgZXhwZWN0KHN1YmplY3QuYWxsLnNlbGVjdHt8cHwgcC51cmkudG9fcyA9PSAnaHR0cDovL25zLm9udG9mb3JjZS5jb20vMjAxMy9kaXNxb3ZlciNzeW5vbnltX3Byb3AnfSkudG9fbm90IGJlX2VtcHR5CiAgICAgIGV4cGVjdChzdWJqZWN0LmFsbC5maW5ke3xwfCBwLnVyaS50b19zID09ICdodHRwOi8vbnMub250b2ZvcmNlLmNvbS8yMDEzL2Rpc3FvdmVyI3N5bm9ueW1fcHJvcCcgJiYKICAgICAgICAgIHAuY2Fub25pY2FsX3R5cGUudG9fcyA9PSAnaHR0cDovL2NvbmZpZy5yb2xlcy5jb20vY3QvQ3Vyc2UnfS5sYWJlbCkudG8gZXEoJ1N5bm9ueW0nKQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">CiAgZGVmIGdldF9jdHNfd2l0aF9zeW5vbnltX2FzX3Byb3BlcnR5CiAgICBAYWxsLnNlbGVjdCh7fSkKICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHJlc3BvbnNlID0gZ2V0X2Nhbm9uaWNhbF90eXBlc19mcm9tX3NvbHIKICAgIHNlbGVjdGVkX2N0cyA9IFtdCiAgICByZXNwb25zZVs6cmVzcG9uc2VdWzpkb2NzXS5tYXAgZG8gfGN0fAogICAgICBjb25maWcgPSBKU09OLnBhcnNlKGN0Wzpjb25maWd1cmF0aW9uX2xuXS5maXJzdCkgfHwge30KICAgICAgaWYgY29uZmlnWydzeW5vbnltX2FzX3Byb3BlcnR5J10KICAgICAgICBzZWxlY3RlZF9jdHMuYXBwZW5kKGN0WydpZCddKQogICAgICBlbmQKICAgIGVuZAogICAgc2VsZWN0ZWRfY3RzCg==</text>
+        <text encoding="base64">ICBlbmQK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHJlc3BvbnNlID0gZ2V0X2Nhbm9uaWNhbF90eXBlc19mcm9tX3NvbHIKICAgIHNlbGVjdGVkX2N0cyA9IFtdCiAgICByZXNwb25zZVs6cmVzcG9uc2VdWzpkb2NzXS5tYXAgZG8gfGN0fAogICAgICBjb25maWcgPSBKU09OLnBhcnNlKGN0Wzpjb25maWd1cmF0aW9uX2xuXS5maXJzdCkgfHwge30KICAgICAgaWYgY29uZmlnWydzeW5vbnltX2FzX3Byb3BlcnR5J10KICAgICAgICBzZWxlY3RlZF9jdHMuYXBwZW5kKGN0WydpZCddKQogICAgICBlbmQKICAgIGVuZAogICAgc2VsZWN0ZWRfY3RzCg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHJlc3BvbnNlID0gZ2V0X2Nhbm9uaWNhbF90eXBlc19mcm9tX3NvbHIKICAgIHNlbGVjdGVkX2N0cyA9IFtdCiAgICByZXNwb25zZVs6cmVzcG9uc2VdWzpkb2NzXS5tYXAgZG8gfGN0fAogICAgICBjb25maWcgPSBKU09OLnBhcnNlKGN0Wzpjb25maWd1cmF0aW9uX2xuXS5maXJzdCkgfHwge30KICAgICAgaWYgY29uZmlnWydzeW5vbnltX2FzX3Byb3BlcnR5J10KICAgICAgICBzZWxlY3RlZF9jdHMuYXBwZW5kKGN0WydpZCddKQogICAgICBlbmQKICAgIGVuZAogICAgc2VsZWN0ZWRfY3RzCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHJlc3BvbnNlID0gZ2V0X2Nhbm9uaWNhbF90eXBlc19mcm9tX3NvbHIKICAgIHNlbGVjdGVkX2N0cyA9IFtdCiAgICByZXNwb25zZVs6cmVzcG9uc2VdWzpkb2NzXS5tYXAgZG8gfGN0fAogICAgICBjb25maWcgPSBKU09OLnBhcnNlKGN0Wzpjb25maWd1cmF0aW9uX2xuXS5maXJzdCkgfHwge30KICAgICAgaWYgY29uZmlnWydzeW5vbnltX2FzX3Byb3BlcnR5J10KICAgICAgICBzZWxlY3RlZF9jdHMuYXBwZW5kKGN0WydpZCddKQogICAgICBlbmQKICAgIGVuZAogICAgc2VsZWN0ZWRfY3RzCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZXhwZWN0KGlkMS5sYWJlbCkudG8gZXEoJzUnKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZXhwZWN0KGlkMS52YWx1ZXMuZmlyc3QpLnRvIGVxKCczNi4wNTQ0LC0xMTIuMTQwMScpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
