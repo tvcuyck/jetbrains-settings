@@ -31,10 +31,11 @@
         <mark key="." line="112" column="5" />
         <mark key="^" line="112" column="5" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/visitors/federation_filter_visitor.rb" timestamp="1575538089170">
-        <mark key="[" line="348" column="0" />
-        <mark key="]" line="348" column="0" />
-        <mark key="." line="348" column="0" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/visitors/federation_filter_visitor.rb" timestamp="1575542503272">
+        <mark key="[" line="468" column="6" />
+        <mark key="]" line="471" column="11" />
+        <mark key="." line="471" column="11" />
+        <mark key="^" line="471" column="11" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/property_values_spec.rb" timestamp="1573227698295">
         <mark key="[" line="53" column="27" />
@@ -59,7 +60,7 @@
         <mark key="^" line="17" column="46" />
         <mark key="." line="17" column="46" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/visitors/filter_solr_visitor.rb" timestamp="1575538541456">
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/visitors/filter_solr_visitor.rb" timestamp="1575540082469">
         <mark key="]" line="16" column="0" />
         <mark key="." line="16" column="0" />
       </file>
@@ -84,6 +85,7 @@
         <mark key="]" line="28" column="57" />
         <mark key="." line="29" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/federation_instance_service.rb" timestamp="1575541111006" />
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/federation_filter.rb" timestamp="1574266444872">
         <mark key="[" line="10" column="0" />
         <mark key="]" line="10" column="0" />
@@ -100,6 +102,7 @@
         <mark key="^" line="286" column="37" />
         <mark key="." line="286" column="37" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/sparql/value.rb" timestamp="1575542676630" />
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" timestamp="1575037581255">
         <mark key="[" line="3340" column="0" />
         <mark key="]" line="3340" column="0" />
@@ -150,8 +153,11 @@
         <mark key="]" line="14" column="0" />
         <mark key="." line="14" column="0" />
       </file>
-      <file name="/fragment.rb" timestamp="1575537957067">
+      <file name="/fragment.rb" timestamp="1575542634779">
         <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="35" />
+        <mark key="." line="0" column="35" />
+        <mark key="^" line="0" column="35" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/db/solr/schema.xml" timestamp="1573492265332">
         <mark key="[" line="125" column="0" />
@@ -306,6 +312,7 @@
         <mark key="^" line="25" column="8" />
         <mark key="." line="25" column="8" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/models/facet_value.rb" timestamp="1575542660163" />
       <file name="$USER_HOME$/Disqover/rails5-backend/app/controllers/application_controller.rb" timestamp="1573027186593">
         <mark key="[" line="17" column="48" />
         <mark key="]" line="21" column="59" />
@@ -344,7 +351,7 @@
         <mark key="^" line="48" column="105" />
         <mark key="." line="48" column="105" />
       </file>
-      <file name="/Ruby Console" timestamp="1575538662712">
+      <file name="/Ruby Console" timestamp="1575541398398">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/.docker/ci/disqover-docker-compose.yml" timestamp="1574691264776">
@@ -529,11 +536,11 @@
       <jump line="12" column="0" filename="$USER_HOME$/Disqover/rails5-backend/spec/controllers/datasets_controller_spec.rb" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">UE9TVEdSRVNfSU1BR0U9NDI4MDI1MDY0NDcxLmRrci5lY3IudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vb250b2ZvcmNlL3Bvc3RncmVzOjkuNgpSRURJU19JTUFHRT00MjgwMjUwNjQ0NzEuZGtyLmVjci51cy1lYXN0LTEuYW1hem9uYXdzLmNvbS9vbnRvZm9yY2UvcmVkaXM6NS4wLjUtc3RyZXRjaApCQUNLRU5EX0lNQUdFPTQyODAyNTA2NDQ3MS5ka3IuZWNyLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tL29udG9mb3JjZS9iYWNrZW5kOmRldgo=</text>
+      <register name="&quot;" type="4">
+        <text>facet</text>
       </register>
       <register name="-" type="4">
-        <text>'</text>
+        <text>facet</text>
       </register>
       <register name="/" type="4">
         <text>export</text>
