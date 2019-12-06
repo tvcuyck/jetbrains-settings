@@ -7,10 +7,10 @@
       <file name="/Dummy.txt" timestamp="1575456444463">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1575622645136">
+      <file name="/Python Console" timestamp="1575623926661">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/fragment.py" timestamp="1575622490032">
+      <file name="/fragment.py" timestamp="1575623872820">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -21,6 +21,12 @@
         <mark key="]" line="123" column="27" />
         <mark key="." line="123" column="27" />
         <mark key="^" line="123" column="27" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/src/metis/option.py" timestamp="1575623680183">
+        <mark key="[" line="59" column="0" />
+        <mark key="]" line="60" column="21" />
+        <mark key="^" line="36" column="12" />
+        <mark key="." line="59" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/src/metis/actions/components/create_canonical_type_action.py" timestamp="1575621874943" />
       <file name="$USER_HOME$/Disqover/metis/src/metis/expression_parser/functions/funcset_geo.py" timestamp="1575558128638">
@@ -37,7 +43,9 @@
         <mark key="]" line="25" column="0" />
         <mark key="." line="25" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/src/metis/concrete_options.py" timestamp="1575622317468" />
+      <file name="$USER_HOME$/Disqover/metis/src/metis/concrete_options.py" timestamp="1575623907131">
+        <mark key="'" line="555" column="4" />
+      </file>
       <file name="$USER_HOME$/Disqover/metis/tests/integration/test_geo_mapping_spec.py" timestamp="1575622047643">
         <mark key="[" line="36" column="40" />
         <mark key="]" line="41" column="58" />
@@ -45,40 +53,43 @@
         <mark key="^" line="41" column="58" />
       </file>
     </filemarks>
-    <jumps />
+    <jumps>
+      <jump line="572" column="8" filename="$USER_HOME$/Disqover/metis/src/metis/concrete_options.py" />
+      <jump line="555" column="4" filename="$USER_HOME$/Disqover/metis/src/metis/concrete_options.py" />
+    </jumps>
     <registers>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgLSB1cmk6ICdodHRwOi8vbnMub250b2ZvcmNlLmNvbS9vYnNlcnZhdGlvbi9mYWNldHMvbG9jYXRpb24nCiAgICAgICAgbGFiZWw6ICdMb2NhdGlvbicKICAgICAgICBkYXRhVHlwZTogY29vcmRpbmF0ZQogICAgICAgIHByZWRpY2F0ZXM6CiAgICAgICAgICAtICdvYnNlcnZhdGlvbjptYXBwZWRfbG9jYXRpb24nCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZXhjZXB0IFR5cGVFcnJvciBhcyBlOgogICAgICAgICAgICAgICAgcmFpc2UK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">b3B0aW9uLmdldF92YWx1ZShvcHRpb25zX3ZhbHVlcykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZXhjZXB0IFR5cGVFcnJvciBhcyBlOgogICAgICAgICAgICAgICAgcmFpc2UK</text>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">b3B0aW9uLmdldF92YWx1ZShvcHRpb25zX3ZhbHVlcykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZXhjZXB0IFR5cGVFcnJvciBhcyBlOgogICAgICAgICAgICAgICAgcmFpc2UK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">c2VsZi52YWxpZGF0ZV9zdWJpdGVtKHZhbCkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGxvY2F0aW9uX2RhdGFfdCAgICBhcHBlbmQoRGlzcW92ZXJMb2NhdGlvbkZhY2V0VG9Tb2xyTWFwcGVyLmRhdGFfdHlwZSkK</text>
+        <text encoding="base64">b3B0aW9uLmdldF92YWx1ZShvcHRpb25zX3ZhbHVlcykK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZWxpZiBzZWxmLmlzX2xvY2F0aW9uX2ZhY2V0KCk6CiAgICAgICAgICAgICAgICBtYXBwZXJzLmFwcGVuZChEaXNxb3ZlckxvY2F0aW9uRmFjZXRUb1NvbHJNYXBwZXIoc2VsZikpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CgoK</text>
+        <text encoding="base64">ICAgIGxvY2F0aW9uX2RhdGFfdCAgICBhcHBlbmQoRGlzcW92ZXJMb2NhdGlvbkZhY2V0VG9Tb2xyTWFwcGVyLmRhdGFfdHlwZSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBsdmxfNiA9IGdlb1snbHZsXzYnXQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZWxpZiBzZWxmLmlzX2xvY2F0aW9uX2ZhY2V0KCk6CiAgICAgICAgICAgICAgICBtYXBwZXJzLmFwcGVuZChEaXNxb3ZlckxvY2F0aW9uRmFjZXRUb1NvbHJNYXBwZXIoc2VsZikpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">CgoK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBmaWVsZF9zcyA9IHNlbGYuc29scl9maWVsZF9vbmx5X3VyaQo=</text>
+        <text encoding="base64">ICAgICAgICBsdmxfNiA9IGdlb1snbHZsXzYnXQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAganNvbi5zZXRkZWZhdWx0KGZpZWxkX3NmLCBzZXQoKSkuYWRkKGYnIntsaXRfdmFsfSInKQo=</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IA==</text>
