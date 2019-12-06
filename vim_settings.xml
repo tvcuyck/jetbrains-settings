@@ -3,7 +3,10 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Python Console" timestamp="1575643684005">
+      <file name="/Dummy.txt" timestamp="1575642410010">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/Python Console" timestamp="1575644970796">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1575626915411">
@@ -11,34 +14,26 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/indexer.py" timestamp="1575641782234" />
-      <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/disqover_canonical_type.py" timestamp="1575624740344" />
-      <file name="$USER_HOME$/Disqover/metis/.docker/development/env" timestamp="1575627823539" />
-      <file name="$USER_HOME$/Disqover/metis/tests/integration/test_geo_mapping_spec.py" timestamp="1575643654193">
-        <mark key="[" line="12" column="32" />
-        <mark key="]" line="12" column="30" />
-        <mark key="^" line="12" column="30" />
-        <mark key="." line="12" column="30" />
+      <file name="$USER_HOME$/Disqover/metis/tests/spec/expression_parser/functions/test_funcset_geo_spec.py" timestamp="1575645996009">
+        <mark key="[" line="14" column="59" />
+        <mark key="]" line="14" column="26" />
+        <mark key="." line="14" column="26" />
+        <mark key="^" line="14" column="26" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/tests/spec_helper/helpers.py" timestamp="1575621583889" />
-      <file name="/Dummy.txt" timestamp="1575642410010">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/metis/src/metis/actions/action.py" timestamp="1575622795846" />
-      <file name="$USER_HOME$/Disqover/metis/src/metis/actions/components/create_canonical_type_action.py" timestamp="1575621874943" />
       <file name="$USER_HOME$/Disqover/metis/src/metis/expression_parser/functions/funcset_geo.py" timestamp="1575643680556">
         <mark key="[" line="49" column="10" />
         <mark key="]" line="14" column="59" />
         <mark key="^" line="14" column="59" />
         <mark key="." line="14" column="59" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/Dockerfile" timestamp="1575626182481" />
-      <file name="$USER_HOME$/Disqover/metis/tests/integration/data/geo_mapping_observations_raw.csv" timestamp="1575454590442">
-        <mark key="[" line="0" column="15" />
+      <file name="$USER_HOME$/Disqover/metis/tests/integration/data/geo_mapping_observations_raw.csv" timestamp="1575644894412">
+        <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/Jenkinsfile" timestamp="1575626145535" />
-      <file name="$USER_HOME$/Disqover/metis/src/metis/concrete_options.py" timestamp="1575623907131">
-        <mark key="'" line="555" column="4" />
+      <file name="$USER_HOME$/Disqover/metis/tests/integration/test_geo_mapping_spec.py" timestamp="1575645921545">
+        <mark key="[" line="24" column="0" />
+        <mark key="]" line="24" column="99" />
+        <mark key="^" line="21" column="8" />
+        <mark key="." line="21" column="8" />
       </file>
     </filemarks>
     <jumps>
@@ -48,37 +43,37 @@
     </jumps>
     <registers>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW5zdGFuY2VfZGljdC5zZXRkZWZhdWx0KGxibF9maWVsZF9sdmxfNiwgc2V0KCkpLmFkZChmIntsdmxfNl9sYmx9PHtMVkxfNl9QUkVGSVh9e2x2bF82X2lkfT4iKQo=</text>
+        <text encoding="base64">d2l0aCBwYXRjaCgnbWV0aXMuZXhwcmVzc2lvbl9wYXJzZXIuZnVuY3Rpb25zLmZ1bmNzZXRfZ2VvLm5vbWluYXRpbV9sb29rdXAnLCBtb2NrX25vbWluYXR1bV9sb29rdXApOgo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ZGVmIG1vY2tfZ2VvX2xvb2t1cAoK</text>
+        <text encoding="base64">ICAgIHdpdGggY29udGV4dCgnZnVsbCcpOgo=</text>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ZGVmIG1vY2tfZ2VvX2xvb2t1cAoK</text>
+        <text encoding="base64">ICAgIHdpdGggY29udGV4dCgnZnVsbCcpOgo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICB1cmlfZmllbGRfbHZsXzYgPSBzZWxmLnNvbHJfbHZsXzZfdXJpX2ZpZWxkCg==</text>
+        <text encoding="base64">ICAgIHdpdGggY29udGV4dCgnc2ltcGxlJyk6CiAgICAgICAgd2l0aCBiZWZvcmUuZWFjaDoKICAgICAgICAgICAgZXhwcmVzc2lvbiA9ICJMYXRMb25Ub0dlbygkbGF0LCAkbG9uKSIKICAgICAgICAgICAgdmFyaWFibGVzX2luID0gW3snbmFtZSc6ICdsYXQnLCAndHlwZSc6ICdTdHJpbmcnfSwgeyduYW1lJzogJ2xvbicsICd0eXBlJzogJ1N0cmluZyd9XQogICAgICAgICAgICBzZWxmLmV4cHJlc3Npb25UZXN0ZXIgPSBFeHByZXNzaW9uVGVzdHMoZXhwcmVzc2lvbiwgdmFyaWFibGVzX2luKQoKICAgICAgICB3aXRoIGl0KCdyZXR1cm5zIGpzb24gZGljdCcpOgogICAgICAgICAgICBpbnB1dF8gPSB7J2xhdCc6ICc1Mi4wJywgJ2xvbic6ICczLjcnfQogICAgICAgICAgICBvdXQgPSB7fQogICAgICAgICAgICByZXN1bHQgPSAneyJsYXQiOiAiNTIuMCIsICJsb24iOiAiMy43In0nCiAgICAgICAgICAgIHNlbGYuZXhwcmVzc2lvblRlc3Rlci5jaGVja19yZXN1bHQoaW5wdXRfLCBvdXQsIHJlc3VsdCkKCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ZGVmIG1vY2tfZ2VvX2xvb2t1cAoK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBsYmxfZmllbGRfbHZsXzIgPSBzZWxmLnNvbHJfbHZsXzJfbGJsX2ZpZWxkCg==</text>
+        <text encoding="base64">ICAgICAgICB1cmlfZmllbGRfbHZsXzYgPSBzZWxmLnNvbHJfbHZsXzZfdXJpX2ZpZWxkCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnNvbHJfbHZsXzRfbGJsX2ZpZWxkID0gc2VsZi5fZ2V0X3NvbHJfbHZsX2xibF9maWVsZCg0KQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzZWxmLnNvbHJfbHZsXzJfbGJsX2ZpZWxkID0gc2VsZi5fZ2V0X3NvbHJfbHZsX2xibF9maWVsZCgyKQo=</text>
+        <text encoding="base64">ICAgICAgICBsYmxfZmllbGRfbHZsXzIgPSBzZWxmLnNvbHJfbHZsXzJfbGJsX2ZpZWxkCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW5zdGFuY2VfZGljdC5zZXRkZWZhdWx0KGxibF9maWVsZF9sdmxfMiwgc2V0KCkpLmFkZChmIjx7TFZMXzJfUFJFRklYfXtsdmxfMl9pZC51cHBlcigpfT4iKQo=</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnNvbHJfbHZsXzRfbGJsX2ZpZWxkID0gc2VsZi5fZ2V0X3NvbHJfbHZsX2xibF9maWVsZCg0KQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW5zdGFuY2VfZGljdC5zZXRkZWZhdWx0KGxibF9maWVsZF9sdmxfNCwgc2V0KCkpLmFkZChmIjx7TFZMXzRfUFJFRklYfXtsdmxfNF9pZH0+IikK</text>
+        <text encoding="base64">ICAgICAgICBzZWxmLnNvbHJfbHZsXzJfbGJsX2ZpZWxkID0gc2VsZi5fZ2V0X3NvbHJfbHZsX2xibF9maWVsZCgyKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfSB0byBlcXVhbCBbeydsYXQnOiAnMzcuODQwNTQ3OTUnLCAnbG9uJzogJy0xMTkuNTE2NTg3Nzk4MDI1JywgJ2x2bF8yJzogJ3VzJywgJ2x2bF80JzogMTY1NDc1LCAnbHZsXzYnOiAzOTY0NzF9XQoKICAgICAgICAgICAgICAgIHsibGF0IjogIjM3Ljg0MDU0Nzk1IiwgImxvbiI6ICItMTE5LjUxNjU4Nzc5ODAyNSIsICJsdmxfMiI6ICJ1cyIsICJsdmxfNCI6IDE2NTQ3NSwgImx2bF82IjogMzk2NDcxfV0pKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgaW5zdGFuY2VfZGljdC5zZXRkZWZhdWx0KGxibF9maWVsZF9sdmxfMiwgc2V0KCkpLmFkZChmIjx7TFZMXzJfUFJFRklYfXtsdmxfMl9pZC51cHBlcigpfT4iKQo=</text>
       </register>
       <register name="-" type="4">
         <text>r</text>
