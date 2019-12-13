@@ -26,6 +26,12 @@
         <mark key="]" line="97" column="0" />
         <mark key="." line="97" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/fixtures/metis_pipeline_test_data/geo_mapping/observations_raw.csv" timestamp="1576246069768">
+        <mark key="[" line="0" column="33" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/fixtures/metis_pipeline_test_data/geo_mapping/observations_coord.csv" timestamp="1576246044059">
+        <mark key="[" line="3" column="39" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/.docker/development/env" timestamp="1576163525629">
         <mark key="[" line="7" column="83" />
         <mark key="]" line="7" column="4" />
@@ -36,17 +42,29 @@
         <mark key="[" line="178" column="0" />
         <mark key="]" line="179" column="31" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/fixtures/metis_pipeline_test_data/rspec_pipeline.yml" timestamp="1576242524781">
-        <mark key="[" line="45" column="0" />
-        <mark key="]" line="45" column="0" />
-        <mark key="." line="45" column="0" />
-        <mark key="^" line="45" column="28" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/fixtures/metis_pipeline_test_data/rspec_pipeline.yml" timestamp="1576246190151">
+        <mark key="'" line="382" column="26" />
+        <mark key="[" line="109" column="68" />
+        <mark key="]" line="123" column="36" />
+        <mark key="." line="109" column="0" />
+        <mark key="^" line="382" column="26" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/subfacet_service_spec.rb" timestamp="1576243937771">
-        <mark key="[" line="4574" column="41" />
-        <mark key="]" line="4574" column="53" />
-        <mark key="." line="4574" column="53" />
-        <mark key="^" line="4574" column="53" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/subfacet_service.rb" timestamp="1576245547362">
+        <mark key="[" line="449" column="74" />
+        <mark key="]" line="699" column="0" />
+        <mark key="^" line="699" column="0" />
+        <mark key="." line="699" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/solr_candidate_facet_repository.rb" timestamp="1576244292181">
+        <mark key="[" line="574" column="0" />
+        <mark key="]" line="574" column="73" />
+      </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/subfacet_service_spec.rb" timestamp="1576245812430">
+        <mark key="'" line="460" column="0" />
+        <mark key="[" line="4684" column="36" />
+        <mark key="]" line="4683" column="17" />
+        <mark key="." line="4683" column="17" />
+        <mark key="^" line="4683" column="17" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/models/codec/compact_sparql_codec.rb" timestamp="1576167245655">
         <mark key="[" line="14" column="28" />
@@ -55,38 +73,68 @@
         <mark key="^" line="14" column="27" />
       </file>
     </filemarks>
-    <jumps />
+    <jumps>
+      <jump line="460" column="0" filename="$USER_HOME$/Disqover/rails5-backend/spec/services/subfacet_service_spec.rb" />
+      <jump line="174" column="28" filename="$USER_HOME$/Disqover/rails5-backend/spec/fixtures/metis_pipeline_test_data/rspec_pipeline.yml" />
+      <jump line="382" column="26" filename="$USER_HOME$/Disqover/rails5-backend/spec/fixtures/metis_pipeline_test_data/rspec_pipeline.yml" />
+    </jumps>
     <registers>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIGVsc2lmIGZhY2V0Lmhpc3RvZ3JhbV9mYWNldD8KICAgICAga2V5X2Zvcl9oaXN0X2ZhY2V0KGZhY2V0KQo=</text>
-      </register>
-      <register name="1" type="2">
-        <text encoding="base64">CiAgICAgICAgaXQgJ2ZpcnN0IGZhY2V0IGhhcyBjb3JyZWN0IG1pbiBwZXIgaWQnIGRvCiAgICAgICAgICBleHBlY3QocmVzdWx0LmZhY2V0c19pbmZvWzBdLmlkcy5tYXB7fGlkfCBpZC5xdWFudGlmaWNhdGlvbnNbOm1pbl19KS50byBlcShbIjE5OTQtMTEtMjQiLCBuaWwsICIxOTMxLTAxLTA0IiwgbmlsXSkKICAgICAgICBlbmQKCiAgICAgICAgaXQgJ2ZpcnN0IGZhY2V0IGhhcyBjb3JyZWN0IG1heCBwZXIgaWQnIGRvCiAgICAgICAgICBleHBlY3QocmVzdWx0LmZhY2V0c19pbmZvWzBdLmlkcy5tYXB7fGlkfCBpZC5xdWFudGlmaWNhdGlvbnNbOm1heF19KS50byBlcShbIjE5OTQtMTEtMjQiLCBuaWwsICIyMDE0LTEyLTI0IiwgbmlsXSkKICAgICAgICBlbmQKCiAgICAgICAgaXQgJ2ZpcnN0IGZhY2V0IGhhcyBjb3JyZWN0IGF2ZyBwZXIgaWQnIGRvCiAgICAgICAgICBleHBlY3QocmVzdWx0LmZhY2V0c19pbmZvWzBdLmlkcy5tYXB7fGlkfCBpZC5xdWFudGlmaWNhdGlvbnNbOmF2Z119KS50byBlcShbIjE5OTQtMTEtMjQiLCBuaWwsICIxOTg3LTEyLTI4IiwgbmlsXSkKICAgICAgICBlbmQK</text>
-      </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGVsc2lmIGZhY2V0Lmhpc3RvZ3JhbV9mYWNldD8KICAgICAga2V5X2Zvcl9oaXN0X2ZhY2V0KGZhY2V0KQo=</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBxdWFudHM6IFsgOm1heCwgOm1pbiwgOmF2ZyBdKX0K</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmYWNldF9vcHRpb25zOiBmYWNldF9vcHRpb25zLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHF1YW50X2ZhY2V0OiBGYWNldC5uZXcoJ2h0dHA6Ly9jb25maWcub250b2ZvcmNlLmNvbS9sb2NhbC9tb3ZpZXMvZmFjZXRzL3JlbGVhc2UnKSwK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzZXQgQG9ic2VydmF0aW9uczptYXBwZWRfbG9jYXRpb24gPQogICAgICAgIFtHZW9Mb29rdXAoJCRvYnNlcnZhdGlvbnM6bG9jYXRpb24ubGl0KV0K</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIFJhaWxzLmxvZ2dlci5kZWJ1Zyhzb2xyX3ZhbC5zaXplKQo=</text>
+        <text encoding="base64">ICAgICAgLSB1cmk6ICdodHRwOi8vbnMub250b2ZvcmNlLmNvbS9vYnNlcnZhdGlvbi9mYWNldHMvdGltZV9vZl9kYXknCiAgICAgICAgbGFiZWw6IFRpbWUgb2YgZGF5CiAgICAgICAgYWRkaXRpdmU6IG51bGwKICAgICAgICBkYXRhVHlwZTogbnVsbAogICAgICAgIHZpZXdUeXBlOiBudWxsCiAgICAgICAgcHJlY2lzaW9uOiBudWxsCiAgICAgICAgcHJlZGljYXRlczoKICAgICAgICAgIC0gJ29ic2VydmF0aW9uczp0aW1lX29mX2RheS5saXQnCiAgICAgICAgZGVzY3JpcHRpb246IG51bGwKICAgICAgICBzaW5nbGVWYWx1ZWQ6IGZhbHNlCiAgICAgICAgZXhwb3J0X3RvX2ZpbGU6IGZhbHNlCiAgICAgICAgcGFyZW50UHJlZGljYXRlOiBudWxsCiAgICAgICAgbm90QW5ub3RhdGVkTGFiZWw6IG51bGwKICAgICAgICB2aXNpYmxlX2Zvcl9ncm91cHM6IG51bGwKICAgICAgICBtaXhlZF9zZWN1cml0eV92YWx1ZXM6IGZhbHNlCg==</text>
       </register>
       <register name="-" type="4">
         <text>Facet.new('http://config.ontoforce.com/local/movies/facets/rating'</text>
       </register>
+      <register name="/" type="4">
+        <text>time_of_day</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgLSB1cmk6ICdodHRwOi8vbnMub250b2ZvcmNlLmNvbS9vYnNlcnZhdGlvbi9mYWNldHMvdGltZV9vZl9kYXknCiAgICAgICAgbGFiZWw6IFRpbWUgb2YgZGF5CiAgICAgICAgYWRkaXRpdmU6IG51bGwKICAgICAgICBkYXRhVHlwZTogbnVsbAogICAgICAgIHZpZXdUeXBlOiBudWxsCiAgICAgICAgcHJlY2lzaW9uOiBudWxsCiAgICAgICAgcHJlZGljYXRlczoKICAgICAgICAgIC0gJ29ic2VydmF0aW9uczp0aW1lX29mX2RheS5saXQnCiAgICAgICAgZGVzY3JpcHRpb246IG51bGwKICAgICAgICBzaW5nbGVWYWx1ZWQ6IGZhbHNlCiAgICAgICAgZXhwb3J0X3RvX2ZpbGU6IGZhbHNlCiAgICAgICAgcGFyZW50UHJlZGljYXRlOiBudWxsCiAgICAgICAgbm90QW5ub3RhdGVkTGFiZWw6IG51bGwKICAgICAgICB2aXNpYmxlX2Zvcl9ncm91cHM6IG51bGwKICAgICAgICBtaXhlZF9zZWN1cml0eV92YWx1ZXM6IGZhbHNlCg==</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgIGV4cGVjdChyZXN1bHQuY29udGVudFsxXS5tYXB7fHh8IHgubWFwKCY6Y291bnQpfSkudG8gZXEoW1swLDAsMF0sIFswLDEsMF0sIFswLDAsMF0sIFswLDAsMF0sIFswLDAsMF1dKQogICAgICAgICAgZXhwZWN0KHJlc3VsdC5jb250ZW50WzJdLm1hcHt8eHwgeC5tYXAoJjpjb3VudCl9KS50byBlcShbWzAsMCwwXSwgWzAsMSwxXSwgWzAsMCwxXSwgWzAsMSwwXSwgWzAsMCwwXV0pCiAgICAgICAgICBleHBlY3QocmVzdWx0LmNvbnRlbnRbM10ubWFwe3x4fCB4Lm1hcCgmOmNvdW50KX0pLnRvIGVxKFtbMCwwLDBdLCBbMCwwLDBdLCBbMCwwLDFdLCBbMCwwLDFdLCBbMCwxLDBdXSkKICAgICAgICAgIGV4cGVjdChyZXN1bHQuY29udGVudFs0XS5tYXB7fHh8IHgubWFwKCY6Y291bnQpfSkudG8gZXEoW1swLDEsMF0sIFswLDAsMF0sIFswLDAsMF0sIFswLDAsMF0sIFswLDAsMF1dKQo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICMgaW5uZXIgYmluczogbmlsLCBGLCBNCg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBlbmQKICAgICAgICAgIGV4cGVjdChyZXN1bHQuY291bnQpLnRvIGVxKDExKQo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">CiAgICAgICAgaXQgJ2NvbnRhaW5zIGNvcnJlY3QgbnVtYmVyIG9mIGZhY2V0X2luZm9zJyBkbwogICAgICAgICAgZXhwZWN0KHJlc3VsdC5mYWNldHNfaW5mby5sZW5ndGgpLnRvIGVxKDIpCiAgICAgICAgZW5kCgogICAgICAgIGl0ICdmaXJzdCBmYWNldCBoYXMgY29ycmVjdCBkaXN0aW5jdF9jb3VudCcgZG8KICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmFjZXRzX2luZm9bMF0uZGlzdGluY3RfY291bnQpLnRvIGVxKDUpCiAgICAgICAgZW5kCgogICAgICAgIGl0ICdmaXJzdCBmYWNldCBoYXMgY29ycmVjdCBuciBvZiBpZHMnIGRvCiAgICAgICAgICBleHBlY3QocmVzdWx0LmZhY2V0c19pbmZvWzBdLmlkcy5sZW5ndGgpLnRvIGVxKDYpCiAgICAgICAgZW5kCgogICAgICAgIGl0ICdmaXJzdCBmYWNldCBoYXMgY29ycmVjdCBpZHMnIGRvCiAgICAgICAgICBleHBlY3QocmVzdWx0LmZhY2V0c19pbmZvWzBdLmlkcy5tYXAoJjpsYWJlbCkpLnRvIGVxKFtuaWwsICJNYXJpcG9zYSBDb3VudHkiLCAiQmFsdGltb3JlIiwgIkJyZXdzdGVyIENvdW50eSIsICJGYWlyYmFua3MgTm9ydGggU3RhciIsICJIb25vbHVsdSBDb3VudHkiXSkKICAgICAgICBlbmQKCiAgICAgICAgaXQgJ2ZpcnN0IGZhY2V0IGhhcyBjb3JyZWN0IGNvdW50cyBwZXIgaWQnIGRvCiAgICAgICAgICBleHBlY3QocmVzdWx0LmZhY2V0c19pbmZvWzBdLmlkcy5tYXAoJjpjb3VudCkpLnRvIGVxKFs1LCAyLCAxLCAxLCAxLCAxXSkKICAgICAgICBlbmQK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">CiAgICAgICAgaXQgJ2ZpcnN0IGZhY2V0IGhhcyBjb3JyZWN0IG1pbiBwZXIgaWQnIGRvCiAgICAgICAgICBleHBlY3QocmVzdWx0LmZhY2V0c19pbmZvWzBdLmlkcy5tYXB7fGlkfCBpZC5xdWFudGlmaWNhdGlvbnNbOm1pbl19KS50byBlcShbIjE5OTQtMTEtMjQiLCBuaWwsICIxOTMxLTAxLTA0IiwgbmlsXSkKICAgICAgICBlbmQKCiAgICAgICAgaXQgJ2ZpcnN0IGZhY2V0IGhhcyBjb3JyZWN0IG1heCBwZXIgaWQnIGRvCiAgICAgICAgICBleHBlY3QocmVzdWx0LmZhY2V0c19pbmZvWzBdLmlkcy5tYXB7fGlkfCBpZC5xdWFudGlmaWNhdGlvbnNbOm1heF19KS50byBlcShbIjE5OTQtMTEtMjQiLCBuaWwsICIyMDE0LTEyLTI0IiwgbmlsXSkKICAgICAgICBlbmQKCiAgICAgICAgaXQgJ2ZpcnN0IGZhY2V0IGhhcyBjb3JyZWN0IGF2ZyBwZXIgaWQnIGRvCiAgICAgICAgICBleHBlY3QocmVzdWx0LmZhY2V0c19pbmZvWzBdLmlkcy5tYXB7fGlkfCBpZC5xdWFudGlmaWNhdGlvbnNbOmF2Z119KS50byBlcShbIjE5OTQtMTEtMjQiLCBuaWwsICIxOTg3LTEyLTI4IiwgbmlsXSkKICAgICAgICBlbmQK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBxdWFudHM6IFsgOm1heCwgOm1pbiwgOmF2ZyBdKX0K</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmYWNldF9vcHRpb25zOiBmYWNldF9vcHRpb25zLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHF1YW50X2ZhY2V0OiBGYWNldC5uZXcoJ2h0dHA6Ly9jb25maWcub250b2ZvcmNlLmNvbS9sb2NhbC9tb3ZpZXMvZmFjZXRzL3JlbGVhc2UnKSwK</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBzZXQgQG9ic2VydmF0aW9uczptYXBwZWRfbG9jYXRpb24gPQogICAgICAgIFtHZW9Mb29rdXAoJCRvYnNlcnZhdGlvbnM6bG9jYXRpb24ubGl0KV0K</text>
+      </register>
     </registers>
     <search>
-      <last-dir>0</last-dir>
+      <last-search>time_of_day</last-search>
+      <last-offset />
+      <last-pattern>time_of_day</last-pattern>
+      <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
-    <history />
+    <history>
+      <history-search>
+        <entry>csv_import</entry>
+        <entry>time_of_day</entry>
+      </history-search>
+      <history-cmd>
+        <entry>0</entry>
+      </history-cmd>
+    </history>
     <shortcut-conflicts>
       <shortcut-conflict owner="ide">
         <text>ctrl pressed F</text>
