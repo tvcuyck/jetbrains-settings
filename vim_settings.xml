@@ -10,27 +10,27 @@
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/filter/search_node_spec.rb" timestamp="1576657718434" />
-      <file name="/fragment.rb" timestamp="1576660123488">
+      <file name="/fragment.rb" timestamp="1576662806386">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" timestamp="1576661639209">
-        <mark key="[" line="2317" column="83" />
-        <mark key="]" line="2317" column="82" />
-        <mark key="^" line="2317" column="82" />
-        <mark key="." line="2317" column="82" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" timestamp="1576663140405">
+        <mark key="[" line="2320" column="41" />
+        <mark key="]" line="2311" column="34" />
+        <mark key="^" line="2311" column="34" />
+        <mark key="." line="2311" column="34" />
       </file>
-      <file name="/Ruby Console" timestamp="1576662435617">
+      <file name="/Ruby Console" timestamp="1576662850673">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/solr_candidate_facet_repository.rb" timestamp="1576662431280">
-        <mark key="[" line="253" column="42" />
-        <mark key="]" line="95" column="25" />
-        <mark key="^" line="95" column="25" />
-        <mark key="." line="95" column="25" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/visitors/filter_solr_visitor.rb" timestamp="1576662954910" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/solr_candidate_facet_repository.rb" timestamp="1576662845005">
+        <mark key="[" line="260" column="52" />
+        <mark key="]" line="254" column="0" />
+        <mark key="." line="254" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/repositories/canonical_type_repository.rb" timestamp="1576661914931" />
-      <file name="$USER_HOME$/Disqover/rails5-backend/spec/fixtures/metis_pipeline_test_data/location_trees/location_trees_data.ttl" timestamp="1576659664620">
-        <mark key="[" line="61" column="106" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/spec/fixtures/metis_pipeline_test_data/location_trees/location_trees_data.ttl" timestamp="1576663172341">
+        <mark key="[" line="64" column="99" />
         <mark key="]" line="61" column="105" />
         <mark key="^" line="61" column="105" />
         <mark key="." line="61" column="105" />
@@ -41,8 +41,14 @@
       <register name="0" type="2">
         <text encoding="base64">CiAgICAgICAgY29udGV4dCAnd2l0aCB0b28gYnJvYWQgZmlsdGVyJyBkbwogICAgICAgICAgbGV0KDpmb3B0aW9ucykgeyBGYWNldE9wdGlvbnMubmV3KCkud2l0aF9vdmVycmlkZXMoc2VhcmNoOiAnZScpIH0KCiAgICAgICAgICBpdCAncmV0dXJucyBldmVyeXRoaW5nJyBkbwogICAgICAgICAgICBleHBlY3QocmVzdWx0LmNvdW50KS50byBlcSA1MgogICAgICAgICAgZW5kCiAgICAgICAgZW5kCg==</text>
       </register>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIGZyYWdtZW50Cg==</text>
+      </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">CiAgICAgICAgY29udGV4dCAnd2l0aCB0b28gYnJvYWQgZmlsdGVyJyBkbwogICAgICAgICAgbGV0KDpmb3B0aW9ucykgeyBGYWNldE9wdGlvbnMubmV3KCkud2l0aF9vdmVycmlkZXMoc2VhcmNoOiAnZScpIH0KCiAgICAgICAgICBpdCAncmV0dXJucyBldmVyeXRoaW5nJyBkbwogICAgICAgICAgICBleHBlY3QocmVzdWx0LmNvdW50KS50byBlcSA1MgogICAgICAgICAgZW5kCiAgICAgICAgZW5kCg==</text>
+        <text encoding="base64">ICAgIGZyYWdtZW50Cg==</text>
+      </register>
+      <register name="2" type="8">
+        <text>.gsub!(':', '\:')</text>
       </register>
     </registers>
     <search>
@@ -64,6 +70,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
