@@ -3,33 +3,89 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1576850138372">
+      <file name="/Dummy.txt" timestamp="1577967413196">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/Python Console" timestamp="1576844109177">
+      <file name="/Python Console" timestamp="1577965261593">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/disqover_index.py" timestamp="1576844106604">
-        <mark key="[" line="12" column="21" />
+      <file name="$USER_HOME$/Disqover/metis/tests/spec/test_option_spec.py" timestamp="1577966951119">
+        <mark key="[" line="135" column="33" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/requirements.txt" timestamp="1576942387603" />
-      <file name="$USER_HOME$/Disqover/metis/src/metis/expression_parser/functions/funcset_geo.py" timestamp="1576943381825" />
+      <file name="/fragment.py" timestamp="1577965402408">
+        <mark key="[" line="0" column="22" />
+        <mark key="]" line="0" column="20" />
+        <mark key="^" line="0" column="20" />
+        <mark key="." line="0" column="20" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/disqover_canonical_type.py" timestamp="1577966034375">
+        <mark key="]" line="2" column="33" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/src/metis/option.py" timestamp="1577965748143" />
+      <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/disqover_relation_type.py" timestamp="1577965886626">
+        <mark key="[" line="128" column="42" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/tests/integration/roles_pipeline.yml" timestamp="1577966307099">
+        <mark key="[" line="25" column="23" />
+        <mark key="]" line="18" column="29" />
+        <mark key="^" line="18" column="29" />
+        <mark key="." line="18" column="29" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/pytest.ini" timestamp="1577966844640" />
+      <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/disqover_property.py" timestamp="1577966164131">
+        <mark key="'" line="11" column="54" />
+        <mark key="[" line="11" column="44" />
+        <mark key="]" line="11" column="54" />
+        <mark key="^" line="11" column="54" />
+        <mark key="." line="11" column="54" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/scripts/run_tests.sh" timestamp="1577967409806" />
+      <file name="$USER_HOME$/Disqover/metis/tests/integration/subinstances_pipeline.yml" timestamp="1577966289415">
+        <mark key="[" line="199" column="26" />
+        <mark key="]" line="199" column="27" />
+        <mark key="." line="199" column="27" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/src/metis/actions/components/create_datasource_action.py" timestamp="1577966346715">
+        <mark key="[" line="11" column="46" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/disqover_facet.py" timestamp="1577966138139">
+        <mark key="[" line="426" column="48" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/constants.py" timestamp="1577965692799">
+        <mark key="[" line="32" column="0" />
+        <mark key="]" line="32" column="0" />
+        <mark key="." line="32" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/disqover_sub_type.py" timestamp="1577966076266">
+        <mark key="[" line="37" column="42" />
+      </file>
     </filemarks>
-    <jumps />
+    <jumps>
+      <jump line="231" column="54" filename="$USER_HOME$/Disqover/metis/src/metis/indexing/disqover_property.py" />
+    </jumps>
     <registers>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW5zdCA9IE1vY2tJbnN0YW5jZSh7J2lkJzogc3RyKDEpfSwgMSkK</text>
+        <text encoding="base64">CiAgICAgICAgd2l0aCBpdCgnZmluZCBsaXN0Jyk6CiAgICAgICAgICAgIG9wdCA9IE9wdGlvbignbXlsaXN0JywgJ215ZGVzY3InLCB0eXBlXz1saXN0LCBjb250ZW50X3R5cGU9J2xpc3QnKQogICAgICAgICAgICBleHBlY3Qob3B0LmdldF92YWx1ZSh7J215bGlzdCc6IFsnYWJjJywgJ2RlZiddfSkpLnRvKGVxdWFsKFsnYWJjJywgJ2RlZiddKSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW5zdCA9IE1vY2tJbnN0YW5jZShOb25lLCAxKQo=</text>
+        <text encoding="base64">ICAgICAgICB3aXRoIGl0KCdmaW5kIGxpc3QnKToKICAgICAgICAgICAgb3B0ID0gT3B0aW9uKCdteWxpc3QnLCAnbXlkZXNjcicsIGNvbnRlbnRfdHlwZT0nbGlzdCcpCiAgICAgICAgICAgIGV4cGVjdChvcHQuZ2V0X3ZhbHVlKHsnbXlsaXN0JzogWydhYmMnLCAnZGVmJ119KSkudG8oZXF1YWwoWydhYmMnLCAnZGVmJ10pKQoK</text>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaW5zdCA9IE1vY2tJbnN0YW5jZShOb25lLCAxKQo=</text>
+        <text encoding="base64">ICAgICAgICB3aXRoIGl0KCdmaW5kIGxpc3QnKToKICAgICAgICAgICAgb3B0ID0gT3B0aW9uKCdteWxpc3QnLCAnbXlkZXNjcicsIGNvbnRlbnRfdHlwZT0nbGlzdCcpCiAgICAgICAgICAgIGV4cGVjdChvcHQuZ2V0X3ZhbHVlKHsnbXlsaXN0JzogWydhYmMnLCAnZGVmJ119KSkudG8oZXF1YWwoWydhYmMnLCAnZGVmJ10pKQoK</text>
       </register>
       <register name="2" type="2">
+        <text encoding="base64">ICAgIFNVQl9UQUJMRV9WSUVXID0gJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tLzIwMTMvZGlzcW92ZXIjc3ViVGFibGVWaWV3JwogICAgU1VCX0tFWV9WQUxVRV9WSUVXID0gJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tLzIwMTMvZGlzcW92ZXIjc3ViS2V5VmFsdWVWaWV3Jwo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ZnJvbSAuLiBpbXBvcnQgY29udGVudF90eXBlcyBhcyBDVAo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgaW5zdCA9IE1vY2tJbnN0YW5jZShOb25lLCAxKQo=</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgZXhwZWN0KHNlbGYuaW5zdF9jb2xsLnNvbHJfYmF0Y2gpLnRvKGVxdWFsKFt7J2lkJzogc3RyKDEpLCAnb250b2ZvcmNlX3NwZWNfdmVyc2lvbl9pJzogMCwgJ29udG9mb3JjZV9zcGVjX2h1cmlfcyc6IHN0cih0b19odXJpKCcxJykpfV0pKQogICAgICAgICAgICBleHBlY3Qoc2VsZi5pbnN0X2NvbGwudmFsdWVfY291bnQpLnRvKGVxdWFsKDEpKQo=</text>
       </register>
       <register name=":" type="4">
@@ -44,6 +100,7 @@
       <history-search />
       <history-cmd>
         <entry>1047</entry>
+        <entry>0</entry>
       </history-cmd>
       <history-expr />
       <history-input />
