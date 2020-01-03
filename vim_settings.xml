@@ -56,11 +56,11 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/.docker/test/data/source_data/facets_revisited/facets_revisited_data.ttl" timestamp="1577956766475">
         <mark key="[" line="6" column="22" />
       </file>
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/federation_service.rb" timestamp="1578063096998">
-        <mark key="[" line="364" column="104" />
-        <mark key="]" line="364" column="87" />
-        <mark key="." line="364" column="87" />
-        <mark key="^" line="364" column="87" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/federation_service.rb" timestamp="1578064553532">
+        <mark key="[" line="59" column="28" />
+        <mark key="]" line="59" column="36" />
+        <mark key="." line="59" column="0" />
+        <mark key="^" line="58" column="15" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/.docker/test/env" timestamp="1577972876391">
         <mark key="[" line="2" column="77" />
@@ -87,40 +87,40 @@
     <jumps />
     <registers>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICB2YWxpZGF0b3I6IGxhbWJkYSB7IHxhcmd8IEZlZGVyYXRpb25TZXJ2aWNlLm5ldy52YWxpZF9kaXNxb3Zlcl9zZXJ2ZXI/KGFyZykgfSwK</text>
+        <text encoding="base64">ICAgICAgUmFpbHMubG9nZ2VyLmRlYnVnKCJleCAje2V4fSIpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAogICAgCg==</text>
+        <text encoding="base64">ICAgICAgUmFpbHMubG9nZ2VyLmRlYnVnKCJob3N0ICN7aG9zdH0iKQogICAgICBSYWlscy5sb2dnZXIuZGVidWcoInVzZXIgI3t1c2VybmFtZX0iKQogICAgICBSYWlscy5sb2dnZXIuZGVidWcoInB3ZCAje3Bhc3N3b3JkfSIpCg==</text>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICB2YWxpZGF0b3I6IGxhbWJkYSB7IHxhcmd8IEZlZGVyYXRpb25TZXJ2aWNlLm5ldy52YWxpZF9kaXNxb3Zlcl9zZXJ2ZXI/KGFyZykgfSwK</text>
+        <text encoding="base64">ICAgICAgUmFpbHMubG9nZ2VyLmRlYnVnKCJleCAje2V4fSIpCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgcmFpc2UgQXJndW1lbnRFcnJvciwgImludmFsaWQgdXNlcm5hbWUvcGFzc3dvcmQgY29tYmluYXRpb24gZm9yICN7aG9zdH0iIHVubGVzcyByZXN1bHQK</text>
+        <text encoding="base64">ICAgICAgUmFpbHMubG9nZ2VyLmRlYnVnKCJyZXN1bHQgI3tyZXN1bHR9IikK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">IAo=</text>
+        <text encoding="base64">ICAgICAgUmFpbHMubG9nZ2VyLmRlYnVnKCJob3N0ICN7aG9zdH0iKQogICAgICBSYWlscy5sb2dnZXIuZGVidWcoInVzZXIgI3t1c2VybmFtZX0iKQogICAgICBSYWlscy5sbwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgUmFpbHMubG9nZ2VyLmRlYnVnKHJlc3BvbnNlLmJvZHkpCg==</text>
+        <text encoding="base64">ICAgIAogICAgCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgUmFpbHMubG9nZ2VyLmRlYnVnKHJlc3BvbnNlLmJvZHkpCg==</text>
+        <text encoding="base64">ICAgICAgcmFpc2UgQXJndW1lbnRFcnJvciwgImludmFsaWQgdXNlcm5hbWUvcGFzc3dvcmQgY29tYmluYXRpb24gZm9yICN7aG9zdH0iIHVubGVzcyByZXN1bHQK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CiAgZGVmIHZhbGlkX2Rpc3FvdmVyX3NlcnZlcj8oaG9zdCkKICAgIHJlc3VsdCA9IGZhbHNlCiAgICBiZWdpbgogICAgICBjb25uZWN0aW9uID0gRmFyYWRheTo6Q29ubmVjdGlvbi5uZXcodXJsOiBob3N0KSBkbyB8YnVpbGRlcnwKICAgICAgICBidWlsZGVyLmFkYXB0ZXIgRmFyYWRheS5kZWZhdWx0X2FkYXB0ZXIKICAgICAgZW5kCgogICAgICByZXNwb25zZSA9IGNvbm5lY3Rpb24uZ2V0KCcvYXBpL2luZm8vYXV0aF90eXBlJykKICAgICAgcmVzdWx0ID0gSlNPTi5wYXJzZShyZXNwb25zZS5ib2R5KS5oYXNfa2V5PygnYXV0aF90eXBlJykKICAgIHJlc2N1ZSA9PiBfCiAgICAgIHJldHVybiBmYWxzZQogICAgZW5kCiAgICByYWlzZSBBcmd1bWVudEVycm9yLCAnaW52YWxpZCBob3N0IFVSTCcgdW5sZXNzIHJlc3VsdAogIGVuZAo=</text>
+        <text encoding="base64">IAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CiAgZGVmIHZhbGlkX2Rpc3FvdmVyX3NlcnZlcj8oaG9zdCkKICAgIHJlc3VsdCA9IGZhbHNlCiAgICBiZWdpbgogICAgICBjb25uZWN0aW9uID0gRmFyYWRheTo6Q29ubmVjdGlvbi5uZXcodXJsOiBob3N0KSBkbyB8YnVpbGRlcnwKICAgICAgICBidWlsZGVyLmFkYXB0ZXIgRmFyYWRheS5kZWZhdWx0X2FkYXB0ZXIKICAgICAgZW5kCgogICAgICByZXNwb25zZSA9IGNvbm5lY3Rpb24uZ2V0KCcvYXBpL2luZm8vYXV0aF90eXBlJykKICAgICAgcmVzdWx0ID0gSlNPTi5wYXJzZShyZXNwb25zZS5ib2R5KS5oYXNfa2V5PygnYXV0aF90eXBlJykKICAgIHJlc2N1ZSA9PiBfCiAgICAgIHJldHVybiBmYWxzZQogICAgZW5kCiAgICByYWlzZSBBcmd1bWVudEVycm9yLCAnaW52YWxpZCBob3N0IFVSTCcgdW5sZXNzIHJlc3VsdAogIGVuZAo=</text>
+        <text encoding="base64">ICAgICAgUmFpbHMubG9nZ2VyLmRlYnVnKHJlc3BvbnNlLmJvZHkpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGhvc3QgPSAK</text>
+        <text encoding="base64">ICAgICAgUmFpbHMubG9nZ2VyLmRlYnVnKHJlc3BvbnNlLmJvZHkpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICBlbmQK</text>
+        <text encoding="base64">CiAgZGVmIHZhbGlkX2Rpc3FvdmVyX3NlcnZlcj8oaG9zdCkKICAgIHJlc3VsdCA9IGZhbHNlCiAgICBiZWdpbgogICAgICBjb25uZWN0aW9uID0gRmFyYWRheTo6Q29ubmVjdGlvbi5uZXcodXJsOiBob3N0KSBkbyB8YnVpbGRlcnwKICAgICAgICBidWlsZGVyLmFkYXB0ZXIgRmFyYWRheS5kZWZhdWx0X2FkYXB0ZXIKICAgICAgZW5kCgogICAgICByZXNwb25zZSA9IGNvbm5lY3Rpb24uZ2V0KCcvYXBpL2luZm8vYXV0aF90eXBlJykKICAgICAgcmVzdWx0ID0gSlNPTi5wYXJzZShyZXNwb25zZS5ib2R5KS5oYXNfa2V5PygnYXV0aF90eXBlJykKICAgIHJlc2N1ZSA9PiBfCiAgICAgIHJldHVybiBmYWxzZQogICAgZW5kCiAgICByYWlzZSBBcmd1bWVudEVycm9yLCAnaW52YWxpZCBob3N0IFVSTCcgdW5sZXNzIHJlc3VsdAogIGVuZAo=</text>
       </register>
       <register name="-" type="4">
-        <text>n</text>
+        <text>gger.debug(&quot;pwd #{password}&quot;)</text>
       </register>
     </registers>
     <search>
