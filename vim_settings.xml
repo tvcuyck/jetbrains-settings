@@ -6,17 +6,35 @@
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/models/metis/pipeline_spec.rb" timestamp="1578303754088">
         <mark key="[" line="170" column="12" />
       </file>
+      <file name="/license_agreements_service.rb" timestamp="1578307688070" />
+      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/federation_service.rb" timestamp="1578307773651">
+        <mark key="[" line="49" column="0" />
+        <mark key="]" line="49" column="0" />
+        <mark key="." line="49" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/version.json" timestamp="1578303789494">
         <mark key="[" line="1" column="18" />
       </file>
+      <file name="/sub_type_repository.rb" timestamp="1578307664044" />
     </filemarks>
     <jumps />
-    <registers />
+    <registers>
+      <register name="1" type="2">
+        <text encoding="base64">ICBkZWYgdmFsaWRfZGlzcW92ZXJfc2VydmVyPyhob3N0KQogICAgcmVzdWx0ID0gZmFsc2UKICAgIGJlZ2luCiAgICAgICMgY29ubmVjdGlvbiB0aW1lb3V0ID0gMTAgc2VjIHRvIG1ha2Ugc3VyZSBESVNRT1ZFUiBkb2Vzbid0IGhhbmcKICAgICAgY29ubmVjdGlvbiA9IEZhcmFkYXk6OkNvbm5lY3Rpb24ubmV3KHVybDogaG9zdCwgcmVxdWVzdDoge29wZW5fdGltZW91dDogMTAsIHRpbWVvdXQ6IDMwfSkgZG8gfGJ1aWxkZXJ8CiAgICAgICAgYnVpbGRlci5hZGFwdGVyIEZhcmFkYXkuZGVmYXVsdF9hZGFwdGVyCiAgICAgIGVuZAoKICAgICAgcmVzcG9uc2UgPSBjb25uZWN0aW9uLmdldCgnL2FwaS9pbmZvL2F1dGhfdHlwZScpCiAgICAgIHJlc3VsdCA9IEpTT04ucGFyc2UocmVzcG9uc2UuYm9keSkuaGFzX2tleT8oJ2F1dGhfdHlwZScpCiAgICByZXNjdWUgRmFyYWRheTo6Q29ubmVjdGlvbkZhaWxlZCA9PiBfCiAgICAgIHJhaXNlIEFyZ3VtZW50RXJyb3IsICdjb25uZWN0aW9uIHRpbWVvdXQnCiAgICByZXNjdWUgPT4gZXgKICAgICAgUmFpbHMubG9nZ2VyLmRlYnVnKCJFcnJvciB2YWxpZGF0aW5nIERJU1FPVkVSIHNlcnZlcjogI3tleH0iKQogICAgICByZXN1bHQgPSBmYWxzZQogICAgZW5kCiAgICByYWlzZSBBcmd1bWVudEVycm9yLCAnaW52YWxpZCBESVNRT1ZFUiBob3N0IFVSTCcgdW5sZXNzIHJlc3VsdAogIGVuZAoKICBkZWYgdmFsaWRfcGFzc3dvcmQ/KHBhc3N3b3JkKQogICAgcmVzdWx0ID0gZmFsc2UKICAgIGhvc3QgPSBnZXRfc2V0dGluZyhlbmRfcG9pbnQsICdob3N0JykKICAgIHVzZXJuYW1lID0gZ2V0X3NldHRpbmcoZW5kX3BvaW50LCAndXNlcm5hbWUnKQogICAgYmVnaW4KICAgICAgcmVzdWx0ID0gc2lnbmluKGVuZF9wb2ludCwgdXNlcm5hbWUsIHBhc3N3b3JkICkKICAgIHJlc2N1ZSA9PiBleAogICAgICBSYWlscy5sb2dnZXIuZGVidWcoIkVycm9yIHNpZ25pbmcgaW4gdG8gRElTUU9WRVIgc2VydmVyOiAje2V4fSIpCiAgICAgIHJlc3VsdCA9IGZhbHNlCiAgICBlbmQKICAgIHJhaXNlIEFyZ3VtZW50RXJyb3IsICJpbnZhbGlkIHVzZXJuYW1lL3Bhc3N3b3JkIGNvbWJpbmF0aW9uIGZvciAje2hvc3R9IiB1bmxlc3MgcmVzdWx0CiAgZW5kCgo=</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICBkZWYgdmFsaWRfZGlzcW92ZXJfc2VydmVyPyhob3N0KQogICAgcmVzdWx0ID0gZmFsc2UKICAgIGJlZ2luCiAgICAgICMgY29ubmVjdGlvbiB0aW1lb3V0ID0gMTAgc2VjIHRvIG1ha2Ugc3VyZSBESVNRT1ZFUiBkb2Vzbid0IGhhbmcKICAgICAgY29ubmVjdGlvbiA9IEZhcmFkYXk6OkNvbm5lY3Rpb24ubmV3KHVybDogaG9zdCwgcmVxdWVzdDoge29wZW5fdGltZW91dDogMTAsIHRpbWVvdXQ6IDMwfSkgZG8gfGJ1aWxkZXJ8CiAgICAgICAgYnVpbGRlci5hZGFwdGVyIEZhcmFkYXkuZGVmYXVsdF9hZGFwdGVyCiAgICAgIGVuZAoKICAgICAgcmVzcG9uc2UgPSBjb25uZWN0aW9uLmdldCgnL2FwaS9pbmZvL2F1dGhfdHlwZScpCiAgICAgIHJlc3VsdCA9IEpTT04ucGFyc2UocmVzcG9uc2UuYm9keSkuaGFzX2tleT8oJ2F1dGhfdHlwZScpCiAgICByZXNjdWUgRmFyYWRheTo6Q29ubmVjdGlvbkZhaWxlZCA9PiBfCiAgICAgIHJhaXNlIEFyZ3VtZW50RXJyb3IsICdjb25uZWN0aW9uIHRpbWVvdXQnCiAgICByZXNjdWUgPT4gZXgKICAgICAgUmFpbHMubG9nZ2VyLmRlYnVnKCJFcnJvciB2YWxpZGF0aW5nIERJU1FPVkVSIHNlcnZlcjogI3tleH0iKQogICAgICByZXN1bHQgPSBmYWxzZQogICAgZW5kCiAgICByYWlzZSBBcmd1bWVudEVycm9yLCAnaW52YWxpZCBESVNRT1ZFUiBob3N0IFVSTCcgdW5sZXNzIHJlc3VsdAogIGVuZAoKICBkZWYgdmFsaWRfcGFzc3dvcmQ/KHBhc3N3b3JkKQogICAgcmVzdWx0ID0gZmFsc2UKICAgIGhvc3QgPSBnZXRfc2V0dGluZyhlbmRfcG9pbnQsICdob3N0JykKICAgIHVzZXJuYW1lID0gZ2V0X3NldHRpbmcoZW5kX3BvaW50LCAndXNlcm5hbWUnKQogICAgYmVnaW4KICAgICAgcmVzdWx0ID0gc2lnbmluKGVuZF9wb2ludCwgdXNlcm5hbWUsIHBhc3N3b3JkICkKICAgIHJlc2N1ZSA9PiBleAogICAgICBSYWlscy5sb2dnZXIuZGVidWcoIkVycm9yIHNpZ25pbmcgaW4gdG8gRElTUU9WRVIgc2VydmVyOiAje2V4fSIpCiAgICAgIHJlc3VsdCA9IGZhbHNlCiAgICBlbmQKICAgIHJhaXNlIEFyZ3VtZW50RXJyb3IsICJpbnZhbGlkIHVzZXJuYW1lL3Bhc3N3b3JkIGNvbWJpbmF0aW9uIGZvciAje2hvc3R9IiB1bmxlc3MgcmVzdWx0CiAgZW5kCgo=</text>
+      </register>
+    </registers>
     <search>
       <last-dir>0</last-dir>
       <show-last>false</show-last>
     </search>
     <history />
-    <shortcut-conflicts />
+    <shortcut-conflicts>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed F</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
   </component>
 </application>
