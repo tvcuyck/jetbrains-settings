@@ -45,6 +45,12 @@
         <mark key="[" line="86" column="0" />
         <mark key="]" line="86" column="89" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/disqover-docker/images/solr/config/create_cores.sh" timestamp="1578399294820">
+        <mark key="[" line="11" column="4" />
+        <mark key="]" line="11" column="3" />
+        <mark key="." line="11" column="3" />
+        <mark key="^" line="11" column="3" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/spec/services/check_setup_service_spec.rb" timestamp="1578310643068">
         <mark key="[" line="274" column="29" />
       </file>
@@ -108,35 +114,35 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBhbGxvd19hbnlfaW5zdGFuY2Vfb2YoRmVkZXJhdGlvblNlcnZpY2UpLnRvIHJlY2VpdmUoOmZlZGVyYXRlZD8pLmFuZF9yZXR1cm4odHJ1ZSkK</text>
       </register>
-      <register name="1" type="2">
+      <register name="1" type="4">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBhbGxvd19hbnlfaW5zdGFuY2Vfb2YoRmVkZXJhdGlvblNlcnZpY2UpLnRvIHJlY2VpdmUoOmZlZGVyYXRlZD8pLmFuZF9yZXR1cm4odHJ1ZSkK</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBhbGxvd19hbnlfaW5zdGFuY2Vfb2YoRmVkZXJhdGlvblNlcnZpY2UpLnRvIHJlY2VpdmUoOmZlZGVyYXRpb25fcm9vdF9rZXkpLmFuZF9yZXR1cm4oJ2ZlZGVyYXRpb25fdGVzdDEnKQo=</text>
-      </register>
-      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBhbGxvd19hbnlfaW5zdGFuY2Vfb2YoRmVkZXJhdGlvblNlcnZpY2UpLnRvIHJlY2VpdmUoOmZlZGVyYXRpb25fcm9vdF9rZXkpLmFuZF9yZXR1cm4oJ2ZlZGVyYXRpb25fdGVzdDEnKQo=</text>
+      </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGxpY2Vuc2VfYWdyZWVtZW50ID0gdXNlci5uaWw/ID8gbmlsIDogdXNlci5saWNlbnNlX2FncmVlbWVudAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgZW5kCg==</text>
+        <text encoding="base64">ICAgIGxpY2Vuc2VfYWdyZWVtZW50ID0gdXNlci5uaWw/ID8gbmlsIDogdXNlci5saWNlbnNlX2FncmVlbWVudAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGlmIGZlZF9zZXJ2aWNlLmZlZGVyYXRlZD8K</text>
+        <text encoding="base64">ICAgICAgZW5kCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgIGZlZGVyYXRlZF9hbmRfcmVzcG9uZHM6IENoZWNrU2V0dXBTZXJ2aWNlLmZlZGVyYXRlZF9hbmRfY2FuX3NpZ25faW4/WzBdLAo=</text>
+        <text encoding="base64">ICAgIGlmIGZlZF9zZXJ2aWNlLmZlZGVyYXRlZD8K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgIGZlZGVyYXRlZF9hbmRfY2FuX3NpZ25faW46IENoZWNrU2V0dXBTZXJ2aWNlLmZlZGVyCg==</text>
+        <text encoding="base64">ICAgICAgICAgIGZlZGVyYXRlZF9hbmRfcmVzcG9uZHM6IENoZWNrU2V0dXBTZXJ2aWNlLmZlZGVyYXRlZF9hbmRfY2FuX3NpZ25faW4/WzBdLAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CiAgICBkZXNjcmliZSAnI2ZlZGVyYXRlZD8nIGRvCiAgICAgIGl0ICJyZXR1cm5zIHRydWUgaWYgZmVkZXJhdGlvbiBpcyBjb25maWd1cmVkIGFuZCBjYW4gc2lnbiBpbiIgZG8KICAgICAgICBhbGxvd19hbnlfaW5zdGFuY2Vfb2YoRmVkZXJhdGlvblNlcnZpY2UpLnRvIHJlY2VpdmUoOnNpZ25pbikuYW5kX3JldHVybih0cnVlKQogICAgICAgIGV4cGVjdChzdWJqZWN0LmZlZGVyYXRlZD8pLnRvIGVxKHRydWUpCiAgICAgIGVuZAoKICAgICAgaXQgInJldHVybnMgZmFsc2UgaXMgc2lnbiBpbiBmYWlsZWQiIGRvCiAgICAgICAgYWxsb3dfYW55X2luc3RhbmNlX29mKEZlZGVyYXRpb25TZXJ2aWNlKS50byByZWNlaXZlKDpzaWduaW4pLmFuZF9yZXR1cm4oZmFsc2UpCiAgICAgICAgZXhwZWN0KHN1YmplY3QuZmVkZXJhdGVkPykudG8gZXEoZmFsc2UpCiAgICAgIGVuZAogICAgZW5kCg==</text>
+        <text encoding="base64">ICAgICAgICAgIGZlZGVyYXRlZF9hbmRfY2FuX3NpZ25faW46IENoZWNrU2V0dXBTZXJ2aWNlLmZlZGVyCg==</text>
       </register>
       <register name=":" type="4">
         <text>1560</text>
