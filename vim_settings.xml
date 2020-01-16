@@ -19,12 +19,6 @@
         <mark key="^" line="18" column="25" />
       </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/.docker/test/env" timestamp="1579177215194" />
-      <file name="$USER_HOME$/Disqover/rails5-backend/app/services/env_service.rb" timestamp="1579167264473">
-        <mark key="[" line="23" column="40" />
-        <mark key="]" line="23" column="37" />
-        <mark key="." line="23" column="37" />
-        <mark key="^" line="23" column="37" />
-      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/info_service.rb" timestamp="1579175194830">
         <mark key="[" line="31" column="0" />
         <mark key="]" line="31" column="80" />
@@ -32,7 +26,7 @@
         <mark key="." line="31" column="0" />
       </file>
       <file name="/license_agreements_service_spec.rb" timestamp="1579175137220" />
-      <file name="/Dummy.txt" timestamp="1579179546671">
+      <file name="/Dummy.txt" timestamp="1579181722660">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/Dockerfile" timestamp="1579178096837" />
@@ -43,6 +37,12 @@
         <mark key="^" line="39" column="27" />
         <mark key="." line="39" column="27" />
       </file>
+      <file name="$USER_HOME$/Disqover/rails5-backend/Readme.md" timestamp="1579181716600">
+        <mark key="[" line="179" column="71" />
+        <mark key="]" line="179" column="0" />
+        <mark key="." line="179" column="0" />
+        <mark key="^" line="179" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/rails5-backend/app/services/license_agreements_service.rb" timestamp="1579167948810">
         <mark key="[" line="9" column="0" />
         <mark key="]" line="9" column="80" />
@@ -51,7 +51,7 @@
     <jumps />
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">CkZST05URU5EX0NPTkZJR19ESVI9JHtQV0R9L2NvbmZpZy9mcm9udGVuZAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>A</text>
@@ -60,31 +60,31 @@
         <text encoding="base64">ICAgIGl0ICdyZXR1cm5zIGZhbHNlIGlmIHRoZXJlIGlzIG5vIGdsb2JhbCBjb25maWcgcHJlc2VudCcgZG8KICAgICAgYWxsb3coQ29uZmlndXJhdGlvblNlcnZpY2UpLnRvIHJlY2VpdmUoOmRlZmF1bHRfY29uZmlndXJhdGlvbikuYW5kX3JldHVybih7Z3JhcGhfdXJpOiBuaWx9KQogICAgICBleHBlY3QoZGVzY3JpYmVkX2NsYXNzLmRhdGFfY29uZmlnX3ByZXNlbnQ/KS50byBiZV9mYWxzZXkKICAgIGVuZAo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CkZST05URU5EX0NPTkZJR19ESVI9JHtQV0R9L2NvbmZpZy9mcm9udGVuZAo=</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">CiNCQUNLRU5EX0lNQUdFPXRtcF9iYWNrZW5kCg==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">RlJPTlRFTkRfSU1BR0U9NDI4MDI1MDY0NDcxLmRrci5lY3IudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vb250b2ZvcmNlL2Zyb250ZW5kOmRldmVsb3AK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">QkFDS0VORF9JTUFHRT10bXBfYmFja2VuZAo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">TUVUSVNfSU1BR0U9NDI4MDI1MDY0NDcxLmRrci5lY3IudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vb250b2ZvcmNlL21ldGlzOmRldgo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">TUVUSVNfSU1BR0U9NDI4MDI1MDY0NDcxLmRrci5lY3IudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vb250b2ZvcmNlL21ldGlzOmRldgo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICBkZXNjcmliZSAnLmdldF9saWNlbnNlX2ZvcicgZG8KICAgIGl0ICdyZXR1cm5zIG5pbCB3aGVuIGZlZGVyYXRpb24gcmVxdWVzdCBmYWlscycgZG8KICAgICAgYWxsb3dfYW55X2luc3RhbmNlX29mKEZlZGVyYXRpb25TZXJ2aWNlKS50byByZWNlaXZlKDpmZWRlcmF0ZWQ/KS5hbmRfcmV0dXJuKHRydWUpCiAgICAgIGFsbG93X2FueV9pbnN0YW5jZV9vZihGZWRlcmF0aW9uU2VydmljZSkudG8gcmVjZWl2ZSg6ZG9fcmVxdWVzdCkgeyByYWlzZSBGZWRlcmF0aW9uRXJyb3IgfQogICAgICBleHBlY3QoZGVzY3JpYmVkX2NsYXNzLmdldF9saWNlbnNlX2ZvcihuaWwpKS50byBiZV9uaWwKICAgIGVuZAogIGVuZAo=</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="2" type="2">
+        <text encoding="base64">TG9nIGluIHRvIHRoZSBBV1MgZGV2IEVDUiByZXBvc2l0b3J5IGJlZm9yZSBidWlsZGluZyB0YmUgYmFja2VuZCBpbWFnZS4K</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">CiMjIyMgU29sciAoaW5jbHVkaW5nIGNvbmZpZ3VyYXRpb24gYW5kIHByZWNyZWF0ZSkKYGBgCmRvY2tlciBidWlsZCAtdCBvbnRvZm9yY2Uvc29scjpsb2NhbCBkYi9zb2xyLwpgYGA=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">CkZST05URU5EX0NPTkZJR19ESVI9JHtQV0R9L2NvbmZpZy9mcm9udGVuZAo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">CiNCQUNLRU5EX0lNQUdFPXRtcF9iYWNrZW5kCg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">RlJPTlRFTkRfSU1BR0U9NDI4MDI1MDY0NDcxLmRrci5lY3IudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vb250b2ZvcmNlL2Zyb250ZW5kOmRldmVsb3AK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">QkFDS0VORF9JTUFHRT10bXBfYmFja2VuZAo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">TUVUSVNfSU1BR0U9NDI4MDI1MDY0NDcxLmRrci5lY3IudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vb250b2ZvcmNlL21ldGlzOmRldgo=</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">TUVUSVNfSU1BR0U9NDI4MDI1MDY0NDcxLmRrci5lY3IudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vb250b2ZvcmNlL21ldGlzOjUuMjAK</text>
+        <text encoding="base64">TUVUSVNfSU1BR0U9NDI4MDI1MDY0NDcxLmRrci5lY3IudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vb250b2ZvcmNlL21ldGlzOmRldgo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
