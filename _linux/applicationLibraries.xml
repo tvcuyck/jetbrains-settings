@@ -501,6 +501,36 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.5/gems/crass-1.0.4/test" />
       </excluded>
     </library>
+    <library name="debase (v0.3.0.beta30, RVM: ruby-2.5.5) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.5/gems/debase-0.3.0.beta30/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.5/gems/debase-0.3.0.beta30/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.5/gems/debase-0.3.0.beta30/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.5/gems/debase-0.3.0.beta30/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.5/gems/debase-0.3.0.beta30/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.5/gems/debase-0.3.0.beta30/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.5/gems/debase-0.3.0.beta30/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.5/gems/debase-0.3.0.beta30/test" />
+      </excluded>
+    </library>
+    <library name="debase-ruby_core_source (v0.10.9, RVM: ruby-2.5.5) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.5/gems/debase-ruby_core_source-0.10.9/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.5/gems/debase-ruby_core_source-0.10.9/lib" />
+      </SOURCES>
+    </library>
     <library name="devise (v4.6.2, RVM: ruby-2.5.5) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -2148,6 +2178,25 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.5/gems/rspec-support-3.8.2/lib" />
       </SOURCES>
+    </library>
+    <library name="ruby-debug-ide (v0.8.0.beta23, RVM: ruby-2.5.5) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.5/gems/ruby-debug-ide-0.8.0.beta23/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.5/gems/ruby-debug-ide-0.8.0.beta23/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.5/gems/ruby-debug-ide-0.8.0.beta23/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.5/gems/ruby-debug-ide-0.8.0.beta23/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.5/gems/ruby-debug-ide-0.8.0.beta23/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.5/gems/ruby-debug-ide-0.8.0.beta23/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.5/gems/ruby-debug-ide-0.8.0.beta23/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.5/gems/ruby-debug-ide-0.8.0.beta23/ext" />
+      </excluded>
     </library>
     <library name="ruby-saml (v1.10.2, RVM: ruby-2.5.5) [gem]" type="rubylib">
       <properties>
