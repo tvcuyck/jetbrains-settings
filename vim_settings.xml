@@ -8,11 +8,12 @@
         <entry>stra</entry>
         <entry>profiles</entry>
         <entry>update_user_group</entry>
+        <entry>unique</entry>
       </history-search>
       <history-cmd>
-        <entry>0</entry>
         <entry>132</entry>
         <entry>227</entry>
+        <entry>0</entry>
       </history-cmd>
     </history>
   </component>
@@ -59,7 +60,7 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1587120067838">
+      <file name="/Dummy.txt" timestamp="1587125232359">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/iris_controller.rb" timestamp="1587026785685">
@@ -90,17 +91,32 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/config/routes.rb" timestamp="1587116511869">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/permissions_service.rb" timestamp="1587123250546">
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/permissions_service.rb" timestamp="1587125464325">
+        <mark key="i" line="1" column="0" />
         <mark key="[" line="185" column="73" />
         <mark key="]" line="184" column="56" />
         <mark key="." line="184" column="55" />
         <mark key="^" line="184" column="56" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/instance_list.rb" timestamp="1587125123415">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="." line="4" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/lib/tools/migrate_user_views.rb" timestamp="1587125532186">
+        <mark key="[" line="58" column="116" />
+        <mark key="]" line="58" column="12" />
+        <mark key="^" line="58" column="12" />
+        <mark key="." line="58" column="11" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/script/store_log_stats.sh" timestamp="1587043530783">
         <mark key="[" line="158" column="16" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/instance_list_service.rb" timestamp="1587030557676">
         <mark key="[" line="37" column="60" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/db/migrate/20200113094224_add_instance_lists.rb" timestamp="1587125322706">
+        <mark key="'" line="14" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/script/user_anonymizer.py" timestamp="1587021807407">
         <mark key="[" line="8" column="105" />
@@ -124,6 +140,7 @@
     <jumps>
       <jump line="0" column="0" filename="$USER_HOME$/Disqover/disqover-backend/config/routes.rb" />
       <jump line="58" column="0" filename="$USER_HOME$/Disqover/disqover-backend/app/controllers/themis_controller.rb" />
+      <jump line="14" column="0" filename="$USER_HOME$/Disqover/disqover-backend/db/migrate/20200113094224_add_instance_lists.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -132,21 +149,24 @@
         <text encoding="base64">ICAgIHBhcmFtc1s6ZXhlY3V0aW5nX3VzZXJfaWRdID0gY3VycmVudF91c2VyLmVtYWlsCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICB2YWxpZGF0ZXNfdW5pcXVlbmVzc19vZiA6bmFtZQo=</text>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICB2YWxpZGF0ZXNfdW5pcXVlbmVzc19vZiA6bmFtZQo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgIGUK</text>
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgIHJlcS5ib2R5ID0gYm9keS50b19qc29uIGlmIGJvZHkK</text>
+        <text encoding="base64">ICAgICAgICAgIGUK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIHJlcS5ib2R5ID0gYm9keS50b19qc29uIGlmIGJvZHkK</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgICAgICBhbm9uX2dyID0gJ3wnLmpvaW4oW3NlbGYuYW5vbnltaXplX3VzZXIoZ3JvdXApIGZvciBncm91cCBpbiBncm91cHMuc3BsaXQoJ3wnKV0pIGlmIGdyb3VwcyBlbHNlICcnCiAgICAgICAgYW5vbl9zaWdudXBfcHJvcHMgPSBzZWxmLmFub255bWl6ZV91c2VyKHNpZ251cF9wcm9wcykgaWYgc2lnbnVwX3Byb3BzIGVsc2UgJycK</text>
       </register>
       <register name=":" type="4">
@@ -156,15 +176,15 @@
         <text>s</text>
       </register>
       <register name="/" type="4">
-        <text>update_user_group</text>
+        <text>unique</text>
       </register>
     </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>update_user_group</last-search>
+      <last-search>unique</last-search>
       <last-offset />
-      <last-pattern>update_user_group</last-pattern>
+      <last-pattern>unique</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
