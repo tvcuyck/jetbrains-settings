@@ -61,17 +61,17 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1587130356960">
+      <file name="/Dummy.txt" timestamp="1587364370409">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/iris_controller.rb" timestamp="1587026785685">
-        <mark key="[" line="45" column="0" />
-        <mark key="]" line="45" column="8" />
-        <mark key="^" line="45" column="13" />
-        <mark key="." line="45" column="8" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/iris_controller.rb" timestamp="1587364343257">
+        <mark key="[" line="33" column="138" />
+        <mark key="]" line="33" column="19" />
+        <mark key="^" line="33" column="19" />
+        <mark key="." line="33" column="18" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/themis_controller.rb" timestamp="1587119708191">
-        <mark key="'" line="59" column="0" />
+        <mark key="'" line="58" column="0" />
         <mark key="[" line="34" column="0" />
         <mark key="]" line="34" column="0" />
         <mark key="." line="34" column="0" />
@@ -122,8 +122,11 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/controllers/instance_lists_controller_spec.rb" timestamp="1587030591376">
         <mark key="[" line="89" column="78" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/config/application.rb" timestamp="1587026867510">
-        <mark key="[" line="48" column="65" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/config/application.rb" timestamp="1587364008635">
+        <mark key="[" line="48" column="80" />
+        <mark key="]" line="25" column="3" />
+        <mark key="^" line="25" column="3" />
+        <mark key="." line="25" column="2" />
       </file>
     </filemarks>
     <jumps>
@@ -134,8 +137,10 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdvcGVuVmlldycgPT4gb3Blbl92aWV3LmlkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3Jlc3RyaWN0ZWRWaWV3JyA9PiByZXN0cmljdGVkX3ZpZXcuaWQKICAgICAgICAgICAgICAgICAgICAgICAgICAgfSkK</text>
+      <register name="&quot;" type="8">
+        <text>Rails.logger.debug(ex.message)
+Rails.logger.debug(ex.backtrace[0..20].join('\n'))
+Rails.logger.debug(&quot;Raw response: #{call_result.body}&quot;) if call_result</text>
       </register>
       <register name="-" type="4">
         <text>s</text>
@@ -146,32 +151,34 @@
       <register name="0" type="2">
         <text encoding="base64">ICAgIGFmdGVyIDplYWNoIGRvCiAgICAgIFVzZXJWaWV3LmRlbGV0ZV9hbGwKICAgIGVuZAo=</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdvcGVuVmlldycgPT4gb3Blbl92aWV3LmlkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3Jlc3RyaWN0ZWRWaWV3JyA9PiByZXN0cmljdGVkX3ZpZXcuaWQKICAgICAgICAgICAgICAgICAgICAgICAgICAgfSkK</text>
+      <register name="1" type="8">
+        <text>Rails.logger.debug(ex.message)
+Rails.logger.debug(ex.backtrace[0..20].join('\n'))
+Rails.logger.debug(&quot;Raw response: #{call_result.body}&quot;) if call_result</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAogICAgY29udGV4dCAncHJlIGV4aScK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdvcGVuVmlldycgPT4gb3Blbl92aWV3LmlkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3Jlc3RyaWN0ZWRWaWV3JyA9PiByZXN0cmljdGVkX3ZpZXcuaWQKICAgICAgICAgICAgICAgICAgICAgICAgICAgfSkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAogICAgY29udGV4dCAncHJlIGV4aScK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICByZXN1bHRbdmlld10gPSB1di5pZAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICB2aWV3c1t2aWV3XSA9IHt9Cg==</text>
+        <text encoding="base64">ICAgICAgICByZXN1bHRbdmlld10gPSB1di5pZAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgcmVzdWx0Cg==</text>
+        <text encoding="base64">ICAgICAgICB2aWV3c1t2aWV3XSA9IHt9Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgcmVzdWx0ID0ge30K</text>
+        <text encoding="base64">ICAgICAgcmVzdWx0Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgZXhwZWN0KHJlc3VsdCkudG8gZXEoWydvcGVuVmlldycsICdyZXN0cmljdGVkVmlldyddKQo=</text>
+        <text encoding="base64">ICAgICAgcmVzdWx0ID0ge30K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgZXhwZWN0KHJlc3VsdCkudG8gZXEoewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnb3BlblZpZXcnID0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdsYWJlbCcgPT4gJ29wZW4gdmlldycsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAncG9zaXRpb24nID0+IDEKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3Jlc3RyaWN0ZWRWaWV3JyA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnbGFiZWwnID0+ICdvcGVuIHZpZXcnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3Bvc2l0aW9uJyA9PiAxCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICB9KQo=</text>
+        <text encoding="base64">ICAgICAgZXhwZWN0KHJlc3VsdCkudG8gZXEoWydvcGVuVmlldycsICdyZXN0cmljdGVkVmlldyddKQo=</text>
       </register>
       <register name=":" type="4">
         <text>wq</text>
