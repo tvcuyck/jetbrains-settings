@@ -16,6 +16,7 @@
         <entry>0</entry>
         <entry>wq</entry>
         <entry>441</entry>
+        <entry>202</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -65,16 +66,28 @@
     <globalmarks />
     <filemarks>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/visitors/filter_solr_visitor.rb" timestamp="1587537492044" />
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/subfacet_service_spec.rb" timestamp="1587480724863">
-        <mark key="[" line="799" column="64" />
-        <mark key="]" line="799" column="41" />
-        <mark key="^" line="799" column="41" />
-        <mark key="." line="799" column="40" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1587393525459">
+      <file name="/Ruby Console" timestamp="1587546675747">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/license_agreements_service.rb" timestamp="1587461974812" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/solr_index_spec.rb" timestamp="1587545888332" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/solr_index.rb" timestamp="1587545938529">
+        <mark key="[" line="201" column="30" />
+        <mark key="]" line="201" column="41" />
+        <mark key="^" line="201" column="41" />
+        <mark key="." line="201" column="40" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/subfacet_service_spec.rb" timestamp="1587546661310">
+        <mark key="[" line="799" column="61" />
+        <mark key="]" line="799" column="62" />
+        <mark key="^" line="799" column="62" />
+        <mark key="." line="799" column="61" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1587546139955">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/fragment.rb" timestamp="1587546684619">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="/filter_solr_visitor.rb" timestamp="1587468075098" />
     </filemarks>
     <jumps>
@@ -86,7 +99,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CiAgICBpdCAnZm9yIGxldmVsIDInIGRvCiAgICAgIGV4cGVjdChzdWJqZWN0LmtleV9mb3JfbG9jYXRpb25fdHJlZShTdHViOjpGYWNldC5vYnNlcnZhdGlvbl9sb2NhdGlvbl90cmVlLCAyKSkudG8gZXEoJ2xvY2F0aW9uX3RyZWVfbHZsXzNfc3MnKQogICAgZW5kCg==</text>
       </register>
       <register name="-" type="4">
         <text>s</text>
@@ -95,7 +108,7 @@
         <text>unique</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CiAgICAgICAgICAgIGl0ICdyYWlzZXMgaWYgYWN0dWFsIG51bWJlciBvZiB2YWx1ZXMgaXMgdG9vIGhpZ2gnIGRvCiAgICAgICAgICAgICAgZXhwZWN0e3Jlc3VsdH0udG8gcmFpc2VfZXJyb3IgQXJndW1lbnRFcnJvciwgL1RvbyBtYW55IHZhbHVlcyByZXF1ZXN0ZWQvCiAgICAgICAgICAgIGVuZAo=</text>
+        <text encoding="base64">CiAgICBpdCAnZm9yIGxldmVsIDInIGRvCiAgICAgIGV4cGVjdChzdWJqZWN0LmtleV9mb3JfbG9jYXRpb25fdHJlZShTdHViOjpGYWNldC5vYnNlcnZhdGlvbl9sb2NhdGlvbl90cmVlLCAyKSkudG8gZXEoJ2xvY2F0aW9uX3RyZWVfbHZsXzNfc3MnKQogICAgZW5kCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -125,7 +138,7 @@
         <text encoding="base64">CiAgICAgICAgICBpdCAnbGlua3Mgc2hvdWxkIGNvbnRhaW4gbGlua2VzIENUcycgZG8KICAgICAgICAgICAgZXhwZWN0KHJlc3VsdC5mYWNldHNfaW5mb1swXS5pZHMubWFwKCY6cXVlcnlfdmFsdWUpLm1hcCgmOnRvX3MpKS50byBpbmNsdWRlKCI8aHR0cDovL2NvbmZpZy5yb2xlcy5jb20vY3QvUGVyc29uPiIpCiAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmFjZXRzX2luZm9bMF0uaWRzLm1hcCgmOnF1ZXJ5X3ZhbHVlKS5tYXAoJjp0b19zKSkubm90X3RvIGluY2x1ZGUoIjxodHRwOi8vY29uZmlnLnJvbGVzLmNvbS9jdC9EaXNlYXNlPiIpCiAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuZmFjZXRzX2luZm9bMF0uaWRzLm1hcCgmOnF1ZXJ5X3ZhbHVlKS5tYXAoJjp0b19zKSkubm90X3RvIGluY2x1ZGUoIjxodHRwOi8vY29uZmlnLnJvbGVzLmNvbS9jdC9OaW5qYT4iKQogICAgICAgICAgZW5kCg==</text>
       </register>
       <register name=":" type="4">
-        <text>441</text>
+        <text>202</text>
       </register>
     </registers>
   </component>
