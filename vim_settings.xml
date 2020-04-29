@@ -65,8 +65,10 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1588091291603">
+      <file name="/Dummy.txt" timestamp="1588166901102">
         <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/iris_controller.rb" timestamp="1588072877000">
         <mark key="[" line="58" column="27" />
@@ -110,9 +112,9 @@
         <mark key="^" line="280" column="46" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/collection_service.rb" timestamp="1588158816824">
-        <mark key="[" line="35" column="0" />
-        <mark key="]" line="35" column="0" />
-        <mark key="." line="35" column="0" />
+        <mark key="[" line="33" column="0" />
+        <mark key="]" line="33" column="0" />
+        <mark key="." line="33" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/script/store_logs_on_s3.py" timestamp="1588164186699" />
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/lens_property.rb" timestamp="1588161696890">
@@ -140,8 +142,8 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>{</text>
+      <register name="&quot;" type="2">
+        <text>DISQ-4632: Accept level as string</text>
       </register>
       <register name="-" type="4">
         <text>{</text>
@@ -153,31 +155,31 @@
         <text encoding="base64">ICAgIEByZW5kZXJlZCAmJiBAcmVuZGVyZXIudG9fcyA9PSAnaHR0cDovL25zLm9udG9mb3JjZS5jb20vMjAxMy9kaXNxb3ZlciNsYXQtbG9uJwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIEByZW5kZXJlciAmJgo=</text>
+        <text>DISQ-4632: Accept level as string</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgIC0gJ29ic2VydmF0aW9uczpiaXJkLmxpdCcK</text>
+        <text encoding="base64">ICAgIEByZW5kZXJlciAmJgo=</text>
       </register>
       <register name="3" type="2">
         <text encoding="base64">ICAgICAgICAgIC0gJ29ic2VydmF0aW9uczpiaXJkLmxpdCcK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHRydWUK</text>
+        <text encoding="base64">ICAgICAgICAgIC0gJ29ic2VydmF0aW9uczpiaXJkLmxpdCcK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBkCg==</text>
+        <text encoding="base64">ICAgIHRydWUK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBleHBlY3QoZmFjZXRzKS50byBpbmNsdWRlKCdodHRwOi8vY29uZmlnLnJvbGVzLmNvbS9mYWNldHMvd2VpZ2h0JykKICAgICAgICBleHBlY3QoZmFjZXRzKS50byBpbmNsdWRlKCdodHRwOi8vY29uZmlnLnJvbGVzLmNvbS9mYWNldHMvZGF0ZU9mQmlydGgnKQo=</text>
+        <text encoding="base64">ICAgICAgICBkCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgZW5kCg==</text>
+        <text encoding="base64">ICAgICAgICBleHBlY3QoZmFjZXRzKS50byBpbmNsdWRlKCdodHRwOi8vY29uZmlnLnJvbGVzLmNvbS9mYWNldHMvd2VpZ2h0JykKICAgICAgICBleHBlY3QoZmFjZXRzKS50byBpbmNsdWRlKCdodHRwOi8vY29uZmlnLnJvbGVzLmNvbS9mYWNldHMvZGF0ZU9mQmlydGgnKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgYmVmb3JlIGRvCg==</text>
+        <text encoding="base64">ICAgICAgZW5kCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBAc3BhcnFsX3ZhbHVlID0gCg==</text>
+        <text encoding="base64">ICAgICAgYmVmb3JlIGRvCg==</text>
       </register>
       <register name=":" type="4">
         <text>202</text>
