@@ -74,10 +74,11 @@
       <file name="/Ruby Console" timestamp="1588161349230">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_candidate_facet_repository.rb" timestamp="1588089438449">
-        <mark key="]" line="392" column="57" />
-        <mark key="." line="392" column="56" />
-        <mark key="^" line="392" column="57" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/visitors/inline_instances_for_links_solr_visitor.rb" timestamp="1588239217617">
+        <mark key="[" line="16" column="19" />
+        <mark key="]" line="18" column="0" />
+        <mark key="." line="18" column="0" />
+        <mark key="^" line="18" column="65" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/solr_index.rb" timestamp="1588238022784">
         <mark key="'" line="309" column="6" />
@@ -94,16 +95,20 @@
         <mark key="]" line="33" column="0" />
         <mark key="." line="33" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_instance_facet_values_repository.rb" timestamp="1588239168288">
+        <mark key="[" line="57" column="0" />
+        <mark key="]" line="57" column="138" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/visitors/inline_instances_for_links_solr_visitor_spec.rb" timestamp="1588239991908">
+        <mark key="[" line="28" column="55" />
+        <mark key="]" line="27" column="56" />
+        <mark key="^" line="27" column="56" />
+        <mark key="." line="27" column="55" />
+      </file>
       <file name="/Dummy.txt" timestamp="1588166901102">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/iris_controller.rb" timestamp="1588072877000">
-        <mark key="[" line="58" column="27" />
-        <mark key="]" line="54" column="0" />
-        <mark key="." line="54" column="0" />
-        <mark key="^" line="54" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/configuration_service_spec.rb" timestamp="1588161744838">
         <mark key="[" line="180" column="28" />
@@ -114,9 +119,9 @@
       <file name="/fragment.rb" timestamp="1588161205174">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_index_configuration_repository.rb" timestamp="1588238333206">
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_index_configuration_repository.rb" timestamp="1588238761288">
         <mark key="'" line="7" column="6" />
-        <mark key="[" line="158" column="110" />
+        <mark key="[" line="148" column="49" />
         <mark key="]" line="158" column="49" />
         <mark key="^" line="158" column="49" />
         <mark key="." line="158" column="48" />
@@ -125,6 +130,10 @@
         <mark key="^" line="234" column="46" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/script/store_logs_on_s3.py" timestamp="1588164186699" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_instance_facet_values_repository_spec.rb" timestamp="1588239905681">
+        <mark key="[" line="50" column="0" />
+        <mark key="]" line="56" column="9" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/candidate_facet_value.rb" timestamp="1588091159881">
         <mark key="[" line="12" column="43" />
         <mark key="]" line="12" column="48" />
@@ -145,43 +154,43 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgRGlzcW92ZXJTZXR0aW5nLm5ldygnc29scl9tYXhfdmFsdWVzX2xpbWl0JywKICAgICAgICAgICAgICAgICAgICAgICAgICAnTWF4aW11bSBJbnN0YW5jZSBGYWNldCBWYWx1ZXMnLAogICAgICAgICAgICAgICAgICAgICAgICAgICdUaGUgbWF4aW11bSBudW1iZXIgb2YgaW5zdGFuY2UgZmFjZXQgdmFsdWVzIHRoYXQgY2FuIGJlIHJlcXVlc3RlZCBpbiBvbmUgcmVxdWVzdC4nLAogICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnZlcnRvcjogOnRvX2ludGVnZXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZTogOmludGVnZXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgZGVmYXVsdDogREVGQVVMVF9NQVhfVkFMVUVTX0xJTUlULAogICAgICAgICAgICAgICAgICAgICAgICAgIHNlY3Rpb246ICdTb2xyIEVuZHBvaW50JyksCg==</text>
+        <text encoding="base64">ICAgICAgICB9Lm5vdF90byByYWlzZV9lcnJvcgo=</text>
       </register>
       <register name="-" type="4">
-        <text>{</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>unique</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgRGlzcW92ZXJTZXR0aW5nLm5ldygnc29scl9tYXhfdmFsdWVzX2xpbWl0JywKICAgICAgICAgICAgICAgICAgICAgICAgICAnTWF4aW11bSBJbnN0YW5jZSBGYWNldCBWYWx1ZXMnLAogICAgICAgICAgICAgICAgICAgICAgICAgICdUaGUgbWF4aW11bSBudW1iZXIgb2YgaW5zdGFuY2UgZmFjZXQgdmFsdWVzIHRoYXQgY2FuIGJlIHJlcXVlc3RlZCBpbiBvbmUgcmVxdWVzdC4nLAogICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnZlcnRvcjogOnRvX2ludGVnZXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZTogOmludGVnZXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgZGVmYXVsdDogREVGQVVMVF9NQVhfVkFMVUVTX0xJTUlULAogICAgICAgICAgICAgICAgICAgICAgICAgIHNlY3Rpb246ICdTb2xyIEVuZHBvaW50JyksCg==</text>
+        <text encoding="base64">ICAgICAgaXQgJ2NhbiBiZSBpbmNyZWFzZWQgdmlhIERpc3FvdmVyU2V0dGluZ3MnIGRvCiAgICAgICAgRGlzcW92ZXJTZXR0aW5nLm1hbmFnZWQoJ3NvbHJfbWF4X3ZhbHVlc19saW1pdCcsICczMDAwMDAnKSBkbwogICAgICAgICAgZXhwZWN0IHsKICAgICAgICAgICAgc3ViamVjdC5nZXRfZmFjZXRfdmFsdWVzX3BhZ2UoY29uc3RyYWludHMsIDAsIGxpbWl0OiAzMDAwMDAsIGZhY2V0czogZmFjZXRzKQogICAgICAgICAgfS5ub3RfdG8gcmFpc2VfZXJyb3IKICAgICAgICBlbmQKICAgICAgZW5kCg==</text>
       </register>
       <register name="1" type="2">
-        <text>DISQ-4632: Accept level as string</text>
+        <text encoding="base64">ICAgICAgICB9Lm5vdF90byByYWlzZV9lcnJvcgo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIEByZW5kZXJlciAmJgo=</text>
+        <text encoding="base64">ICAgICAgICBleHBlY3Qgewo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgIC0gJ29ic2VydmF0aW9uczpiaXJkLmxpdCcK</text>
+        <text encoding="base64">ICAgIGl0ICdpcyBvdmVycmlkZGVuIGJ5IGVudnNlcnZpY2UgaWYgaXQgaGFzIHN0cmluZycgZG8KICAgICAgYWxsb3dfYW55X2luc3RhbmNlX29mKEVudlNlcnZpY2UpLnRvIHJlY2VpdmUoOmdldCkuYW5kX2NhbGxfb3JpZ2luYWwKICAgICAgYWxsb3dfYW55X2luc3RhbmNlX29mKEVudlNlcnZpY2UpLnRvIHJlY2VpdmUoOmdldCkud2l0aCg6ZGlzcW92ZXJfbWF4X2ZvbGxvd19saW5rcykuYW5kX3JldHVybignMTYwMDAnKQogICAgZW5kCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgIC0gJ29ic2VydmF0aW9uczpiaXJkLmxpdCcK</text>
+        <text encoding="base64">ICAgICAgICAgIHN1YmplY3QuZ2V0X2ZhY2V0X3ZhbHVlc19wYWdlKGNvbnN0cmFpbnRzLCAwLCBsaW1pdDogMzAwMDAwLCBmYWNldHM6IGZhY2V0cykK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHRydWUK</text>
+        <text encoding="base64">ICAgICAgZXhwZWN0KHN1YmplY3QubWF4X2lubGluZWRfcmVzdWx0cykudG8gYmUgPT0gMTYwMDAK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBkCg==</text>
+        <text encoding="base64">ICAgIChFbnZTZXJ2aWNlLm5ldy5nZXQoOmRpc3FvdmVyX21heF9mb2xsb3dfbGlua3MpIHx8IDQwMDApLnRvX2kK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBleHBlY3QoZmFjZXRzKS50byBpbmNsdWRlKCdodHRwOi8vY29uZmlnLnJvbGVzLmNvbS9mYWNldHMvd2VpZ2h0JykKICAgICAgICBleHBlY3QoZmFjZXRzKS50byBpbmNsdWRlKCdodHRwOi8vY29uZmlnLnJvbGVzLmNvbS9mYWNldHMvZGF0ZU9mQmlydGgnKQo=</text>
+        <text>DISQ-4632: Accept level as string</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgZW5kCg==</text>
+        <text encoding="base64">ICAgIEByZW5kZXJlciAmJgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgYmVmb3JlIGRvCg==</text>
+        <text encoding="base64">ICAgICAgICAgIC0gJ29ic2VydmF0aW9uczpiaXJkLmxpdCcK</text>
       </register>
       <register name=":" type="4">
         <text>202</text>
