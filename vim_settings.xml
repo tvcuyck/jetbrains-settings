@@ -68,15 +68,8 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/controllers/application_controller_spec.rb" timestamp="1588582603080" />
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/solr_index_spec.rb" timestamp="1588753286742">
         <mark key="[" line="97" column="83" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/visitors/inline_instances_for_links_solr_visitor.rb" timestamp="1588586287637">
-        <mark key="[" line="17" column="2" />
-        <mark key="]" line="17" column="58" />
-        <mark key="." line="17" column="57" />
-        <mark key="^" line="17" column="58" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/solr_index.rb" timestamp="1588751392478">
         <mark key="'" line="309" column="6" />
@@ -85,6 +78,12 @@
         <mark key="^" line="115" column="5" />
         <mark key="." line="115" column="4" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/lib/tools/migrate_user_views.rb" timestamp="1588765418039">
+        <mark key="[" line="28" column="56" />
+        <mark key="]" line="28" column="31" />
+        <mark key="." line="28" column="30" />
+        <mark key="^" line="28" column="31" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/subfacet_service_spec.rb" timestamp="1588748847349" />
       <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_instance_facet_values_repository.rb" timestamp="1588757795059">
         <mark key="[" line="89" column="54" />
@@ -92,8 +91,13 @@
         <mark key="^" line="89" column="8" />
         <mark key="." line="89" column="7" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/metis/pipeline_run.rb" timestamp="1588582628299" />
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/env_service.rb" timestamp="1588594200106" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/config/initializers/user_views.rb" timestamp="1588764881846">
+        <mark key="[" line="2" column="33" />
+        <mark key="]" line="2" column="0" />
+        <mark key="." line="2" column="0" />
+        <mark key="^" line="2" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/lib/devise_saml_be_authenticatable/logger.rb" timestamp="1588760768710">
         <mark key="[" line="10" column="3" />
         <mark key="]" line="10" column="4" />
@@ -107,6 +111,12 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_data_entry_repository_spec.rb" timestamp="1588749032610" />
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" timestamp="1588749104958">
         <mark key="^" line="2058" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/lib/tasks/disqover_migration.rake" timestamp="1588764965045">
+        <mark key="[" line="15" column="41" />
+        <mark key="]" line="15" column="5" />
+        <mark key="." line="15" column="4" />
+        <mark key="^" line="15" column="5" />
       </file>
       <file name="/Dummy.txt" timestamp="1588760674600">
         <mark key="[" line="0" column="0" />
@@ -146,7 +156,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text>ISQ-4760: Return default level for location_tree as instance facet_value</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IA==</text>
@@ -155,34 +165,34 @@
         <text>do_request</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICBjb25maWcubG9nX3RvID0gJXdbc3Rkb3V0IGZpbGVdCg==</text>
+        <text encoding="base64">ICAgIFRvb2xzOjpNaWdyYXRlVXNlclZpZXdzLmV4ZWN1dGUoKQo=</text>
       </register>
       <register name="1" type="2">
-        <text>ISQ-4760: Return default level for location_tree as instance facet_value</text>
-      </register>
-      <register name="2" type="2">
-        <text>DISQ-4760: Return default level for location_tree as instance facet_value</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgY29udGV4dCAnZ2VvX21hcHBpbmcnIGRvCg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">CiAgYmVmb3JlIGRvCiAgICBkZWYgY2hlY2tfanNvbl9lcnJvcihyZXNwLCBtc2cpCiAgICAgIHJlc3VsdCA9IEpTT04ucGFyc2UocmVzcC5ib2R5KQogICAgICBleHBlY3QocmVzdWx0WydlcnJvcnMnXS5maXJzdFsnZXJyb3InXSkubm90X3RvIGJlX25pbAogICAgICBleHBlY3QocmVzdWx0WydlcnJvcnMnXS5maXJzdFsnbWVzc2FnZSddKS50byBlcShtc2cpCiAgICBlbmQKICBlbmQK</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">CmVuZAo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICBkZXNjcmliZSAncmVzY3VlIGZyb20gQXV0aG9yaXphdGlvbkVycm9yJyAgZG8KICAgIGl0ICdoYW5kbGVzIGV4Y2VwdGlvbnMnIGRvCiAgICAgIGFsbG93KGNvbnRyb2xsZXIpLnRvIHJlY2VpdmUoOmluZGV4KSB7CiAgICAgICAgcmFpc2UgQXV0aG9yaXphdGlvbkVycm9yLCAnbWVzc2FnZSAxMjMnCiAgICAgIH0KICAgICAgZ2V0X2pzb24gOmluZGV4CiAgICAgIGV4cGVjdChyZXNwb25zZS5zdGF0dXMpLnRvIGVxKDQwMCkKICAgICAgY2hlY2tfanNvbl9lcnJvcihyZXNwb25zZSwgJ0EgcnVudGltZSBlcnJvciBoYXMgb2NjdXJyZWQgaW4gYSBwbHVnaW4uJykKICAgIGVuZAogIGVuZAo=</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIFJha2U6OlRhc2tbIm1pZ3JhdGlvbnM6bWlncmF0ZV91c2VyX3ZpZXdzIl0uaW52b2tlCg==</text>
+      </register>
+      <register name="5" type="2">
+        <text>ISQ-4760: Return default level for location_tree as instance facet_value</text>
+      </register>
+      <register name="6" type="2">
+        <text>DISQ-4760: Return default level for location_tree as instance facet_value</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgY29udGV4dCAnZ2VvX21hcHBpbmcnIGRvCg==</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">CmRlZiBjaGVja19qc29uX2Vycm9yKHJlc3AsIG1zZykKICByZXN1bHQgPSBKU09OLnBhcnNlKHJlc3AuYm9keSkKICBleHBlY3QocmVzdWx0WydlcnJvcnMnXS5maXJzdFsnZXJyb3InXSkubm90X3RvIGJlX25pbAogIGV4cGVjdChyZXN1bHRbJ2Vycm9ycyddLmZpcnN0WydtZXNzYWdlJ10pLnRvIGVxKG1zZykKZW5kCg==</text>
+        <text encoding="base64">CiAgYmVmb3JlIGRvCiAgICBkZWYgY2hlY2tfanNvbl9lcnJvcihyZXNwLCBtc2cpCiAgICAgIHJlc3VsdCA9IEpTT04ucGFyc2UocmVzcC5ib2R5KQogICAgICBleHBlY3QocmVzdWx0WydlcnJvcnMnXS5maXJzdFsnZXJyb3InXSkubm90X3RvIGJlX25pbAogICAgICBleHBlY3QocmVzdWx0WydlcnJvcnMnXS5maXJzdFsnbWVzc2FnZSddKS50byBlcShtc2cpCiAgICBlbmQKICBlbmQK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CiAgZGVmIGNoZWNrX2pzb25fZXJyb3IocmVzcCwgbXNnKQogICAgcmVzdWx0ID0gSlNPTi5wYXJzZShyZXNwLmJvZHkpCiAgICBleHBlY3QocmVzdWx0WydlcnJvcnMnXS5maXJzdFsnZXJyb3InXSkubm90X3RvIGJlX25pbAogICAgZXhwZWN0KHJlc3VsdFsnZXJyb3JzJ10uZmlyc3RbJ21lc3NhZ2UnXSkudG8gZXEobXNnKQogIGVuZAo=</text>
+        <text encoding="base64">CmVuZAo=</text>
       </register>
       <register name=":" type="4">
         <text>550</text>
