@@ -75,14 +75,20 @@
         <mark key="." line="17" column="57" />
         <mark key="^" line="17" column="58" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/solr_index.rb" timestamp="1588662231128">
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/solr_index.rb" timestamp="1588751392478">
         <mark key="'" line="309" column="6" />
-        <mark key="[" line="324" column="98" />
+        <mark key="[" line="199" column="42" />
         <mark key="]" line="115" column="5" />
         <mark key="^" line="115" column="5" />
         <mark key="." line="115" column="4" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/subfacet_service_spec.rb" timestamp="1588748847349" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_instance_facet_values_repository.rb" timestamp="1588751838229">
+        <mark key="[" line="107" column="45" />
+        <mark key="]" line="107" column="64" />
+        <mark key="^" line="107" column="45" />
+        <mark key="." line="107" column="45" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/metis/pipeline_run.rb" timestamp="1588582628299" />
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/instance_list_service_spec.rb" timestamp="1588582151745">
         <mark key="]" line="74" column="71" />
@@ -100,14 +106,8 @@
         <mark key="^" line="21" column="19" />
         <mark key="." line="21" column="18" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/filter.rb" timestamp="1588257994074">
-        <mark key="[" line="881" column="51" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/visitors/filter_solr_visitor_spec.rb" timestamp="1588258770707">
-        <mark key="[" line="301" column="29" />
-        <mark key="]" line="301" column="20" />
-        <mark key="^" line="301" column="20" />
-        <mark key="." line="301" column="19" />
+      <file name="/Ruby Console" timestamp="1588751326660">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_data_entry_repository_spec.rb" timestamp="1588749032610" />
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" timestamp="1588749104958">
@@ -131,10 +131,11 @@
         <mark key="^" line="0" column="16" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/.docker/run/up.sh" timestamp="1588579743660" />
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_instance_facet_values_repository_spec.rb" timestamp="1588749544120">
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_instance_facet_values_repository_spec.rb" timestamp="1588750484063">
         <mark key="[" line="613" column="40" />
-        <mark key="]" line="638" column="9" />
-        <mark key="." line="612" column="0" />
+        <mark key="]" line="639" column="0" />
+        <mark key="." line="639" column="0" />
+        <mark key="^" line="639" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/federation_service.rb" timestamp="1588587082322">
         <mark key="[" line="3" column="31" />
@@ -154,8 +155,8 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">CiAgICAgIGNvbnRleHQgJ2Nvb3JkaW5hdGUgdnMgY2F0ZWdvcmljYWwnLCA6Z2VvX21hcHBpbmcgZG8KICAgICAgICBsZXQoOmdyYXBoX3VyaSkgeyBTdHViOjpDb25maWd1cmF0aW9uR3JhcGhzLm1ldGlzIH0KICAgICAgICBsZXQoOmNvbnN0cmFpbnRzKSB7U3R1Yjo6RmlsdGVyLnR5cGVfb2JzZXJ2YXRpb259CiAgICAgICAgbGV0KDpmYWNldHMpIHtbU3R1Yjo6RmFjZXQ6Om9ic2VydmF0aW9uX2Nvb3JkaW5hdGUsIFN0dWI6OkZhY2V0Lm9ic2VydmF0aW9uX3RpbWVdfQogICAgICAgIGxldCg6cmVzdWx0KSB7c3ViamVjdC5nZXRfZmFjZXRfdmFsdWVzX3BhZ2UoY29uc3RyYWludHMsIDAsIGxpbWl0OiA1LCBmYWNldHM6IGZhY2V0cyl9CgogICAgICAgIGl0ICdzaG91bGQgaGF2ZSAyIGZhY2V0cycgZG8KICAgICAgICAgIGV4cGVjdChyZXN1bHRbOmZhY2V0c10ubGVuZ3RoKS50byBlcSgyKQogICAgICAgIGVuZAoKICAgICAgICBjb250ZXh0ICdmaXJzdCBpbnN0YW5jZScgZG8KICAgICAgICAgIGxldCg6aWQxKSB7IHJlc3VsdFs6aW5zdGFuY2VzXS5maXJzdCB9CgogICAgICAgICAgaXQgJ3Nob3VsZCBoYXZlIGNvcnJlY3QgaWQnIGRvCiAgICAgICAgICAgIGV4cGVjdChpZDEuaWQpLnRvIGVxKCdodHRwOi8vd3d3Lm9ybml0aG9sb2d5LmNvbS9vYnNlcnZhdGlvbiMxJykKICAgICAgICAgIGVuZAoKICAgICAgICAgIGl0ICdzaG91bGQgcmV0dXJuIHRoZSBjb3JyZWN0IGNvb3JkaW5hdGUgdmFsdWUnIGRvCiAgICAgICAgICAgIGV4cGVjdChpZDEudmFsdWVzLmZpcnN0KS50byBlcShbJzM3Ljg2NTEsLTExOS41MzgzJ10pCiAgICAgICAgICBlbmQKCiAgICAgICAgICBpdCAnc2hvdWxkIHJldHVybiB0aGUgY29ycmVjdCB0aW1lLW9mLWRheSB2YWx1ZScgZG8KICAgICAgICAgICAgZXhwZWN0KGlkMS52YWx1ZXMuc2Vjb25kKS50byBlcShbe2xhYmVsOiAnbW9ybmluZycsIHF1ZXJ5X3ZhbHVlOiAnIm1vcm5pbmciJ31dKQogICAgICAgICAgZW5kCiAgICAgICAgZW5kCiAgICAgIGVuZAo=</text>
+      <register name="&quot;" type="8">
+        <text>.gsub(/_ss$/,'_sf')</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IA==</text>
@@ -163,8 +164,8 @@
       <register name="/" type="4">
         <text>do_request</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">CiAgICAgIGNvbnRleHQgJ2Nvb3JkaW5hdGUgdnMgY2F0ZWdvcmljYWwnLCA6Z2VvX21hcHBpbmcgZG8KICAgICAgICBsZXQoOmdyYXBoX3VyaSkgeyBTdHViOjpDb25maWd1cmF0aW9uR3JhcGhzLm1ldGlzIH0KICAgICAgICBsZXQoOmNvbnN0cmFpbnRzKSB7U3R1Yjo6RmlsdGVyLnR5cGVfb2JzZXJ2YXRpb259CiAgICAgICAgbGV0KDpmYWNldHMpIHtbU3R1Yjo6RmFjZXQ6Om9ic2VydmF0aW9uX2Nvb3JkaW5hdGUsIFN0dWI6OkZhY2V0Lm9ic2VydmF0aW9uX3RpbWVdfQogICAgICAgIGxldCg6cmVzdWx0KSB7c3ViamVjdC5nZXRfZmFjZXRfdmFsdWVzX3BhZ2UoY29uc3RyYWludHMsIDAsIGxpbWl0OiA1LCBmYWNldHM6IGZhY2V0cyl9CgogICAgICAgIGl0ICdzaG91bGQgaGF2ZSAyIGZhY2V0cycgZG8KICAgICAgICAgIGV4cGVjdChyZXN1bHRbOmZhY2V0c10ubGVuZ3RoKS50byBlcSgyKQogICAgICAgIGVuZAoKICAgICAgICBjb250ZXh0ICdmaXJzdCBpbnN0YW5jZScgZG8KICAgICAgICAgIGxldCg6aWQxKSB7IHJlc3VsdFs6aW5zdGFuY2VzXS5maXJzdCB9CgogICAgICAgICAgaXQgJ3Nob3VsZCBoYXZlIGNvcnJlY3QgaWQnIGRvCiAgICAgICAgICAgIGV4cGVjdChpZDEuaWQpLnRvIGVxKCdodHRwOi8vd3d3Lm9ybml0aG9sb2d5LmNvbS9vYnNlcnZhdGlvbiMxJykKICAgICAgICAgIGVuZAoKICAgICAgICAgIGl0ICdzaG91bGQgcmV0dXJuIHRoZSBjb3JyZWN0IGNvb3JkaW5hdGUgdmFsdWUnIGRvCiAgICAgICAgICAgIGV4cGVjdChpZDEudmFsdWVzLmZpcnN0KS50byBlcShbJzM3Ljg2NTEsLTExOS41MzgzJ10pCiAgICAgICAgICBlbmQKCiAgICAgICAgICBpdCAnc2hvdWxkIHJldHVybiB0aGUgY29ycmVjdCB0aW1lLW9mLWRheSB2YWx1ZScgZG8KICAgICAgICAgICAgZXhwZWN0KGlkMS52YWx1ZXMuc2Vjb25kKS50byBlcShbe2xhYmVsOiAnbW9ybmluZycsIHF1ZXJ5X3ZhbHVlOiAnIm1vcm5pbmciJ31dKQogICAgICAgICAgZW5kCiAgICAgICAgZW5kCiAgICAgIGVuZAo=</text>
+      <register name="0" type="8">
+        <text>.gsub(/_ss$/,'_sf')</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgY29udGV4dCAnZ2VvX21hcHBpbmcnIGRvCg==</text>
