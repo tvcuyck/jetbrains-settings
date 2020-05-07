@@ -83,19 +83,29 @@
         <mark key="]" line="6" column="0" />
         <mark key="." line="6" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/subfacet_service_spec.rb" timestamp="1588748847349" />
       <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_instance_facet_values_repository.rb" timestamp="1588757795059">
         <mark key="[" line="89" column="54" />
         <mark key="]" line="89" column="8" />
         <mark key="^" line="89" column="8" />
         <mark key="." line="89" column="7" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/env_service.rb" timestamp="1588594200106" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/lib/tools/migrate_user_views_spec.rb" timestamp="1588836830017">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="11" column="5" />
+        <mark key="^" line="11" column="5" />
+        <mark key="." line="11" column="4" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/config/initializers/user_views.rb" timestamp="1588770304335">
         <mark key="[" line="2" column="0" />
         <mark key="]" line="0" column="33" />
         <mark key="." line="0" column="32" />
         <mark key="^" line="0" column="33" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/user_view_service_spec.rb" timestamp="1588836714149">
+        <mark key="[" line="11" column="0" />
+        <mark key="]" line="11" column="0" />
+        <mark key="^" line="9" column="5" />
+        <mark key="." line="11" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/lib/devise_saml_be_authenticatable/logger.rb" timestamp="1588760768710">
         <mark key="[" line="10" column="3" />
@@ -111,14 +121,14 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" timestamp="1588749104958">
         <mark key="^" line="2058" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/lib/tasks/disqover_migration.rake" timestamp="1588773521310">
-        <mark key="[" line="8" column="35" />
-        <mark key="]" line="8" column="34" />
-        <mark key="." line="8" column="33" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/lib/tasks/disqover_migration.rake" timestamp="1588837390231">
+        <mark key="[" line="8" column="15" />
+        <mark key="]" line="11" column="5" />
+        <mark key="." line="7" column="0" />
         <mark key="^" line="8" column="34" />
       </file>
-      <file name="/Dummy.txt" timestamp="1588767813683">
-        <mark key="[" line="0" column="0" />
+      <file name="/Dummy.txt" timestamp="1588837412781">
+        <mark key="[" line="0" column="53" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
@@ -134,9 +144,6 @@
         <mark key="]" line="20" column="1" />
         <mark key="^" line="20" column="1" />
         <mark key="." line="20" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/federation_service.rb" timestamp="1588587082322">
-        <mark key="[" line="3" column="31" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/config/application.rb" timestamp="1588758522739" />
     </filemarks>
@@ -155,7 +162,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIFRvb2xzOjpNaWdyYXRlVXNlclZpZXdzLmV4ZWN1dGUK</text>
+        <text encoding="base64">CiAgZGVzYyAnRW5hYmxlIDYuMDAuMCB1c2VyIHZpZXcgbWlncmF0aW9uJwogIHRhc2sgOmVuYWJsZV82XzAwX3VzZXJfdmlld19taWdyYXRpb24gPT4gOmVudmlyb25tZW50IGRvCiAgICBUb29sczo6TWlncmF0ZVVzZXJWaWV3cy5lbmFibGUKICBlbmQK</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IA==</text>
@@ -164,34 +171,34 @@
         <text>do_request</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIFRvb2xzOjpNaWdyYXRlVXNlclZpZXdzLmV4ZWN1dGUK</text>
+        <text encoding="base64">ICAKICBiZWZvcmUgOmVhY2ggZG8KICAgIFVzZXJWaWV3LmRlbGV0ZV9hbGwgIAogIGVuZAoKICBhZnRlciA6ZWFjaCBkbwogICAgVXNlclZpZXcuZGVsZXRlX2FsbAogIGVuZAo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgIyBwdXRzICJFbmFibGluZyB0aGUgdXNlciB2aWV3IG1pZ3JhdGlvbnMiCg==</text>
+        <text encoding="base64">CiAgZGVzYyAnRW5hYmxlIDYuMDAuMCB1c2VyIHZpZXcgbWlncmF0aW9uJwogIHRhc2sgOmVuYWJsZV82XzAwX3VzZXJfdmlld19taWdyYXRpb24gPT4gOmVudmlyb25tZW50IGRvCiAgICBUb29sczo6TWlncmF0ZVVzZXJWaWV3cy5lbmFibGUKICBlbmQK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHB1dHMgJ01pZ3JhdGluZyB1c2VyIHZpZXdzJwo=</text>
+        <text>DISQ-4772: One time user view migration</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHB1dHMgJ0VuYWJsaW5nIHRoZSB1c2VyIHZpZXcgbWlncmF0aW9uJwo=</text>
+        <text encoding="base64">CiAgYmVmb3JlIDplYWNoIGRvCiAgZW5kCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgUmFpbHMubG9nZ2VyLmluZm8oIk1pZ3JhdGluZyB0aGUgdXNlciB2aWV3cyIpCg==</text>
+        <text encoding="base64">ICAgIFVzZXJWaWV3LmRlbGV0ZV9hbGwK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBwdXRzIGV4Lm1lc3NhZ2UK</text>
+        <text encoding="base64">ICAgICAgIyBwdXRzICJFbmFibGluZyB0aGUgdXNlciB2aWV3IG1pZ3JhdGlvbnMiCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgIHB1dHMgIk1pZ3JhdGluZyB0aGUgdXNlciB2aWV3cyIK</text>
+        <text encoding="base64">ICAgIHB1dHMgJ01pZ3JhdGluZyB1c2VyIHZpZXdzJwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">cmVxdWlyZQo=</text>
+        <text encoding="base64">ICAgIHB1dHMgJ0VuYWJsaW5nIHRoZSB1c2VyIHZpZXcgbWlncmF0aW9uJwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgUmFpbHMubG9nZ2VyLmluZm8oIk1pZ3JhdGluZyB0aGUgdXNlciB2aWV3cyIpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwdXRzIGV4Lm1lc3NhZ2UK</text>
       </register>
       <register name=":" type="4">
         <text>550</text>
