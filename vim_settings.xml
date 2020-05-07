@@ -68,20 +68,11 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/solr_index_spec.rb" timestamp="1588753286742">
-        <mark key="[" line="97" column="83" />
-      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/filter_info_service.rb" timestamp="1588841477480" />
       <file name="$USER_HOME$/Disqover/disqover-backend/lib/tools/migrate_user_views.rb" timestamp="1588767931694">
         <mark key="[" line="6" column="0" />
         <mark key="]" line="6" column="0" />
         <mark key="." line="6" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_instance_facet_values_repository.rb" timestamp="1588757795059">
-        <mark key="[" line="89" column="54" />
-        <mark key="]" line="89" column="8" />
-        <mark key="^" line="89" column="8" />
-        <mark key="." line="89" column="7" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/lib/tools/migrate_user_views_spec.rb" timestamp="1588844659113">
         <mark key="[" line="278" column="25" />
@@ -89,8 +80,16 @@
         <mark key="^" line="278" column="22" />
         <mark key="." line="278" column="21" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/metis_pipeline_test_data/rspec_pipeline.yml" timestamp="1588842016112">
-        <mark key="[" line="1520" column="29" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/etl_controller.rb" timestamp="1588851624915">
+        <mark key="[" line="376" column="29" />
+        <mark key="]" line="378" column="41" />
+        <mark key="^" line="378" column="41" />
+        <mark key="." line="378" column="40" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/metis_pipeline_test_data/rspec_pipeline.yml" timestamp="1588845119626">
+        <mark key="[" line="1524" column="0" />
+        <mark key="]" line="1524" column="0" />
+        <mark key="." line="1524" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/config/initializers/user_views.rb" timestamp="1588770304335">
         <mark key="[" line="2" column="0" />
@@ -106,6 +105,12 @@
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/filter.rb" timestamp="1588841623079">
         <mark key="[" line="881" column="51" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/etl_service.rb" timestamp="1588851751498">
+        <mark key="[" line="484" column="15" />
+        <mark key="]" line="484" column="0" />
+        <mark key="^" line="483" column="57" />
+        <mark key="." line="484" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/filter_info_service_spec.rb" timestamp="1588841797801">
         <mark key="]" line="862" column="0" />
@@ -125,7 +130,7 @@
         <mark key="." line="31" column="2" />
         <mark key="^" line="31" column="3" />
       </file>
-      <file name="/Dummy.txt" timestamp="1588842307935">
+      <file name="/Dummy.txt" timestamp="1588845127439">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -162,43 +167,43 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">CiAgICBjb250ZXh0ICdsaXN0IGFuZCBmaWx0ZXIgZmlsdGVyICcgZG8KICAgICAgbGV0KDpmaWx0ZXIpeyBTdHViOjpGaWx0ZXIud2VpZ2h0X2JldHdlZW4oMTAsMjApIH0KICAgICAgaXQgJ2lzIHRydWUnIGRvCiAgICAgICAgZXhwZWN0KHJlc3VsdCkudG8gYmVfdHJ1dGh5CiAgICAgIGVuZAogICAgZW5kCg==</text>
+        <text encoding="base64">ICBlbmQK</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>!</text>
       </register>
       <register name="/" type="4">
         <text>do_request</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CiAgICBjb250ZXh0ICdsaXN0IGFuZCBmaWx0ZXIgZmlsdGVyICcgZG8KICAgICAgbGV0KDpmaWx0ZXIpeyBTdHViOjpGaWx0ZXIud2VpZ2h0X2JldHdlZW4oMTAsMjApIH0KICAgICAgaXQgJ2lzIHRydWUnIGRvCiAgICAgICAgZXhwZWN0KHJlc3VsdCkudG8gYmVfdHJ1dGh5CiAgICAgIGVuZAogICAgZW5kCg==</text>
+        <text encoding="base64">ICAgIHVzZXJfdmlld3NfdHRsOiAnQHByZWZpeCBkaXNxOiA8aHR0cDovL25zLm9udG9mb3JjZS5jb20vMjAxMy9kaXNxb3ZlciM+IC4nCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">CiAgZGVzYyAnRW5hYmxlIDYuMDAuMCB1c2VyIHZpZXcgbWlncmF0aW9uJwogIHRhc2sgOmVuYWJsZV82XzAwX3VzZXJfdmlld19taWdyYXRpb24gPT4gOmVudmlyb25tZW50IGRvCiAgICBUb29sczo6TWlncmF0ZVVzZXJWaWV3cy5lbmFibGUKICBlbmQK</text>
+        <text encoding="base64">ICBlbmQK</text>
       </register>
       <register name="2" type="2">
-        <text>DISQ-4772: One time user view migration</text>
+        <text encoding="base64">ICAgIEluc3RhbmNlTGlzdFNlcnZpY2UubmV3KEBpbnN0YW5jZXNfc2VydmljZSkucmVmcmVzaF9pbnN0YW5jZXMK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CiAgYmVmb3JlIDplYWNoIGRvCiAgZW5kCg==</text>
+        <text encoding="base64">ICAgIHVzZXJfdmlld3NfdHRsOiB8LQogICAgICBAcHJlZml4IGRpc3E6IDxodHRwOi8vbnMub250b2ZvcmNlLmNvbS8yMDEzL2Rpc3FvdmVyIz4gLgogICAgICBAcHJlZml4IHJkZnM6IDxodHRwOi8vd3d3LnczLm9yZy8yMDAwLzAxL3JkZi1zY2hlbWEjPiAuCiAgICAgIDxvcGVuVmlldz4KICAgICAgICBhIGRpc3E6VXNlclZpZXc7CiAgICAgICAgcmRmczpsYWJlbCAib3BlbiB2aWV3MiI7CiAgICAgICAgZGlzcTpyYW5rIDEKICAgICAgLgogICAgICA8cmVzdHJpY3RlZFZpZXc+CiAgICAgICAgYSBkaXNxOlVzZXJWaWV3OwogICAgICAgIHJkZnM6bGFiZWwgInJlc3RyaWN0ZWQgdmlldyI7CiAgICAgICAgZGlzcTpyYW5rIDE7CiAgICAgICAgZGlzcTp2aXNpYmxlRm9yR3JvdXAgIm1kcyIsICJzbXVyZnMiCiAgICAgIC4K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIFVzZXJWaWV3LmRlbGV0ZV9hbGwK</text>
+        <text encoding="base64">CiAgZGVzYyAnRW5hYmxlIDYuMDAuMCB1c2VyIHZpZXcgbWlncmF0aW9uJwogIHRhc2sgOmVuYWJsZV82XzAwX3VzZXJfdmlld19taWdyYXRpb24gPT4gOmVudmlyb25tZW50IGRvCiAgICBUb29sczo6TWlncmF0ZVVzZXJWaWV3cy5lbmFibGUKICBlbmQK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgIyBwdXRzICJFbmFibGluZyB0aGUgdXNlciB2aWV3IG1pZ3JhdGlvbnMiCg==</text>
+        <text>DISQ-4772: One time user view migration</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHB1dHMgJ01pZ3JhdGluZyB1c2VyIHZpZXdzJwo=</text>
+        <text encoding="base64">CiAgYmVmb3JlIDplYWNoIGRvCiAgZW5kCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHB1dHMgJ0VuYWJsaW5nIHRoZSB1c2VyIHZpZXcgbWlncmF0aW9uJwo=</text>
+        <text encoding="base64">ICAgIFVzZXJWaWV3LmRlbGV0ZV9hbGwK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgUmFpbHMubG9nZ2VyLmluZm8oIk1pZ3JhdGluZyB0aGUgdXNlciB2aWV3cyIpCg==</text>
+        <text encoding="base64">ICAgICAgIyBwdXRzICJFbmFibGluZyB0aGUgdXNlciB2aWV3IG1pZ3JhdGlvbnMiCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBwdXRzIGV4Lm1lc3NhZ2UK</text>
+        <text encoding="base64">ICAgIHB1dHMgJ01pZ3JhdGluZyB1c2VyIHZpZXdzJwo=</text>
       </register>
       <register name=":" type="4">
         <text>550</text>
