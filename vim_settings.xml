@@ -10,6 +10,7 @@
         <entry>update_user_group</entry>
         <entry>unique</entry>
         <entry>do_request</entry>
+        <entry>relation_types</entry>
       </history-search>
       <history-cmd>
         <entry>132</entry>
@@ -101,7 +102,8 @@
         <mark key="^" line="1981" column="67" />
         <mark key="." line="1981" column="66" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/metis_pipeline_test_data/rspec_pipeline.yml" timestamp="1588845119626">
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/metis_pipeline_test_data/rspec_pipeline.yml" timestamp="1588928176811">
+        <mark key="'" line="1537" column="29" />
         <mark key="[" line="1524" column="0" />
         <mark key="]" line="1524" column="0" />
         <mark key="." line="1524" column="0" />
@@ -125,6 +127,7 @@
         <mark key="^" line="862" column="0" />
         <mark key="." line="862" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/sub_type.rb" timestamp="1588927702627" />
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/configuration_service.rb" timestamp="1588859052449">
         <mark key="[" line="22" column="0" />
         <mark key="]" line="22" column="0" />
@@ -139,12 +142,6 @@
         <mark key="]" line="401" column="74" />
         <mark key="^" line="401" column="74" />
         <mark key="." line="401" column="73" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/lib/tasks/disqover_migration.rake" timestamp="1588839096474">
-        <mark key="[" line="8" column="15" />
-        <mark key="]" line="31" column="3" />
-        <mark key="." line="31" column="2" />
-        <mark key="^" line="31" column="3" />
       </file>
       <file name="/Dummy.txt" timestamp="1588859532795">
         <mark key="[" line="0" column="0" />
@@ -178,6 +175,7 @@
       <jump line="0" column="6" filename="$USER_HOME$/Disqover/disqover-backend/app/services/federation_subfacet_service.rb" />
       <jump line="0" column="0" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/etl_service_spec.rb" />
       <jump line="0" column="0" filename="$USER_HOME$/Disqover/disqover-backend/spec/controllers/etl_controller_spec.rb" />
+      <jump line="1537" column="29" filename="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/metis_pipeline_test_data/rspec_pipeline.yml" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -189,7 +187,7 @@
         <text>!</text>
       </register>
       <register name="/" type="4">
-        <text>do_request</text>
+        <text>relation_types</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGl0ICdjYWxscyB0aGUgZXRsIHNlcnZpY2Ugd2l0aCB0aGUgY29ycmVjdCBndWlkcycgZG8KICAgICAgZXhwZWN0KEV0bFNlcnZpY2UpLnRvIHJlY2VpdmUoOnVwbG9hZF9jb25maWcpLndpdGgoZ3VpZCwge2RlYnVnOiAwfSkKICAgICAgcG9zdF9qc29uIDp1cGxvYWRfY29uZmlnLCBwaXBlbGluZV9ndWlkOiBndWlkCiAgICBlbmQK</text>
@@ -228,9 +226,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>do_request</last-search>
+      <last-search>relation_types</last-search>
       <last-offset />
-      <last-pattern>do_request</last-pattern>
+      <last-pattern>relation_types</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
