@@ -37,19 +37,22 @@
       <shortcut-conflict owner="vim">
         <text>ctrl pressed M</text>
       </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed R</text>
+      </shortcut-conflict>
     </shortcut-conflicts>
   </component>
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/disqover_relation_type.py" timestamp="1589179004425">
-        <mark key="[" line="138" column="73" />
-        <mark key="]" line="145" column="82" />
-        <mark key="." line="145" column="81" />
-        <mark key="^" line="145" column="82" />
+      <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/disqover_relation_type.py" timestamp="1589179004425" />
+      <file name="$USER_HOME$/Disqover/metis/tests/integration/test_typed_links_pipeline_spec.py" timestamp="1589180924203">
+        <mark key="[" line="131" column="72" />
+        <mark key="]" line="129" column="21" />
+        <mark key="^" line="129" column="21" />
+        <mark key="." line="129" column="20" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/disqover_type_link.py" timestamp="1589179150574">
-        <mark key="[" line="50" column="30" />
         <mark key="]" line="43" column="77" />
         <mark key="^" line="43" column="77" />
         <mark key="." line="43" column="76" />
@@ -71,7 +74,6 @@
       <file name="$USER_HOME$/Disqover/metis/tests/spec/actions/components/test_create_type_link_action_spec.py" timestamp="1588948400069">
         <mark key="[" line="91" column="59" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/tests/spec/actions/commands/test_preprocess_component_command_spec.py" timestamp="1588948614886" />
       <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/disqover_property.py" timestamp="1589178964194">
         <mark key="[" line="293" column="77" />
         <mark key="]" line="307" column="44" />
@@ -91,8 +93,8 @@
         <mark key="." line="25" column="49" />
         <mark key="^" line="25" column="50" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/tests/spec/connectors/test_backend_connector_spec.py" timestamp="1588940219017">
-        <mark key="[" line="47" column="24" />
+      <file name="$USER_HOME$/Disqover/metis/tests/spec/connectors/test_backend_connector_spec.py" timestamp="1589181215117">
+        <mark key="[" line="36" column="68" />
         <mark key="]" line="50" column="71" />
         <mark key="." line="50" column="70" />
         <mark key="^" line="50" column="71" />
@@ -112,16 +114,13 @@
       </file>
       <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/disqover_canonical_type.py" timestamp="1589178929080">
         <mark key="[" line="108" column="44" />
-        <mark key="]" line="117" column="51" />
-        <mark key="^" line="117" column="51" />
-        <mark key="." line="117" column="50" />
       </file>
       <file name="/Dummy.txt" timestamp="1588948646912">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/src/metis/metis_settings.py" timestamp="1588942519348">
+      <file name="$USER_HOME$/Disqover/metis/src/metis/metis_settings.py" timestamp="1589181260215">
         <mark key="[" line="110" column="72" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/tests/spec/actions/commands/test_generate_configuration_action_spec.py" timestamp="1588935552096">
@@ -130,19 +129,9 @@
         <mark key="." line="143" column="83" />
         <mark key="^" line="143" column="84" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/tests/spec/test_metis_settings_spec.py" timestamp="1588935470670">
-        <mark key="[" line="418" column="0" />
+      <file name="$USER_HOME$/Disqover/metis/tests/spec/test_metis_settings_spec.py" timestamp="1589181417586">
+        <mark key="[" line="80" column="108" />
         <mark key="]" line="418" column="60" />
-      </file>
-      <file name="$USER_HOME$/Disqover/metis/src/metis/actions/commands/generate_configuration_action.py" timestamp="1588940383356">
-        <mark key="[" line="53" column="66" />
-        <mark key="]" line="53" column="21" />
-        <mark key="." line="53" column="20" />
-        <mark key="^" line="53" column="21" />
-      </file>
-      <file name="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_data_configuration_spec.py" timestamp="1588934854140">
-        <mark key="[" line="550" column="0" />
-        <mark key="]" line="550" column="105" />
       </file>
     </filemarks>
     <jumps>
