@@ -71,17 +71,14 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/facet_configuration_repository_spec.rb" timestamp="1589449057725">
-        <mark key="[" line="182" column="0" />
-        <mark key="]" line="182" column="103" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/facet_configuration_repository_spec.rb" timestamp="1589527407985">
+        <mark key="[" line="628" column="44" />
+        <mark key="]" line="621" column="109" />
+        <mark key="^" line="182" column="52" />
+        <mark key="." line="621" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/check_setup_service.rb" timestamp="1589524512593">
-        <mark key="[" line="214" column="74" />
-        <mark key="]" line="216" column="51" />
-        <mark key="." line="216" column="50" />
-        <mark key="^" line="216" column="51" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/check_setup_service_spec.rb" timestamp="1589465156817">
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/check_setup_service.rb" timestamp="1589525206418" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/check_setup_service_spec.rb" timestamp="1589525220365">
         <mark key="[" line="150" column="0" />
         <mark key="]" line="150" column="0" />
         <mark key="." line="150" column="0" />
@@ -103,26 +100,37 @@
         <mark key="^" line="106" column="65" />
         <mark key="." line="106" column="64" />
       </file>
-      <file name="/Ruby Console" timestamp="1589464945465">
+      <file name="/Ruby Console" timestamp="1589526937099">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/facet_configuration_repository.rb" timestamp="1589467952305">
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/facet_configuration_repository.rb" timestamp="1589525630160">
         <mark key="'" line="376" column="0" />
-        <mark key="[" line="237" column="52" />
-        <mark key="]" line="237" column="62" />
-        <mark key="^" line="237" column="62" />
-        <mark key="." line="237" column="61" />
+        <mark key="[" line="238" column="42" />
+        <mark key="]" line="238" column="85" />
+        <mark key="^" line="238" column="86" />
+        <mark key="." line="238" column="85" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/lens_property.rb" timestamp="1589449708702">
-        <mark key="[" line="83" column="0" />
-        <mark key="]" line="83" column="84" />
-        <mark key="." line="83" column="0" />
-        <mark key="^" line="83" column="18" />
+        <mark key="[" line="85" column="0" />
+        <mark key="]" line="85" column="84" />
+        <mark key="." line="85" column="0" />
+        <mark key="^" line="85" column="18" />
       </file>
-      <file name="/Dummy.txt" timestamp="1589450905123">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/lens_repository_spec.rb" timestamp="1589527238890">
+        <mark key="[" line="467" column="0" />
+        <mark key="]" line="468" column="50" />
+        <mark key="^" line="611" column="0" />
+        <mark key="." line="611" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/lens_repository.rb" timestamp="1589525646727">
+        <mark key="[" line="174" column="40" />
+        <mark key="]" line="174" column="83" />
+        <mark key="." line="174" column="39" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1589525252071">
+        <mark key="[" line="0" column="32" />
+        <mark key="]" line="0" column="32" />
+        <mark key="." line="0" column="32" />
       </file>
       <file name="/fragment.rb" timestamp="1589464895659">
         <mark key="[" line="0" column="70" />
@@ -168,43 +176,43 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICBhbGxvd19hbnlfaW5zdGFuY2Vfb2YoQ2Fub25pY2FsVHlwZUNvbGxlY3Rpb24pLnRvIHJlY2VpdmUoOmJ5X3VyaSkgeyBTdHViOjpDYW5vbmljYWxUeXBlLmFzc2F5fQo=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICAgICAgY2FsbF9yZXN1bHQgPSBGYXJhZGF5LmdldCg=</text>
+        <text encoding="base64">c21hbGwg</text>
       </register>
       <register name="/" type="4">
         <text>relation_types</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgY29ubmVjdGlvbiA9IEZhcmFkYXk6OkNvbm5lY3Rpb24ubmV3KHVybDogaG9zdCwgcmVxdWVzdDoge29wZW5fdGltZW91dDogY29ubmVjdGlvbl90aW1lb3V0LCB0aW1lb3V0OiAzMH0pIGRvIHxidWlsZGVyfAogICAgICAgIGJ1aWxkZXIuYWRhcHRlciBGYXJhZGF5LmRlZmF1bHRfYWRhcHRlcgogICAgICBlbmQK</text>
+        <text encoding="base64">ICAgICAgICBhbGxvd19hbnlfaW5zdGFuY2Vfb2YoQ2Fub25pY2FsVHlwZUNvbGxlY3Rpb24pLnRvIHJlY2VpdmUoOmJ5X3VyaSkgeyBTdHViOjpDYW5vbmljYWxUeXBlLmFzc2F5fQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgICAgYyA9IEZhcmFkYXkuZ2V0KCN7cGF0aH0iKQo=</text>
-      </register>
-      <register name="3" type="8">
-        <text>&quot;http://#{RdsController.iris_host}:#{RdsController.iris_port}</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgIyBhbGxvdyhGYXJhZGF5KS50byByZWNlaXZlKDpnZXQpLmFuZF9yZXR1cm4oe3N0YXR1czogMjAwfSkK</text>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBsZXQoOmZhY2V0KSB7IHN1YmplY3QuZmFjZXRzLmRldGVjdCB7fGZ8IGYua2V5ID1+IC9jb3VudHJ5LyB9IH0K</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgCiAgICAgIGNvbnRleHQgCg==</text>
+      </register>
+      <register name="5" type="4">
+        <text encoding="base64">YWxsb3cgbWl4aW5nCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgc3R1Yl9yZXF1ZXN0Cg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgYWxsb3coUGVybWlzc2lvbnNTZXJ2aWNlKS50byByZWNlaXZlKDpkb19yZXF1ZXN0KS5hbmRfcmV0dXJuKHt9KQo=</text>
+        <text encoding="base64">ICAgICAgYyA9IEZhcmFkYXkuZ2V0KCN7cGF0aH0iKQo=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgYWxsb3coUGVybWlzc2lvbnNTZXJ2aWNlKS50byByZWNlaXZlKDpvcGVyYXRpb25zKS5hbmRfcmFpc2UoUnVudGltZUVycm9yKQo=</text>
+      <register name="8" type="8">
+        <text>&quot;http://#{RdsController.iris_host}:#{RdsController.iris_port}</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgZW5kCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>52</text>
