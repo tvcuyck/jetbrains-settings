@@ -75,10 +75,11 @@
         <mark key="[" line="182" column="0" />
         <mark key="]" line="182" column="103" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/check_setup_service.rb" timestamp="1589464903610">
-        <mark key="]" line="211" column="83" />
-        <mark key="." line="211" column="82" />
-        <mark key="^" line="211" column="83" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/check_setup_service.rb" timestamp="1589524512593">
+        <mark key="[" line="214" column="74" />
+        <mark key="]" line="216" column="51" />
+        <mark key="." line="216" column="50" />
+        <mark key="^" line="216" column="51" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/check_setup_service_spec.rb" timestamp="1589465156817">
         <mark key="[" line="150" column="0" />
@@ -89,29 +90,6 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/canonical_type.rb" timestamp="1589467529022">
         <mark key="[" line="11" column="0" />
         <mark key="]" line="13" column="9" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/facet.rb" timestamp="1589446399870">
-        <mark key="[" line="80" column="0" />
-        <mark key="]" line="80" column="103" />
-        <mark key="^" line="76" column="97" />
-        <mark key="." line="76" column="96" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/metis_pipeline_test_data/rspec_pipeline.yml" timestamp="1589437591880">
-        <mark key="[" line="4398" column="28" />
-        <mark key="]" line="4398" column="28" />
-        <mark key="." line="4398" column="28" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/facet_spec.rb" timestamp="1589446903787">
-        <mark key="[" line="297" column="0" />
-        <mark key="]" line="297" column="83" />
-        <mark key="." line="297" column="81" />
-        <mark key="^" line="297" column="82" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/lens_property_spec.rb" timestamp="1589450870299">
-        <mark key="[" line="261" column="61" />
-        <mark key="]" line="271" column="61" />
-        <mark key="." line="271" column="60" />
-        <mark key="^" line="271" column="61" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/canonical_type.rb" timestamp="1589444719745">
         <mark key="[" line="15" column="46" />
@@ -141,12 +119,6 @@
         <mark key="." line="83" column="0" />
         <mark key="^" line="83" column="18" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/lens_repository.rb" timestamp="1589467868326">
-        <mark key="[" line="173" column="63" />
-        <mark key="]" line="173" column="65" />
-        <mark key="." line="173" column="64" />
-        <mark key="^" line="173" column="65" />
-      </file>
       <file name="/Dummy.txt" timestamp="1589450905123">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -161,6 +133,10 @@
         <mark key="[" line="92" column="0" />
         <mark key="]" line="92" column="61" />
         <mark key="." line="93" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/federation_service.rb" timestamp="1589524408975">
+        <mark key="[" line="60" column="0" />
+        <mark key="]" line="62" column="9" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/candidate_facet_value.rb" timestamp="1589448819351">
         <mark key="[" line="12" column="43" />
@@ -192,7 +168,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBjdCA9IENvbGxlY3Rpb25TZXJ2aWNlLmluc3RhbmNlLmNhbm9uaWNhbF90eXBlX3JlcG9zaXRvcnkuYnlfdXJpKGN0X3VyaSkK</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">ICAgICAgY2FsbF9yZXN1bHQgPSBGYXJhZGF5LmdldCg=</text>
@@ -201,34 +177,34 @@
         <text>relation_types</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBjdCA9IENvbGxlY3Rpb25TZXJ2aWNlLmluc3RhbmNlLmNhbm9uaWNhbF90eXBlX3JlcG9zaXRvcnkuYnlfdXJpKGN0X3VyaSkK</text>
+        <text encoding="base64">ICAgICAgY29ubmVjdGlvbiA9IEZhcmFkYXk6OkNvbm5lY3Rpb24ubmV3KHVybDogaG9zdCwgcmVxdWVzdDoge29wZW5fdGltZW91dDogY29ubmVjdGlvbl90aW1lb3V0LCB0aW1lb3V0OiAzMH0pIGRvIHxidWlsZGVyfAogICAgICAgIGJ1aWxkZXIuYWRhcHRlciBGYXJhZGF5LmRlZmF1bHRfYWRhcHRlcgogICAgICBlbmQK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgIyBhbGxvdyhGYXJhZGF5KS50byByZWNlaXZlKDpnZXQpLmFuZF9yZXR1cm4oe3N0YXR1czogMjAwfSkK</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgc3R1Yl9yZXF1ZXN0Cg==</text>
+        <text encoding="base64">ICAgICAgYyA9IEZhcmFkYXkuZ2V0KCN7cGF0aH0iKQo=</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgYWxsb3coUGVybWlzc2lvbnNTZXJ2aWNlKS50byByZWNlaXZlKDpkb19yZXF1ZXN0KS5hbmRfcmV0dXJuKHt9KQo=</text>
+      <register name="3" type="8">
+        <text>&quot;http://#{RdsController.iris_host}:#{RdsController.iris_port}</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgYWxsb3coUGVybWlzc2lvbnNTZXJ2aWNlKS50byByZWNlaXZlKDpvcGVyYXRpb25zKS5hbmRfcmFpc2UoUnVudGltZUVycm9yKQo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgZW5kCg==</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgIyBhbGxvdyhGYXJhZGF5KS50byByZWNlaXZlKDpnZXQpLmFuZF9yZXR1cm4oe3N0YXR1czogMjAwfSkK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgc3R1Yl9yZXF1ZXN0Cg==</text>
+      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgY2FsbF9yZXN1bHQgPSBjb25uLnNlbmQoOmdldCwgcGF0aCkgZG8gfHJlcXwK</text>
+        <text encoding="base64">ICAgICAgYWxsb3coUGVybWlzc2lvbnNTZXJ2aWNlKS50byByZWNlaXZlKDpkb19yZXF1ZXN0KS5hbmRfcmV0dXJuKHt9KQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgZW5kCg==</text>
+        <text encoding="base64">ICAgICAgYWxsb3coUGVybWlzc2lvbnNTZXJ2aWNlKS50byByZWNlaXZlKDpvcGVyYXRpb25zKS5hbmRfcmFpc2UoUnVudGltZUVycm9yKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">ICAgICAgZW5kCg==</text>
       </register>
       <register name=":" type="4">
         <text>52</text>
