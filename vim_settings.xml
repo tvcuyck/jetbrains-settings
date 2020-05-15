@@ -16,8 +16,8 @@
         <entry>11</entry>
         <entry>163</entry>
         <entry>74</entry>
-        <entry>0</entry>
         <entry>%s:solr_field_base():solr_field_base:g</entry>
+        <entry>0</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -57,16 +57,10 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Disqover/metis/tests/spec/actions/components/test_create_canonical_type_action_spec.py" timestamp="1589455214132">
-        <mark key="[" line="314" column="0" />
-        <mark key="]" line="314" column="0" />
-        <mark key="^" line="335" column="26" />
-        <mark key="." line="314" column="0" />
-      </file>
-      <file name="/Python Console" timestamp="1589553760844">
+      <file name="/Python Console" timestamp="1589555224198">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/fragment.py" timestamp="1589547502534">
+      <file name="/fragment.py" timestamp="1589554964885">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -81,6 +75,12 @@
         <mark key="]" line="399" column="72" />
         <mark key="^" line="399" column="72" />
         <mark key="." line="399" column="71" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/tests/spec/test_option_spec.py" timestamp="1589555370531">
+        <mark key="[" line="149" column="0" />
+        <mark key="]" line="149" column="0" />
+        <mark key="." line="149" column="0" />
+        <mark key="^" line="147" column="43" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/tests/integration/test_countries_companies_clin_trials_spec.py" timestamp="1589459670458">
         <mark key="[" line="1895" column="20" />
@@ -107,7 +107,11 @@
         <mark key="." line="147" column="28" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/disqover_property.py" timestamp="1589459063992">
-        <mark key="^" line="544" column="41" />
+        <mark key="^" line="525" column="41" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/src/metis/actions/commands/calculate_statistics_command.py" timestamp="1589554739353">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="50" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/tests/integration/test_subinstances_pipeline_spec.py" timestamp="1589460258096">
         <mark key="[" line="83" column="47" />
@@ -115,35 +119,16 @@
         <mark key="." line="82" column="57" />
         <mark key="^" line="82" column="58" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/disqover_facet.py" timestamp="1589554074651">
-        <mark key="[" line="573" column="62" />
-        <mark key="]" line="573" column="40" />
-        <mark key="." line="573" column="39" />
-        <mark key="^" line="573" column="40" />
-      </file>
       <file name="/Dummy.txt" timestamp="1589553988305">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_disqover_facet_spec.py" timestamp="1589553943410">
-        <mark key="[" line="413" column="8" />
-        <mark key="]" line="413" column="9" />
-        <mark key="." line="413" column="8" />
-        <mark key="^" line="413" column="9" />
-      </file>
-      <file name="$USER_HOME$/Disqover/metis/tests/spec/actions/commands/test_get_component_types_spec.py" timestamp="1589446048435">
-        <mark key="[" line="101" column="0" />
-        <mark key="]" line="101" column="0" />
-        <mark key="." line="101" column="0" />
-        <mark key="^" line="122" column="50" />
-      </file>
-      <file name="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_disqover_type_link_spec.py" timestamp="1589455688126">
-        <mark key="'" line="31" column="73" />
-        <mark key="[" line="214" column="47" />
-        <mark key="]" line="205" column="85" />
-        <mark key="." line="205" column="84" />
-        <mark key="^" line="205" column="85" />
+      <file name="$USER_HOME$/Disqover/metis/src/metis/option.py" timestamp="1589555018870">
+        <mark key="[" line="49" column="47" />
+        <mark key="]" line="49" column="47" />
+        <mark key="^" line="49" column="47" />
+        <mark key="." line="49" column="46" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/src/metis/expression_parser/functions/funcset_geo.py" timestamp="1589548508448">
         <mark key="[" line="239" column="22" />
@@ -179,43 +164,43 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBpZiBzZWxmLmlzX2RhdGVfZmFjZXQoKToKICAgICAgICAgICAgIyAgICAgZGF0ZV9tYXBwZXIgPSBzZWxmLmdldF9tYXBwZXJzKENvbXBvbmVudEZlZWRiYWNrKCkpWzBdCiAgICAgICAgICAgICMgICAgIHNvbHJfZmllbGQgPSBkYXRlX21hcHBlci5zb2xyX2ZpZWxkX29ubHlfdXJpCiAgICAgICAgICAgICMgICAgIGNvbmZpZ1snc29scl9maWVsZF9uYW1lJ10gPSBzb2xyX2ZpZWxkCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdChvcHQudHlwZSkudG8oZXF1YWwoYm9vbGVhbikpCg==</text>
       </register>
       <register name="-" type="4">
-        <text>solr_field_name</text>
+        <text>y</text>
       </register>
       <register name="/" type="4">
         <text>solr_field_base()</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CiAgICBkZWYgY29tcGxldGVfc29scl9maWVsZF9uYW1lKHNlbGYpOgogICAgICAgIHJldHVybiBzZWxmLnNvbHJfZmllbGRfb25seV91cmkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgd2l0aCBpdCgnc2V0cyB0eXBlJyk6CiAgICAgICAgICAgICAgICBvcHQgPSBPcHRpb24oJ215aWQnLCAnbXlkZXNjcicsIGNvbnRlbnRfdHlwZT1DVC5CT09MKQogICAgICAgICAgICAgICAgZXhwZWN0KG9wdC50eXBlKS50byhlcXVhbChib29sZWFuKSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBpZiBzZWxmLmlzX2RhdGVfZmFjZXQoKToKICAgICAgICAgICAgIyAgICAgZGF0ZV9tYXBwZXIgPSBzZWxmLmdldF9tYXBwZXJzKENvbXBvbmVudEZlZWRiYWNrKCkpWzBdCiAgICAgICAgICAgICMgICAgIHNvbHJfZmllbGQgPSBkYXRlX21hcHBlci5zb2xyX2ZpZWxkX29ubHlfdXJpCiAgICAgICAgICAgICMgICAgIGNvbmZpZ1snc29scl9maWVsZF9uYW1lJ10gPSBzb2xyX2ZpZWxkCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdChvcHQudHlwZSkudG8oZXF1YWwoYm9vbGVhbikpCg==</text>
       </register>
       <register name="2" type="2">
-        <text>PRD-19: Map small regions to known countries</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBpZiBzZWxmLmlzX2RhdGVfZmFjZXQoKToKICAgICAgICAgICAgIyAgICAgZGF0ZV9tYXBwZXIgPSBzZWxmLmdldF9tYXBwZXJzKENvbXBvbmVudEZlZWRiYWNrKCkpWzBdCiAgICAgICAgICAgICMgICAgIHNvbHJfZmllbGQgPSBkYXRlX21hcHBlci5zb2xyX2ZpZWxkX29ubHlfdXJpCiAgICAgICAgICAgICMgICAgIGNvbmZpZ1snc29scl9maWVsZF9uYW1lJ10gPSBzb2xyX2ZpZWxkCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAjICAgICAgICAgZXhwZWN0KHNldF9jYWNoZSkudG8oaGF2ZV9iZWVuX2NhbGxlZCkK</text>
+        <text>PRD-19: Map small regions to known countries</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgJ2RhdGFfdHlwZSc6ICdpbnQnLAogICAgICAgICAgICAgICAgICAgICAgICAncHJlY2lzaW9uJzogMywK</text>
+        <text encoding="base64">ICAgICAgICAjICAgICAgICAgZXhwZWN0KHNldF9jYWNoZSkudG8oaGF2ZV9iZWVuX2NhbGxlZCkK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAnb250b2ZvcmNlX2dyb3VwX3NwZWNfc3MnOiBbJ21kcyddLAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgJ2RhdGFfdHlwZSc6ICdpbnQnLAogICAgICAgICAgICAgICAgICAgICAgICAncHJlY2lzaW9uJzogMywK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAncGFyZW50X2N0X3NzJzogWydjdF91cmknXSwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAnb250b2ZvcmNlX2dyb3VwX3NwZWNfc3MnOiBbJ21kcyddLAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgc2VsZi5pc19kYXRlX2ZhY2V0KCk6CiAgICAgICAgICAgICAgICBkYXRlX21hcHBlciA9IHNlbGYuZ2V0X21hcHBlcnMoQ29tcG9uZW50RmVlZGJhY2soKSlbMF0KICAgICAgICAgICAgICAgIHNvbHJfZmllbGQgPSBkYXRlX21hcHBlci5zb2xyX2ZpZWxkX29ubHlfdXJpCiAgICAgICAgICAgICAgICBjb25maWdbJ3NvbHJfZmllbGRfbmFtZSddID0gc29scl9maWVsZAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAncGFyZW50X2N0X3NzJzogWydjdF91cmknXSwK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGZhY2V0LmN1c3RvbV9zb2xyX2ZpZWxkX2Jhc2UgPSAnY291bnRyeV9maWVsZCcK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgc2VsZi5pc19kYXRlX2ZhY2V0KCk6CiAgICAgICAgICAgICAgICBkYXRlX21hcHBlciA9IHNlbGYuZ2V0X21hcHBlcnMoQ29tcG9uZW50RmVlZGJhY2soKSlbMF0KICAgICAgICAgICAgICAgIHNvbHJfZmllbGQgPSBkYXRlX21hcHBlci5zb2xyX2ZpZWxkX29ubHlfdXJpCiAgICAgICAgICAgICAgICBjb25maWdbJ3NvbHJfZmllbGRfbmFtZSddID0gc29scl9maWVsZAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAndmlzaWJsZV9mb3JfZ3JvdXBzJzogWydtZHMnXSwK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGZhY2V0LmN1c3RvbV9zb2xyX2ZpZWxkX2Jhc2UgPSAnY291bnRyeV9maWVsZCcK</text>
       </register>
       <register name=":" type="4">
         <text>%s:solr_field_base():solr_field_base:g</text>
