@@ -27,6 +27,7 @@
         <entry>393</entry>
         <entry>562</entry>
         <entry>0</entry>
+        <entry>371</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -75,10 +76,10 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/solr_index_spec.rb" timestamp="1591111950512">
-        <mark key="[" line="529" column="0" />
-        <mark key="]" line="529" column="0" />
-        <mark key="." line="529" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/solr_index_spec.rb" timestamp="1591179235646">
+        <mark key="[" line="409" column="0" />
+        <mark key="]" line="409" column="0" />
+        <mark key="." line="409" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/script/log_filter.py" timestamp="1591120410977">
         <mark key="[" line="377" column="44" />
@@ -148,7 +149,7 @@
         <mark key="]" line="14" column="0" />
         <mark key="." line="14" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1591173806741">
+      <file name="/Dummy.txt" timestamp="1591179255758">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -189,7 +190,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">TUVUSVNfSU1BR0U9bWV0aXM6dHJlZXM2Cg==</text>
+        <text encoding="base64">CiAgICAjIGl0ICdlbmNvZGVzIHR5cGVkIGxpdGVyYWxzIHVzaW5nIGNvbXBhY3QgcmVwcmVzZW50YXRpb24nIGRvCiAgICAjICAgZXhwZWN0KHN1YmplY3Quc29scl92YWx1ZV9mb3Jfc3BhcnFsKGZhY2V0LCBTdHViOjpTcGFycWw6OlZhbHVlLmludF83KSkudG8gZXEoJyI3IkknKQogICAgIyBlbmQK</text>
       </register>
       <register name="-" type="4">
         <text>Link	Follow link	{&quot;fromCanonicalTypeUri&quot;: &quot;XXX&quot;, &quot;toCanonicalTypeUri&quot;: &quot;XXX&quot;, &quot;fromLabel&quot;: &quot;XXX&quot;, &quot;toLabel&quot;: &quot;XXX&quot;}</text>
@@ -201,34 +202,34 @@
         <text encoding="base64">CiAgICBkZWYgdGVzdF9zZWFyY2hfbGluZShzZWxmKToKICAgICAgICBzZWxmLmNoZWNrX2VxdWFsKCdcdCcuam9pbihbc2VsZi5saW5lX3ByZWZpeF9iZWZvcmUsJ1NlYXJjaAl1cGRhdGVkIHNlYXJjaFRlcm0JeyJzZWFyY2hUZXJtIjoiVGVzdCJ9J10pLAogICAgICAgICAgICAgICAgJ1x0Jy5qb2luKFtzZWxmLmxpbmVfcHJlZml4X2FmdGVyLCdTZWFyY2gJdXBkYXRlZCBzZWFyY2hUZXJtCXsic2VhcmNoVGVybSI6ICJYWFgifSddKSkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">TUVUSVNfSU1BR0U9bWV0aXM6dHJlZXM2Cg==</text>
+        <text encoding="base64">CiAgICAjIGl0ICdlbmNvZGVzIHR5cGVkIGxpdGVyYWxzIHVzaW5nIGNvbXBhY3QgcmVwcmVzZW50YXRpb24nIGRvCiAgICAjICAgZXhwZWN0KHN1YmplY3Quc29scl92YWx1ZV9mb3Jfc3BhcnFsKGZhY2V0LCBTdHViOjpTcGFycWw6OlZhbHVlLmludF83KSkudG8gZXEoJyI3IkknKQogICAgIyBlbmQK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CiAgICAjIGl0ICdlbmNvZGVzIGludGVnZXIgbGl0ZXJhbCB2YWx1ZXMgbW9yZSBjb21wYWN0bHknIGRvCiAgICAjICAgZXhwZWN0KGRlc2NyaWJlZF9jbGFzcy5lbmNvZGUoU3BhcnFsOjpMaXRlcmFsVmFsdWUubmV3KCc0JywgJ2h0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hI2ludGVnZXInKSkpLnRvIGVxKCciNCJJJykKICAgICMgZW5kCgogICAgIyBpdCAnZW5jb2RlcyB0aW1lIGxpdGVyYWwgdmFsdWVzIG1vcmUgY29tcGFjdGx5JyBkbwogICAgIyAgIGV4cGVjdChkZXNjcmliZWRfY2xhc3MuZW5jb2RlKFNwYXJxbDo6TGl0ZXJhbFZhbHVlLm5ldygnMTI6MzAnLCAnaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEjdGltZScpKSkudG8gZXEoJyIxMjozMCJ0JykKICAgICMgZW5kCg==</text>
+        <text encoding="base64">ICAgICMgaXQgJ3VucGFja3MgY29tcGFjdCB0eXBlZCBsaXRlcmFsIHJlcHJlc2VudGF0aW9uJyBkbwogICAgIyAgIGV4cGVjdChzdWJqZWN0LnNwYXJxbF92YWx1ZShmYWNldCwgJyI0ImknKS50b19zcGFycWwpLnRvIGVxKCciNCJeXjxodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSNpbnQ+JykKICAgICMgZW5kCgo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">TUVUSVNfSU1BR0U9bWV0aXM6dHJlZXM2Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgIyBpZiBtYXBwZWRfdHlwZSA9IERBVEFUWVBFX01BUF9JTlZFUlRFRFtzdHJpbmdbLTFdXQogICAgICAjICAgc3RyaW5nLmdzdWIhKC8uJC8sICJeXjwje21hcHBlZF90eXBlfT4iKQogICAgICAjIGVuZAo=</text>
+        <text encoding="base64">CiAgICAjIGl0ICdlbmNvZGVzIGludGVnZXIgbGl0ZXJhbCB2YWx1ZXMgbW9yZSBjb21wYWN0bHknIGRvCiAgICAjICAgZXhwZWN0KGRlc2NyaWJlZF9jbGFzcy5lbmNvZGUoU3BhcnFsOjpMaXRlcmFsVmFsdWUubmV3KCc0JywgJ2h0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hI2ludGVnZXInKSkpLnRvIGVxKCciNCJJJykKICAgICMgZW5kCgogICAgIyBpdCAnZW5jb2RlcyB0aW1lIGxpdGVyYWwgdmFsdWVzIG1vcmUgY29tcGFjdGx5JyBkbwogICAgIyAgIGV4cGVjdChkZXNjcmliZWRfY2xhc3MuZW5jb2RlKFNwYXJxbDo6TGl0ZXJhbFZhbHVlLm5ldygnMTI6MzAnLCAnaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEjdGltZScpKSkudG8gZXEoJyIxMjozMCJ0JykKICAgICMgZW5kCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgIyBlbmQK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgIyBpZiBzcGFycWxfdmFsdWUuaXNfYT8oU3BhcnFsOjpMaXRlcmFsVmFsdWUpIGFuZCBwb3N0Zml4ID0gREFUQVRZUEVfTUFQW3NwYXJxbF92YWx1ZS5kYXRhdHlwZS50b19zXQogICAgICAjICAgc3BhcnFsX3ZhbHVlLnVudHlwZWQudG9fc3BhcnFsICsgcG9zdGZpeAogICAgICAjIGVsc2UK</text>
+        <text encoding="base64">ICAgICAgIyBpZiBtYXBwZWRfdHlwZSA9IERBVEFUWVBFX01BUF9JTlZFUlRFRFtzdHJpbmdbLTFdXQogICAgICAjICAgc3RyaW5nLmdzdWIhKC8uJC8sICJeXjwje21hcHBlZF90eXBlfT4iKQogICAgICAjIGVuZAo=</text>
       </register>
       <register name="7" type="2">
-        <text>DISQ-5053: Accept typed links log lines</text>
+        <text encoding="base64">ICAgICAgIyBlbmQK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CiAgICBpdCAnc2hvdWxkIGNyZWF0ZSBhIENhbmRpZGF0ZUZhY2V0VmFsdWUgd2l0aCBzZWxmX2NvdW50JyBkbwogICAgICBsYWJlbCwgdmFsdWUgPSBzdWJqZWN0LmdldF9sYWJlbF9hbmRfc3BhcnFsX3ZhbHVlKCciIkYiIicpCiAgICAgIGNmdiA9IHN1YmplY3QuY3JlYXRlX2NhbmRpZGF0ZV9mYWNldF92YWx1ZShmYWNldCwgZmFsc2UsIHN1YmplY3Quc3BhcnFsX3ZhbHVlKGZhY2V0LCB2YWx1ZSksIDUsIDQsIGxhYmVsKQogICAgICBleHBlY3QoY2Z2KS50byBiZV9hIENhbmRpZGF0ZUZhY2V0VmFsdWUKICAgICAgZXhwZWN0KGNmdi5zZWxmX2NvdW50KS50byBlcSg0KQogICAgZW5kCg==</text>
+        <text encoding="base64">ICAgICAgIyBpZiBzcGFycWxfdmFsdWUuaXNfYT8oU3BhcnFsOjpMaXRlcmFsVmFsdWUpIGFuZCBwb3N0Zml4ID0gREFUQVRZUEVfTUFQW3NwYXJxbF92YWx1ZS5kYXRhdHlwZS50b19zXQogICAgICAjICAgc3BhcnFsX3ZhbHVlLnVudHlwZWQudG9fc3BhcnFsICsgcG9zdGZpeAogICAgICAjIGVsc2UK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CiAgICBjb250ZXh0ICd3aXRoIHNlbGZfY291bnQnIGRvCiAgICAgIGxldCg6Y2Z2KSB7IENhbmRpZGF0ZUZhY2V0VmFsdWUubmV3KFN0dWI6OlNwYXJxbDo6VmFsdWUuaG9tb19zYXBpZW5zLCAxMjM0LCAnbGFiZWwnLCBzZWxmX2NvdW50OiAxMCkgfQoKICAgICAgaXQgJ2hhcyBzZWxmX2NvdW50JyBkbwogICAgICAgIGV4cGVjdChjZnYuYXNfanNvblsnc2VsZl9jb3VudCddKS50byBlcSgxMCkKICAgICAgZW5kCgogICAgICBpdCAnaGFzIGxlYWYnIGRvCiAgICAgICAgZXhwZWN0KGNmdi5hc19qc29uWydsZWFmJ10pLnRvIGJlIGZhbHNlCiAgICAgIGVuZAoKICAgIGVuZAo=</text>
+        <text>DISQ-5053: Accept typed links log lines</text>
       </register>
       <register name=":" type="4">
-        <text>562</text>
+        <text>371</text>
       </register>
     </registers>
   </component>
