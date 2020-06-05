@@ -11,6 +11,7 @@
         <entry>unique</entry>
         <entry>do_request</entry>
         <entry>relation_types</entry>
+        <entry>add_instances</entry>
       </history-search>
       <history-cmd>
         <entry>132</entry>
@@ -87,10 +88,6 @@
         <mark key="^" line="506" column="45" />
         <mark key="." line="523" column="117" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/solr_index.rb" timestamp="1591101039289">
-        <mark key="'" line="434" column="4" />
-        <mark key="[" line="302" column="90" />
-      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/lib/tools/authorization_migrations.rb" timestamp="1591261182850">
         <mark key="'" line="3" column="9" />
         <mark key="[" line="15" column="0" />
@@ -120,9 +117,14 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/facet.rb" timestamp="1591348980509">
         <mark key="[" line="127" column="22" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/data/source_data/geo_mapping/observations_nuts3.csv" timestamp="1591110874502">
-        <mark key="[" line="1" column="22" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/instance_list_service_spec.rb" timestamp="1591362681578">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="1775" column="63" />
+        <mark key="]" line="1775" column="58" />
+        <mark key="." line="1775" column="57" />
+        <mark key="^" line="1775" column="58" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/instance_list_spec.rb" timestamp="1591362201666" />
       <file name="$USER_HOME$/Disqover/disqover-backend/.docker/ci/env" timestamp="1591122696953">
         <mark key="[" line="7" column="109" />
         <mark key="]" line="23" column="0" />
@@ -141,7 +143,7 @@
         <mark key="^" line="240" column="86" />
         <mark key="." line="346" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/instance_list_service.rb" timestamp="1591361281711">
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/instance_list_service.rb" timestamp="1591362183330">
         <mark key="[" line="233" column="115" />
         <mark key="]" line="233" column="7" />
         <mark key="." line="233" column="6" />
@@ -152,8 +154,8 @@
         <mark key="]" line="14" column="0" />
         <mark key="." line="14" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1591349374986">
-        <mark key="[" line="0" column="0" />
+      <file name="/Dummy.txt" timestamp="1591362806852">
+        <mark key="[" line="0" column="44" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
@@ -162,6 +164,13 @@
         <mark key="]" line="82" column="25" />
         <mark key="." line="82" column="24" />
         <mark key="^" line="82" column="25" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/controllers/instances_controller_spec.rb" timestamp="1591362762469">
+        <mark key="'" line="20" column="18" />
+        <mark key="[" line="705" column="107" />
+        <mark key="]" line="677" column="4" />
+        <mark key="^" line="677" column="4" />
+        <mark key="." line="677" column="3" />
       </file>
     </filemarks>
     <jumps>
@@ -185,45 +194,47 @@
       <jump line="331" column="28" filename="$USER_HOME$/Disqover/disqover-backend/spec/lib/tools/migrate_user_views_spec.rb" />
       <jump line="5" column="15" filename="$USER_HOME$/Disqover/disqover-backend/disqover-docker/docker-compose/docker-compose-migrations.yml" />
       <jump line="3" column="9" filename="$USER_HOME$/Disqover/disqover-backend/lib/tools/authorization_migrations.rb" />
+      <jump line="0" column="0" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/instance_list_service_spec.rb" />
+      <jump line="20" column="18" filename="$USER_HOME$/Disqover/disqover-backend/spec/controllers/instances_controller_spec.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="8">
-        <text>, collection already contains #{current_count}</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgIGV4cGVjdChpbC5pbnN0YW5jZV9saXN0X2luc3RhbmNlcy5jb3VudCkudG8oZXEoMSkpICMgc3RpbGwgMSwgaXQncyBhbiB1cGRhdGUKICAgICAgICAgIGluc3QgPSBpbC5pbnN0YW5jZV9saXN0X2luc3RhbmNlcy5maXJzdAogICAgICAgICAgZXhwZWN0KGluc3QudXJpKS50byhlcSgiaHR0cDovL2RhdGEua2FzYWJpLmNvbS9kYXRhc2V0L2NoZW1ibC1yZGYvYXNzYXkvYTg4MTUzIikpCiAgICAgICAgICBleHBlY3QoaW5zdC5sYWJlbCkudG8oZXEoJ0luc3RhbmNlIGxhYmVsJykpCiAgICAgICAgICBleHBlY3QoaW5zdC5jdHMpLnRvKG1hdGNoX2FycmF5KFtdKSkKICAgICAgICAgIGV4cGVjdChpbnN0LmFkZGVkX2J5KS50byhlcSh1KSkKICAgICAgICAgIGV4cGVjdChpbnN0LmFkZGVkX29uKS5ub3RfdG8oYmVfbmlsKQogICAgICAgICAgZXhwZWN0KGluc3QucmVtb3ZlZF9ieSkudG8oYmVfbmlsKQogICAgICAgICAgZXhwZWN0KGluc3QucmVtb3ZlZF9vbikudG8oYmVfbmlsKQo=</text>
       </register>
       <register name="-" type="4">
         <text>}</text>
       </register>
       <register name="/" type="4">
-        <text>relation_types</text>
+        <text>add_instances</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICByYWlzZSBBcmd1bWVudEVycm9yLCAiVG9vIG1hbnkgcmVzdWx0cyB0byBhZGQgdG8gY29sbGVjdGlvbiAoPiAje0lubGluZUluc3RhbmNlc0ZvckxpbmtzU29sclZpc2l0b3IuZGVmYXVsdF9tYXhfaW5saW5lfSkiCg==</text>
+        <text encoding="base64">ICAgIGl0ICdoYW5kbGVzIGxpc3RzIG9mIERhdGFFbnRyeSB0b28nIGRvCiAgICAgIFVzZXIubWFuYWdlZCgndXNlckB0ZXN0Lm9yZycpIGRvIHx1fAogICAgICAgIEluc3RhbmNlTGlzdC5tYW5hZ2VkKCd0ZXN0JywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uOiAncGVyc29uYWwgdXNlcicsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNyZWF0b3JfaWQ6IHUuaWQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNoYXJpbmdfdHlwZTogSW5zdGFuY2VMaXN0OjpTSEFSSU5HX1RZUEVfUEVSU09OQUwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KSBkbyB8aWx8CiAgICAgICAgICBpbC5yZWxvYWQKICAgICAgICAgIEluc3RhbmNlTGlzdFNlcnZpY2UubmV3KEluc3RhbmNlc1NlcnZpY2UubmV3KS5hZGRfaW5zdGFuY2VzX3RvX2xpc3QoaWwuaW5zdGFuY2VfbGlzdF9ndWlkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbU3R1Yjo6RGF0YUVudHJ5LnN0dWJfM10sIHUpCiAgICAgICAgICBleHBlY3QoaWwuaW5zdGFuY2VfbGlzdF9pbnN0YW5jZXMuY291bnQpLnRvKGVxKDEpKSAjIHN0aWxsIDEsIGl0J3MgYW4gdXBkYXRlCiAgICAgICAgICBpbnN0ID0gaWwuaW5zdGFuY2VfbGlzdF9pbnN0YW5jZXMuZmlyc3QKICAgICAgICAgIGV4cGVjdChpbnN0LnVyaSkudG8oZXEoImh0dHA6Ly9kYXRhLmthc2FiaS5jb20vZGF0YXNldC9jaGVtYmwtcmRmL2Fzc2F5L2E4ODE1MyIpKQogICAgICAgICAgZXhwZWN0KGluc3QubGFiZWwpLnRvKGVxKCdJbnN0YW5jZSBsYWJlbCcpKQogICAgICAgICAgZXhwZWN0KGluc3QuY3RzKS50byhtYXRjaF9hcnJheShbXSkpCiAgICAgICAgICBleHBlY3QoaW5zdC5hZGRlZF9ieSkudG8oZXEodSkpCiAgICAgICAgICBleHBlY3QoaW5zdC5hZGRlZF9vbikubm90X3RvKGJlX25pbCkKICAgICAgICAgIGV4cGVjdChpbnN0LnJlbW92ZWRfYnkpLnRvKGJlX25pbCkKICAgICAgICAgIGV4cGVjdChpbnN0LnJlbW92ZWRfb24pLnRvKGJlX25pbCkKICAgICAgICBlbmQKICAgICAgZW5kCiAgICBlbmQK</text>
       </register>
-      <register name="1" type="8">
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgIGV4cGVjdChpbC5pbnN0YW5jZV9saXN0X2luc3RhbmNlcy5jb3VudCkudG8oZXEoMSkpICMgc3RpbGwgMSwgaXQncyBhbiB1cGRhdGUKICAgICAgICAgIGluc3QgPSBpbC5pbnN0YW5jZV9saXN0X2luc3RhbmNlcy5maXJzdAogICAgICAgICAgZXhwZWN0KGluc3QudXJpKS50byhlcSgiaHR0cDovL2RhdGEua2FzYWJpLmNvbS9kYXRhc2V0L2NoZW1ibC1yZGYvYXNzYXkvYTg4MTUzIikpCiAgICAgICAgICBleHBlY3QoaW5zdC5sYWJlbCkudG8oZXEoJ0luc3RhbmNlIGxhYmVsJykpCiAgICAgICAgICBleHBlY3QoaW5zdC5jdHMpLnRvKG1hdGNoX2FycmF5KFtdKSkKICAgICAgICAgIGV4cGVjdChpbnN0LmFkZGVkX2J5KS50byhlcSh1KSkKICAgICAgICAgIGV4cGVjdChpbnN0LmFkZGVkX29uKS5ub3RfdG8oYmVfbmlsKQogICAgICAgICAgZXhwZWN0KGluc3QucmVtb3ZlZF9ieSkudG8oYmVfbmlsKQogICAgICAgICAgZXhwZWN0KGluc3QucmVtb3ZlZF9vbikudG8oYmVfbmlsKQo=</text>
+      </register>
+      <register name="2" type="8">
         <text>, collection already contains #{current_count}</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgI1sgRmVkZXJhdGlvbkZpbHRlckNvbXBvbmVudC5uZXcobG9jYWxfZmlsdGVyOiAgbm9kZSwgcmVtb3RlX2ZpbHRlcjogZmFsc2UpIF0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgI1sgRmVkZXJhdGlvbkZpbHRlckNvbXBvbmVudC5uZXcobG9jYWxfZmlsdGVyOiAgbm9kZSwgcmVtb3RlX2ZpbHRlcjogZmFsc2UpIF0K</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIG5lZ2F0aXZlX3BhcnQgPSBGaWx0ZXJJbmZvU2VydmljZS5vbmx5X3JlbW90ZV9hbmRfbG9jYWwobm9kZSkK</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgRmVkZXJhdGlvbkZpbHRlckNvbXBvbmVudC5uZXcobG9jYWxfZmlsdGVyOiBub2RlLCByZW1vdGVfZmlsdGVyOiBub2RlLCBub19sb2NhbDogdHJ1ZSldCg==</text>
+        <text encoding="base64">ICAgIG5lZ2F0aXZlX3BhcnQgPSBGaWx0ZXJJbmZvU2VydmljZS5vbmx5X3JlbW90ZV9hbmRfbG9jYWwobm9kZSkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGlkcyA9IG5vZGUuaWRzCiAgICBpZiBpZHMubmlsPyB8fCBpZHMuZW1wdHk/CiAgICAgIHJldHVybiBbXQogICAgZW5kCiAgICBpbnN0YW5jZXNfbm9kZSA9IEZpbHRlci5pbnN0YW5jZXMoaWRzOiBpZHMpCg==</text>
+        <text encoding="base64">ICAgICAgRmVkZXJhdGlvbkZpbHRlckNvbXBvbmVudC5uZXcobG9jYWxfZmlsdGVyOiBub2RlLCByZW1vdGVfZmlsdGVyOiBub2RlLCBub19sb2NhbDogdHJ1ZSldCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGlkcyA9IG5vZGUuaWRzCiAgICBpZiBpZHMubmlsPyB8fCBpZHMuZW1wdHk/CiAgICAgIHJldHVybiBbXQogICAgZW5kCiAgICBpbnN0YW5jZXNfbm9kZSA9IEZpbHRlci5pbnN0YW5jZXMoaWRzOiBpZHMpCg==</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -235,9 +246,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>relation_types</last-search>
+      <last-search>add_instances</last-search>
       <last-offset />
-      <last-pattern>relation_types</last-pattern>
+      <last-pattern>add_instances</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
