@@ -96,17 +96,21 @@
         <mark key="[" line="15" column="0" />
         <mark key="]" line="16" column="36" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/instance_list.rb" timestamp="1591360716229">
+        <mark key="[" line="69" column="0" />
+        <mark key="]" line="69" column="65" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/lib/tools/migrate_user_views.rb" timestamp="1591261185110">
         <mark key="[" line="151" column="19" />
         <mark key="]" line="186" column="23" />
         <mark key="." line="186" column="22" />
         <mark key="^" line="186" column="23" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/instances_controller.rb" timestamp="1591359384725">
-        <mark key="[" line="174" column="65" />
-        <mark key="]" line="174" column="65" />
-        <mark key="^" line="174" column="12" />
-        <mark key="." line="174" column="12" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/instances_controller.rb" timestamp="1591361258690">
+        <mark key="[" line="205" column="0" />
+        <mark key="]" line="205" column="129" />
+        <mark key="^" line="204" column="77" />
+        <mark key="." line="204" column="76" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/env" timestamp="1591173798151">
         <mark key="[" line="10" column="0" />
@@ -137,6 +141,12 @@
         <mark key="^" line="240" column="86" />
         <mark key="." line="346" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/instance_list_service.rb" timestamp="1591361281711">
+        <mark key="[" line="233" column="115" />
+        <mark key="]" line="233" column="7" />
+        <mark key="." line="233" column="6" />
+        <mark key="^" line="233" column="7" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/codec/compact_sparql_codec_spec.rb" timestamp="1591173774596">
         <mark key="[" line="14" column="0" />
         <mark key="]" line="14" column="0" />
@@ -152,11 +162,6 @@
         <mark key="]" line="82" column="25" />
         <mark key="." line="82" column="24" />
         <mark key="^" line="82" column="25" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/candidate_facet_value.rb" timestamp="1591099568538">
-        <mark key="[" line="130" column="0" />
-        <mark key="]" line="130" column="0" />
-        <mark key="." line="130" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -185,7 +190,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="8">
-        <text>InlineInstancesForLinksSolrVisitor.default_max_inline</text>
+        <text>, collection already contains #{current_count}</text>
       </register>
       <register name="-" type="4">
         <text>}</text>
@@ -193,35 +198,35 @@
       <register name="/" type="4">
         <text>relation_types</text>
       </register>
-      <register name="0" type="8">
-        <text>InlineInstancesForLinksSolrVisitor.default_max_inline</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICByYWlzZSBBcmd1bWVudEVycm9yLCAiVG9vIG1hbnkgcmVzdWx0cyB0byBhZGQgdG8gY29sbGVjdGlvbiAoPiAje0lubGluZUluc3RhbmNlc0ZvckxpbmtzU29sclZpc2l0b3IuZGVmYXVsdF9tYXhfaW5saW5lfSkiCg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="1" type="8">
+        <text>, collection already contains #{current_count}</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgI1sgRmVkZXJhdGlvbkZpbHRlckNvbXBvbmVudC5uZXcobG9jYWxfZmlsdGVyOiAgbm9kZSwgcmVtb3RlX2ZpbHRlcjogZmFsc2UpIF0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgI1sgRmVkZXJhdGlvbkZpbHRlckNvbXBvbmVudC5uZXcobG9jYWxfZmlsdGVyOiAgbm9kZSwgcmVtb3RlX2ZpbHRlcjogZmFsc2UpIF0K</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIG5lZ2F0aXZlX3BhcnQgPSBGaWx0ZXJJbmZvU2VydmljZS5vbmx5X3JlbW90ZV9hbmRfbG9jYWwobm9kZSkK</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgRmVkZXJhdGlvbkZpbHRlckNvbXBvbmVudC5uZXcobG9jYWxfZmlsdGVyOiBub2RlLCByZW1vdGVfZmlsdGVyOiBub2RlLCBub19sb2NhbDogdHJ1ZSldCg==</text>
+        <text encoding="base64">ICAgIG5lZ2F0aXZlX3BhcnQgPSBGaWx0ZXJJbmZvU2VydmljZS5vbmx5X3JlbW90ZV9hbmRfbG9jYWwobm9kZSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGlkcyA9IG5vZGUuaWRzCiAgICBpZiBpZHMubmlsPyB8fCBpZHMuZW1wdHk/CiAgICAgIHJldHVybiBbXQogICAgZW5kCiAgICBpbnN0YW5jZXNfbm9kZSA9IEZpbHRlci5pbnN0YW5jZXMoaWRzOiBpZHMpCg==</text>
+        <text encoding="base64">ICAgICAgRmVkZXJhdGlvbkZpbHRlckNvbXBvbmVudC5uZXcobG9jYWxfZmlsdGVyOiBub2RlLCByZW1vdGVfZmlsdGVyOiBub2RlLCBub19sb2NhbDogdHJ1ZSldCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGlkcyA9IG5vZGUuaWRzCiAgICBpZiBpZHMubmlsPyB8fCBpZHMuZW1wdHk/CiAgICAgIHJldHVybiBbXQogICAgZW5kCiAgICBpbnN0YW5jZXNfbm9kZSA9IEZpbHRlci5pbnN0YW5jZXMoaWRzOiBpZHMpCg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CiAgICAjIGl0ICdlbmNvZGVzIHR5cGVkIGxpdGVyYWxzIHVzaW5nIGNvbXBhY3QgcmVwcmVzZW50YXRpb24nIGRvCiAgICAjICAgZXhwZWN0KHN1YmplY3Quc29scl92YWx1ZV9mb3Jfc3BhcnFsKGZhY2V0LCBTdHViOjpTcGFycWw6OlZhbHVlLmludF83KSkudG8gZXEoJyI3IkknKQogICAgIyBlbmQK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>371</text>
