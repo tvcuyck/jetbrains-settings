@@ -8,6 +8,7 @@
         <entry>backend_</entry>
         <entry>notifica</entry>
         <entry>solr_field_base()</entry>
+        <entry>NUTS-1</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
@@ -71,13 +72,10 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1591166325538">
+      <file name="/Dummy.txt" timestamp="1591356946139">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/metis/src/metis/metis_settings.py" timestamp="1590748122923">
-        <mark key="[" line="220" column="86" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/tests/integration/test_geo_mapping_spec.py" timestamp="1591112954473" />
       <file name="/Python Console" timestamp="1591165412321">
@@ -98,10 +96,12 @@
         <mark key="^" line="20" column="70" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_disqover_facet_spec.py" timestamp="1591106645076" />
-      <file name="$USER_HOME$/Disqover/metis/tests/spec/expression_parser/functions/test_funcset_geo_spec.py" timestamp="1591177741546">
-        <mark key="]" line="535" column="85" />
-        <mark key="." line="535" column="84" />
-        <mark key="^" line="535" column="85" />
+      <file name="$USER_HOME$/Disqover/metis/tests/spec/expression_parser/functions/test_funcset_geo_spec.py" timestamp="1591356976996">
+        <mark key="'" line="304" column="44" />
+        <mark key="[" line="355" column="119" />
+        <mark key="]" line="365" column="47" />
+        <mark key="." line="365" column="46" />
+        <mark key="^" line="365" column="47" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/tests/spec/actions/components/test_component_action_spec.py" timestamp="1590752875872">
         <mark key="]" line="407" column="34" />
@@ -157,21 +157,22 @@
       <jump line="29" column="0" filename="$USER_HOME$/Disqover/metis/tests/integration/test_chebi_spec.py" />
       <jump line="12" column="40" filename="$USER_HOME$/Disqover/metis/tests/integration/incremental-trivial.yml" />
       <jump line="976" column="80" filename="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_disqover_facet_spec.py" />
+      <jump line="302" column="44" filename="$USER_HOME$/Disqover/metis/tests/spec/expression_parser/functions/test_funcset_geo_spec.py" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlc3VsdCA9IE5vbmUK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICcibHZsXzBfaWQiOiAiaHR0cDovL25zLm9udG9mb3JjZS5jb20vbWFwcy90b3BsZXZlbC9FVSIsICJsdmxfMF9sYmwiOiAiRXVyb3BlIn0nXX0K</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">dGEuZXVyb3BhLmV1L251dHMvY29kZS9CRTE+J30sIA==</text>
       </register>
       <register name="/" type="4">
-        <text>solr_field_base()</text>
+        <text>NUTS-1</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">CiAgICAgICAgd2l0aCBjb250ZXh0KCdpbnZhbGlkIGlucHV0Jyk6CiAgICAgICAgICAgIHdpdGggaXQoJ3JhaXNlcyBmb3IgZW1wdHkgc3RyaW5nJyk6CiAgICAgICAgICAgICAgICBpbnB1dF8gPSB7J251dHNfM19pZCc6IFsnJ119CiAgICAgICAgICAgICAgICBlcnJvcl8gPSBQYXJzZXJFeGNlcHRpb24KICAgICAgICAgICAgICAgIHNlbGYuZXhwcmVzc2lvblRlc3Rlci5jaGVja19lcnJvcl90aHJvd24oaW5wdXRfLCBlcnJvcl8pCgogICAgICAgICAgICB3aXRoIGl0KCdyYWlzZXMgZm9yIHdyb25nIGxlbmd0aCcpOgogICAgICAgICAgICAgICAgaW5wdXRfID0geydudXRzXzNfaWQnOiBbJ1VLJ119CiAgICAgICAgICAgICAgICBlcnJvcl8gPSBQYXJzZXJFeGNlcHRpb24KICAgICAgICAgICAgICAgIHNlbGYuZXhwcmVzc2lvblRlc3Rlci5jaGVja19lcnJvcl90aHJvd24oaW5wdXRfLCBlcnJvcl8pCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICcibHZsXzBfaWQiOiAiaHR0cDovL25zLm9udG9mb3JjZS5jb20vbWFwcy90b3BsZXZlbC9FVSIsICJsdmxfMF9sYmwiOiAiRXVyb3BlIn0nXX0K</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgIHJlc3VsdCA9IE5vbmUK</text>
@@ -207,9 +208,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>solr_field_base()</last-search>
+      <last-search>NUTS-1</last-search>
       <last-offset />
-      <last-pattern>solr_field_base()</last-pattern>
+      <last-pattern>NUTS-1</last-pattern>
       <last-replace>solr_field_base</last-replace>
       <last-substitute>solr_field_base()</last-substitute>
       <last-dir>1</last-dir>
