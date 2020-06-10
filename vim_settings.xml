@@ -67,19 +67,27 @@
       <shortcut-conflict owner="vim">
         <text>ctrl pressed Y</text>
       </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed T</text>
+      </shortcut-conflict>
     </shortcut-conflicts>
   </component>
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1591432491543">
+      <file name="/Dummy.txt" timestamp="1591794435612">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/tests/integration/test_geo_mapping_spec.py" timestamp="1591112954473" />
       <file name="/Python Console" timestamp="1591165412321">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/documentation/source/common/disqover_settings/themis_settings.inc" timestamp="1591793381637">
+        <mark key="[" line="16" column="29" />
+        <mark key="]" line="14" column="4" />
+        <mark key="." line="14" column="4" />
+        <mark key="^" line="2" column="0" />
       </file>
       <file name="/fragment.py" timestamp="1591082644234">
         <mark key="[" line="0" column="0" />
@@ -89,13 +97,19 @@
       <file name="$USER_HOME$/Disqover/metis/tests/integration/test_incremental_trivial_spec.py" timestamp="1590764793050">
         <mark key="[" line="0" column="79" />
       </file>
+      <file name="$USER_HOME$/Disqover/documentation/source/common/disqover_settings/generated_metis_settings.inc" timestamp="1591792727179">
+        <mark key="[" line="55" column="0" />
+        <mark key="]" line="55" column="91" />
+      </file>
       <file name="$USER_HOME$/Disqover/test_pipelines/birds/pipeline_federated.yml" timestamp="1591079055828">
         <mark key="[" line="1" column="27" />
         <mark key="]" line="20" column="70" />
         <mark key="." line="20" column="69" />
         <mark key="^" line="20" column="70" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_disqover_facet_spec.py" timestamp="1591106645076" />
+      <file name="$USER_HOME$/Disqover/documentation/source/common/disqover_settings/generated_backend_settings.inc" timestamp="1591792718500">
+        <mark key="[" line="102" column="123" />
+      </file>
       <file name="$USER_HOME$/Disqover/metis/tests/spec/expression_parser/functions/test_funcset_geo_spec.py" timestamp="1591356976996">
         <mark key="'" line="304" column="44" />
         <mark key="[" line="355" column="119" />
@@ -112,11 +126,34 @@
         <mark key="[" line="481" column="0" />
         <mark key="]" line="490" column="81" />
       </file>
+      <file name="$USER_HOME$/Disqover/documentation/source/common/container_overview.inc" timestamp="1591791368680">
+        <mark key="[" line="89" column="0" />
+        <mark key="]" line="89" column="0" />
+        <mark key="^" line="256" column="57" />
+        <mark key="." line="89" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/documentation/source/sysadmin-manual/conf.py" timestamp="1591793349608">
+        <mark key="[" line="271" column="46" />
+        <mark key="]" line="271" column="8" />
+        <mark key="." line="271" column="7" />
+        <mark key="^" line="271" column="8" />
+      </file>
       <file name="$USER_HOME$/Disqover/metis/src/metis/actions/components/component_action.py" timestamp="1590750936398">
         <mark key="[" line="429" column="0" />
         <mark key="]" line="429" column="0" />
         <mark key="^" line="449" column="48" />
         <mark key="." line="429" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/documentation/source/sysadmin-manual/settings.rst" timestamp="1591793876732">
+        <mark key="[" line="14" column="33" />
+        <mark key="]" line="20" column="69" />
+        <mark key="." line="17" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/documentation/source/common/disqover_settings/iris_settings.inc" timestamp="1591793953648">
+        <mark key="[" line="7" column="47" />
+        <mark key="]" line="23" column="0" />
+        <mark key="." line="21" column="18" />
+        <mark key="^" line="21" column="19" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/src/metis/pipeline.py" timestamp="1590750884817">
         <mark key="[" line="724" column="0" />
@@ -163,43 +200,43 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICcibHZsXzBfaWQiOiAiaHR0cDovL25zLm9udG9mb3JjZS5jb20vbWFwcy90b3BsZXZlbC9FVSIsICJsdmxfMF9sYmwiOiAiRXVyb3BlIn0nXX0K</text>
+        <text encoding="base64">Ci4uIF9tZXRpc19zZXR0aW5nc19yZWZlcmVuY2VfdGFnOgoKLi4gaW5jbHVkZTo6IC4uL2NvbW1vbi9kaXNxb3Zlcl9zZXR0aW5ncy9nZW5lcmF0ZWRfbWV0aXNfc2V0dGluZ3MuaW5jCg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">dGEuZXVyb3BhLmV1L251dHMvY29kZS9CRTE+J30sIA==</text>
+        <text>virtuoso</text>
       </register>
       <register name="/" type="4">
         <text>NUTS-1</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICcibHZsXzBfaWQiOiAiaHR0cDovL25zLm9udG9mb3JjZS5jb20vbWFwcy90b3BsZXZlbC9FVSIsICJsdmxfMF9sYmwiOiAiRXVyb3BlIn0nXX0K</text>
+        <text encoding="base64">Ci4uIF9tZXRpc19zZXR0aW5nc19yZWZlcmVuY2VfdGFnOgoKLi4gaW5jbHVkZTo6IC4uL2NvbW1vbi9kaXNxb3Zlcl9zZXR0aW5ncy9nZW5lcmF0ZWRfbWV0aXNfc2V0dGluZ3MuaW5jCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlc3VsdCA9IE5vbmUK</text>
+        <text encoding="base64">CjpvcHQ6YE1FVElTX01BWF9DSFVOS19SRUNPUkRfQ09VTlRgCiAgVGhlIG1heGltdW0gbnVtYmVyIG9mIHJlY29yZHMgdGhhdCBNZXRpcyB3cml0ZXMgdG8gYSBzaW5nbGUgY2h1bmsuCiAgVGhlIGRlZmF1bHQgdmFsdWUgaXMgYGA1MDAwMGBgLgo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICBUaGUgbWF4aW11bSBudW1iZXIgb2YgcmV0cmllcyAuCg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlc3VsdCA9IE5vbmUK</text>
+      <register name="3" type="8">
+        <text encoding="base64">IHdoZW4gYW4gaHR0cCByZXF1ZXN0</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIG91dCA9IHsnZ2VvJzogWyd7Imx2bF8wX2lkIjogImh0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL21hcHMvdG9wbGV2ZWwvRVUiLCAibHZsXzBfbGJsIjogIkV1cm9wZSIsICcKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICcibHZsXzFfaWQiOiAiaHR0cDovL25zLm9udG9mb3JjZS5jb20vZGF0YXNldHMvY291bnRyaWVzL0dCIiwgImx2bF8xX2xibCI6ICJVbml0ZWQgS2luZ2RvbSIsICcKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICcibHZsXzJfaWQiOiAiaHR0cDovL2RhdGEuZXVyb3BhLmV1L251dHMvY29kZS9VS0MiLCAibHZsXzJfbGJsIjogIk5vcnRoIEVhc3QgKEVuZ2xhbmQpIiwgJwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJyJsdmxfM19pZCI6ICJodHRwOi8vZGF0YS5ldXJvcGEuZXUvbnV0cy9jb2RlL1VLQzEiLCAibHZsXzNfbGJsIjogIlRlZXMgVmFsbGV5IGFuZCBEdXJoYW0iLCAnCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAnImx2bF80X2lkIjogImh0dHA6Ly9kYXRhLmV1cm9wYS5ldS9udXRzL2NvZGUvVUtDMTMiLCAibHZsXzRfbGJsIjogIkRhcmxpbmd0b24ifSddfQo=</text>
+        <text encoding="base64">CjpvcHQ6YElSSVNfTE9HX0xFVkVMYAogIFRoZSBncmFudWxhcml0eSBvZiBsb2cgbWVzc2FnZXMgdGhhdCB0aGUgd2ViIGFwcGxpY2F0aW9uIHdpbGwgb3V0cHV0ICgnSU5GTycsICdXQVJOSU5HJywgJ0RFQlVHJykuCiAgVGhlIGRlZmF1bHQgdmFsdWUgaXMgYGBJTkZPYGAuCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJlc3VsdCA9IE5vbmUKICAgICAgICAgICAgICAgIHNlbGYuZXhwcmVzc2lvblRlc3Rlci5jaGVja19yZXN1bHQoaW5wdXRfLCBvdXQsIHJlc3VsdCkK</text>
+        <text encoding="base64">ICBUaGUgZGVmYXVsdCB2YWx1ZSBpcyBgYHBvc3RncmVzYGAuCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJhaXNlIE1ldGlzRXJyb3IoJ0ludmFsaWQgTlVUUy0xIGlkZW50aWZpZXInKQo=</text>
+        <text encoding="base64">ICBUaGUgbWF4aW11bSBudW1iZXIgb2YgcmVjb3JkcyB0aGF0IE1ldGlzIHdyaXRlcyB0byBhIHNpbmdsZSBjaHVuay4K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJhaXNlIE1ldGlzRXJyb3IoJ0ludmFsaWQgTlVUUy0yIGlkZW50aWZpZXInKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJhaXNlIE1ldGlzRXJyb3IoJ0ludmFsaWQgTlVUUy0zIGlkZW50aWZpZXInKQo=</text>
+        <text encoding="base64">CjpvcHQ6YElSSVNfUE9SVF9FWFRgCiAgVGhlIG1heGltdW0gbnVtYmVyIG9mIHJlY29yZHMgdGhhdCBNZXRpcyB3cml0ZXMgdG8gYSBzaW5nbGUgY2h1bmsuCiAgVGhlIGRlZmF1bHQgdmFsdWUgaXMgYGA1MDAwMGBgLgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJhaXNlIE1ldGlzRXJyb3IoJ0ludmFsaWQgQ09VTlRSWS1JU08tMyBpZGVudGlmaWVyJykK</text>
+        <text encoding="base64">ICBUaGUgZGVmYXVsdCB2YWx1ZSBpcyBgYGlyaXNgYC4K</text>
       </register>
       <register name=":" type="4">
         <text>400</text>
