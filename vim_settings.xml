@@ -12,6 +12,7 @@
         <entry>do_request</entry>
         <entry>relation_types</entry>
         <entry>add_instances</entry>
+        <entry>multiple</entry>
       </history-search>
       <history-cmd>
         <entry>132</entry>
@@ -90,11 +91,11 @@
         <mark key="^" line="20" column="35" />
         <mark key="." line="20" column="34" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/filter/equals_node.rb" timestamp="1592042285613">
-        <mark key="[" line="32" column="0" />
-        <mark key="]" line="32" column="0" />
-        <mark key="." line="32" column="0" />
-        <mark key="^" line="32" column="21" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/controllers/sample_id_controller_spec.rb" timestamp="1592046276675">
+        <mark key="[" line="103" column="7" />
+        <mark key="]" line="234" column="68" />
+        <mark key="^" line="234" column="68" />
+        <mark key="." line="234" column="67" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/filter/in_tree_node_spec.rb" timestamp="1592043310964">
         <mark key="[" line="26" column="84" />
@@ -102,26 +103,27 @@
         <mark key="." line="26" column="42" />
         <mark key="^" line="26" column="43" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/filter.rb" timestamp="1592045555928">
-        <mark key="'" line="306" column="0" />
-        <mark key="[" line="875" column="0" />
-        <mark key="]" line="875" column="0" />
-        <mark key="." line="875" column="0" />
-        <mark key="^" line="873" column="31" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/filter.rb" timestamp="1592046239539">
+        <mark key="'" line="300" column="13" />
+        <mark key="[" line="686" column="102" />
+        <mark key="]" line="687" column="61" />
+        <mark key="." line="687" column="60" />
+        <mark key="^" line="687" column="61" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/filter_info_service_spec.rb" timestamp="1592045618983">
-        <mark key="[" line="1409" column="7" />
-        <mark key="]" line="1468" column="0" />
-        <mark key="^" line="1473" column="71" />
-        <mark key="." line="1468" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/filter_info_service_spec.rb" timestamp="1592045903664">
+        <mark key="[" line="1471" column="71" />
+        <mark key="]" line="1449" column="7" />
+        <mark key="^" line="1449" column="7" />
+        <mark key="." line="1449" column="6" />
       </file>
-      <file name="/Ruby Console" timestamp="1592044671260">
+      <file name="/Ruby Console" timestamp="1592045678848">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/filter/range_node.rb" timestamp="1592038445380">
-        <mark key="[" line="9" column="0" />
-        <mark key="]" line="9" column="78" />
-        <mark key="." line="9" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_data_entry_repository_spec.rb" timestamp="1592046005400">
+        <mark key="[" line="371" column="75" />
+        <mark key="]" line="371" column="74" />
+        <mark key="^" line="371" column="74" />
+        <mark key="." line="371" column="73" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/filter/equals_node_spec.rb" timestamp="1592043598397">
         <mark key="[" line="120" column="104" />
@@ -147,7 +149,7 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/fragment.rb" timestamp="1592044676871">
+      <file name="/fragment.rb" timestamp="1592045812183">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/filter/proximity_node_spec.rb" timestamp="1592043206409">
@@ -159,6 +161,10 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/instances_service_spec.rb" timestamp="1592044713049">
         <mark key="[" line="72" column="0" />
         <mark key="]" line="74" column="11" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/facet_value.rb" timestamp="1592046194587">
+        <mark key="[" line="48" column="0" />
+        <mark key="]" line="48" column="97" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/filter/location_equals_node_spec.rb" timestamp="1592043068101">
         <mark key="[" line="1" column="0" />
@@ -177,10 +183,6 @@
         <mark key="]" line="29" column="22" />
         <mark key="." line="29" column="21" />
         <mark key="^" line="29" column="22" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/controllers/configuration_controller_spec.rb" timestamp="1592041995299">
-        <mark key="[" line="55" column="0" />
-        <mark key="]" line="60" column="7" />
       </file>
     </filemarks>
     <jumps>
@@ -210,48 +212,52 @@
       <jump line="0" column="0" filename="$USER_HOME$/Disqover/disqover-backend/spec/controllers/instances_controller_spec.rb" />
       <jump line="227" column="6" filename="$USER_HOME$/Disqover/disqover-backend/spec/factories/filter.rb" />
       <jump line="306" column="0" filename="$USER_HOME$/Disqover/disqover-backend/spec/factories/filter.rb" />
+      <jump line="299" column="0" filename="$USER_HOME$/Disqover/disqover-backend/spec/factories/filter.rb" />
+      <jump line="302" column="52" filename="$USER_HOME$/Disqover/disqover-backend/spec/factories/filter.rb" />
+      <jump line="966" column="0" filename="$USER_HOME$/Disqover/disqover-backend/spec/factories/filter.rb" />
+      <jump line="300" column="13" filename="$USER_HOME$/Disqover/disqover-backend/spec/factories/filter.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgZXhwZWN0KGRlc2NyaWJlZF9jbGFzcy5ub19yZW1vdGU/KFN0dWI6OkZpbHRlci5yb3V0ZV9vZl9hZG1pbmlzdHJhdGlvbl9vcmFsX25vZGUpKS50byBlcShmYWxzZSkK</text>
+        <text encoding="base64">ICAgICAgZmFjZXRfdmFsdWVzIDw8ICdDcmltZScKICAgICAgZmFjZXRfdmFsdWVzIDw8ICdDb21lZHknCg==</text>
       </register>
       <register name="-" type="4">
         <text>}</text>
       </register>
       <register name="/" type="4">
-        <text>add_instances</text>
+        <text>multiple</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgZXhwZWN0KGRlc2NyaWJlZF9jbGFzcy5ub19yZW1vdGU/KFN0dWI6OkZpbHRlci5nZW5yZV9ub2RlKCdBY3Rpb24nKSkpLnRvIGVxKHRydWUpCg==</text>
+        <text encoding="base64">ICAgICAgZmFjZXRfdmFsdWVzIDw8IDo6RmFjZXRWYWx1ZS5uZXcobmlsLCBTdHViOjpGYWNldC5vcmdhbmlzbSwgOjpTcGFycWw6OlN0cmluZ1ZhbHVlLm5ldygiQWN0aW9uIikpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgZXhwZWN0KGRlc2NyaWJlZF9jbGFzcy5ub19yZW1vdGU/KFN0dWI6OkZpbHRlci5yb3V0ZV9vZl9hZG1pbmlzdHJhdGlvbl9vcmFsX25vZGUpKS50byBlcShmYWxzZSkK</text>
+        <text encoding="base64">ICAgICAgZmFjZXRfdmFsdWVzIDw8ICdDcmltZScKICAgICAgZmFjZXRfdmFsdWVzIDw8ICdDb21lZHknCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgICAgZXhwZWN0KGRlc2NyaWJlZF9jbGFzcy5ub19yZW1vdGU/KFN0dWI6OkZpbHRlci50YXJnZXRfZXF1YWxzX25vZGUpKS50byBlcShmYWxzZSkKICAgICAgZXhwZWN0KGRlc2NyaWJlZF9jbGFzcy5ub19yZW1vdGU/KFN0dWI6OkZpbHRlci5nZW5yZV9ub2RlKCdBY3Rpb24nKSkpLnRvIGVxKHRydWUpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGJlZm9yZXsK</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgbGV0ICg6ZmlsdGVyXzMpIHsgU3R1Yjo6RmlsdGVyLnR5cGVfZHJ1Z19hbmRfcm91dGVfb2ZfYWRtaW5pc3RyYXRpb25fb3JhbF9ub2RlfQo=</text>
+        <text encoding="base64">CiAgICBiZWZvcmUgZG8KICAgICAgZ3JhcGhfdXJpID0gU3R1Yjo6Q29uZmlndXJhdGlvbkdyYXBocy5tZXRpcwogICAgICBhbGxvd19hbnlfaW5zdGFuY2Vfb2YoQ29uZmlndXJhdGlvbkdyYXBoU2VydmljZSkudG8gcmVjZWl2ZSg6Z3JhcGhfZm9yX3VzZXIpLmFuZF9yZXR1cm4oZ3JhcGhfdXJpKQogICAgICBhbGxvdyhDb2xsZWN0aW9uU2VydmljZSkudG8gcmVjZWl2ZSg6aW5zdGFuY2UpLmFuZF9yZXR1cm4oQ29sbGVjdGlvblNlcnZpY2UubmV3KGdyYXBoX3VyaTogZ3JhcGhfdXJpKSkKICAgIGVuZAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgbGV0ICg6ZmlsdGVyXzEpIHsgU3R1Yjo6RmlsdGVyLmxpbmtlZF90b19hbnlfZHJ1Z19ub2RlfQogICAgICBsZXQgKDpmaWx0ZXJfMikgeyBTdHViOjpGaWx0ZXIudHlwZV9kcnVnX2FuZF9yb3V0ZV9vZl9hZG1pbmlzdHJhdGlvbl9vcmFsX25vZGV9Cg==</text>
+        <text encoding="base64">ICAgICAgZXhwZWN0KGRlc2NyaWJlZF9jbGFzcy5ub19yZW1vdGU/KFN0dWI6OkZpbHRlci5yb3V0ZV9vZl9hZG1pbmlzdHJhdGlvbl9vcmFsX25vZGUpKS50byBlcShmYWxzZSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIAogICAgZGVmIHNlbGYubGlua2VkX3RvX2FueV9sb2NhdGlvbl9ub2RlCiAgICAgIEYubGlua2VkKHR5cGVfbG9jYXRpb25fbm9kZSkKICAgIGVuZAo=</text>
+        <text encoding="base64">ICAgIGJlZm9yZXsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGVuZAo=</text>
+        <text encoding="base64">ICAgICAgbGV0ICg6ZmlsdGVyXzMpIHsgU3R1Yjo6RmlsdGVyLnR5cGVfZHJ1Z19hbmRfcm91dGVfb2ZfYWRtaW5pc3RyYXRpb25fb3JhbF9ub2RlfQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGRlZiBzZWxmLnR5cGVfZHJ1Z19hbmRfcm91dGVfb2ZfYWRtaW5pc3RyYXRpb25fb3JhbF9ub2RlCg==</text>
+        <text encoding="base64">ICAgICAgbGV0ICg6ZmlsdGVyXzEpIHsgU3R1Yjo6RmlsdGVyLmxpbmtlZF90b19hbnlfZHJ1Z19ub2RlfQogICAgICBsZXQgKDpmaWx0ZXJfMikgeyBTdHViOjpGaWx0ZXIudHlwZV9kcnVnX2FuZF9yb3V0ZV9vZl9hZG1pbmlzdHJhdGlvbl9vcmFsX25vZGV9Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -260,9 +266,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>add_instances</last-search>
+      <last-search>multiple</last-search>
       <last-offset />
-      <last-pattern>add_instances</last-pattern>
+      <last-pattern>multiple</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
