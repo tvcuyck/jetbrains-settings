@@ -102,12 +102,18 @@
         <mark key="." line="26" column="42" />
         <mark key="^" line="26" column="43" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/filter.rb" timestamp="1592044370501">
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/filter.rb" timestamp="1592045555928">
         <mark key="'" line="306" column="0" />
         <mark key="[" line="875" column="0" />
         <mark key="]" line="875" column="0" />
         <mark key="." line="875" column="0" />
         <mark key="^" line="873" column="31" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/filter_info_service_spec.rb" timestamp="1592045618983">
+        <mark key="[" line="1409" column="7" />
+        <mark key="]" line="1468" column="0" />
+        <mark key="^" line="1473" column="71" />
+        <mark key="." line="1468" column="0" />
       </file>
       <file name="/Ruby Console" timestamp="1592044671260">
         <mark key="[" line="0" column="0" />
@@ -153,11 +159,6 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/instances_service_spec.rb" timestamp="1592044713049">
         <mark key="[" line="72" column="0" />
         <mark key="]" line="74" column="11" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/filter/proximity_node.rb" timestamp="1592038441954">
-        <mark key="[" line="21" column="0" />
-        <mark key="]" line="21" column="78" />
-        <mark key="." line="21" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/filter/location_equals_node_spec.rb" timestamp="1592043068101">
         <mark key="[" line="1" column="0" />
@@ -214,7 +215,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgICAgZXhwZWN0KGRlc2NyaWJlZF9jbGFzcy5ub19yZW1vdGU/KFN0dWI6OkZpbHRlci5yb3V0ZV9vZl9hZG1pbmlzdHJhdGlvbl9vcmFsX25vZGUpKS50byBlcShmYWxzZSkK</text>
       </register>
       <register name="-" type="4">
         <text>}</text>
@@ -223,34 +224,34 @@
         <text>add_instances</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgIGJlZm9yZXsKICAgICAgICAgICAgU3R1Yjo6RmVkZXJhdGlvblNlcnZpY2Uuc3R1Yl9mZWRlcmF0aW9uX2NvbmZpZwogICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgZXhwZWN0KGRlc2NyaWJlZF9jbGFzcy5ub19yZW1vdGU/KFN0dWI6OkZpbHRlci5nZW5yZV9ub2RlKCdBY3Rpb24nKSkpLnRvIGVxKHRydWUpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIH0K</text>
+        <text encoding="base64">ICAgICAgZXhwZWN0KGRlc2NyaWJlZF9jbGFzcy5ub19yZW1vdGU/KFN0dWI6OkZpbHRlci5yb3V0ZV9vZl9hZG1pbmlzdHJhdGlvbl9vcmFsX25vZGUpKS50byBlcShmYWxzZSkK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGJlZm9yZXsK</text>
+        <text encoding="base64">ICAgIH0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgbGV0ICg6ZmlsdGVyXzMpIHsgU3R1Yjo6RmlsdGVyLnR5cGVfZHJ1Z19hbmRfcm91dGVfb2ZfYWRtaW5pc3RyYXRpb25fb3JhbF9ub2RlfQo=</text>
+        <text encoding="base64">ICAgIGJlZm9yZXsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgbGV0ICg6ZmlsdGVyXzEpIHsgU3R1Yjo6RmlsdGVyLmxpbmtlZF90b19hbnlfZHJ1Z19ub2RlfQogICAgICBsZXQgKDpmaWx0ZXJfMikgeyBTdHViOjpGaWx0ZXIudHlwZV9kcnVnX2FuZF9yb3V0ZV9vZl9hZG1pbmlzdHJhdGlvbl9vcmFsX25vZGV9Cg==</text>
+        <text encoding="base64">ICAgICAgbGV0ICg6ZmlsdGVyXzMpIHsgU3R1Yjo6RmlsdGVyLnR5cGVfZHJ1Z19hbmRfcm91dGVfb2ZfYWRtaW5pc3RyYXRpb25fb3JhbF9ub2RlfQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgbGV0ICg6ZmlsdGVyXzEpIHsgU3R1Yjo6RmlsdGVyLmxpbmtlZF90b19hbnlfZHJ1Z19ub2RlfQogICAgICBsZXQgKDpmaWx0ZXJfMikgeyBTdHViOjpGaWx0ZXIudHlwZV9kcnVnX2FuZF9yb3V0ZV9vZl9hZG1pbmlzdHJhdGlvbl9vcmFsX25vZGV9Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAogICAgZGVmIHNlbGYubGlua2VkX3RvX2FueV9sb2NhdGlvbl9ub2RlCiAgICAgIEYubGlua2VkKHR5cGVfbG9jYXRpb25fbm9kZSkKICAgIGVuZAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGVuZAo=</text>
+        <text encoding="base64">ICAgIAogICAgZGVmIHNlbGYubGlua2VkX3RvX2FueV9sb2NhdGlvbl9ub2RlCiAgICAgIEYubGlua2VkKHR5cGVfbG9jYXRpb25fbm9kZSkKICAgIGVuZAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGRlZiBzZWxmLnR5cGVfZHJ1Z19hbmRfcm91dGVfb2ZfYWRtaW5pc3RyYXRpb25fb3JhbF9ub2RlCg==</text>
+        <text encoding="base64">ICAgIGVuZAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgbGV0KDpmaWx0ZXIpeyAgU3R1Yjo6RmlsdGVyLm11bHRpcGxlX29yZ2FuaXNtICAgfQo=</text>
+        <text encoding="base64">ICAgIGRlZiBzZWxmLnR5cGVfZHJ1Z19hbmRfcm91dGVfb2ZfYWRtaW5pc3RyYXRpb25fb3JhbF9ub2RlCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
