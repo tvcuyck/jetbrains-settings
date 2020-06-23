@@ -79,7 +79,7 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1592897532824">
+      <file name="/Dummy.txt" timestamp="1592918348452">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/.env" timestamp="1592917835649">
@@ -100,13 +100,17 @@
         <mark key="^" line="47" column="0" />
         <mark key="." line="46" column="20" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/run/env" timestamp="1592918154736">
-        <mark key="[" line="2" column="0" />
-        <mark key="]" line="2" column="0" />
-        <mark key="." line="2" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/run/env" timestamp="1592920866701">
+        <mark key="[" line="7" column="84" />
+        <mark key="]" line="27" column="0" />
+        <mark key="." line="26" column="28" />
+        <mark key="^" line="27" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/env" timestamp="1592917890505">
         <mark key="[" line="2" column="74" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/metis_pipeline_test_data/rspec_pipeline.yml" timestamp="1592920891267">
+        <mark key="'" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -142,6 +146,7 @@
       <jump line="300" column="13" filename="$USER_HOME$/Disqover/disqover-backend/spec/factories/filter.rb" />
       <jump line="267" column="39" filename="$USER_HOME$/Disqover/disqover-backend/app/models/facet.rb" />
       <jump line="130" column="0" filename="$USER_HOME$/Disqover/disqover-backend/app/models/facet.rb" />
+      <jump line="0" column="0" filename="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/metis_pipeline_test_data/rspec_pipeline.yml" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -153,7 +158,7 @@
         <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>multiple</text>
+        <text>indexing</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBzdHJpbmcobmFtZTonQlJBTkNIJywgZGVmYXVsdFZhbHVlOiAnJywgZGVzY3JpcHRpb246ICdUaGUgZ2l0IGJyYW5jaCBvciB0YWcgdG8gYnVpbGQnKQo=</text>
@@ -192,9 +197,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>multiple</last-search>
+      <last-search>indexing</last-search>
       <last-offset />
-      <last-pattern>multiple</last-pattern>
+      <last-pattern>indexing</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
