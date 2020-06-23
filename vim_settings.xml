@@ -79,13 +79,35 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="/Dummy.txt" timestamp="1592897532824">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/.env" timestamp="1592917835649">
+        <mark key="[" line="87" column="74" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/Jenkinsfile" timestamp="1592551375085">
         <mark key="[" line="29" column="0" />
         <mark key="]" line="29" column="94" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/federation_facet_service.rb" timestamp="1592560874116" />
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/visitors/federation_filter_visitor.rb" timestamp="1592560786622" />
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/federation_subfacet_service.rb" timestamp="1592561106839" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/development/env" timestamp="1592918159216">
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="2" column="0" />
+        <mark key="." line="2" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/ci/env" timestamp="1592918099347">
+        <mark key="[" line="6" column="90" />
+        <mark key="]" line="47" column="0" />
+        <mark key="^" line="47" column="0" />
+        <mark key="." line="46" column="20" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/run/env" timestamp="1592918154736">
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="2" column="0" />
+        <mark key="." line="2" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/env" timestamp="1592917890505">
+        <mark key="[" line="2" column="74" />
+      </file>
     </filemarks>
     <jumps>
       <jump line="0" column="0" filename="$USER_HOME$/Disqover/disqover-backend/config/routes.rb" />
@@ -125,7 +147,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBzdHJpbmcobmFtZTonQlJBTkNIJywgZGVmYXVsdFZhbHVlOiAnJywgZGVzY3JpcHRpb246ICdUaGUgZ2l0IGJyYW5jaCBvciB0YWcgdG8gYnVpbGQnKQo=</text>
+        <text encoding="base64">VklSVFVPU09fSU1BR0U9NDI4MDI1MDY0NDcxLmRrci5lY3IudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vb250b2ZvcmNlL3ZpcnR1b3NvOmxhdGVzdAo=</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IA==</text>
@@ -137,31 +159,31 @@
         <text encoding="base64">ICAgICAgICBzdHJpbmcobmFtZTonQlJBTkNIJywgZGVmYXVsdFZhbHVlOiAnJywgZGVzY3JpcHRpb246ICdUaGUgZ2l0IGJyYW5jaCBvciB0YWcgdG8gYnVpbGQnKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAK</text>
+        <text encoding="base64">VklSVFVPU09fSU1BR0U9NDI4MDI1MDY0NDcxLmRrci5lY3IudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vb250b2ZvcmNlL3ZpcnR1b3NvOmxhdGVzdAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICBAaXNfbG9jYWwgfHwgKCFmYWNldF9zb3VyY2VzLmVtcHR5PyB8fCBwcmVkZWZpbmVkX2ZhY2V0X3ZhbHVlcz8pCg==</text>
+        <text encoding="base64">VklSVFVPU09fSU1BR0U9NDI4MDI1MDY0NDcxLmRrci5lY3IudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vb250b2ZvcmNlL3ZpcnR1b3NvOmxhdGVzdAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgbGV0KDpjb25zdHJhaW50c19kaXNlYXNlKSB7U3R1Yjo6RmlsdGVyLnJvbGVfZGlzZWFzZX0KICAgICAgbGV0KDpjb25zdHJhaW50c19wZXJzb24pIHtTdHViOjpGaWx0ZXIucm9sZV9wZXJzb259Cg==</text>
+        <text encoding="base64">ICAgICBAaXNfbG9jYWwgfHwgKCFmYWNldF9zb3VyY2VzLmVtcHR5PyB8fCBwcmVkZWZpbmVkX2ZhY2V0X3ZhbHVlcz8pCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgfHwgKCFmYWNldF9zb3VyY2VzLmVtcHR5PyB8fCBwcmVkZWZpbmVkX2ZhY2V0X3ZhbHVlcz8pCg==</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgICAgZ3JhcGhfdXJpID0gc3R1Yjo6Y29uZmlndXJhdGlvbmdyYXBocy5tZXRpcwogICAgICBhbGxvd19hbnlfaW5zdGFuY2Vfb2YoY29uZmlndXJhdGlvbmdyYXBoc2VydmljZSkudG8gcmVjZWl2ZSg6Z3JhcGhfZm9yX3VzZXIpLmFuZF9yZXR1cm4oZ3JhcGhfdXJpKQogICAgICBhbGxvdyhjb2xsZWN0aW9uc2VydmljZSkudG8gcmVjZWl2ZSg6aW5zdGFuY2UpLmFuZF9yZXR1cm4oY29sbGVjdGlvbnNlcnZpY2UubmV3KGdyYXBoX3VyaTogZ3JhcGhfdXJpKSkK</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgbGV0KDpjb25zdHJhaW50c19kaXNlYXNlKSB7U3R1Yjo6RmlsdGVyLnJvbGVfZGlzZWFzZX0KICAgICAgbGV0KDpjb25zdHJhaW50c19wZXJzb24pIHtTdHViOjpGaWx0ZXIucm9sZV9wZXJzb259Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgfHwgKCFmYWNldF9zb3VyY2VzLmVtcHR5PyB8fCBwcmVkZWZpbmVkX2ZhY2V0X3ZhbHVlcz8pCg==</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGVuZAo=</text>
+        <text encoding="base64">ICAgICAgZ3JhcGhfdXJpID0gc3R1Yjo6Y29uZmlndXJhdGlvbmdyYXBocy5tZXRpcwogICAgICBhbGxvd19hbnlfaW5zdGFuY2Vfb2YoY29uZmlndXJhdGlvbmdyYXBoc2VydmljZSkudG8gcmVjZWl2ZSg6Z3JhcGhfZm9yX3VzZXIpLmFuZF9yZXR1cm4oZ3JhcGhfdXJpKQogICAgICBhbGxvdyhjb2xsZWN0aW9uc2VydmljZSkudG8gcmVjZWl2ZSg6aW5zdGFuY2UpLmFuZF9yZXR1cm4oY29sbGVjdGlvbnNlcnZpY2UubmV3KGdyYXBoX3VyaTogZ3JhcGhfdXJpKSkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgZmFjZXRfdmFsdWVzIDw8ICdDcmltZScKICAgICAgZmFjZXRfdmFsdWVzIDw8ICdDb21lZHknCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
