@@ -75,10 +75,10 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Python Console" timestamp="1592837901765">
+      <file name="/Python Console" timestamp="1592893540425">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/fragment.py" timestamp="1592837920365">
+      <file name="/fragment.py" timestamp="1592893543904">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/tests/spec_helper/helpers.py" timestamp="1592837814785">
@@ -93,22 +93,17 @@
         <mark key="." line="20" column="34" />
         <mark key="^" line="20" column="35" />
       </file>
-      <file name="$USER_HOME$/Disqover/documentation/source/sysadmin-manual/conf.py" timestamp="1592570833588">
-        <mark key="[" line="61" column="13" />
-        <mark key="]" line="61" column="15" />
-        <mark key="." line="61" column="14" />
-        <mark key="^" line="61" column="15" />
-      </file>
       <file name="$USER_HOME$/Disqover/disqover-frontend/Jenkinsfile" timestamp="1592827336057">
         <mark key="[" line="12" column="89" />
         <mark key="]" line="42" column="108" />
         <mark key="." line="42" column="39" />
         <mark key="^" line="42" column="35" />
       </file>
-      <file name="$USER_HOME$/Disqover/documentation/source/sysadmin-manual/configuration.rst" timestamp="1592569283060">
-        <mark key="[" line="56" column="38" />
-        <mark key="]" line="56" column="38" />
-        <mark key="." line="55" column="0" />
+      <file name="$USER_HOME$/Disqover/metis/src/metis/indexing/disqover_facet.py" timestamp="1592893901994">
+        <mark key="[" line="193" column="0" />
+        <mark key="]" line="193" column="20" />
+        <mark key="^" line="196" column="24" />
+        <mark key="." line="193" column="20" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-frontend/Dockerfile" timestamp="1592810830930">
         <mark key="[" line="0" column="24" />
@@ -120,13 +115,19 @@
         <mark key="." line="19" column="0" />
         <mark key="^" line="22" column="27" />
       </file>
-      <file name="/Dummy.txt" timestamp="1592827497792">
+      <file name="/Dummy.txt" timestamp="1592894399056">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/documentation/source/common/disqover_settings/container_settings.inc" timestamp="1592574066699">
         <mark key="[" line="10" column="30" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_disqover_facet_spec.py" timestamp="1592894355005">
+        <mark key="[" line="1137" column="12" />
+        <mark key="]" line="1148" column="66" />
+        <mark key="." line="1137" column="0" />
+        <mark key="^" line="1136" column="66" />
       </file>
       <file name="$USER_HOME$/Disqover/documentation/source/sysadmin-manual/configuration/purls.inc" timestamp="1592572231163">
         <mark key="[" line="5" column="41" />
@@ -136,11 +137,6 @@
         <mark key="]" line="20" column="31" />
         <mark key="." line="20" column="30" />
         <mark key="^" line="20" column="31" />
-      </file>
-      <file name="$USER_HOME$/Disqover/documentation/source/sysadmin-manual/configuration/external_pg.inc" timestamp="1592571671743">
-        <mark key="[" line="76" column="0" />
-        <mark key="]" line="76" column="0" />
-        <mark key="." line="76" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -175,7 +171,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHNvbHJfY29ubmVjdG9yLmNvcmVfZXhpc3RzKFNPTFJfSE9TVCwgU09MUl9QT1JULCAndGVzdCcpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgd2l0aCBpdCgnZm9yIGludGVnZXIgdmFsdWUgaW5wdXQnKToKICAgICAgICAgICAgICAgIGluc3RhbmNlX2pzb24gPSB7fQogICAgICAgICAgICAgICAgc2VsZi5vYmouYWRkX2xpdF90b19zb2xyKGluc3RhbmNlX2pzb24sIFsxXSwgIHsnYmInfSkKICAgICAgICAgICAgICAgIGV4cGVjdChpbnN0YW5jZV9qc29uKS50byhlcXVhbCh7fSkpCiAgICAgICAgICAgICAgICBleHBlY3Qoc2VsZi5vYmouYmFkX2RhdGF0eXBlX2NvdW50ZXIpLnRvKGVxdWFsKDEpKQoKICAgICAgICAgICAgd2l0aCBpdCgnZm9yIHN0cmluZ2lmaWVkIGludGVnZXIgdmFsdWUgaW5wdXQnKToKICAgICAgICAgICAgICAgIGluc3RhbmNlX2pzb24gPSB7fQogICAgICAgICAgICAgICAgc2VsZi5vYmouYWRkX2xpdF90b19zb2xyKGluc3RhbmNlX2pzb24sIFsnMSddLCAgeydiYid9KQogICAgICAgICAgICAgICAgZXhwZWN0KGluc3RhbmNlX2pzb24pLnRvKGVxdWFsKHt9KSkKICAgICAgICAgICAgICAgIGV4cGVjdChzZWxmLm9iai5iYWRfZGF0YXR5cGVfY291bnRlcikudG8oZXF1YWwoMSkpCg==</text>
       </register>
       <register name="-" type="4">
         <text>:</text>
@@ -184,7 +180,7 @@
         <text>NUTS-1</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHNvbHJfY29ubmVjdG9yLmNvcmVfZXhpc3RzKFNPTFJfSE9TVCwgU09MUl9QT1JULCAndGVzdCcpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgd2l0aCBpdCgnZm9yIGludGVnZXIgdmFsdWUgaW5wdXQnKToKICAgICAgICAgICAgICAgIGluc3RhbmNlX2pzb24gPSB7fQogICAgICAgICAgICAgICAgc2VsZi5vYmouYWRkX2xpdF90b19zb2xyKGluc3RhbmNlX2pzb24sIFsxXSwgIHsnYmInfSkKICAgICAgICAgICAgICAgIGV4cGVjdChpbnN0YW5jZV9qc29uKS50byhlcXVhbCh7fSkpCiAgICAgICAgICAgICAgICBleHBlY3Qoc2VsZi5vYmouYmFkX2RhdGF0eXBlX2NvdW50ZXIpLnRvKGVxdWFsKDEpKQoKICAgICAgICAgICAgd2l0aCBpdCgnZm9yIHN0cmluZ2lmaWVkIGludGVnZXIgdmFsdWUgaW5wdXQnKToKICAgICAgICAgICAgICAgIGluc3RhbmNlX2pzb24gPSB7fQogICAgICAgICAgICAgICAgc2VsZi5vYmouYWRkX2xpdF90b19zb2xyKGluc3RhbmNlX2pzb24sIFsnMSddLCAgeydiYid9KQogICAgICAgICAgICAgICAgZXhwZWN0KGluc3RhbmNlX2pzb24pLnRvKGVxdWFsKHt9KSkKICAgICAgICAgICAgICAgIGV4cGVjdChzZWxmLm9iai5iYWRfZGF0YXR5cGVfY291bnRlcikudG8oZXF1YWwoMSkpCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICByZXR1cm4gcmVzcG9uc2UK</text>
