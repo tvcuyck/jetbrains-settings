@@ -82,7 +82,7 @@
       <file name="$USER_HOME$/Disqover/utilities/devops/ec2-creator/userdata/test-pipelines-cloudinit.txt" timestamp="1593696780193">
         <mark key="]" line="44" column="78" />
       </file>
-      <file name="/Dummy.txt" timestamp="1594020773111">
+      <file name="/Dummy.txt" timestamp="1594040812600">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -105,6 +105,11 @@
       <file name="$USER_HOME$/Disqover/utilities/devops/ec2-creator/userdata/test-pipelines-uatsso-cloudinit.txt" timestamp="1593696783694">
         <mark key="[" line="82" column="0" />
         <mark key="." line="82" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/infrastructure/terraform/5-app-disqover/elastic-disqover/user_data_disqover_saas_cloudinit.tpl" timestamp="1594040790633">
+        <mark key="[" line="80" column="0" />
+        <mark key="]" line="80" column="79" />
+        <mark key="." line="80" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/utilities/devops/ec2-creator/userdata/pubkeys-dev.txt" timestamp="1593688590255">
         <mark key="[" line="0" column="4" />
@@ -154,10 +159,10 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text>aws ec2 describe-images --owner self --output text --query 'Images[*].{ImageId:ImageId,Name:Name}'</text>
+        <text encoding="base64">ICAtIFsgc3VkbywgY2htb2QsICcreCcsICcvZGlzcW92ZXIvZGF0YS9iYWNrZW5kL3BsdWdpbnMvY2hlbWF4b24vZXhlY3V0ZS5zaCcgXQo=</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>NUTS-1</text>
@@ -166,31 +171,31 @@
         <text encoding="base64">ICAtIFsgYXdzLCBzMywgY3AsICdzMzovL3V0aWxpdGllcy1kZXYvcHVibGljLWtleXMvcHVia2V5cy1kZXYudHh0JywgJy90bXAvcHVia2V5cy1kZXYudHh0JyBdCiAgLSBzdWRvIGNhdCAvdG1wL3B1YmtleXMtZGV2LnR4dCB8IHRlZSAtYSAvaG9tZS9jZW50b3MvLnNzaC9hdXRob3JpemVkX2tleXMKICAtIFsgc3VkbywgY2htb2QsIDQwMCwgJy9ob21lL2NlbnRvcy8uc3NoL2F1dGhvcml6ZWRfa2V5cycgXQogIC0gWyBhd3MsIHMzLCBzeW5jLCAnLS1xdWlldCcsICdzMzovL2Rpc3FvdmVyLXBsdWdpbnMtZGV2L3NlYXJjaC1wbHVnaW5zL21hcnZpbmpzL3YxLycsICcvZGlzcW92ZXIvZGF0YS9mcm9udGVuZC9wbHVnaW5zL21hcnZpbmpzLycgXQogIC0gWyBhd3MsIHMzLCBzeW5jLCAnLS1xdWlldCcsICdzMzovL2Rpc3FvdmVyLXBsdWdpbnMtZGV2L3NlYXJjaC1wbHVnaW5zL2NoZW1hbnRpY3MvdjEvJywgJy9kaXNxb3Zlci9kYXRhL2JhY2tlbmQvcGx1Z2lucy9jaGVtYW50aWNzLycgXQogIC0gWyBhd3MsIHMzLCBzeW5jLCAnLS1xdWlldCcsICdzMzovL2Rpc3FvdmVyLXBsdWdpbnMtZGV2L3NlYXJjaC1wbHVnaW5zL21vY2stZmlsZS11cGxvYWQvdjEvJywgJy9kaXNxb3Zlci9kYXRhL2JhY2tlbmQvcGx1Z2lucy9tb2NrLWZpbGUtdXBsb2FkLycgXQogIC0gWyBzdWRvLCBjaG93biwgJy1SJywgJ2Rpc3FvdmVyOmRvY2tlcicsICcvZGlzcW92ZXIvZGF0YS9mcm9udGVuZC9wbHVnaW5zJyBdCiAgLSBbIHN1ZG8sIGNob3duLCAnLVInLCAnZGlzcW92ZXI6ZG9ja2VyJywgJy9kaXNxb3Zlci9kYXRhL2JhY2tlbmQvcGx1Z2lucycgXQo=</text>
       </register>
       <register name="1" type="2">
-        <text>aws ec2 describe-images --owner self --output text --query 'Images[*].{ImageId:ImageId,Name:Name}'</text>
+        <text encoding="base64">ICAtIFsgc3VkbywgY2htb2QsICcreCcsICcvZGlzcW92ZXIvZGF0YS9iYWNrZW5kL3BsdWdpbnMvY2hlbWF4b24vZXhlY3V0ZS5zaCcgXQo=</text>
       </register>
-      <register name="2" type="8">
-        <text encoding="base64">IyAKIyA=</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAtIFsgc3VkbywgY2hvd24sICctUicsICdkaXNxb3Zlcjpkb2NrZXInLCAnL2Rpc3FvdmVyL2RhdGEvZnJvbnRlbmQvcGx1Z2lucycgXQogIC0gWyBzdWRvLCBjaG93biwgJy1SJywgJ2Rpc3FvdmVyOmRvY2tlcicsICcvZGlzcW92ZXIvZGF0YS9iYWNrZW5kL3BsdWdpbnMnIF0K</text>
       </register>
       <register name="3" type="8">
-        <text encoding="base64">ICMKICMKICMKICMKICM=</text>
+        <text encoding="base64">IAogCiA=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">YXdzIHMzIGNwIHMzOi8vdXRpbGl0aWVzLWRldi9wdWJsaWMta2V5cy9wdWJrZXlzLWRldi50eHQgL3RtcC9wdWJrZXlzLWRldi50eHQK</text>
+        <text encoding="base64">ICAgLSBbIGF3cywgczMsIHN5bmMsICctLXF1aWV0JywgJ3MzOi8vZGlzcW92ZXItcGx1Z2lucy1kZXYvc2VhcmNoLXBsdWdpbnMvbW9jay1maWxlLXVwbG9hZC92MS8nLCAnL2Rpc3FvdmVyL2RhdGEvYmFja2VuZC9wbHVnaW5zL21vY2stZmlsZS11cGxvYWQvJyBdCg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">Y2F0IC90bXAvcHVia2V5cy1kZXYudHh0ID4+IH4vLnNzaC9hdXRob3JpemVkX2tleXMK</text>
+      <register name="5" type="8">
+        <text encoding="base64">IAogCiAKIAog</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgYWRkX3VzZXJfZGIgImJlcmVuaWNlLnd1bGJyZWNodEBvbnRvZm9yY2UuY29tIiAnJDJhJDEwJGxVb1BXeDRxTXp2R3J1VWN4V1JaWWVuZTVwNkViczNXWS8ublFoZFpmQ0pqQ3RuVkJVL0p5JwogICAgICAgICBhZGRfdXNlcl9kYiAiYnJhbS5oYXV0ZWtpZXRAb250b2ZvcmNlLmNvbSIgJyQyYSQxMCRMODBDYXVuVERGQU9ZY01EVVcyUDJ1RXc1dWswMTFWM0pYNWNDLlhNRjMxVy5ZVjBSbnkwcScKICAgICAgICAgYWRkX3VzZXJfZGIgImJqb3JuLnNvbWVyc0BvbnRvZm9yY2UuY29tIiAnJDJhJDEwJGYyLi41cllBRFlmbnRKbVVoUVNxbWV5VnhCTkh5YlIuazBLRlU1RDZDRlo5WlhLQU52UUx1JwogICAgICAgICBhZGRfdXNlcl9kYiAiY2hyaXN0b3BoZS5kZWxvb3JAb250b2ZvcmNlLmNvbSIgJyQyYSQxMCQ0RFkzeUwyRzAvNU5RQkZWRHRXbTZ1b0ouYkMzalZybHMzbzNhRmd1dktPTjdsejl1UmlWSycKICAgICAgICAgYWRkX3VzZXJfZGIgImRvbGYubWljaGllbHNlbkBvbnRvZm9yY2UuY29tIiAnJDJhJDEwJGlCeEZncktIME0uVXVjN29ZU2RqTXU2MERVRVNKd29ENlpPY3AuRHBQeFdERTlJSXhxN3VHJwogICAgICAgICBhZGRfdXNlcl9kYiAiaGFucy5jb25zdGFuZHRAb250b2ZvcmNlLmNvbSIgJyQyYSQxMCRkTW03ZWtyWDY0dG9vWVR4bVI4YlIuNDExWUFSLk8vVUQza3NvZ00uUlR2ZGNHTUI2SzRqRycKICAgICAgICAgYWRkX3VzZXJfZGIgImZpbGlwLnBhdHR5bkBvbnRvZm9yY2UuY29tIiAnJDJhJDEwJDJIUkx6UE83b09OUWs4U2VTbi41TmVZNWp2WGlheU50WnlZTGxWZDhkc0c2eHQuZmUxaTRxJwogICAgICAgICBhZGRfdXNlcl9kYiAiamFuLmJldGVybWlldXhAb250b2ZvcmNlLmNvbSIgJyQyYSQxMCRua1pBajRiTTBLRS5vWnBKMjVuZGVlNHRSaS53Vjh4RnNyVGtYRUo5a1ZBWjJvbHUyb25EUycKICAgICAgICAgYWRkX3VzZXJfZGIgImtlbm55LmtuZWNodEBvbnRvZm9yY2UuY29tIiAnJDJhJDEwJDA0bzNmcTJPWTE1VE1LLmpnbkhZaXVoeWl4UzgvZmpSVU9ld29Ua0hKa1YyTGl3LllScHRlJwogICAgICAgICBhZGRfdXNlcl9kYiAia3Jpcy52YW5oZWVkZUBvbnRvZm9yY2UuY29tIiAnJDJhJDEwJG9sLmNRb3NvZ1pjcEplQmYyaWNMWi5LMjFaU2dYT0llR0c4TkFneDZGWXZlWGc3LzNsLzZXJwogICAgICAgICBhZGRfdXNlcl9kYiAibmllbHMudmFubmVzdGVAb250b2ZvcmNlLmNvbSIgJyQyYSQxMCQwVEZaTFMwOTZ6S3IyWGdiR3UvMzl1eXEvNUJsNGxNbDdyMnRGS09Odm40T1IuQmhzOUJsTycKICAgICAgICAgYWRkX3VzZXJfZGIgInBhdWwudmF1dGVyaW5Ab250b2ZvcmNlLmNvbSIgJyQyYSQxMCRKUWVSNm15dC9WeTA5d2VBZlYuUFguN1ZGNDhhUURhWlk4Z0dXcFRBamNrcUpTckZ5OUppdScKICAgICAgICAgYWRkX3VzZXJfZGIgJ3Bhb2xvLnNpbWVvbmVAb250b2ZvcmNlLmNvbScgJyQyYSQxMCRVU2s4RGJOWFlNQW5IUUlSNVZydHZlUll6NFhvdWZUZE1kVUNOcUJCUmhybmZsSDM2NXVXLicKICAgICAgICAgYWRkX3VzZXJfZGIgInNhbS52ZXJzdG9ja2VuQG9udG9mb3JjZS5jb20iICckMmEkMTEkU1c4ODFZT2JodkxQd2NTUWRFYTVRT3Rjbk45bmVoV3BPcGU2dkdDaUhmVXJpWWZYemppamEnCiAgICAgICAgIGFkZF91c2VyX2RiICJzZWFuLmNocmlzdGlhZW5zQG9udG9mb3JjZS5jb20iICckMmEkMTAkdlhxU3ZMbVllY1U0cTcxb2EwZmtTLnpIMVFycy5XRlVQQjNBWUFQQ2E2c0dmaDZkSFBYdksnCiAgICAgICAgIGFkZF91c2VyX2RiICJ0b20udmFuY3V5Y2tAb250b2ZvcmNlLmNvbSIgJyQyYSQxMSQuUm5TcVdPRzc3WEUvQ0I0RTdEMk1PNGpXUVNEYnBpbDFqaGZVbW1KdDl5bjBnY0p1eGZXbScKICAgICAgICAgYWRkX3VzZXJfZGIgIndpbS5kZXdhZWdlbmVlckBvbnRvZm9yY2UuY29tIiAnJDJhJDEwJDdsT2s4WjZWTEo0TXBWdkpkWnY5cC5qMVdSdkNleXdySVg0Z1pVSlNZeUYuMGp1WEZEZS82JwogICAgICAgICBhZGRfdXNlcl9kYiAieWVhZ2VyLnZhbmhvb3JlbkBvbnRvZm9yY2UuY29tIiAnJDJhJDEwJDZ2QWR2TnNxS1UvdzBoMlc3Ri91c2VWalZlcmdPbmpiZm1DMTBobHhTUU1PZkNuOTBTT3NHJwogICAgICAgICBhZGRfdXNlcl9kYiAic2FtLmJlcm5hZXJkdEBvbnRvZm9yY2UuY29tIiAnJDJhJDExJFBYZFguVmdzb2pEL21jWUQzM05KU080S1BLVlRveXpBaUNqbGhqdG9Obkp3UWRXeUQzaFM2JwogICAgICAgICBhZGRfdXNlcl9kYiAidHdpbmtlbEBvbnRvZm9yY2UuY29tIiAnJDJhJDExJEd1bGliT2tZMUcwdDM4dVdBTDZMZ2VacGdqVzRmdFJ4RW5EQzdTQXJvZEIyRmVWV1BXOVpPJwogICAgICAgICBhZGRfdXNlcl9kYiAiYmpvcm4uc29tZXJzQG9udG9mb3JjZS5jb20iICckMmEkMTAkbmtaQWo0Yk0wS0Uub1pwSjI1bmRlZTR0Umkud1Y4eEZzclRrWEVKOWtWQVoyb2x1Mm9uRFMnCiAgICAgICAgIGFkZF91c2VyX2RiICJjaHJpcy5maWR5a0BvbnRvZm9yY2UuY29tIiAnJDJhJDEwJG5rWkFqNGJNMEtFLm9acEoyNW5kZWU0dFJpLndWOHhGc3JUa1hFSjlrVkFaMm9sdTJvbkRTJwogICAgICAgICBhZGRfdXNlcl9kYiAiZG9sZi5taWNoaWVsc2VuQG9udG9mb3JjZS5jb20iICckMmEkMTAkbmtaQWo0Yk0wS0Uub1pwSjI1bmRlZTR0Umkud1Y4eEZzclRrWEVKOWtWQVoyb2x1Mm9uRFMnCiAgICAgICAgIGFkZF91c2VyX2RiICJmaWxpcC5wYXR0eW5Ab250b2ZvcmNlLmNvbSIgJyQyYSQxMCRua1pBajRiTTBLRS5vWnBKMjVuZGVlNHRSaS53Vjh4RnNyVGtYRUo5a1ZBWjJvbHUyb25EUycKICAgICAgICAgYWRkX3VzZXJfZGIgImhhbnMuY29uc3RhbmR0QG9udG9mb3JjZS5jb20iICckMmEkMTAkbmtaQWo0Yk0wS0Uub1pwSjI1bmRlZTR0Umkud1Y4eEZzclRrWEVKOWtWQVoyb2x1Mm9uRFMnCiAgICAgICAgIGFkZF91c2VyX2RiICJtYXJpdC5vdmVyYmVla2VAb250b2ZvcmNlLmNvbSIgJyQyYSQxMCRua1pBajRiTTBLRS5vWnBKMjVuZGVlNHRSaS53Vjh4RnNyVGtYRUo5a1ZBWjJvbHUyb25EUycKICAgICAgICAgYWRkX3VzZXJfZGIgIm1hcnRpam4uYWRyaWFlbnNAb250b2ZvcmNlLmNvbSIgJyQyYSQxMCRua1pBajRiTTBLRS5vWnBKMjVuZGVlNHRSaS53Vjh4RnNyVGtYRUo5a1ZBWjJvbHUyb25EUycKICAgICAgICAgYWRkX3VzZXJfZGIgInBhb2xvLnNpbWVvbmVAb250b2ZvcmNlLmNvbSIgJyQyYSQxMCRua1pBajRiTTBLRS5vWnBKMjVuZGVlNHRSaS53Vjh4RnNyVGtYRUo5a1ZBWjJvbHUyb25EUycKICAgICAgICAgYWRkX3VzZXJfZGIgInBhdWxvLnZhbmh1ZmZlbEBvbnRvZm9yY2UuY29tIiAnJDJhJDEwJG5rWkFqNGJNMEtFLm9acEoyNW5kZWU0dFJpLndWOHhGc3JUa1hFSjlrVkFaMm9sdTJvbkRTJwogICAgICAgICBhZGRfdXNlcl9kYiAicGV0ZXIudmVycnlrdEBvbnRvZm9yY2UuY29tIiAnJDJhJDEwJG5rWkFqNGJNMEtFLm9acEoyNW5kZWU0dFJpLndWOHhGc3JUa1hFSjlrVkFaMm9sdTJvbkRTJwogICAgICAgICBhZGRfdXNlcl9kYiAic2FtLmJlcm5hZXJkdEBvbnRvZm9yY2UuY29tIiAnJDJhJDEwJG5rWkFqNGJNMEtFLm9acEoyNW5kZWU0dFJpLndWOHhGc3JUa1hFSjlrVkFaMm9sdTJvbkRTJwogICAgICAgICBhZGRfdXNlcl9kYiAic2FtLnZlcnN0b2NrZW5Ab250b2ZvcmNlLmNvbSIgJyQyYSQxMCRua1pBajRiTTBLRS5vWnBKMjVuZGVlNHRSaS53Vjh4RnNyVGtYRUo5a1ZBWjJvbHUyb25EUycKICAgICAgICAgYWRkX3VzZXJfZGIgInNlYW4uY2hyaXN0aWFlbnNAb250b2ZvcmNlLmNvbSIgJyQyYSQxMCRua1pBajRiTTBLRS5vWnBKMjVuZGVlNHRSaS53Vjh4RnNyVGtYRUo5a1ZBWjJvbHUyb25EUycKICAgICAgICAgYWRkX3VzZXJfZGIgInRhbWFyYS5zdGFua292aWNAb250b2ZvcmNlLmNvbSIgJyQyYSQxMCRua1pBajRiTTBLRS5vWnBKMjVuZGVlNHRSaS53Vjh4RnNyVGtYRUo5a1ZBWjJvbHUyb25EUycKICAgICAgICAgYWRkX3VzZXJfZGIgInRpbmUuZ2VsZG9mQG9udG9mb3JjZS5jb20iICckMmEkMTAkbmtaQWo0Yk0wS0Uub1pwSjI1bmRlZTR0Umkud1Y4eEZzclRrWEVKOWtWQVoyb2x1Mm9uRFMnCiAgICAgICAgIGFkZF91c2VyX2RiICJ0d2lua2VsLnZhbmltcGVAb250b2ZvcmNlLmNvbSIgJyQyYSQxMCRua1pBajRiTTBLRS5vWnBKMjVuZGVlNHRSaS53Vjh4RnNyVGtYRUo5a1ZBWjJvbHUyb25EUycKICAgICAgICAgYWRkX3VzZXJfZGIgIndpZXRzZS5qYWNvYnNAb250b2ZvcmNlLmNvbSIgJyQyYSQxMCRua1pBajRiTTBLRS5vWnBKMjVuZGVlNHRSaS53Vjh4RnNyVGtYRUo5a1ZBWjJvbHUyb25EUycKICAgICAgICAgYWRkX3VzZXJfZGIgIndpam5hbmQuc2NoZXBlbnNAb250b2ZvcmNlLmNvbSIgJyQyYSQxMCRaempBa2xXSEdZNFlsa25KaXF0R2suazRWRVNLTWtLR1BpUGlMUmgxandEY2RrM3NDenFCTycKICAgICAgICAgYWRkX3VzZXJfZGIgInllYWdlci52YW5ob29yZW5Ab250b2ZvcmNlLmNvbSIgJyQyYSQxMCRua1pBajRiTTBLRS5vWnBKMjVuZGVlNHRSaS53Vjh4RnNyVGtYRUo5a1ZBWjJvbHUyb25EUycK</text>
+        <text>aws ec2 describe-images --owner self --output text --query 'Images[*].{ImageId:ImageId,Name:Name}'</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgYWRkX3VzZXJfZGIgInNlYW4uY2hyaXN0aWFlbnNAb250b2ZvcmNlLmNvbSIgJyQyYSQxMCRua1pBajRiTTBLRS5vWnBKMjVuZGVlNHRSaS53Vjh4RnNyVGtYRUo5a1ZBWjJvbHUyb25EUycK</text>
+      <register name="7" type="8">
+        <text encoding="base64">IyAKIyA=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgYWRkX3VzZXJfZGIgInNhbS52ZXJzdG9ja2VuQG9udG9mb3JjZS5jb20iICckMmEkMTAkbmtaQWo0Yk0wS0Uub1pwSjI1bmRlZTR0Umkud1Y4eEZzclRrWEVKOWtWQVoyb2x1Mm9uRFMnCg==</text>
+      <register name="8" type="8">
+        <text encoding="base64">ICMKICMKICMKICMKICM=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgYWRkX3VzZXJfZGIgInBhb2xvLnNpbWVvbmVAb250b2ZvcmNlLmNvbSIgJyQyYSQxMCRua1pBajRiTTBLRS5vWnBKMjVuZGVlNHRSaS53Vjh4RnNyVGtYRUo5a1ZBWjJvbHUyb25EUycK</text>
+        <text encoding="base64">YXdzIHMzIGNwIHMzOi8vdXRpbGl0aWVzLWRldi9wdWJsaWMta2V5cy9wdWJrZXlzLWRldi50eHQgL3RtcC9wdWJrZXlzLWRldi50eHQK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
