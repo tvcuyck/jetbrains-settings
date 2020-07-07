@@ -11,7 +11,6 @@
         <entry>NUTS-1</entry>
       </history-search>
       <history-cmd>
-        <entry>54</entry>
         <entry>250</entry>
         <entry>11</entry>
         <entry>163</entry>
@@ -31,6 +30,7 @@
         <entry>0</entry>
         <entry>wq</entry>
         <entry>w</entry>
+        <entry>150</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -82,13 +82,19 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Python Console" timestamp="1594123779376">
+      <file name="$USER_HOME$/Disqover/metis/src/metis/connectors/solr_connector.py" timestamp="1594125538326">
+        <mark key="[" line="77" column="0" />
+        <mark key="]" line="77" column="0" />
+        <mark key="^" line="77" column="16" />
+        <mark key="." line="77" column="0" />
+      </file>
+      <file name="/Python Console" timestamp="1594127740809">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/fragment.py" timestamp="1594123749634">
+      <file name="/fragment.py" timestamp="1594127291028">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/tests/spec_helper/helpers.py" timestamp="1594124050053" />
+      <file name="/env" timestamp="1594128237380" />
       <file name="$USER_HOME$/Disqover/utilities/plugins/marvinjs/ontoforce_license.cxl" timestamp="1594114898124" />
       <file name="$USER_HOME$/Disqover/utilities/plugins/README.md" timestamp="1594117902089">
         <mark key="[" line="19" column="7" />
@@ -96,37 +102,53 @@
         <mark key="." line="20" column="86" />
         <mark key="^" line="20" column="87" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/.docker/development/env" timestamp="1594128240205">
+        <mark key="[" line="12" column="0" />
+        <mark key="]" line="12" column="0" />
+        <mark key="." line="12" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/tests/integration/geo_mapping_pipeline.yml" timestamp="1594126558388">
+        <mark key="[" line="146" column="0" />
+        <mark key="]" line="146" column="0" />
+        <mark key="." line="146" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/utilities/plugins/chemantics/README.md" timestamp="1594116973395">
         <mark key="[" line="8" column="0" />
         <mark key="]" line="8" column="0" />
         <mark key="." line="8" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1594118008485">
+      <file name="/Dummy.txt" timestamp="1594131407927">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/src/metis/metis_settings.py" timestamp="1594123782035">
-        <mark key="[" line="261" column="53" />
-        <mark key="]" line="261" column="21" />
+      <file name="$USER_HOME$/Disqover/metis/src/metis/metis_settings.py" timestamp="1594128027725">
+        <mark key="[" line="380" column="0" />
+        <mark key="]" line="380" column="0" />
         <mark key="^" line="261" column="21" />
-        <mark key="." line="261" column="20" />
+        <mark key="." line="380" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/tests/integration/test_geo_mapping_spec.py" timestamp="1594127238154">
+        <mark key="]" line="10" column="0" />
+        <mark key="^" line="10" column="0" />
+        <mark key="." line="10" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/src/metis/actions/components/indexing_action.py" timestamp="1594127984177">
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="3" column="0" />
+        <mark key="." line="3" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-docker/environments/base_settings" timestamp="1594122376475" />
       <file name="$USER_HOME$/Disqover/utilities/devops/ec2-creator/userdata/public-data-milestone-cloudinit.txt" timestamp="1594117204496">
         <mark key="[" line="65" column="0" />
         <mark key="]" line="69" column="78" />
       </file>
-      <file name="$USER_HOME$/Disqover/infrastructure/terraform/5-app-disqover/elastic-disqover/user_data_disqover_saas_cloudinit.tpl" timestamp="1594040790633">
-        <mark key="[" line="80" column="0" />
-        <mark key="]" line="80" column="79" />
-        <mark key="." line="80" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/utilities/general/docker-login/.bash_functions" timestamp="1594113432116">
-        <mark key="[" line="52" column="14" />
-        <mark key="]" line="53" column="14" />
-        <mark key="." line="53" column="13" />
-        <mark key="^" line="53" column="14" />
+      <file name="$USER_HOME$/Disqover/metis/Jenkinsfile" timestamp="1594131775207">
+        <mark key="'" line="45" column="20" />
+        <mark key="[" line="11" column="116" />
+        <mark key="]" line="163" column="104" />
+        <mark key="^" line="163" column="104" />
+        <mark key="." line="163" column="103" />
       </file>
       <file name="$USER_HOME$/Disqover/utilities/plugins/chemaxon/Readme.md" timestamp="1594113993430">
         <mark key="[" line="14" column="3" />
@@ -166,12 +188,13 @@
       <jump line="976" column="80" filename="$USER_HOME$/Disqover/metis/tests/spec/indexing/test_disqover_facet_spec.py" />
       <jump line="302" column="44" filename="$USER_HOME$/Disqover/metis/tests/spec/expression_parser/functions/test_funcset_geo_spec.py" />
       <jump line="6" column="0" filename="$USER_HOME$/Disqover/metis/tests/integration/geo_mapping_pipeline.yml" />
+      <jump line="45" column="20" filename="$USER_HOME$/Disqover/metis/Jenkinsfile" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgbm90IHNvbHJfY29ubmVjdG9yLmNvcmVfZXhpc3RzKHNvbHJfaG9zdCwgc29scl9wb3J0LCBzZWxmLnNvbHJfY29yZSk6CiAgICAgICAgICAgICAgICBzb2xyX2Nvbm5lY3Rvci5jcmVhdGVfY29yZShzb2xyX2hvc3QsIHNvbHJfcG9ydCwgc2VsZi5zb2xyX2NvcmUpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIGJyYW5jaD0iJHtHSVRfQlJBTkNIfSIKICAgICAgICAgICAgICAgICAgIGJyYW5jaD1icmFuY2guc3Vic3RyaW5nKGJyYW5jaC5pbmRleE9mKCIvIikrMSkKICAgICAgICAgICAgICAgICAgIGJyYW5jaD1icmFuY2gucmVwbGFjZUFsbCgnW15hLXpBLVowLTkuLV0nLCAiLSIpCiAgICAgICAgICAgICAgICAgICBicmFuY2g9YnJhbmNoLnJlcGxhY2VBbGwoJy17Mix9JywgIi0iKQogICAgICAgICAgICAgICAgICAgSU1BR0VfVEFHID0gIm9udG9mb3JjZS9tZXRpczoke2JyYW5jaH0iCg==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IC9kaXNxb3Zlci9kYXRhL2JhY2tlbmQvcGx1Z2lucy9tb2NrLWZpbGUtdXBsb2FkLycgXQ==</text>
@@ -180,38 +203,37 @@
         <text>NUTS-1</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5zb2xyX2hvc3QgPSBvcy5lbnZpcm9uLmdldCgnU09MUl9IT1NUJywgc2VsZi5zb2xyX2hvc3QpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHJhaXNlIFJ1bnRpbWVFcnJvcihmJ0RvY3VtZW50IHt1cml9IG5vdCBmb3VuZCBpbiBzb2xyJykK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgbm90IHNvbHJfY29ubmVjdG9yLmNvcmVfZXhpc3RzKHNvbHJfaG9zdCwgc29scl9wb3J0LCBzZWxmLnNvbHJfY29yZSk6CiAgICAgICAgICAgICAgICBzb2xyX2Nvbm5lY3Rvci5jcmVhdGVfY29yZShzb2xyX2hvc3QsIHNvbHJfcG9ydCwgc2VsZi5zb2xyX2NvcmUpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIGJyYW5jaD0iJHtHSVRfQlJBTkNIfSIKICAgICAgICAgICAgICAgICAgIGJyYW5jaD1icmFuY2guc3Vic3RyaW5nKGJyYW5jaC5pbmRleE9mKCIvIikrMSkKICAgICAgICAgICAgICAgICAgIGJyYW5jaD1icmFuY2gucmVwbGFjZUFsbCgnW15hLXpBLVowLTkuLV0nLCAiLSIpCiAgICAgICAgICAgICAgICAgICBicmFuY2g9YnJhbmNoLnJlcGxhY2VBbGwoJy17Mix9JywgIi0iKQogICAgICAgICAgICAgICAgICAgSU1BR0VfVEFHID0gIm9udG9mb3JjZS9tZXRpczoke2JyYW5jaH0iCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5zb2xyX2hvc3QgPSBvcy5lbnZpcm9uLmdldCgnU09MUl9IT1NUJywgc2VsZi5zb2xyX2hvc3QpCiAgICAgICAgICAgIHNlbGYuc29scl9wb3J0ID0gb3MuZW52aXJvbi5nZXQoJ1NPTFJfUE9SVCcsIHNlbGYuc29scl9wb3J0KQogICAgICAgICAgICBzZWxmLnNvbHJfY29yZSA9IG9zLmVudmlyb24uZ2V0KCdTT0xSX1BSSU1BUllfQ09SRScsIHNlbGYuc29scl9jb3JlKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCgogICAgICAgICAgICBzZWxmLnNvbHJfY29yZSA9IG9zLmVudmlyb24uZ2V0KCdTT0xSX0NPUkUnLCBzZWxmLnNvbHJfY29yZSkK</text>
+        <text encoding="base64">UExVR0lOX0NPTkNBVF9JTUFHRT00MjgwMjUwNjQ0NzEuZGtyLmVjci51cy1lYXN0LTEuYW1hem9uYXdzLmNvbS9vbnRvZm9yY2UvZGlzcS1wbHVnaW46ZGV2Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHBhcnNlZF9zb2xyX3VybCA9IHVybHBhcnNlKHNlbGYuc29scl91cmwpCiAgICAgICAgICAgICAgICBzb2xyX2hvc3QgPSBwYXJzZWRfc29scl91cmwuaG9zdG5hbWUKICAgICAgICAgICAgICAgIHNvbHJfcG9ydCA9IHBhcnNlZF9zb2xyX3VybC5wb3J0CiAgICAgICAgICAgICAgICBzZWxmLnNvbHJfY29yZSA9ICdsYWxhJwo=</text>
+        <text encoding="base64">CiAgICAgICAgZGVmIHNldF9zb2xyX3VybChzZWxmLCB1cmw6IHN0cikgLT4gTm9uZToKICAgICAgICAgICAgc2VsZi5zb2xyX3VybCA9IHVybAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5zb2xyX2xvY2F0aW9uID0gb3MuZW52aXJvbi5nZXQiaHR0cDovL3NvbHI6ODk4MyIKICAgICAgICAgICAgc2VsZi5zb2xyX2NvcmUgPSAiY29yZV9kYXRhIgo=</text>
+        <text encoding="base64">CmZyb20gdXJsbGliLnBhcnNlIGltcG9ydCB1cmxwYXJzZQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5zb2xyX3VybCA9IE5vbmUK</text>
+        <text encoding="base64">ICAgIGRlZiBfX2luaXRfXyhzZWxmLCBvcHRpb25zX3ZhbHVlczogJ09wdGlvbnNWYWx1ZXMnKToKICAgICAgICBzdXBlcigpLl9faW5pdF9fKG9wdGlvbnNfdmFsdWVzKQoK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">TUVUSVNfU09MUl9VUkw9aHR0cDovLyR7U09MUl9IT1NUfToke1NPTFJfUE9SVF9JTlR9L3NvbHIvJHtTT0xSX1BSSU1BUllfQ09SRX0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="8" type="8">
-        <text>-dev
--dev</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuIHJlc3BvbnNlLmpzb24oKVsncmVzcG9uc2UnXVsnZG9jcyddWzBdCg==</text>
       </register>
-      <register name="9" type="8">
-        <text encoding="base64">ICAKICAKICAKICAKICA=</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBzb2xyX3VybCA9IHNldHRpbmdzKCkuc29scl91cmwK</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>150</text>
       </register>
     </registers>
   </component>
