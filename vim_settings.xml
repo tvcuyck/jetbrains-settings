@@ -82,16 +82,19 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Disqover/metis/tests/spec_helper/helpers.py" timestamp="1594112561347" />
+      <file name="/Python Console" timestamp="1594123779376">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/fragment.py" timestamp="1594123749634">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/tests/spec_helper/helpers.py" timestamp="1594124050053" />
       <file name="$USER_HOME$/Disqover/utilities/plugins/marvinjs/ontoforce_license.cxl" timestamp="1594114898124" />
       <file name="$USER_HOME$/Disqover/utilities/plugins/README.md" timestamp="1594117902089">
         <mark key="[" line="19" column="7" />
         <mark key="]" line="20" column="87" />
         <mark key="." line="20" column="86" />
         <mark key="^" line="20" column="87" />
-      </file>
-      <file name="$USER_HOME$/Disqover/utilities/devops/ec2-creator/userdata/test-pipelines-cloudinit.txt" timestamp="1593696780193">
-        <mark key="]" line="44" column="78" />
       </file>
       <file name="$USER_HOME$/Disqover/utilities/plugins/chemantics/README.md" timestamp="1594116973395">
         <mark key="[" line="8" column="0" />
@@ -103,15 +106,16 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/src/metis/metis_settings.py" timestamp="1594112167918" />
-      <file name="$USER_HOME$/Disqover/disqover-docker/environments/base_settings" timestamp="1594112433258" />
+      <file name="$USER_HOME$/Disqover/metis/src/metis/metis_settings.py" timestamp="1594123782035">
+        <mark key="[" line="261" column="53" />
+        <mark key="]" line="261" column="21" />
+        <mark key="^" line="261" column="21" />
+        <mark key="." line="261" column="20" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-docker/environments/base_settings" timestamp="1594122376475" />
       <file name="$USER_HOME$/Disqover/utilities/devops/ec2-creator/userdata/public-data-milestone-cloudinit.txt" timestamp="1594117204496">
         <mark key="[" line="65" column="0" />
         <mark key="]" line="69" column="78" />
-      </file>
-      <file name="$USER_HOME$/Disqover/utilities/devops/ec2-creator/userdata/test-pipelines-uatsso-cloudinit.txt" timestamp="1593696783694">
-        <mark key="[" line="82" column="0" />
-        <mark key="." line="82" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/infrastructure/terraform/5-app-disqover/elastic-disqover/user_data_disqover_saas_cloudinit.tpl" timestamp="1594040790633">
         <mark key="[" line="80" column="0" />
@@ -166,9 +170,8 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="8">
-        <text>-dev
--dev</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgaWYgbm90IHNvbHJfY29ubmVjdG9yLmNvcmVfZXhpc3RzKHNvbHJfaG9zdCwgc29scl9wb3J0LCBzZWxmLnNvbHJfY29yZSk6CiAgICAgICAgICAgICAgICBzb2xyX2Nvbm5lY3Rvci5jcmVhdGVfY29yZShzb2xyX2hvc3QsIHNvbHJfcG9ydCwgc2VsZi5zb2xyX2NvcmUpCg==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IC9kaXNxb3Zlci9kYXRhL2JhY2tlbmQvcGx1Z2lucy9tb2NrLWZpbGUtdXBsb2FkLycgXQ==</text>
@@ -177,39 +180,35 @@
         <text>NUTS-1</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">YXdzIHMzIHN5bmMgczM6Ly9kaXNxb3Zlci1wbHVnaW5zLWRldi9zZWFyY2gtcGx1Z2lucy9jaGVtYW50aWNzL3YxLyAvZGlzcW92ZXIvZGF0YS9iYWNrZW5kL3BsdWdpbnMvY2hlbWFudGljcy8K</text>
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5zb2xyX2hvc3QgPSBvcy5lbnZpcm9uLmdldCgnU09MUl9IT1NUJywgc2VsZi5zb2xyX2hvc3QpCg==</text>
       </register>
-      <register name="1" type="8">
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgaWYgbm90IHNvbHJfY29ubmVjdG9yLmNvcmVfZXhpc3RzKHNvbHJfaG9zdCwgc29scl9wb3J0LCBzZWxmLnNvbHJfY29yZSk6CiAgICAgICAgICAgICAgICBzb2xyX2Nvbm5lY3Rvci5jcmVhdGVfY29yZShzb2xyX2hvc3QsIHNvbHJfcG9ydCwgc2VsZi5zb2xyX2NvcmUpCg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5zb2xyX2hvc3QgPSBvcy5lbnZpcm9uLmdldCgnU09MUl9IT1NUJywgc2VsZi5zb2xyX2hvc3QpCiAgICAgICAgICAgIHNlbGYuc29scl9wb3J0ID0gb3MuZW52aXJvbi5nZXQoJ1NPTFJfUE9SVCcsIHNlbGYuc29scl9wb3J0KQogICAgICAgICAgICBzZWxmLnNvbHJfY29yZSA9IG9zLmVudmlyb24uZ2V0KCdTT0xSX1BSSU1BUllfQ09SRScsIHNlbGYuc29scl9jb3JlKQo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCgogICAgICAgICAgICBzZWxmLnNvbHJfY29yZSA9IG9zLmVudmlyb24uZ2V0KCdTT0xSX0NPUkUnLCBzZWxmLnNvbHJfY29yZSkK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHBhcnNlZF9zb2xyX3VybCA9IHVybHBhcnNlKHNlbGYuc29scl91cmwpCiAgICAgICAgICAgICAgICBzb2xyX2hvc3QgPSBwYXJzZWRfc29scl91cmwuaG9zdG5hbWUKICAgICAgICAgICAgICAgIHNvbHJfcG9ydCA9IHBhcnNlZF9zb2xyX3VybC5wb3J0CiAgICAgICAgICAgICAgICBzZWxmLnNvbHJfY29yZSA9ICdsYWxhJwo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5zb2xyX2xvY2F0aW9uID0gb3MuZW52aXJvbi5nZXQiaHR0cDovL3NvbHI6ODk4MyIKICAgICAgICAgICAgc2VsZi5zb2xyX2NvcmUgPSAiY29yZV9kYXRhIgo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgc2VsZi5zb2xyX3VybCA9IE5vbmUK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">TUVUSVNfU09MUl9VUkw9aHR0cDovLyR7U09MUl9IT1NUfToke1NPTFJfUE9SVF9JTlR9L3NvbHIvJHtTT0xSX1BSSU1BUllfQ09SRX0K</text>
+      </register>
+      <register name="8" type="8">
         <text>-dev
 -dev</text>
       </register>
-      <register name="2" type="8">
+      <register name="9" type="8">
         <text encoding="base64">ICAKICAKICAKICAKICA=</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICBhd3MgczMgc3luYyBzMzovL2Rpc3FvdmVyLXBsdWdpbnMtZGV2L3NlYXJjaC1wbHVnaW5zL21vY2stZmlsZS11cGxvYWQvdjEvCg==</text>
-      </register>
-      <register name="4" type="8">
-        <text>'
-'
-'</text>
-      </register>
-      <register name="5" type="8">
-        <text>, '--quiet',
-, '--quiet',
-, '--quiet',</text>
-      </register>
-      <register name="6" type="8">
-        <text encoding="base64">LSBbIAotIFsgCi0gWyAKLSBbIA==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICBhd3MsIHMzLCBzeW5jLCAnLS1xdWlldCcsICdzMzovL2Rpc3FvdmVyLXBsdWdpbnMtZGV2L3NlYXJjaC1wbHVnaW5zL21hcnZpbmpzL3YxLycsICcvZGlzcW92ZXIvZGF0YS9mcm9udGVuZC9wbHVnaW5zL21hcnZpbmpzLycgXQogIC0gWyBhd3MsIHMzLCBzeW5jLCAnLS1xdWlldCcsICdzMzovL2Rpc3FvdmVyLXBsdWdpbnMtZGV2L3NlYXJjaC1wbHVnaW5zL2NoZW1hbnRpY3MvdjEvJywgJy9kaXNxb3Zlci9kYXRhL2JhY2tlbmQvcGx1Z2lucy9jaGVtYW50aWNzLycgXQogIC0gWyBhd3MsIHMzLCBzeW5jLCAnLS1xdWlldCcsICdzMzovL2Rpc3FvdmVyLXBsdWdpbnMtZGV2L3NlYXJjaC1wbHVnaW5zL21vY2stZmlsZS11cGxvYWQvdjEvJywgJy9kaXNxb3Zlci9kYXRhL2JhY2tlbmQvcGx1Z2lucy9tb2NrLWZpbGUtdXBsb2FkLycgXQogIC0gWyBzdWRvLCBjaG93biwgJy1SJywgJ2Rpc3FvdmVyOmRvY2tlcicsICcvZGlzcW92ZXIvZGF0YS9mcm9udGVuZC9wbHVnaW5zJyBdCiAgLSBbIHN1ZG8sIGNob3duLCAnLVInLCAnZGlzcW92ZXI6ZG9ja2VyJywgJy9kaXNxb3Zlci9kYXRhL2JhY2tlbmQvcGx1Z2lucycgXQo=</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">CkRlcGxveQoqKioqKioK</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">CkRlcGxveQoqKioqKg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
