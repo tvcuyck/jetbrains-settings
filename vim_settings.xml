@@ -120,9 +120,6 @@
         <mark key="]" line="24" column="77" />
         <mark key="." line="24" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/metis_pipeline_test_data/rspec_pipeline.yml" timestamp="1592983470159">
-        <mark key="'" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_data_entry_repository_spec.rb" timestamp="1593416550302">
         <mark key="[" line="1181" column="17" />
         <mark key="]" line="1181" column="23" />
@@ -144,12 +141,25 @@
         <mark key="]" line="30" column="0" />
         <mark key="." line="30" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/federation_server_pipeline/federation_server.ttl" timestamp="1594713579326">
+        <mark key="[" line="611" column="4" />
+        <mark key="]" line="611" column="4" />
+        <mark key="." line="611" column="4" />
+        <mark key="^" line="611" column="4" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/filter/search_node.rb" timestamp="1593179578944">
         <mark key="[" line="86" column="0" />
         <mark key="]" line="86" column="0" />
         <mark key="." line="86" column="0" />
         <mark key="^" line="23" column="33" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/federation_server_pipeline/protein.csv" timestamp="1594713189398">
+        <mark key="[" line="0" column="64" />
+        <mark key="]" line="0" column="45" />
+        <mark key="." line="0" column="44" />
+        <mark key="^" line="0" column="45" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/federation_server_data.sparql" timestamp="1594713410856" />
       <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/sample_id_repository.rb" timestamp="1594373769284" />
       <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/env" timestamp="1594117034835">
         <mark key="[" line="13" column="0" />
@@ -196,8 +206,8 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAtdiAvdG1wL3Rlc3RfcGlwZWxpbmVzOi9waXBlbGluZSBcCg==</text>
+      <register name="&quot;" type="8">
+        <text encoding="base64">IAogCiA=</text>
       </register>
       <register name="-" type="4">
         <text>Build with input tag</text>
@@ -208,32 +218,32 @@
       <register name="0" type="2">
         <text encoding="base64">Y3AgLVIgJHtIRVJFfS8uLi8uLi9zcGVjL2ZpeHR1cmVzL3JzcGVjX3BpcGVsaW5lLyogJHtIRVJFfS9kYXRhL3NvdXJjZV9kYXRhCg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAtdiAvdG1wL3Rlc3RfcGlwZWxpbmVzOi9waXBlbGluZSBcCg==</text>
+      <register name="1" type="8">
+        <text encoding="base64">IAogCiA=</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">CiMgU3RhcnQgRElTUU9WRVIgYW5kIHNlZWQgdGhlIGZpeHR1cmUgZGF0YSB1c2luZyBESVNRT1ZFUiBjbGllbnQKJHtIRVJFfS8uLi8uLi9kaXNxb3Zlci1kb2NrZXIvc2NyaXB0cy9kaXNxb3Zlcl9zZXR1cC5zaCAtcyBiYXNlLG1ldGlzLGlyaXMsdGhlbWlzLGJhY2tlbmQgLXkgLWYgLmVudi1kb2NrZXItY29tcG9zZSAtcCB0ZXN0IC1kICR7SEVSRX0vc2VlZF9kYXRhLmpzb24K</text>
+      <register name="2" type="8">
+        <text encoding="base64">IAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIA==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBzdHJpbmcobmFtZTonVEFHJywgZGVmYXVsdFZhbHVlOiAnJywgZGVzY3JpcHRpb246ICdUaGUgdGFnIG9mIHRoZSBidWlsdCBkb2NrZXIgaW1hZ2UsIGRlZmF1bHQgaXMgZ2l0IGJyYW5jaCBvciB0YWcgaWRlbnRpZmllcicp</text>
+        <text encoding="base64">Cgp9OwoKSU5TRVJUIElOVE8gPGh0dHA6Ly90ZXN0Lm9udG9mb3JjZS5jb20vZmVkZXJhdGlvbl9zZXJ2ZXI+IHsK</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzdHJpbmcobmFtZTonVEFHJywgZGVmYXVsdFZhbHVlOiAnJywgZGVzY3JpcHRpb246ICdUaGUgdGFnIG9mIHRoZSBidWlsdCBkb2NrZXIgaW1hZ2UsIGRlZmF1bHQgaXMgZ2l0IGJyYW5jaCBvciB0YWcgaWRlbnRpZmllcicp</text>
+      <register name="4" type="8">
+        <text encoding="base64">IAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAogCiAKIAog</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBzdHJpbmcobmFtZTonVEFHJywgZGVmYXVsdFZhbHVlOiAnJywgZGVzY3JpcHRpb246ICdUaGUgdGFnIG9mIHRoZSBidWlsdCBkb2NrZXIgaW1hZ2UsIGRlZmF1bHQgaXMgZ2l0IGJyYW5jaCBvciB0YWcgaWRlbnRpZmllcicpCg==</text>
+      <register name="5" type="8">
+        <text encoding="base64">ICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICA=</text>
       </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="6" type="8">
+        <text encoding="base64">ICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICA=</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="7" type="8">
+        <text encoding="base64">ICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICA=</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIElNQUdFX1RBRyA9ICJvbnRvZm9yY2UvYmFja2VuZDoke2JyYW5jaH0iCg==</text>
+      <register name="8" type="8">
+        <text encoding="base64">ICAKICAKICAKICAKICAKICAKICAKICAKICAKICAKICA=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIGJyYW5jaD0iJHtHSVRfQlJBTkNIfSIKICAgICAgICAgICAgICAgICAgIGJyYW5jaD1icmFuY2guc3Vic3RyaW5nKGJyYW5jaC5pbmRleE9mKCIvIikrMSkKICAgICAgICAgICAgICAgICAgIGJyYW5jaD1icmFuY2gucmVwbGFjZUFsbCgnW15hLXpBLVowLTkuLV0nLCAiLSIpCiAgICAgICAgICAgICAgICAgICBicmFuY2g9YnJhbmNoLnJlcGxhY2VBbGwoJy17Mix9JywgIi0iKQo=</text>
+        <text encoding="base64">IyBubyBzZWxmIHJlZmVyZW5jZQo=</text>
       </register>
       <register name=":" type="4">
         <text>87</text>
