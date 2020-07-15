@@ -97,11 +97,6 @@
         <mark key="^" line="515" column="47" />
         <mark key="." line="501" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/federation_client_pipeline/client_data/federation_local.ttl" timestamp="1594737779894">
-        <mark key="[" line="5" column="0" />
-        <mark key="]" line="4" column="43" />
-        <mark key="." line="5" column="0" />
-      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/.docker/ci/up.sh" timestamp="1594804508383">
         <mark key="[" line="25" column="77" />
         <mark key="]" line="25" column="0" />
@@ -142,6 +137,12 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/solr_query_executor.rb" timestamp="1594797644165">
         <mark key="[" line="22" column="71" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/collection_service.rb" timestamp="1594808611606">
+        <mark key="[" line="27" column="22" />
+        <mark key="]" line="31" column="0" />
+        <mark key="^" line="31" column="0" />
+        <mark key="." line="31" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/metis_configurations/federation_server_data.sparql" timestamp="1594807585969" />
       <file name="/fragment.rb" timestamp="1594797133678">
         <mark key="[" line="0" column="0" />
@@ -150,9 +151,14 @@
         <mark key="[" line="2" column="39" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/federation_service.rb" timestamp="1594796998278" />
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/solr_index.rb" timestamp="1594797146698">
-        <mark key="[" line="12" column="28" />
-        <mark key="]" line="12" column="45" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_index_configuration_repository.rb" timestamp="1594808680630">
+        <mark key="[" line="82" column="0" />
+        <mark key="]" line="82" column="0" />
+        <mark key="." line="82" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/solr_index.rb" timestamp="1594808676039">
+        <mark key="[" line="12" column="0" />
+        <mark key="]" line="12" column="46" />
         <mark key="^" line="12" column="45" />
         <mark key="." line="12" column="44" />
       </file>
@@ -161,9 +167,6 @@
         <mark key="]" line="55" column="2" />
         <mark key="^" line="55" column="2" />
         <mark key="." line="55" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/federation_client_pipeline/client_data/federation_client.ttl" timestamp="1594737784870">
-        <mark key="[" line="2" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -204,11 +207,8 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="8">
-        <text>_:genid6
-_:genid6
-_:genid6
-_:genid6</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IA==</text>
@@ -216,19 +216,22 @@ _:genid6</text>
       <register name="/" type="4">
         <text>indexing</text>
       </register>
-      <register name="0" type="8">
-        <text encoding="base64">PGh0dHA6Ly9vbnRvZm9yY2UuY29tL2NvdW50cnlfc3RhdC9ubD4=</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgJ2h0dHA6Ly9sb2NhbGhvc3Q6ODk4Ni9zb2xyL2NvcmVfc2VydmVyJwo=</text>
       </register>
-      <register name="1" type="8">
+      <register name="1" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="8">
         <text>_:genid6
 _:genid6
 _:genid6
 _:genid6</text>
       </register>
-      <register name="2" type="2">
+      <register name="3" type="2">
         <text encoding="base64">PGh0dHA6Ly9vbnRvZm9yY2UuY29tL2NvdW50cnlfc3RhdC9iZT4K</text>
       </register>
-      <register name="3" type="8">
+      <register name="4" type="8">
         <text>_:genid7
 _:genid7
 _:genid7
@@ -241,13 +244,13 @@ _:genid8
 _:genid8
 _:genid8</text>
       </register>
-      <register name="4" type="2">
+      <register name="5" type="2">
         <text encoding="base64">PGh0dHA6Ly9vbnRvZm9yY2UuY29tL3Jlc2VhcmNoZXIvMDAxPiA8aHR0cDovL29udG9mb3JjZS5jb20vcHJvcHMvYXdhcmQ+IF86Z2VuaWQxIC4KPGh0dHA6Ly9vbnRvZm9yY2UuY29tL3Jlc2VhcmNoZXIvMDAxPiA8aHR0cDovL29udG9mb3JjZS5jb20vcHJvcHMvYXdhcmQ+IF86Z2VuaWQyIC4K</text>
       </register>
-      <register name="5" type="2">
+      <register name="6" type="2">
         <text encoding="base64">PGh0dHA6Ly9vbnRvZm9yY2UuY29tL3Jlc2VhcmNoZXIvMDAyPiA8aHR0cDovL29udG9mb3JjZS5jb20vcHJvcHMvYXdhcmQ+IF86Z2VuaWQzIC4KPGh0dHA6Ly9vbnRvZm9yY2UuY29tL3Jlc2VhcmNoZXIvMDAyPiA8aHR0cDovL29udG9mb3JjZS5jb20vcHJvcHMvYXdhcmQ+IF86Z2VuaWQ0IC4K</text>
       </register>
-      <register name="6" type="8">
+      <register name="7" type="8">
         <text>_:genid1
 _:genid1
 _:genid1
@@ -258,7 +261,7 @@ _:genid2
 _:genid2
 _:genid2</text>
       </register>
-      <register name="7" type="8">
+      <register name="8" type="8">
         <text>_:genid3
 _:genid3
 _:genid3
@@ -269,13 +272,8 @@ _:genid4
 _:genid4
 _:genid4</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">PGh0dHA6Ly9vbnRvZm9yY2UuY29tL3Jlc2VhcmNoZXIvMDAzPiA8aHR0cDovL29udG9mb3JjZS5jb20vcHJvcHMvYXdhcmQ+IF86Z2VuaWQ2IC4K</text>
-      </register>
-      <register name="9" type="8">
-        <text>:genid5
-:genid5
-:genid5</text>
       </register>
       <register name=":" type="4">
         <text>87</text>
