@@ -14,6 +14,7 @@
         <entry>add_instances</entry>
         <entry>multiple</entry>
         <entry>indexing</entry>
+        <entry>metis</entry>
       </history-search>
       <history-cmd>
         <entry>441</entry>
@@ -102,9 +103,6 @@
       <file name="$USER_HOME$/Disqover/iris/requirements-test.txt" timestamp="1597325892121">
         <mark key="[" line="10" column="25" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover/libs/metis/requirements-test.txt" timestamp="1597242844303">
-        <mark key="[" line="15" column="13" />
-      </file>
       <file name="$USER_HOME$/Disqover/metis/src/metis/pipeline.py" timestamp="1597324975633">
         <mark key="[" line="315" column="0" />
       </file>
@@ -117,7 +115,10 @@
         <mark key="^" line="937" column="53" />
         <mark key="." line="937" column="52" />
       </file>
-      <file name="/Dummy.txt" timestamp="1597326112936">
+      <file name="$USER_HOME$/Disqover/utilities/update_disqover_jenkins/Jenkinsfile" timestamp="1597386106302">
+        <mark key="[" line="62" column="71" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1597386596771">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -142,7 +143,6 @@
       <file name="$USER_HOME$/Disqover/metis/scripts/upgrade_dependency.py" timestamp="1597326001297">
         <mark key="[" line="8" column="59" />
       </file>
-      <file name="$USER_HOME$/Disqover/metis/doc/pyenv.md" timestamp="1597300681806" />
       <file name="$USER_HOME$/Disqover/themis/scripts/upgrade_dependency.py" timestamp="1597326104138">
         <mark key="[" line="8" column="72" />
         <mark key="]" line="8" column="72" />
@@ -190,6 +190,7 @@
       <jump line="130" column="0" filename="$USER_HOME$/Disqover/disqover-backend/app/models/facet.rb" />
       <jump line="0" column="0" filename="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/metis_pipeline_test_data/rspec_pipeline.yml" />
       <jump line="27" column="18" filename="$USER_HOME$/Disqover/infrastructure/terraform/6b-disqover-logging-pipeline/ami/files/update-logs.sh" />
+      <jump line="64" column="44" filename="$USER_HOME$/Disqover/utilities/update_disqover_jenkins/Jenkinsfile" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -201,7 +202,7 @@
         <text>,</text>
       </register>
       <register name="/" type="4">
-        <text>indexing</text>
+        <text>metis</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIHdpdGggb3BlbignL3RtcC9sb2dnZy50eHQnLCAndycpIGFzIGxvZzoKICAgICAgICBsb2cud3JpdGUoIlRlc3QgMSIpCg==</text>
@@ -240,9 +241,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>indexing</last-search>
+      <last-search>metis</last-search>
       <last-offset />
-      <last-pattern>indexing</last-pattern>
+      <last-pattern>metis</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
