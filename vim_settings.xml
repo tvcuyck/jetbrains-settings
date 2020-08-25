@@ -94,6 +94,17 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="/a.dummy" timestamp="1598348872315">
+        <mark key="[" line="0" column="6" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/lib/disqover_api_lib/disqover/api/system_settings/__init__.py" timestamp="1598348888433">
+        <mark key="[" line="0" column="26" />
+      </file>
+      <file name="$USER_HOME$/Disqover/metis/lib/disqover_api_lib/disqover/models/admin/system_setting.py" timestamp="1598349416601">
+        <mark key="[" line="1" column="51" />
+        <mark key="]" line="10" column="0" />
+        <mark key="." line="10" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/metis/lib/disqover_api_lib/disqover/api/resources/__init__.py" timestamp="1598281916795">
         <mark key="[" line="0" column="26" />
       </file>
@@ -116,22 +127,18 @@
       <file name="$USER_HOME$/Disqover/metis/lib/disqover_api_lib/disqover/api/files/api.py" timestamp="1598336710015">
         <mark key="[" line="6" column="6" />
       </file>
+      <file name="$USER_HOME$/Disqover/metis/lib/disqover_api_lib/disqover/api/system_settings/api.py" timestamp="1598348971141">
+        <mark key="[" line="5" column="34" />
+        <mark key="]" line="7" column="54" />
+        <mark key="." line="7" column="53" />
+        <mark key="^" line="7" column="54" />
+      </file>
       <file name="$USER_HOME$/Disqover/metis/lib/disqover_api_lib/disqover/api/files/__init__.py" timestamp="1598280117376">
         <mark key="[" line="0" column="30" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1597386596771">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
       </file>
       <file name="/api.py" timestamp="1598341403870">
         <mark key="[" line="24" column="0" />
         <mark key="]" line="29" column="24" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-docker/scripts/update_disqover.sh" timestamp="1597394693369">
-        <mark key="[" line="172" column="0" />
-        <mark key="]" line="172" column="0" />
-        <mark key="." line="172" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/metis/lib/disqover_api_lib/disqover/models/managed_files/managed_file.py" timestamp="1598345327119">
         <mark key="[" line="11" column="32" />
@@ -187,7 +194,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRhdGE9Y2xlYW5fZGljdCh7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZDogcmVzb3VyY2VfaWQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RlOiBtb2RlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudDogY29udGVudCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZpZWxkczogZmllbGRzCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pKQo=</text>
+        <text encoding="base64">ICAgIHNlbGYuZ3VpZCA9IGd1aWQK</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IA==</text>
@@ -199,9 +206,21 @@
         <text encoding="base64">ICAgICAgICBzdXBlcigpLl9pbml0X18oc2Vzc2lvbikK</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgIHNlbGYuZ3VpZCA9IGd1aWQK</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ZnJvbSBkaXNxb3Zlci5tb2RlbHMuZGF0YV9pbmdlc3Rpb24ucGlwZWxpbmUgaW1wb3J0IFBpcGVsaW5lcwojIGZyb20gZGlzcW92ZXIubW9kZWxzLmRhdGFfaW5nZXN0aW9uLmNvbXBvbmVudF90eXBlIGltcG9ydCBDb21wb25lbnRUeXBlcwo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ZnJvbSBkaXNxb3Zlci5hcGkuZGlzcW92ZXJfc2Vzc2lvbiBpbXBvcnQgRGlzcW92ZXJTZXNzaW9uCg==</text>
+      </register>
+      <register name="4" type="2">
+        <text>class System</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRhdGE9Y2xlYW5fZGljdCh7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZDogcmVzb3VyY2VfaWQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RlOiBtb2RlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudDogY29udGVudCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZpZWxkczogZmllbGRzCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pKQo=</text>
       </register>
-      <register name="2" type="8">
+      <register name="6" type="8">
         <text>#
 #
 #
@@ -210,26 +229,14 @@
 #
 #</text>
       </register>
-      <register name="3" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICMgICAgIHJlc3VsdCA9IHNlbGYuZGlzcW92ZXJfc2Vzc2lvbi5wb3N0KCcvYXBpL3Jlc291cmNlcycsCiAgICAjICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkYXRhPWNsZWFuX2RpY3QoewogICAgIyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlkOiByZXNvdXJjZV9pZCwKICAgICMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RlOiBtb2RlLAogICAgIyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnQ6IGNvbnRlbnQsCiAgICAjICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZmllbGRzOiBmaWVsZHMKICAgICMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pKQo=</text>
       </register>
-      <register name="4" type="2">
+      <register name="8" type="2">
         <text encoding="base64">IyBjbGFzcyBSZXNvdXJjZShBUElPYmplY3QpOgo=</text>
       </register>
-      <register name="5" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAgICAgaWYgc29ydF9ieSBub3QgaW4gc2VsZi5zb3J0X2F0dHJpYnV0ZXM6CiAgICAgICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYnSW52YWxpZCBzb3J0IGF0dHJpYnV0ZToge3NvcnRfYnl9OyBtdXN0IGJlIGFueSBvZiB7IiwgIi5qb2luKHNlbGYuc29ydF9hdHRyaWJ1dGVzKX0nKQo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="9" type="8">
-        <text encoding="base64">ICAgICAgICAgCiAgICAgICAgIAogICAgICAgICAKICAgICAgICAgCiAgICAgICAgIAogICAgICAgICAKICAgICAgICAgCiAgICAgICAgIAogICAgICAgICAKICAgICAgICAgCiAgICAgICAgIA==</text>
       </register>
       <register name=":" type="4">
         <text>625</text>
