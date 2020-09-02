@@ -90,6 +90,11 @@
       <file name="/Ruby Console" timestamp="1598964215840">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/candidate_facet_spec.rb" timestamp="1599040897944">
+        <mark key="[" line="597" column="0" />
+        <mark key="]" line="597" column="0" />
+        <mark key="." line="597" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/solr_index_spec.rb" timestamp="1598960077879" />
       <file name="$USER_HOME$/Disqover/disqover-backend/app/visitors/inline_instances_for_links_solr_visitor.rb" timestamp="1598961637888">
         <mark key="[" line="17" column="0" />
@@ -195,7 +200,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBSYWlscy5sb2dnZXIuZGVidWcoIjEiKQo=</text>
+        <text encoding="base64">ICAgICAgZXhwZWN0KG1lcmdlZC4pCg==</text>
       </register>
       <register name="-" type="4">
         <text>e</text>
@@ -204,36 +209,35 @@
         <text>data_origin</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBSYWlscy5sb2dnZXIuZGVidWcoIjEiKQo=</text>
+        <text encoding="base64">CiAgICBpdCAncmV0dXJucyBnbG9iYWwgbWluIGFuZCBtYXggaWYgb3RoZXIgaGFzIG5vIHZhbHVlcycgZG8KICAgICAgc3RhdHNfMSA9IHsgJ3N0YXJ0JyA9PiAxMCwgJ3N0b3AnID0+IDIwLCAnc3RlcCcgPT4gMzAsICdkYXRhX21pbicgPT4gMSwgJ2RhdGFfbWF4JyA9PiA1LCAnY291bnQnID0+IDEwMCB9CiAgICAgIHN0YXRzXzIgPSB7ICdzdGFydCcgPT4gMTAsICdzdG9wJyA9PiAyMCwgJ3N0ZXAnID0+IDMwIH0KICAgICAgY2ZfMSA9IENhbmRpZGF0ZUZhY2V0Lm5ldygnbGFsYScsIFtdLCAyNSwgbmlsLG5pbCwgeyBoaXN0b2dyYW1fc3RhdHM6IEhpc3RvZ3JhbUZhY2V0U3RhdHMuZnJvbV9qc29uKHN0YXRzXzEpIH0pCiAgICAgIGNmXzIgPSBDYW5kaWRhdGVGYWNldC5uZXcoJ2xhbGEnLCBbXSwgMTAsIG5pbCxuaWwsIHsgaGlzdG9ncmFtX3N0YXRzOiBIaXN0b2dyYW1GYWNldFN0YXRzLmZyb21fanNvbihzdGF0c18yKSB9KQoKICAgICAgbWVyZ2VkID0gY2ZfMS5tZXJnZV9hbmRfa2VlcF9zdGF0c19vbmx5KGNmXzIpCiAgICAgIGV4cGVjdChtZXJnZWQuaGlzdG9ncmFtX3N0YXRzLmFzX2pzb24pLnRvIGVxKHsiZGF0YV9tYXgiPT41LCAiZGF0YV9taW4iPT4xLCAic3RhcnQiPT5uaWwsICJzdGVwIj0+bmlsLCAic3RvcCI9Pm5pbH0pCiAgICBlbmQK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgZXhwZWN0KG1lcmdlZC4pCg==</text>
       </register>
-      <register name="2" type="8">
-        <text>@
-@</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgbWVyZ2VkID0gCg==</text>
       </register>
       <register name="3" type="8">
-        <text>other.histogram_stats.data_min
-other.histogram_stats.data_max</text>
+        <text>merged.histogram_stats.as_json</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBAaGlzdG9ncmFtX3N0YXRzID0gb3RoZXIuaGlzdG9ncmFtX3N0YXRzLmR1cAo=</text>
+        <text encoding="base64">ICAgICAgc3RhdHNfMiA9IHsgJ3N0YXJ0JyA9PiAxMCwgJ3N0b3AnID0+IDIwLCAnc3RlcCcgPT4gMzAgfQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIFJhaWxzLmxvZ2dlci5kZWJ1ZyhzdGF0c19vbmx5KQo=</text>
+        <text encoding="base64">ICAgICAgc3RhdHNfMSA9IHsgJ3N0YXJ0JyA9PiAxMCwgJ3N0b3AnID0+IDIwLCAnc3RlcCcgPT4gMzAgfQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIFJhaWxzLmxvZ2dlci5kZWJ1Zyhsb2NhbF9mYWNldCkKICAgIFJhaWxzLmxvZ2dlci5kZWJ1ZyhyZW1vdGVfZmFjZXQpCg==</text>
+        <text encoding="base64">ICAgICAgc3RhdHNfMSA9IHsgJ3N0YXJ0JyA9PiAxMCwgJ3N0b3AnID0+IDIwLCAnc3RlcCcgPT4gMzAgfQo=</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIFJhaWxzLmxvZ2dlci5kZWJ1ZyhyZXN1bHQpCg==</text>
+      <register name="7" type="8">
+        <text>let(:
+let(:</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIFJhaWxzLmxvZ2dlci5kZWJ1ZyhzZWxmKQo=</text>
+        <text encoding="base64">ICAgICAgbGV0KDpzdGF0c18zKSB7IHsgJ3N0YXJ0JyA9PiAyMCwgJ3N0b3AnID0+IDMwLCAnc3RlcCcgPT4gNDAgfSB9Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIEBjYW5kaWNhdGVfZmFjZXRfdmFsdWVzID0gW10K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>73</text>
