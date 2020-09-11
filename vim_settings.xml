@@ -103,7 +103,7 @@
         <mark key="^" line="48" column="57" />
         <mark key="." line="48" column="0" />
       </file>
-      <file name="/Ruby Console" timestamp="1599809739136">
+      <file name="/Ruby Console" timestamp="1599821525742">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/candidate_facet_spec.rb" timestamp="1599744967625">
@@ -171,11 +171,11 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/facet_sample_service_spec.rb" timestamp="1599658514252">
         <mark key="^" line="75" column="78" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/candidate_facet.rb" timestamp="1599808682347">
-        <mark key="[" line="296" column="26" />
-        <mark key="]" line="69" column="33" />
-        <mark key="." line="69" column="32" />
-        <mark key="^" line="69" column="33" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/candidate_facet.rb" timestamp="1599821969450">
+        <mark key="[" line="295" column="13" />
+        <mark key="]" line="316" column="0" />
+        <mark key="." line="316" column="0" />
+        <mark key="^" line="319" column="7" />
       </file>
     </filemarks>
     <jumps>
@@ -234,7 +234,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGZhY2V0X3VyaSA9IEBjYW5kaWRhdGVfZmFjZXRzWzBdLmtleQo=</text>
+        <text encoding="base64">ICAgIAogICAgZGVmIHN0ZXBzX2RlZmluZWQ/CiAgICAgIGFueT8oW0BzdGFydCwgQHN0b3AsIEBzdGVwXSkubmlsPyAKICAgIGVuZAo=</text>
       </register>
       <register name="-" type="4">
         <text>E</text>
@@ -246,31 +246,31 @@
         <text encoding="base64">ICAgIEBjYW5kaWRhdGVfZmFjZXRzWzEuLi0xXS5tYXAgZG8gfGNhbmRpZGF0ZV9mYWNldHwKICAgICAgcmVzdWx0Lm1lcmdlKCBjYW5kaWRhdGVfZmFjZXQsIGRpc3RpbmN0X25lZWRzX3NjYWxlOiBkaXN0aW5jdF9zY2FsZSE9MSApCiAgICBlbmQK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGZhY2V0X3VyaSA9IEBjYW5kaWRhdGVfZmFjZXRzWzBdLmtleQo=</text>
+        <text encoding="base64">ICAgIAogICAgZGVmIHN0ZXBzX2RlZmluZWQ/CiAgICAgIGFueT8oW0BzdGFydCwgQHN0b3AsIEBzdGVwXSkubmlsPyAKICAgIGVuZAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBlZWVlZWVlCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGZhY2V0X3VyaSA9IEBjYW5kaWRhdGVfZmFjZXRzWzBdLmtleQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgIyByYWlzZSBJbXBsZW1lbnRhdGlvbkVycm9yIGlmIGtlZXBfb25seV9zdGF0cwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBlbmQKICAgICAgICBleHBlY3QgeyBjZl8xLm1lcmdlKGNmXzMpIH0udG8gcmFpc2VfZXJyb3IoSW1wbGVtZW50YXRpb25FcnJvciwgL21lcmdlIHN0YXRzIGZvciB0aGUgc2FtZSByYW5nZS8pCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CiAgICAgICAgaXQgJ3Nob3VsZCBtZXJnZSB0aGUgaGlzdG9ncmFtIHN0YXRzJyBkbwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICByYWlzZSBBcmd1bWVudEVycm9yCg==</text>
+        <text encoding="base64">ICAgICAgIyByYWlzZSBJbXBsZW1lbnRhdGlvbkVycm9yIGlmIGtlZXBfb25seV9zdGF0cwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgIGl0ICdzaG91bGQgcmV0dXJuIHRoZSBoaXN0b2dyYW0gc3RhdHMnIGRvCiAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuaGlzdG9ncmFtX3N0YXRzLnN0YXJ0KS50byBiZV9uaWwKICAgICAgICAgICAgZXhwZWN0KHJlc3VsdC5oaXN0b2dyYW1fc3RhdHMuc3RvcCkudG8gYmVfbmlsCiAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuaGlzdG9ncmFtX3N0YXRzLnN0ZXApLnRvIGJlX25pbAogICAgICAgICAgICBleHBlY3QocmVzdWx0Lmhpc3RvZ3JhbV9zdGF0cy5kYXRhX21pbikudG8gZXEoJzIwMTAtMDUtMTMnKQogICAgICAgICAgICBleHBlY3QocmVzdWx0Lmhpc3RvZ3JhbV9zdGF0cy5kYXRhX21heCkudG8gZXEoJzIwMTAtMDUtMjknKQogICAgICAgICAgICBleHBlY3QocmVzdWx0Lmhpc3RvZ3JhbV9zdGF0cy5jb3VudCkudG8gYmVfbmlsCiAgICAgICAgICBlbmQKCiAgICAgICAgICBpdCAnc2hvdWxkIHJldHVybiBubyBoaXN0b2dyYW0nIGRvCiAgICAgICAgICAgIGV4cGVjdChyZXN1bHQuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcykudG8gZXEoW10pCiAgICAgICAgICBlbmQK</text>
+        <text encoding="base64">ICAgICAgICBlbmQKICAgICAgICBleHBlY3QgeyBjZl8xLm1lcmdlKGNmXzMpIH0udG8gcmFpc2VfZXJyb3IoSW1wbGVtZW50YXRpb25FcnJvciwgL21lcmdlIHN0YXRzIGZvciB0aGUgc2FtZSByYW5nZS8pCg==</text>
       </register>
       <register name=":" type="4">
         <text>133</text>
