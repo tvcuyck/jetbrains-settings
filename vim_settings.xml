@@ -107,10 +107,22 @@
       <file name="/a.dummy" timestamp="1600413077115">
         <mark key="[" line="0" column="7" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/src/disqover/models/data/instance_facet_values.py" timestamp="1600444515190">
-        <mark key="[" line="10" column="32" />
+      <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/src/disqover/models/data/instance_facet_values.py" timestamp="1600670999612">
+        <mark key="[" line="34" column="16" />
         <mark key="]" line="8" column="0" />
         <mark key="." line="8" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover/libs/metis/requirements.txt" timestamp="1600409635105">
+        <mark key="[" line="36" column="0" />
+        <mark key="]" line="36" column="12" />
+        <mark key="." line="36" column="0" />
+        <mark key="^" line="35" column="26" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/src/disqover/tests/test_data_query.py" timestamp="1600671198318">
+        <mark key="[" line="176" column="122" />
+        <mark key="]" line="176" column="28" />
+        <mark key="." line="176" column="27" />
+        <mark key="^" line="176" column="28" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover/libs/metis/celery.py" timestamp="1600412711432">
         <mark key="[" line="0" column="0" />
@@ -121,26 +133,6 @@
         <mark key="[" line="10" column="0" />
         <mark key="]" line="10" column="38" />
         <mark key="." line="10" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover/.disqover_env/lib/python3.8/site-packages/celery/app/base.py" timestamp="1600412102698" />
-      <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/src/disqover/models/data/nested_facets.py" timestamp="1600442679234">
-        <mark key="[" line="61" column="0" />
-        <mark key="]" line="66" column="46" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover/services/taskmgr/requirements.txt" timestamp="1600411075737">
-        <mark key="[" line="0" column="1" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover/libs/metis/requirements.txt" timestamp="1600409635105">
-        <mark key="[" line="36" column="0" />
-        <mark key="]" line="36" column="12" />
-        <mark key="." line="36" column="0" />
-        <mark key="^" line="35" column="26" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/src/disqover/tests/test_data_query.py" timestamp="1600443055736">
-        <mark key="[" line="126" column="25" />
-        <mark key="]" line="112" column="25" />
-        <mark key="." line="112" column="24" />
-        <mark key="^" line="112" column="25" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/src/disqover/api/data_query/api.py" timestamp="1600444542104">
         <mark key="[" line="7" column="63" />
@@ -154,6 +146,14 @@
         <mark key="^" line="14" column="17" />
         <mark key="." line="14" column="16" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-docker/docker-compose/docker-compose-taskmgr.yml" timestamp="1600670490831" />
+      <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/src/disqover/models/data/nested_facets.py" timestamp="1600442679234">
+        <mark key="[" line="61" column="0" />
+        <mark key="]" line="66" column="46" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover/services/taskmgr/requirements.txt" timestamp="1600411075737">
+        <mark key="[" line="0" column="1" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover/services/dice/src/dice/worker.py" timestamp="1600415216128">
         <mark key="[" line="0" column="27" />
         <mark key="]" line="0" column="27" />
@@ -163,7 +163,6 @@
       <file name="$USER_HOME$/Disqover/disqover/services/dice/gunicorn_conf.py" timestamp="1600411848841">
         <mark key="[" line="22" column="24" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover/services/taskmgr/src/taskmgr/worker.py" timestamp="1600412787810" />
     </filemarks>
     <jumps>
       <jump line="0" column="0" filename="$USER_HOME$/Disqover/disqover-backend/config/routes.rb" />
@@ -755,8 +754,8 @@
           <key char="65535" code="27" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="4">
-        <text>F</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgIyBzZWxmLmFzc2VydElzSW5zdGFuY2UoZmFjZXRfdmFsdWVzLmluc3RhbmNlc19mYWNldF92YWx1ZXNbMF0uZmFjZXRfdmFsdWVzWzBdLCBDYXRlZ29yaWNhbEluc3RhbmNlRmFjZXRWYWx1ZSkK</text>
       </register>
       <register name="-" type="4">
         <text>F</text>
@@ -765,7 +764,7 @@
         <text>metis</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">Y2xhc3MgQ2F0ZWdvcmljYWxJbnN0YW5jZUZhY2V0VmFsdWU6CiAgICBkZWYgX19pbml0X18oc2VsZiwgbGFiZWwsIHF1ZXJ5X3ZhbHVlKToKICAgICAgICBzZWxmLmxhYmVsID0gbGFiZWwKICAgICAgICBzZWxmLnF1ZXJ5X3ZhbHVlID0gcXVlcnlfdmFsdWUKCiAgICBAY2xhc3NtZXRob2QKICAgIGRlZiBmcm9tX3F1ZXJ5X3Jlc3VsdChjbHMsIHJlc3VsdCk6CiAgICAgICAgcmV0dXJuIGNscyhyZXN1bHRbJ2xhYmVsJ10sIHJlc3VsdFsncXVlcnlfdmFsdWUnXSkK</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyBzZWxmLmFzc2VydElzSW5zdGFuY2UoZmFjZXRfdmFsdWVzLmluc3RhbmNlc19mYWNldF92YWx1ZXNbMF0uZmFjZXRfdmFsdWVzWzBdLCBDYXRlZ29yaWNhbEluc3RhbmNlRmFjZXRWYWx1ZSkK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CmNsYXNzIEluc3RhbmNlRmFjZXRWYWx1ZToKICAgIEBjbGFzc21ldGhvZAogICAgZGVmIGZyb21fcXVlcnlfcmVzdWx0KGNscywgdmFsdWVzKToKICAgICAgICByZXR1cm4gY2xzKFsnbGFiZWwnXSwgcmVzdWx0WydxdWVyeV92YWx1ZSddKQo=</text>
