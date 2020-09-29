@@ -15,6 +15,7 @@
         <entry>multiple</entry>
         <entry>indexing</entry>
         <entry>metis</entry>
+        <entry encoding="base64">XDx3aXRoXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>202</entry>
@@ -94,32 +95,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1601381977938">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover/libs/metis/src/metis/actions/commands/start_run_action.py" timestamp="1600866963402">
-        <mark key="[" line="169" column="42" />
-        <mark key="]" line="169" column="55" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover/services/taskmgr/src/taskmgr/tasks.py" timestamp="1601015485023">
-        <mark key="[" line="7" column="0" />
-        <mark key="]" line="16" column="26" />
-        <mark key="^" line="16" column="26" />
-        <mark key="." line="16" column="25" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover/libs/metis/src/metis/celery_worker.py" timestamp="1600866615866">
-        <mark key="[" line="8" column="0" />
-        <mark key="]" line="8" column="0" />
-        <mark key="." line="8" column="0" />
-        <mark key="^" line="10" column="48" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover/services/dice/requirements.txt" timestamp="1600870914948">
-        <mark key="[" line="42" column="0" />
-        <mark key="]" line="42" column="0" />
-        <mark key="." line="42" column="0" />
-      </file>
       <file name="$USER_HOME$/Disqover/disqover/libs/metis/src/metis/metis.py" timestamp="1600868589421">
         <mark key="[" line="6" column="38" />
         <mark key="]" line="73" column="51" />
@@ -129,6 +104,13 @@
       <file name="$USER_HOME$/Disqover/disqover/services/taskmgr/gunicorn_conf.py" timestamp="1601016103495">
         <mark key="[" line="17" column="38" />
         <mark key="]" line="17" column="75" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-docker/images/solr/config/schema.xml" timestamp="1601383346443">
+        <mark key="'" line="275" column="7" />
+        <mark key="[" line="399" column="48" />
+        <mark key="]" line="399" column="55" />
+        <mark key="." line="399" column="54" />
+        <mark key="^" line="399" column="55" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover/services/taskmgr/src/taskmgr/celery_worker.py" timestamp="1601016982299">
         <mark key="[" line="37" column="57" />
@@ -147,6 +129,26 @@
         <mark key="]" line="13" column="22" />
         <mark key="^" line="13" column="22" />
         <mark key="." line="13" column="21" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1601381977938">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover/libs/metis/src/metis/actions/commands/start_run_action.py" timestamp="1600866963402">
+        <mark key="[" line="169" column="42" />
+        <mark key="]" line="169" column="55" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover/services/taskmgr/src/taskmgr/tasks.py" timestamp="1601015485023">
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="16" column="26" />
+        <mark key="^" line="16" column="26" />
+        <mark key="." line="16" column="25" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover/services/dice/requirements.txt" timestamp="1600870914948">
+        <mark key="[" line="42" column="0" />
+        <mark key="]" line="42" column="0" />
+        <mark key="." line="42" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover/services/dice/src/dice/worker.py" timestamp="1600930946040">
         <mark key="[" line="2" column="38" />
@@ -210,6 +212,8 @@
       <jump line="83" column="0" filename="$USER_HOME$/Disqover/disqover/libs/disqover_api/src/disqover/models/resource/resource.py" />
       <jump line="16" column="0" filename="$USER_HOME$/Disqover/utilities/devops/jenkins/deploy-disqover-jenkinsfile.groovy" />
       <jump line="15" column="10" filename="$USER_HOME$/Disqover/disqover/services/taskmgr/requirements.txt" />
+      <jump line="165" column="64" filename="$USER_HOME$/Disqover/disqover-docker/images/solr/config/schema.xml" />
+      <jump line="275" column="7" filename="$USER_HOME$/Disqover/disqover-docker/images/solr/config/schema.xml" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -228,17 +232,17 @@
           <key char="65535" code="39" mods="0" />
         </keys>
       </register>
-      <register name="&quot;" type="8">
-        <text>'taskmgr-celerybeat'</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">CiAgICA8IS0tIEEgdGV4dCBmaWVsZCB3aXRoIGRlZmF1bHRzIGFwcHJvcHJpYXRlIGZvciBFbmdsaXNoOiBpdAogICAgICAgICB0b2tlbml6ZXMgd2l0aCBTdGFuZGFyZFRva2VuaXplciwgcmVtb3ZlcyBFbmdsaXNoIHN0b3Agd29yZHMKICAgICAgICAgKGxhbmcvc3RvcHdvcmRzX2VuLnR4dCksIGRvd24gY2FzZXMsIHByb3RlY3RzIHdvcmRzIGZyb20gcHJvdHdvcmRzLnR4dCwgYW5kCiAgICAgICAgIGZpbmFsbHkgYXBwbGllcyBQb3J0ZXIncyBzdGVtbWluZy4gIFRoZSBxdWVyeSB0aW1lIGFuYWx5emVyCiAgICAgICAgIGFsc28gYXBwbGllcyBzeW5vbnltcyBmcm9tIHN5bm9ueW1zLnR4dC4gLS0+CiAgICA8ZmllbGRUeXBlIG5hbWU9InRleHRfb250byIgY2xhc3M9InNvbHIuVGV4dEZpZWxkIiBwb3NpdGlvbkluY3JlbWVudEdhcD0iMTAwIj4KICAgICAgPGFuYWx5emVyIHR5cGU9ImluZGV4Ij4KICAgICAgICA8Y2hhckZpbHRlciBjbGFzcz0ic29sci5QYXR0ZXJuUmVwbGFjZUNoYXJGaWx0ZXJGYWN0b3J5IiBwYXR0ZXJuPSJAW2EtekEtWjAtOSstXVthLXpBLVowLTkrLV0kIiByZXBsYWNlbWVudD0iIiAvPgogICAgICAgIDxjaGFyRmlsdGVyIGNsYXNzPSJzb2xyLlBhdHRlcm5SZXBsYWNlQ2hhckZpbHRlckZhY3RvcnkiIHBhdHRlcm49Il8iIHJlcGxhY2VtZW50PSIgIiAvPgogICAgICAgIDx0b2tlbml6ZXIgY2xhc3M9InNvbHIuVUFYMjlVUkxFbWFpbFRva2VuaXplckZhY3RvcnkiLz4KICAgICAgICA8IS0tIGluIHRoaXMgZXhhbXBsZSwgd2Ugd2lsbCBvbmx5IHVzZSBzeW5vbnltcyBhdCBxdWVyeSB0aW1lCiAgICAgICAgPGZpbHRlciBjbGFzcz0ic29sci5TeW5vbnltRmlsdGVyRmFjdG9yeSIgc3lub255bXM9ImluZGV4X3N5bm9ueW1zLnR4dCIgaWdub3JlQ2FzZT0idHJ1ZSIgZXhwYW5kPSJmYWxzZSIvPgogICAgICAgIC0tPgogICAgICAgIDwhLS0gQ2FzZSBpbnNlbnNpdGl2ZSBzdG9wIHdvcmQgcmVtb3ZhbC4KICAgICAgICAtLT4KICAgICAgICA8ZmlsdGVyIGNsYXNzPSJzb2xyLlN0b3BGaWx0ZXJGYWN0b3J5IgogICAgICAgICAgaWdub3JlQ2FzZT0idHJ1ZSIKICAgICAgICAgIHdvcmRzPSJsYW5nL3N0b3B3b3Jkc19lbi50eHQiCiAgICAgICAgICAvPgogICAgICAgIDxmaWx0ZXIgY2xhc3M9InNvbHIuTG93ZXJDYXNlRmlsdGVyRmFjdG9yeSIvPgogICAgICAgIDxmaWx0ZXIgY2xhc3M9InNvbHIuRW5nbGlzaFBvc3Nlc3NpdmVGaWx0ZXJGYWN0b3J5Ii8+CiAgICAgICAgPCEtLSAgICAgICA8ZmlsdGVyIGNsYXNzPSJzb2xyLktleXdvcmRNYXJrZXJGaWx0ZXJGYWN0b3J5IiBwcm90ZWN0ZWQ9InByb3R3b3Jkcy50eHQiLz4KICBPcHRpb25hbGx5IHlvdSBtYXkgd2FudCB0byB1c2UgdGhpcyBsZXNzIGFnZ3Jlc3NpdmUgc3RlbW1lciBpbnN0ZWFkIG9mIFBvcnRlclN0ZW1GaWx0ZXJGYWN0b3J5OgogICAgICAgICA8ZmlsdGVyIGNsYXNzPSJzb2xyLkVuZ2xpc2hNaW5pbWFsU3RlbUZpbHRlckZhY3RvcnkiLz4KICA8ZmlsdGVyIGNsYXNzPSJzb2xyLlBvcnRlclN0ZW1GaWx0ZXJGYWN0b3J5Ii8+IC0tPgoKICAgICAgPC9hbmFseXplcj4KICAgICAgPGFuYWx5emVyIHR5cGU9InF1ZXJ5Ij4KICAgICAgICA8Y2hhckZpbHRlciBjbGFzcz0ic29sci5QYXR0ZXJuUmVwbGFjZUNoYXJGaWx0ZXJGYWN0b3J5IiBwYXR0ZXJuPSJfIiByZXBsYWNlbWVudD0iICIgLz4KICAgICAgICA8dG9rZW5pemVyIGNsYXNzPSJzb2xyLlVBWDI5VVJMRW1haWxUb2tlbml6ZXJGYWN0b3J5Ii8+CiAgICAgICAgPCEtLSAgPGZpbHRlciBjbGFzcz0ic29sci5TeW5vbnltRmlsdGVyRmFjdG9yeSIgc3lub255bXM9InN5bm9ueW1zLnR4dCIgaWdub3JlQ2FzZT0idHJ1ZSIgZXhwYW5kPSJ0cnVlIi8+LS0+CiAgICAgICAgPGZpbHRlciBjbGFzcz0ic29sci5TdG9wRmlsdGVyRmFjdG9yeSIKICAgICAgICAgIGlnbm9yZUNhc2U9InRydWUiCiAgICAgICAgICB3b3Jkcz0ibGFuZy9zdG9wd29yZHNfZW4udHh0IgogICAgICAgICAgLz4KICAgICAgICA8ZmlsdGVyIGNsYXNzPSJzb2xyLkxvd2VyQ2FzZUZpbHRlckZhY3RvcnkiLz4KICAgICAgICA8ZmlsdGVyIGNsYXNzPSJzb2xyLkVuZ2xpc2hQb3NzZXNzaXZlRmlsdGVyRmFjdG9yeSIvPgogICAgICAgIDwhLS0gICAgICA8ZmlsdGVyIGNsYXNzPSJzb2xyLktleXdvcmRNYXJrZXJGaWx0ZXJGYWN0b3J5IiBwcm90ZWN0ZWQ9InByb3R3b3Jkcy50eHQiLz4KICBPcHRpb25hbGx5IHlvdSBtYXkgd2FudCB0byB1c2UgdGhpcyBsZXNzIGFnZ3Jlc3NpdmUgc3RlbW1lciBpbnN0ZWFkIG9mIFBvcnRlclN0ZW1GaWx0ZXJGYWN0b3J5OgogICAgICAgIDxmaWx0ZXIgY2xhc3M9InNvbHIuRW5nbGlzaE1pbmltYWxTdGVtRmlsdGVyRmFjdG9yeSIvPgogICA8ZmlsdGVyIGNsYXNzPSJzb2xyLlBvcnRlclN0ZW1GaWx0ZXJGYWN0b3J5Ii8+LS0+CgogICAgICA8L2FuYWx5emVyPgogICAgPC9maWVsZFR5cGU+Cg==</text>
       </register>
       <register name="-" type="4">
         <text>,</text>
       </register>
       <register name="/" type="4">
-        <text>metis</text>
+        <text encoding="base64">XDx3aXRoXD4=</text>
       </register>
-      <register name="0" type="8">
-        <text>'taskmgr-celerybeat'</text>
+      <register name="0" type="2">
+        <text encoding="base64">CiAgICA8IS0tIEEgdGV4dCBmaWVsZCB3aXRoIGRlZmF1bHRzIGFwcHJvcHJpYXRlIGZvciBFbmdsaXNoOiBpdAogICAgICAgICB0b2tlbml6ZXMgd2l0aCBTdGFuZGFyZFRva2VuaXplciwgcmVtb3ZlcyBFbmdsaXNoIHN0b3Agd29yZHMKICAgICAgICAgKGxhbmcvc3RvcHdvcmRzX2VuLnR4dCksIGRvd24gY2FzZXMsIHByb3RlY3RzIHdvcmRzIGZyb20gcHJvdHdvcmRzLnR4dCwgYW5kCiAgICAgICAgIGZpbmFsbHkgYXBwbGllcyBQb3J0ZXIncyBzdGVtbWluZy4gIFRoZSBxdWVyeSB0aW1lIGFuYWx5emVyCiAgICAgICAgIGFsc28gYXBwbGllcyBzeW5vbnltcyBmcm9tIHN5bm9ueW1zLnR4dC4gLS0+CiAgICA8ZmllbGRUeXBlIG5hbWU9InRleHRfb250byIgY2xhc3M9InNvbHIuVGV4dEZpZWxkIiBwb3NpdGlvbkluY3JlbWVudEdhcD0iMTAwIj4KICAgICAgPGFuYWx5emVyIHR5cGU9ImluZGV4Ij4KICAgICAgICA8Y2hhckZpbHRlciBjbGFzcz0ic29sci5QYXR0ZXJuUmVwbGFjZUNoYXJGaWx0ZXJGYWN0b3J5IiBwYXR0ZXJuPSJAW2EtekEtWjAtOSstXVthLXpBLVowLTkrLV0kIiByZXBsYWNlbWVudD0iIiAvPgogICAgICAgIDxjaGFyRmlsdGVyIGNsYXNzPSJzb2xyLlBhdHRlcm5SZXBsYWNlQ2hhckZpbHRlckZhY3RvcnkiIHBhdHRlcm49Il8iIHJlcGxhY2VtZW50PSIgIiAvPgogICAgICAgIDx0b2tlbml6ZXIgY2xhc3M9InNvbHIuVUFYMjlVUkxFbWFpbFRva2VuaXplckZhY3RvcnkiLz4KICAgICAgICA8IS0tIGluIHRoaXMgZXhhbXBsZSwgd2Ugd2lsbCBvbmx5IHVzZSBzeW5vbnltcyBhdCBxdWVyeSB0aW1lCiAgICAgICAgPGZpbHRlciBjbGFzcz0ic29sci5TeW5vbnltRmlsdGVyRmFjdG9yeSIgc3lub255bXM9ImluZGV4X3N5bm9ueW1zLnR4dCIgaWdub3JlQ2FzZT0idHJ1ZSIgZXhwYW5kPSJmYWxzZSIvPgogICAgICAgIC0tPgogICAgICAgIDwhLS0gQ2FzZSBpbnNlbnNpdGl2ZSBzdG9wIHdvcmQgcmVtb3ZhbC4KICAgICAgICAtLT4KICAgICAgICA8ZmlsdGVyIGNsYXNzPSJzb2xyLlN0b3BGaWx0ZXJGYWN0b3J5IgogICAgICAgICAgaWdub3JlQ2FzZT0idHJ1ZSIKICAgICAgICAgIHdvcmRzPSJsYW5nL3N0b3B3b3Jkc19lbi50eHQiCiAgICAgICAgICAvPgogICAgICAgIDxmaWx0ZXIgY2xhc3M9InNvbHIuTG93ZXJDYXNlRmlsdGVyRmFjdG9yeSIvPgogICAgICAgIDxmaWx0ZXIgY2xhc3M9InNvbHIuRW5nbGlzaFBvc3Nlc3NpdmVGaWx0ZXJGYWN0b3J5Ii8+CiAgICAgICAgPCEtLSAgICAgICA8ZmlsdGVyIGNsYXNzPSJzb2xyLktleXdvcmRNYXJrZXJGaWx0ZXJGYWN0b3J5IiBwcm90ZWN0ZWQ9InByb3R3b3Jkcy50eHQiLz4KICBPcHRpb25hbGx5IHlvdSBtYXkgd2FudCB0byB1c2UgdGhpcyBsZXNzIGFnZ3Jlc3NpdmUgc3RlbW1lciBpbnN0ZWFkIG9mIFBvcnRlclN0ZW1GaWx0ZXJGYWN0b3J5OgogICAgICAgICA8ZmlsdGVyIGNsYXNzPSJzb2xyLkVuZ2xpc2hNaW5pbWFsU3RlbUZpbHRlckZhY3RvcnkiLz4KICA8ZmlsdGVyIGNsYXNzPSJzb2xyLlBvcnRlclN0ZW1GaWx0ZXJGYWN0b3J5Ii8+IC0tPgoKICAgICAgPC9hbmFseXplcj4KICAgICAgPGFuYWx5emVyIHR5cGU9InF1ZXJ5Ij4KICAgICAgICA8Y2hhckZpbHRlciBjbGFzcz0ic29sci5QYXR0ZXJuUmVwbGFjZUNoYXJGaWx0ZXJGYWN0b3J5IiBwYXR0ZXJuPSJfIiByZXBsYWNlbWVudD0iICIgLz4KICAgICAgICA8dG9rZW5pemVyIGNsYXNzPSJzb2xyLlVBWDI5VVJMRW1haWxUb2tlbml6ZXJGYWN0b3J5Ii8+CiAgICAgICAgPCEtLSAgPGZpbHRlciBjbGFzcz0ic29sci5TeW5vbnltRmlsdGVyRmFjdG9yeSIgc3lub255bXM9InN5bm9ueW1zLnR4dCIgaWdub3JlQ2FzZT0idHJ1ZSIgZXhwYW5kPSJ0cnVlIi8+LS0+CiAgICAgICAgPGZpbHRlciBjbGFzcz0ic29sci5TdG9wRmlsdGVyRmFjdG9yeSIKICAgICAgICAgIGlnbm9yZUNhc2U9InRydWUiCiAgICAgICAgICB3b3Jkcz0ibGFuZy9zdG9wd29yZHNfZW4udHh0IgogICAgICAgICAgLz4KICAgICAgICA8ZmlsdGVyIGNsYXNzPSJzb2xyLkxvd2VyQ2FzZUZpbHRlckZhY3RvcnkiLz4KICAgICAgICA8ZmlsdGVyIGNsYXNzPSJzb2xyLkVuZ2xpc2hQb3NzZXNzaXZlRmlsdGVyRmFjdG9yeSIvPgogICAgICAgIDwhLS0gICAgICA8ZmlsdGVyIGNsYXNzPSJzb2xyLktleXdvcmRNYXJrZXJGaWx0ZXJGYWN0b3J5IiBwcm90ZWN0ZWQ9InByb3R3b3Jkcy50eHQiLz4KICBPcHRpb25hbGx5IHlvdSBtYXkgd2FudCB0byB1c2UgdGhpcyBsZXNzIGFnZ3Jlc3NpdmUgc3RlbW1lciBpbnN0ZWFkIG9mIFBvcnRlclN0ZW1GaWx0ZXJGYWN0b3J5OgogICAgICAgIDxmaWx0ZXIgY2xhc3M9InNvbHIuRW5nbGlzaE1pbmltYWxTdGVtRmlsdGVyRmFjdG9yeSIvPgogICA8ZmlsdGVyIGNsYXNzPSJzb2xyLlBvcnRlclN0ZW1GaWx0ZXJGYWN0b3J5Ii8+LS0+CgogICAgICA8L2FuYWx5emVyPgogICAgPC9maWVsZFR5cGU+Cg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CiMgZGVmIG1ha2VfY2VsZXJ5X2JlYXQoKToKIyAgICAgY2VsZXJ5X2FwcCA9IENlbGVyeSgnY2VsZXJ5LWJlYXQtdGFza21ncicsCiMgICAgICAgICAgICAgICAgICAgICAgICAgYnJva2VyPSdyZWRpczovL3Rhc2tfYnJva2VyJywKIyAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZW5kPSdyZWRpczovL3Rhc2tfYnJva2VyJykKIyAgICAgY2VsZXJ5X2FwcC5jb25mLnVwZGF0ZShyZXN1bHRfZXhwaXJlcz1Ob25lKQojICAgICBjZWxlcnlfYXBwLmNvbmYudGFza19xdWV1ZXMgPSB7CiMgICAgICAgICBRdWV1ZSgndGFza21ncicpCiMgICAgIH0KIyAgICAgcmV0dXJuIGNlbGVyeV9hcHAKIwo=</text>
@@ -277,9 +281,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>metis</last-search>
+      <last-search encoding="base64">XDx3aXRoXD4=</last-search>
       <last-offset />
-      <last-pattern>metis</last-pattern>
+      <last-pattern encoding="base64">XDx3aXRoXD4=</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
