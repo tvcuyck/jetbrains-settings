@@ -96,16 +96,10 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1605621443275">
+      <file name="/Dummy.txt" timestamp="1605629048368">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/src/disqover/data_query/queries.py" timestamp="1605542594238">
-        <mark key="[" line="99" column="14" />
-        <mark key="]" line="103" column="0" />
-        <mark key="^" line="103" column="16" />
-        <mark key="." line="103" column="0" />
       </file>
       <file name="/Python Console" timestamp="1605601042717">
         <mark key="[" line="0" column="0" />
@@ -131,6 +125,12 @@
         <mark key="." line="29" column="0" />
         <mark key="^" line="29" column="30" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover/libs/metis/src/metis/indexing/disqover_canonical_type.py" timestamp="1605628435590">
+        <mark key="[" line="228" column="0" />
+        <mark key="]" line="228" column="0" />
+        <mark key="^" line="229" column="33" />
+        <mark key="." line="228" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/integration/scenarios/birds_collections/steps.yml" timestamp="1605543464274">
         <mark key="[" line="27" column="25" />
         <mark key="]" line="28" column="28" />
@@ -141,6 +141,9 @@
       <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/integration/scenarios/birds_collections/tests_collections.py" timestamp="1605543511556">
         <mark key="[" line="6" column="0" />
         <mark key="]" line="8" column="35" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-docker/images/solr/config/schema.xml" timestamp="1605628960946">
+        <mark key="[" line="139" column="53" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/integration/scenarios/birds_pipeline/tests_search.py" timestamp="1605601211185">
         <mark key="[" line="8" column="0" />
@@ -228,7 +231,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBmYWNldCA9IEZhY2V0KE5vbmUsICdodHRwOi8vbnMub250b2ZvcmNlLmNvbS9mYWNldHMvZmFjZXQnLCAnbGFiZWwnLCAnZGVzY3InLAogICAgICAgICAgICAgICAgICAgICAgJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL2ZhY2V0cy9mYWNldCcsICdsb2NhbCcsIDEsIFsnZHNfdXJpJ10pCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICdzZWFyY2hhYmxlJzogVHJ1ZSwKICAgICAgICAgICAgICAgICdzb3J0YWJsZSc6IFRydWUsCg==</text>
       </register>
       <register name="-" type="4">
         <text>,</text>
@@ -240,34 +243,34 @@
         <text encoding="base64">ICAgICAgICBmYWNldCA9IEZhY2V0KE5vbmUsICdodHRwOi8vbnMub250b2ZvcmNlLmNvbS9mYWNldHMvZmFjZXQnLCAnbGFiZWwnLCAnZGVzY3InLAogICAgICAgICAgICAgICAgICAgICAgJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL2ZhY2V0cy9mYWNldCcsICdsb2NhbCcsIDEsIFsnZHNfdXJpJ10pCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBmYWNldCA9IEZhY2V0Lm5ldygpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICdzZWFyY2hhYmxlJzogVHJ1ZSwKICAgICAgICAgICAgICAgICdzb3J0YWJsZSc6IFRydWUsCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBmYWNldCA9IEZhY2V0Lm5ldygpCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3Byb3AnOiAnaHR0cDovL25zLm9udG9mb3JjZS5jb20vcHJvcHMvcHJvcCd9KQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2lkJzogJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL2luc3RhbmNlcy9pZDEnLAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3Byb3AnOiAnaHR0cDovL25zLm9udG9mb3JjZS5jb20vcHJvcHMvcHJvcCd9KQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAnaHR0cDovL25zLm9udG9mb3JjZS5jb20vaW5zdGFuY2VzL2lkMScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdodHRwOi8vbnMub250b2ZvcmNlLmNvbS9wcm9wcy9wcm9wJykK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2lkJzogJ2h0dHA6Ly9ucy5vbnRvZm9yY2UuY29tL2luc3RhbmNlcy9pZDEnLAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ29ubHlfbGFiZWwnOiBGYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ29ubHlfc2VtYW50aWMnOiBUcnVlfSkK</text>
+        <text encoding="base64">ICAgICAgICAnaHR0cDovL25zLm9udG9mb3JjZS5jb20vaW5zdGFuY2VzL2lkMScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdodHRwOi8vbnMub250b2ZvcmNlLmNvbS9wcm9wcy9wcm9wJykK</text>
       </register>
-      <register name="7" type="8">
-        <text encoding="base64">IAogCiAKIA==</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ29ubHlfbGFiZWwnOiBGYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ29ubHlfc2VtYW50aWMnOiBUcnVlfSkK</text>
       </register>
       <register name="w" type="4">
         <text />
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3F1ZXJ5JzogJ3dvcmQnfSkK</text>
+      <register name="8" type="8">
+        <text encoding="base64">IAogCiAKIA==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ29wJzogJ3NlYXJjaCcsIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ3F1ZXJ5JzogJ3dvcmQnfSkK</text>
       </register>
       <register name=":" type="4">
         <text>32</text>
