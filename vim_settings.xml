@@ -74,9 +74,6 @@
     <globalmarks />
     <filemarks>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/visitors/filter_solr_visitor.rb" timestamp="1605698376727" />
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_data_entry_repository.rb" timestamp="1605687808777">
-        <mark key="[" line="142" column="34" />
-      </file>
       <file name="/Ruby Console" timestamp="1605702431610">
         <mark key="[" line="0" column="0" />
       </file>
@@ -99,7 +96,7 @@
         <mark key="." line="47" column="35" />
         <mark key="^" line="47" column="36" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/development/nginx_config/nginx.conf.back" timestamp="1605782152001">
+      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/development/nginx_config/nginx.conf.back" timestamp="1605782466981">
         <mark key="[" line="8" column="0" />
         <mark key="]" line="9" column="29" />
       </file>
@@ -127,6 +124,11 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/development/nginx_config/nginx.conf.edit" timestamp="1605783547039">
+        <mark key="[" line="3" column="3" />
+        <mark key="]" line="3" column="29" />
+        <mark key="." line="3" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/metis_pipeline_test_data/rspec_pipeline.yml" timestamp="1605692614786">
         <mark key="[" line="4848" column="27" />
       </file>
@@ -136,12 +138,7 @@
         <mark key="." line="869" column="54" />
         <mark key="^" line="869" column="55" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/lens_property_spec.rb" timestamp="1605686646623">
-        <mark key="[" line="35" column="3" />
-        <mark key="]" line="35" column="4" />
-        <mark key="." line="35" column="3" />
-        <mark key="^" line="35" column="4" />
-      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/development/nginx_config/nginx.conf.base" timestamp="1605783297638" />
     </filemarks>
     <jumps>
       <jump line="80" column="71" filename="$USER_HOME$/Disqover/disqover-backend/app/models/filter/search_node.rb" />
@@ -159,7 +156,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">YWNjZXNzX2xvZyAvZGV2L3N0ZG91dDsK</text>
+        <text encoding="base64">ICBlcnJvcl9sb2cgL2Rldi9zdGRvdXQgaW5mbzsK</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IA==</text>
@@ -171,31 +168,66 @@
         <text encoding="base64">ICBhY2Nlc3NfbG9nIC9kZXYvc3Rkb3V0OwogIGVycm9yX2xvZyAvZGV2L3N0ZG91dCBpbmZvOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">YWNjZXNzX2xvZyAvZGV2L3N0ZG91dDsK</text>
+        <text encoding="base64">ICBlcnJvcl9sb2cgL2Rldi9zdGRvdXQgaW5mbzsK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZXJyb3JfbG9nICAvdmFyL2xvZy9uZ2lueC9lcnJvci5sb2cgd2FybjsK</text>
+        <text encoding="base64">ICBhY2Nlc3NfbG9nIC9kZXYvc3Rkb3V0Owo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">CiAgIGxvY2F0aW9uIC91c2VycyB7CiAgICAgIGF1dGhfYmFzaWMgb2ZmOwoKICAgICAgZmFzdGNnaV9tYXhfdGVtcF9maWxlX3NpemUgMDsKICAgICAgZXRhZyBvZmY7CiAgICAgIHByb3h5X25vX2NhY2hlIHRydWU7CgogICAgICBwcm94eV9yZWRpcmVjdCBvZmY7CiAgICAgIHByb3h5X3NldF9oZWFkZXIgWC1Gb3J3YXJkZWQtRm9yICRwcm94eV9hZGRfeF9mb3J3YXJkZWRfZm9yOwogICAgICBwcm94eV9yZWFkX3RpbWVvdXQgNjAwOwogICAgICBwcm94eV9wYXNzIGh0dHA6Ly9sb2NhbGhvc3Q6MzAwMDsKCiAgICAgIGJyZWFrOwogICAgfQoKICAgIGxvY2F0aW9uIC9hcGkgewogICAgICBhdXRoX2Jhc2ljIG9mZjsKCiAgICAgICNEaXNhYmxlIENhY2hpbmcgaW4gZGlzawogICAgICBmYXN0Y2dpX21heF90ZW1wX2ZpbGVfc2l6ZSAwOwoKICAgICAgZXRhZyBvZmY7CiAgICAgIHByb3h5X25vX2NhY2hlIHRydWU7CgogICAgICBwcm94eV9yZWRpcmVjdCBvZmY7CiAgICAgIHByb3h5X3NldF9oZWFkZXIgWC1Gb3J3YXJkZWQtRm9yICRwcm94eV9hZGRfeF9mb3J3YXJkZWRfZm9yOwogICAgICBwcm94eV9yZWFkX3RpbWVvdXQgNjAwOwogICAgICBwcm94eV9wYXNzIGh0dHA6Ly9sb2NhbGhvc3Q6MzAwMDsKICAgICAgcHJveHlfbWF4X3RlbXBfZmlsZV9zaXplIDE2Mzg0bTsKCiAgICAgIGJyZWFrOwogICAgfQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGFjY2Vzc19sb2cgICAgbG9ncy9hY2Nlc3MubG9nICBjb21iaW5lZDsK</text>
+        <text># cat /etc/nginx/nginx.conf
+daemon off;
+user  nginx;
+worker_processes  1;
+
+
+error_log /dev/stdout info;
+
+pid        /var/run/nginx.pid;
+
+
+events {
+    worker_connections  1024;
+}
+
+
+http {
+    access_log /dev/stdout;
+    include       /etc/nginx/mime.types;
+    default_type  application/octet-stream;
+
+    log_format  main  '$remote_addr - $remote_user [$time_local] &quot;$request&quot; '
+                      '$status $body_bytes_sent &quot;$http_referer&quot; '
+                      '&quot;$http_user_agent&quot; &quot;$http_x_forwarded_for&quot;';
+
+    access_log  /var/log/nginx/access.log  main;
+
+    sendfile        on;
+    #tcp_nopush     on;
+
+    keepalive_timeout  65;
+
+    #gzip  on;
+
+    include /etc/nginx/conf.d/*.conf;
+}</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CmVycm9yX2xvZyAgICAgICAgIGxvZ3MvZXJyb3IubG9nIGluZm87Cg==</text>
+        <text encoding="base64">YWNjZXNzX2xvZyAvZGV2L3N0ZG91dDsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICBhY2Nlc3NfbG9nIC9kZXYvc3Rkb3V0OwogIGVycm9yX2xvZyAvZGV2L3N0ZG91dCBpbmZvOwo=</text>
+        <text encoding="base64">ZXJyb3JfbG9nICAvdmFyL2xvZy9uZ2lueC9lcnJvci5sb2cgd2FybjsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHVzZSAgICAgICAgICAgZXBvbGw7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">d29ya2VyX3Byb2Nlc3NlcyAgMjsKdXNlciAgICAgICAgICAgICAgd3d3LWRhdGE7Cgo=</text>
+        <text encoding="base64">ICAgIGFjY2Vzc19sb2cgICAgbG9ncy9hY2Nlc3MubG9nICBjb21iaW5lZDsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ZG9ja2VyIHdhaXQgZGV2ZWxvcG1lbnRfYmFja2VuZF8xCg==</text>
+        <text encoding="base64">CmVycm9yX2xvZyAgICAgICAgIGxvZ3MvZXJyb3IubG9nIGluZm87Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
