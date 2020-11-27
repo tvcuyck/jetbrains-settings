@@ -73,9 +73,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Ruby Console" timestamp="1606481897356">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/.docker/ci/env" timestamp="1606493239023">
         <mark key="[" line="6" column="90" />
       </file>
@@ -86,6 +83,11 @@
         <mark key="." line="24" column="28" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/disqover-docker/images/virtuoso/Jenkinsfile" timestamp="1606484815841" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/Jenkinsfile" timestamp="1606495445426">
+        <mark key="[" line="55" column="39" />
+        <mark key="]" line="55" column="39" />
+        <mark key="." line="55" column="39" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/federation_instance_service.rb" timestamp="1606482014310" />
       <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/env" timestamp="1606493266654">
         <mark key="[" line="8" column="90" />
@@ -96,7 +98,7 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/federation_subfacet_service_spec.rb" timestamp="1606488792275">
         <mark key="[" line="572" column="84" />
       </file>
-      <file name="/Dummy.txt" timestamp="1606488818895">
+      <file name="/Dummy.txt" timestamp="1606495980458">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -106,9 +108,6 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/visitors/federation_filter_visitor.rb" timestamp="1606481290486">
-        <mark key="[" line="238" column="31" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/.docker/development/env" timestamp="1606493272489">
         <mark key="[" line="8" column="90" />
@@ -122,6 +121,11 @@
         <mark key="]" line="201" column="3" />
         <mark key="^" line="201" column="3" />
         <mark key="." line="201" column="2" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/ci/up.sh" timestamp="1606495958223">
+        <mark key="[" line="40" column="21" />
+        <mark key="]" line="41" column="23" />
+        <mark key="." line="40" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/filter/search_node.rb" timestamp="1606482017713">
         <mark key="[" line="24" column="87" />
@@ -147,17 +151,17 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">ICAgICAgaWYg</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ZWNobyAnRElTUU9WRVIgY2xpZW50IGxvZ3MnCmRvY2tlciBsb2dzIGNpX2NsaWVudF8xCg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ICAgICAgaWYg</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text>logging</text>
       </register>
-      <register name="0" type="8">
-        <text>Filter.proximity(facet: 'http://ontoforce.com/facets/discovered', lat: 1, lon: 2, distance: 3)</text>
+      <register name="0" type="2">
+        <text encoding="base64">ZWNobyAnRElTUU9WRVIgY2xpZW50IGxvZ3MnCmRvY2tlciBsb2dzIGNpX2NsaWVudF8xCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAgIGxldCg6ZmlsdGVyKXsgRmlsdGVyLnJvb3QoRmlsdGVyLnByb3hpbWl0eShmYWNldDogJ2h0dHA6Ly9vbnRvZm9yY2UuY29tL2ZhY2V0cy9jaHJvbW9zb21lJywgbGF0OiAxLCBsb246IDIsIGRpc3RhbmNlOiAzKSkgIH0K</text>
