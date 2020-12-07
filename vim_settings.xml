@@ -8,7 +8,6 @@
         <entry>logging</entry>
       </history-search>
       <history-cmd>
-        <entry>6147</entry>
         <entry>570</entry>
         <entry>577</entry>
         <entry>557</entry>
@@ -28,6 +27,7 @@
         <entry>w</entry>
         <entry>0</entry>
         <entry>573</entry>
+        <entry>87</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -83,20 +83,15 @@
         <mark key="^" line="21" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/.docker/ci/env" timestamp="1607359301370">
-        <mark key="[" line="12" column="0" />
-        <mark key="]" line="12" column="0" />
-        <mark key="." line="12" column="0" />
+        <mark key="[" line="15" column="0" />
+        <mark key="]" line="15" column="0" />
+        <mark key="." line="15" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/Dockerfile" timestamp="1607352097574">
         <mark key="[" line="39" column="44" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/.docker/ci/docker-metis.yml" timestamp="1607358948243" />
       <file name="$USER_HOME$/Disqover/disqover-backend/Gemfile.lock" timestamp="1607352488363" />
-      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/env" timestamp="1607358998640">
-        <mark key="[" line="12" column="0" />
-        <mark key="]" line="12" column="0" />
-        <mark key="." line="12" column="0" />
-      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/.docker/ci/docker-backend.yml" timestamp="1607360318117">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="27" column="22" />
@@ -126,13 +121,17 @@
         <mark key="^" line="27" column="26" />
         <mark key="." line="42" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/disqover-docker/docker-compose/docker-compose-metis.yml" timestamp="1607362864990">
-        <mark key="[" line="12" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/disqover-docker/docker-compose/docker-compose-metis.yml" timestamp="1607371699807">
+        <mark key="[" line="18" column="61" />
         <mark key="]" line="18" column="61" />
+        <mark key="." line="18" column="60" />
+        <mark key="^" line="18" column="61" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/ci/docker-compose-ci.yml" timestamp="1607362868208">
+      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/ci/docker-compose-ci.yml" timestamp="1607371569718">
         <mark key="[" line="19" column="42" />
-        <mark key="]" line="29" column="21" />
+        <mark key="]" line="29" column="22" />
+        <mark key="^" line="29" column="22" />
+        <mark key="." line="29" column="21" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/lib/tools/user_api_gateway_migrations.rb" timestamp="1607343665269">
         <mark key="[" line="11" column="0" />
@@ -159,8 +158,8 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">UkFJTFNfRU5WPXRlc3QgRElTUU9WRVJfQkFTRV9NSUdSQVRJT05TX09OTFk9MSBidW5kbGUgZXhlYyByYWtlIGV0bDppbXBvcnRfcnVuX3BpcGVsaW5lWyIke0hFUkV9L2RhdGEvc291cmNlX2RhdGEvc2VydmVyX3BpcGVsaW5lLnltbCJdCg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
         <text>#</text>
@@ -171,35 +170,35 @@
       <register name="0" type="2">
         <text encoding="base64">ZG9ja2VyLWNvbXBvc2UgLWYgJHtIRVJFfS9kb2NrZXItY29tcG9zZS1jaS55bWwgcnVuIGJhY2tlbmQtY2kgc2ggLWMgIiR7Q01EfSIK</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">UkFJTFNfRU5WPXRlc3QgRElTUU9WRVJfQkFTRV9NSUdSQVRJT05TX09OTFk9MSBidW5kbGUgZXhlYyByYWtlIGV0bDppbXBvcnRfcnVuX3BpcGVsaW5lWyIke0hFUkV9L2RhdGEvc291cmNlX2RhdGEvc2VydmVyX3BpcGVsaW5lLnltbCJdCg==</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">I0tPTkdfSU1BR0U9a29uZzpsYXRlc3QK</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">I1RIRU1JU19JTUFHRT10aGVtaXM6bG9jYWwK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">I0NMSUVOVF9JTUFHRT1kaXNxb3Zlci1jbGllbnQ6bGF0ZXN0Cg==</text>
-      </register>
-      <register name="5" type="2">
+      <register name="1" type="4">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="2" type="2">
+        <text encoding="base64">UkFJTFNfRU5WPXRlc3QgRElTUU9WRVJfQkFTRV9NSUdSQVRJT05TX09OTFk9MSBidW5kbGUgZXhlYyByYWtlIGV0bDppbXBvcnRfcnVuX3BpcGVsaW5lWyIke0hFUkV9L2RhdGEvc291cmNlX2RhdGEvc2VydmVyX3BpcGVsaW5lLnltbCJdCg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">I0tPTkdfSU1BR0U9a29uZzpsYXRlc3QK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">I1RIRU1JU19JTUFHRT10aGVtaXM6bG9jYWwK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">I0NMSUVOVF9JTUFHRT1kaXNxb3Zlci1jbGllbnQ6bGF0ZXN0Cg==</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">ZG9ja2VyIHN0b3AgdGVzdF9tZXRpc18xCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">U0VUVVBfRVhJVF9TVEFUVVM9JD8K</text>
+        <text encoding="base64">ZG9ja2VyIHN0b3AgdGVzdF9tZXRpc18xCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CiMgU3RhcnQgRElTUU9WRVIgYW5kIHNlZWQgdGhlIHJzcGVjX3BpcGVsaW5lIGRhdGEgdXNpbmcgRElTUU9WRVIgY2xpZW50CmNwIGVudiAuZW52LXJzcGVjCg==</text>
+        <text encoding="base64">U0VUVVBfRVhJVF9TVEFUVVM9JD8K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CiMgIyBTdGFydCBESVNRT1ZFUiBhbmQgc2VlZCB0aGUgcnNwZWNfcGlwZWxpbmUgZGF0YSB1c2luZyBESVNRT1ZFUiBjbGllbnQKIyAke0hFUkV9Ly4uLy4uL2Rpc3FvdmVyLWRvY2tlci9zY3JpcHRzL2Rpc3FvdmVyX3NldHVwLnNoIC1zIGJhc2UsbWV0aXMsaXJpcyx0aGVtaXMsYmFja2VuZCAteSAtZiAuZW52LWRvY2tlci1jb21wb3NlIC1wIHRlc3QgLWQgJHtIRVJFfS9kYXRhL3NvdXJjZV9kYXRhL3JzcGVjX3BpcGVsaW5lX3NlZWRfZGF0YS5qc29uCiMKIyAjIFdhaXQgZm9yIGNsaWVudCB0byBmaW5pc2ggYW5kIHN0b3AgYmFja2VuZCBjb250YWluZXIKIyBkb2NrZXIgd2FpdCB0ZXN0X2NsaWVudF8xCiMgZWNobyAnRElTUU9WRVIgY2xpZW50IGxvZ3MnCiMgZG9ja2VyIGxvZ3MgdGVzdF9jbGllbnRfMQojIGVjaG8gJ1N0b3BwaW5nIGJhY2tlbmQgY29udGFpbmVyJwojIGRvY2tlciBzdG9wIHRlc3RfYmFja2VuZF8xCg==</text>
+        <text encoding="base64">CiMgU3RhcnQgRElTUU9WRVIgYW5kIHNlZWQgdGhlIHJzcGVjX3BpcGVsaW5lIGRhdGEgdXNpbmcgRElTUU9WRVIgY2xpZW50CmNwIGVudiAuZW52LXJzcGVjCg==</text>
       </register>
       <register name=":" type="4">
-        <text>573</text>
+        <text>87</text>
       </register>
     </registers>
   </component>
