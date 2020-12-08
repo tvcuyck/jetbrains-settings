@@ -8,7 +8,6 @@
         <entry>logging</entry>
       </history-search>
       <history-cmd>
-        <entry>544</entry>
         <entry>W</entry>
         <entry>130</entry>
         <entry>63</entry>
@@ -28,6 +27,7 @@
         <entry>1631</entry>
         <entry>1605</entry>
         <entry>0</entry>
+        <entry>947</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -73,10 +73,33 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Ruby Console" timestamp="1607442436909">
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/solr_index_spec.rb" timestamp="1607442634841">
+        <mark key="[" line="85" column="81" />
+        <mark key="]" line="86" column="81" />
+        <mark key="." line="86" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/facet_configuration_repository_spec.rb" timestamp="1607443552774">
+        <mark key="[" line="946" column="79" />
+        <mark key="]" line="946" column="79" />
+        <mark key="." line="946" column="78" />
+        <mark key="^" line="946" column="79" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/lib/tasks/etl.rake" timestamp="1607424478045">
+        <mark key="[" line="117" column="0" />
+        <mark key="]" line="117" column="0" />
+        <mark key="." line="117" column="0" />
+        <mark key="^" line="95" column="4" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/disqover-docker/environments/base_settings" timestamp="1607416505457" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/Jenkinsfile" timestamp="1607421862870">
+        <mark key="[" line="124" column="50" />
+        <mark key="]" line="55" column="39" />
+        <mark key="." line="55" column="39" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/facet.rb" timestamp="1607442619131" />
+      <file name="/Ruby Console" timestamp="1607443439283">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/solr_index_spec.rb" timestamp="1607442382744" />
       <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/docker-metis.yml" timestamp="1607424850466">
         <mark key="[" line="17" column="0" />
         <mark key="]" line="17" column="0" />
@@ -88,31 +111,14 @@
         <mark key="." line="1598" column="18" />
         <mark key="^" line="1598" column="19" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/docker-compose-base.yml" timestamp="1607414829285">
-        <mark key="[" line="10" column="26" />
-        <mark key="]" line="13" column="0" />
-        <mark key="." line="13" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/lib/tasks/etl.rake" timestamp="1607424478045">
-        <mark key="[" line="117" column="0" />
-        <mark key="]" line="117" column="0" />
-        <mark key="." line="117" column="0" />
-        <mark key="^" line="95" column="4" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/disqover-docker/environments/base_settings" timestamp="1607416505457" />
       <file name="$USER_HOME$/Disqover/disqover-backend/.docker/ci/docker-metis.yml" timestamp="1607424845482">
         <mark key="[" line="17" column="0" />
         <mark key="]" line="17" column="0" />
         <mark key="." line="17" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/Jenkinsfile" timestamp="1607421862870">
-        <mark key="[" line="124" column="50" />
-        <mark key="]" line="55" column="39" />
-        <mark key="." line="55" column="39" />
-      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/.env-docker-compose" timestamp="1607416481762" />
       <file name="$USER_HOME$/Disqover/disqover-backend/lib/tasks/disqover_migration.rake" timestamp="1607423727171" />
-      <file name="/Dummy.txt" timestamp="1607442096636">
+      <file name="/Dummy.txt" timestamp="1607443816022">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -146,7 +152,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAjIERJU1EtNjExNAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgYWxsb3dfYW55X2luc3RhbmNlX29mKEZhY2V0KS50byByZWNlaXZlKDphZGRpdGl2ZSkuYW5kX3JldHVybih0cnVlKQo=</text>
       </register>
       <register name="-" type="4">
         <text>#</text>
@@ -155,7 +161,7 @@
         <text>logging</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgIGxhYmVscyA9IGJhdG1hbi5wcm9wZXJ0aWVzW1NwYXJxbDo6VVJJVmFsdWUubmV3KCdodHRwOi8vY29uZmlnLnRlbXBsYXRlcy5jb20vcHJvcHMvZnVsbF9uYW1lJyldLm1hcCgmOmxhYmVsKS5tYXAoJjp0b19zKQogICAgICAgICAgcHJvdmVuYW5jZXMgPSBiYXRtYW4ucHJvcGVydGllc1tTcGFycWw6OlVSSVZhbHVlLm5ldygnaHR0cDovL2NvbmZpZy50ZW1wbGF0ZXMuY29tL3Byb3BzL2Z1bGxfbmFtZScpXS5tYXAoJjpwcm92ZW5hbmNlKS5tYXAoJjp0b19zKQogICAgICAgICAgZXhwZWN0KGxhYmVscykudG8gbWF0Y2hfYXJyYXkoWyJCYXRtYW4gKFdheW5lLCBCLikiLCAiQmF0bWFuIChXYXluZSwgQi4pIiwgIkJhdG1hbiAoV2F5bmUsIEJydWNlKSJdKQogICAgICAgICAgZXhwZWN0KHByb3ZlbmFuY2VzKS50byBtYXRjaF9hcnJheShbImh0dHA6Ly90ZXN0Lm9udG9mb3JjZS5jb20vdGVtcGxhdGVzX2RhdGEiLCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJodHRwOi8vdGVzdC5vbnRvZm9yY2UuY29tL3RlbXBsYXRlc19kYXRhIiwgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaHR0cDovL3Rlc3Qub250b2ZvcmNlLmNvbS90ZW1wbGF0ZXNfZGF0YV8yIl0pCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgYWxsb3dfYW55X2luc3RhbmNlX29mKEZhY2V0KS50byByZWNlaXZlKDphZGRpdGl2ZSkuYW5kX3JldHVybih0cnVlKQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICAjIERJU1EtNjExNAo=</text>
@@ -185,7 +191,7 @@
         <text encoding="base64">IyAgICBleHRyYV9ob3N0czoKIyAgICAgIC0gImJhY2tlbmQ6MC4wLjAuMCIKIyAgICAgIC0gImlyaXM6MC4wLjAuMCIKIyAgICAgIC0gInRoZW1pczowLjAuMC4wIgo=</text>
       </register>
       <register name=":" type="4">
-        <text>1605</text>
+        <text>947</text>
       </register>
     </registers>
   </component>
