@@ -76,11 +76,9 @@
       <file name="/Ruby Console" timestamp="1607358388735">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/solr_index_spec.rb" timestamp="1607372130542" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/solr_index_spec.rb" timestamp="1607417397836" />
       <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/docker-metis.yml" timestamp="1607415821013">
-        <mark key="[" line="5" column="0" />
-        <mark key="]" line="7" column="20" />
-        <mark key="." line="17" column="0" />
+        <mark key="." line="21" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/.docker/ci/env" timestamp="1607413032787">
         <mark key="[" line="12" column="0" />
@@ -92,9 +90,10 @@
         <mark key="]" line="13" column="0" />
         <mark key="." line="13" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/disqover-docker/environments/base_settings" timestamp="1607415059922" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/disqover-docker/environments/base_settings" timestamp="1607416505457" />
       <file name="$USER_HOME$/Disqover/disqover-backend/.docker/ci/docker-metis.yml" timestamp="1607358948243" />
       <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/disqover-docker-compose.yml" timestamp="1607414650782" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/.env-docker-compose" timestamp="1607416481762" />
       <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/env" timestamp="1607413044889">
         <mark key="[" line="12" column="0" />
         <mark key="]" line="12" column="0" />
@@ -109,20 +108,21 @@
         <mark key="[" line="0" column="0" />
         <mark key="]" line="41" column="87" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/etl_controller.rb" timestamp="1607354571700" />
       <file name="/Dummy.txt" timestamp="1607362921406">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/up.sh" timestamp="1607356688526" />
-      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/docker-frontend.yml" timestamp="1607415841599">
-        <mark key="[" line="5" column="0" />
-        <mark key="]" line="5" column="0" />
-        <mark key="." line="5" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/ci/up.sh" timestamp="1607417428392">
+        <mark key="'" line="22" column="48" />
+        <mark key="[" line="28" column="0" />
+        <mark key="]" line="28" column="0" />
+        <mark key="." line="28" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/up.sh" timestamp="1607415859922">
-        <mark key="[" line="28" column="105" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/up.sh" timestamp="1607416746209">
+        <mark key="[" line="26" column="38" />
+        <mark key="]" line="26" column="38" />
+        <mark key="." line="26" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/disqover-docker/docker-compose/docker-compose-metis.yml" timestamp="1607371699807">
         <mark key="[" line="18" column="61" />
@@ -136,6 +136,7 @@
         <mark key="^" line="29" column="22" />
         <mark key="." line="29" column="21" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/.env" timestamp="1607416667964" />
     </filemarks>
     <jumps>
       <jump line="80" column="71" filename="$USER_HOME$/Disqover/disqover-backend/app/models/filter/search_node.rb" />
@@ -152,12 +153,13 @@
       <jump line="30" column="0" filename="$USER_HOME$/Disqover/disqover-backend/Readme.md" />
       <jump line="85" column="8" filename="$USER_HOME$/Disqover/disqover-backend/lib/tasks/etl.rake" />
       <jump line="65" column="4" filename="$USER_HOME$/Disqover/disqover-backend/lib/tasks/etl.rake" />
+      <jump line="22" column="48" filename="$USER_HOME$/Disqover/disqover-backend/.docker/ci/up.sh" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHBvcnRzOgogICAgICAtIHB1Ymxpc2hlZDogMzAwMQogICAgICAgIHRhcmdldDogODAK</text>
+        <text encoding="base64">ZXhwb3J0IERJU1FPVkVSX0JBU0VfTUlHUkFUSU9OU19PTkxZPTEK</text>
       </register>
       <register name="-" type="4">
         <text>#</text>
@@ -169,31 +171,31 @@
         <text encoding="base64">ICAgIHBvcnRzOgogICAgICAtIHB1Ymxpc2hlZDogODAwMQogICAgICAgIHRhcmdldDogODAwMAo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHBvcnRzOgogICAgICAtIHB1Ymxpc2hlZDogMzAwMQogICAgICAgIHRhcmdldDogODAK</text>
+        <text encoding="base64">ZXhwb3J0IERJU1FPVkVSX0JBU0VfTUlHUkFUSU9OU19PTkxZPTEK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHBvcnRzOgogICAgICAtICIzMDAxOjgwIgo=</text>
+        <text encoding="base64">ZG9ja2VyIHB1bGwgNDI4MDI1MDY0NDcxLmRrci5lY3IudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vb250b2ZvcmNlL2lyaXM6ZGV2Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGVudl9maWxlOiAuZW52Cg==</text>
+        <text encoding="base64">ZG9ja2VyIHB1bGwgNDI4MDI1MDY0NDcxLmRrci5lY3IudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vb250b2ZvcmNlL2Rpc3FvdmVyLWNsaWVudDptYXN0ZXIK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGltYWdlOiAiJHtGUk9OVEVORF9JTUFHRX0iCg==</text>
+        <text encoding="base64">ICAgIHBvcnRzOgogICAgICAtIHB1Ymxpc2hlZDogMzAwMQogICAgICAgIHRhcmdldDogODAK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">IyAgICBleHRyYV9ob3N0czoKIyAgICAgIC0gImJhY2tlbmQ6MC4wLjAuMCIKIyAgICAgIC0gImlyaXM6MC4wLjAuMCIKIyAgICAgIC0gInRoZW1pczowLjAuMC4wIgo=</text>
+        <text encoding="base64">ICAgIHBvcnRzOgogICAgICAtICIzMDAxOjgwIgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIHBvcnRzOgogICAgICAtICI4MDAxOjgwMDAiCg==</text>
+        <text encoding="base64">ICAgIGVudl9maWxlOiAuZW52Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGltYWdlOiAiJHtNRVRJU19JTUFHRX0iCg==</text>
+        <text encoding="base64">ICAgIGltYWdlOiAiJHtGUk9OVEVORF9JTUFHRX0iCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGVudl9maWxlOiBlbnYK</text>
+        <text encoding="base64">IyAgICBleHRyYV9ob3N0czoKIyAgICAgIC0gImJhY2tlbmQ6MC4wLjAuMCIKIyAgICAgIC0gImlyaXM6MC4wLjAuMCIKIyAgICAgIC0gInRoZW1pczowLjAuMC4wIgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgLSAiJHtQTFVHSU5fTElTVF9QQVRIfTovcGx1Z2lucy9wbHVnaW5fbGlzdC50eHQiCg==</text>
+        <text encoding="base64">ICAgIHBvcnRzOgogICAgICAtICI4MDAxOjgwMDAiCg==</text>
       </register>
       <register name=":" type="4">
         <text>87</text>
