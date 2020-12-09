@@ -96,17 +96,40 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Python Console" timestamp="1606496846395">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-docker/docker-compose/docker-compose-base.yml" timestamp="1607521653410" />
+      <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/setup.py" timestamp="1607516790517">
+        <mark key="[" line="11" column="17" />
+        <mark key="]" line="11" column="17" />
+        <mark key="." line="11" column="17" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/src/disqover/data_ingestion/models/run_pipeline_job.py" timestamp="1607498403655" />
+      <file name="$USER_HOME$/Disqover/disqover/services/disq_plugin/dependencies.txt" timestamp="1607518305429">
+        <mark key="[" line="1" column="10" />
+        <mark key="]" line="2" column="0" />
+        <mark key="^" line="2" column="0" />
+        <mark key="." line="1" column="12" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-docker/scripts/disqover_setup.sh" timestamp="1607429602004" />
-      <file name="/Dummy.txt" timestamp="1606497701497">
+      <file name="$USER_HOME$/Disqover/utilities/update_disqover_jenkins/Jenkinsfile" timestamp="1607522374639" />
+      <file name="/Dummy.txt" timestamp="1607522255858">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="21" />
         <mark key="." line="0" column="21" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover/tools/bisq/src/bisq/venv_utils.py" timestamp="1607520800132">
+        <mark key="[" line="58" column="65" />
+        <mark key="]" line="58" column="28" />
+        <mark key="^" line="58" column="28" />
+        <mark key="." line="58" column="27" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-docker/scripts/bootstrap_disqover_docker.sh" timestamp="1607515868064" />
+      <file name="$USER_HOME$/Disqover/disqover-docker/environments/base_settings" timestamp="1607522241328" />
+      <file name="$USER_HOME$/Disqover/disqover-docker/scripts/update_disqover.sh" timestamp="1607522140379">
+        <mark key="[" line="180" column="21" />
+        <mark key="]" line="181" column="55" />
+        <mark key="." line="181" column="54" />
+        <mark key="^" line="181" column="55" />
+      </file>
     </filemarks>
     <jumps>
       <jump line="0" column="0" filename="$USER_HOME$/Disqover/disqover-backend/config/routes.rb" />
@@ -176,16 +199,16 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">cGFja2FnaW5nPT0yMC4xCg==</text>
+        <text encoding="base64">CiAgICAgICAgc3RhZ2UoJ0J1aWxkaW5nIHRoZW1pcycpIHsKICAgICAgICAgIHN0ZXBzIHsKICAgICAgICAgICAgYnVpbGQgam9iOiAnYnVpbGQtZGlzcW92ZXItbW9ub3JlcG8nLCBwYXJhbWV0ZXJzOiBbCiAgICAgICAgICAgICAgc3RyaW5nKG5hbWU6ICdCUkFOQ0gnLCB2YWx1ZTogcGFyYW1zLkdJVF9UQUcpLAogICAgICAgICAgICAgIHN0cmluZyhuYW1lOiAnRE9DS0VSX1RBRycsIHZhbHVlOiBwYXJhbXMuRE9DS0VSX1RBRyksCiAgICAgICAgICAgICAgc3RyaW5nKG5hbWU6ICdFTlZJUk9OTUVOVCcsIHZhbHVlOiAncHJvZHVjdGlvbicpLAogICAgICAgICAgICAgIHN0cmluZyhuYW1lOiAnQ09NUE9ORU5UUycsIHZhbHVlOiAndGhlbWlzJyksCiAgICAgICAgICAgIF0sIHdhaXQ6IHRydWUsIHByb3BhZ2F0ZTogdHJ1ZQogICAgICAgICAgfQogICAgICAgIH0K</text>
       </register>
       <register name="-" type="4">
-        <text>deploy + update descriptions</text>
+        <text>r</text>
       </register>
       <register name="/" type="4">
         <text>kong</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">dmVyc2lvbjogJzMuNycKCnNlcnZpY2VzOgogIHRhc2tfYnJva2VyOgogICAgcG9ydHM6CiAgICAgIC0gIiR7VEFTS19CUk9LRVJfUE9SVF9FWFR9OiR7VEFTS19CUk9LRVJfUE9SVF9JTlR9IgoK</text>
+        <text encoding="base64">CiAgICAgICAgc3RhZ2UoJ0J1aWxkaW5nIHRoZW1pcycpIHsKICAgICAgICAgIHN0ZXBzIHsKICAgICAgICAgICAgYnVpbGQgam9iOiAnYnVpbGQtZGlzcW92ZXItbW9ub3JlcG8nLCBwYXJhbWV0ZXJzOiBbCiAgICAgICAgICAgICAgc3RyaW5nKG5hbWU6ICdCUkFOQ0gnLCB2YWx1ZTogcGFyYW1zLkdJVF9UQUcpLAogICAgICAgICAgICAgIHN0cmluZyhuYW1lOiAnRE9DS0VSX1RBRycsIHZhbHVlOiBwYXJhbXMuRE9DS0VSX1RBRyksCiAgICAgICAgICAgICAgc3RyaW5nKG5hbWU6ICdFTlZJUk9OTUVOVCcsIHZhbHVlOiAncHJvZHVjdGlvbicpLAogICAgICAgICAgICAgIHN0cmluZyhuYW1lOiAnQ09NUE9ORU5UUycsIHZhbHVlOiAndGhlbWlzJyksCiAgICAgICAgICAgIF0sIHdhaXQ6IHRydWUsIHByb3BhZ2F0ZTogdHJ1ZQogICAgICAgICAgfQogICAgICAgIH0K</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">cGFja2FnaW5nPT0yMC4xCg==</text>
