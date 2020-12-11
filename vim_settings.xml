@@ -96,22 +96,18 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Disqover/disqover-docker/docker-compose/docker-compose-base.yml" timestamp="1607521653410" />
-      <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/setup.py" timestamp="1607516790517">
-        <mark key="[" line="11" column="17" />
-        <mark key="]" line="11" column="17" />
-        <mark key="." line="11" column="17" />
-      </file>
       <file name="$USER_HOME$/Disqover/disqover/services/eventhandler/tests/spec/test_dummy_spec.py" timestamp="1607529360979">
         <mark key="[" line="1" column="78" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover/services/disq_plugin/dependencies.txt" timestamp="1607518305429">
-        <mark key="[" line="1" column="10" />
-        <mark key="]" line="2" column="0" />
-        <mark key="^" line="2" column="0" />
-        <mark key="." line="1" column="12" />
+      <file name="$USER_HOME$/Disqover/utilities/ECR/Jenkinsfile-ECR-dev2prod" timestamp="1607613375852">
+        <mark key="[" line="11" column="84" />
+      </file>
+      <file name="$USER_HOME$/Disqover/infrastructure/terraform/5-app-disqover/staging/variables.tf" timestamp="1607676856765">
+        <mark key="[" line="1" column="34" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/utilities/devops/jenkins/ci-dev-build-disqover-full-jenkinsfile.groovy" timestamp="1607532868805">
         <mark key="[" line="11" column="49" />
@@ -119,36 +115,38 @@
         <mark key="." line="11" column="20" />
         <mark key="^" line="11" column="21" />
       </file>
-      <file name="/Dummy.txt" timestamp="1607546763037">
+      <file name="/Dummy.txt" timestamp="1607676896131">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="21" />
         <mark key="." line="0" column="21" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover/tools/bisq/src/bisq/venv_utils.py" timestamp="1607520800132">
-        <mark key="[" line="58" column="65" />
-        <mark key="]" line="58" column="28" />
-        <mark key="^" line="58" column="28" />
-        <mark key="." line="58" column="27" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-docker/scripts/bootstrap_disqover_docker.sh" timestamp="1607515868064" />
       <file name="$USER_HOME$/Disqover/disqover/services/eventhandler/src/eventhandler/schemas/schemas.py" timestamp="1607546619307">
         <mark key="[" line="30" column="17" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-docker/environments/base_settings" timestamp="1607522241328" />
+      <file name="$USER_HOME$/Disqover/disqover-docker/environments/base_settings" timestamp="1607601382946" />
+      <file name="$USER_HOME$/Disqover/disqover-docker/images/solr/Dockerfile" timestamp="1607680161827">
+        <mark key="[" line="0" column="15" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover/scripts/start_db.sh" timestamp="1607606282549">
+        <mark key="[" line="0" column="11" />
+      </file>
+      <file name="$USER_HOME$/Disqover/utilities/devops/ec2-creator/userdata/public-data-milestone-cloudinit.txt" timestamp="1607593415978">
+        <mark key="[" line="83" column="43" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover/services/taskmgr/tests/spec/test_api_spec.py" timestamp="1607529351446">
         <mark key="[" line="4" column="0" />
         <mark key="]" line="5" column="78" />
         <mark key="." line="3" column="0" />
         <mark key="^" line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-docker/scripts/update_disqover.sh" timestamp="1607522140379">
-        <mark key="[" line="180" column="21" />
-        <mark key="]" line="181" column="55" />
-        <mark key="." line="181" column="54" />
-        <mark key="^" line="181" column="55" />
+      <file name="$USER_HOME$/Disqover/disqover-docker/scripts/update_disqover.sh" timestamp="1607618303757">
+        <mark key="[" line="127" column="9" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover/services/eventhandler/src/eventhandler/api/__init__.py" timestamp="1607533408273">
         <mark key="[" line="1" column="76" />
+      </file>
+      <file name="$USER_HOME$/Disqover/infrastructure/terraform/5-app-disqover/Jenkinsfile-staging" timestamp="1607676874617">
+        <mark key="[" line="11" column="63" />
       </file>
     </filemarks>
     <jumps>
@@ -219,7 +217,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="-" type="4">
         <text>r</text>
@@ -228,37 +226,37 @@
         <text>kong</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZnJvbSBtYW1iYSBpbXBvcnQgZGVzY3JpcHRpb24sIGl0LCBiZWZvcmUKZnJvbSBleHBlY3RzIGltcG9ydCBleHBlY3QsIGVxdWFsLCBiZV9ub25lLCBoYXZlX2xlbiwgbm90XywgaGF2ZV9rZXlzLCBjb250YWluCg==</text>
+        <text encoding="base64">ZWNobyAiRVZFTlRIQU5ETEVSX0lNQUdFPSR7Q0xPVURSRVBPfS9vbnRvZm9yY2UvZXZlbnRoYW5kbGVyOiR7VEFHfSIgID4+ICIke0hPTUV9L2N1c3RvbV9lbnYiCmVjaG8gIkFQSV9XUkFQUEVSX0lNQUdFPSR7Q0xPVURSRVBPfS9vbnRvZm9yY2UvYXBpX3dyYXBwZXI6JHtUQUd9IiAgPj4gIiR7SE9NRX0vY3VzdG9tX2VudiIK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZnJvbSBtYW1iYSBpbXBvcnQgZGVzY3JpcHRpb24sIGl0LCBiZWZvcmUK</text>
+        <text encoding="base64">ICAgIGVjaG8gIlNPTFJfSU1BR0U9JHtDTE9VRFJFUE99L29udG9mb3JjZS9zb2xyOiR7VEFHfSIgPj4gIiR7SE9NRX0vY3VzdG9tX2VudiIK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICByZXNwID0gc2VsZi5jbGllbnQuZ2V0KCcvcmVnaXN0cnkvdGFzay8nKQo=</text>
+        <text encoding="base64">ZWNobyAiSVJJU19JTUFHRT0ke0NMT1VEUkVQT30vb250b2ZvcmNlL2lyaXM6JHtUQUd9IiA+PiAiJHtIT01FfS9jdXN0b21fZW52Igo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHdpdGggYmVmb3JlLmVhY2g6CiAgICAgICAgc2VsZi5jbGllbnQgPSBjcmVhdGVfdGVzdF9jbGllbnQoKQo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgIHN0ZXBzIHsKICAgICAgICAgICAgYnVpbGQgam9iOiAnYnVpbGQta29uZycsIHBhcmFtZXRlcnM6IFsKICAgICAgICAgICAgICBzdHJpbmcobmFtZTogJ0JSQU5DSCcsIHZhbHVlOiBwYXJhbXMuR0lUX1RBRyksCiAgICAgICAgICAgICAgc3RyaW5nKG5hbWU6ICdUQUcnLCB2YWx1ZTogcGFyYW1zLkRPQ0tFUl9UQUcpLAogICAgICAgICAgICBdLCB3YWl0OiB0cnVlLCBwcm9wYWdhdGU6IHRydWUKICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICAgIGVjaG8gIktPTkdfSU1BR0U9JHtDTE9VRFJFUE99L29udG9mb3JjZS9rb25nOiR7VEFHfSIgPiAiJHtIT01FfS9jdXN0b21fZW52Igo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">CiAgICAgICAgc3RhZ2UoJ0J1aWxkaW5nIGtvbmcnKSB7CiAgICAgICAgICBzdGVwcyB7CiAgICAgICAgICAgIGJ1aWxkIGpvYjogJ2J1aWxkLWtvbmcnLCBwYXJhbWV0ZXJzOiBbCiAgICAgICAgICAgICAgc3RyaW5nKG5hbWU6ICdCUkFOQ0gnLCB2YWx1ZTogcGFyYW1zLkdJVF9UQUcpLAogICAgICAgICAgICAgIHN0cmluZyhuYW1lOiAnVEFHJywgdmFsdWU6IHBhcmFtcy5ET0NLRVJfVEFHKSwKICAgICAgICAgICAgXSwgd2FpdDogdHJ1ZSwgcHJvcGFnYXRlOiB0cnVlCiAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHN0cmluZyhuYW1lOidLT05HX0lNQUdFX1RBRycsIGRlZmF1bHRWYWx1ZTogJ2RldicsIGRlc2NyaXB0aW9uOiAnKFRlbXBvcmFyeT8pIERvY2tlciBpbWFnZSB0YWcgb2YgdGhlIGtvbmcgaW1hZ2UnKQo=</text>
+        <text encoding="base64">ZnJvbSBtYW1iYSBpbXBvcnQgZGVzY3JpcHRpb24sIGl0LCBiZWZvcmUK</text>
       </register>
       <register name="w" type="4">
         <text />
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICBzdHJpbmcobmFtZTogJ0VOVklST05NRU5UJywgdmFsdWU6ICdwcm9kdWN0aW9uJyksCg==</text>
+        <text encoding="base64">ICAgICAgICByZXNwID0gc2VsZi5jbGllbnQuZ2V0KCcvcmVnaXN0cnkvdGFzay8nKQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">CiAgICAgICAgc3RhZ2UoJ0J1aWxkaW5nIGtvbmcnKSB7CiAgICAgICAgICBzdGVwcyB7CiAgICAgICAgICAgIGJ1aWxkIGpvYjogJ2J1aWxkLWNsaWVudCcsIHBhcmFtZXRlcnM6IFsKICAgICAgICAgICAgICBzdHJpbmcobmFtZTogJ0JSQU5DSCcsIHZhbHVlOiBwYXJhbXMuR0lUX1RBRyksCiAgICAgICAgICAgICAgc3RyaW5nKG5hbWU6ICdUQUcnLCB2YWx1ZTogcGFyYW1zLkRPQ0tFUl9UQUcpLAogICAgICAgICAgICAgIHN0cmluZyhuYW1lOiAnRU5WSVJPTk1FTlQnLCB2YWx1ZTogJ3Byb2R1Y3Rpb24nKSwKICAgICAgICAgICAgXSwgd2FpdDogdHJ1ZSwgcHJvcGFnYXRlOiB0cnVlCiAgICAgICAgICB9CiAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgIHdpdGggYmVmb3JlLmVhY2g6CiAgICAgICAgc2VsZi5jbGllbnQgPSBjcmVhdGVfdGVzdF9jbGllbnQoKQo=</text>
       </register>
       <register name=":" type="4">
         <text>32</text>
