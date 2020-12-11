@@ -107,6 +107,11 @@
         <mark key="]" line="7" column="0" />
         <mark key="." line="7" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-docker/scripts/bootstrap_disqover_docker.sh" timestamp="1607691495186">
+        <mark key="[" line="330" column="0" />
+        <mark key="]" line="330" column="82" />
+        <mark key="." line="330" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-docker/environments/base_settings" timestamp="1607684314944">
         <mark key="[" line="111" column="58" />
         <mark key="]" line="119" column="29" />
@@ -127,13 +132,13 @@
       <file name="/Python Console" timestamp="1607683867644">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover/services/eventhandler/tests/spec/test_dummy_spec.py" timestamp="1607529360979">
-        <mark key="[" line="1" column="78" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-docker/adding-a-microservice.md" timestamp="1607691534324">
+        <mark key="[" line="42" column="26" />
+        <mark key="]" line="52" column="13" />
+        <mark key="." line="52" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-docker/adding-a-microservice.md" timestamp="1607690475380">
-        <mark key="[" line="22" column="6" />
+      <file name="$USER_HOME$/Disqover/disqover-docker/scripts/disqover_setup.sh" timestamp="1607691279810">
+        <mark key="[" line="31" column="84" />
       </file>
       <file name="$USER_HOME$/Disqover/infrastructure/terraform/5-app-disqover/staging/variables.tf" timestamp="1607688771537">
         <mark key="[" line="1" column="0" />
@@ -167,8 +172,10 @@
       <file name="$USER_HOME$/Disqover/utilities/devops/ec2-creator/userdata/public-data-milestone-cloudinit.txt" timestamp="1607593415978">
         <mark key="[" line="83" column="43" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-docker/scripts/update_disqover.sh" timestamp="1607680634966">
-        <mark key="[" line="127" column="119" />
+      <file name="$USER_HOME$/Disqover/disqover-docker/scripts/update_disqover.sh" timestamp="1607691762123">
+        <mark key="[" line="127" column="56" />
+        <mark key="]" line="179" column="98" />
+        <mark key="." line="179" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover/services/eventhandler/src/eventhandler/api/__init__.py" timestamp="1607533408273">
         <mark key="[" line="1" column="76" />
@@ -245,7 +252,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICMgcHVsbChCSVNRX1NPTFJfSU1BR0UpCg==</text>
+        <text encoding="base64">ZWNobyAiQkFDS0VORF9JTUFHRT0ke0NMT1VEUkVQT30vb250b2ZvcmNlL2JhY2tlbmQ6JHtUQUd9IiA+PiAiJHtIT01FfS9jdXN0b21fZW52Igo=</text>
       </register>
       <register name="-" type="4">
         <text>r</text>
@@ -257,34 +264,34 @@
         <text encoding="base64">ICAgICMgcHVsbChCSVNRX1NPTFJfSU1BR0UpCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICMgcHVsbChCSVNRX1NPTFJfSU1BR0UpCg==</text>
+        <text encoding="base64">ZWNobyAiQkFDS0VORF9JTUFHRT0ke0NMT1VEUkVQT30vb250b2ZvcmNlL2JhY2tlbmQ6JHtUQUd9IiA+PiAiJHtIT01FfS9jdXN0b21fZW52Igo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICMgcHVsbChCSVNRX1NPTFJfSU1BR0UpCg==</text>
+        <text encoding="base64">ICAgIGVjaG8gIlBMVUdJTl9DRU5URVJfSU1BR0U9JHtDTE9VRFJFUE99L29udG9mb3JjZS9wbHVnaW5fY2VudGVyOiR7VEFHfSIgPj4gIiR7SE9NRX0vY3VzdG9tX2VudiIK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICBkZWZhdWx0ID0gImFtaS0wMGI4MmI3NzY3MmI2YzU3YiIK</text>
-      </register>
-      <register name="4" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIGVjaG8gIkNMSUVOVF9JTUFHRT0ke0NMT1VEUkVQT30vb250b2ZvcmNlL2Rpc3FvdmVyLWNsaWVudDoke1RBR30iID4+ICIke0hPTUV9L2N1c3RvbV9lbnYiCg==</text>
+      </register>
       <register name="5" type="2">
-        <text encoding="base64">ZG9ja2VyIGJ1aWxkIC10IGRpc3FvdmVyLXBvc3RncmVzOjkuNiAtdCBkaXNxb3Zlci1wb3N0Z3JlczpkZXYK</text>
+        <text encoding="base64">ICAgIGVjaG8gIkJBQ0tFTkRfSU1BR0U9JHtDTE9VRFJFUE99L29udG9mb3JjZS9iYWNrZW5kOiR7VEFHfSIgPj4gIiR7SE9NRX0vY3VzdG9tX2VudiIK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIGVjaG8gIlNPTFJfSU1BR0U9JHtDTE9VRFJFUE99L29udG9mb3JjZS9kaXNxb3Zlci1zb2xyOiR7VEFHfSIgPj4gIiR7SE9NRX0vY3VzdG9tX2VudiIKICAgIGVjaG8gIlJFRElTX0lNQUdFPSR7Q0xPVURSRVBPfS9vbnRvZm9yY2UvZGlzcW92ZXItcmVkaXM6JHtUQUd9IiA+PiAiJHtIT01FfS9jdXN0b21fZW52Igo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGVjaG8gIlNPTFJfSU1BR0U9JHtDTE9VRFJFUE99L29udG9mb3JjZS9zb2xyOiR7VEFHfSIgPj4gIiR7SE9NRX0vY3VzdG9tX2VudiIK</text>
+        <text encoding="base64">ICAgIGVjaG8gIlBPU1RHUkVTX0lNQUdFPSR7Q0xPVURSRVBPfS9vbnRvZm9yY2UvZGlzcW92ZXItcG9zdGdyZXM6JHtUQUd9IiA+PiAiJHtIT01FfS9jdXN0b21fZW52Igo=</text>
       </register>
       <register name="w" type="4">
         <text />
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZWNobyAiSVJJU19JTUFHRT0ke0NMT1VEUkVQT30vb250b2ZvcmNlL2lyaXM6JHtUQUd9IiA+PiAiJHtIT01FfS9jdXN0b21fZW52Igo=</text>
+        <text encoding="base64">ZWNobyAiQVBJX1dSQVBQRVJfSU1BR0U9JHtDTE9VRFJFUE99L29udG9mb3JjZS9hcGlfd3JhcHBlcjoke1RBR30iICA+PiAiJHtIT01FfS9jdXN0b21fZW52Igo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">KiBhcGlfd3JhcHBlcgo=</text>
       </register>
       <register name=":" type="4">
         <text>32</text>
