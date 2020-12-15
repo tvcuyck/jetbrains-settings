@@ -73,11 +73,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/collection_service_spec.rb" timestamp="1608034871572">
-        <mark key="[" line="101" column="0" />
-        <mark key="]" line="101" column="85" />
-        <mark key="." line="101" column="0" />
-      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/federation_client_pipeline/client_pipeline.yml" timestamp="1608041682163">
         <mark key="[" line="396" column="24" />
       </file>
@@ -89,6 +84,7 @@
         <mark key="[" line="134" column="0" />
         <mark key="]" line="134" column="89" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/instances_controller.rb" timestamp="1608048673910" />
       <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/sub_type_repository.rb" timestamp="1608044046171" />
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/configuration_service_spec.rb" timestamp="1608034937236">
         <mark key="[" line="189" column="62" />
@@ -109,11 +105,11 @@
         <mark key="." line="63" column="40" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/Dockerfile-base" timestamp="1608040361438" />
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/controllers/sample_id_controller_spec.rb" timestamp="1608044216393">
-        <mark key="[" line="92" column="0" />
-        <mark key="]" line="100" column="36" />
-        <mark key="^" line="100" column="36" />
-        <mark key="." line="100" column="35" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/controllers/sample_id_controller_spec.rb" timestamp="1608048289008">
+        <mark key="[" line="96" column="6" />
+        <mark key="]" line="96" column="6" />
+        <mark key="^" line="102" column="36" />
+        <mark key="." line="96" column="6" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/facet_service_spec.rb" timestamp="1608039414528">
         <mark key="[" line="12" column="3" />
@@ -121,14 +117,8 @@
         <mark key="." line="21" column="32" />
         <mark key="^" line="21" column="33" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/synonym_service_spec.rb" timestamp="1608034503559">
-        <mark key="[" line="490" column="4" />
-        <mark key="]" line="567" column="13" />
-        <mark key="." line="567" column="12" />
-        <mark key="^" line="567" column="13" />
-      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/configuration_service.rb" timestamp="1608045806124" />
-      <file name="/Ruby Console" timestamp="1608046215214">
+      <file name="/Ruby Console" timestamp="1608049230356">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/federation_server_pipeline/server_pipeline.yml" timestamp="1608043254944" />
@@ -140,12 +130,18 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="/fragment.rb" timestamp="1608046275322">
+      <file name="/fragment.rb" timestamp="1608049172276">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/sample_id_controller.rb" timestamp="1608042505564" />
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/federation_service.rb" timestamp="1608046150940">
         <mark key="[" line="52" column="73" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/controllers/instances_controller_spec.rb" timestamp="1608049277390">
+        <mark key="[" line="580" column="9" />
+        <mark key="]" line="583" column="92" />
+        <mark key="^" line="583" column="92" />
+        <mark key="." line="583" column="91" />
       </file>
     </filemarks>
     <jumps>
@@ -168,11 +164,11 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBhbGxvd19hbnlfaW5zdGFuY2Vfb2YoRmVkZXJhdGlvblNlcnZpY2UpLnRvIHJlY2VpdmUoOmZlZGVyYXRlZD8pLmFuZF9yZXR1cm4odHJ1ZSkK</text>
+      <register name="&quot;" type="4">
+        <text>i</text>
       </register>
       <register name="-" type="4">
-        <text>#</text>
+        <text>i</text>
       </register>
       <register name="/" type="4">
         <text>logging</text>
