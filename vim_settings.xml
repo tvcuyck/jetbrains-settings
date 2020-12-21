@@ -76,13 +76,25 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Disqover/disqover-backend/Dockerfile" timestamp="1608535713623">
-        <mark key="[" line="0" column="82" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/run_tests.sh" timestamp="1608547690874">
+        <mark key="[" line="7" column="1" />
+        <mark key="]" line="7" column="0" />
+        <mark key="." line="7" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1608535776754">
+      <file name="$USER_HOME$/Disqover/disqover-backend/Dockerfile" timestamp="1608548757025">
+        <mark key="[" line="32" column="0" />
+        <mark key="]" line="32" column="0" />
+        <mark key="^" line="38" column="0" />
+        <mark key="." line="32" column="0" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1608548770508">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/up.sh" timestamp="1608547671928">
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="4" column="26" />
       </file>
     </filemarks>
     <jumps>
@@ -110,7 +122,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text>DISQ-6091: Fix visit_search_node for federated search in label property</text>
+        <text encoding="base64">UlVOIGNobW9kIDc3NSAvYXBwL2luZGV4X3Rvb2xzL2NfcHJvai9zb3VyY2UvKi5vClJVTiBjaG1vZCA3NzUgL2FwcC9pbmRleF90b29scy90dGxfdG9faGFzaC5leGUKUlVOIGNobW9kIDc3NSAvYXBwL2luZGV4X3Rvb2xzL250X3RvX2pzb25fY2h1bmtzLnJiClJVTiBjaG1vZCA3NzUgL2FwcC9pbmRleF90b29scy9saWIvdG9fanNvbl9wYXJzZXIucmIK</text>
       </register>
       <register name="-" type="4">
         <text>EFACTOR Kenny commented out since 2016: remove?</text>
@@ -119,34 +131,34 @@
         <text>logging</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAjIERJU1EtNjIwNiBLZW5ueT8K</text>
+        <text encoding="base64">U0NSSVBUPWByZWFscGF0aCAkMGAKSEVSRT0kKGRpcm5hbWUgLS0gJFNDUklQVCkK</text>
       </register>
       <register name="1" type="2">
-        <text>DISQ-6091: Fix visit_search_node for federated search in label property</text>
+        <text encoding="base64">UlVOIGNobW9kIDc3NSAvYXBwL2luZGV4X3Rvb2xzL2NfcHJvai9zb3VyY2UvKi5vClJVTiBjaG1vZCA3NzUgL2FwcC9pbmRleF90b29scy90dGxfdG9faGFzaC5leGUKUlVOIGNobW9kIDc3NSAvYXBwL2luZGV4X3Rvb2xzL250X3RvX2pzb25fY2h1bmtzLnJiClJVTiBjaG1vZCA3NzUgL2FwcC9pbmRleF90b29scy9saWIvdG9fanNvbl9wYXJzZXIucmIK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICNSRUZBQ1RPUgo=</text>
+        <text encoding="base64">ICAgICYmIGNkIC9hcHAvaW5kZXhfdG9vbHMvY19wcm9qICYmIG1ha2UgXAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICNSRUZBQ1RPUgo=</text>
+        <text encoding="base64">IyBDb3B5IHRoZSBkYXRhIGZyb20gZml4dHVyZXMgdG8gc291cmNlIGRhdGEKbWtkaXIgLXAgJHtIRVJFfS9kYXRhL3NvdXJjZV9kYXRhCmNwIC1SICR7SEVSRX0vLi4vLi4vc3BlYy9maXh0dXJlcy9tZXRpc19waXBlbGluZV90ZXN0X2RhdGEvKiAke0hFUkV9L2RhdGEvc291cmNlX2RhdGEKCiMgU3RhcnQgRElTUU9WRVIgYW5kIHNlZWQgdGhlIGZpeHR1cmUgZGF0YSB1c2luZyBESVNRT1ZFUiBjbGllbnQKJHtIRVJFfS8uLi8uLi9kaXNxb3Zlci1kb2NrZXIvc2NyaXB0cy9kaXNxb3Zlcl9zZXR1cC5zaCAtaSAtcyBiYXNlLG1ldGlzLGJhY2tlbmQgLXkgLWYgZW52IC1wIHRlc3QgLWQgJHtIRVJFfS9zZWVkX2RhdGEuanNvbgoKIyBXYWl0IGZvciBjbGllbnQgdG8gZmluaXNoIGFuZCBzdG9wIGJhY2tlbmQgY29udGFpbmVyCmRvY2tlciB3YWl0IHRlc3RfY2xpZW50XzEKZG9ja2VyIHN0b3AgdGVzdF9iYWNrZW5kXzEKCiMgUnVuIHRoZSB2aXJ0dW9zbyBldGwKZWNobyAnVklSVFVPU08gRVRMOiBjcmVhdGUgdGVzdCBpbmRleCcKcm0gLXJmIC90bXAvZGlzcSAvdG1wL3NlcnZlcgo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAjUkVGQUNUT1IgS2VubnkgdGhpcyBpcyB5b3VyIHRlcnJpdG9yeQo=</text>
+        <text encoding="base64">SEVSRT0kKGRpcm5hbWUgLS0gJDApCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgOyBjYXQgbG9nL3Rlc3QubG9nCg==</text>
+        <text>DISQ-6138: Restore backend-base tag + update disqover-docker</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgIGl0ICdzZWNvbmQgc2hvdWxkIGJlIG5pbCcgZG8KICAgICAgICAgICAgZXhwZWN0KHJlc3VsdFsxXSkudG8gYmVfbmlsCiAgICAgICAgICBlbmQK</text>
+        <text>DISQ-6091: Fix visit_search_node for federated search in label property</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICNSRUZBQ1RPUgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZXhwZWN0KHJlc3VsdFsxXSkudG8gYmVfbmlsCg==</text>
+        <text encoding="base64">ICAgICNSRUZBQ1RPUgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZXhwZWN0KHJlc3VsdFswXS5yZW1vdGVfZmlsdGVyKS50byBiZV9uaWwK</text>
+        <text encoding="base64">ICAjUkVGQUNUT1IgS2VubnkgdGhpcyBpcyB5b3VyIHRlcnJpdG9yeQo=</text>
       </register>
       <register name=":" type="4">
         <text>282</text>
