@@ -106,16 +106,10 @@
       <file name="$USER_HOME$/Disqover/disqover-docker/scripts/disqover_setup.sh" timestamp="1608554624060">
         <mark key="[" line="31" column="84" />
       </file>
-      <file name="$USER_HOME$/Disqover/utilities/devops/jenkins/ci-dev-build-disqover-full-jenkinsfile.groovy" timestamp="1608306311347">
-        <mark key="[" line="9" column="122" />
-        <mark key="]" line="239" column="0" />
-        <mark key="." line="239" column="0" />
-        <mark key="^" line="24" column="62" />
-      </file>
       <file name="$USER_HOME$/Disqover/disqover-docker/tests/integration/Jenkinsfile-ci" timestamp="1608546036425">
         <mark key="[" line="13" column="53" />
       </file>
-      <file name="/Dummy.txt" timestamp="1608634066011">
+      <file name="/Dummy.txt" timestamp="1608639240590">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="21" />
         <mark key="." line="0" column="21" />
@@ -150,6 +144,12 @@
       <file name="$USER_HOME$/Disqover/disqover/services/taskmgr/src/taskmgr/utils.py" timestamp="1608627303393">
         <mark key="[" line="40" column="0" />
         <mark key="]" line="44" column="16" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover/libs/metis/tests/spec/actions/components/test_create_canonical_type_action_spec.py" timestamp="1608639172303">
+        <mark key="[" line="275" column="47" />
+        <mark key="]" line="276" column="39" />
+        <mark key="^" line="276" column="39" />
+        <mark key="." line="276" column="38" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover/libs/metis/tests/spec/indexing/test_disqover_property_spec.py" timestamp="1608633458334">
         <mark key="[" line="153" column="60" />
@@ -227,7 +227,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdChqc29uLmxvYWRzKGxpc3Qoc29scl9qc29uKCdodHRwOi8vb250b2xvZ3kub250b2ZvcmNlLmNvbS9wcm9wZXJ0aWVzL2NvdW50cnkvY2FwaXRhbF9jaXR5JywgJ2NvbmZpZ3VyYXRpb25fbG4nKSlbMF0pKS4gXAogICAgICAgICAgICAgICAgICAgIHRvKGVxdWFsKHsKICAgICAgICAgICAgICAgICAgICAgICAgJ2RhdGFfc291cmNlcyc6IFsnaHR0cDovL25zLm9udG9mb3JjZS5jb20vZGF0YXNvdXJjZXMvY291bnRyaWVzX2NhcGl0YWxzJ10sCiAgICAgICAgICAgICAgICAgICAgICAgICdzb3J0YWJsZSc6IFRydWUsCiAgICAgICAgICAgICAgICAgICAgICAgICdzZWFyY2hhYmxlJzogVHJ1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgJ25vX2luZGV4JzogRmFsc2UsCiAgICAgICAgICAgICAgICAgICAgICAgICdtaXhlZF9zZWN1cml0eV92YWx1ZXMnOiBGYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgJ2RhdGFfY29sbGVjdGlvbl9wcmVkaWNhdGUnOiBOb25lLAogICAgICAgICAgICAgICAgICAgICAgICAnY3VzdG9tX3NvbHJfZmllbGRfYmFzZSc6IE5vbmUsCiAgICAgICAgICAgICAgICAgICAgICAgICdzb2xyX2ZpZWxkX25hbWUnOiBOb25lCiAgICAgICAgICAgICAgICB9KSkK</text>
+        <text encoding="base64">CiAgICAgICAgICAgIHdpdGggaXQoJ2hhcyBhICJvcmRlcl9ieSIgb3B0aW9uJyk6CiAgICAgICAgICAgICAgICBleHBlY3QoJ29yZGVyX2J5JyBpbiBDcmVhdGVDYW5vbmljYWxUeXBlQWN0aW9uLm9wdGlvbl9kaWN0Wydwcm9wZXJ0aWVzJ10uc3ViaXRlbV9vcHRpb25zKS50byhiZV90cnVlKQo=</text>
       </register>
       <register name="-" type="4">
         <text>SOLR_IMAGE = &quot;${REPO}/ontoforce/solr:${params.SOLR_IMAGE}&quot;</text>
@@ -236,7 +236,7 @@
         <text>kong</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGV4cGVjdChqc29uLmxvYWRzKGxpc3Qoc29scl9qc29uKCdodHRwOi8vb250b2xvZ3kub250b2ZvcmNlLmNvbS9wcm9wZXJ0aWVzL2NvdW50cnkvY2FwaXRhbF9jaXR5JywgJ2NvbmZpZ3VyYXRpb25fbG4nKSlbMF0pKS4gXAogICAgICAgICAgICAgICAgICAgIHRvKGVxdWFsKHsKICAgICAgICAgICAgICAgICAgICAgICAgJ2RhdGFfc291cmNlcyc6IFsnaHR0cDovL25zLm9udG9mb3JjZS5jb20vZGF0YXNvdXJjZXMvY291bnRyaWVzX2NhcGl0YWxzJ10sCiAgICAgICAgICAgICAgICAgICAgICAgICdzb3J0YWJsZSc6IFRydWUsCiAgICAgICAgICAgICAgICAgICAgICAgICdzZWFyY2hhYmxlJzogVHJ1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgJ25vX2luZGV4JzogRmFsc2UsCiAgICAgICAgICAgICAgICAgICAgICAgICdtaXhlZF9zZWN1cml0eV92YWx1ZXMnOiBGYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgJ2RhdGFfY29sbGVjdGlvbl9wcmVkaWNhdGUnOiBOb25lLAogICAgICAgICAgICAgICAgICAgICAgICAnY3VzdG9tX3NvbHJfZmllbGRfYmFzZSc6IE5vbmUsCiAgICAgICAgICAgICAgICAgICAgICAgICdzb2xyX2ZpZWxkX25hbWUnOiBOb25lCiAgICAgICAgICAgICAgICB9KSkK</text>
+        <text encoding="base64">CiAgICAgICAgICAgIHdpdGggaXQoJ2hhcyBhICJvcmRlcl9ieSIgb3B0aW9uJyk6CiAgICAgICAgICAgICAgICBleHBlY3QoJ29yZGVyX2J5JyBpbiBDcmVhdGVDYW5vbmljYWxUeXBlQWN0aW9uLm9wdGlvbl9kaWN0Wydwcm9wZXJ0aWVzJ10uc3ViaXRlbV9vcHRpb25zKS50byhiZV90cnVlKQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgICBkaXNhYmxlX3NvcnRpbmc6IHRydWUK</text>
