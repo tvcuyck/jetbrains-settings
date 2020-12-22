@@ -96,26 +96,19 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Disqover/utilities/devops/ec2-creator/userdata/test-pipelines-cloudinit.txt" timestamp="1608289538361">
-        <mark key="[" line="97" column="0" />
-        <mark key="]" line="97" column="103" />
-        <mark key="." line="97" column="102" />
-        <mark key="^" line="97" column="103" />
+      <file name="$USER_HOME$/Disqover/disqover-docker/tests/integration/Jenkinsfile-ci" timestamp="1608546036425">
+        <mark key="[" line="13" column="53" />
       </file>
-      <file name="$USER_HOME$/Disqover/utilities/update_disqover_jenkins/Jenkinsfile" timestamp="1608218106188">
-        <mark key="[" line="12" column="0" />
-        <mark key="]" line="15" column="75" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1608302514032">
+      <file name="/Dummy.txt" timestamp="1608546047166">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="21" />
         <mark key="." line="0" column="21" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-docker/package/source/usr/local/disqover-installer/scripts/bootstrap_disqover_docker.sh" timestamp="1608540591262">
+        <mark key="[" line="201" column="12" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-docker/images/redis/Jenkinsfile" timestamp="1608302139544">
-        <mark key="[" line="26" column="51" />
-        <mark key="]" line="26" column="0" />
         <mark key="^" line="11" column="21" />
-        <mark key="." line="26" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/utilities/devops/jenkins/ci-dev-build-disqover-base-images-jenkinsfile.groovy" timestamp="1608302507588">
         <mark key="'" line="55" column="10" />
@@ -124,23 +117,21 @@
         <mark key="." line="56" column="8" />
         <mark key="^" line="56" column="9" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-docker/tests/integration/Jenkinsfile-centos7" timestamp="1608538914382" />
       <file name="$USER_HOME$/Disqover/disqover-docker/images/postgres/Jenkinsfile" timestamp="1608302134562">
-        <mark key="[" line="26" column="47" />
         <mark key="." line="25" column="20" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-docker/environments/base_settings" timestamp="1608285662220">
-        <mark key="[" line="1" column="1" />
-        <mark key="]" line="2" column="0" />
-        <mark key="." line="2" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-docker/scripts/bootstrap_disqover_docker.sh" timestamp="1608554632647">
+        <mark key="[" line="201" column="16" />
+        <mark key="]" line="201" column="27" />
+        <mark key="^" line="201" column="27" />
+        <mark key="." line="201" column="26" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover/scripts/start_db.sh" timestamp="1608275352272">
-        <mark key="[" line="58" column="92" />
-        <mark key="]" line="50" column="47" />
-        <mark key="^" line="50" column="47" />
-        <mark key="." line="50" column="46" />
-      </file>
-      <file name="$USER_HOME$/Disqover/test_pipelines/birds/pipeline_federated.yml" timestamp="1608301239317">
-        <mark key="[" line="1915" column="62" />
+      <file name="$USER_HOME$/Disqover/disqover-docker/environments/base_settings" timestamp="1608554694721">
+        <mark key="[" line="57" column="56" />
+        <mark key="]" line="57" column="56" />
+        <mark key="." line="57" column="55" />
+        <mark key="^" line="57" column="56" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-docker/images/solr/Jenkinsfile" timestamp="1608302144160">
         <mark key="[" line="26" column="46" />
@@ -150,10 +141,15 @@
         <mark key="]" line="26" column="0" />
         <mark key="." line="26" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-docker/tests/integration/Jenkinsfile-ubuntu1804" timestamp="1608539622100" />
+      <file name="$USER_HOME$/Disqover/disqover/services/taskmgr/src/taskmgr/utils.py" timestamp="1608627303393">
+        <mark key="[" line="40" column="0" />
+        <mark key="]" line="44" column="16" />
+      </file>
       <file name="$USER_HOME$/Disqover/utilities/ECR/Jenkinsfile-ECR-dev" timestamp="1608302502275">
         <mark key="[" line="34" column="46" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-docker/scripts/disqover_setup.sh" timestamp="1608286354870">
+      <file name="$USER_HOME$/Disqover/disqover-docker/scripts/disqover_setup.sh" timestamp="1608554624060">
         <mark key="[" line="31" column="84" />
       </file>
       <file name="$USER_HOME$/Disqover/utilities/ECR/Jenkinsfile-ECR-dev2prod" timestamp="1608302472179">
@@ -237,46 +233,46 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">Ci8vICAgICAgICAgc3RhZ2UoJ1RhZ2dpbmcga29uZycpIHsKLy8gICAgICAgICAgIHN0ZXBzIHsKLy8gICAgICAgICAgICAgd2l0aENyZWRlbnRpYWxzKFtbJGNsYXNzOiAnQW1hem9uV2ViU2VydmljZXNDcmVkZW50aWFsc0JpbmRpbmcnLAovLyAgICAgICAgICAgICAgICAgICAgICAgY3JlZGVudGlhbHNJZDogJ2F3cy1kZXYtYWNjb3VudCcsCi8vICAgICAgICAgICAgICAgICAgICAgICBhY2Nlc3NLZXlWYXJpYWJsZTogJ0FXU19BQ0NFU1NfS0VZX0lEJywKLy8gICAgICAgICAgICAgICAgICAgICAgIHNlY3JldEtleVZhcmlhYmxlOiAnQVdTX1NFQ1JFVF9BQ0NFU1NfS0VZJ11dKSB7Ci8vICAgICAgICAgICAgICAgc2ggJycnCi8vICAgICAgICAgICAgICAgZXhwb3J0IEFXU19BQ0NFU1NfS0VZX0lEPSRBV1NfQUNDRVNTX0tFWV9JRAovLyAgICAgICAgICAgICAgIGV4cG9ydCBBV1NfU0VDUkVUX0FDQ0VTU19LRVk9JEFXU19TRUNSRVRfQUNDRVNTX0tFWQovLyAgICAgICAgICAgICAgIGF3cyBlY3IgZ2V0LWxvZ2luIC0tbm8taW5jbHVkZS1lbWFpbCAtLXJlZ2lvbiB1cy1lYXN0LTEgfCBzaAovLyAgICAgICAgICAgICAgIGRvY2tlciBwdWxsICRFQ1JfUkVQT19ERVYvb250b2ZvcmNlL2tvbmc6JHtLT05HX0lNQUdFX1RBR30KLy8gICAgICAgICAgICAgICBkb2NrZXIgdGFnICRFQ1JfUkVQT19ERVYvb250b2ZvcmNlL2tvbmc6JHtLT05HX0lNQUdFX1RBR30gJEVDUl9SRVBPX0RFVi9vbnRvZm9yY2Uva29uZzoke0RPQ0tFUl9UQUd9Ci8vICAgICAgICAgICAgICAgZG9ja2VyIHB1c2ggJEVDUl9SRVBPX0RFVi9vbnRvZm9yY2Uva29uZzoke0RPQ0tFUl9UQUd9Ci8vICAgICAgICAgICAgICAgJycnCi8vICAgICAgICAgICAgIH0KLy8gICAgICAgICAgIH0KLy8gICAgICAgICB9Cg==</text>
+        <text encoding="base64">CmRlZiBjaGVja19kYl9jb25uZWN0aW9uKCk6CiAgICBlbmdpbmUgPSBkYi5nZXRfZW5naW5lKCkKICAgIGNvbm4gPSBlbmdpbmUuY29ubmVjdCgpCiAgICBjb25uLmNsb3NlKCkK</text>
       </register>
       <register name="-" type="4">
-        <text>T</text>
+        <text>SOLR_IMAGE = &quot;${REPO}/ontoforce/solr:${params.SOLR_IMAGE}&quot;</text>
       </register>
       <register name="/" type="4">
         <text>kong</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">Q0xPVURSRVBPPTY1MjY0NjcyNzc0NS5ka3IuZWNyLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tCg==</text>
+        <text encoding="base64">CmRlZiBjaGVja19kYl9jb25uZWN0aW9uKCk6CiAgICBlbmdpbmUgPSBkYi5nZXRfZW5naW5lKCkKICAgIGNvbm4gPSBlbmdpbmUuY29ubmVjdCgpCiAgICBjb25uLmNsb3NlKCkK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Ci8vICAgICAgICAgc3RhZ2UoJ1RhZ2dpbmcga29uZycpIHsKLy8gICAgICAgICAgIHN0ZXBzIHsKLy8gICAgICAgICAgICAgd2l0aENyZWRlbnRpYWxzKFtbJGNsYXNzOiAnQW1hem9uV2ViU2VydmljZXNDcmVkZW50aWFsc0JpbmRpbmcnLAovLyAgICAgICAgICAgICAgICAgICAgICAgY3JlZGVudGlhbHNJZDogJ2F3cy1kZXYtYWNjb3VudCcsCi8vICAgICAgICAgICAgICAgICAgICAgICBhY2Nlc3NLZXlWYXJpYWJsZTogJ0FXU19BQ0NFU1NfS0VZX0lEJywKLy8gICAgICAgICAgICAgICAgICAgICAgIHNlY3JldEtleVZhcmlhYmxlOiAnQVdTX1NFQ1JFVF9BQ0NFU1NfS0VZJ11dKSB7Ci8vICAgICAgICAgICAgICAgc2ggJycnCi8vICAgICAgICAgICAgICAgZXhwb3J0IEFXU19BQ0NFU1NfS0VZX0lEPSRBV1NfQUNDRVNTX0tFWV9JRAovLyAgICAgICAgICAgICAgIGV4cG9ydCBBV1NfU0VDUkVUX0FDQ0VTU19LRVk9JEFXU19TRUNSRVRfQUNDRVNTX0tFWQovLyAgICAgICAgICAgICAgIGF3cyBlY3IgZ2V0LWxvZ2luIC0tbm8taW5jbHVkZS1lbWFpbCAtLXJlZ2lvbiB1cy1lYXN0LTEgfCBzaAovLyAgICAgICAgICAgICAgIGRvY2tlciBwdWxsICRFQ1JfUkVQT19ERVYvb250b2ZvcmNlL2tvbmc6JHtLT05HX0lNQUdFX1RBR30KLy8gICAgICAgICAgICAgICBkb2NrZXIgdGFnICRFQ1JfUkVQT19ERVYvb250b2ZvcmNlL2tvbmc6JHtLT05HX0lNQUdFX1RBR30gJEVDUl9SRVBPX0RFVi9vbnRvZm9yY2Uva29uZzoke0RPQ0tFUl9UQUd9Ci8vICAgICAgICAgICAgICAgZG9ja2VyIHB1c2ggJEVDUl9SRVBPX0RFVi9vbnRvZm9yY2Uva29uZzoke0RPQ0tFUl9UQUd9Ci8vICAgICAgICAgICAgICAgJycnCi8vICAgICAgICAgICAgIH0KLy8gICAgICAgICAgIH0KLy8gICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIFBMVUdJTl9DRU5URVJfSU1BR0UgPSAiJHtSRVBPfS9vbnRvZm9yY2UvcGx1Z2luX2NlbnRlcjoke3BhcmFtcy5QTFVHSU5fQ0VOVEVSX0lNQUdFfSIK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Q0xPVURSRVBPPTQyODAyNTA2NDQ3MS5ka3IuZWNyLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIEVWRU5USEFORExFUl9JTUFHRSA9ICAiJHtSRVBPfS9vbnRvZm9yY2UvZXZlbnRoYW5kbGVyOiR7cGFyYW1zLkVWRU5USEFORExFUl9JTUFHRX0iCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Q0xPVURSRVBPPTY1MjY0NjcyNzc0NS5ka3IuZWNyLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIFBMVUdJTl9JTUFHRSA9ICIke1JFUE99L29udG9mb3JjZS9kaXNxLXBsdWdpbjoke3BhcmFtcy5QTFVHSU5fSU1BR0V9Igo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzdWRvIHl1bSAteSBpbnN0YWxsIGVwZWwtcmVsZWFzZQogICAgICAgICAgICAgICAgICAgIHN1ZG8geXVtIC15IGluc3RhbGwgcHl0aG9uLXBpcAogICAgICAgICAgICAgICAgICAgIHN1ZG8gcGlwIGluc3RhbGwgLS11cGdyYWRlIHBpcAogICAgICAgICAgICAgICAgICAgIHN1ZG8gcGlwIGluc3RhbGwgYXdzY2xpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIENMSUVOVF9JTUFHRSA9ICIke1JFUE99L29udG9mb3JjZS9kaXNxb3Zlci1jbGllbnQ6JHtwYXJhbXMuQ0xJX0lNQUdFfSIK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzdWRvIHl1bSAteSBpbnN0YWxsIGVwZWwtcmVsZWFzZQogICAgICAgICAgICAgICAgICAgIHN1ZG8geXVtIC15IGluc3RhbGwgcHl0aG9uLXBpcAogICAgICAgICAgICAgICAgICAgIHN1ZG8gcGlwIGluc3RhbGwgLS11cGdyYWRlIHBpcAogICAgICAgICAgICAgICAgICAgIHN1ZG8gcGlwIGluc3RhbGwgYXdzY2xpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIFNPTFJfSU1BR0UgPSAiJHtSRVBPfS9vbnRvZm9yY2Uvc29scjoke3BhcmFtcy5TT0xSX0lNQUdFfSIK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzdWRvIHl1bSAteSBpbnN0YWxsIGVwZWwtcmVsZWFzZQogICAgICAgICAgICAgICAgICAgIHN1ZG8geXVtIC15IGluc3RhbGwgcHl0aG9uLXBpcAogICAgICAgICAgICAgICAgICAgIHN1ZG8gcGlwIGluc3RhbGwgLS11cGdyYWRlIHBpcAogICAgICAgICAgICAgICAgICAgIHN1ZG8gcGlwIGluc3RhbGwgYXdzY2xpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIEZST05URU5EX0lNQUdFID0gIiR7UkVQT30vb250b2ZvcmNlL2Zyb250ZW5kOiR7cGFyYW1zLkZFX0lNQUdFfSIK</text>
       </register>
-      <register name="7" type="8">
-        <text encoding="base64">ICAgICAgICAgIAogICAgICAgICAgCiAgICAgICAgICA=</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIEtPTkdfSU1BR0UgPSAiJHtSRVBPfS9vbnRvZm9yY2Uva29uZzoke3BhcmFtcy5LT05HX0lNQUdFfSIK</text>
       </register>
       <register name="w" type="4">
         <text />
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzdWRvIHl1bSAteSBpbnN0YWxsIGVwZWwtcmVsZWFzZQogICAgICAgICAgICAgICAgICAgIHN1ZG8geXVtIC15IGluc3RhbGwgcHl0aG9uLXBpcAogICAgICAgICAgICAgICAgICAgIHN1ZG8gcGlwIGluc3RhbGwgLS11cGdyYWRlIHBpcAogICAgICAgICAgICAgICAgICAgIHN1ZG8gcGlwIGluc3RhbGwgYXdzY2xpCg==</text>
+        <text encoding="base64">ICAgICAgICBzdHJpbmcobmFtZTonUExVR0lOX0NFTlRFUl9JTUFHRScsIGRlZmF1bHRWYWx1ZTogJ2RldicsIGRlc2NyaXB0aW9uOiAnQVdTIEVDUiBkb2NrZXIgaW1hZ2UgdGFnJykK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBzdWRvIHl1bSAteSBpbnN0YWxsIGVwZWwtcmVsZWFzZQogICAgICAgICAgICAgICAgICAgIHN1ZG8geXVtIC15IGluc3RhbGwgcHl0aG9uLXBpcAogICAgICAgICAgICAgICAgICAgIHN1ZG8gcGlwIGluc3RhbGwgLS11cGdyYWRlIHBpcAogICAgICAgICAgICAgICAgICAgIHN1ZG8gcGlwIGluc3RhbGwgYXdzY2xpCg==</text>
+        <text encoding="base64">ICAgICAgICBzdHJpbmcobmFtZTonRVZFTlRIQU5ETEVSX0lNQUdFJywgZGVmYXVsdFZhbHVlOiAnZGV2JywgZGVzY3JpcHRpb246ICdBV1MgRUNSIGRvY2tlciBpbWFnZSB0YWcnKQo=</text>
       </register>
       <register name=":" type="4">
         <text>32</text>
