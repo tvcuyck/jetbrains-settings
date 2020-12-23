@@ -102,16 +102,19 @@
       <file name="/fragment.py" timestamp="1608644190131">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover/libs/metis/tests/integration/countries_companies_clin_trials.yml" timestamp="1608633833524">
-        <mark key="[" line="864" column="0" />
-        <mark key="]" line="864" column="29" />
-        <mark key="." line="864" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-docker/images/postgres/Dockerfile" timestamp="1608717027093">
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="7" column="0" />
+        <mark key="." line="7" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover/services/taskmgr/src/taskmgr/api/health_check.py" timestamp="1608640463740">
         <mark key="[" line="13" column="0" />
         <mark key="]" line="16" column="47" />
       </file>
-      <file name="/Dummy.txt" timestamp="1608651955295">
+      <file name="$USER_HOME$/Disqover/disqover-docker/tests/integration/Jenkinsfile-ci" timestamp="1608716328859">
+        <mark key="[" line="13" column="53" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1608717245041">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="21" />
         <mark key="." line="0" column="21" />
@@ -122,25 +125,14 @@
         <mark key="^" line="23" column="60" />
         <mark key="." line="23" column="59" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-docker/environments/base_settings" timestamp="1608710325651">
-        <mark key="[" line="57" column="56" />
-        <mark key="]" line="57" column="56" />
-        <mark key="." line="57" column="55" />
-        <mark key="^" line="57" column="56" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover/libs/metis/src/metis/indexing/disqover_property.py" timestamp="1608632525657">
-        <mark key="[" line="317" column="28" />
-        <mark key="]" line="387" column="35" />
-        <mark key="^" line="387" column="35" />
-        <mark key="." line="387" column="34" />
+      <file name="$USER_HOME$/Disqover/disqover-docker/environments/base_settings" timestamp="1608710325651" />
+      <file name="$USER_HOME$/Disqover/disqover-docker/images/solr/Dockerfile" timestamp="1608717060992">
+        <mark key="[" line="4" column="9" />
+        <mark key="]" line="4" column="4" />
+        <mark key="." line="4" column="3" />
+        <mark key="^" line="4" column="4" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-docker/scripts/update_disqover.sh" timestamp="1608650752806" />
-      <file name="$USER_HOME$/Disqover/disqover/libs/metis/tests/integration/test_countries_companies_clin_trials_spec.py" timestamp="1608633990156">
-        <mark key="[" line="1951" column="92" />
-        <mark key="]" line="1949" column="110" />
-        <mark key="." line="1949" column="109" />
-        <mark key="^" line="1949" column="110" />
-      </file>
       <file name="$USER_HOME$/Disqover/disqover/libs/api_base/src/api_base/db_utils.py" timestamp="1608640175350">
         <mark key="[" line="31" column="26" />
         <mark key="]" line="31" column="26" />
@@ -148,13 +140,9 @@
         <mark key="." line="31" column="25" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover/libs/api_base/tests/spec/test_jsonapi_spec.py" timestamp="1608644303396" />
-      <file name="$USER_HOME$/Disqover/disqover/libs/metis/tests/spec/actions/components/test_create_canonical_type_action_spec.py" timestamp="1608639172303">
-        <mark key="[" line="275" column="47" />
-        <mark key="]" line="276" column="39" />
-        <mark key="^" line="276" column="39" />
-        <mark key="." line="276" column="38" />
+      <file name="$USER_HOME$/Disqover/disqover-docker/images/redis/Dockerfile" timestamp="1608717047969">
+        <mark key="]" line="0" column="23" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover/libs/metis/tests/spec/indexing/test_disqover_property_spec.py" timestamp="1608633458334" />
       <file name="$USER_HOME$/Disqover/disqover/services/watched_dashboards/src/watched_dashboards/api.py" timestamp="1608642161232">
         <mark key="[" line="28" column="61" />
         <mark key="]" line="30" column="0" />
@@ -162,6 +150,11 @@
         <mark key="^" line="24" column="4" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover/libs/metis/src/metis/metis_settings.py" timestamp="1608645118256" />
+      <file name="$USER_HOME$/Disqover/disqover-docker/images/kong/Dockerfile-pre" timestamp="1608717199209">
+        <mark key="[" line="11" column="0" />
+        <mark key="]" line="11" column="0" />
+        <mark key="." line="11" column="0" />
+      </file>
     </filemarks>
     <jumps>
       <jump line="0" column="0" filename="$USER_HOME$/Disqover/disqover-backend/config/routes.rb" />
@@ -232,7 +225,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICByYWlzZSBTZXJ2aWNlVW5hdmFpbGFibGUoc3RyKGV4KSkK</text>
+        <text encoding="base64">ICAgICYmIGFwdC1nZXQgLXkgZGlzdC11cGdyYWRlIFwK</text>
       </register>
       <register name="-" type="4">
         <text>SOLR_IMAGE = &quot;${REPO}/ontoforce/solr:${params.SOLR_IMAGE}&quot;</text>
@@ -241,37 +234,37 @@
         <text>kong</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBjdXJyZW50X2FwcC5sb2dnZXIuaW5mbyhmJ0RhdGFiYXNlIGNvbm5lY3Rpb24gZmFpbGVkIHtzdHIoZXgpfScpCiAgICAgICAgcmFpc2UgU2VydmljZVVuYXZhaWxhYmxlKCdEYXRhYmFzZSBjb25uZWN0aW9uIGZhaWxlZCcpCg==</text>
+        <text encoding="base64">UlVOIGFwdC1nZXQgLXkgdXBkYXRlIFwKICAgICYmIGFwdC1nZXQgLXkgZGlzdC11cGdyYWRlIFwKICAgICYmIGFwdC1nZXQgLXkgY2xlYW4K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICByYWlzZSBTZXJ2aWNlVW5hdmFpbGFibGUoc3RyKGV4KSkK</text>
+        <text encoding="base64">ICAgICYmIGFwdC1nZXQgLXkgZGlzdC11cGdyYWRlIFwK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ZnJvbSB3YXRjaGVkX2Rhc2hib2FyZHMgaW1wb3J0IGRiCg==</text>
+        <text encoding="base64">UlVOIGFwdC1nZXQgLXkgdXBkYXRlClJVTiBhcHQtZ2V0IC15IGRpc3QtdXBncmFkZQo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ZnJvbSB3YXRjaGVkX2Rhc2hib2FyZHMuZGIgaW1wb3J0IGRiCg==</text>
+        <text encoding="base64">UlVOIGFwdC1nZXQgLXkgdXBkYXRlClJVTiBhcHQtZ2V0IC15IGRpc3QtdXBncmFkZQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">UlVOIGFwdC1nZXQgLXkgdXBkYXRlClJVTiBhcHQtZ2V0IC15IGRpc3QtdXBncmFkZQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZnJvbSBwIGltcG9ydCBkYl9zZXNzaW9uCg==</text>
+        <text encoding="base64">ICAgICAgICByYWlzZSBTZXJ2aWNlVW5hdmFpbGFibGUoc3RyKGV4KSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBkaXNhYmxlX3NvcnRpbmc6IHRydWUK</text>
+        <text encoding="base64">ZnJvbSB3YXRjaGVkX2Rhc2hib2FyZHMgaW1wb3J0IGRiCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIFBMVUdJTl9DRU5URVJfSU1BR0UgPSAiJHtSRVBPfS9vbnRvZm9yY2UvcGx1Z2luX2NlbnRlcjoke3BhcmFtcy5QTFVHSU5fQ0VOVEVSX0lNQUdFfSIK</text>
+        <text encoding="base64">ZnJvbSB3YXRjaGVkX2Rhc2hib2FyZHMuZGIgaW1wb3J0IGRiCg==</text>
       </register>
       <register name="w" type="4">
         <text />
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIEVWRU5USEFORExFUl9JTUFHRSA9ICAiJHtSRVBPfS9vbnRvZm9yY2UvZXZlbnRoYW5kbGVyOiR7cGFyYW1zLkVWRU5USEFORExFUl9JTUFHRX0iCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgIFBMVUdJTl9JTUFHRSA9ICIke1JFUE99L29udG9mb3JjZS9kaXNxLXBsdWdpbjoke3BhcmFtcy5QTFVHSU5fSU1BR0V9Igo=</text>
+        <text encoding="base64">ZnJvbSBwIGltcG9ydCBkYl9zZXNzaW9uCg==</text>
       </register>
       <register name=":" type="4">
         <text>32</text>
