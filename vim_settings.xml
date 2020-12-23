@@ -96,17 +96,11 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Python Console" timestamp="1608644181384">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="/fragment.py" timestamp="1608644190131">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/Disqover/disqover/services/iris/Dockerfile" timestamp="1608721199670" />
-      <file name="$USER_HOME$/Disqover/disqover-docker/images/postgres/Dockerfile" timestamp="1608717027093">
-        <mark key="[" line="7" column="0" />
-        <mark key="]" line="7" column="0" />
-        <mark key="." line="7" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-docker/docker-compose/docker-compose-backend.yml" timestamp="1608733725510">
+        <mark key="[" line="24" column="0" />
+        <mark key="]" line="24" column="45" />
+        <mark key="." line="24" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover/services/taskmgr/src/taskmgr/api/health_check.py" timestamp="1608721649416">
         <mark key="[" line="10" column="0" />
@@ -115,7 +109,34 @@
       <file name="$USER_HOME$/Disqover/disqover-docker/tests/integration/Jenkinsfile-ci" timestamp="1608717697132">
         <mark key="[" line="13" column="56" />
       </file>
-      <file name="/Dummy.txt" timestamp="1608721796962">
+      <file name="$USER_HOME$/Disqover/disqover-docker/environments/base_settings" timestamp="1608733920702" />
+      <file name="$USER_HOME$/Disqover/disqover/libs/api_base/src/api_base/db_utils.py" timestamp="1608721352087">
+        <mark key="[" line="39" column="0" />
+        <mark key="]" line="41" column="62" />
+        <mark key="^" line="36" column="8" />
+        <mark key="." line="39" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-docker/images/redis/Dockerfile" timestamp="1608717047969">
+        <mark key="]" line="0" column="23" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover/services/watched_dashboards/src/watched_dashboards/api.py" timestamp="1608721404767">
+        <mark key="[" line="2" column="72" />
+        <mark key="]" line="26" column="0" />
+        <mark key="." line="26" column="0" />
+        <mark key="^" line="24" column="4" />
+      </file>
+      <file name="/Python Console" timestamp="1608644181384">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/fragment.py" timestamp="1608644190131">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-docker/images/postgres/Dockerfile" timestamp="1608717027093">
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="7" column="0" />
+        <mark key="." line="7" column="0" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1608733869805">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="21" />
         <mark key="." line="0" column="21" />
@@ -125,7 +146,6 @@
         <mark key="]" line="6" column="0" />
         <mark key="." line="6" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-docker/environments/base_settings" timestamp="1608710325651" />
       <file name="$USER_HOME$/Disqover/disqover-docker/images/solr/Dockerfile" timestamp="1608717060992">
         <mark key="[" line="4" column="9" />
         <mark key="]" line="4" column="4" />
@@ -133,21 +153,10 @@
         <mark key="^" line="4" column="4" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-docker/scripts/update_disqover.sh" timestamp="1608650752806" />
-      <file name="$USER_HOME$/Disqover/disqover/libs/api_base/src/api_base/db_utils.py" timestamp="1608721352087">
-        <mark key="[" line="39" column="0" />
-        <mark key="]" line="41" column="62" />
-        <mark key="^" line="36" column="8" />
-        <mark key="." line="39" column="0" />
-      </file>
       <file name="$USER_HOME$/Disqover/disqover/libs/api_base/tests/spec/test_jsonapi_spec.py" timestamp="1608644303396" />
-      <file name="$USER_HOME$/Disqover/disqover-docker/images/redis/Dockerfile" timestamp="1608717047969">
-        <mark key="]" line="0" column="23" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover/services/watched_dashboards/src/watched_dashboards/api.py" timestamp="1608721404767">
-        <mark key="[" line="2" column="72" />
-        <mark key="]" line="26" column="0" />
-        <mark key="." line="26" column="0" />
-        <mark key="^" line="24" column="4" />
+      <file name="/docker-compose-backend.yml" timestamp="1608733720618">
+        <mark key="[" line="64" column="0" />
+        <mark key="]" line="64" column="45" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover/libs/metis/src/metis/metis_settings.py" timestamp="1608645118256" />
       <file name="$USER_HOME$/Disqover/disqover-docker/images/kong/Dockerfile-pre" timestamp="1608717199209">
@@ -225,7 +234,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHRyeToK</text>
+        <text encoding="base64">ICAgICAgLSAiJHtESVNRT1ZFUl9VU0FHRV9MT0dTX0RJUn06L3RtcC9sb2ciCg==</text>
       </register>
       <register name="-" type="4">
         <text>SOLR_IMAGE = &quot;${REPO}/ontoforce/solr:${params.SOLR_IMAGE}&quot;</text>
@@ -234,7 +243,7 @@
         <text>kong</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHRyeToK</text>
+        <text encoding="base64">ICAgICAgLSAiJHtESVNRT1ZFUl9VU0FHRV9MT0dTX0RJUn06L3RtcC9sb2ciCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ZnJvbSB3ZXJremV1Zy5leGNlcHRpb25zIGltcG9ydCBTZXJ2aWNlVW5hdmFpbGFibGUK</text>
