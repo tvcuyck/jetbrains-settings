@@ -8,7 +8,6 @@
         <entry>logging</entry>
       </history-search>
       <history-cmd>
-        <entry>435</entry>
         <entry>250</entry>
         <entry>950</entry>
         <entry>871</entry>
@@ -28,6 +27,7 @@
         <entry>580</entry>
         <entry>w</entry>
         <entry>0</entry>
+        <entry>wq</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -76,26 +76,10 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1609833853123">
+      <file name="/Dummy.txt" timestamp="1609847926050">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/jobs_service.rb" timestamp="1609843874342">
-        <mark key="[" line="60" column="9" />
-        <mark key="]" line="60" column="6" />
-        <mark key="." line="60" column="6" />
-        <mark key="^" line="51" column="9" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/instance_export_service.rb" timestamp="1609842580041">
-        <mark key="[" line="151" column="0" />
-        <mark key="]" line="152" column="61" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/background_jobs/background_job.rb" timestamp="1609843389891">
-        <mark key="[" line="67" column="31" />
-        <mark key="]" line="67" column="5" />
-        <mark key="." line="67" column="4" />
-        <mark key="^" line="67" column="5" />
       </file>
       <file name="/Ruby Console" timestamp="1609833509911">
         <mark key="[" line="0" column="0" />
@@ -105,6 +89,12 @@
       </file>
       <file name="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.txt" timestamp="1609763030680">
         <mark key="[" line="0" column="117" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/ci/env" timestamp="1609847914372">
+        <mark key="[" line="6" column="79" />
+        <mark key="]" line="6" column="76" />
+        <mark key="^" line="6" column="76" />
+        <mark key="." line="6" column="75" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/jobs_controller.rb" timestamp="1609838622344">
         <mark key="[" line="18" column="0" />
@@ -189,7 +179,7 @@
         <text encoding="base64">CiAgZGVmIHN0b3AKICAgIHBlcm1pdHRlZCA9IHBhcmFtcy5wZXJtaXQoOmlkKQogICAgSm9ic1NlcnZpY2Uuc3RvcChwZXJtaXR0ZWRbOmlkXSkKICAgIHJlbmRlciBqc29uOiB7fSwgc3RhdHVzOiA6b2sKICBlbmQKCiAgZGVmIHN0b3BfYWxsCiAgICBKb2JzU2VydmljZS5zdG9wX2FsbAoKICAgIHJlbmRlciBqc29uOiB7fSwgc3RhdHVzOiA6b2sKICBlbmQKCiAgZGVmIHJlc3RhcnQKICAgIHBlcm1pdHRlZCA9IHBhcmFtcy5wZXJtaXQoOmlkKQogICAgSm9ic1NlcnZpY2UucmVzdGFydChwZXJtaXR0ZWRbOmlkXSkKICAgIHJlbmRlciBqc29uOiB7fSwgc3RhdHVzOiA6b2sKICBlbmQKCiAgZGVmIGRlbGV0ZQogICAgcGVybWl0dGVkID0gcGFyYW1zLnBlcm1pdCg6aWQpCiAgICBKb2JzU2VydmljZS5kZWxldGUocGVybWl0dGVkWzppZF0pCiAgICByZW5kZXIganNvbjoge30sIHN0YXR1czogOm9rCiAgZW5kCgogIGRlZiBkZWxldGVfYWxsCiAgICBwZXJtaXR0ZWQgPSBwYXJhbXMucGVybWl0KDpiZWZvcmUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDpzdGF0dXMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDpzdGF0dXMgPT4gW10pCiAgICBiZWZvcmUgPSBuaWwKICAgIGJlZm9yZSA9IERhdGVUaW1lLnBhcnNlKHBlcm1pdHRlZFs6YmVmb3JlXS50b19zKSBpZiBwZXJtaXR0ZWQuaGFzX2tleT8oOmJlZm9yZSkgJiYgIXBlcm1pdHRlZFs6YmVmb3JlXS5uaWw/CgogICAgc3RhdHVzZXMgPSBuaWwKICAgIHN0YXR1c2VzID0gW3Blcm1pdHRlZFs6c3RhdHVzXV0uZmxhdHRlbi5jb21wYWN0IGlmIHBlcm1pdHRlZC5oYXNfa2V5Pyg6c3RhdHVzKQogICAgcmFpc2UgQXJndW1lbnRFcnJvciwgJ1RhcmdldCBzdGF0dXMoZXMpIHRvIGRlbGV0ZSByZXF1aXJlZCcgaWYgc3RhdHVzZXMubmlsPyB8fCBzdGF0dXNlcy5lbXB0eT8KCiAgICBKb2JzU2VydmljZS5kZWxldGVfYWxsX2JlZm9yZShzdGF0dXNlcywgYmVmb3JlIHx8IERhdGVUaW1lLm5vdykKCiAgICByZW5kZXIganNvbjoge30sIHN0YXR1czogOm9rCiAgZW5kCg==</text>
       </register>
       <register name=":" type="4">
-        <text>w</text>
+        <text>wq</text>
       </register>
     </registers>
   </component>
