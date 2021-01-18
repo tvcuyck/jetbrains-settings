@@ -19,8 +19,6 @@
         <entry>kong</entry>
       </history-search>
       <history-cmd>
-        <entry>52</entry>
-        <entry>464</entry>
         <entry encoding="base64">JzwsJz4w</entry>
         <entry>393</entry>
         <entry>562</entry>
@@ -39,6 +37,8 @@
         <entry>54</entry>
         <entry>0</entry>
         <entry>48</entry>
+        <entry>82</entry>
+        <entry>144</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -91,64 +91,96 @@
       <shortcut-conflict owner="vim">
         <text>ctrl pressed H</text>
       </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
     </shortcut-conflicts>
   </component>
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Disqover/disqover/tools/bisq/src/bisq/git_utils.py" timestamp="1610539248705">
-        <mark key="[" line="37" column="29" />
-        <mark key="]" line="37" column="26" />
-        <mark key="^" line="37" column="26" />
-        <mark key="." line="37" column="25" />
+      <file name="$USER_HOME$/Disqover/disqover-docker/docker-compose/docker-compose-backend.yml" timestamp="1610711010907">
+        <mark key="[" line="24" column="45" />
+        <mark key="]" line="25" column="50" />
+        <mark key="." line="25" column="49" />
+        <mark key="^" line="25" column="50" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover/Jenkinsfile" timestamp="1610547290050" />
-      <file name="/a.dummy" timestamp="1610463529732">
-        <mark key="[" line="0" column="1" />
+      <file name="$USER_HOME$/Disqover/disqover-docker/docker-compose/.env" timestamp="1610707401666">
+        <mark key="[" line="94" column="48" />
+        <mark key="]" line="94" column="2" />
+        <mark key="^" line="94" column="2" />
+        <mark key="." line="94" column="1" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover/services/healthcheck/src/healthcheck/api/api.py" timestamp="1610467930713">
-        <mark key="[" line="15" column="0" />
-        <mark key="]" line="15" column="0" />
-        <mark key="." line="15" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-client/bin/health_check.py" timestamp="1610707660941">
+        <mark key="[" line="27" column="0" />
+        <mark key="]" line="34" column="31" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover/tools/bisq/src/bisq/component.py" timestamp="1610537586396" />
-      <file name="$USER_HOME$/Disqover/disqover/tools/bisq/src/bisq/tmp_settings.py" timestamp="1610537526745" />
-      <file name="$USER_HOME$/Disqover/utilities/devops/jenkins/ci-dev-build-disqover-full-jenkinsfile.groovy" timestamp="1610547932701">
-        <mark key="[" line="75" column="24" />
+      <file name="$USER_HOME$/Disqover/disqover-docker/scripts/bootstrap_disqover_docker.sh" timestamp="1610710628554">
+        <mark key="[" line="202" column="1" />
+        <mark key="]" line="202" column="1" />
+        <mark key="." line="202" column="1" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover/tools/bisq/src/bisq/docker_utils.py" timestamp="1610546464938" />
-      <file name="/Dummy.txt" timestamp="1610549280831">
+      <file name="$USER_HOME$/Disqover/disqover-docker/environments/base_settings" timestamp="1610710728512">
+        <mark key="[" line="75" column="41" />
+        <mark key="]" line="75" column="34" />
+        <mark key="^" line="75" column="34" />
+        <mark key="." line="75" column="33" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-docker/seed_data/pipeline/hello_world/hello_world.yml" timestamp="1610712641288" />
+      <file name="$USER_HOME$/Disqover/disqover/Jenkinsfile" timestamp="1610719067885">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="2" />
+        <mark key="^" line="0" column="2" />
+        <mark key="." line="0" column="1" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover/services/disq_plugin/src/disq_plugin/api/common.py" timestamp="1610725764890">
+        <mark key="[" line="47" column="38" />
+        <mark key="]" line="47" column="31" />
+        <mark key="." line="47" column="30" />
+        <mark key="^" line="47" column="31" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-docker/docker-compose/docker-compose-metis.yml" timestamp="1610710486872">
+        <mark key="[" line="14" column="0" />
+        <mark key="]" line="14" column="52" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-docker/docker-compose/docker-compose-client.yml" timestamp="1610708807297">
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="11" column="47" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-docker/scripts/disqover_setup.sh" timestamp="1610717301338">
+        <mark key="[" line="328" column="8" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover/services/disq_plugin/src/disq_plugin/api/disqover_plugins/custom_search/api.py" timestamp="1610724023748">
+        <mark key="[" line="1" column="0" />
+        <mark key="]" line="1" column="0" />
+        <mark key="." line="1" column="0" />
+        <mark key="^" line="12" column="29" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover/services/disq_plugin/example/mock_custom_search/plugin/callbacks.py" timestamp="1610725778656">
+        <mark key="[" line="28" column="18" />
+        <mark key="]" line="28" column="10" />
+        <mark key="." line="28" column="9" />
+        <mark key="^" line="28" column="10" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover/services/disq_plugin/src/disq_plugin/validate.py" timestamp="1610722125727">
+        <mark key="[" line="229" column="44" />
+        <mark key="]" line="230" column="53" />
+        <mark key="." line="230" column="52" />
+        <mark key="^" line="230" column="53" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1610725959213">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="21" />
         <mark key="." line="0" column="21" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/src/disqover/application_info/api.py" timestamp="1610467576702">
-        <mark key="[" line="75" column="45" />
+      <file name="$USER_HOME$/Disqover/disqover/services/plugin_center/src/plugin_center/api.py" timestamp="1610721007298" />
+      <file name="$USER_HOME$/Disqover/disqover/services/disq_plugin/src/disq_plugin/api/disqover_plugins/common.py" timestamp="1610723282460">
+        <mark key="[" line="7" column="25" />
+        <mark key="]" line="8" column="0" />
+        <mark key="^" line="8" column="0" />
+        <mark key="." line="8" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover/tools/bisq/src/bisq/venv_utils.py" timestamp="1610538107157">
-        <mark key="[" line="61" column="0" />
-        <mark key="]" line="61" column="0" />
-        <mark key="^" line="69" column="47" />
-        <mark key="." line="61" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-docker/scripts/bootstrap_disqover_docker.sh" timestamp="1610550773989">
-        <mark key="[" line="328" column="54" />
-      </file>
-      <file name="$USER_HOME$/Disqover/utilities/devops/ec2-creator/userdata/public-data-milestone-cloudinit.txt" timestamp="1610608619232">
-        <mark key="[" line="84" column="186" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover/tools/bisq/src/bisq/main.py" timestamp="1610549251640">
-        <mark key="[" line="222" column="0" />
-        <mark key="]" line="222" column="0" />
-        <mark key="^" line="222" column="36" />
-        <mark key="." line="222" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover/libs/metis/tests/spec/actions/components/test_create_canonical_type_action_spec.py" timestamp="1610464528345">
-        <mark key="[" line="319" column="0" />
-        <mark key="]" line="319" column="0" />
-        <mark key="." line="319" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/utilities/devops/jenkins/deploy-disqover-jenkinsfile.groovy" timestamp="1610557913904" />
+      <file name="$USER_HOME$/Disqover/disqover/libs/api_base/tests/spec/test_jsonapi_spec.py" timestamp="1610706692352" />
     </filemarks>
     <jumps>
       <jump line="0" column="0" filename="$USER_HOME$/Disqover/disqover-backend/config/routes.rb" />
@@ -201,6 +233,7 @@
       <jump line="214" column="53" filename="$USER_HOME$/Disqover/disqover-docker/scripts/disqover_setup.sh" />
       <jump line="55" column="10" filename="$USER_HOME$/Disqover/utilities/devops/jenkins/ci-dev-build-disqover-base-images-jenkinsfile.groovy" />
       <jump line="21" column="4" filename="$USER_HOME$/Disqover/disqover/services/disq_plugin/src/disq_plugin/api/disqover_plugins/custom_search/api.py" />
+      <jump line="18" column="0" filename="$USER_HOME$/Disqover/disqover-docker/seed_data/pipeline/hello_world/hello_world.yml" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -220,49 +253,49 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY2xpY2suZWNobyhhdXRvX2RlcGVuZHMpCg==</text>
+        <text encoding="base64">ZnJvbSB3ZXJremV1Zy5leGNlcHRpb25zIGltcG9ydCBCYWRSZXF1ZXN0Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>e.append([uri, similarity])</text>
+        <text>i</text>
       </register>
       <register name="/" type="4">
         <text>kong</text>
       </register>
-      <register name="0" type="4">
-        <text>set(component.Component(x) for x in c.auto_depends)</text>
+      <register name="0" type="2">
+        <text encoding="base64">CmRlZiBnZXRfZ2xvYmFsX29wdGlvbnNfc2NoZW1hKGNhbGxiYWNrcykgLT4gRGljdDoKICAgIG9wdGlvbnMgPSBnZXRfZ2xvYmFsX29wdGlvbnMoY2FsbGJhY2tzKQogICAgcHJvcHMgPSB7fQogICAgZm9yIGksIG9wdGlvbiBpbiBlbnVtZXJhdGUob3B0aW9ucyk6CiAgICAgICAgdmFsdWUgPSBfY29udmVydF9vcHRpb25fdG9fanNvbl9zY2hlbWEob3B0aW9uKQogICAgICAgIHZhbHVlWydkaXNxLWluZGV4J10gPSBpCiAgICAgICAgcHJvcHNbb3B0aW9uWydpZCddXSA9IHZhbHVlCgogICAgcmV0dXJuIHsnJHNjaGVtYSc6ICdodHRwOi8vanNvbi1zY2hlbWEub3JnL3NjaGVtYSMnLAogICAgICAgICAgICAndHlwZSc6ICdvYmplY3QnLAogICAgICAgICAgICAncHJvcGVydGllcyc6IHByb3BzfQoKCmRlZiBnZXRfZ2xvYmFsX29wdGlvbnMoY2FsbGJhY2tzKSAtPiBMaXN0W0RpY3RdOgogICAgaWYgaGFzYXR0cihjYWxsYmFja3MsICdnbG9iYWxfb3B0aW9ucycpOgogICAgICAgIHJldHVybiBjYWxsYmFja3MuZ2xvYmFsX29wdGlvbnMoKQogICAgZWxzZToKICAgICAgICByZXR1cm4gW10K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY2xpY2suZWNobyhhdXRvX2RlcGVuZHMpCg==</text>
+        <text encoding="base64">ZnJvbSB3ZXJremV1Zy5leGNlcHRpb25zIGltcG9ydCBCYWRSZXF1ZXN0Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY2xpY2suZWNobyhjb21wX3NldCkK</text>
+        <text encoding="base64">ZnJvbSAuLi5wbHVnaW5fb3B0aW9uc19jYWNoZSBpbXBvcnQgZ2V0X3BsdWdpbl9nbG9iYWxfb3B0aW9uc192YWx1ZXMK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGNsaWNrLmVjaG8oYy5hdXRvX2RlcGVuZHMpCiAgICAgICAgICAgICAgICBjbGljay5lY2hvKGMuYXV0b19kZXBlbmRzWzBdKQogICAgICAgICAgICAgICAgY2xpY2suZWNobyhjb21wb25lbnQuQ29tcG9uZW50KGMuYXV0b19kZXBlbmRzWzBdKSkKICAgICAgICAgICAgICAgIGNsaWNrLmVjaG8oc2V0KGNvbXBvbmVudC5Db21wb25lbnQoeCkgZm9yIHggaW4gYy5hdXRvX2RlcGVuZHMpKQo=</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gY2FsbGJhY2tzLmNvbmZpZ3VyYXRpb25fb3B0aW9ucygpCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY2xpY2suZWNobyhhdXRvX2RlcGVuZHMpCg==</text>
+        <text encoding="base64">ICAgIGVjaG8gIiAtPiBCQUNLRU5EICR7QkFDS0VORF9DT05UQUlORVJ9Igo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY2xpY2suZWNobyhjb21wX3NldCkK</text>
+        <text encoding="base64">ICAgICMgQkFDS0VORF9DT05UQUlORVI9JChkb2NrZXItY29tcG9zZSAke2RvY2tlcl9jb21wb3NlX2ZpbGVzfSBwcyAtcSBiYWNrZW5kKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY2xpY2suZWNobygpCg==</text>
+        <text encoding="base64">ICAgIEJBQ0tFTkRfQ09OVEFJTkVSPSdkaXNxX2JhY2tlbmRfMScK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY2xpY2suZWNobyhmJ0VDSE8ge3BhY2thZ2V9IHtjb21wb25lbnR9JykKICAgICAgICAgICAgY2xpY2suZWNobyhmJ0VDSE8ge3R5cGUocGFja2FnZSl9IHt0eXBlKGNvbXBvbmVudCl9JykKICAgICAgICAgICAgY2xpY2suZWNobyhmJ0VDSE8ge3BhY2thZ2UgPT0gY29tcG9uZW50fScpCiAgICAgICAgICAgIGNsaWNrLmVjaG8oZidFQ0hPIHtwYWNrYWdlLm5hbWUgPT0gY29tcG9uZW50Lm5hbWV9JykKICAgICAgICAgICAgY2xpY2suZWNobyhmJ0VDSE8ge3R5cGUocGFja2FnZSl9IHt0eXBlKGNvbXBvbmVudCl9JykK</text>
+        <text encoding="base64">ICAgIGVjaG8gIkJBQ0tFTkQgJEJBQ0tFTkRfQ09OVEFJTkVSIgo=</text>
       </register>
       <register name="w" type="4">
         <text />
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYgcGFja2FnZS5uYW1lID09IGNvbXBvbmVudC5uYW1lOgogICAgICAgICAgICAgICAgY2xpY2suZWNobyhmJ0VDSE8gZXF1YWxzJykKICAgICAgICAgICAgICAgIGluc3RhbGxfcGFjayA9IGNvbXBvbmVudC5wYWNrYWdlX25hbWUK</text>
+        <text encoding="base64">ICAgICMgVE9ETyEK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgIyBESVNRLTYxMzE6IGltcGxlbWVudCBwcm9wZXIgZml4Pwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
-        <text>48</text>
+        <text>144</text>
       </register>
     </registers>
   </component>
