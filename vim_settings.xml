@@ -83,9 +83,21 @@
         <mark key="^" line="20" column="3" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/plugins_controller.rb" timestamp="1611155815702" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/check_setup_service.rb" timestamp="1611214931736">
+        <mark key="'" line="206" column="66" />
+        <mark key="[" line="466" column="5" />
+        <mark key="]" line="466" column="5" />
+        <mark key="." line="460" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/plugins/disqover_plugin_spec.rb" timestamp="1611156372670">
         <mark key="]" line="65" column="0" />
         <mark key="." line="65" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/check_setup_service_spec.rb" timestamp="1611215064155">
+        <mark key="[" line="303" column="87" />
+        <mark key="]" line="297" column="18" />
+        <mark key="^" line="297" column="18" />
+        <mark key="." line="297" column="17" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/federation_subfacet_service_spec.rb" timestamp="1611065514968">
         <mark key="]" line="545" column="36" />
@@ -116,7 +128,7 @@
         <mark key="." line="111" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/plugin_repository.rb" timestamp="1611065750862" />
-      <file name="/Dummy.txt" timestamp="1611159412953">
+      <file name="/Dummy.txt" timestamp="1611215132147">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
@@ -166,7 +178,6 @@
       <jump line="192" column="67" filename="$USER_HOME$/Disqover/disqover-backend/app/services/check_setup_service.rb" />
       <jump line="1316" column="0" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/federation_instance_service_spec.rb" />
       <jump line="222" column="22" filename="$USER_HOME$/Disqover/disqover-backend/app/services/check_setup_service.rb" />
-      <jump line="206" column="6" filename="$USER_HOME$/Disqover/disqover-backend/app/services/check_setup_service.rb" />
       <jump line="0" column="0" filename="$USER_HOME$/Disqover/disqover-backend/spec/models/relation_type_spec.rb" />
       <jump line="47" column="0" filename="$USER_HOME$/Disqover/disqover-backend/app/repositories/dataset_repository.rb" />
       <jump line="53" column="0" filename="$USER_HOME$/Disqover/disqover-backend/app/repositories/dataset_repository.rb" />
@@ -179,12 +190,13 @@
       <jump line="0" column="0" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/check_setup_service_spec.rb" />
       <jump line="22" column="6" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/check_setup_service_spec.rb" />
       <jump line="2419" column="93" filename="$USER_HOME$/Disqover/disqover-backend/spec/services/federation_instance_service_spec.rb" />
+      <jump line="206" column="66" filename="$USER_HOME$/Disqover/disqover-backend/app/services/check_setup_service.rb" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">CiAgICAgICAgaXQgJ3JldHVybnMgdmlzaXQgb2YgdGhhdCBub2RlJyBkbwogICAgICAgICAgZXhwZWN0KHJlc3VsdCkudG8gYmVfYShBcnJheSkKICAgICAgICBlbmQK</text>
+        <text encoding="base64">ICBkZWYgc2VsZi50YXNrX2Jyb2tlcl9ob3N0CiAgICBFbnZTZXJ2aWNlLm5ldy5nZXQoJ1RBU0tfQlJPS0VSX0hPU1QnKSB8fCBFTlZbJ1RBU0tfQlJPS0VSX0hPU1QnXQogIGVuZAoKICBkZWYgc2VsZi50YXNrX2Jyb2tlcl9wb3J0CiAgICBFbnZTZXJ2aWNlLm5ldy5nZXQoJ1RBU0tfQlJPS0VSX1BPUlQnKSB8fCBFTlZbJ1RBU0tfQlJPS0VSX1BPUlRfSU5UJ10KICBlbmQK</text>
       </register>
       <register name="-" type="4">
         <text>d</text>
@@ -193,7 +205,7 @@
         <text>logging</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgZXhwZWN0KFBsdWdpbnNTZXJ2aWNlKS50byByZWNlaXZlKDpyZXF1ZXN0X2luc3RhbmNlcykud2l0aChlc3AucGx1Z2luX2lkLCBlc3AuYXJndW1lbnRzKS5hbmRfcmV0dXJuKHsK</text>
+        <text encoding="base64">ICBkZWYgc2VsZi50YXNrX2Jyb2tlcl9ob3N0CiAgICBFbnZTZXJ2aWNlLm5ldy5nZXQoJ1RBU0tfQlJPS0VSX0hPU1QnKSB8fCBFTlZbJ1RBU0tfQlJPS0VSX0hPU1QnXQogIGVuZAoKICBkZWYgc2VsZi50YXNrX2Jyb2tlcl9wb3J0CiAgICBFbnZTZXJ2aWNlLm5ldy5nZXQoJ1RBU0tfQlJPS0VSX1BPUlQnKSB8fCBFTlZbJ1RBU0tfQlJPS0VSX1BPUlRfSU5UJ10KICBlbmQK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CiAgICAgICAgaXQgJ3JldHVybnMgdmlzaXQgb2YgdGhhdCBub2RlJyBkbwogICAgICAgICAgZXhwZWN0KHJlc3VsdCkudG8gYmVfYShBcnJheSkKICAgICAgICBlbmQK</text>
