@@ -101,7 +101,16 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Disqover/disqover/services/eventhandler/Dockerfile" timestamp="1611228644691">
+      <file name="$USER_HOME$/Disqover/disqover-docker/docker-compose/docker-compose-base.yml" timestamp="1611232732853">
+        <mark key="[" line="38" column="0" />
+        <mark key="]" line="38" column="55" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-docker/docker-compose/docker-compose-healthcheck.yml" timestamp="1611232776256">
+        <mark key="[" line="7" column="41" />
+        <mark key="]" line="9" column="55" />
+        <mark key="." line="9" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover/services/eventhandler/Dockerfile" timestamp="1611231043159">
         <mark key="[" line="37" column="11" />
         <mark key="]" line="36" column="25" />
         <mark key="^" line="36" column="25" />
@@ -121,12 +130,6 @@
       <file name="$USER_HOME$/Disqover/disqover/libs/api_base/src/api_base/gunicorn_base.py" timestamp="1611228475537" />
       <file name="/Python Console" timestamp="1611153927074">
         <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover/services/disq_plugin/src/disq_plugin/api/common.py" timestamp="1611126980473">
-        <mark key="[" line="46" column="35" />
-        <mark key="]" line="33" column="43" />
-        <mark key="^" line="33" column="43" />
-        <mark key="." line="33" column="42" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover/services/disq_plugin/tests/disq_plugin/test_validation_spec.py" timestamp="1611154834426">
         <mark key="[" line="910" column="0" />
@@ -274,7 +277,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHdpdGggY29udGV4dCgnY3VzdG9tLXNlYXJjaCBwbHVnaW4nKTogCiAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgLSAiJHtQT1NUR1JFU19EQVRBX0RJUn06L3Zhci9saWIvcG9zdGdyZXNxbC9kYXRhIgo=</text>
       </register>
       <register name="-" type="4">
         <text>from unittest.mock import patch</text>
@@ -282,9 +285,8 @@
       <register name="/" type="4">
         <text>disqover-setup</text>
       </register>
-      <register name="0" type="4">
-        <text>{'instances': [['uri1', 1], ['uri2', 2]],
-                                'errors': []}</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgLSAiJHtQT1NUR1JFU19EQVRBX0RJUn06L3Zhci9saWIvcG9zdGdyZXNxbC9kYXRhIgo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIHdpdGggY29udGV4dCgnY3VzdG9tLXNlYXJjaCBwbHVnaW4nKTogCiAgICAgICAgCg==</text>
