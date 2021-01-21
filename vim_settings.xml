@@ -128,11 +128,11 @@
         <mark key="." line="7" column="21" />
         <mark key="^" line="7" column="22" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover/libs/api_base/src/api_base/task_helpers.py" timestamp="1611240973910">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="19" column="73" />
-        <mark key="^" line="19" column="73" />
-        <mark key="." line="19" column="72" />
+      <file name="$USER_HOME$/Disqover/disqover/libs/api_base/src/api_base/task_helpers.py" timestamp="1611244793923">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="0" column="14" />
+        <mark key="^" line="0" column="14" />
+        <mark key="." line="0" column="13" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-docker/environments/base_settings" timestamp="1611233587125">
         <mark key="[" line="56" column="0" />
@@ -151,19 +151,19 @@
         <mark key="^" line="36" column="25" />
         <mark key="." line="36" column="24" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover/libs/api_base/src/api_base/constants.py" timestamp="1611227707565">
+      <file name="$USER_HOME$/Disqover/disqover/libs/api_base/src/api_base/db_utils.py" timestamp="1611244702092" />
+      <file name="$USER_HOME$/Disqover/disqover/libs/api_base/src/api_base/constants.py" timestamp="1611244630437">
         <mark key="[" line="2" column="14" />
         <mark key="]" line="2" column="0" />
         <mark key="." line="2" column="0" />
         <mark key="^" line="2" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover/services/dice/src/dice/tasks.py" timestamp="1611239192607">
-        <mark key="[" line="40" column="0" />
-        <mark key="]" line="40" column="49" />
+      <file name="$USER_HOME$/Disqover/disqover/services/dice/src/dice/tasks.py" timestamp="1611244734036">
+        <mark key="[" line="12" column="0" />
+        <mark key="]" line="12" column="36" />
         <mark key="." line="40" column="34" />
         <mark key="^" line="40" column="35" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover/libs/api_base/src/api_base/gunicorn_base.py" timestamp="1611228475537" />
       <file name="$USER_HOME$/Disqover/disqover/services/healthcheck/src/healthcheck/tasks.py" timestamp="1611239235895">
         <mark key="[" line="6" column="23" />
         <mark key="]" line="0" column="9" />
@@ -274,12 +274,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text>class TaskWorkerConfig:
-    broker = {'host': 'task_broker', 'port': 6379}
-    worker_name = 'python-worker-dice'
-    queues = [
-        ['queue-metis']
-    ]</text>
+        <text encoding="base64">bG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCg==</text>
       </register>
       <register name="-" type="4">
         <text>l</text>
@@ -288,12 +283,7 @@
         <text>disqover-setup</text>
       </register>
       <register name="0" type="2">
-        <text>class TaskWorkerConfig:
-    broker = {'host': 'task_broker', 'port': 6379}
-    worker_name = 'python-worker-dice'
-    queues = [
-        ['queue-metis']
-    ]</text>
+        <text encoding="base64">bG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ZnJvbSBhcGlfYmFzZS50YXNrcyBpbXBvcnQgZGlza191c2FnZV9tb25pdG9yCg==</text>
