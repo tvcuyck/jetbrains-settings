@@ -23,11 +23,11 @@
         <entry>2450</entry>
         <entry>3322</entry>
         <entry>w</entry>
-        <entry>0</entry>
         <entry>373</entry>
         <entry>330</entry>
         <entry>339</entry>
         <entry>229</entry>
+        <entry>0</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -76,6 +76,7 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/solr_index_spec.rb" timestamp="1611323328637" />
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/check_setup_service.rb" timestamp="1611317443777">
         <mark key="[" line="486" column="42" />
         <mark key="]" line="492" column="0" />
@@ -90,11 +91,17 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/Dockerfile-base" timestamp="1611227780390">
         <mark key="[" line="26" column="51" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/plugins_service_spec.rb" timestamp="1611219068957">
-        <mark key="[" line="27" column="103" />
-        <mark key="]" line="28" column="0" />
-        <mark key="." line="28" column="0" />
-        <mark key="^" line="18" column="59" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/visitors/filter_solr_visitor.rb" timestamp="1611324146512">
+        <mark key="[" line="152" column="77" />
+        <mark key="]" line="152" column="79" />
+        <mark key="^" line="152" column="79" />
+        <mark key="." line="152" column="78" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/visitors/filter_solr_visitor_spec.rb" timestamp="1611324701490">
+        <mark key="[" line="126" column="63" />
+        <mark key="]" line="71" column="39" />
+        <mark key="." line="71" column="38" />
+        <mark key="^" line="71" column="39" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/env_service_spec.rb" timestamp="1611225152754">
         <mark key="[" line="106" column="112" />
@@ -102,7 +109,7 @@
         <mark key="^" line="106" column="128" />
         <mark key="." line="106" column="127" />
       </file>
-      <file name="/Ruby Console" timestamp="1611218816027">
+      <file name="/Ruby Console" timestamp="1611324242625">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/tasks/tasks.py" timestamp="1611231303551">
@@ -119,12 +126,6 @@
         <mark key="]" line="0" column="25" />
         <mark key="." line="0" column="25" />
       </file>
-      <file name="/fragment.rb" timestamp="1611218752462">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="^" line="0" column="0" />
-        <mark key="." line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/sample_id_controller.rb" timestamp="1611320892448">
         <mark key="[" line="35" column="29" />
         <mark key="]" line="35" column="7" />
@@ -135,12 +136,6 @@
         <mark key="]" line="17" column="0" />
         <mark key="^" line="17" column="0" />
         <mark key="." line="16" column="3" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/plugins_service.rb" timestamp="1611218874750">
-        <mark key="[" line="17" column="52" />
-        <mark key="]" line="17" column="51" />
-        <mark key="^" line="17" column="51" />
-        <mark key="." line="17" column="50" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/tasks_service.rb" timestamp="1611237213894" />
       <file name="$USER_HOME$/Disqover/disqover-backend/lib/tools/user_api_gateway_migrations.rb" timestamp="1611237220416">
@@ -194,8 +189,8 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="8">
-        <text encoding="base64">ZWN0aW9uCiAgICAgIAogICAgICAKICAgICAgCiAgICAgIA==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBsZXQoOnJlc3VsdCl7IGRlc2NyaWJlZF9jbGFzcy5uZXcoc29scl9pbmRleCwgY29tYmluZWRfc2VtYW50aWM6IHRydWUpLnZpc2l0KGZpbHRlcikgIH0K</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IA==</text>
@@ -204,7 +199,7 @@
         <text>logging</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOm9yZGVyX2J5ID0+IFtdLAo=</text>
+        <text encoding="base64">ICAgICAgICBsZXQoOnJlc3VsdCl7IGRlc2NyaWJlZF9jbGFzcy5uZXcoc29scl9pbmRleCwgY29tYmluZWRfc2VtYW50aWM6IHRydWUpLnZpc2l0KGZpbHRlcikgIH0K</text>
       </register>
       <register name="1" type="8">
         <text encoding="base64">ZWN0aW9uCiAgICAgIAogICAgICAKICAgICAgCiAgICAgIA==</text>
