@@ -88,11 +88,13 @@
         <mark key="." line="193" column="0" />
         <mark key="^" line="199" column="50" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/check_setup_service_spec.rb" timestamp="1611663708044">
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/check_setup_service_spec.rb" timestamp="1611667562822">
         <mark key="[" line="262" column="117" />
-        <mark key="]" line="150" column="0" />
-        <mark key="." line="150" column="0" />
+        <mark key="]" line="255" column="0" />
+        <mark key="." line="255" column="0" />
+        <mark key="^" line="255" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/Jenkinsfile" timestamp="1611668877592" />
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/spec_helper.rb" timestamp="1611659550298">
         <mark key="[" line="144" column="72" />
         <mark key="]" line="144" column="73" />
@@ -116,10 +118,19 @@
         <mark key="]" line="0" column="25" />
         <mark key="." line="0" column="25" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/permissions_service.rb" timestamp="1611669141819">
+        <mark key="[" line="229" column="0" />
+        <mark key="]" line="229" column="37" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/controllers/jobs_controller_spec.rb" timestamp="1611663556850">
         <mark key="[" line="4" column="43" />
         <mark key="]" line="4" column="0" />
         <mark key="." line="4" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/tasks_service.rb" timestamp="1611669334906">
+        <mark key="[" line="27" column="8" />
+        <mark key="]" line="27" column="37" />
+        <mark key="." line="27" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -168,7 +179,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">CiAgZGVzY3JpYmUgJy5saWNlbnNlX2FncmVlbWVudF9wcmVzZW50PycgZG8KICAgIGl0ICdyZXR1cm5zIHRydWUgaWYgdGhlcmUgaXMgYSBsaWNlbnNlX2FncmVlbWVudCcgZG8KICAgICAgTGljZW5zZUFncmVlbWVudC5tYW5hZ2VkKCd0ZXN0X3ByZXNlbmNlJywgJzEnKSBkbyB8bGF8CiAgICAgICAgZXhwZWN0KGRlc2NyaWJlZF9jbGFzcy5saWNlbnNlX2FncmVlbWVudF9wcmVzZW50PykudG8gYmVfdHJ1dGh5CiAgICAgIGVuZAoKICAgIGVuZAoKICAgIGl0ICdyZXR1cm5zIGZhbHNlIGlmIHRoZXJlIGlzIG5vIGdsb2JhbCBjb25maWcgcHJlc2VudCcgZG8KICAgICAgbGFfc3R1YiA9IExpY2Vuc2VBZ3JlZW1lbnQKICAgICAgYWxsb3cobGFfc3R1YikudG8gcmVjZWl2ZSg6Y291bnQpLmFuZF9yZXR1cm4gMAogICAgICBleHBlY3QoZGVzY3JpYmVkX2NsYXNzLmxpY2Vuc2VfYWdyZWVtZW50X3ByZXNlbnQ/KS50byBiZV9mYWxzZXkKICAgIGVuZAogIGVuZAo=</text>
+        <text encoding="base64">ICAgICAgICBhZGRfZnJvbV90aHJlYWQhKHJlcS5oZWFkZXJzKQo=</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IA==</text>
@@ -177,7 +188,7 @@
         <text>logging</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgYWxsb3coRXZlbnRzU2VydmljZSkudG8gcmVjZWl2ZSg6c2VuZF9ldmVudCkK</text>
+        <text encoding="base64">ICAgICAgICBhZGRfZnJvbV90aHJlYWQhKHJlcS5oZWFkZXJzKQo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">CiAgZGVzY3JpYmUgJy5saWNlbnNlX2FncmVlbWVudF9wcmVzZW50PycgZG8KICAgIGl0ICdyZXR1cm5zIHRydWUgaWYgdGhlcmUgaXMgYSBsaWNlbnNlX2FncmVlbWVudCcgZG8KICAgICAgTGljZW5zZUFncmVlbWVudC5tYW5hZ2VkKCd0ZXN0X3ByZXNlbmNlJywgJzEnKSBkbyB8bGF8CiAgICAgICAgZXhwZWN0KGRlc2NyaWJlZF9jbGFzcy5saWNlbnNlX2FncmVlbWVudF9wcmVzZW50PykudG8gYmVfdHJ1dGh5CiAgICAgIGVuZAoKICAgIGVuZAoKICAgIGl0ICdyZXR1cm5zIGZhbHNlIGlmIHRoZXJlIGlzIG5vIGdsb2JhbCBjb25maWcgcHJlc2VudCcgZG8KICAgICAgbGFfc3R1YiA9IExpY2Vuc2VBZ3JlZW1lbnQKICAgICAgYWxsb3cobGFfc3R1YikudG8gcmVjZWl2ZSg6Y291bnQpLmFuZF9yZXR1cm4gMAogICAgICBleHBlY3QoZGVzY3JpYmVkX2NsYXNzLmxpY2Vuc2VfYWdyZWVtZW50X3ByZXNlbnQ/KS50byBiZV9mYWxzZXkKICAgIGVuZAogIGVuZAo=</text>
