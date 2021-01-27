@@ -15,7 +15,6 @@
         <entry>566</entry>
         <entry>2450</entry>
         <entry>3322</entry>
-        <entry>w</entry>
         <entry>373</entry>
         <entry>330</entry>
         <entry>339</entry>
@@ -28,6 +27,7 @@
         <entry>253</entry>
         <entry>21</entry>
         <entry>69</entry>
+        <entry>w</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -146,11 +146,11 @@
         <mark key="." line="0" column="25" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/exposable.rb" timestamp="1611677700437" />
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/permissions_service.rb" timestamp="1611750602138">
-        <mark key="[" line="245" column="34" />
-        <mark key="]" line="285" column="11" />
-        <mark key="." line="285" column="10" />
-        <mark key="^" line="285" column="11" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/permissions_service.rb" timestamp="1611752301204">
+        <mark key="[" line="120" column="101" />
+        <mark key="]" line="117" column="39" />
+        <mark key="." line="117" column="38" />
+        <mark key="^" line="117" column="39" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/controllers/jobs_controller_spec.rb" timestamp="1611663556850">
         <mark key="[" line="4" column="43" />
@@ -163,11 +163,11 @@
         <mark key="." line="25" column="49" />
         <mark key="^" line="25" column="50" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/background_jobs/background_exporter.rb" timestamp="1611750534692">
-        <mark key="[" line="33" column="0" />
-        <mark key="]" line="36" column="44" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/background_jobs/background_exporter.rb" timestamp="1611752429409">
+        <mark key="[" line="31" column="0" />
+        <mark key="]" line="31" column="0" />
         <mark key="^" line="27" column="71" />
-        <mark key="." line="33" column="0" />
+        <mark key="." line="31" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -215,8 +215,8 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">IA==</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpbXVsYXRlX2dyb3VwczogZ2V0X3JlcXVlc3RfZ3JvdXBzLAo=</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IA==</text>
@@ -228,34 +228,34 @@
         <text encoding="base64">ICAjIGF0dHJfYWNjZXNzaWJsZSA6aWQsCiAgIyAgICAgICAgICAgICAgICAgOmNyZWF0ZWRfYnlfaWQsCiAgIyAgICAgICAgICAgICAgICAgOndvcmtlcl9jbGFzcywKICAjICAgICAgICAgICAgICAgICA6am9iX29wdGlvbnMsCiAgIyAgICAgICAgICAgICAgICAgOnN0YXR1cywKICAjICAgICAgICAgICAgICAgICA6am9iX2Vycm9ycwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHVzZXJfY2xhaW1zID0gCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpbXVsYXRlX2dyb3VwczogZ2V0X3JlcXVlc3RfZ3JvdXBzLAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CiAgICAjIGFkZCBoZWFkZXJzIGZvciB0aGVtaXMgY2FsbHMKICAgIFRocmVhZDo6Y3VycmVudFsnY29uc3VtZXJfdXNlcm5hbWUnXSA9IHVzZXIuZW1haWwKICAgIFRocmVhZDo6Y3VycmVudFsnY29uc3VtZXJfaWQnXSA9ICdkdW1teScK</text>
+        <text encoding="base64">ICAgIHVzZXJfY2xhaW1zID0gCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICBhdHRyX2FjY2Vzc2libGUgOmlkLAogICAgICAgICAgICAgICAgICA6Y3JlYXRlZF9ieV9pZCwK</text>
+        <text encoding="base64">CiAgICAjIGFkZCBoZWFkZXJzIGZvciB0aGVtaXMgY2FsbHMKICAgIFRocmVhZDo6Y3VycmVudFsnY29uc3VtZXJfdXNlcm5hbWUnXSA9IHVzZXIuZW1haWwKICAgIFRocmVhZDo6Y3VycmVudFsnY29uc3VtZXJfaWQnXSA9ICdkdW1teScK</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">ICBhdHRyX2FjY2Vzc2libGUgOmlkLAogICAgICAgICAgICAgICAgICA6Y3JlYXRlZF9ieV9pZCwK</text>
+      </register>
+      <register name="5" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgOndvcmtlcl9jbGFzcywKICAgICAgICAgICAgICAgICAgOmpvYl9vcHRpb25zLAogICAgICAgICAgICAgICAgICA6c3RhdHVzLAogICAgICAgICAgICAgICAgICA6am9iX2Vycm9ycwo=</text>
       </register>
-      <register name="5" type="8">
+      <register name="6" type="8">
         <text encoding="base64">IyAKIyAKIyAKIyAKIyAKIyA=</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgIHVzZXJfaW5mbyA9IEpzCg==</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAgICAgICAgICAgIAogICAgICAKICAgIGF1dGhfdG9rZW4gPSBpbnB1dF9hdXRoX3Rva2VuIHx8IGF1dGhfdG9rZW5fZnJvbV9oZWFkZXIK</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgIGlmIGF1dGhfdG9rZW4K</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgIyBUT0RPIGdldCBoZWFkZXIgRElTUS1BVFlUSE9SSUFMQUxLQQo=</text>
-      </register>
       <register name=":" type="4">
-        <text>69</text>
+        <text>w</text>
       </register>
     </registers>
   </component>
