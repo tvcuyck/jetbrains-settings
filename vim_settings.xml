@@ -76,26 +76,17 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/check_setup_service.rb" timestamp="1611765973108" />
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/jobs_service.rb" timestamp="1611833731603">
-        <mark key="[" line="59" column="1" />
-        <mark key="]" line="58" column="0" />
-        <mark key="." line="58" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/jobs_service.rb" timestamp="1611838065582">
+        <mark key="[" line="89" column="19" />
+        <mark key="]" line="66" column="9" />
+        <mark key="." line="66" column="8" />
+        <mark key="^" line="66" column="9" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/spec_helper.rb" timestamp="1611766413290">
         <mark key="[" line="153" column="87" />
         <mark key="]" line="153" column="53" />
         <mark key="^" line="153" column="53" />
         <mark key="." line="153" column="52" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/fixtures/rspec_pipeline/rspec_pipeline.yml" timestamp="1611736700176">
-        <mark key="[" line="4847" column="8" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/tasks/tasks.py" timestamp="1611744612793">
-        <mark key="[" line="43" column="39" />
-        <mark key="]" line="43" column="0" />
-        <mark key="." line="43" column="0" />
-        <mark key="^" line="43" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/export_controller.rb" timestamp="1611828730647">
         <mark key="[" line="9" column="11" />
@@ -115,11 +106,11 @@
         <mark key="^" line="33" column="0" />
         <mark key="." line="33" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1611834035897">
+      <file name="/Dummy.txt" timestamp="1611838120186">
         <mark key="i" line="0" column="25" />
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="25" />
-        <mark key="." line="0" column="25" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/config/routes.rb" timestamp="1611833041905">
         <mark key="[" line="126" column="0" />
@@ -127,14 +118,26 @@
         <mark key="." line="126" column="0" />
         <mark key="^" line="126" column="15" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/plugins_service.rb" timestamp="1611837555120">
+        <mark key="[" line="16" column="57" />
+        <mark key="]" line="27" column="15" />
+        <mark key="^" line="27" column="15" />
+        <mark key="." line="27" column="14" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/routing/disqover_routing_spec.rb" timestamp="1611836483360">
+        <mark key="]" line="71" column="5" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/models/background_jobs/background_exporter_spec.rb" timestamp="1611760497258">
         <mark key="." line="4" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/background_jobs/background_exporter.rb" timestamp="1611820534385">
         <mark key="^" line="6" column="53" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/jobs_service_spec.rb" timestamp="1611760362069">
-        <mark key="[" line="4" column="46" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/jobs_service_spec.rb" timestamp="1611836627754">
+        <mark key="[" line="62" column="38" />
+        <mark key="]" line="28" column="0" />
+        <mark key="^" line="28" column="0" />
+        <mark key="." line="28" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -184,7 +187,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text>DISQ-6181: Fix specs</text>
       </register>
       <register name="-" type="4">
         <text>|</text>
@@ -193,34 +196,34 @@
         <text>logging</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIGdldCAnL2pvYnMvOmlkJyA9PiAnam9icyNpbmRleCcK</text>
+        <text encoding="base64">CiAgICBjb250ZXh0ICJleHBvcnQiIGRvCiAgICAgIGl0ICJoYXMgZ2V0IiBkbwogICAgICAgIGV4cGVjdChnZXQoIi9hcGkvZXhwb3J0L2FzeW5jIikpLnRvIHJvdXRlX3RvKGNvbnRyb2xsZXI6ICdleHBvcnQnLCBhY3Rpb246ICdhc3luY19sZWdhY3knKQogICAgICBlbmQKICAgICAgCiAgICAgIGl0ICJoYXMgcG9zdCIgZG8KICAgICAgICBleHBlY3QocG9zdCgiL2FwaS9leHBvcnQvYXN5bmMiKSkudG8gcm91dGVfdG8oY29udHJvbGxlcjogJ2V4cG9ydCcsIGFjdGlvbjogJ2FzeW5jX2xlZ2FjeScpCiAgICAgIGVuZAogICAgZW5kCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text>DISQ-6181: Fix specs</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgXQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgXQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICB7Cg==</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgam9iczogWwo=</text>
+        <text encoding="base64">ICAgICAgICB7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGdldCAnL2pvYnMvOmlkJyA9PiAnam9icyNpbmRleCcK</text>
+        <text encoding="base64">ICAgICAgam9iczogWwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">CiAgZGVmIHNlbGYudGFza190b19sZWdhY3lfam9iKHRhc2spCg==</text>
+        <text encoding="base64">ICAgIGdldCAnL2pvYnMvOmlkJyA9PiAnam9icyNpbmRleCcK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CiAgICAjIGFkZCBoZWFkZXJzIGZvciB0aGVtaXMgY2FsbHMKICAgIFRocmVhZDo6Y3VycmVudFsnY29uc3VtZXJfdXNlcm5hbWUnXSA9IHVzZXIuZW1haWwKICAgIFRocmVhZDo6Y3VycmVudFsnY29uc3VtZXJfaWQnXSA9ICdkdW1teScK</text>
+        <text encoding="base64">CiAgZGVmIHNlbGYudGFza190b19sZWdhY3lfam9iKHRhc2spCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgYmVnaW4K</text>
+        <text encoding="base64">CiAgICAjIGFkZCBoZWFkZXJzIGZvciB0aGVtaXMgY2FsbHMKICAgIFRocmVhZDo6Y3VycmVudFsnY29uc3VtZXJfdXNlcm5hbWUnXSA9IHVzZXIuZW1haWwKICAgIFRocmVhZDo6Y3VycmVudFsnY29uc3VtZXJfaWQnXSA9ICdkdW1teScK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
