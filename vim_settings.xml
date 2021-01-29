@@ -94,16 +94,19 @@
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/update_alerts_service.rb" timestamp="1611844352677">
         <mark key="[" line="92" column="25" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/user.rb" timestamp="1611911818286">
+        <mark key="[" line="169" column="35" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/config/routes.rb" timestamp="1611833041905">
         <mark key="[" line="48" column="0" />
         <mark key="]" line="48" column="0" />
         <mark key="." line="48" column="0" />
         <mark key="^" line="48" column="15" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/permissions_service.rb" timestamp="1611844442952">
-        <mark key="]" line="274" column="39" />
-        <mark key="^" line="274" column="39" />
-        <mark key="." line="274" column="38" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/permissions_service.rb" timestamp="1611911922603">
+        <mark key="[" line="231" column="23" />
+        <mark key="]" line="232" column="0" />
+        <mark key="." line="232" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/export_controller.rb" timestamp="1611828730647">
         <mark key="[" line="9" column="11" />
@@ -178,7 +181,7 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICB7IG5hbWU6IGxpY2Vuc2VfYWdyZWVtZW50Lm5hbWUsCiAgICAgICAgICAgICAgICAgICB2ZXJzaW9uOmxpY2Vuc2VfYWdyZWVtZW50LnZlcnNpb24sCiAgICAgICAgICAgICAgICAgICBodG1sOiBsaWNlbnNlX2FncmVlbWVudC5odG1sLAogICAgICAgICAgICAgICAgICAgaXNfZm9yX3NpZ251cDogbGljZW5zZV9hZ3JlZW1lbnQuaXNfY29tbXVuaXR5PwogICAgICAgICAgICAgICAgIH0pCg==</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">IA==</text>
@@ -186,35 +189,35 @@
       <register name="/" type="4">
         <text>logging</text>
       </register>
-      <register name="0" type="4">
-        <text>'EVENT.INSTANCE.EXPORTS.STARTED'</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIHJlc3VsdCwgc3RhdHVzID0gaGFuZGxlX3RoZW1pc19lcnJvcnN7CiAgICAgIGRvX3JlcXVlc3QoJ3Bvc3QnLAogICAgICAgICAgICAgICAgICIvaW50ZXJuYWwvbWlncmF0ZV9saWNlbnNlIiwKICAgICAgICAgICAgICAgICB7IG5hbWU6IGxpY2Vuc2VfYWdyZWVtZW50Lm5hbWUsCiAgICAgICAgICAgICAgICAgICB2ZXJzaW9uOmxpY2Vuc2VfYWdyZWVtZW50LnZlcnNpb24sCiAgICAgICAgICAgICAgICAgICBodG1sOiBsaWNlbnNlX2FncmVlbWVudC5odG1sLAogICAgICAgICAgICAgICAgICAgaXNfZm9yX3NpZ251cDogbGljZW5zZV9hZ3JlZW1lbnQuaXNfY29tbXVuaXR5PwogICAgICAgICAgICAgICAgIH0pCiAgICB9CiAgICByZXR1cm4gcmVzdWx0Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICB7IG5hbWU6IGxpY2Vuc2VfYWdyZWVtZW50Lm5hbWUsCiAgICAgICAgICAgICAgICAgICB2ZXJzaW9uOmxpY2Vuc2VfYWdyZWVtZW50LnZlcnNpb24sCiAgICAgICAgICAgICAgICAgICBodG1sOiBsaWNlbnNlX2FncmVlbWVudC5odG1sLAogICAgICAgICAgICAgICAgICAgaXNfZm9yX3NpZ251cDogbGljZW5zZV9hZ3JlZW1lbnQuaXNfY29tbXVuaXR5PwogICAgICAgICAgICAgICAgIH0pCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CgpTWVNURU1fQUNDT1VOVCA9ICc6c3lzdGVtYWNjb3VudDonCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CkBzZW5kX3Rhc2tfZXZlbnRzKG9uX3N0YXJ0PSdFVkVOVC5JTlNUQU5DRS5FWFBPUlRTLlNUQVJURUQnLAogICAgICAgICAgICAgICAgICBvbl9zdWNjZXNzPSdFVkVOVC5JTlNUQU5DRS5FWFBPUlRTLkZJTklTSEVEJywKICAgICAgICAgICAgICAgICAgb25fZXJyb3I9J0VWRU5ULklOU1RBTkNFLkVYUE9SVFMuRkFJTEVEJykKZGVmIGV4cG9ydF9pbnN0YW5jZXMoKmFyZ3MsICoqa3dhcmdzKToKICAgIGVudiA9IG9zLmVudmlyb24uY29weSgpCgogICAgIyBwcmV2ZW50IERJU1FPVkVSIGZyb20gbG9nZ2luZyB0byBzdGRvdXQgZHVyaW5nIGV4ZWN1dGlvbiBvZiByYWtlIHRhc2tzIGluIHRoaXMgc2NyaXB0CiAgICBlbnZbIlJBSUxTX0RJU0FCTEVfTE9HX1RPX1NURE9VVCJdID0gIjEiCgogICAgcGFyYW1zX2ZpbGUsIHBhcmFtc19maWxlX3BhdGggPSB0ZW1wZmlsZS5ta3N0ZW1wKCkKICAgIHRyeToKICAgICAgICB3aXRoIG9zLmZkb3BlbihwYXJhbXNfZmlsZSwgJ3cnKSBhcyBmOgogICAgICAgICAgICBqc29uLmR1bXAoa3dhcmdzLCBmKQoKICAgICAgICBwcm9jZXNzID0gc3VicHJvY2Vzcy5ydW4oWydyYWtlJywgZidiYWNrZ3JvdW5kX2pvYnM6cnVuW3twYXJhbXNfZmlsZV9wYXRofV0nXSwgZW52PWVudiwgY2FwdHVyZV9vdXRwdXQ9VHJ1ZSkKICAgICAgICBpZiBwcm9jZXNzLnJldHVybmNvZGUgIT0gMDoKICAgICAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKGYiSW5zdGFuY2VzIGV4cG9ydCBGQUlMRUQ6IHtwcm9jZXNzfSIpCiAgICAgICAgcmV0dXJuIGpzb24ubG9hZHMocHJvY2Vzcy5zdGRvdXQuZGVjb2RlKCd1dGYtOCcpLnN0cmlwKCkpCiAgICBmaW5hbGx5OgogICAgICAgIG9zLnVubGluayhwYXJhbXNfZmlsZV9wYXRoKQo=</text>
+        <text encoding="base64">CgpTWVNURU1fQUNDT1VOVCA9ICc6c3lzdGVtYWNjb3VudDonCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgIyBFdmVudHNTZXJ2aWNlLnNlbmRfZXZlbnQoJ0VWRU5ULklOU1RBTkNFLkVYUE9SVFMuRkFJTEVEJywge2Vycm9yOiBleC5tZXNzYWdlfSkK</text>
+        <text encoding="base64">CkBzZW5kX3Rhc2tfZXZlbnRzKG9uX3N0YXJ0PSdFVkVOVC5JTlNUQU5DRS5FWFBPUlRTLlNUQVJURUQnLAogICAgICAgICAgICAgICAgICBvbl9zdWNjZXNzPSdFVkVOVC5JTlNUQU5DRS5FWFBPUlRTLkZJTklTSEVEJywKICAgICAgICAgICAgICAgICAgb25fZXJyb3I9J0VWRU5ULklOU1RBTkNFLkVYUE9SVFMuRkFJTEVEJykKZGVmIGV4cG9ydF9pbnN0YW5jZXMoKmFyZ3MsICoqa3dhcmdzKToKICAgIGVudiA9IG9zLmVudmlyb24uY29weSgpCgogICAgIyBwcmV2ZW50IERJU1FPVkVSIGZyb20gbG9nZ2luZyB0byBzdGRvdXQgZHVyaW5nIGV4ZWN1dGlvbiBvZiByYWtlIHRhc2tzIGluIHRoaXMgc2NyaXB0CiAgICBlbnZbIlJBSUxTX0RJU0FCTEVfTE9HX1RPX1NURE9VVCJdID0gIjEiCgogICAgcGFyYW1zX2ZpbGUsIHBhcmFtc19maWxlX3BhdGggPSB0ZW1wZmlsZS5ta3N0ZW1wKCkKICAgIHRyeToKICAgICAgICB3aXRoIG9zLmZkb3BlbihwYXJhbXNfZmlsZSwgJ3cnKSBhcyBmOgogICAgICAgICAgICBqc29uLmR1bXAoa3dhcmdzLCBmKQoKICAgICAgICBwcm9jZXNzID0gc3VicHJvY2Vzcy5ydW4oWydyYWtlJywgZidiYWNrZ3JvdW5kX2pvYnM6cnVuW3twYXJhbXNfZmlsZV9wYXRofV0nXSwgZW52PWVudiwgY2FwdHVyZV9vdXRwdXQ9VHJ1ZSkKICAgICAgICBpZiBwcm9jZXNzLnJldHVybmNvZGUgIT0gMDoKICAgICAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKGYiSW5zdGFuY2VzIGV4cG9ydCBGQUlMRUQ6IHtwcm9jZXNzfSIpCiAgICAgICAgcmV0dXJuIGpzb24ubG9hZHMocHJvY2Vzcy5zdGRvdXQuZGVjb2RlKCd1dGYtOCcpLnN0cmlwKCkpCiAgICBmaW5hbGx5OgogICAgICAgIG9zLnVubGluayhwYXJhbXNfZmlsZV9wYXRoKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgIyBFdmVudHNTZXJ2aWNlLnNlbmRfZXZlbnQoJ0VWRU5ULklOU1RBTkNFLkVYUE9SVFMuRklOSVNIRUQnLCBjb250ZXh0X2RhdGE9cmVzdWx0KQo=</text>
+        <text encoding="base64">ICAgICAgIyBFdmVudHNTZXJ2aWNlLnNlbmRfZXZlbnQoJ0VWRU5ULklOU1RBTkNFLkVYUE9SVFMuRkFJTEVEJywge2Vycm9yOiBleC5tZXNzYWdlfSkK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgIyBFdmVudHNTZXJ2aWNlLnNlbmRfZXZlbnQoJ0VWRU5ULklOU1RBTkNFLkVYUE9SVFMuU1RBUlRFRCcpCg==</text>
+        <text encoding="base64">ICAgICAgIyBFdmVudHNTZXJ2aWNlLnNlbmRfZXZlbnQoJ0VWRU5ULklOU1RBTkNFLkVYUE9SVFMuRklOSVNIRUQnLCBjb250ZXh0X2RhdGE9cmVzdWx0KQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">QHNlbmRfdGFza19ldmVudHMob25fc3RhcnQ9J0VWRU5ULklOU1RBTkNFLkVYUE9SVFMuU1RBUlRFRCcsCiAgICAgICAgICAgICAgICAgIG9uX3N1Y2Nlc3M9J0VWRU5ULklOU1RBTkNFLkVYUE9SVFMuRklOSVNIRUQnLAogICAgICAgICAgICAgICAgICBvbl9lcnJvcj0nRVZFTlQuSU5TVEFOQ0UuRVhQT1JUUy5GQUlMRUQnKQo=</text>
+        <text encoding="base64">ICAgICAgIyBFdmVudHNTZXJ2aWNlLnNlbmRfZXZlbnQoJ0VWRU5ULklOU1RBTkNFLkVYUE9SVFMuU1RBUlRFRCcpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgCg==</text>
+        <text encoding="base64">QHNlbmRfdGFza19ldmVudHMob25fc3RhcnQ9J0VWRU5ULklOU1RBTkNFLkVYUE9SVFMuU1RBUlRFRCcsCiAgICAgICAgICAgICAgICAgIG9uX3N1Y2Nlc3M9J0VWRU5ULklOU1RBTkNFLkVYUE9SVFMuRklOSVNIRUQnLAogICAgICAgICAgICAgICAgICBvbl9lcnJvcj0nRVZFTlQuSU5TVEFOQ0UuRVhQT1JUUy5GQUlMRUQnKQo=</text>
       </register>
       <register name="9" type="2">
-        <text>DISQ-5799: Fix specs</text>
+        <text encoding="base64">ICAgICAgCg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
