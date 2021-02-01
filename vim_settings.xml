@@ -112,10 +112,10 @@
         <mark key="[" line="0" column="3" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover/tools/carmen/setup.py" timestamp="1612189286684" />
-      <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/integration/scenarios/README.md" timestamp="1612192889050">
-        <mark key="[" line="3" column="0" />
-        <mark key="]" line="3" column="0" />
-        <mark key="." line="3" column="0" />
+      <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/integration/scenarios/README.md" timestamp="1612193828059">
+        <mark key="[" line="8" column="14" />
+        <mark key="]" line="9" column="0" />
+        <mark key="." line="9" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/healthcheck_test.py" timestamp="1612185770107">
         <mark key="[" line="21" column="0" />
@@ -123,8 +123,16 @@
         <mark key="." line="20" column="30" />
         <mark key="^" line="20" column="31" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/integration/scenarios/helpers.py" timestamp="1612180398016">
-        <mark key="[" line="16" column="64" />
+      <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/integration/scenarios/birds_collections/test_healthcheck.py" timestamp="1612194276319">
+        <mark key="[" line="10" column="39" />
+        <mark key="]" line="11" column="20" />
+        <mark key="." line="11" column="19" />
+        <mark key="^" line="11" column="20" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/src/disqover/application_info/api.py" timestamp="1612194401962">
+        <mark key="[" line="69" column="0" />
+        <mark key="]" line="69" column="0" />
+        <mark key="." line="69" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-docker/scripts/bootstrap_disqover_docker.sh" timestamp="1612189814484">
         <mark key="[" line="341" column="105" />
@@ -137,9 +145,9 @@
         <mark key="^" line="133" column="19" />
         <mark key="." line="133" column="18" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/src/disqover/tasks/models.py" timestamp="1612182485239">
-        <mark key="[" line="51" column="0" />
-        <mark key="]" line="56" column="25" />
+      <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/integration/scenarios/birds_collections/test_instance_export.py" timestamp="1612194249583">
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="9" column="61" />
       </file>
       <file name="/Python Console" timestamp="1612186495978">
         <mark key="[" line="0" column="0" />
@@ -153,12 +161,6 @@
         <mark key="^" line="27" column="24" />
         <mark key="." line="27" column="23" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/integration/scenarios/birds_collections/text_instance_export.py" timestamp="1612182721145">
-        <mark key="[" line="30" column="67" />
-        <mark key="]" line="53" column="65" />
-        <mark key="." line="53" column="64" />
-        <mark key="^" line="53" column="65" />
-      </file>
       <file name="$USER_HOME$/Disqover/disqover-docker/scripts/disqover_setup.sh" timestamp="1612189824419" />
       <file name="$USER_HOME$/Disqover/disqover/libs/disqover_api/src/disqover/managed_files/models.py" timestamp="1612186545632">
         <mark key="[" line="46" column="40" />
@@ -166,7 +168,7 @@
         <mark key="^" line="46" column="39" />
         <mark key="." line="46" column="38" />
       </file>
-      <file name="/Dummy.txt" timestamp="1612189854428">
+      <file name="/Dummy.txt" timestamp="1612193921695">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="8" />
         <mark key="." line="0" column="8" />
@@ -265,7 +267,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text>docker run -it --network disq_default --workdir /carmen -v /home/wiem/git/disqover-docker/data:/data 428025064471.dkr.ecr.us-east-1.amazonaws.com/ontoforce/carmen:dev run_api_lib_scenarios --user admin --api_scenarios_path &quot;/api_lib_scenarios&quot;</text>
+        <text encoding="base64">CgpjbGFzcyBTZWFyY2hQbHVnaW5JbmZvOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGpzb25fZGF0YTogSlNPTkRpY3QpOgogICAgICAgIHNlbGYubmFtZSA9IGpzb25fZGF0YS5nZXQoJ25hbWUnKQogICAgICAgIHNlbGYuZGVzY3JpcHRpb24gPSBqc29uX2RhdGEuZ2V0KCdkZXNjcmlwdGlvbicpCiAgICAgICAgc2VsZi5jb25maWcgPSBqc29uX2RhdGEuZ2V0KCdjb25maWcnKQogICAgICAgIHNlbGYudHlwZSA9IGpzb25fZGF0YS5nZXQoJ3R5cGUnKQogICAgICAgIHNlbGYudmlzaWJsZV9mb3JfZ3JvdXBzID0ganNvbl9kYXRhLmdldCgndmlzaWJsZV9mb3JfZ3JvdXBzJykK</text>
       </register>
       <register name="-" type="4">
         <text>)</text>
@@ -274,37 +276,37 @@
         <text encoding="base64">VGV4dCA=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgVGVzdEluc3RhbmNlQ29sbGVjdGlvbnM6Cg==</text>
+        <text encoding="base64">c3lzLnBhdGguYXBwZW5kKHN0cihQYXRoKF9fZmlsZV9fKS5hYnNvbHV0ZSgpLnBhcmVudC5wYXJlbnQpKQo=</text>
       </register>
       <register name="1" type="2">
-        <text>docker run -it --network disq_default --workdir /carmen -v /home/wiem/git/disqover-docker/data:/data 428025064471.dkr.ecr.us-east-1.amazonaws.com/ontoforce/carmen:dev run_api_lib_scenarios --user admin --api_scenarios_path &quot;/api_lib_scenarios&quot;</text>
+        <text encoding="base64">CgpjbGFzcyBTZWFyY2hQbHVnaW5JbmZvOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGpzb25fZGF0YTogSlNPTkRpY3QpOgogICAgICAgIHNlbGYubmFtZSA9IGpzb25fZGF0YS5nZXQoJ25hbWUnKQogICAgICAgIHNlbGYuZGVzY3JpcHRpb24gPSBqc29uX2RhdGEuZ2V0KCdkZXNjcmlwdGlvbicpCiAgICAgICAgc2VsZi5jb25maWcgPSBqc29uX2RhdGEuZ2V0KCdjb25maWcnKQogICAgICAgIHNlbGYudHlwZSA9IGpzb25fZGF0YS5nZXQoJ3R5cGUnKQogICAgICAgIHNlbGYudmlzaWJsZV9mb3JfZ3JvdXBzID0ganNvbl9kYXRhLmdldCgndmlzaWJsZV9mb3JfZ3JvdXBzJykK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">CmZyb20gc3FsYWxjaGVteSBpbXBvcnQgRW51bQo=</text>
+        <text encoding="base64">CgpjbGFzcyBTZWFyY2hQbHVnaW5JbmZvOgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGpzb25fZGF0YTogSlNPTkRpY3QpOgogICAgICAgIHNlbGYubmFtZSA9IGpzb25fZGF0YS5nZXQoJ25hbWUnKQogICAgICAgIHNlbGYuZGVzY3JpcHRpb24gPSBqc29uX2RhdGEuZ2V0KCdkZXNjcmlwdGlvbicpCiAgICAgICAgc2VsZi5jb25maWcgPSBqc29uX2RhdGEuZ2V0KCdjb25maWcnKQogICAgICAgIHNlbGYudHlwZSA9IGpzb25fZGF0YS5nZXQoJ3R5cGUnKQogICAgICAgIHNlbGYudmlzaWJsZV9mb3JfZ3JvdXBzID0ganNvbl9kYXRhLmdldCgndmlzaWJsZV9mb3JfZ3JvdXBzJykK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">fQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgImNyZWF0ZWRfYnlfc2NoZWR1bGUiOiBudWxsLAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAiZ3JhcGhfdXJpIjogIk5vbmUiLAogICAgICAgICAgICAgICAgICAgICJwYXJhbXMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICJkYXRhX2xvY2F0aW9uIjogImxvY2FsIiwKICAgICAgICAgICAgICAgICAgICAgICAgImV4cG9ydF90eXBlIjogImNzdiIsCiAgICAgICAgICAgICAgICAgICAgICAgICJmaWxlX25hbWUiOiAiYWEiLAogICAgICAgICAgICAgICAgICAgICAgICAiamYiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZmlsdGVycyI6IFsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJmaWx0ZXJzIjogWwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJkaXJlY3Rpb24iOiBudWxsLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJmYWNldCI6ICJ0eXBlIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAibGFiZWwiOiAiQmlyZCIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIm5vdCI6IGZhbHNlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJvcCI6ICJlcXVhbHMiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ2YWx1ZSI6ICJjZnY6aHR0cDovL2JpcmRzLmNvbS9zY2hlbWEvMjAxNy9DYW5vbmljYWxUeXBlL2JpcmQiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJvcCI6ICJ1bmlvbiIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgImlkcyI6IFsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJodHRwOi8vdGVzdC5jb20vb250b2xvZ2llcy9iaXJkL1p3YWx1dyIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIm9wIjogImluc3RhbmNlcyIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIm9wIjogImFuZCIKICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICAgInByb3BlcnRpZXMiOiBbCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaHR0cDovL25zLm9udG9mb3JjZS5jb20vMjAxMy9kaXNxb3ZlciNwcmVmZXJyZWRMYWJlbCIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZGF0YXNldCIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaHR0cDovL25zLm9udG9mb3JjZS5jb20vMjAxMy9kaXNxb3ZlciNhbHRlcm5hdGl2ZV91cmkiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImh0dHA6Ly9iaXJkcy5jb20vc2NoZW1hLzIwMTcvcHJvcGVydHkvYmlyZC9iZWsiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImh0dHA6Ly9iaXJkcy5jb20vc2NoZW1hLzIwMTcvcHJvcGVydHkvYmlyZC90eXBlU2VudCIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaHR0cDovL2JpcmRzLmNvbS9zY2hlbWEvMjAxNy9wcm9wZXJ0eS9iaXJkL2VhdHMiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImh0dHA6Ly9iaXJkcy5jb20vc2NoZW1hLzIwMTcvcHJvcGVydHkvYmlyZC9waG90byIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaHR0cDovL2JpcmRzLmNvbS9zY2hlbWEvMjAxNy9wcm9wZXJ0eS9iaXJkL3Bob3RvX3VybCIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaHR0cDovL2JpcmRzLmNvbS9zY2hlbWEvMjAxNy9wcm9wZXJ0eS9iaXJkL3NpemUiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImh0dHA6Ly9iaXJkcy5jb20vc2NoZW1hLzIwMTcvcHJvcGVydHkvYmlyZC9jYW5fbWF0ZSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaHR0cDovL2JpcmRzLmNvbS9zY2hlbWEvMjAxNy9wcm9wZXJ0eS9iaXJkL2NvdW50cnkiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImh0dHA6Ly9iaXJkcy5jb20vc2NoZW1hLzIwMTcvcHJvcGVydHkvYmlyZC9wcmVmZXJzX2VhdGluZyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaHR0cDovL2JpcmRzLmNvbS9zY2hlbWEvMjAxNy9wcm9wZXJ0eS9iaXJkL3BvcHVsYXRpb24iLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImh0dHA6Ly9iaXJkcy5jb20vc2NoZW1hLzIwMTcvcHJvcGVydHkvYmlyZC9zdGF0aWMiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImh0dHA6Ly9ucy5vbnRvZm9yY2UuY29tLzIwMTMvZGlzcW92ZXIjc3lub255bV9wcm9wIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJodHRwOi8vYmlyZHMuY29tL3NjaGVtYS8yMDE3L3Byb3BlcnR5L2JpcmQvdHlwZSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaHR0cDovL2JpcmRzLmNvbS9zY2hlbWEvMjAxNy9wcm9wZXJ0eS9iaXJkL2NvbG9yIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJodHRwOi8vYmlyZHMuY29tL3NjaGVtYS8yMDE3L3Byb3BlcnR5L2JpcmQvc29uZyIKICAgICAgICAgICAgICAgICAgICAgICAgXQogICAgICAgICAgICAgICAgICAgIA==</text>
+        <text encoding="base64">ZG9ja2VyIHJ1biAtaXQgLS1uZXR3b3JrIGRpc3FfZGVmYXVsdCAtLXdvcmtkaXIgL2Nhcm1lbiAtdiA8RElTUU9WRVItSU5TVEFMTEFUSU9OLVJPT1Q+L2RhdGE6L2RhdGEgLXYgPERJU1FPVkVSLVJFUE8tUk9PVD4vbGlicy9kaXNxb3Zlcl9hcGkvaW50ZWdyYXRpb24vc2NlbmFyaW9zOi9hcGlfbGliX3NjZW5hcmlvcyBjYXJtZW46bG9jYWwgcnVuX2FwaV9saWJfc2NlbmFyaW9zIGJpcmRzX2NvbGxlY3Rpb25zIC0tdXNlciBhZG1pbiAtLWFwaV9zY2VuYXJpb3NfcGF0aCAiL2FwaV9saWJfc2NlbmFyaW9zIiAtLWludGVybmFsX3RvX25ldHdvcmsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGNsYXNzIEV4cG9ydFR5cGUoRW51bSk6CiAgICAgICAgQ1NWID0gJ2NzdicKICAgICAgICBYTFNYID0gJ3hsc3gnCgo=</text>
+        <text>docker run -it --network disq_default --workdir /carmen -v /home/wiem/git/disqover-docker/data:/data 428025064471.dkr.ecr.us-east-1.amazonaws.com/ontoforce/carmen:dev run_api_lib_scenarios --user admin --api_scenarios_path &quot;/api_lib_scenarios&quot;</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBSVU5OSU5HID0gJ3N0YXJ0ZWQnCiAgICAgICAgRklOSVNIRUQgPSAnZmluaXNoZWQnCiAgICAgICAgRkFJTEVEID0gJ2ZhaWxlZCcK</text>
+        <text encoding="base64">CmZyb20gc3FsYWxjaGVteSBpbXBvcnQgRW51bQo=</text>
       </register>
       <register name="w" type="4">
         <text />
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CiAgICAgICAgZmlsZV9uYW1lID0gb3MucGF0aC5iYXNlbmFtZShmaWxlX2xvY2F0aW9uKQo=</text>
+        <text encoding="base64">fQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBiYWNrZW5kX2NvbnRhaW5lciA9ICdkaXNxX2JhY2tlbmRfMScKCiAgICAgICAgc2VsZi5hc3NlcnRFcXVhbChmaWxlX2xvY2F0aW9uLCAnbGFsYScpCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgImNyZWF0ZWRfYnlfc2NoZWR1bGUiOiBudWxsLAo=</text>
       </register>
       <register name=":" type="4">
         <text>72</text>
