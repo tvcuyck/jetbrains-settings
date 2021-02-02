@@ -131,10 +131,10 @@
         <mark key="." line="27" column="23" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover/services/themis/src/taas/views.py" timestamp="1612263587054" />
-      <file name="/Dummy.txt" timestamp="1612264209636">
+      <file name="/Dummy.txt" timestamp="1612264398362">
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="8" />
-        <mark key="." line="0" column="8" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover/tools/carmen/src/carmen/run_api_lib_scenarios.py" timestamp="1612191512139">
         <mark key="[" line="20" column="83" />
@@ -142,16 +142,10 @@
         <mark key="^" line="20" column="106" />
         <mark key="." line="20" column="105" />
       </file>
-      <file name="$USER_HOME$/Disqover/utilities/devops/ec2-creator/userdata/public-data-milestone-cloudinit.txt" timestamp="1612264019441">
-        <mark key="[" line="46" column="0" />
-        <mark key="]" line="46" column="57" />
-        <mark key="." line="46" column="56" />
-        <mark key="^" line="46" column="57" />
-      </file>
       <file name="$USER_HOME$/Disqover/utilities/devops/ec2-creator/userdata/test-pipelines-uatsso-cloudinit.txt" timestamp="1612264026978">
-        <mark key="[" line="77" column="0" />
-        <mark key="]" line="77" column="0" />
-        <mark key="." line="77" column="0" />
+        <mark key="[" line="75" column="0" />
+        <mark key="]" line="75" column="0" />
+        <mark key="." line="75" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-docker/scripts/update_disqover.sh" timestamp="1612189836504" />
       <file name="$USER_HOME$/Disqover/disqover/tools/carmen/src/carmen/disqover_api.py" timestamp="1612190788613">
@@ -234,7 +228,7 @@
         </keys>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgYWRkX3VzZXJfZGIgIm1pY2hhZWwudmFuaG91dHRlQG9udG9mb3JjZS5jb20iICcnCg==</text>
+        <text>DISQ-6111: No underscores in healthcheck variables</text>
       </register>
       <register name="-" type="4">
         <text>p</text>
@@ -246,34 +240,34 @@
         <text encoding="base64">ICAgICAgICAgYWRkX3VzZXJfZGIgIm1pY2hhZWwudmFuaG91dHRlQG9udG9mb3JjZS5jb20iICcnCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgYWRkX3VzZXJfZGIgIm1pY2hhZWwudmFuaG91dHRlQG9udG9mb3JjZS5jb20iICcnCg==</text>
+        <text>DISQ-6111: No underscores in healthcheck variables</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgYWRkX3VzZXJfZGIgInR3aW5rZWwudmFuaW1wZUBvbnRvZm9yY2UuY29tIiAnJwo=</text>
+        <text encoding="base64">ICAgICAgICAgYWRkX3VzZXJfZGIgIm1pY2hhZWwudmFuaG91dHRlQG9udG9mb3JjZS5jb20iICcnCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgYWRkX3VzZXJfZGIgInBhdWwudmF1dGVyaW5Ab250b2ZvcmNlLmNvbSIgJyQyYSQxMCRKUWVSNm15dC9WeTA5d2VBZlYuUFguN1ZGNDhhUURhWlk4Z0dXcFRBamNrcUpTckZ5OUppdScK</text>
+        <text encoding="base64">ICAgICAgICAgYWRkX3VzZXJfZGIgInR3aW5rZWwudmFuaW1wZUBvbnRvZm9yY2UuY29tIiAnJwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgYWRkX3VzZXJfZGIgImJlcnQuZGVrbmlqZkBvbnRvZm9yY2UuY29tIiAnJDJhJDEwJDBMY1pGUzdOY29IUnhJbGdLbTVtL3U1ZlYvb0NJWmRFVXNLWi80SGIySFdIOEVtTGhLclhDJwo=</text>
+        <text encoding="base64">ICAgICAgICAgYWRkX3VzZXJfZGIgInBhdWwudmF1dGVyaW5Ab250b2ZvcmNlLmNvbSIgJyQyYSQxMCRKUWVSNm15dC9WeTA5d2VBZlYuUFguN1ZGNDhhUURhWlk4Z0dXcFRBamNrcUpTckZ5OUppdScK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAtIHN1ZG8gZG9ja2VyIGV4ZWMgLWkgLXUgMTAwMSBkaXNxb3Zlcl9wb3N0Z3Jlc18xIHBzcWwgLVUgcHJvZHVjdGlvbiBwcm9kdWN0aW9uIC1jICJJTlNFUlQgSU5UTyBsaWNlbnNlX2FncmVlbWVudHMgKGlkLG5hbWUsdmVyc2lvbixodG1sLG5yX2FjdGlvbnMpIFZBTFVFUyAoNSwnRVVMQV9Db21tdW5pdHknLDEsJ2NvbW11bml0eSBsaWNlbnNlIGFncmVlbWVudCcsOTkpOyIK</text>
+        <text encoding="base64">ICAgICAgICAgYWRkX3VzZXJfZGIgImJlcnQuZGVrbmlqZkBvbnRvZm9yY2UuY29tIiAnJDJhJDEwJDBMY1pGUzdOY29IUnhJbGdLbTVtL3U1ZlYvb0NJWmRFVXNLWi80SGIySFdIOEVtTGhLclhDJwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgYWRkX3VzZXJfZGIgIndpZXRzZS5qYWNvYnNAb250b2ZvcmNlLmNvbSIgJyQyYSQxMCRua1pBajRiTTBLRS5vWnBKMjVuZGVlNHRSaS53Vjh4RnNyVGtYRUo5a1ZBWjJvbHUyb25EUycK</text>
+        <text encoding="base64">ICAtIHN1ZG8gZG9ja2VyIGV4ZWMgLWkgLXUgMTAwMSBkaXNxb3Zlcl9wb3N0Z3Jlc18xIHBzcWwgLVUgcHJvZHVjdGlvbiBwcm9kdWN0aW9uIC1jICJJTlNFUlQgSU5UTyBsaWNlbnNlX2FncmVlbWVudHMgKGlkLG5hbWUsdmVyc2lvbixodG1sLG5yX2FjdGlvbnMpIFZBTFVFUyAoNSwnRVVMQV9Db21tdW5pdHknLDEsJ2NvbW11bml0eSBsaWNlbnNlIGFncmVlbWVudCcsOTkpOyIK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgYWRkX3VzZXJfZGIgInBldGVyLnZlcnJ5a3RAb250b2ZvcmNlLmNvbSIgJyQyYSQxMCRua1pBajRiTTBLRS5vWnBKMjVuZGVlNHRSaS53Vjh4RnNyVGtYRUo5a1ZBWjJvbHUyb25EUycK</text>
+        <text encoding="base64">ICAgICAgICAgYWRkX3VzZXJfZGIgIndpZXRzZS5qYWNvYnNAb250b2ZvcmNlLmNvbSIgJyQyYSQxMCRua1pBajRiTTBLRS5vWnBKMjVuZGVlNHRSaS53Vjh4RnNyVGtYRUo5a1ZBWjJvbHUyb25EUycK</text>
       </register>
       <register name="w" type="4">
         <text />
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgYWRkX3VzZXJfZGIgIm1hcml0Lm92ZXJiZWVrZUBvbnRvZm9yY2UuY29tIiAnJDJhJDEwJG5rWkFqNGJNMEtFLm9acEoyNW5kZWU0dFJpLndWOHhGc3JUa1hFSjlrVkFaMm9sdTJvbkRTJwo=</text>
+        <text encoding="base64">ICAgICAgICAgYWRkX3VzZXJfZGIgInBldGVyLnZlcnJ5a3RAb250b2ZvcmNlLmNvbSIgJyQyYSQxMCRua1pBajRiTTBLRS5vWnBKMjVuZGVlNHRSaS53Vjh4RnNyVGtYRUo5a1ZBWjJvbHUyb25EUycK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgYWRkX3VzZXJfZGIgImNocmlzLmZpZHlrQG9udG9mb3JjZS5jb20iICckMmEkMTAkbmtaQWo0Yk0wS0Uub1pwSjI1bmRlZTR0Umkud1Y4eEZzclRrWEVKOWtWQVoyb2x1Mm9uRFMnCg==</text>
+        <text encoding="base64">ICAgICAgICAgYWRkX3VzZXJfZGIgIm1hcml0Lm92ZXJiZWVrZUBvbnRvZm9yY2UuY29tIiAnJDJhJDEwJG5rWkFqNGJNMEtFLm9acEoyNW5kZWU0dFJpLndWOHhGc3JUa1hFSjlrVkFaMm9sdTJvbkRTJwo=</text>
       </register>
       <register name=":" type="4">
         <text>72</text>
