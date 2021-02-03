@@ -25,7 +25,7 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1612351629412">
+      <file name="/Dummy.txt" timestamp="1612366762175">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/fragment.rb" timestamp="1612363250029">
@@ -40,25 +40,14 @@
         <mark key="^" line="223" column="0" />
         <mark key="." line="223" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/candidate_histogram_facet_repository.rb" timestamp="1612364049712">
-        <mark key="[" line="213" column="0" />
-        <mark key="]" line="213" column="57" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/candidate_histogram_facet_repository.rb" timestamp="1612365603138">
+        <mark key="[" line="252" column="6" />
+        <mark key="]" line="252" column="44" />
         <mark key="^" line="33" column="40" />
         <mark key="." line="29" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/db/solr/schema.xml" timestamp="1612353028529" />
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_candidate_facet_repository.rb" timestamp="1612364117164">
-        <mark key="[" line="52" column="53" />
-        <mark key="]" line="52" column="25" />
-        <mark key="." line="52" column="24" />
-        <mark key="^" line="52" column="25" />
-      </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/solr_candidate_facet_repository_spec.rb" timestamp="1612364647320">
-        <mark key="[" line="1553" column="11" />
-        <mark key="]" line="1553" column="13" />
-        <mark key="." line="1553" column="12" />
-        <mark key="^" line="1553" column="13" />
-      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/solr_candidate_facet_repository.rb" timestamp="1612366362767" />
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/solr_query_executor.rb" timestamp="1612362803093">
         <mark key="[" line="32" column="67" />
         <mark key="]" line="31" column="51" />
@@ -66,10 +55,19 @@
         <mark key="." line="31" column="50" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/controllers/application_controller.rb" timestamp="1612364196166" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/events_service.rb" timestamp="1612366798906">
+        <mark key="[" line="14" column="20" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/solr_index.rb" timestamp="1612360867726">
         <mark key="[" line="21" column="0" />
         <mark key="]" line="21" column="0" />
         <mark key="." line="21" column="0" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/services/tasks_service.rb" timestamp="1612366835532">
+        <mark key="[" line="10" column="25" />
+        <mark key="]" line="18" column="0" />
+        <mark key="^" line="18" column="0" />
+        <mark key="." line="18" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/.docker/ci/data/reports/SPEC-CandidateHistogramFacetRepository-specs-for-inconsistent-histogram-length.xml" timestamp="1612351892445">
         <mark key="[" line="0" column="0" />
@@ -83,15 +81,8 @@
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/candidate_histogram_facet_repository_spec.rb" timestamp="1612363084817">
         <mark key="[" line="24" column="45" />
-        <mark key="]" line="33" column="7" />
-        <mark key="^" line="33" column="7" />
-        <mark key="." line="33" column="6" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/config/database.yml" timestamp="1612356383892">
-        <mark key="[" line="74" column="52" />
-        <mark key="]" line="78" column="13" />
-        <mark key="." line="71" column="0" />
-      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/config/database.yml" timestamp="1612356383892" />
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/managed_files_service.rb" timestamp="1612351515534">
         <mark key="[" line="172" column="40" />
         <mark key="]" line="154" column="49" />
@@ -104,40 +95,40 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgIGV4cGVjdChyZXN1bHQuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5maXJzdC5sb3dlcikudG8gZXEgMTAwCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZmFjZXRzID0gW1N0dWI6OkZhY2V0LnJ1bnRpbWUsIFN0dWI6OkZhY2V0LnJhdGluZ10K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZXhwZWN0KHJlc3VsdC5oaXN0b2dyYW1fc3RhdHMpLnRvIGJlX2EgQ2FuZGlkYXRlRmFjZXQ6Okhpc3RvZ3JhbUZhY2V0U3RhdHMK</text>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgIGV4cGVjdChyZXN1bHQuY2FuZGlkYXRlX2ZhY2V0X3ZhbHVlcy5maXJzdC5sb3dlcikudG8gZXEgMTAwCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZXhwZWN0KHJlc3VsdC5oaXN0b2dyYW1fc3RhdHMpLnRvIGJlX2EgQ2FuZGlkYXRlRmFjZXQ6Okhpc3RvZ3JhbUZhY2V0U3RhdHMK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICMgc29scl9uYW1lID0gJ3J1bnRpbWVfcScK</text>
+        <text encoding="base64">ICAgICAgICAgICAgZmFjZXRzID0gW1N0dWI6OkZhY2V0LnJ1bnRpbWUsIFN0dWI6OkZhY2V0LnJhdGluZ10K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgIyBsZXQoOnNvbHJfaW5kZXgpIHsgU29sckluZGV4Lm5ldyhsb2NhdGlvbjogU3R1Yjo6U29sckluZGV4LmVtcHR5X2NvcmVfbG9jYXRpb24pIH0KICAgICAgIyBsZXQoOm9wdGlvbnMpIHsge3NvbHJfaW5kZXg6IHNvbHJfaW5kZXh9IH0KICAgICAgIyBsZXQoOnN1YmplY3QpIHsgZGVzY3JpYmVkX2NsYXNzLm5ldyhvcHRpb25zKSB9Cgo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgZmFjZXRzID0gW1N0dWI6OkZhY2V0LnJ1bnRpbWVdCg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgInEiID0+ICJydW50aW1lX3E6WyogVE8gKl0iLAo=</text>
+        <text encoding="base64">ICAgICAgICAgIHJlc3VsdCA9IHN1YmplY3QuY2FuZGlkYXRlX2ZhY2V0cyhbU3R1Yjo6RmFjZXQucnVudGltZSoyXSxGaWx0ZXIuYWxsLG5pbCxmX29wdGlvbnMpLnNpbmdsZQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAjIGFsbG93X2FueV9pbnN0YW5jZV9vZihkZXNjcmliZWRfY2xhc3MpLnRvIHJlY2VpdmUoOnBlcmZvcm1fc3RhdHNfcXVlcnkpLmFuZF9yZXR1cm4oQ2FuZGlkYXRlRmFjZXQ6Okhpc3RvZ3JhbUZhY2V0U3RhdHMubmV3KGNvdW50OiAwKSkK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAjCg==</text>
+        <text encoding="base64">ICAgICMgc29scl9uYW1lID0gJ3J1bnRpbWVfcScK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAjIFN0dWIgdGhlIHN0YXRzIHF1ZXJ5IGFuZCByZXR1cm4gbWluLG1heCxjb3VudCAwLDAsMAo=</text>
+        <text encoding="base64">ICAgICAgIyBsZXQoOnNvbHJfaW5kZXgpIHsgU29sckluZGV4Lm5ldyhsb2NhdGlvbjogU3R1Yjo6U29sckluZGV4LmVtcHR5X2NvcmVfbG9jYXRpb24pIH0KICAgICAgIyBsZXQoOm9wdGlvbnMpIHsge3NvbHJfaW5kZXg6IHNvbHJfaW5kZXh9IH0KICAgICAgIyBsZXQoOnN1YmplY3QpIHsgZGVzY3JpYmVkX2NsYXNzLm5ldyhvcHRpb25zKSB9Cgo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CiAgICBkZWYgc2VsZi5lbXB0eV9jb3JlX2xvY2F0aW9uCiAgICAgIFJhaWxzLmNvbmZpZ3VyYXRpb24uZGF0YWJhc2VfY29uZmlndXJhdGlvblsnc29scl9lbXB0eSddW1JhaWxzLmVudl1bJ2xvY2F0aW9uJ10KICAgIGVuZAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgInEiID0+ICJydW50aW1lX3E6WyogVE8gKl0iLAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgbGV0KDpzb2xyX2luZGV4KSB7IENvbGxlY3Rpb25TZXJ2aWNlLmluc3RhbmNlLnNvbHJfaW5kZXggfQo=</text>
+        <text encoding="base64">ICAgICAgICAjIGFsbG93X2FueV9pbnN0YW5jZV9vZihkZXNjcmliZWRfY2xhc3MpLnRvIHJlY2VpdmUoOnBlcmZvcm1fc3RhdHNfcXVlcnkpLmFuZF9yZXR1cm4oQ2FuZGlkYXRlRmFjZXQ6Okhpc3RvZ3JhbUZhY2V0U3RhdHMubmV3KGNvdW50OiAwKSkK</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IFZpc2l0b3Iuc29scl9wYXJhbWV0ZXJzX2Zvcl9maWx0ZXIocmFuZ2VfZmlsdGVyKGZhY2V0LCBmcm9tLCB0byksIHNvbHJfaW5kZXg6IHNvbHJfaW5kZXgpLmZxLmZpcnN0LA==</text>
+        <text>[Stub::Facet.runtime]</text>
       </register>
     </registers>
   </component>
