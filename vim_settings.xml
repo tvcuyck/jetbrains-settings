@@ -11,11 +11,14 @@
   </component>
   <component name="VimKeySettings">
     <shortcut-conflicts>
-      <shortcut-conflict owner="vim">
+      <shortcut-conflict owner="ide">
         <text>ctrl pressed F</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed R</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
@@ -25,10 +28,12 @@
       <file name="/Dummy.txt" timestamp="1612351629412">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/fragment.rb" timestamp="1612355944627">
-        <mark key="[" line="0" column="0" />
+      <file name="/fragment.rb" timestamp="1612357977065">
+        <mark key="[" line="0" column="98" />
+        <mark key="]" line="0" column="98" />
+        <mark key="." line="0" column="98" />
       </file>
-      <file name="/Ruby Console" timestamp="1612355922174">
+      <file name="/Ruby Console" timestamp="1612357958650">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/managed_files_service_spec.rb" timestamp="1612351874609">
@@ -37,11 +42,11 @@
         <mark key="^" line="223" column="0" />
         <mark key="." line="223" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/candidate_histogram_facet_repository.rb" timestamp="1612356598031">
-        <mark key="[" line="28" column="38" />
-        <mark key="]" line="2" column="25" />
-        <mark key="^" line="2" column="25" />
-        <mark key="." line="2" column="24" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/candidate_histogram_facet_repository.rb" timestamp="1612358144742">
+        <mark key="[" line="29" column="27" />
+        <mark key="]" line="35" column="120" />
+        <mark key="^" line="126" column="21" />
+        <mark key="." line="35" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/db/solr/schema.xml" timestamp="1612353028529" />
       <file name="$USER_HOME$/Disqover/disqover-backend/app/models/solr_query_executor.rb" timestamp="1612355705873">
@@ -66,7 +71,7 @@
         <mark key="[" line="410" column="0" />
         <mark key="]" line="410" column="89" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/candidate_histogram_facet_repository_spec.rb" timestamp="1612356322296">
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/candidate_histogram_facet_repository_spec.rb" timestamp="1612357692196">
         <mark key="[" line="25" column="89" />
         <mark key="]" line="25" column="69" />
         <mark key="^" line="25" column="69" />
@@ -89,16 +94,19 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="0" type="2">
-        <text encoding="base64">CnNvbHJfcmVtb3RlOgogIGJhc2U6ICZzb2xyCiAgICBsb2NhdGlvbjogaHR0cDovL2xvY2FsaG9zdDo4OTg2L3NvbHIvY29yZV9zZXJ2ZXIKICAgIDw8OiAqc29scgoKICB0ZXN0OgogICAgPDw6ICpzb2xyCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyAicSIgPT4gVmlzaXRvci5zb2xyX3BhcmFtZXRlcnNfZm9yX2ZpbHRlcihyYW5nZV9maWx0ZXIoZmFjZXQsIGZyb20sIHRvKSwgc29scl9pbmRleDogc29scl9pbmRleCkuZnEuZmlyc3QsCg==</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgbGV0KDpzb2xyX2luZGV4KSB7IENvbGxlY3Rpb25TZXJ2aWNlLmluc3RhbmNlLnNvbHJfaW5kZXggfQo=</text>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">CnNvbHJfcmVtb3RlOgogIGJhc2U6ICZzb2xyCiAgICBsb2NhdGlvbjogaHR0cDovL2xvY2FsaG9zdDo4OTg2L3NvbHIvY29yZV9zZXJ2ZXIKICAgIDw8OiAqc29scgoKICB0ZXN0OgogICAgPDw6ICpzb2xyCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgIyAicSIgPT4gVmlzaXRvci5zb2xyX3BhcmFtZXRlcnNfZm9yX2ZpbHRlcihyYW5nZV9maWx0ZXIoZmFjZXQsIGZyb20sIHRvKSwgc29scl9pbmRleDogc29scl9pbmRleCkuZnEuZmlyc3QsCg==</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">ICAgICAgbGV0KHN1YmplY3QpIHsgZGVzY3IK</text>
+      </register>
+      <register name="-" type="4">
+        <text encoding="base64">IFZpc2l0b3Iuc29scl9wYXJhbWV0ZXJzX2Zvcl9maWx0ZXIocmFuZ2VfZmlsdGVyKGZhY2V0LCBmcm9tLCB0byksIHNvbHJfaW5kZXg6IHNvbHJfaW5kZXgpLmZxLmZpcnN0LA==</text>
       </register>
     </registers>
   </component>
