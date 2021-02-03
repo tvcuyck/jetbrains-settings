@@ -14,6 +14,9 @@
       <shortcut-conflict owner="vim">
         <text>ctrl pressed F</text>
       </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
     </shortcut-conflicts>
   </component>
   <component name="VimMarksSettings">
@@ -22,16 +25,10 @@
       <file name="/Dummy.txt" timestamp="1612351629412">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/solr_query_executor.rb" timestamp="1612353670404">
-        <mark key="[" line="39" column="50" />
-        <mark key="]" line="39" column="70" />
-        <mark key="^" line="39" column="70" />
-        <mark key="." line="39" column="69" />
-      </file>
-      <file name="/fragment.rb" timestamp="1612353637096">
+      <file name="/fragment.rb" timestamp="1612355944627">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/Ruby Console" timestamp="1612353604030">
+      <file name="/Ruby Console" timestamp="1612355922174">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/spec/services/managed_files_service_spec.rb" timestamp="1612351874609">
@@ -40,19 +37,46 @@
         <mark key="^" line="223" column="0" />
         <mark key="." line="223" column="0" />
       </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/candidate_histogram_facet_repository.rb" timestamp="1612356598031">
+        <mark key="[" line="28" column="38" />
+        <mark key="]" line="2" column="25" />
+        <mark key="^" line="2" column="25" />
+        <mark key="." line="2" column="24" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/db/solr/schema.xml" timestamp="1612353028529" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/app/models/solr_query_executor.rb" timestamp="1612355705873">
+        <mark key="[" line="39" column="15" />
+        <mark key="]" line="39" column="4" />
+        <mark key="^" line="39" column="4" />
+        <mark key="." line="39" column="3" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/factories/solr_index.rb" timestamp="1612356343610">
+        <mark key="[" line="22" column="34" />
+        <mark key="]" line="22" column="4" />
+        <mark key="." line="22" column="3" />
+        <mark key="^" line="22" column="4" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/.docker/ci/data/reports/SPEC-CandidateHistogramFacetRepository-specs-for-inconsistent-histogram-length.xml" timestamp="1612351892445">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="^" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/app/repositories/candidate_histogram_facet_repository.rb" timestamp="1612353041077">
-        <mark key="[" line="54" column="58" />
-        <mark key="]" line="54" column="53" />
-        <mark key="^" line="54" column="53" />
-        <mark key="." line="54" column="52" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/lens_repository_spec.rb" timestamp="1612356305932">
+        <mark key="[" line="410" column="0" />
+        <mark key="]" line="410" column="89" />
       </file>
-      <file name="$USER_HOME$/Disqover/disqover-backend/db/solr/schema.xml" timestamp="1612353028529" />
+      <file name="$USER_HOME$/Disqover/disqover-backend/spec/repositories/candidate_histogram_facet_repository_spec.rb" timestamp="1612356322296">
+        <mark key="[" line="25" column="89" />
+        <mark key="]" line="25" column="69" />
+        <mark key="^" line="25" column="69" />
+        <mark key="." line="25" column="68" />
+      </file>
+      <file name="$USER_HOME$/Disqover/disqover-backend/.docker/test/config/database.yml" timestamp="1612356383892">
+        <mark key="[" line="74" column="52" />
+        <mark key="]" line="78" column="13" />
+        <mark key="." line="71" column="0" />
+      </file>
       <file name="$USER_HOME$/Disqover/disqover-backend/app/services/managed_files_service.rb" timestamp="1612351515534">
         <mark key="[" line="172" column="40" />
         <mark key="]" line="154" column="49" />
@@ -63,7 +87,20 @@
     <jumps />
   </component>
   <component name="VimRegisterSettings">
-    <registers />
+    <registers>
+      <register name="0" type="2">
+        <text encoding="base64">CnNvbHJfcmVtb3RlOgogIGJhc2U6ICZzb2xyCiAgICBsb2NhdGlvbjogaHR0cDovL2xvY2FsaG9zdDo4OTg2L3NvbHIvY29yZV9zZXJ2ZXIKICAgIDw8OiAqc29scgoKICB0ZXN0OgogICAgPDw6ICpzb2xyCg==</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgbGV0KDpzb2xyX2luZGV4KSB7IENvbGxlY3Rpb25TZXJ2aWNlLmluc3RhbmNlLnNvbHJfaW5kZXggfQo=</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text encoding="base64">CnNvbHJfcmVtb3RlOgogIGJhc2U6ICZzb2xyCiAgICBsb2NhdGlvbjogaHR0cDovL2xvY2FsaG9zdDo4OTg2L3NvbHIvY29yZV9zZXJ2ZXIKICAgIDw8OiAqc29scgoKICB0ZXN0OgogICAgPDw6ICpzb2xyCg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgbGV0KHN1YmplY3QpIHsgZGVzY3IK</text>
+      </register>
+    </registers>
   </component>
   <component name="VimSearchSettings">
     <search>
